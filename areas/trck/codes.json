@@ -1,0 +1,7 @@
+{
+ "AmountConsistencyType1Code/CONS": "La información del importe coincide con el registro de datos de referencia.",
+ "AmountConsistencyType1Code/ICFA": "La información del importe confirmado al beneficiario no coincide con el registro de datos de referencia.",
+ "AmountConsistencyType1Code/ICGA": "La información del importe de gastos no coincide con el registro de datos de referencia.",
+ "AmountConsistencyType1Code/ICNS": "La información del importe no coincide con el registro de datos de referencia.",
+ "AmountConsistencyType1Code/IISA": "La información del importe de liquidación interbancaria no coincide con el registro de datos de referencia."
+}

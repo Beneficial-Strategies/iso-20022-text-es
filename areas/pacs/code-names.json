@@ -1,0 +1,5 @@
+{
+ "SettlementMethod2Code/CLRG": "ClearingSystem",
+ "SettlementMethod2Code/INDA": "Entidad instruida",
+ "SettlementMethod2Code/INGA": "InstructingAgent"
+}

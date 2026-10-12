@@ -1,0 +1,10 @@
+{
+ "AdviceType1Code": "Especifica el tipo de aviso que se devolverá en el informe.",
+ "ExternalAuthenticationChannel1Code": "Especifica el canal de autenticación de la operación, tal como se publica en un conjunto de códigos externo de canales de autenticación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+ "ExternalMandateReason1Code": "Especifica el código externo del motivo del procesamiento del mandato, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa publicada por separado.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+ "ExternalMandateStatus1Code": "Especifica el código externo del estado del mandato, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa publicada por separado.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+ "ExternalMandateSuspensionReason1Code": "Especifica el código externo del motivo de suspensión del mandato, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa que se publica por separado.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+ "PaymentMethod2Code": "Especifica el método de transferencia que se utilizará para transferir el efectivo.",
+ "PaymentMethod7Code": "Especifica el método de transferencia que se utilizará para transferir el efectivo.",
+ "SequenceType2Code": "Especifica si se cubre una operación única o si se cubren operaciones recurrentes."
+}
