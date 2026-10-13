@@ -1,0 +1,33 @@
+{
+  "isoType": "TaxRecord3",
+  "definition": "Conjunto de elementos utilizados para definir el registro fiscal.",
+  "isoElements": {
+    "Type": {
+      "definition": "Código de alto nivel para identificar el tipo de detalles fiscales."
+    },
+    "Category": {
+      "definition": "Especifica el código fiscal tal como lo publica la autoridad tributaria."
+    },
+    "CategoryDetails": {
+      "definition": "Proporciona detalles adicionales del código de la categoría fiscal."
+    },
+    "DebtorStatus": {
+      "definition": "Código proporcionado por la autoridad local para identificar la situación de la parte que ha emitido el documento de liquidación."
+    },
+    "CertificateIdentification": {
+      "definition": "Número de identificación del informe fiscal asignado por la autoridad tributaria."
+    },
+    "FormsCode": {
+      "definition": "Identifica, en forma codificada, en qué plantilla debe proporcionarse el informe fiscal."
+    },
+    "Period": {
+      "definition": "Conjunto de elementos utilizados para proporcionar detalles sobre el período de tiempo relacionado con el pago del impuesto."
+    },
+    "TaxAmount": {
+      "definition": "Conjunto de elementos utilizados para proporcionar información sobre el importe del registro fiscal."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalles adicionales del registro fiscal."
+    }
+  }
+}

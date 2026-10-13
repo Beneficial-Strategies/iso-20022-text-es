@@ -1,0 +1,12 @@
+{
+  "isoType": "DateType2Choice",
+  "definition": "Especifica el tipo de fecha del documento referido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el tipo de fecha, según se publica en un conjunto externo de códigos de tipo de fecha."
+    },
+    "Proprietary": {
+      "definition": "Especifica el tipo de fecha, en forma de texto libre."
+    }
+  }
+}

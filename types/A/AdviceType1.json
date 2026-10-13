@@ -1,0 +1,12 @@
+{
+  "isoType": "AdviceType1",
+  "definition": "Especifica el tipo de aviso que se debe notificar para la operación.",
+  "isoElements": {
+    "CreditAdvice": {
+      "definition": "Tipo de aviso de abono solicitado."
+    },
+    "DebitAdvice": {
+      "definition": "Tipo de aviso de adeudo solicitado."
+    }
+  }
+}

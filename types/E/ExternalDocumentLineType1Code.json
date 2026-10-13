@@ -1,0 +1,81 @@
+{
+  "isoType": "ExternalDocumentLineType1Code",
+  "isoCodes": {
+    "ADPI": {
+      "name": "Identificación adicional del producto asignada por el fabricante",
+      "definition": "La referencia de la línea es una identificación adicional del producto asignada por el fabricante."
+    },
+    "AISB": {
+      "name": "ISBN alternativo",
+      "definition": "La referencia de la línea es un Número Internacional Normalizado del Libro (ISBN) alternativo."
+    },
+    "ASNB": {
+      "name": "Número de activo",
+      "definition": "La referencia de la línea es un número de activo."
+    },
+    "CTNB": {
+      "name": "Número de catálogo",
+      "definition": "La referencia de la línea es un número de catálogo."
+    },
+    "DBSP": {
+      "name": "Código estándar de producto y servicio de Dun & Bradstreet",
+      "definition": "La referencia de la línea es el código estándar de producto y servicio de Dun & Bradstreet."
+    },
+    "EANN": {
+      "name": "Número europeo de artículo EAN (2/5/5/1)",
+      "definition": "La referencia de la línea es un Número Europeo de Artículo (EAN)."
+    },
+    "EINB": {
+      "name": "Número de identificación del equipo",
+      "definition": "La referencia de la línea es un número de identificación de equipo."
+    },
+    "GSNB": {
+      "name": "Número de especificación general",
+      "definition": "La referencia de la línea es un número de especificación general."
+    },
+    "HIBC": {
+      "name": "Código de barras de la industria sanitaria HIBC",
+      "definition": "La referencia de la línea es un código de barras de la industria sanitaria (HIBC)"
+    },
+    "ISBN": {
+      "name": "Número internacional normalizado del libro (ISBN)",
+      "definition": "La referencia de la línea es un Número Internacional Normalizado del Libro (ISBN)."
+    },
+    "LTNB": {
+      "name": "Número de lote",
+      "definition": "La referencia de la línea es un número de lote."
+    },
+    "MDNB": {
+      "name": "Número de modelo",
+      "definition": "La referencia de la línea es un número de modelo"
+    },
+    "PRNB": {
+      "name": "Número de pieza",
+      "definition": "La referencia de la línea es un número de referencia de pieza."
+    },
+    "PTCD": {
+      "name": "Código de tipo de producto",
+      "definition": "La referencia de la línea es un código de tipo de producto."
+    },
+    "SKNB": {
+      "name": "Número de existencias",
+      "definition": "La referencia de la línea es un número de existencias."
+    },
+    "STNB": {
+      "name": "Número de estilo",
+      "definition": "La referencia de la línea es un número de estilo."
+    },
+    "TONB": {
+      "name": "Número de orden técnica",
+      "definition": "La referencia de la línea es un número de orden técnica."
+    },
+    "UPCC": {
+      "name": "Código de envase de consumo UPC",
+      "definition": "La referencia de la línea es un código de envase de consumo UPC."
+    },
+    "UPNB": {
+      "name": "Número universal de producto",
+      "definition": "La referencia de la línea es un Número Universal de Producto."
+    }
+  }
+}

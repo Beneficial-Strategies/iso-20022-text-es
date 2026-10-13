@@ -1,0 +1,12 @@
+{
+  "isoType": "Purpose2Choice",
+  "definition": "Especifica el motivo subyacente de la operación de pago.|Uso: Los clientes finales, es decir, la parte iniciadora, el ordenante (final) y el beneficiario (final), utilizan la finalidad para proporcionar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no es utilizado para el procesamiento por ninguna de las entidades que intervienen en la cadena de pago.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo subyacente de la operación de pago, tal como se publica en una lista externa de códigos de finalidad."
+    },
+    "Proprietary": {
+      "definition": "Finalidad, en forma propietaria."
+    }
+  }
+}

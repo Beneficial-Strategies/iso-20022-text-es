@@ -1,0 +1,12 @@
+{
+  "isoType": "EquivalentAmount2",
+  "definition": "Importe de dinero que se va a transferir entre el ordenante y el beneficiario, expresado en la moneda de la cuenta del ordenante, y la moneda en la que se va a transferir el importe.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero que se debe mover entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa de la cuenta del ordenante, y que debe moverse en una divisa diferente.|Uso: la primera entidad convertirá el importe equivalente en el importe que se debe mover."
+    },
+    "CurrencyOfTransfer": {
+      "definition": "Especifica la divisa del importe que se va a transferir, que es diferente de la divisa de la cuenta del ordenante."
+    }
+  }
+}

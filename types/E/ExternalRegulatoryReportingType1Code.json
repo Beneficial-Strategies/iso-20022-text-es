@@ -1,0 +1,25 @@
+{
+  "isoType": "ExternalRegulatoryReportingType1Code",
+  "isoCodes": {
+    "DECL": {
+      "name": "Declaración",
+      "definition": "La operación incluye una declaración que confirma el cumplimiento de los requisitos normativos y de sanciones aplicables (por ejemplo, FEFTA, OFAC u otros marcos pertinentes). Este código de tipo se refiere a información de cualquier elemento bajo la misma ocurrencia de «RgltryRptg/Dtls»."
+    },
+    "CIST": {
+      "name": "Condición de ciudadanía",
+      "definition": "La autoridad reguladora exige el estatus de residencia de una parte implicada, por ejemplo, si es residente o no residente. Este código de tipo puede referirse a información de cualquier elemento bajo la misma ocurrencia de «RgltryRptg/Dtls»."
+    },
+    "CRST": {
+      "name": "Condición de beneficiario",
+      "definition": "La autoridad reguladora exige el estatus o tipo de beneficiario, por ejemplo, si es una sociedad, una persona física o el gobierno. Este código de tipo puede referirse a información de cualquier elemento bajo la misma ocurrencia de «RgltryRptg/Dtls»."
+    },
+    "TAXS": {
+      "name": "Situación fiscal",
+      "definition": "La autoridad reguladora exige información fiscal, por ejemplo, una referencia de identificación fiscal. Este código de tipo puede referirse a información de cualquier elemento bajo la misma ocurrencia de «RgltryRptg/Dtls»."
+    },
+    "PURP": {
+      "name": "Código nuevo",
+      "definition": "La autoridad reguladora exige o recomienda un código o un texto narrativo para identificar la finalidad del pago de acuerdo con los requisitos específicos de dicha autoridad. Este código de tipo puede referirse a información de cualquier elemento bajo la misma ocurrencia de «RgltryRptg/Dtls»."
+    }
+  }
+}

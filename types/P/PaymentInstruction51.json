@@ -1,0 +1,116 @@
+{
+  "isoType": "PaymentInstruction51",
+  "definition": "Características que se aplican al lado del débito de las operaciones de pago incluidas en la iniciación de transferencias.",
+  "isoElements": {
+    "PaymentInformationIdentification": {
+      "definition": "Identificación única, asignada por una parte emisora, para identificar inequívocamente el grupo de información del pago dentro del mensaje."
+    },
+    "PaymentMethod": {
+      "definition": "Especifica el medio de pago que se utilizará para mover la cantidad de dinero."
+    },
+    "RequestedAdviceType": {
+      "definition": "Tipo de detalles de aviso solicitados."
+    },
+    "BatchBooking": {
+      "definition": "Identifica si se solicita un apunte único por cada operación individual o un apunte en lote por la suma de los importes de todas las operaciones del grupo de un mensaje.|Uso: El apunte en lote se utiliza para solicitar, y no para ordenar, un posible apunte en lote."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el grupo de información del pago."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el grupo, independientemente de las divisas."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha en la que la parte iniciadora solicita a la entidad compensadora que procese el pago. |Uso: Es la fecha en la que debe adeudarse la cuenta del ordenante. Si el pago es mediante cheque, la fecha en que el banco debe emitir el cheque."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Fecha utilizada para la corrección de la fecha valor de un movimiento de cash pooling que se ha contabilizado con una fecha valor distinta."
+    },
+    "Debtor": {
+      "definition": "Parte que debe una cantidad de dinero al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se realizará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad gestora de la cadena de pago."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Información adicional relativa al procesamiento de la instrucción de pago, sobre la que la entidad del ordenante puede tener que actuar, según el acuerdo entre el ordenante y la entidad del ordenante.||Uso: cuando está presente, las instrucciones para la entidad del ordenante se aplican a todas las apariciones de información de la operación de transferencia presentes en la información del pago."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe un importe de dinero al beneficiario (final)."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica qué parte o partes soportarán los gastos asociados al tratamiento de la operación de pago."
+    },
+    "ChargesAccount": {
+      "definition": "Cuenta utilizada para procesar los gastos asociados a una operación.||Uso: La cuenta de gastos debe utilizarse cuando los gastos han de contabilizarse en una cuenta distinta de la identificada en la cuenta del ordenante."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Entidad que gestiona una cuenta de gastos.||Uso: La entidad de la cuenta de gastos solo debe utilizarse cuando sea distinta de la entidad del ordenante."
+    },
+    "CreditTransferTransactionInformation": {
+      "definition": "Proporciona información sobre la o las operaciones individuales incluidas en el mensaje."
+    }
+  },
+  "isoRules": {
+    "PaymentTypeInformationRule": {
+      "definition": "Si PaymentTypeInformation está presente, entonces CreditTransferTransactionInformation/PaymentTypeInformation no está permitido."
+    },
+    "ChequeInstructionRule": {
+      "definition": "Si PaymentMethod es distinto de CHK (Cheque), entonces CreditTransferTransactionInformation/ChequeInstruction no está permitido."
+    },
+    "ChargesAccountRule": {
+      "definition": "Si ChargesAccountAgent está presente, entonces ChargesAccount debe estar presente."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "Si ChargesAccountAgent está presente, entonces debe contener una sucursal de DebtorAgent. No debe contener una entidad completamente distinta."
+    },
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor solo puede estar presente si es distinto de Debtor."
+    },
+    "ChequeInstructionDeliverToDebtorGuideline": {
+      "definition": "Si CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod está presente y si CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod/Code es CRDB (CourierToDebtor), MLDB (MailToDebtor), PUDB (PickUpByDebtor) o RGDB (RegisteredMailToDebtor), entonces CreditTransferTransactionInformation/ChequeInstruction/DeliverTo solo puede estar presente si es distinto de Debtor."
+    },
+    "ChequeInstructionDeliverToCreditorGuideline": {
+      "definition": "Si PaymentInformation/CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod está presente y es CRCD (CourierToCreditor), MLCD (MailToCreditor), PUCD (PickUpByCreditor) o RGCD (RegisteredMailToCreditor), entonces CreditTransferTransactionInformation/ChequeInstruction/DeliverTo solo puede estar presente si es distinto de CreditTransferTransactionInformation/Creditor."
+    },
+    "ChequeInstructionDeliverToCreditorAgentGuideline": {
+      "definition": "Si CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod está presente y es CRFA (CourierToFinalAgent), MLFA (MailToFinalAgent), PUFA (PickUpByFinalAgent) o RGFA (RegisteredMailToFinalAgent), entonces CreditTransferTransactionInformation/ChequeInstruction/DeliverTo solo puede estar presente si es distinto de CreditTransferTransactionInformation/Creditor."
+    },
+    "ChequeFromGuideline": {
+      "definition": "CreditTransferTransactionInformation/ChequeInstruction/ChequeFrom solo puede estar presente si es distinto de CreditTransferTransactionInformation/UltimateDebtor o de Debtor."
+    },
+    "ChargeBearerRule": {
+      "definition": "Si ChargeBearer está presente, entonces CreditTransferTransactionInformation/ChargeBearer no está permitido. Si CreditTransferTransactionInformation/ChargeBearer está presente, entonces ChargeBearer no está permitido. CreditTransferTransactionInformation/ChargeBearer y ChargeBearer pueden estar ambos ausentes."
+    },
+    "UltimateDebtorRule": {
+      "definition": "Si UltimateDebtor está presente, entonces CreditTransferTransactionInformation/UltimateDebtor no está permitido. Si CreditTransferTransactionInformation/UltimateDebtor está presente, entonces UltimateDebtor no está permitido. CreditTransferTransactionInformation/UltimateDebtor y UltimateDebtor pueden estar ambos ausentes."
+    },
+    "ChequeAndCreditorAccountRule": {
+      "definition": "Si PaymentMethod es CHK (Cheque), entonces CreditTransferTransactionInformation/CreditorAccount no está permitido."
+    },
+    "ChequeDeliveryAndCreditorAgentRule": {
+      "definition": "Si PaymentMethod es CHK (Cheque) y CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod/Code está presente y es igual a MLFA (MailToFinalAgent), CRFA (CourierToFinalAgent), RGFA (RegisteredMailToFinalAgent) o PUFA (PickUpByFinalAgent), entonces CreditTransferTransactionInformation/CreditorAgent debe estar presente."
+    },
+    "ChequeDeliveryAndNoCreditorAgentRule": {
+      "definition": "Si PaymentMethod es CHK (Cheque) y CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod/Code está presente y es distinto de MLFA (MailToFinalAgent), CRFA (CourierToFinalAgent), RGFA (RegisteredMailToFinalAgent) o PUFA (PickUpByFinalAgent), entonces CreditTransferTransactionInformation/CreditorAgent no está permitido."
+    },
+    "NonChequePaymentMethodRule": {
+      "definition": "Si PaymentMethod es distinto de CHK (Cheque) y CreditTransferTransactionInformation/Creditor no está presente, entonces CreditTransferTransactionInformation/CreditorAccount debe estar presente."
+    },
+    "ChequeNoDeliveryAndNoCreditorAgentRule": {
+      "definition": "Si PaymentMethod es CHK (Cheque) y CreditTransferTransactionInformation/ChequeInstruction/DeliveryMethod no está presente, entonces CreditTransferTransactionInformation/CreditorAgent no está permitido."
+    },
+    "InstructionForDebtorAgentRule": {
+      "definition": "Si InstructionForDebtorAgent está presente, entonces CreditTransferTransactionInformation/InstructionForDebtorAgent no está permitido. Si CreditTransferTransactionInformation/InstructionForDebtorAgent está presente, entonces InstructionForDebtorAgent no está permitido. CreditTransferTransactionInformation/InstructionForDebtorAgent e InstructionForDebtorAgent pueden estar ambos ausentes."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountSchemeName1Choice",
+  "definition": "Conjuntos de elementos para identificar el nombre del esquema de identificación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Nombre del esquema de identificación, en forma codificada tal como se publica en una lista externa."
+    },
+    "Proprietary": {
+      "definition": "Nombre del esquema de identificación, en forma de texto libre."
+    }
+  }
+}

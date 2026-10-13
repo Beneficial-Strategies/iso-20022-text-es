@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentTypeInformation26",
+  "definition": "Proporciona detalles adicionales del tipo de pago.",
+  "isoElements": {
+    "InstructionPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la parte instructora desea que la parte instruida aplique al procesamiento de la instrucción."
+    },
+    "ServiceLevel": {
+      "definition": "Acuerdo o normas en virtud de los cuales debe procesarse la operación."
+    },
+    "LocalInstrument": {
+      "definition": "Instrumento específico de una comunidad de usuarios.||Uso: Este elemento se utiliza para especificar un instrumento local o una opción de compensación local, o para calificar más el servicio o el nivel de servicio."
+    },
+    "CategoryPurpose": {
+      "definition": "Especifica la finalidad de alto nivel de la instrucción basada en un conjunto de categorías predefinidas.|Uso: Lo utiliza la parte iniciadora para proporcionar información sobre el procesamiento del pago. Es probable que desencadene un procesamiento especial por parte de cualquiera de las entidades que intervienen en la cadena de pago."
+    }
+  }
+}

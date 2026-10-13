@@ -1,0 +1,18 @@
+{
+  "isoType": "ExchangeRateType1Code",
+  "definition": "Especifica un tipo de documento financiero o comercial.",
+  "isoCodes": {
+    "SPOT": {
+      "name": "Contado",
+      "definition": "El tipo de cambio aplicado es el tipo de contado."
+    },
+    "SALE": {
+      "name": "Venta",
+      "definition": "El tipo de cambio aplicado es el tipo de mercado en el momento de la venta."
+    },
+    "AGRD": {
+      "name": "Acordado",
+      "definition": "El tipo de cambio aplicado es el acordado entre las partes."
+    }
+  }
+}

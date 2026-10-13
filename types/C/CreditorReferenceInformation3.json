@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceInformation3",
+  "definition": "Información de referencia proporcionada por el beneficiario para permitir la identificación de los documentos subyacentes.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de referencia del beneficiario."
+    },
+    "Reference": {
+      "definition": "Referencia única, asignada por el beneficiario, para referirse inequívocamente a la operación de pago.||Uso: si está disponible, la parte iniciadora debe proporcionar esta referencia en la información de remesa estructurada, para permitir la conciliación por parte del beneficiario al recibir el importe de dinero.||Si el contexto de negocio exige el uso de una referencia del beneficiario o de una identificación de remesa de pago, y solo puede transmitirse un identificador a lo largo de la cadena de extremo a extremo, la referencia del beneficiario o la identificación de remesa de pago debe indicarse en la identificación de la operación de extremo a extremo."
+    }
+  }
+}

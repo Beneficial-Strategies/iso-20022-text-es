@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericOrganisationIdentification3",
+  "definition": "Información relacionada con una identificación de una organización.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación asignada por una institución."
+    },
+    "SchemeName": {
+      "definition": "Nombre del esquema de identificación."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    }
+  }
+}

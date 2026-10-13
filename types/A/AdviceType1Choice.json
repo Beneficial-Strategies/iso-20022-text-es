@@ -1,0 +1,12 @@
+{
+  "isoType": "AdviceType1Choice",
+  "definition": "Especifica el tipo de aviso solicitado para la operación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de aviso, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de aviso, en forma propietaria."
+    }
+  }
+}

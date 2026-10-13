@@ -1,0 +1,12 @@
+{
+  "isoType": "ServiceLevel8Choice",
+  "definition": "Especifica el nivel de servicio de la operación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica un servicio o nivel de servicio preacordado entre las partes, tal como se publica en una lista externa de códigos de nivel de servicio."
+    },
+    "Proprietary": {
+      "definition": "Especifica un servicio o nivel de servicio preacordado entre las partes, como código propietario."
+    }
+  }
+}

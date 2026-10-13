@@ -1,4 +1,0 @@
-{
- "ExternalNotificationSubType1Code": "Especifica el subtipo de notificación, tal como se publica en un conjunto de códigos externo de subtipos de notificación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
- "ExternalNotificationType1Code": "Especifica el tipo de notificación, tal como se publica en un conjunto de códigos externo de tipos de notificación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org."
-}

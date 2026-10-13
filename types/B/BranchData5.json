@@ -1,0 +1,18 @@
+{
+  "isoType": "BranchData5",
+  "definition": "Información que localiza e identifica una sucursal concreta de una entidad financiera.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de una sucursal de una entidad financiera."
+    },
+    "LEI": {
+      "definition": "Identificación de la persona jurídica de la sucursal de la entidad financiera."
+    },
+    "Name": {
+      "definition": "Nombre por el que se conoce a una entidad y que suele utilizarse para identificarla."
+    },
+    "PostalAddress": {
+      "definition": "Información que localiza e identifica una dirección específica, según la definen los servicios postales."
+    }
+  }
+}

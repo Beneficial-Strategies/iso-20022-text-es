@@ -1,0 +1,201 @@
+{
+  "isoType": "ExternalCategoryPurpose1Code",
+  "isoCodes": {
+    "BONU": {
+      "name": "Pago de bonificación",
+      "definition": "La operación es el pago de una bonificación."
+    },
+    "CASH": {
+      "name": "Transferencia de gestión de tesorería",
+      "definition": "La operación es una instrucción general de gestión de tesorería."
+    },
+    "CBLK": {
+      "name": "Compensación masiva de tarjetas",
+      "definition": "Un servicio que liquida fondos de un conjunto de operaciones con tarjeta, haciendo referencia a un fichero de operaciones específico u otra información como el identificador del terminal, el identificador del aceptante de la tarjeta u otros detalles de la operación (ID)."
+    },
+    "CCRD": {
+      "name": "Pago con tarjeta de crédito",
+      "definition": "La operación está relacionada con un pago de tarjeta de crédito."
+    },
+    "CORT": {
+      "name": "Pago de liquidación de operaciones",
+      "definition": "La operación está relacionada con la liquidación de una transacción comercial, por ejemplo, una operación de divisas o una operación con valores."
+    },
+    "DCRD": {
+      "name": "Pago con tarjeta de débito",
+      "definition": "La operación está relacionada con un pago de tarjeta de débito."
+    },
+    "DIVI": {
+      "name": "Dividendo",
+      "definition": "La operación es el pago de dividendos."
+    },
+    "DVPM": {
+      "name": "Entrega contra pago",
+      "definition": "Código utilizado para preavisar a la entidad gestora de la cuenta de una próxima instrucción de entrega contra pago."
+    },
+    "EPAY": {
+      "name": "Pago electrónico",
+      "definition": "La operación está relacionada con un pago electrónico (ePayment)."
+    },
+    "FCIN": {
+      "name": "Cobro de comisiones e intereses",
+      "definition": "La operación está relacionada con el pago de comisiones e intereses."
+    },
+    "FCOL": {
+      "name": "Cobro de comisiones",
+      "definition": "Un servicio que liquida comisiones relacionadas con operaciones de tarjeta entre dos partes."
+    },
+    "GP2P": {
+      "name": "Pago entre personas",
+      "definition": "Pago general entre particulares. El ordenante y el beneficiario son personas físicas."
+    },
+    "GOVT": {
+      "name": "Pago del gobierno",
+      "definition": "La operación es un pago a un departamento gubernamental o desde él."
+    },
+    "HEDG": {
+      "name": "Cobertura",
+      "definition": "La operación está relacionada con el pago de una operación de cobertura."
+    },
+    "ICCP": {
+      "name": "Pago irrevocable con tarjeta de crédito",
+      "definition": "La operación es el reembolso de un pago con tarjeta de crédito."
+    },
+    "IDCP": {
+      "name": "Pago irrevocable con tarjeta de débito",
+      "definition": "La operación es el reembolso de un pago con tarjeta de débito."
+    },
+    "INTC": {
+      "name": "Pago intraempresa",
+      "definition": "La operación es un pago intraempresa, es decir, un pago entre dos empresas pertenecientes al mismo grupo."
+    },
+    "INTE": {
+      "name": "Intereses",
+      "definition": "La operación es el pago de intereses."
+    },
+    "LBOX": {
+      "name": "Operaciones de buzón de cobros",
+      "definition": "La operación está relacionada con la identificación de la gestión de efectivo mediante caja nocturna o buzón de depósito (Lockbox) por parte de un banco o proveedor en nombre de un establecimiento físico."
+    },
+    "LOAN": {
+      "name": "Préstamo",
+      "definition": "La operación está relacionada con la transferencia de un préstamo a un prestatario."
+    },
+    "MP2B": {
+      "name": "Comercial",
+      "definition": "Pago móvil de particular a empresa (P2B)"
+    },
+    "MP2P": {
+      "name": "Consumidor",
+      "definition": "Pago móvil entre particulares (P2P)"
+    },
+    "OTHR": {
+      "name": "Otro pago",
+      "definition": "Otra finalidad del pago."
+    },
+    "PENS": {
+      "name": "Pago de pensión",
+      "definition": "La operación es el pago de una pensión."
+    },
+    "RPRE": {
+      "name": "Representado",
+      "definition": "Cobro utilizado para volver a presentar operaciones de adeudo directo previamente revertidas o devueltas."
+    },
+    "RRCT": {
+      "name": "Transferencia recibida de reembolso",
+      "definition": "La operación está relacionada con un reembolso, por motivos comerciales, de una transferencia recibida correctamente."
+    },
+    "RVPM": {
+      "name": "Recepción contra pago",
+      "definition": "Código utilizado para preavisar a la entidad gestora de la cuenta de una próxima instrucción de recepción contra pago."
+    },
+    "SALA": {
+      "name": "Pago de nómina",
+      "definition": "La operación es el pago de salarios."
+    },
+    "SECU": {
+      "name": "Valores",
+      "definition": "La operación es el pago de valores."
+    },
+    "SSBE": {
+      "name": "Prestación de la seguridad social",
+      "definition": "La operación es una prestación de la seguridad social, es decir, un pago efectuado por un gobierno para apoyar a las personas."
+    },
+    "SUPP": {
+      "name": "Pago a proveedor",
+      "definition": "La operación está relacionada con un pago a un proveedor."
+    },
+    "TAXS": {
+      "name": "Pago de impuestos",
+      "definition": "La operación es el pago de impuestos."
+    },
+    "TRAD": {
+      "name": "Operación bursátil",
+      "definition": "La operación está relacionada con el pago de una operación de financiación del comercio."
+    },
+    "TREA": {
+      "name": "Pago de tesorería",
+      "definition": "La operación está relacionada con operaciones de tesorería. Por ejemplo, la liquidación de un contrato financiero."
+    },
+    "VATX": {
+      "name": "Pago del impuesto sobre el valor añadido",
+      "definition": "La operación es el pago del impuesto sobre el valor añadido."
+    },
+    "WHLD": {
+      "name": "Retención",
+      "definition": "La operación es el pago de una retención fiscal."
+    },
+    "SWEP": {
+      "name": "Cuenta de barrido de gestión de tesorería",
+      "definition": "Clasificación: gestión de tesorería. La operación se refiere a una instrucción de gestión de tesorería que solicita un barrido de la cuenta del ordenante por encima de un importe mínimo acordado, hasta un saldo objetivo o cero.|La finalidad es trasladar los fondos de varias cuentas a una única cuenta bancaria. Los fondos pueden moverse a nivel nacional o transfronterizo y puede intervenir más de un banco."
+    },
+    "TOPG": {
+      "name": "Cuenta principal de gestión de tesorería",
+      "definition": "Clasificación: gestión de tesorería. La operación se refiere a una instrucción de gestión de tesorería que solicita completar la cuenta del beneficiario por encima de un determinado importe mínimo, hasta un saldo objetivo o cero. |El importe mínimo, si no ha sido acordado previamente por las partes implicadas, puede especificarse."
+    },
+    "ZABA": {
+      "name": "Cuenta de saldo cero de gestión de tesorería",
+      "definition": "La operación se refiere a una instrucción de gestión de tesorería que solicita dejar a cero el saldo de la cuenta del ordenante.|Las cuentas de saldo cero vacían o llenan los saldos de cuentas del mismo banco, en el mismo país, hacia o desde una cuenta principal cada día."
+    },
+    "VOST": {
+      "name": "Pagos MI transfronterizos",
+      "definition": "Operación que debe procesarse como una instrucción de pago nacional originada en un banco extranjero."
+    },
+    "FCDT": {
+      "name": "Transferencia nacional en moneda extranjera",
+      "definition": "Operación en moneda extranjera procesada entre dos entidades financieras nacionales."
+    },
+    "CIPC": {
+      "name": "Ingreso de efectivo con abono previo",
+      "definition": "La operación es un adeudo directo para un pedido de efectivo en billetes y/o monedas."
+    },
+    "CONC": {
+      "name": "Retirada de efectivo (billetes y monedas)",
+      "definition": "La operación es un adeudo directo para un pedido de efectivo en billetes y/o monedas."
+    },
+    "CGWV": {
+      "name": "Objetos de valor al por mayor custodiados por transportista",
+      "definition": "La operación es un pago a una parte por la recogida de efectivo por la empresa de transporte de fondos."
+    },
+    "SAVG": {
+      "name": "Ahorro",
+      "definition": "Transferencia hacia o desde una cuenta de ahorro o de jubilación."
+    },
+    "CTDF": {
+      "name": "Pago Dodd-Frank 1073",
+      "definition": "Operación transfronteriza iniciada por una persona física US sujeta al cumplimiento de Dodd Frank 1073."
+    },
+    "CPAY": {
+      "name": "Pago de reclamación",
+      "definition": "La operación está relacionada con el pago de una reclamación a través de un sistema de pago de reclamaciones."
+    },
+    "CDIS": {
+      "name": "Disposición adicional de reclamación",
+      "definition": "Disposición adicional tras un pago de reclamación realizado a través de un sistema de pago de reclamaciones."
+    },
+    "CRYP": {
+      "name": "Criptoactivos",
+      "definition": "La operación está relacionada con la compra o venta de criptoactivos."
+    }
+  }
+}

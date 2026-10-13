@@ -1,0 +1,22 @@
+{
+  "isoType": "ChargeBearerType1Code",
+  "definition": "Especifica qué parte o partes pagarán los gastos debidos por el procesamiento de la instrucción.",
+  "isoCodes": {
+    "DEBT": {
+      "name": "A cargo del ordenante",
+      "definition": "Todos los gastos de la operación correrán a cargo del ordenante."
+    },
+    "CRED": {
+      "name": "A cargo del beneficiario",
+      "definition": "Todos los gastos de la operación correrán a cargo del beneficiario."
+    },
+    "SHAR": {
+      "name": "Compartido",
+      "definition": "En el contexto de una transferencia, significa que los gastos de la operación del lado del emisor correrán a cargo del ordenante y los gastos de la operación del lado del receptor correrán a cargo del beneficiario. En el contexto de un adeudo directo, significa que los gastos de la operación del lado del emisor correrán a cargo del beneficiario y los gastos de la operación del lado del receptor correrán a cargo del ordenante."
+    },
+    "SLEV": {
+      "name": "Conforme al nivel de servicio",
+      "definition": "Los gastos se aplicarán conforme a las reglas acordadas en el nivel de servicio y/o el esquema."
+    }
+  }
+}

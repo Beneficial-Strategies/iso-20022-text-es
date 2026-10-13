@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericFinancialIdentification1",
+  "definition": "Información relacionada con una identificación de una entidad financiera.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de una persona."
+    },
+    "SchemeName": {
+      "definition": "Nombre del esquema de identificación."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    }
+  }
+}

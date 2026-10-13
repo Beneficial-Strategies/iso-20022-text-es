@@ -1,7 +1,0 @@
-{
- "AmountConsistencyType1Code/CONS": "Importe coherente",
- "AmountConsistencyType1Code/ICFA": "Importe confirmado incoherente",
- "AmountConsistencyType1Code/ICGA": "Importe de gastos incoherente",
- "AmountConsistencyType1Code/ICNS": "Importe incoherente",
- "AmountConsistencyType1Code/IISA": "Importe de liquidación interbancaria incoherente"
-}

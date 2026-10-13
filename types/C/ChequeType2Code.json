@@ -1,0 +1,26 @@
+{
+  "isoType": "ChequeType2Code",
+  "definition": "Especifica el tipo de cheque.",
+  "isoCodes": {
+    "CCHQ": {
+      "name": "Cheque de cliente",
+      "definition": "Cheque librado contra la cuenta del ordenante y adeudado en la cuenta del ordenante cuando se cobra el cheque. Sinónimo: «cheque de empresa»."
+    },
+    "CCCH": {
+      "name": "Cheque certificado de cliente",
+      "definition": "Cheque librado contra la cuenta del ordenante y adeudado en la cuenta del ordenante cuando se cobra el cheque. La entidad financiera imprime y certifica el cheque, garantizando el pago."
+    },
+    "BCHQ": {
+      "name": "Cheque bancario",
+      "definition": "Cheque librado contra la cuenta de la entidad financiera del ordenante, que se adeuda en la cuenta del ordenante cuando se emite el cheque. Estos cheques son impresos por la entidad financiera del ordenante y el pago está garantizado por la entidad financiera. Sinónimo: «cheque de caja»."
+    },
+    "DRFT": {
+      "name": "Efecto",
+      "definition": "Cheque bancario garantizado con una fecha valor futura (no pagar antes de), que en términos comerciales es un «instrumento negociable»: el beneficiario puede recibir el pago anticipado de cualquier banco con la deducción de un descuento. La cuenta del cliente ordenante se adeuda en la fecha valor."
+    },
+    "ELDR": {
+      "name": "Efecto electrónico",
+      "definition": "Instrumento con una fecha valor futura (no pagar antes de), que en términos comerciales es un «instrumento negociable»: el beneficiario puede recibir el pago anticipado de cualquier banco con la deducción de un descuento. La cuenta del cliente ordenante se adeuda en la fecha valor."
+    }
+  }
+}

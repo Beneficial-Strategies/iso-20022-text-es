@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalDebtorAgentInstruction1Code",
+  "isoCodes": {
+    "HOLD": {
+      "name": "Retener efectivo para el beneficiario",
+      "definition": "Debe retenerse el importe a disposición del beneficiario (final), que lo reclamará. Pagar previa identificación."
+    },
+    "CHQB": {
+      "name": "Pagar al beneficiario mediante cheque",
+      "definition": "El beneficiario (final) debe ser pagado mediante cheque."
+    },
+    "PRTK": {
+      "name": "Token del pagador solicitado",
+      "definition": "Indica que se solicita o utiliza un token del pagador."
+    },
+    "PHOB": {
+      "name": "Llamar al beneficiario",
+      "definition": "Se ruega avisar o contactar con el beneficiario (final) o reclamante por teléfono."
+    },
+    "TELB": {
+      "name": "Telecomunicaciones",
+      "definition": "Se ruega avisar o contactar con el beneficiario (final) o reclamante por el medio de telecomunicación más eficaz."
+    },
+    "TOKN": {
+      "name": "Token",
+      "definition": "Información del token."
+    },
+    "VLTK": {
+      "name": "Validación de token",
+      "definition": "Información de validación adicional que debe utilizarse junto con el token."
+    }
+  }
+}

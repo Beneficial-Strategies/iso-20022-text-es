@@ -1,0 +1,47 @@
+{
+  "isoType": "Cheque19",
+  "definition": "Características de una instrucción de cheque, como el tipo de cheque o el número de cheque.",
+  "isoElements": {
+    "ChequeType": {
+      "definition": "Especifica el tipo de cheque que se debe emitir."
+    },
+    "ChequeNumber": {
+      "definition": "Identificador único e inequívoco de un cheque, asignado por la entidad."
+    },
+    "ChequeFrom": {
+      "definition": "Identifica a la parte que ordenó la emisión del cheque."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica el método de entrega del cheque por parte de la entidad del ordenante."
+    },
+    "DeliverTo": {
+      "definition": "Parte a la que la entidad del ordenante debe enviar el cheque."
+    },
+    "InstructionPriority": {
+      "definition": "Urgencia u orden de importancia que el originador desea que el destinatario de la instrucción de pago aplique al tratamiento de la instrucción de pago."
+    },
+    "ChequeMaturityDate": {
+      "definition": "Fecha en la que el efecto pasa a ser pagadero y se adeuda la cuenta del ordenante."
+    },
+    "FormsCode": {
+      "definition": "Identifica, en forma codificada, el diseño del cheque, el logotipo de la empresa y la firma digitalizada que se deben utilizar para imprimir el cheque, según lo acordado entre la parte iniciadora y la entidad del ordenante."
+    },
+    "MemoField": {
+      "definition": "Información que debe imprimirse en un cheque, utilizada por el pagador para añadir información diversa."
+    },
+    "RegionalClearingZone": {
+      "definition": "Zona regional en la que el cheque puede compensarse, cuando un país no dispone de una organización de compensación de cheques de ámbito nacional."
+    },
+    "PrintLocation": {
+      "definition": "Especifica el lugar de impresión del cheque."
+    },
+    "Signature": {
+      "definition": "Firma que debe utilizar la entidad gestora del cheque en un cheque concreto que se vaya a imprimir."
+    }
+  },
+  "isoRules": {
+    "ChequeMaturityDateRule": {
+      "definition": "Si ChequeMaturityDate está presente, ChequeType debe estar presente y ser igual a DRFT o ELDR."
+    }
+  }
+}

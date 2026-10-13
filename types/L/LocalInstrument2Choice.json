@@ -1,0 +1,12 @@
+{
+  "isoType": "LocalInstrument2Choice",
+  "definition": "Conjunto de elementos que identifica con más detalle el tipo de instrumentos locales solicitados por la parte iniciadora.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el instrumento local, tal como se publica en una lista externa de códigos de instrumento local."
+    },
+    "Proprietary": {
+      "definition": "Especifica el instrumento local, como código propietario."
+    }
+  }
+}

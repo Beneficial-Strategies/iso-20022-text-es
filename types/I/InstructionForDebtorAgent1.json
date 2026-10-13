@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForDebtorAgent1",
+  "definition": "Información adicional relacionada con el procesamiento de la instrucción de pago sobre la que puede ser necesario que actúe la entidad del ordenante. La instrucción puede referirse a un nivel de servicio, puede ser una instrucción que debe ejecutar la entidad del ordenante, o puede ser información requerida por la entidad del ordenante.",
+  "isoElements": {
+    "Code": {
+      "definition": "Información codificada relativa al procesamiento de la instrucción de pago, proporcionada por la parte iniciadora y destinada a la entidad del beneficiario."
+    },
+    "InstructionInformation": {
+      "definition": "Información adicional que complementa la instrucción codificada o la instrucción a la entidad del beneficiario, acordada bilateralmente o específica de una comunidad de usuarios."
+    }
+  }
+}

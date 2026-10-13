@@ -1,0 +1,97 @@
+{
+  "isoType": "ExternalDocumentType1Code",
+  "isoCodes": {
+    "CINV": {
+      "name": "Factura comercial",
+      "definition": "El documento es una factura."
+    },
+    "CNFA": {
+      "name": "Nota de abono relacionada con un ajuste financiero",
+      "definition": "El documento es una nota de abono por el importe final liquidado de una operación comercial."
+    },
+    "CONT": {
+      "name": "Contrato",
+      "definition": "El documento es un contrato que acredita un acuerdo entre el vendedor y el comprador para el suministro de bienes y/o servicios."
+    },
+    "CREN": {
+      "name": "Nota de abono",
+      "definition": "El documento es una nota de abono."
+    },
+    "DEBN": {
+      "name": "Nota de cargo",
+      "definition": "El documento es una nota de cargo."
+    },
+    "DISP": {
+      "name": "Aviso de expedición",
+      "definition": "El documento es un aviso de expedición de las mercancías."
+    },
+    "DNFA": {
+      "name": "Nota de cargo relacionada con un ajuste financiero",
+      "definition": "El documento es una nota de cargo por el importe final liquidado de una operación comercial."
+    },
+    "HIRI": {
+      "name": "Factura de alquiler",
+      "definition": "El documento es una factura por la contratación de recursos humanos o el alquiler de bienes o equipos."
+    },
+    "INVS": {
+      "name": "Factura firmada",
+      "definition": "El documento es una factura firmada."
+    },
+    "MSIN": {
+      "name": "Factura de servicio medido",
+      "definition": "El documento es una factura que reclama el pago por el suministro de servicios medidos, por ejemplo, gas o electricidad, suministrados a un contador fijo."
+    },
+    "PROF": {
+      "name": "Factura proforma",
+      "definition": "En las operaciones comerciales, una factura proforma es un documento que establece el compromiso del vendedor de vender mercancías al comprador a precios y condiciones determinados. Se utiliza para declarar el valor de la operación comercial. No es una factura propiamente dicha, porque no se utiliza para registrar las cuentas por cobrar del vendedor ni las cuentas por pagar del comprador."
+    },
+    "PUOR": {
+      "name": "Orden de compra",
+      "definition": "El documento es un pedido de compra."
+    },
+    "QUOT": {
+      "name": "Cotización",
+      "definition": "El documento es un presupuesto que establece las condiciones en las que se ofrecen los bienes y/o servicios."
+    },
+    "SBIN": {
+      "name": "Autofactura",
+      "definition": "El documento es un extracto de las operaciones contabilizadas en la cuenta del ordenante en el proveedor."
+    },
+    "SPRR": {
+      "name": "Presentación del vendedor",
+      "definition": "El documento es un documento presentado por el vendedor como justificante de la adquisición de bienes y/o servicios."
+    },
+    "TISH": {
+      "name": "Hoja de horas",
+      "definition": "El documento es una hoja de horas que registra los tiempos de la prestación de servicios y/o la entrega de bienes."
+    },
+    "USAR": {
+      "name": "Informe de uso",
+      "definition": "El documento es un informe de uso que indica el patrón de consumo de determinados bienes y/o servicios."
+    },
+    "AROI": {
+      "name": "Partida abierta de cuentas por cobrar",
+      "definition": "El documento es un pago que se aplica a un documento de origen específico."
+    },
+    "BOLD": {
+      "name": "Conocimiento de embarque",
+      "definition": "El documento es una notificación de envío."
+    },
+    "CMCN": {
+      "name": "Contrato comercial",
+      "definition": "El documento es un acuerdo entre las partes que estipula los términos y condiciones de la entrega de bienes o servicios."
+    },
+    "SOAC": {
+      "name": "Extracto de cuenta",
+      "definition": "El documento es un extracto de las operaciones contabilizadas en la cuenta del ordenante en el proveedor."
+    },
+    "TSUT": {
+      "name": "Operación de servicios públicos de comercio",
+      "definition": "El documento es un identificador de operación asignado por la Trade Services Utility."
+    },
+    "VCHR": {
+      "name": "Comprobante",
+      "definition": "El documento es un documento de pago electrónico."
+    }
+  }
+}

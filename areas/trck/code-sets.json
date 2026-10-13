@@ -1,4 +1,0 @@
-{
- "AmountConsistencyType1Code": "Especifica un tipo de incoherencias de importe, es decir, si el tipo de importe facilitado coincide o no con el importe de referencia.",
- "ExternalPaymentScenario1Code": "Especifica el escenario de pago, tal como se publica en un conjunto de códigos externo de escenarios de pago.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org."
-}

@@ -1,0 +1,4 @@
+{
+  "isoType": "CountryCode",
+  "definition": "Código para identificar un país, una dependencia u otra zona de especial interés geopolítico, a partir de los nombres de países obtenidos de las Naciones Unidas (ISO 3166, código Alpha-2)."
+}

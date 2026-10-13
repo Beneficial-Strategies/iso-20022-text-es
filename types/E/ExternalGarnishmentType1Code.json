@@ -1,0 +1,17 @@
+{
+  "isoType": "ExternalGarnishmentType1Code",
+  "isoCodes": {
+    "GNCS": {
+      "name": "Embargo por manutención de menores",
+      "definition": "Embargo de un pagador tercero por manutención de menores"
+    },
+    "GNDP": {
+      "name": "Embargo por manutención de menores al pagador directo",
+      "definition": "Embargo de un pagador directo por manutención de menores"
+    },
+    "GTPP": {
+      "name": "Embargo a favor de la agencia tributaria",
+      "definition": "Embargo de un pagador tercero a favor de la agencia tributaria"
+    }
+  }
+}

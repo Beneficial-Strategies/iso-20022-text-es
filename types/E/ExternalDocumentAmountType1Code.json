@@ -1,0 +1,113 @@
+{
+  "isoType": "ExternalDocumentAmountType1Code",
+  "isoCodes": {
+    "APDS": {
+      "name": "Descuento promocional adicional",
+      "definition": "Descuento adicional basado en una actividad promocional comercial acordada con un tercero, es decir, un descuento extra del 10 por ciento durante 15 días)"
+    },
+    "STDS": {
+      "name": "Descuento permanente",
+      "definition": "Descuento basado en el volumen de compra."
+    },
+    "TMDS": {
+      "name": "Descuento por condiciones de pago",
+      "definition": "Descuento basado en las condiciones negociadas para el pago dentro de un plazo determinado, es decir, 2/10 Net 30 (2 por ciento de descuento si se paga en 10 días; en caso contrario, el importe neto vence a los 30 días)."
+    },
+    "CITY": {
+      "name": "Impuesto municipal",
+      "definition": "Impuesto aplicado por las jurisdicciones municipales de un país."
+    },
+    "CNTY": {
+      "name": "Impuesto de condado",
+      "definition": "Impuesto aplicado por las jurisdicciones de condado de un país."
+    },
+    "LOCL": {
+      "name": "Impuesto local",
+      "definition": "Impuesto aplicado por las jurisdicciones locales de un país."
+    },
+    "PROV": {
+      "name": "Impuesto provincial",
+      "definition": "Impuesto aplicado por las jurisdicciones provinciales de un país."
+    },
+    "STAT": {
+      "name": "Impuesto estatal",
+      "definition": "Impuesto aplicado por las jurisdicciones estatales de un país."
+    },
+    "CREN": {
+      "name": "Nota de abono",
+      "definition": "El importe es una nota de crédito."
+    },
+    "DUPA": {
+      "name": "Importe exigible",
+      "definition": "El importe es exigible."
+    },
+    "PRIN": {
+      "name": "Principal pendiente",
+      "definition": "El importe es el principal pendiente."
+    },
+    "TOTA": {
+      "name": "Pago total",
+      "definition": "El importe es el total."
+    },
+    "INTE": {
+      "name": "Pago de intereses",
+      "definition": "El importe son los intereses."
+    },
+    "ESCO": {
+      "name": "Depósito en garantía",
+      "definition": "El importe está en depósito en garantía (escrow)."
+    },
+    "TAXS": {
+      "name": "Impuestos",
+      "definition": "El importe es un impuesto."
+    },
+    "INSU": {
+      "name": "Seguro",
+      "definition": "El importe es un seguro."
+    },
+    "OBAL": {
+      "name": "Saldo pendiente",
+      "definition": "El importe es el saldo pendiente."
+    },
+    "SBAL": {
+      "name": "Saldo del extracto",
+      "definition": "El importe es el saldo del extracto."
+    },
+    "MIDU": {
+      "name": "Mínimo exigible",
+      "definition": "El importe es el mínimo exigible."
+    },
+    "PADU": {
+      "name": "Vencido",
+      "definition": "El importe está vencido."
+    },
+    "CRTL": {
+      "name": "Crédito disponible",
+      "definition": "El importe es el crédito disponible."
+    },
+    "PBAL": {
+      "name": "Saldo anterior",
+      "definition": "El importe es el saldo anterior."
+    },
+    "CHAR": {
+      "name": "Cargos nuevos",
+      "definition": "El importe son nuevos cargos, por ejemplo, nuevos cargos en una tarjeta de crédito."
+    },
+    "FEES": {
+      "name": "Comisiones",
+      "definition": "El importe son comisiones."
+    },
+    "INTC": {
+      "name": "Cargos por intereses",
+      "definition": "El importe son cargos por intereses, por ejemplo, cargos por intereses en una tarjeta de crédito."
+    },
+    "REMI": {
+      "name": "Remitido",
+      "definition": "Importe remitido."
+    },
+    "DISC": {
+      "name": "Descuento aplicado",
+      "definition": "Descuento aplicado. Uso genérico si no puede especificarse mediante ningún otro código de descuento."
+    }
+  }
+}

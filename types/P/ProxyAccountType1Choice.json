@@ -1,0 +1,12 @@
+{
+  "isoType": "ProxyAccountType1Choice",
+  "definition": "Especifica el esquema utilizado para la identificación de un alias de cuenta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Nombre del esquema de identificación, en forma codificada tal como se publica en una lista externa."
+    },
+    "Proprietary": {
+      "definition": "Nombre del esquema de identificación, en forma de texto libre."
+    }
+  }
+}

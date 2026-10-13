@@ -1,5 +1,0 @@
-{
- "SettlementMethod2Code/CLRG": "La liquidación se realiza a través de un sistema de compensación de pagos.",
- "SettlementMethod2Code/INDA": "La liquidación la realiza la entidad instruida para ejecutar una instrucción de pago.",
- "SettlementMethod2Code/INGA": "La liquidación la realiza la entidad que da la instrucción y reenvía el pago a la siguiente parte de la cadena de pago."
-}

@@ -1,0 +1,17 @@
+{
+  "isoType": "SupplementaryData1",
+  "definition": "Información adicional que no puede recogerse en los campos estructurados ni en ningún otro bloque específico.",
+  "isoElements": {
+    "PlaceAndName": {
+      "definition": "Referencia inequívoca a la ubicación donde deben insertarse los datos complementarios en la instancia del mensaje.|En el caso de XML, se expresa mediante un XPath válido."
+    },
+    "Envelope": {
+      "definition": "Elemento técnico que envuelve los datos complementarios."
+    }
+  },
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Este componente no puede utilizarse sin la aprobación expresa de un SEG y la presentación a la RA de estructuras conformes con ISO 20022 que se utilizarán en el elemento Envelope."
+    }
+  }
+}

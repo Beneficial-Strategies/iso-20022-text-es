@@ -1,145 +1,912 @@
-[
+{
+ "_note": "Rewrite rules for the names (and dropdown values) of the hub, in this language. Applied to names only: definitions are translated explicitly in types/. Phrases are applied first, longest first.",
+ "applyTo": [
+  "names"
+ ],
+ "phrases": [
   {
-    "term": "Debtor",
-    "to": "ordenante",
-    "note": "Party that owes money / orders the payment. Spanish banking: ordenante."
+   "phrase": "Date And Place Of Birth",
+   "to": "Fecha y lugar de nacimiento"
   },
   {
-    "term": "Creditor",
-    "to": "beneficiario",
-    "note": "Party that is owed money / receives the payment."
+   "phrase": "Credit Transfer Transaction Information",
+   "to": "Información de la operación de transferencia"
   },
   {
-    "term": "Ultimate Debtor",
-    "to": "ordenante final"
+   "phrase": "Clearing System Member Identification",
+   "to": "Identificación del miembro del sistema de compensación"
   },
   {
-    "term": "Ultimate Creditor",
-    "to": "beneficiario final"
+   "phrase": "Family Medical Insurance Indicator",
+   "to": "Indicador de seguro médico familiar"
   },
   {
-    "term": "Debtor Agent",
-    "to": "entidad del ordenante",
-    "note": "Agent = the financial institution acting for the party: 'entidad'."
+   "phrase": "Debit Credit Reporting Indicator",
+   "to": "Indicador de declaración de adeudo o abono"
   },
   {
-    "term": "Creditor Agent",
-    "to": "entidad del beneficiario"
+   "phrase": "Instruction For Creditor Agent",
+   "to": "Instrucción para la entidad del beneficiario"
   },
   {
-    "term": "Intermediary Agent",
-    "to": "entidad intermediaria"
+   "phrase": "Adjustment Amount And Reason",
+   "to": "Importe y motivo del ajuste"
   },
   {
-    "term": "Forwarding Agent",
-    "to": "entidad de reenvío"
+   "phrase": "Instruction For Debtor Agent",
+   "to": "Instrucción para la entidad del ordenante"
   },
   {
-    "term": "Initiating Party",
-    "to": "parte iniciadora"
+   "phrase": "Intermediary Agent 1 Account",
+   "to": "Cuenta de la entidad intermediaria 1"
   },
   {
-    "term": "Credit Transfer",
-    "to": "transferencia"
+   "phrase": "Intermediary Agent 2 Account",
+   "to": "Cuenta de la entidad intermediaria 2"
   },
   {
-    "term": "Payment Information",
-    "to": "información del pago"
+   "phrase": "Intermediary Agent 3 Account",
+   "to": "Cuenta de la entidad intermediaria 3"
   },
   {
-    "term": "Transaction",
-    "to": "operación",
-    "note": "Not 'transacción'."
+   "phrase": "Remittance Amount And Type",
+   "to": "Importe de remesa y tipo"
   },
   {
-    "term": "Instruction",
-    "to": "instrucción"
+   "phrase": "End To End Identification",
+   "to": "Identificación de extremo a extremo"
   },
   {
-    "term": "Remittance Information",
-    "to": "información de remesa"
+   "phrase": "Total Taxable Base Amount",
+   "to": "Base imponible total"
   },
   {
-    "term": "Charge Bearer",
-    "to": "gastos",
-    "note": "Who bears the charges: 'responsable de los gastos'."
+   "phrase": "Financial Institution Identification",
+   "to": "Identificación de la entidad financiera"
   },
   {
-    "term": "Control Sum",
-    "to": "suma de control"
+   "phrase": "Payment Information Identification",
+   "to": "Identificación de la información del pago"
   },
   {
-    "term": "Number of Transactions",
-    "to": "número de operaciones"
+   "phrase": "Additional Remittance Information",
+   "to": "Información de remesa adicional"
   },
   {
-    "term": "Requested Execution Date",
-    "to": "fecha de ejecución solicitada"
+   "phrase": "Clearing System Identification",
+   "to": "Identificación del sistema de compensación"
   },
   {
-    "term": "Batch Booking",
-    "to": "lote",
-    "note": "Batch = 'lote'."
+   "phrase": "Creditor Reference Information",
+   "to": "Información de la referencia del beneficiario"
   },
   {
-    "term": "Account",
-    "to": "cuenta"
+   "phrase": "Employee Termination Indicator",
+   "to": "Indicador de cese del empleado"
   },
   {
-    "term": "Mandate",
-    "to": "mandato"
+   "phrase": "Related Remittance Information",
+   "to": "Información de remesa relacionada"
   },
   {
-    "term": "Purpose",
-    "to": "finalidad"
+   "phrase": "Referred Document Information",
+   "to": "Información del documento referido"
   },
   {
-    "term": "Authorisation",
-    "to": "autorización"
+   "phrase": "Unique Transaction Identifier",
+   "to": "Identificador único de operación"
   },
   {
-    "term": "Supplementary Data",
-    "to": "datos complementarios"
+   "phrase": "Mandate Related Information",
+   "to": "Información relacionada con el mandato"
   },
   {
-    "term": "Garnishment",
-    "to": "embargo"
+   "phrase": "Remittance Location Details",
+   "to": "Detalles de la ubicación de la remesa"
   },
   {
-    "term": "Message",
-    "to": "mensaje"
+   "phrase": "Exchange Rate Information",
+   "to": "Información del tipo de cambio"
   },
   {
-    "term": "Payment",
-    "to": "pago"
+   "phrase": "Payment Type Information",
+   "to": "Información del tipo de pago"
   },
   {
-    "term": "Party",
-    "to": "parte"
+   "phrase": "Referred Document Amount",
+   "to": "Importe del documento referido"
   },
   {
-    "term": "Financial Institution",
-    "to": "entidad financiera"
+   "phrase": "Requested Execution Date",
+   "to": "Fecha de ejecución solicitada"
   },
   {
-    "term": "Reference",
-    "to": "referencia"
+   "phrase": "Pooling Adjustment Date",
+   "to": "Fecha de ajuste de agrupación"
   },
   {
-    "term": "Identification",
-    "to": "identificación"
+   "phrase": "Credit Debit Indicator",
+   "to": "Indicador de crédito/débito"
   },
   {
-    "term": "Cheque",
-    "to": "cheque"
+   "phrase": "Creditor Agent Account",
+   "to": "Cuenta de la entidad del beneficiario"
   },
   {
-    "term": "Creation Date Time",
-    "to": "fecha y hora de creación"
+   "phrase": "Number Of Transactions",
+   "to": "Número de operaciones"
   },
   {
-    "term": "Reversal",
-    "to": "reversión",
-    "note": "Reversal of a settled payment (pain.007). Not 'anulación' (cancellation) or 'devolución' (return)."
+   "phrase": "Regional Clearing Zone",
+   "to": "Zona regional de compensación"
+  },
+  {
+   "phrase": "Charges Account Agent",
+   "to": "Entidad de la cuenta de cargos"
+  },
+  {
+   "phrase": "Requested Advice Type",
+   "to": "Tipo de aviso solicitado"
+  },
+  {
+   "phrase": "Cheque Maturity Date",
+   "to": "Fecha de vencimiento del cheque"
+  },
+  {
+   "phrase": "Country Of Residence",
+   "to": "País de residencia"
+  },
+  {
+   "phrase": "Country Sub Division",
+   "to": "Subdivisión del país"
+  },
+  {
+   "phrase": "Currency Of Transfer",
+   "to": "Divisa de la transferencia"
+  },
+  {
+   "phrase": "Date Of Verification",
+   "to": "Fecha de verificación"
+  },
+  {
+   "phrase": "Debtor Agent Account",
+   "to": "Cuenta de la entidad del ordenante"
+  },
+  {
+   "phrase": "Intermediary Agent 1",
+   "to": "Entidad intermediaria 1"
+  },
+  {
+   "phrase": "Intermediary Agent 2",
+   "to": "Entidad intermediaria 2"
+  },
+  {
+   "phrase": "Intermediary Agent 3",
+   "to": "Entidad intermediaria 3"
+  },
+  {
+   "phrase": "Code Or Proprietary",
+   "to": "Código o propietario"
+  },
+  {
+   "phrase": "Taxable Base Amount",
+   "to": "Base imponible"
+  },
+  {
+   "phrase": "Creation Date Time",
+   "to": "Fecha y hora de creación"
+  },
+  {
+   "phrase": "Final Payment Date",
+   "to": "Fecha del último pago"
+  },
+  {
+   "phrase": "First Payment Date",
+   "to": "Fecha del primer pago"
+  },
+  {
+   "phrase": "Town Location Name",
+   "to": "Nombre de la localidad"
+  },
+  {
+   "phrase": "Date Of Signature",
+   "to": "Fecha de la firma"
+  },
+  {
+   "phrase": "Province Of Birth",
+   "to": "Provincia de nacimiento"
+  },
+  {
+   "phrase": "Count Per Period",
+   "to": "Número por período"
+  },
+  {
+   "phrase": "Country Of Birth",
+   "to": "País de nacimiento"
+  },
+  {
+   "phrase": "Total Tax Amount",
+   "to": "Importe total del impuesto"
+  },
+  {
+   "phrase": "Place And Name",
+   "to": "Lugar y nombre"
+  },
+  {
+   "phrase": "City Of Birth",
+   "to": "Ciudad de nacimiento"
+  },
+  {
+   "phrase": "Point In Time",
+   "to": "Momento puntual"
+  },
+  {
+   "phrase": "From To Date",
+   "to": "Fecha desde-hasta"
+  },
+  {
+   "phrase": "Organisation Identification",
+   "to": "Identificación de la organización"
+  },
+  {
+   "phrase": "Registration Identification",
+   "to": "Identificación del registro"
+  },
+  {
+   "phrase": "Certificate Identification",
+   "to": "Identificación del certificado"
+  },
+  {
+   "phrase": "Instruction Identification",
+   "to": "Identificación de la instrucción"
+  },
+  {
+   "phrase": "Garnishment Administrator",
+   "to": "Administrador del embargo"
+  },
+  {
+   "phrase": "Remittance Identification",
+   "to": "Identificación de la remesa"
+  },
+  {
+   "phrase": "Contract Identification",
+   "to": "Identificación del contrato"
+  },
+  {
+   "phrase": "Instruction Information",
+   "to": "Información de la instrucción"
+  },
+  {
+   "phrase": "Additional Information",
+   "to": "Información adicional"
+  },
+  {
+   "phrase": "Garnishment Remittance",
+   "to": "Remesa de embargo"
+  },
+  {
+   "phrase": "Mandate Identification",
+   "to": "Identificación del mandato"
+  },
+  {
+   "phrase": "Message Identification",
+   "to": "Identificación del mensaje"
+  },
+  {
+   "phrase": "Payment Identification",
+   "to": "Identificación del pago"
+  },
+  {
+   "phrase": "Private Identification",
+   "to": "Identificación de persona física"
+  },
+  {
+   "phrase": "Remittance Information",
+   "to": "Información de remesa"
+  },
+  {
+   "phrase": "Branch Identification",
+   "to": "Identificación de la sucursal"
+  },
+  {
+   "phrase": "Financial Institution",
+   "to": "entidad financiera"
+  },
+  {
+   "phrase": "Member Identification",
+   "to": "Identificación del miembro"
+  },
+  {
+   "phrase": "Electronic Signature",
+   "to": "Firma electrónica"
+  },
+  {
+   "phrase": "Instruction Priority",
+   "to": "Prioridad de la instrucción"
+  },
+  {
+   "phrase": "Regulatory Reporting",
+   "to": "Información regulatoria"
+  },
+  {
+   "phrase": "Administration Zone",
+   "to": "Zona administrativa"
+  },
+  {
+   "phrase": "Payment Information",
+   "to": "Información del pago"
+  },
+  {
+   "phrase": "Cheque Instruction",
+   "to": "Instrucción de cheque"
+  },
+  {
+   "phrase": "Electronic Address",
+   "to": "Dirección electrónica"
+  },
+  {
+   "phrase": "Intermediary Agent",
+   "to": "entidad intermediaria"
+  },
+  {
+   "phrase": "Supplementary Data",
+   "to": "Datos complementarios"
+  },
+  {
+   "phrase": "Tax Identification",
+   "to": "Identificación fiscal"
+  },
+  {
+   "phrase": "Equivalent Amount",
+   "to": "Importe equivalente"
+  },
+  {
+   "phrase": "Initiation Source",
+   "to": "Origen de la iniciación"
+  },
+  {
+   "phrase": "Instructed Amount",
+   "to": "Importe instruido"
+  },
+  {
+   "phrase": "Ultimate Creditor",
+   "to": "Beneficiario final"
+  },
+  {
+   "phrase": "Category Details",
+   "to": "Detalles de la categoría"
+  },
+  {
+   "phrase": "Category Purpose",
+   "to": "Finalidad de la categoría"
+  },
+  {
+   "phrase": "Creditor Account",
+   "to": "Cuenta del beneficiario"
+  },
+  {
+   "phrase": "Forwarding Agent",
+   "to": "Entidad de reenvío"
+  },
+  {
+   "phrase": "Initiating Party",
+   "to": "Parte iniciadora"
+  },
+  {
+   "phrase": "Local Instrument",
+   "to": "Instrumento local"
+  },
+  {
+   "phrase": "Preferred Method",
+   "to": "Método preferido"
+  },
+  {
+   "phrase": "Reference Number",
+   "to": "Número de referencia"
+  },
+  {
+   "phrase": "Building Number",
+   "to": "Número del edificio"
+  },
+  {
+   "phrase": "Charges Account",
+   "to": "Cuenta de gastos"
+  },
+  {
+   "phrase": "Contact Details",
+   "to": "Datos de contacto"
+  },
+  {
+   "phrase": "Credit Transfer",
+   "to": "transferencia"
+  },
+  {
+   "phrase": "Delivery Method",
+   "to": "Método de entrega"
+  },
+  {
+   "phrase": "Remitted Amount",
+   "to": "Importe remesado"
+  },
+  {
+   "phrase": "Securities Data",
+   "to": "Datos de valores"
+  },
+  {
+   "phrase": "Sequence Number",
+   "to": "Número de secuencia"
+  },
+  {
+   "phrase": "Ultimate Debtor",
+   "to": "Ordenante final"
+  },
+  {
+   "phrase": "Creditor Agent",
+   "to": "Entidad del beneficiario"
+  },
+  {
+   "phrase": "Debtor Account",
+   "to": "Cuenta del ordenante"
+  },
+  {
+   "phrase": "Payment Method",
+   "to": "Método de pago"
+  },
+  {
+   "phrase": "Postal Address",
+   "to": "Dirección postal"
+  },
+  {
+   "phrase": "Print Location",
+   "to": "Lugar de impresión"
+  },
+  {
+   "phrase": "Reporting Code",
+   "to": "Código de declaración"
+  },
+  {
+   "phrase": "Sub Department",
+   "to": "Subdepartamento"
+  },
+  {
+   "phrase": "Tax Remittance",
+   "to": "Remesa de impuestos"
+  },
+  {
+   "phrase": "Batch Booking",
+   "to": "Lote"
+  },
+  {
+   "phrase": "Building Name",
+   "to": "Nombre del edificio"
+  },
+  {
+   "phrase": "Charge Bearer",
+   "to": "Gastos"
+  },
+  {
+   "phrase": "Cheque Number",
+   "to": "Número de cheque"
+  },
+  {
+   "phrase": "Credit Advice",
+   "to": "Aviso de abono"
+  },
+  {
+   "phrase": "Debtor Status",
+   "to": "Situación del ordenante"
+  },
+  {
+   "phrase": "District Name",
+   "to": "Nombre del distrito"
+  },
+  {
+   "phrase": "Email Address",
+   "to": "Dirección de correo electrónico"
+  },
+  {
+   "phrase": "Email Purpose",
+   "to": "Finalidad del correo electrónico"
+  },
+  {
+   "phrase": "Exchange Rate",
+   "to": "Tipo de cambio"
+  },
+  {
+   "phrase": "Mobile Number",
+   "to": "Número de móvil"
+  },
+  {
+   "phrase": "Service Level",
+   "to": "Nivel de servicio"
+  },
+  {
+   "phrase": "Unit Currency",
+   "to": "Divisa unitaria"
+  },
+  {
+   "phrase": "Address Line",
+   "to": "Línea de dirección"
+  },
+  {
+   "phrase": "Address Type",
+   "to": "Tipo de dirección"
+  },
+  {
+   "phrase": "Channel Type",
+   "to": "Tipo de canal"
+  },
+  {
+   "phrase": "Debit Advice",
+   "to": "Aviso de adeudo"
+  },
+  {
+   "phrase": "Debtor Agent",
+   "to": "Entidad del ordenante"
+  },
+  {
+   "phrase": "Group Header",
+   "to": "Cabecera del grupo"
+  },
+  {
+   "phrase": "Line Details",
+   "to": "Detalles de la línea"
+  },
+  {
+   "phrase": "Phone Number",
+   "to": "Número de teléfono"
+  },
+  {
+   "phrase": "Related Date",
+   "to": "Fecha relacionada"
+  },
+  {
+   "phrase": "Total Amount",
+   "to": "Importe total"
+  },
+  {
+   "phrase": "Cheque From",
+   "to": "Cheque de"
+  },
+  {
+   "phrase": "Cheque Type",
+   "to": "Tipo de cheque"
+  },
+  {
+   "phrase": "Control Sum",
+   "to": "Suma de control"
+  },
+  {
+   "phrase": "Name Prefix",
+   "to": "Tratamiento"
+  },
+  {
+   "phrase": "Scheme Name",
+   "to": "Nombre del esquema"
+  },
+  {
+   "phrase": "Street Name",
+   "to": "Nombre de la calle"
+  },
+  {
+   "phrase": "Unit Number",
+   "to": "Número de unidad"
+  },
+  {
+   "phrase": "URL Address",
+   "to": "Dirección URL"
+  },
+  {
+   "phrase": "Birth Date",
+   "to": "Fecha de nacimiento"
+  },
+  {
+   "phrase": "Deliver To",
+   "to": "Entregar a"
+  },
+  {
+   "phrase": "Fax Number",
+   "to": "Número de fax"
+  },
+  {
+   "phrase": "Forms Code",
+   "to": "Código de formulario"
+  },
+  {
+   "phrase": "Memo Field",
+   "to": "Campo de nota"
+  },
+  {
+   "phrase": "Tax Amount",
+   "to": "Importe del impuesto"
+  },
+  {
+   "phrase": "Date Time",
+   "to": "Fecha y hora"
+  },
+  {
+   "phrase": "From Date",
+   "to": "Desde fecha"
+  },
+  {
+   "phrase": "Job Title",
+   "to": "Cargo"
+  },
+  {
+   "phrase": "Post Code",
+   "to": "Código postal"
+  },
+  {
+   "phrase": "Rate Type",
+   "to": "Tipo de tasa"
+  },
+  {
+   "phrase": "Town Name",
+   "to": "Nombre de la localidad"
+  },
+  {
+   "phrase": "Post Box",
+   "to": "Apartado de correos"
+  },
+  {
+   "phrase": "Tax Type",
+   "to": "Tipo de impuesto"
+  },
+  {
+   "phrase": "Any BIC",
+   "to": "Cualquier BIC"
+  },
+  {
+   "phrase": "Care Of",
+   "to": "A la atención de"
+  },
+  {
+   "phrase": "To Date",
+   "to": "Hasta fecha"
+  },
+  {
+   "phrase": "Classification",
+   "to": "Clasificación"
+  },
+  {
+   "phrase": "Identification",
+   "to": "Identificación"
+  },
+  {
+   "phrase": "Responsibility",
+   "to": "Responsabilidad"
+  },
+  {
+   "phrase": "Authorisation",
+   "to": "Autorización"
+  },
+  {
+   "phrase": "Unstructured",
+   "to": "No estructurado"
+  },
+  {
+   "phrase": "Description",
+   "to": "Descripción"
+  },
+  {
+   "phrase": "Garnishment",
+   "to": "embargo"
+  },
+  {
+   "phrase": "Information",
+   "to": "Información"
+  },
+  {
+   "phrase": "Instruction",
+   "to": "instrucción"
+  },
+  {
+   "phrase": "Proprietary",
+   "to": "Propietario"
+  },
+  {
+   "phrase": "Transaction",
+   "to": "operación"
+  },
+  {
+   "phrase": "Department",
+   "to": "Departamento"
+  },
+  {
+   "phrase": "Structured",
+   "to": "Estructurado"
+  },
+  {
+   "phrase": "Authority",
+   "to": "Autoridad"
+  },
+  {
+   "phrase": "Frequency",
+   "to": "Frecuencia"
+  },
+  {
+   "phrase": "Garnishee",
+   "to": "Embargado"
+  },
+  {
+   "phrase": "Reference",
+   "to": "Referencia"
+  },
+  {
+   "phrase": "Signature",
+   "to": "Firma"
+  },
+  {
+   "phrase": "Category",
+   "to": "Categoría"
+  },
+  {
+   "phrase": "Creditor",
+   "to": "Beneficiario"
+  },
+  {
+   "phrase": "Currency",
+   "to": "Divisa"
+  },
+  {
+   "phrase": "Envelope",
+   "to": "Sobre"
+  },
+  {
+   "phrase": "Invoicee",
+   "to": "Destinatario de la factura"
+  },
+  {
+   "phrase": "Invoicer",
+   "to": "Emisor de la factura"
+  },
+  {
+   "phrase": "Provider",
+   "to": "Proveedor"
+  },
+  {
+   "phrase": "Reversal",
+   "to": "reversión"
+  },
+  {
+   "phrase": "Account",
+   "to": "cuenta"
+  },
+  {
+   "phrase": "Address",
+   "to": "Dirección"
+  },
+  {
+   "phrase": "Country",
+   "to": "País"
+  },
+  {
+   "phrase": "Details",
+   "to": "Detalles"
+  },
+  {
+   "phrase": "Mandate",
+   "to": "mandato"
+  },
+  {
+   "phrase": "Message",
+   "to": "mensaje"
+  },
+  {
+   "phrase": "Payment",
+   "to": "pago"
+  },
+  {
+   "phrase": "Purpose",
+   "to": "Finalidad"
+  },
+  {
+   "phrase": "Version",
+   "to": "Versión"
+  },
+  {
+   "phrase": "Amount",
+   "to": "Importe"
+  },
+  {
+   "phrase": "Cheque",
+   "to": "cheque"
+  },
+  {
+   "phrase": "Debtor",
+   "to": "Ordenante"
+  },
+  {
+   "phrase": "Issuer",
+   "to": "Emisor"
+  },
+  {
+   "phrase": "Method",
+   "to": "Método"
+  },
+  {
+   "phrase": "Number",
+   "to": "Número"
+  },
+  {
+   "phrase": "Period",
+   "to": "Período"
+  },
+  {
+   "phrase": "Reason",
+   "to": "Motivo"
+  },
+  {
+   "phrase": "Record",
+   "to": "Registro"
+  },
+  {
+   "phrase": "BICFI",
+   "to": "BICFI"
+  },
+  {
+   "phrase": "Floor",
+   "to": "Planta"
+  },
+  {
+   "phrase": "Other",
+   "to": "Otro"
+  },
+  {
+   "phrase": "Party",
+   "to": "parte"
+  },
+  {
+   "phrase": "Proxy",
+   "to": "Representante"
+  },
+  {
+   "phrase": "Title",
+   "to": "Título"
+  },
+  {
+   "phrase": "Code",
+   "to": "Código"
+  },
+  {
+   "phrase": "Date",
+   "to": "Fecha"
+  },
+  {
+   "phrase": "IBAN",
+   "to": "IBAN"
+  },
+  {
+   "phrase": "Name",
+   "to": "Nombre"
+  },
+  {
+   "phrase": "Rate",
+   "to": "Tipo"
+  },
+  {
+   "phrase": "Room",
+   "to": "Habitación"
+  },
+  {
+   "phrase": "Type",
+   "to": "Tipo"
+  },
+  {
+   "phrase": "UETR",
+   "to": "UETR"
+  },
+  {
+   "phrase": "Year",
+   "to": "Año"
+  },
+  {
+   "phrase": "LEI",
+   "to": "LEI"
+  },
+  {
+   "phrase": "Tax",
+   "to": "Impuestos"
   }
-]
+ ]
+}
