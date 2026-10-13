@@ -1,0 +1,33 @@
+{
+  "isoType": "CreditTransferMandateData1",
+  "definition": "Proporciona detalles adicionales relacionados con un mandato de transferencia firmado entre el beneficiario y el ordenante.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificación única, asignada por el beneficiario, para identificar inequívocamente el mandato."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de mandato, como en papel, electrónico o de esquema."
+    },
+    "DateOfSignature": {
+      "definition": "Fecha en la que el ordenante firmó el mandato de transferencia."
+    },
+    "DateOfVerification": {
+      "definition": "Fecha en la que se verificó el mandato de transferencia."
+    },
+    "ElectronicSignature": {
+      "definition": "Disposiciones de seguridad adicionales, como una firma digital, proporcionadas por el ordenante."
+    },
+    "FirstPaymentDate": {
+      "definition": "Fecha del primer pago de una transferencia recurrente según el mandato."
+    },
+    "FinalPaymentDate": {
+      "definition": "Fecha del último pago de una transferencia recurrente según el mandato."
+    },
+    "Frequency": {
+      "definition": "Periodicidad con la que deben crearse y procesarse las instrucciones de transferencia."
+    },
+    "Reason": {
+      "definition": "Motivo de la constitución del mandato de transferencia.||Uso: |el motivo permitirá al usuario distinguir entre distintos mandatos para el mismo beneficiario."
+    }
+  }
+}

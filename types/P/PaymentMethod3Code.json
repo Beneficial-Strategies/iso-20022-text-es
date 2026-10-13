@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentMethod3Code",
+  "definition": "Especifica el método de transferencia que se utilizará para transferir un importe de dinero.",
+  "isoCodes": {
+    "CHK": {
+      "name": "Cheque",
+      "definition": "Orden escrita dirigida a un banco para pagar una cantidad determinada de dinero de una persona a otra."
+    },
+    "TRF": {
+      "name": "Transferencia",
+      "definition": "Transferencia de una cantidad de dinero en los libros de la entidad gestora de la cuenta."
+    },
+    "TRA": {
+      "name": "Aviso de transferencia",
+      "definition": "Transferencia de una cantidad de dinero en los libros de la entidad gestora de la cuenta. Debe enviarse un aviso al titular de la cuenta."
+    }
+  }
+}

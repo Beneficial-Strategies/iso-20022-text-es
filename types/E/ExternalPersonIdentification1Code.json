@@ -1,0 +1,49 @@
+{
+  "isoType": "ExternalPersonIdentification1Code",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Número de registro de extranjero",
+      "definition": "Número asignado por un organismo de la seguridad social para identificar a una persona no residente."
+    },
+    "CCPT": {
+      "name": "Número de pasaporte",
+      "definition": "Número asignado por una autoridad para identificar el número de pasaporte de una persona."
+    },
+    "CUST": {
+      "name": "Número de identificación de cliente",
+      "definition": "Número asignado por un emisor para identificar a un cliente."
+    },
+    "DRLC": {
+      "name": "Número de permiso de conducir",
+      "definition": "Número asignado por una autoridad para identificar un permiso de conducir."
+    },
+    "EMPL": {
+      "name": "Número de identificación de empleado",
+      "definition": "Número asignado por una autoridad de registro a un empleado."
+    },
+    "NIDN": {
+      "name": "Número de identidad nacional",
+      "definition": "Número asignado por una autoridad para identificar el número de identidad nacional de una persona."
+    },
+    "SOSE": {
+      "name": "Número de la Seguridad Social",
+      "definition": "Número asignado por una autoridad para identificar el número de la seguridad social de una persona."
+    },
+    "TELE": {
+      "name": "Número de teléfono",
+      "definition": "Número asignado por un operador de telefonía fija o móvil para identificar a una persona. Una persona puede tener varios números de teléfono."
+    },
+    "TXID": {
+      "name": "Número de identificación fiscal",
+      "definition": "Número asignado por una autoridad tributaria para identificar a una persona."
+    },
+    "POID": {
+      "name": "Identificación comercial de persona",
+      "definition": "Identificación comercial de la persona."
+    },
+    "BANK": {
+      "name": "Identificación de parte bancaria",
+      "definition": "Asignación única e inequívoca realizada por un banco concreto o una entidad financiera similar para identificar una relación definida entre el banco y su cliente."
+    }
+  }
+}

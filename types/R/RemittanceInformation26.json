@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceInformation26",
+  "definition": "Información proporcionada para permitir la correspondencia y la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Información suministrada para permitir la correspondencia y la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar, en forma no estructurada."
+    },
+    "Structured": {
+      "definition": "Información proporcionada para permitir la correspondencia y la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar, de forma estructurada."
+    }
+  }
+}

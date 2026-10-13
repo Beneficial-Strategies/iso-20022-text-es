@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentAmountType1Choice",
+  "definition": "Especifica el tipo de importe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el tipo de importe, según se publica en un conjunto externo de códigos de importes referenciados."
+    },
+    "Proprietary": {
+      "definition": "Especifica el tipo de importe, en forma de texto libre."
+    }
+  }
+}

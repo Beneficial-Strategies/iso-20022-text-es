@@ -1,0 +1,12 @@
+{
+  "isoType": "CategoryPurpose1Choice",
+  "definition": "Especifica la finalidad de alto nivel de la instrucción basada en un conjunto de categorías predefinidas.|Uso: Lo utiliza la parte iniciadora para proporcionar información sobre el procesamiento del pago. Es probable que desencadene un procesamiento especial por parte de cualquiera de las entidades que intervienen en la cadena de pago.",
+  "isoElements": {
+    "Code": {
+      "definition": "Finalidad de la categoría, según se publica en una lista externa de códigos de finalidad de categoría."
+    },
+    "Proprietary": {
+      "definition": "Finalidad de la categoría, en forma propietaria."
+    }
+  }
+}

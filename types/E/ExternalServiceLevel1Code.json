@@ -1,0 +1,121 @@
+{
+  "isoType": "ExternalServiceLevel1Code",
+  "isoCodes": {
+    "BKTR": {
+      "name": "Operación contable",
+      "definition": "Pago mediante transferencia contable interna."
+    },
+    "G001": {
+      "name": "Transferencia de cliente con seguimiento",
+      "definition": "Transferencia de crédito de cliente con seguimiento."
+    },
+    "G002": {
+      "name": "Detención y retirada con seguimiento",
+      "definition": "Detención y recuperación con seguimiento."
+    },
+    "G003": {
+      "name": "Transferencia corporativa saliente con seguimiento",
+      "definition": "Transferencia corporativa saliente con seguimiento."
+    },
+    "G004": {
+      "name": "Transferencia entre entidades financieras con seguimiento",
+      "definition": "Transferencia entre entidades financieras con seguimiento."
+    },
+    "NPCA": {
+      "name": "Transferencia en el área del Consejo de Pagos Nórdico",
+      "definition": "Los pagos deben ejecutarse conforme al esquema de pago NPC Area."
+    },
+    "NUGP": {
+      "name": "Pago prioritario no urgente",
+      "definition": "El pago debe ejecutarse como una operación no urgente con liquidación prioritaria."
+    },
+    "NURG": {
+      "name": "Pago no urgente",
+      "definition": "El pago debe ejecutarse como una operación no urgente, que normalmente se identifica como una operación ACH o de bajo valor."
+    },
+    "PRPT": {
+      "name": "Servicio prioritario EBA",
+      "definition": "La operación debe procesarse conforme al EBA Priority Service."
+    },
+    "SDVA": {
+      "name": "Valor mismo día",
+      "definition": "El pago debe ejecutarse con fecha valor del mismo día para el beneficiario."
+    },
+    "SEPA": {
+      "name": "Espacio único de pagos en euros",
+      "definition": "El pago debe ejecutarse conforme al esquema de la Zona Única de Pagos en Euros."
+    },
+    "SVDE": {
+      "name": "Compensación y liquidación nacional de cheques",
+      "definition": "Ejecución del pago conforme al acuerdo sobre cheques y cheques de viaje del Comité Alemán del Sector Bancario (Die Deutsche Kreditwirtschaft - DK) y del Deutsche Bundesbank – Scheck Verrechnung Deutschland."
+    },
+    "URGP": {
+      "name": "Pago urgente",
+      "definition": "El pago debe ejecutarse como una operación urgente compensada a través de un sistema de liquidación bruta en tiempo real, que normalmente se identifica como una transferencia o una operación de alto valor."
+    },
+    "URNS": {
+      "name": "Liquidación neta de pago urgente",
+      "definition": "El pago debe ejecutarse como una operación urgente compensada a través de un sistema de liquidación neta en tiempo real, que normalmente se identifica como una transferencia o una operación de alto valor."
+    },
+    "INST": {
+      "name": "Transferencia inmediata o adeudo directo inmediato",
+      "definition": "Utilizado en la iniciación de pagos para identificar que un pago o una iniciación de adeudo directo debe ejecutarse como instrumento de pago instantáneo o en tiempo real."
+    },
+    "SRTP": {
+      "name": "Servicio de solicitud de pago",
+      "definition": "La operación de solicitud de pago (Request to Pay, RTP) se refiere a un esquema RTP (como, por ejemplo, el esquema SEPA Request to Pay (SRTP))."
+    },
+    "SVAT": {
+      "name": "Scheck-Verarbeitung Austria",
+      "definition": "Scheck Verarbeitung Austria (tramitación de cheques)."
+    },
+    "G006": {
+      "name": "Gestión de casos con seguimiento",
+      "definition": "Especifica las condiciones de servicio aplicables a un caso de excepciones e investigaciones con seguimiento."
+    },
+    "G007": {
+      "name": "Transferencia de cliente entrante con seguimiento",
+      "definition": "Especifica el nivel de servicio de una transferencia de crédito de cliente entrante con seguimiento."
+    },
+    "G005": {
+      "name": "Transferencia inmediata de cliente con seguimiento",
+      "definition": "Transferencia de crédito instantánea de cliente con seguimiento."
+    },
+    "G009": {
+      "name": "Transferencia transfronteriza de cliente de bajo valor con seguimiento",
+      "definition": "Especifica el nivel de servicio de una transferencia de crédito de cliente transfronteriza de bajo valor con seguimiento."
+    },
+    "WFSM": {
+      "name": "Esperar a la liquidación",
+      "definition": "La operación debe tratarse como un aviso y aplicarse a la cuenta del beneficiario o de la siguiente entidad únicamente después de que se haya confirmado la liquidación de la cobertura."
+    },
+    "EOLO": {
+      "name": "Euro One Leg Out",
+      "definition": "El pago se ejecuta conforme a un esquema Euro One-Leg Out."
+    },
+    "SPLI": {
+      "name": "Pago fraccionado",
+      "definition": "Un pago fraccionado es un pago que se divide en varios pagos de menor valor, en concreto con la finalidad de cumplir los umbrales de importe máximo aplicables a algunas infraestructuras nacionales del mercado de pagos o de reducir el riesgo de liquidez de la contraparte."
+    },
+    "IRCA": {
+      "name": "Área del Consejo del Reglamento de Islandia",
+      "definition": "El pago debe ejecutarse conforme al esquema Icelandic Rulebook Council Area (IRCA)."
+    },
+    "EAPS": {
+      "name": "Sistema de pagos de África Oriental",
+      "definition": "Identifica los pagos ejecutados en el marco del East African Payment System (EAPS), el esquema regional transfronterizo de liquidación operado por los bancos centrales de la EAC."
+    },
+    "SPSC": {
+      "name": "Esquema Swift",
+      "definition": "La operación debe procesarse conforme al reglamento del esquema Swift."
+    },
+    "SD01": {
+      "name": "Servicio digital Swift (Swift Ledger)",
+      "definition": "Las operaciones con activos digitales deben procesarse conforme a las reglas Swift Ledger."
+    },
+    "NOLO": {
+      "name": "NPC One Leg Out",
+      "definition": "El pago se ejecuta conforme al esquema NPC One-Leg Out."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentInitiationSource1",
+  "definition": "Especifica el origen utilizado para iniciar el pago (como una aplicación o un software).",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre de la aplicación o del software utilizado para iniciar el pago."
+    },
+    "Provider": {
+      "definition": "Proveedor de la aplicación o del software utilizado para iniciar el pago."
+    },
+    "Version": {
+      "definition": "Versión de la aplicación o del software utilizado para iniciar el pago."
+    }
+  }
+}

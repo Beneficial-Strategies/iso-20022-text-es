@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1",
+  "definition": "Especifica el tipo de embargo.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Proporciona los detalles del tipo de embargo."
+    },
+    "Issuer": {
+      "definition": "Identificación del emisor del tipo de embargo."
+    }
+  }
+}

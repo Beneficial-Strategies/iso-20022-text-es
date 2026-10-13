@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1Choice",
+  "definition": "Especifica el tipo de embargo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de embargo en forma codificada. Se sugiere que sea una lista externa de códigos que contenga: GNCS    Embargo de un pagador tercero por manutención de menores GNDP    Embargo de un pagador directo por manutención de menores GTPP     Embargo de un pagador tercero a un organismo tributario."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de embargo."
+    }
+  }
+}

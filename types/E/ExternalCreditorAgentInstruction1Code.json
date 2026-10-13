@@ -1,0 +1,61 @@
+{
+  "isoType": "ExternalCreditorAgentInstruction1Code",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Pagar al beneficiario mediante cheque",
+      "definition": "El beneficiario (final) debe ser pagado mediante cheque."
+    },
+    "HOLD": {
+      "name": "Retener efectivo para el beneficiario",
+      "definition": "Debe retenerse el importe a disposición del beneficiario (final), que lo reclamará. Pagar previa identificación."
+    },
+    "PHOB": {
+      "name": "Llamar al beneficiario",
+      "definition": "Se ruega avisar o contactar con el beneficiario (final) o reclamante por teléfono."
+    },
+    "PRTK": {
+      "name": "Token del pagador solicitado",
+      "definition": "Indica que se solicita o utiliza un token del pagador."
+    },
+    "RECI": {
+      "name": "Información del cliente receptor",
+      "definition": "Información adicional sobre el destinatario previsto."
+    },
+    "TELB": {
+      "name": "Telecomunicaciones",
+      "definition": "Se ruega avisar o contactar con el beneficiario (final) o reclamante por el medio de telecomunicación más eficaz."
+    },
+    "TKCM": {
+      "name": "Token: discrepancia de contraparte",
+      "definition": "Token encontrado con discrepancia de contraparte."
+    },
+    "TKSG": {
+      "name": "Token de un solo uso",
+      "definition": "Token de un solo uso ya utilizado."
+    },
+    "TKSP": {
+      "name": "Token suspendido",
+      "definition": "Token encontrado con estado suspendido."
+    },
+    "TKVE": {
+      "name": "Límite de valor del token excedido",
+      "definition": "Token encontrado con infracción de la regla de límite de valor."
+    },
+    "TKXP": {
+      "name": "Token caducado",
+      "definition": "Token caducado."
+    },
+    "TOKN": {
+      "name": "Token",
+      "definition": "Información del token."
+    },
+    "VLTK": {
+      "name": "Validación de token",
+      "definition": "Información de validación adicional que debe utilizarse junto con el token."
+    },
+    "SEID": {
+      "name": "Identificación secundaria",
+      "definition": "Uso de la identificación secundaria de la cuenta del beneficiario (que puede referirse a la cuenta de cobro de la oficina central, al número de registro de una sociedad de crédito hipotecario o al número de cuenta principal de una tarjeta de crédito)."
+    }
+  }
+}

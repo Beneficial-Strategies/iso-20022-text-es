@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericAccountIdentification1",
+  "definition": "Información relacionada con una identificación genérica de cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación asignada por una institución."
+    },
+    "SchemeName": {
+      "definition": "Nombre del esquema de identificación."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    }
+  }
+}

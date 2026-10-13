@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndType1",
+  "definition": "Especifica la fecha y el tipo asociados al documento referido.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de fecha asociada al documento referenciado."
+    },
+    "Date": {
+      "definition": "Fecha asociada al documento referenciado."
+    }
+  }
+}

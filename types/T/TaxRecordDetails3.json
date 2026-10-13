@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxRecordDetails3",
+  "definition": "Proporciona información sobre el importe o los importes individuales del impuesto por período del registro fiscal.",
+  "isoElements": {
+    "Period": {
+      "definition": "Conjunto de elementos utilizados para proporcionar detalles sobre el período de tiempo relacionado con el pago del impuesto."
+    },
+    "Amount": {
+      "definition": "Importe fiscal subyacente relacionado con el período especificado."
+    }
+  }
+}

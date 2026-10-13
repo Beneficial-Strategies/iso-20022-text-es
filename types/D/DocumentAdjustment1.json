@@ -1,0 +1,18 @@
+{
+  "isoType": "DocumentAdjustment1",
+  "definition": "Conjunto de elementos utilizados para proporcionar información sobre el importe y el motivo del ajuste del documento.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del ajuste del documento."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el ajuste debe restarse o sumarse al importe total."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo del ajuste."
+    },
+    "AdditionalInformation": {
+      "definition": "Proporciona más detalles sobre el ajuste del documento."
+    }
+  }
+}

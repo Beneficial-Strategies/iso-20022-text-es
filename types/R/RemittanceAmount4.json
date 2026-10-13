@@ -1,0 +1,17 @@
+{
+  "isoType": "RemittanceAmount4",
+  "definition": "Proporciona detalles sobre los importes del documento referido.",
+  "isoElements": {
+    "RemittanceAmountAndType": {
+      "definition": "Tipo e importe de dinero del documento referenciado."
+    },
+    "AdjustmentAmountAndReason": {
+      "definition": "Especifica información detallada sobre el importe y el motivo del ajuste."
+    }
+  },
+  "isoRules": {
+    "RemittanceAmountAndTypeGuideline": {
+      "definition": "Si Type/Code es igual a CREN, DUPA o REMI para RemittanceAmountAndType, RemittanceAmountAndType no debe repetirse."
+    }
+  }
+}

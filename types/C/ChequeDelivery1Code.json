@@ -1,0 +1,54 @@
+{
+  "isoType": "ChequeDelivery1Code",
+  "definition": "Especifica el método que se utilizará para entregar un cheque a una parte.",
+  "isoCodes": {
+    "MLDB": {
+      "name": "Correo al ordenante",
+      "definition": "El cheque se enviará por servicios postales al ordenante."
+    },
+    "MLCD": {
+      "name": "Correo al beneficiario",
+      "definition": "El cheque se enviará por servicios postales al beneficiario."
+    },
+    "MLFA": {
+      "name": "Correo a la entidad final",
+      "definition": "El cheque se enviará por servicios postales a la entidad del beneficiario."
+    },
+    "CRDB": {
+      "name": "Mensajería al ordenante",
+      "definition": "El cheque se enviará por servicios de mensajería al ordenante."
+    },
+    "CRCD": {
+      "name": "Mensajería al beneficiario",
+      "definition": "El cheque se enviará por servicios de mensajería al beneficiario."
+    },
+    "CRFA": {
+      "name": "Mensajería a la entidad final",
+      "definition": "El cheque se enviará por servicios de mensajería a la entidad del beneficiario."
+    },
+    "PUDB": {
+      "name": "Recogida por el ordenante",
+      "definition": "El cheque será recogido por el ordenante."
+    },
+    "PUCD": {
+      "name": "Recogida por el beneficiario",
+      "definition": "El cheque será recogido por el beneficiario."
+    },
+    "PUFA": {
+      "name": "Recogida por la entidad final",
+      "definition": "El cheque será recogido por la entidad del beneficiario."
+    },
+    "RGDB": {
+      "name": "Correo certificado al ordenante",
+      "definition": "El cheque se enviará por servicios de correo certificado al ordenante."
+    },
+    "RGCD": {
+      "name": "Correo certificado al beneficiario",
+      "definition": "El cheque se enviará por servicios de correo certificado al beneficiario."
+    },
+    "RGFA": {
+      "name": "Correo certificado a la entidad final",
+      "definition": "El cheque se enviará por servicios de correo certificado a la entidad del beneficiario."
+    }
+  }
+}

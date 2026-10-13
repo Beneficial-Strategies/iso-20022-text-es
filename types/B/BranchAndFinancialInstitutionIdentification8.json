@@ -1,0 +1,12 @@
+{
+  "isoType": "BranchAndFinancialInstitutionIdentification8",
+  "definition": "Identificación única e inequívoca de una entidad financiera o de una sucursal de una entidad financiera.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "definition": "Identificación única e inequívoca de una entidad financiera, asignada con arreglo a un esquema de identificación reconocido internacionalmente o propietario."
+    },
+    "BranchIdentification": {
+      "definition": "Identifica una sucursal concreta de una entidad financiera.||Uso: este componente debe utilizarse cuando la información de identificación del componente de entidad financiera no permita identificar hasta el nivel de sucursal."
+    }
+  }
+}

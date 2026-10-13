@@ -1,0 +1,15 @@
+{
+  "isoType": "RemittanceLocationData2",
+  "definition": "Proporciona detalles adicionales sobre el aviso de remesa.",
+  "isoElements": {
+    "Method": {
+      "definition": "Método utilizado para entregar la información del aviso de remesa."
+    },
+    "ElectronicAddress": {
+      "definition": "Dirección electrónica a la que una entidad debe enviar la información de remesa."
+    },
+    "PostalAddress": {
+      "definition": "Dirección postal a la que una entidad debe enviar la información de remesa."
+    }
+  }
+}

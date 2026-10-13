@@ -1,0 +1,12 @@
+{
+  "isoType": "ProxyAccountIdentification1",
+  "definition": "Información relacionada con una identificación de alias de la cuenta.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de la identificación del alias."
+    },
+    "Identification": {
+      "definition": "Identificación utilizada para indicar la identificación de la cuenta bajo otro nombre especificado."
+    }
+  }
+}

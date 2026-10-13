@@ -1,0 +1,78 @@
+{
+  "isoType": "TaxRecordPeriod1Code",
+  "definition": "Especifica el período relacionado con el pago del impuesto.",
+  "isoCodes": {
+    "MM01": {
+      "name": "Primer mes",
+      "definition": "El impuesto se refiere al segundo mes del período."
+    },
+    "MM02": {
+      "name": "Segundo mes",
+      "definition": "El impuesto se refiere al primer mes del período."
+    },
+    "MM03": {
+      "name": "Tercer mes",
+      "definition": "El impuesto se refiere al tercer mes del período."
+    },
+    "MM04": {
+      "name": "Cuarto mes",
+      "definition": "El impuesto se refiere al cuarto mes del período."
+    },
+    "MM05": {
+      "name": "Quinto mes",
+      "definition": "El impuesto se refiere al quinto mes del período."
+    },
+    "MM06": {
+      "name": "Sexto mes",
+      "definition": "El impuesto se refiere al sexto mes del período."
+    },
+    "MM07": {
+      "name": "Séptimo mes",
+      "definition": "El impuesto se refiere al séptimo mes del período."
+    },
+    "MM08": {
+      "name": "Octavo mes",
+      "definition": "El impuesto se refiere al octavo mes del período."
+    },
+    "MM09": {
+      "name": "Noveno mes",
+      "definition": "El impuesto se refiere al noveno mes del período."
+    },
+    "MM10": {
+      "name": "Décimo mes",
+      "definition": "El impuesto se refiere al décimo mes del período."
+    },
+    "MM11": {
+      "name": "Undécimo mes",
+      "definition": "El impuesto se refiere al undécimo mes del período."
+    },
+    "MM12": {
+      "name": "Duodécimo mes",
+      "definition": "El impuesto se refiere al duodécimo mes del período."
+    },
+    "QTR1": {
+      "name": "Primer trimestre",
+      "definition": "El impuesto se refiere al primer trimestre del período."
+    },
+    "QTR2": {
+      "name": "Segundo trimestre",
+      "definition": "El impuesto se refiere al segundo trimestre del período."
+    },
+    "QTR3": {
+      "name": "Tercer trimestre",
+      "definition": "El impuesto se refiere al tercer trimestre del período."
+    },
+    "QTR4": {
+      "name": "Cuarto trimestre",
+      "definition": "El impuesto se refiere al cuarto trimestre del período."
+    },
+    "HLF1": {
+      "name": "Primera mitad",
+      "definition": "El impuesto se refiere a la primera mitad del período."
+    },
+    "HLF2": {
+      "name": "Segunda mitad",
+      "definition": "El impuesto se refiere a la segunda mitad del período."
+    }
+  }
+}

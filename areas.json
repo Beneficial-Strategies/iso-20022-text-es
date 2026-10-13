@@ -1,0 +1,51 @@
+{
+  "isoAreas": {
+    "acmt": {
+      "name": "Gestión de cuentas",
+      "definition": "Mensajes que respaldan la gestión de actividades relacionadas con cuentas, como la apertura y el mantenimiento de una cuenta."
+    },
+    "admi": {
+      "name": "Administración",
+      "definition": "Mensajes genéricos, es decir, notificaciones de eventos del sistema, rechazos genéricos, etc."
+    },
+    "caam": {
+      "name": "Gestión de cajeros automáticos",
+      "definition": "Mensajes que respaldan los servicios de gestión de terminales relacionados con tarjetas entre un cajero automático (ATM) y un adquirente."
+    },
+    "camt": {
+      "name": "Gestión de efectivo",
+      "definition": "Mensajes que respaldan la comunicación y el aviso del lado de efectivo de cualquier operación financiera, incluidos los movimientos de efectivo, las operaciones y los saldos, además de cualquier excepción e investigación relacionada con operaciones de efectivo."
+    },
+    "head": {
+      "name": "Cabecera de aplicación comercial",
+      "definition": "Cabecera que contiene información comercial relevante antes de procesar un mensaje."
+    },
+    "pacs": {
+      "name": "Compensación y liquidación de pagos",
+      "definition": "Mensajes que respaldan los procesos de compensación y liquidación de operaciones de pago entre entidades financieras."
+    },
+    "pain": {
+      "name": "Iniciación de pagos",
+      "definition": "Mensajes que respaldan la iniciación de un pago desde el cliente ordenante hacia una entidad financiera que administra una cuenta de efectivo, y la comunicación de su estado."
+    },
+    "remt": {
+      "name": "Avisos de remesa de pagos",
+      "definition": "Mensajes que respaldan la comunicación entre acreedores y deudores sobre los detalles de remesa asociados a los pagos."
+    },
+    "seev": {
+      "name": "Eventos de valores",
+      "definition": "Mensajes que respaldan la gestión de activos, incluidos el voto por poderes, los ingresos y las operaciones societarias."
+    },
+    "semt": {
+      "name": "Gestión de valores",
+      "definition": "Mensajes que respaldan los procesos posteriores a la liquidación de valores (incluida la información sobre movimientos, operaciones y saldos de valores), los procesos necesarios para proteger los derechos del beneficiario final durante la liquidación, así como las excepciones e investigaciones relacionadas con operaciones con valores."
+    },
+    "sese": {
+      "name": "Liquidación de valores",
+      "definition": "Mensajes que respaldan el proceso de liquidación de valores e informan de su estado y confirmación."
+    },
+    "trck": {
+      "name": "Seguimiento de transacciones"
+    }
+  }
+}

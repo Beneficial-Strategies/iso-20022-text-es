@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentLineIdentification1",
+  "definition": "Identifica los documentos a los que se hace referencia en la información de remesa.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de identificación de la línea del documento referenciado."
+    },
+    "Number": {
+      "definition": "Identificación del tipo especificado para la línea del documento referenciado."
+    },
+    "RelatedDate": {
+      "definition": "Fecha asociada a la línea del documento referenciado."
+    }
+  }
+}

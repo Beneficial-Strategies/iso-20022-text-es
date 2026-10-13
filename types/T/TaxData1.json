@@ -1,0 +1,39 @@
+{
+  "isoType": "TaxData1",
+  "definition": "Detalles sobre el impuesto pagado, o que se va a pagar, a la administración pública de conformidad con la ley, incluidos parámetros predefinidos como umbrales y tipo de cuenta.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Parte del lado del crédito de la operación a la que se aplica el impuesto."
+    },
+    "Debtor": {
+      "definition": "Parte del lado del débito de la operación a la que se aplica el impuesto."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe una cantidad de dinero al beneficiario (final), en este caso, a la autoridad tributaria."
+    },
+    "AdministrationZone": {
+      "definition": "Parte territorial de un país a la que se refiere el pago del impuesto."
+    },
+    "ReferenceNumber": {
+      "definition": "Información de referencia fiscal específica de un organismo tributario."
+    },
+    "Method": {
+      "definition": "Método utilizado para indicar la actividad empresarial subyacente o cómo se paga el impuesto."
+    },
+    "TotalTaxableBaseAmount": {
+      "definition": "Importe total de dinero sobre el que se basa el impuesto."
+    },
+    "TotalTaxAmount": {
+      "definition": "Importe total de dinero resultante del cálculo del impuesto."
+    },
+    "Date": {
+      "definition": "Fecha límite de pago del impuesto."
+    },
+    "SequenceNumber": {
+      "definition": "Número secuencial del informe fiscal."
+    },
+    "Record": {
+      "definition": "Registro de detalles del impuesto."
+    }
+  }
+}

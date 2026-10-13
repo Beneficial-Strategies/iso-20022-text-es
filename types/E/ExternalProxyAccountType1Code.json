@@ -1,0 +1,93 @@
+{
+  "isoType": "ExternalProxyAccountType1Code",
+  "isoCodes": {
+    "TELE": {
+      "name": "Número de teléfono",
+      "definition": "Número de teléfono en el formato especificado por el «plan internacional de numeración de telecomunicaciones públicas ITU-T E.164»."
+    },
+    "EMAL": {
+      "name": "Dirección de correo electrónico",
+      "definition": "Dirección internacionalizada de un buzón de correo electrónico para mensajes de internet."
+    },
+    "DNAM": {
+      "name": "Nombre de dominio",
+      "definition": "Nombre de dominio de internet internacionalizado."
+    },
+    "CINC": {
+      "name": "Número del certificado de constitución",
+      "definition": "Identificación de empresa emitida por una institución u organismo regulador nacional, utilizada como alias de cuenta.|(aplicable al alias de cuenta de empresa)."
+    },
+    "COTX": {
+      "name": "Identificación fiscal de empresa",
+      "definition": "Identificación fiscal única emitida por el gobierno, utilizada como alias de cuenta para identificar a la empresa (por ejemplo, a efectos tributarios) y normalmente vinculada a la cuenta bancaria de la empresa (aplicable al alias de cuenta de empresa)."
+    },
+    "COID": {
+      "name": "Identificación de la autoridad del país",
+      "definition": "Identificación emitida por una institución u organismo regulador nacional (distinto de un esquema nacional como un proveedor de compensación), utilizada como alias de cuenta (aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "CUST": {
+      "name": "Número de identificación de cliente",
+      "definition": "Cualquier otro número de identificación de cliente emitido por una empresa, un banco u otra organización, utilizado como alias de cuenta.|(aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "DRLC": {
+      "name": "Número de permiso de conducir",
+      "definition": "Identificación única emitida por el gobierno, utilizada como alias de cuenta para identificar a la persona física (por ejemplo, para tasas públicas, impuestos de circulación y peajes, tasas de vacunación) y normalmente vinculada a la cuenta bancaria de la persona (aplicable al alias de cuenta de persona física)."
+    },
+    "EIDN": {
+      "name": "Identificación electrónica",
+      "definition": "Identificación emitida por el gobierno (distinta de la identificación de pasaporte o de la identificación nacional). Utilizada como alias de cuenta para identificar a la persona física (por ejemplo, para prestaciones públicas) y normalmente vinculada a la cuenta bancaria de la persona (aplicable al alias de cuenta de persona física)."
+    },
+    "EWAL": {
+      "name": "Identificación de monedero electrónico",
+      "definition": "Instrumentos de prepago adoptados por el mercado, como monederos electrónicos, y pagos hacia o desde monederos electrónicos desde o hacia cuentas bancarias (aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "PVTX": {
+      "name": "Identificación fiscal de persona física",
+      "definition": "Identificación fiscal única emitida por el gobierno, utilizada como alias de cuenta para identificar a la persona física (por ejemplo, a efectos tributarios) y normalmente vinculada a la cuenta bancaria de la persona (aplicable al alias de cuenta de persona física)."
+    },
+    "LEIC": {
+      "name": "Código identificador de entidad jurídica",
+      "definition": "Legal Entity Identifier utilizado como alias de cuenta (aplicable al alias de cuenta de empresa).|Casos de uso: puede ser utilizado por las empresas como identificación «emitida por el gobierno» para el registro en esquemas de pago como alias. El alias puede utilizarse además para pagos y cobros mediante la infraestructura subyacente de pagos instantáneos en diversos casos de uso empresariales."
+    },
+    "MBNO": {
+      "name": "Número de teléfono móvil",
+      "definition": "Número de teléfono móvil en el formato especificado por el «plan internacional de numeración de telecomunicaciones públicas ITU- T E 164» (aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "NIDN": {
+      "name": "Número de identificación nacional",
+      "definition": "Identificación única emitida por el gobierno, utilizada como alias de cuenta para identificar a la persona física o a la empresa (por ejemplo, para prestaciones públicas, subvenciones gubernamentales) y normalmente vinculada a la cuenta bancaria de la persona o de la empresa.|(aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "CCPT": {
+      "name": "Número de pasaporte",
+      "definition": "Identificación única emitida por el gobierno, utilizada como alias de cuenta para identificar a la persona física (por ejemplo, para tasas públicas, impuestos de circulación, tasas de vacunación) y normalmente vinculada a la cuenta bancaria de la persona|(aplicable al alias de cuenta de persona física)."
+    },
+    "SHID": {
+      "name": "Número de identificación del esquema",
+      "definition": "Alias de cuenta emitido por un esquema de pago (aplicable al alias de cuenta de empresa o de persona física).|Casos de uso: cualquier alias emitido por sistemas de compensación, por ejemplo VPA (India), FPS Identifier (Hong Kong), Jompay (Malasia), CCIN (Canadá)."
+    },
+    "SOSE": {
+      "name": "Número de la Seguridad Social",
+      "definition": "Identificación única emitida por el gobierno, utilizada como alias de cuenta para identificar a la persona física (por ejemplo, para prestaciones públicas) y normalmente vinculada a la cuenta bancaria de la persona (aplicable al alias de cuenta de persona física)."
+    },
+    "TOKN": {
+      "name": "Identificación de token",
+      "definition": "Identificación electrónica utilizada, por ejemplo, para enmascarar un número de cuenta como medio de confidencialidad de los datos.|(aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "UBIL": {
+      "name": "Identificación de suscripción de suministros",
+      "definition": "Identificación de abonado para suministros y servicios. A diferencia de la identificación de facturador, esta identificación se utiliza para el abonado del servicio (aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "VIPN": {
+      "name": "Número de matrícula del vehículo",
+      "definition": "Alias de cuenta para recibir indemnizaciones de seguros, pagar primas de seguros, impuestos de circulación, multas de tráfico, etc. (aplicable al alias de cuenta de empresa o de persona física)."
+    },
+    "BIID": {
+      "name": "Identificación de suscriptor del facturador",
+      "definition": "Los facturadores de determinados suministros pueden registrar una identificación de facturador conforme a lo admitido en el esquema de compensación y utilizarla para los cobros (aplicable al alias de cuenta de empresa)."
+    },
+    "OSID": {
+      "name": "Otro número de identificación del esquema",
+      "definition": "Identificador de esquema adicional utilizado para complementar la identificación de esquema principal, de modo que los bancos puedan aplicar las validaciones respectivas del valor del alias según el código de tipo proporcionado."
+    }
+  }
+}

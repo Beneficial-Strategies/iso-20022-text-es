@@ -1,0 +1,461 @@
+{
+  "isoType": "ExternalLocalInstrument1Code",
+  "isoCodes": {
+    "19": {
+      "name": "Adeudo directo de empresa a cliente",
+      "definition": "La operación está relacionada con un adeudo directo de empresa a cliente (CSB19)."
+    },
+    "58": {
+      "name": "Adeudo directo entre empresas",
+      "definition": "La operación está relacionada con un adeudo directo entre empresas (CSB58)."
+    },
+    "60": {
+      "name": "Letra de cambio o pagaré recuperado",
+      "definition": "LCR - Lettre de Change Relevé (letra de cambio recuperada) y BOR - Billet à Orde Relevé (pagaré)"
+    },
+    "82": {
+      "name": "Adeudo directo no preautorizado (AT)",
+      "definition": "La operación está relacionada con un adeudo directo no preautorizado (Einzugsermächtigung)."
+    },
+    "83": {
+      "name": "Adeudo directo preautorizado (AT)",
+      "definition": "La operación está relacionada con un adeudo directo preautorizado (Abbuchungsauftrag)."
+    },
+    "85": {
+      "name": "Adeudo directo preautorizado: Accéléré (compensación acelerada, 2 días) u Ordinaire (compensación normal, 4 días)",
+      "definition": "La operación está relacionada con un adeudo directo urgente preautorizado (Avis de Prélèvement accéléré)."
+    },
+    "89": {
+      "name": "Adeudo directo preautorizado: Vérifié (compensación verificada)",
+      "definition": "La operación está relacionada con un adeudo directo urgente preautorizado (Avis de Prélèvement vérifié)."
+    },
+    "0090": {
+      "name": "Pago masivo a cargo del beneficiario",
+      "definition": "La operación está relacionada con un beneficiario de pagos masivos."
+    },
+    "0091": {
+      "name": "Pago masivo a cargo del ordenante",
+      "definition": "La operación está relacionada con pagos masivos con gastos a cargo del ordenante (ours)."
+    },
+    "0092": {
+      "name": "Pago masivo con gastos compartidos",
+      "definition": "La operación está relacionada con pagos masivos con gastos compartidos."
+    },
+    "0002": {
+      "name": "Orden permanente",
+      "definition": "La operación está relacionada con una orden permanente."
+    },
+    "0221": {
+      "name": "Autorización puntual",
+      "definition": "La operación está relacionada con una autorización puntual."
+    },
+    "0224": {
+      "name": "Autorización puntual (organizaciones benéficas)",
+      "definition": "La operación está relacionada con una autorización puntual para organizaciones benéficas."
+    },
+    "0226": {
+      "name": "Autorización puntual (sector de la construcción)",
+      "definition": "La operación está relacionada con una autorización puntual para el sector de la construcción."
+    },
+    "0225": {
+      "name": "Autorización puntual (matrículas)",
+      "definition": "La operación está relacionada con una autorización puntual para matrículas y tasas académicas."
+    },
+    "0222": {
+      "name": "Autorización permanente (empresas)",
+      "definition": "La operación está relacionada con una autorización permanente para empresas."
+    },
+    "0227": {
+      "name": "Autorización permanente (empresas) sin derecho de revocación del ordenante",
+      "definition": "La operación está relacionada con una autorización permanente para empresas sin derecho de revocación del ordenante."
+    },
+    "0220": {
+      "name": "Autorización permanente (general)",
+      "definition": "La operación está relacionada con una autorización permanente general."
+    },
+    "0223": {
+      "name": "Autorización permanente (loterías)",
+      "definition": "La operación está relacionada con una autorización permanente para loterías."
+    },
+    "0001": {
+      "name": "Pago bancario convertido",
+      "definition": "La operación está relacionada con un pago (bancario) convertido.|Conversión de un instrumento físico a formato electrónico para su transmisión al banco pagador, sin que el documento original en papel continúe en el proceso de compensación. Las reglas del instrumento cambian con la conversión."
+    },
+    "0000": {
+      "name": "Pago empresarial",
+      "definition": "La operación está relacionada con un pago comercial."
+    },
+    "BTR": {
+      "name": "Transferencia bancaria",
+      "definition": "La operación está relacionada con una transferencia bancaria."
+    },
+    "CKS": {
+      "name": "Cheque con liquidación el mismo día mediante transferencia",
+      "definition": "La operación está relacionada con una transferencia de liquidación en el mismo día de un cheque."
+    },
+    "CTR": {
+      "name": "Transferencia del cliente",
+      "definition": "La operación está relacionada con una transferencia de cliente."
+    },
+    "CTP": {
+      "name": "Transferencia de cliente Plus",
+      "definition": "La operación está relacionada con una transferencia de cliente, que puede incluir información relativa a un pago de cobertura o información de remesa ampliada."
+    },
+    "DEP": {
+      "name": "Depósito en la cuenta del remitente",
+      "definition": "La operación está relacionada con un ingreso en la cuenta del remitente."
+    },
+    "FFR": {
+      "name": "Fondos federales devueltos",
+      "definition": "La operación está relacionada con fondos Fed devueltos."
+    },
+    "FFS": {
+      "name": "Fondos federales vendidos",
+      "definition": "La operación está relacionada con fondos Fed vendidos."
+    },
+    "SVC": {
+      "name": "Mensaje de servicio sin valor",
+      "definition": "La operación está relacionada con un mensaje de servicio sin valor."
+    },
+    "DRW": {
+      "name": "Respuesta de disposición con valor para atender una solicitud de disposición",
+      "definition": "La operación está relacionada con una respuesta a una solicitud de adeudo (con valor) para atender dicha solicitud."
+    },
+    "DRB": {
+      "name": "Solicitud o respuesta de disposición entre bancos sin valor",
+      "definition": "La operación está relacionada con una solicitud o respuesta de adeudo entre bancos (sin valor)."
+    },
+    "DRC": {
+      "name": "Solicitud o respuesta de disposición de cliente o empresa sin valor",
+      "definition": "La operación está relacionada con una solicitud o respuesta de adeudo de cliente o de empresa (sin valor)."
+    },
+    "DDMC": {
+      "name": "Adeudo directo con mandato electrónico confirmado",
+      "definition": "La operación está relacionada con una instrucción de adeudo directo autorizada mediante un mandato electrónico confirmado."
+    },
+    "DDMP": {
+      "name": "Adeudo directo con mandato en papel y autorización en papel",
+      "definition": "La operación está relacionada con una instrucción de adeudo directo autorizada mediante un mandato en papel, respaldada por una autorización en papel firmada por el ordenante."
+    },
+    "DDMU": {
+      "name": "Adeudo directo con mandato electrónico no confirmado",
+      "definition": "La operación está relacionada con una instrucción de adeudo directo autorizada mediante un mandato electrónico no confirmado que requiere la confirmación del ordenante."
+    },
+    "BPA": {
+      "name": "Pagos por lotes de Aruba",
+      "definition": "La operación está relacionada con una transferencia de crédito instantánea conforme a las reglas del Centrale Bank van Aruba, basada en el esquema EPC SCT Inst, con un plazo de espera de lote específico."
+    },
+    "IPA": {
+      "name": "Pagos inmediatos de Aruba",
+      "definition": "La operación está relacionada con una transferencia de crédito instantánea conforme a las reglas del Centrale Bank van Aruba, basada en el esquema EPC SCT Inst."
+    },
+    "TRF": {
+      "name": "Transferencias",
+      "definition": "La operación está relacionada con transferencias de crédito"
+    },
+    "CPP": {
+      "name": "Efectivo por correo",
+      "definition": "La operación está relacionada con efectivo por correo.|Operación dirigida a un destinatario final que no dispone de cuenta bancaria. El beneficiario principal es un proveedor de servicios postales. Los fondos se pagan en efectivo. Debe adjuntarse la información adicional necesaria sobre la dirección y las opciones de entrega."
+    },
+    "RTR": {
+      "name": "Transferencias devueltas",
+      "definition": "La operación está relacionada con transferencias devueltas."
+    },
+    "GST": {
+      "name": "Transferencias truncadas",
+      "definition": "La operación está relacionada con transferencias truncadas.|Conversión de un instrumento físico a formato electrónico para su transmisión a la entidad pagadora, sin que el documento original en papel continúe en el proceso de compensación..Las normas del instrumento original se mantienen durante toda la vida del instrumento.|Operación activada mediante un impreso en papel específicamente marcado y cumplimentado.|La referencia de conciliación está protegida mediante dígitos de control que permiten un reconocimiento óptico seguro. El resto de la información de remesa se trunca antes de la transmisión."
+    },
+    "DDT": {
+      "name": "Adeudos directos",
+      "definition": "La operación está relacionada con adeudos directos."
+    },
+    "RDD": {
+      "name": "Adeudos directos devueltos",
+      "definition": "La operación está relacionada con adeudos directos devueltos."
+    },
+    "CHN": {
+      "name": "Cheques truncados",
+      "definition": "La operación está relacionada con cheques truncados.|Conversión de un instrumento físico a formato electrónico para su transmisión a la entidad pagadora, sin que el documento original en papel continúe en el proceso de compensación..Las normas del instrumento original se mantienen durante toda la vida del instrumento."
+    },
+    "STR": {
+      "name": "Transferencias revocadas",
+      "definition": "La operación está relacionada con transferencias revocadas"
+    },
+    "SDD": {
+      "name": "Adeudos directos revocados",
+      "definition": "La operación está relacionada con adeudos directos revocados."
+    },
+    "SRT": {
+      "name": "Transferencias devueltas revocadas",
+      "definition": "La operación está relacionada con transferencias devueltas revocadas"
+    },
+    "SRD": {
+      "name": "Adeudos directos devueltos revocados",
+      "definition": "La operación está relacionada con adeudos directos devueltos revocados."
+    },
+    "SCN": {
+      "name": "Cheques truncados revocados",
+      "definition": "La operación está relacionada con cheques truncados revocados."
+    },
+    "SGT": {
+      "name": "Transferencias truncadas revocadas",
+      "definition": "La operación está relacionada con transferencias truncadas revocadas."
+    },
+    "CARD": {
+      "name": "Compensación de tarjetas",
+      "definition": "La operación está relacionada con la compensación de tarjetas."
+    },
+    "05": {
+      "name": "Adeudo directo no preautorizado (DE)",
+      "definition": "La operación está relacionada con un adeudo directo no preautorizado (Einzugsermächtigung)."
+    },
+    "04": {
+      "name": "Adeudo directo preautorizado (DE)",
+      "definition": "La operación está relacionada con un adeudo directo preautorizado (Abbuchungsauftrag)."
+    },
+    "ISE": {
+      "name": "Cobro de cheques basado en imagen",
+      "definition": "La operación está relacionada con el procedimiento alemán de cobro de cheques basado en imágenes “Imagegestützter Scheckeinzug - ISE”"
+    },
+    "BSE": {
+      "name": "Cobro de cheques sin papel",
+      "definition": "La operación está relacionada con el procedimiento alemán de cobro de cheques sin soporte papel “Belegloser Scheckeinzug - BSE”"
+    },
+    "ASTI": {
+      "name": "Inicio de transferencia de sistema auxiliar",
+      "definition": "Indica que el pago es enviado por un tercero autorizado en nombre del participante."
+    },
+    "BACP": {
+      "name": "Pago de contingencia",
+      "definition": "Indica que el pago se inició manualmente mediante una GUI (interfaz gráfica de usuario)."
+    },
+    "MANP": {
+      "name": "Pago por mandato",
+      "definition": "Indica que el pago es enviado por el banco central responsable en nombre del participante en caso de contingencia."
+    },
+    "SBTI": {
+      "name": "Inicio de transferencia de banco liquidador",
+      "definition": "Indica que el pago se presenta para trasladar liquidez a la cuenta técnica, dedicada a la liquidación en tiempo real en un sistema externo (por ejemplo, un sistema auxiliar). El pago se procesa en una cola de pagos independiente, además del procesamiento normal."
+    },
+    "08": {
+      "name": "Adeudo directo preautorizado: Ordinaire (compensación normal, 4 días)",
+      "definition": "La operación está relacionada con un adeudo directo preautorizado (Avis de Prélèvement)."
+    },
+    "RIBA": {
+      "name": "Adeudo directo no preautorizado (RIBA)",
+      "definition": "La operación está relacionada con un cobro no preautorizado (RIBA)."
+    },
+    "RIDO": {
+      "name": "Adeudo directo preautorizado revocable",
+      "definition": "La operación está relacionada con un adeudo directo preautorizado y revocable (RID Ordinario)."
+    },
+    "RIDV": {
+      "name": "Adeudo directo urgente preautorizado revocable",
+      "definition": "La operación está relacionada con un adeudo directo urgente preautorizado y revocable (RID Veloce)."
+    },
+    "IDEAL": {
+      "name": "Pagos por Internet propiedad de Currence",
+      "definition": "La operación está relacionada con pagos por internet propiedad de Currence."
+    },
+    "INSTNT01": {
+      "name": "Transferencia inmediata no crítica en el tiempo",
+      "definition": "La operación está relacionada con una transferencia ordinaria que se procesará de forma instantánea conforme al AOS neerlandés sobre el esquema EPC SCT."
+    },
+    "INSTTC01": {
+      "name": "Transferencia inmediata crítica en el tiempo",
+      "definition": "La operación está relacionada con una transferencia inmediata conforme a las normas del AOS neerlandés sobre el esquema EPC SCT Inst."
+    },
+    "INSTIDEAL": {
+      "name": "Pagos por Internet propiedad de Currence mediante transferencia inmediata",
+      "definition": "La operación está relacionada con pagos por internet propiedad de Currence que utilizan una transferencia inmediata."
+    },
+    "INSTNT01IDEAL": {
+      "name": "Pagos por Internet propiedad de Currence mediante transferencia inmediata no crítica en el tiempo",
+      "definition": "La operación está relacionada con pagos por internet propiedad de Currence que utilizan una transferencia ordinaria y se procesarán de forma instantánea conforme al AOS neerlandés sobre el esquema EPC SCT."
+    },
+    "INSTTC01IDEAL": {
+      "name": "Pagos por Internet propiedad de Currence mediante transferencia inmediata crítica en el tiempo",
+      "definition": "La operación está relacionada con pagos por internet propiedad de Currence que utilizan una transferencia inmediata conforme a las normas del AOS neerlandés sobre el esquema EPC SCT Inst."
+    },
+    "NLDO": {
+      "name": "Pago masivo nacional neerlandés",
+      "definition": "La operación está relacionada con un pago nacional iniciado mediante PAIN.001"
+    },
+    "NLUP": {
+      "name": "Pago urgente neerlandés",
+      "definition": "La operación está relacionada con un pago nacional iniciado mediante PAIN.001"
+    },
+    "SDN": {
+      "name": "Pagos mediante Standaard Digitale Nota",
+      "definition": "La operación está relacionada con pagos mediante un pago InvoiceAcceptgiro “Standaard Digitale Nota”."
+    },
+    "ACCEPT": {
+      "name": "Pago mediante Acceptgiro propiedad de Currence",
+      "definition": "La operación está relacionada con pagos mediante Acceptgiro propiedad de Currence."
+    },
+    "ICMC": {
+      "name": "Corrección de gestión de incidencias",
+      "definition": "La operación está relacionada con un procedimiento de corrección de gestión de incidencias basado en la infraestructura de adeudos directos (DD)."
+    },
+    "NLGOV": {
+      "name": "Adeudo directo iniciado por el gobierno con condiciones especiales",
+      "definition": "La operación está relacionada con el esquema de adeudos directos propiedad de la NVB."
+    },
+    "IN": {
+      "name": "Transferencia transfronteriza de cliente",
+      "definition": "La operación está relacionada con una transferencia transfronteriza de clientes."
+    },
+    "ONCL": {
+      "name": "Overnight",
+      "definition": "La operación está relacionada con la compensación nocturna."
+    },
+    "PERI": {
+      "name": "Pago con ERI",
+      "definition": "La transferencia contiene información de remesa ampliada (ERI) según se define en el esquema aplicable."
+    },
+    "SDCL": {
+      "name": "Pagos compensados el mismo día",
+      "definition": "La operación está relacionada con pagos del sistema neozelandés de compensación de alto valor (HVCS) con compensación en el mismo día."
+    },
+    "DDNR": {
+      "name": "Core sin reembolso",
+      "definition": "Adeudo directo SEPA Core con opción de “sin reembolso”"
+    },
+    "DDFA": {
+      "name": "Adeudo directo de importe fijo",
+      "definition": "Adeudo directo SEPA de importe fijo"
+    },
+    "CORE": {
+      "name": "Adeudo directo SEPA Core",
+      "definition": "La operación está relacionada con el adeudo directo SEPA Core."
+    },
+    "B2BAMIPM": {
+      "name": "Adeudo directo SEPA B2B (AMI)",
+      "definition": "Adeudo directo SEPA B2B AMI basado en un mandato en papel"
+    },
+    "B2B": {
+      "name": "Adeudo directo SEPA entre empresas",
+      "definition": "La operación está relacionada con el adeudo directo SEPA entre empresas."
+    },
+    "CR1AMIPM": {
+      "name": "Adeudo directo SEPA Core D-1 (AMI)",
+      "definition": "Ciclo de tiempo más corto opcional (D-1) para el adeudo directo SEPA Core AMI basado en un mandato en papel"
+    },
+    "CORAMIPM": {
+      "name": "Adeudo directo SEPA Core (AMI)",
+      "definition": "Adeudo directo SEPA Core AMI basado en un mandato en papel"
+    },
+    "COR1": {
+      "name": "Adeudo directo SEPA con liquidación a 1 día",
+      "definition": "Ciclo de tiempo más corto opcional (D-1) para el adeudo directo SEPA Core"
+    },
+    "FADAMIPM": {
+      "name": "Adeudo directo SEPA FA (AMI)",
+      "definition": "Adeudo directo SEPA de importe fijo AMI basado en un mandato en papel"
+    },
+    "CLSCCPERX": {
+      "name": "FX compensado por CLS para Eurex",
+      "definition": "La operación está relacionada con el servicio CLSClearedFX para Eurex.  |Uso: El código es obligatorio para todos los pagos pacs.009 a este servicio."
+    },
+    "CLSCCPLCH": {
+      "name": "FX compensado por CLS para LCH",
+      "definition": "La operación está relacionada con el servicio CLSClearedFX para London Exchange Clearing House. |Uso: El código es obligatorio para todos los pagos pacs.009 a este servicio."
+    },
+    "INST": {
+      "name": "Transferencia inmediata",
+      "definition": "La operación está relacionada con una transferencia inmediata.|Ejemplo de caso de uso: transferencia inmediata SEPA (SCT Inst)"
+    },
+    "ADD": {
+      "name": "Adeudo directo autenticado",
+      "definition": "La operación es un adeudo directo autenticado para uso nacional."
+    },
+    "UDD": {
+      "name": "Adeudo directo no autenticado",
+      "definition": "La operación es un adeudo directo no autenticado para uso nacional."
+    },
+    "CCI": {
+      "name": "Concentración de efectivo intragrupo",
+      "definition": "La operación está relacionada con un pago de gestión de tesorería intragrupo iniciado por el banco"
+    },
+    "IAT": {
+      "name": "ACH internacional",
+      "definition": "La operación está relacionada con ACH internacional."
+    },
+    "CCD": {
+      "name": "Concentración o desembolso de efectivo (contraparte corporativa)",
+      "definition": "La operación está relacionada con la concentración o el desembolso de efectivo, contraparte empresarial."
+    },
+    "CTX": {
+      "name": "Intercambio comercial corporativo",
+      "definition": "La operación está relacionada con el intercambio comercial entre empresas."
+    },
+    "PPD": {
+      "name": "Pago o depósito preacordado (contraparte consumidor)",
+      "definition": "La operación está relacionada con un pago o depósito preacordado, contraparte consumidor."
+    },
+    "CIE": {
+      "name": "Anotación iniciada por el cliente",
+      "definition": "Un abono iniciado por el titular de una cuenta de consumidor o en su nombre"
+    },
+    "RCK": {
+      "name": "Anotación de cheque representado",
+      "definition": "La operación está relacionada con un apunte de cheque representado."
+    },
+    "ARC": {
+      "name": "Cheque de cuentas por cobrar",
+      "definition": "La operación está relacionada con un cheque de cuentas por cobrar."
+    },
+    "WEB": {
+      "name": "Anotación iniciada por Internet",
+      "definition": "La operación está relacionada con un apunte iniciado por internet."
+    },
+    "POP": {
+      "name": "Punto de compra",
+      "definition": "La operación está relacionada con un punto de compra."
+    },
+    "POS": {
+      "name": "Punto de venta",
+      "definition": "La operación está relacionada con un punto de venta."
+    },
+    "TEL": {
+      "name": "Anotación iniciada por teléfono",
+      "definition": "La operación está relacionada con un apunte iniciado por teléfono."
+    },
+    "ITP": {
+      "name": "Transferencia inmediata preferente",
+      "definition": "Pago mediante transferencia inmediata, aunque también es posible la transferencia ordinaria."
+    },
+    "MDP": {
+      "name": "Pago multidía",
+      "definition": "Tipo de pago de la New Payments Architecture (NPA). Los pagos se procesan en un ciclo de tres días y están disponibles para los clientes a primera hora de la mañana del día 3."
+    },
+    "IMD": {
+      "name": "Pago inmediato",
+      "definition": "Tipo de pago utilizado en la New Payments Architecture (UK). Los pagos inmediatos se utilizan para pagos iniciados por clientes a través de canales como internet, banca móvil o telefónica, cuando el cliente desea que el pago se ejecute de inmediato."
+    },
+    "SOP": {
+      "name": "Pago de orden permanente",
+      "definition": "Las órdenes permanentes son pagos periódicos de un importe fijo abonados al mismo destinatario en una fecha determinada, por ejemplo, para pagar el alquiler."
+    },
+    "FDP": {
+      "name": "Pago con fecha futura",
+      "definition": "Tipo de pago utilizado en la New Payments Architecture (UK). Los pagos con fecha futura son pagos únicos enviados y recibidos en una fecha preacordada, configurados previamente por el cliente, por ejemplo, para pagar una factura."
+    },
+    "NACH": {
+      "name": "Compensación NACH",
+      "definition": "Pago a través de la compensación india NACH (liquidación neta)."
+    },
+    "NEFT": {
+      "name": "Compensación NEFT",
+      "definition": "Pago a través de la compensación india NEFT (liquidación neta)."
+    },
+    "IMPS": {
+      "name": "Compensación IMPS",
+      "definition": "Pago instantáneo a través del sistema de compensación indio IMPS."
+    },
+    "IUPI": {
+      "name": "Compensación UPI",
+      "definition": "Pago instantáneo a través del sistema de compensación indio UPI."
+    }
+  }
+}

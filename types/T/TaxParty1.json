@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxParty1",
+  "definition": "Detalles sobre la entidad involucrada en el impuesto pagado o que se va a pagar.",
+  "isoElements": {
+    "TaxIdentification": {
+      "definition": "Número de identificación fiscal del beneficiario."
+    },
+    "RegistrationIdentification": {
+      "definition": "Identificación única, asignada por una organización, para identificar inequívocamente a una parte."
+    },
+    "TaxType": {
+      "definition": "Tipo de contribuyente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentAmount1",
+  "definition": "Proporciona detalles sobre el importe y el tipo del documento referido.",
+  "isoElements": {
+    "Type": {
+      "definition": "Define el tipo de importe."
+    },
+    "Amount": {
+      "definition": "Importe de dinero del documento referenciado."
+    }
+  }
+}

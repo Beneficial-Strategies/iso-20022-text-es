@@ -1,0 +1,30 @@
+{
+  "isoType": "GroupHeader114",
+  "definition": "Conjunto de características compartidas por todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar inequívocamente el mensaje.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por parte instruida durante un período preacordado."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "Authorisation": {
+      "definition": "Identificación de usuario o cualquier clave de usuario que se utilice para comprobar si la parte iniciadora está autorizada a iniciar operaciones desde la cuenta especificada en el mensaje.||Uso: El contenido no es de naturaleza técnica, sino que refleja la estructura organizativa del lado iniciador.|El elemento de autorización se puede utilizar normalmente en escenarios de retransmisión, iniciaciones de pago, devoluciones de pago o anulaciones de pago que se inician en nombre de una parte distinta de la parte iniciadora."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, independientemente de las divisas."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia el pago.||Uso: Puede ser el ordenante o la parte que inicia la transferencia en nombre del ordenante."
+    },
+    "ForwardingAgent": {
+      "definition": "Entidad financiera que recibe la instrucción de la parte iniciadora y la reenvía a la siguiente entidad de la cadena de pago para su ejecución."
+    },
+    "InitiationSource": {
+      "definition": "Aplicación o software de origen utilizado para iniciar el pago."
+    }
+  }
+}

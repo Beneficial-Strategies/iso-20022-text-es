@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateSetupReason1Choice",
+  "definition": "Especifica el motivo de la creación del mandato.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de la constitución del mandato, tal como se publica en una lista externa de códigos de motivo."
+    },
+    "Proprietary": {
+      "definition": "Motivo de la constitución del mandato, en forma propietaria."
+    }
+  }
+}

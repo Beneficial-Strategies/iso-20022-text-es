@@ -1,0 +1,30 @@
+{
+  "isoType": "RemittanceLocationMethod2Code",
+  "definition": "Especifica el método utilizado para entregar la información del aviso de remesa.",
+  "isoCodes": {
+    "FAXI": {
+      "name": "Fax",
+      "definition": "La información del aviso de remesa debe enviarse por fax."
+    },
+    "EDIC": {
+      "name": "Intercambio electrónico de datos",
+      "definition": "La información del aviso de remesa debe enviarse mediante intercambio electrónico de datos (EDI)."
+    },
+    "URID": {
+      "name": "Identificador uniforme de recursos",
+      "definition": "La información del aviso de remesa debe enviarse a un identificador uniforme de recursos (URI). Un URI es una cadena compacta de caracteres que identifica de forma única un recurso abstracto o físico. Los URI son el superconjunto de identificadores, como las URL, las direcciones de correo electrónico, los sitios ftp, etc., y, como tales, proporcionan la sintaxis para todos los esquemas de identificación."
+    },
+    "EMAL": {
+      "name": "Correo electrónico",
+      "definition": "La información del aviso de remesa debe enviarse por correo electrónico."
+    },
+    "POST": {
+      "name": "Correo postal",
+      "definition": "La información del aviso de remesa debe enviarse por servicios postales."
+    },
+    "SMSM": {
+      "name": "SMS",
+      "definition": "La información del aviso de remesa debe enviarse por teléfono como mensaje corto (SMS)."
+    }
+  }
+}

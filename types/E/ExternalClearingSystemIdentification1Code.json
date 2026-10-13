@@ -1,0 +1,693 @@
+{
+  "isoType": "ExternalClearingSystemIdentification1Code",
+  "isoCodes": {
+    "MA": {
+      "name": "Identificador del sistema de compensación de Marruecos",
+      "definition": "Identificador del sistema de compensación utilizado en Marruecos (ID)"
+    },
+    "DZ": {
+      "name": "Identificador del sistema de compensación de Argelia",
+      "definition": "Identificador del sistema de compensación utilizado en Argelia (ID)"
+    },
+    "MU": {
+      "name": "Identificador del sistema de compensación de Mauricio",
+      "definition": "Identificador del sistema de compensación utilizado en Mauricio (ID)"
+    },
+    "RS": {
+      "name": "Identificador del sistema de compensación de Serbia",
+      "definition": "Identificador del sistema de compensación utilizado en Serbia (ID)"
+    },
+    "ATBLZ": {
+      "name": "Bankleitzahl austriaco",
+      "definition": "Código de sucursal bancaria utilizado en Austria."
+    },
+    "AUBSB": {
+      "name": "Código BSB de banco, estado y sucursal de Australia",
+      "definition": "Código de sucursal bancaria utilizado en Australia."
+    },
+    "CACPA": {
+      "name": "Número de enrutamiento de pagos de la Asociación Canadiense de Pagos",
+      "definition": "Código de sucursal bancaria utilizado en Canadá."
+    },
+    "CHBCC": {
+      "name": "Identificación de entidad financiera suiza (corta)",
+      "definition": "Identificación de entidad financiera (IID) utilizada en Suiza, sin dígito de control."
+    },
+    "CHSIC": {
+      "name": "Identificación de entidad financiera suiza (larga)",
+      "definition": "Identificación de entidad financiera (IID) utilizada en Suiza, con dígito de control."
+    },
+    "CNAPS": {
+      "name": "Identificador CNAPS",
+      "definition": "Código de sucursal bancaria utilizado en China."
+    },
+    "DEBLZ": {
+      "name": "Bankleitzahl alemán",
+      "definition": "Código de sucursal bancaria utilizado en Alemania."
+    },
+    "ESNCC": {
+      "name": "Código interbancario nacional español",
+      "definition": "Código de sucursal bancaria utilizado en España."
+    },
+    "GBDSC": {
+      "name": "Sort code nacional del Reino Unido",
+      "definition": "Código de sucursal bancaria utilizado en UK."
+    },
+    "GRBIC": {
+      "name": "Código de identificación bancaria helénico",
+      "definition": "Código de sucursal bancaria utilizado en Grecia."
+    },
+    "HKNCC": {
+      "name": "Código bancario de Hong Kong",
+      "definition": "Código de sucursal bancaria utilizado en Hong Kong."
+    },
+    "IENCC": {
+      "name": "Código nacional de compensación irlandés",
+      "definition": "Código de sucursal bancaria utilizado en Irlanda."
+    },
+    "INFSC": {
+      "name": "Código del sistema financiero indio",
+      "definition": "Código de sucursal bancaria utilizado en India."
+    },
+    "ITNCC": {
+      "name": "Código de identificación nacional italiano",
+      "definition": "Código de sucursal bancaria utilizado en Italia."
+    },
+    "JPZGN": {
+      "name": "Código de compensación Zengin de Japón",
+      "definition": "Código de sucursal bancaria utilizado en Japón."
+    },
+    "NZNCC": {
+      "name": "Código nacional de compensación de Nueva Zelanda",
+      "definition": "Código de sucursal bancaria utilizado en Nueva Zelanda."
+    },
+    "PLKNR": {
+      "name": "Código nacional de compensación polaco",
+      "definition": "Código de sucursal bancaria utilizado en Polonia."
+    },
+    "PTNCC": {
+      "name": "Código nacional de compensación portugués",
+      "definition": "Código de sucursal bancaria utilizado en Portugal."
+    },
+    "RUCBC": {
+      "name": "Código de identificación del banco central ruso",
+      "definition": "Código de sucursal bancaria utilizado en Rusia."
+    },
+    "SESBA": {
+      "name": "Código de compensación Bankgiro de Suecia",
+      "definition": "Código de sucursal bancaria utilizado en Suecia."
+    },
+    "SGIBG": {
+      "name": "Sort code IBG",
+      "definition": "Código de sucursal bancaria utilizado en Singapur."
+    },
+    "THCBC": {
+      "name": "Código de identificación del banco central de Tailandia",
+      "definition": "Código de identificación bancaria utilizado en Tailandia."
+    },
+    "TWNCC": {
+      "name": "Código de entidad financiera",
+      "definition": "Código de sucursal bancaria utilizado en Taiwán."
+    },
+    "USABA": {
+      "name": "Número de enrutamiento de Estados Unidos (Fedwire/NACHA)",
+      "definition": "Número de enrutamiento (Routing Transit) asignado por la ABA a las entidades financieras de US."
+    },
+    "USPID": {
+      "name": "Identificador de participante CHIPS",
+      "definition": "Identificador bancario utilizado por CHIPs en US."
+    },
+    "ZANCC": {
+      "name": "Código nacional de compensación sudafricano",
+      "definition": "Código de sucursal bancaria utilizado en Sudáfrica."
+    },
+    "NZRSA": {
+      "name": "Código de compensación RTGS de Nueva Zelanda",
+      "definition": "Cuenta de liquidación RTGS utilizada en Nueva Zelanda."
+    },
+    "MZBMO": {
+      "name": "RTGS del Banco de Mozambique",
+      "definition": "Sistema RTGS del Banco de Moçambique."
+    },
+    "CNCIP": {
+      "name": "Sistema de pagos interbancarios transfronterizos",
+      "definition": "Identificador del Chinese Cross-border Interbank Payment System (CIPS)."
+    },
+    "KRBOK": {
+      "name": "Código de identificación del banco central de Corea del Sur",
+      "definition": "Código de entidad participante utilizado por BOK-Wire+ en Corea del Sur."
+    },
+    "BRISP": {
+      "name": "Código de identificación bancaria brasileño",
+      "definition": "Código de identificación bancaria utilizado en Brasil (ISPB)."
+    },
+    "NACSC": {
+      "name": "Código del sistema de compensación de Namibia",
+      "definition": "Código de identificación del sistema de compensación utilizado en Namibia."
+    },
+    "ZWTSS": {
+      "name": "Código del sistema de compensación de Zimbabue",
+      "definition": "Código de identificación del sistema utilizado en el sistema de liquidación de Zimbabue."
+    },
+    "AD": {
+      "name": "Identificador del sistema de compensación de Andorra",
+      "definition": "Identificador del sistema de compensación utilizado en Andorra (ID)"
+    },
+    "EGNCC": {
+      "name": "Código nacional de compensación egipcio",
+      "definition": "Código de identificación del sistema de compensación RTGS utilizado en Egipto."
+    },
+    "AE": {
+      "name": "Identificador del sistema de compensación de Emiratos Árabes Unidos",
+      "definition": "Identificador del sistema de compensación utilizado en los Emiratos Árabes Unidos (ID)"
+    },
+    "AF": {
+      "name": "Identificador del sistema de compensación de Afganistán",
+      "definition": "Identificador del sistema de compensación utilizado en Afganistán (ID)"
+    },
+    "AI": {
+      "name": "Identificador del sistema de compensación de Antigua y Barbuda",
+      "definition": "Identificador del sistema de compensación utilizado en Antigua y Bermuda (ID)"
+    },
+    "AL": {
+      "name": "Identificador del sistema de compensación de Albania",
+      "definition": "Identificador del sistema de compensación utilizado en Albania (ID)"
+    },
+    "AM": {
+      "name": "Identificador del sistema de compensación de Armenia",
+      "definition": "Identificador del sistema de compensación utilizado en Armenia (ID)"
+    },
+    "AO": {
+      "name": "Identificador del sistema de compensación de Angola",
+      "definition": "Identificador del sistema de compensación utilizado en Angola (ID)"
+    },
+    "AR": {
+      "name": "Identificador del sistema de compensación de Argentina",
+      "definition": "Identificador del sistema de compensación utilizado en Argentina (ID)"
+    },
+    "AS": {
+      "name": "Identificador del sistema de compensación de Samoa Americana",
+      "definition": "Identificador del sistema de compensación utilizado en Samoa Americana (ID)"
+    },
+    "AW": {
+      "name": "Identificador del sistema de compensación de Aruba",
+      "definition": "Identificador del sistema de compensación utilizado en Aruba (ID)."
+    },
+    "AZ": {
+      "name": "Identificador del sistema de compensación de Azerbaiyán",
+      "definition": "Identificador del sistema de compensación utilizado en Azerbaiyán (ID)"
+    },
+    "BA": {
+      "name": "Identificador del sistema de compensación de Bosnia y Herzegovina",
+      "definition": "Identificador del sistema de compensación utilizado en Bosnia y Herzegovina (ID)"
+    },
+    "BD": {
+      "name": "Identificador del sistema de compensación de Bangladés",
+      "definition": "Identificador del sistema de compensación utilizado en Bangladés (ID)"
+    },
+    "BG": {
+      "name": "Identificador del sistema de compensación de Bulgaria",
+      "definition": "Identificador del sistema de compensación utilizado en Bulgaria (ID)"
+    },
+    "BH": {
+      "name": "Identificador del sistema de compensación de Baréin",
+      "definition": "Identificador del sistema de compensación utilizado en Baréin (ID)"
+    },
+    "BI": {
+      "name": "Identificador del sistema de compensación de Burundi",
+      "definition": "Identificador del sistema de compensación utilizado en Burundi (ID)"
+    },
+    "BL": {
+      "name": "Identificador del sistema de compensación de San Bartolomé",
+      "definition": "Identificador del sistema de compensación utilizado en San Bartolomé (ID)"
+    },
+    "BM": {
+      "name": "Identificador del sistema de compensación de Bermudas",
+      "definition": "Identificador del sistema de compensación utilizado en Bermudas (ID)"
+    },
+    "BN": {
+      "name": "Identificador del sistema de compensación de Brunéi Darussalam",
+      "definition": "Identificador del sistema de compensación utilizado en Brunéi Darussalam (ID)"
+    },
+    "BO": {
+      "name": "Identificador del sistema de compensación de Bolivia",
+      "definition": "Identificador del sistema de compensación utilizado en Bolivia (ID)"
+    },
+    "BS": {
+      "name": "Identificador del sistema de compensación de Bahamas",
+      "definition": "Identificador del sistema de compensación utilizado en las Bahamas (ID)"
+    },
+    "BT": {
+      "name": "Identificador del sistema de compensación de Bután",
+      "definition": "Identificador del sistema de compensación utilizado en Bután (ID)"
+    },
+    "BW": {
+      "name": "Identificador del sistema de compensación de Botsuana",
+      "definition": "Identificador del sistema de compensación utilizado en Botsuana (ID)"
+    },
+    "BY": {
+      "name": "Identificador del sistema de compensación de Bielorrusia",
+      "definition": "Identificador del sistema de compensación utilizado en Bielorrusia (ID)"
+    },
+    "BZ": {
+      "name": "Identificador del sistema de compensación de Belice",
+      "definition": "Identificador del sistema de compensación utilizado en Belice (ID)"
+    },
+    "CD": {
+      "name": "Identificador del sistema de compensación de República Democrática del Congo",
+      "definition": "Identificador del sistema de compensación utilizado en la República Democrática del Congo (ID)."
+    },
+    "CL": {
+      "name": "Identificador del sistema de compensación de Chile",
+      "definition": "Identificador del sistema de compensación utilizado en Chile (ID)"
+    },
+    "CO": {
+      "name": "Identificador del sistema de compensación de Colombia",
+      "definition": "Identificador del sistema de compensación utilizado en Colombia (ID)"
+    },
+    "CR": {
+      "name": "Identificador del sistema de compensación de Costa Rica",
+      "definition": "Identificador del sistema de compensación utilizado en Costa Rica (ID)"
+    },
+    "CV": {
+      "name": "Identificador del sistema de compensación de Cabo Verde",
+      "definition": "Identificador del sistema de compensación utilizado en Cabo Verde (ID)"
+    },
+    "CW": {
+      "name": "Identificador del sistema de compensación de Curazao",
+      "definition": "Identificador del sistema de compensación utilizado en Curazao (ID)"
+    },
+    "CY": {
+      "name": "Identificador del sistema de compensación de Chipre",
+      "definition": "Identificador del sistema de compensación utilizado en Chipre (ID)"
+    },
+    "CZ": {
+      "name": "Identificador del sistema de compensación de República Checa",
+      "definition": "Identificador del sistema de compensación utilizado en la República Checa (ID)"
+    },
+    "DO": {
+      "name": "Identificador del sistema de compensación de República Dominicana",
+      "definition": "Identificador del sistema de compensación utilizado en la República Dominicana (ID)"
+    },
+    "EC": {
+      "name": "Identificador del sistema de compensación de Ecuador",
+      "definition": "Identificador del sistema de compensación utilizado en Ecuador (ID)"
+    },
+    "EE": {
+      "name": "Identificador del sistema de compensación de Estonia",
+      "definition": "Identificador del sistema de compensación utilizado en Estonia (ID)"
+    },
+    "GE": {
+      "name": "Identificador del sistema de compensación de Georgia",
+      "definition": "Identificador del sistema de compensación utilizado en Georgia (ID)"
+    },
+    "GH": {
+      "name": "Identificador del sistema de compensación de Ghana",
+      "definition": "Identificador del sistema de compensación utilizado en Ghana (ID)"
+    },
+    "GN": {
+      "name": "Identificador del sistema de compensación de Guinea",
+      "definition": "Identificador del sistema de compensación utilizado en Guinea (ID)"
+    },
+    "GT": {
+      "name": "Identificador del sistema de compensación de Guatemala",
+      "definition": "Identificador del sistema de compensación utilizado en Guatemala (ID)"
+    },
+    "GY": {
+      "name": "Identificador del sistema de compensación de Guyana",
+      "definition": "Identificador del sistema de compensación utilizado en Guyana (ID)"
+    },
+    "HN": {
+      "name": "Identificador del sistema de compensación de Honduras",
+      "definition": "Identificador del sistema de compensación utilizado en Honduras (ID)"
+    },
+    "HR": {
+      "name": "Identificador del sistema de compensación de Croacia",
+      "definition": "Identificador del sistema de compensación utilizado en Croacia (ID)"
+    },
+    "HT": {
+      "name": "Identificador del sistema de compensación de Haití",
+      "definition": "Identificador del sistema de compensación utilizado en Haití (ID)"
+    },
+    "HU": {
+      "name": "Identificador del sistema de compensación de Hungría",
+      "definition": "Identificador del sistema de compensación utilizado en Hungría (ID)"
+    },
+    "ID": {
+      "name": "Identificador del sistema de compensación de Indonesia",
+      "definition": "Identificador del sistema de compensación utilizado en Indonesia (ID)"
+    },
+    "IL": {
+      "name": "Identificador del sistema de compensación de Israel",
+      "definition": "Identificador del sistema de compensación utilizado en Israel (ID)"
+    },
+    "IQ": {
+      "name": "Identificador del sistema de compensación de Irak",
+      "definition": "Identificador del sistema de compensación utilizado en Irak (ID)"
+    },
+    "IS": {
+      "name": "Identificador del sistema de compensación de Islandia",
+      "definition": "Identificador del sistema de compensación utilizado en Islandia (ID)"
+    },
+    "JM": {
+      "name": "Identificador del sistema de compensación de Jamaica",
+      "definition": "Identificador del sistema de compensación utilizado en Jamaica (ID)"
+    },
+    "JO": {
+      "name": "Identificador del sistema de compensación de Jordania",
+      "definition": "Identificador del sistema de compensación utilizado en Jordania (ID)"
+    },
+    "KE": {
+      "name": "Identificador del sistema de compensación de Kenia",
+      "definition": "Identificador del sistema de compensación utilizado en Kenia (ID)"
+    },
+    "KG": {
+      "name": "Identificador del sistema de compensación de República Kirguisa",
+      "definition": "Identificador del sistema de compensación utilizado en la República Kirguisa (ID)"
+    },
+    "KH": {
+      "name": "Identificador del sistema de compensación de Camboya",
+      "definition": "Identificador del sistema de compensación utilizado en Camboya (ID)"
+    },
+    "KM": {
+      "name": "Identificador del sistema de compensación de Comoras",
+      "definition": "Identificador del sistema de compensación utilizado en Comoras (ID)"
+    },
+    "KW": {
+      "name": "Identificador del sistema de compensación de Kuwait",
+      "definition": "Identificador del sistema de compensación utilizado en Kuwait (ID)"
+    },
+    "KZ": {
+      "name": "Identificador del sistema de compensación de Kazajistán",
+      "definition": "Identificador del sistema de compensación utilizado en Kazajistán (ID)"
+    },
+    "LB": {
+      "name": "Identificador del sistema de compensación de Líbano",
+      "definition": "Identificador del sistema de compensación utilizado en el Líbano (ID)"
+    },
+    "LK": {
+      "name": "Identificador del sistema de compensación de Sri Lanka",
+      "definition": "Identificador del sistema de compensación utilizado en Sri Lanka (ID)"
+    },
+    "LR": {
+      "name": "Identificador del sistema de compensación de Liberia",
+      "definition": "Identificador del sistema de compensación utilizado en Liberia (ID)"
+    },
+    "LS": {
+      "name": "Identificador del sistema de compensación de Lesoto",
+      "definition": "Identificador del sistema de compensación utilizado en Lesoto (ID)"
+    },
+    "LT": {
+      "name": "Identificador del sistema de compensación de Lituania",
+      "definition": "Identificador del sistema de compensación utilizado en Lituania (ID)."
+    },
+    "LV": {
+      "name": "Identificador del sistema de compensación de Letonia",
+      "definition": "Identificador del sistema de compensación utilizado en Letonia (ID)"
+    },
+    "LY": {
+      "name": "Identificador del sistema de compensación de Libia",
+      "definition": "Identificador del sistema de compensación utilizado en Libia (ID)"
+    },
+    "MD": {
+      "name": "Identificador del sistema de compensación de Moldavia",
+      "definition": "Identificador del sistema de compensación utilizado en Moldavia (ID)"
+    },
+    "ME": {
+      "name": "Identificador del sistema de compensación de Montenegro",
+      "definition": "Identificador del sistema de compensación utilizado en Montenegro (ID)"
+    },
+    "MG": {
+      "name": "Identificador del sistema de compensación de Madagascar",
+      "definition": "Identificador del sistema de compensación utilizado en Madagascar (ID)"
+    },
+    "MK": {
+      "name": "Identificador del sistema de compensación de Macedonia del Norte",
+      "definition": "Identificador del sistema de compensación utilizado en Macedonia del Norte (ID)"
+    },
+    "MN": {
+      "name": "Identificador del sistema de compensación de Mongolia",
+      "definition": "Identificador del sistema de compensación utilizado en Mongolia (ID)"
+    },
+    "MO": {
+      "name": "Identificador del sistema de compensación de Macao",
+      "definition": "Identificador del sistema de compensación utilizado en Macao (ID)"
+    },
+    "MR": {
+      "name": "Identificador del sistema de compensación de Mauritania",
+      "definition": "Identificador del sistema de compensación utilizado en Mauritania (ID)"
+    },
+    "MT": {
+      "name": "Identificador del sistema de compensación de Malta",
+      "definition": "Identificador del sistema de compensación utilizado en Malta (ID)"
+    },
+    "MW": {
+      "name": "Identificador del sistema de compensación de Malaui",
+      "definition": "Identificador del sistema de compensación utilizado en Malaui (ID)."
+    },
+    "MX": {
+      "name": "Identificador del sistema de compensación de México",
+      "definition": "Identificador del sistema de compensación utilizado en México (ID)"
+    },
+    "MY": {
+      "name": "Identificador del sistema de compensación de Malasia",
+      "definition": "Identificador del sistema de compensación utilizado en Malasia (ID)"
+    },
+    "NG": {
+      "name": "Identificador del sistema de compensación de Nigeria",
+      "definition": "Identificador del sistema de compensación utilizado en Nigeria (ID)"
+    },
+    "NI": {
+      "name": "Identificador del sistema de compensación de Nicaragua",
+      "definition": "Identificador del sistema de compensación utilizado en Nicaragua (ID)"
+    },
+    "NP": {
+      "name": "Identificador del sistema de compensación de Nepal",
+      "definition": "Identificador del sistema de compensación utilizado en Nepal (ID)"
+    },
+    "OM": {
+      "name": "Identificador del sistema de compensación de Omán",
+      "definition": "Identificador del sistema de compensación utilizado en Omán (ID)"
+    },
+    "PA": {
+      "name": "Identificador del sistema de compensación de Panamá",
+      "definition": "Identificador del sistema de compensación utilizado en Panamá (ID)"
+    },
+    "PE": {
+      "name": "Identificador del sistema de compensación de Perú",
+      "definition": "Identificador del sistema de compensación utilizado en Perú (ID)"
+    },
+    "PG": {
+      "name": "Identificador del sistema de compensación de Papúa Nueva Guinea",
+      "definition": "Identificador del sistema de compensación utilizado en Papúa Nueva Guinea (ID)"
+    },
+    "PH": {
+      "name": "Identificador del sistema de compensación de Filipinas",
+      "definition": "Identificador del sistema de compensación utilizado en Filipinas (ID)."
+    },
+    "PK": {
+      "name": "Identificador del sistema de compensación de Pakistán",
+      "definition": "Identificador del sistema de compensación utilizado en Pakistán (ID)"
+    },
+    "PS": {
+      "name": "Identificador del sistema de compensación de Palestina",
+      "definition": "Identificador del sistema de compensación utilizado en Palestina (ID)"
+    },
+    "PY": {
+      "name": "Identificador del sistema de compensación de Paraguay",
+      "definition": "Identificador del sistema de compensación utilizado en Paraguay (ID)."
+    },
+    "QA": {
+      "name": "Identificador del sistema de compensación de Catar",
+      "definition": "Identificador del sistema de compensación utilizado en Catar (ID)"
+    },
+    "RO": {
+      "name": "Identificador del sistema de compensación de Rumanía",
+      "definition": "Identificador del sistema de compensación utilizado en Rumanía (ID)"
+    },
+    "RW": {
+      "name": "Identificador del sistema de compensación de Ruanda",
+      "definition": "Identificador del sistema de compensación utilizado en Ruanda (ID)"
+    },
+    "SA": {
+      "name": "Identificador del sistema de compensación de Arabia Saudí",
+      "definition": "Identificador del sistema de compensación utilizado en Arabia Saudí (ID)"
+    },
+    "SC": {
+      "name": "Identificador del sistema de compensación de Seychelles",
+      "definition": "Identificador del sistema de compensación utilizado en Seychelles (ID)"
+    },
+    "SD": {
+      "name": "Identificador del sistema de compensación de Sudán",
+      "definition": "Identificador del sistema de compensación utilizado en Sudán (ID)"
+    },
+    "SI": {
+      "name": "Identificador del sistema de compensación de Eslovenia",
+      "definition": "Identificador del sistema de compensación utilizado en Eslovenia (ID)"
+    },
+    "SK": {
+      "name": "Identificador del sistema de compensación de Eslovaquia",
+      "definition": "Identificador del sistema de compensación utilizado en Eslovaquia (ID)."
+    },
+    "SL": {
+      "name": "Identificador del sistema de compensación de Sierra Leona",
+      "definition": "Identificador del sistema de compensación utilizado en Sierra Leona (ID)"
+    },
+    "ST": {
+      "name": "Identificador del sistema de compensación de Santo Tomé y Príncipe",
+      "definition": "Identificador del sistema de compensación utilizado en Santo Tomé y Príncipe (ID)"
+    },
+    "SV": {
+      "name": "Identificador del sistema de compensación de El Salvador",
+      "definition": "Identificador del sistema de compensación utilizado en El Salvador (ID)"
+    },
+    "SZ": {
+      "name": "Identificador del sistema de compensación de Esuatini",
+      "definition": "Identificador del sistema de compensación utilizado en Esuatini (ID)."
+    },
+    "TJ": {
+      "name": "Identificador del sistema de compensación de Tayikistán",
+      "definition": "Identificador del sistema de compensación utilizado en Tayikistán (ID)"
+    },
+    "TL": {
+      "name": "Identificador del sistema de compensación de Timor Oriental",
+      "definition": "Identificador del sistema de compensación utilizado en Timor-Leste (ID)"
+    },
+    "TM": {
+      "name": "Identificador del sistema de compensación de Turkmenistán",
+      "definition": "Identificador del sistema de compensación utilizado en Turkmenistán (ID)"
+    },
+    "TN": {
+      "name": "Identificador del sistema de compensación de Túnez",
+      "definition": "Identificador del sistema de compensación utilizado en Túnez (ID)"
+    },
+    "TR": {
+      "name": "Identificador del sistema de compensación de Turquía",
+      "definition": "Identificador del sistema de compensación utilizado en Turquía (ID)"
+    },
+    "TT": {
+      "name": "Identificador del sistema de compensación de Trinidad y Tobago",
+      "definition": "Identificador del sistema de compensación utilizado en Trinidad y Tobago (ID)"
+    },
+    "TZ": {
+      "name": "Identificador del sistema de compensación de Tanzania",
+      "definition": "Identificador del sistema de compensación utilizado en Tanzania (ID)"
+    },
+    "UA": {
+      "name": "Identificador del sistema de compensación de Ucrania",
+      "definition": "Identificador del sistema de compensación utilizado en Ucrania (ID)"
+    },
+    "UG": {
+      "name": "Identificador del sistema de compensación de Uganda",
+      "definition": "Identificador del sistema de compensación utilizado en Uganda (ID)"
+    },
+    "UY": {
+      "name": "Identificador del sistema de compensación de Uruguay",
+      "definition": "Identificador del sistema de compensación utilizado en Uruguay (ID)"
+    },
+    "UZ": {
+      "name": "Identificador del sistema de compensación de Uzbekistán",
+      "definition": "Identificador del sistema de compensación utilizado en Uzbekistán (ID)"
+    },
+    "VA": {
+      "name": "Identificador del sistema de compensación de Ciudad del Vaticano",
+      "definition": "Identificador del sistema de compensación utilizado en la Ciudad del Vaticano (ID)"
+    },
+    "VE": {
+      "name": "Identificador del sistema de compensación de Venezuela",
+      "definition": "Identificador del sistema de compensación utilizado en Venezuela (ID)"
+    },
+    "VN": {
+      "name": "Identificador del sistema de compensación de Vietnam",
+      "definition": "Identificador del sistema de compensación utilizado en Vietnam (ID)"
+    },
+    "XK": {
+      "name": "Identificador del sistema de compensación de Kosovo",
+      "definition": "Identificador del sistema de compensación utilizado en Kosovo (ID)"
+    },
+    "ZM": {
+      "name": "Identificador del sistema de compensación de Zambia",
+      "definition": "Identificador del sistema de compensación utilizado en Zambia (ID)"
+    },
+    "MARPA": {
+      "name": "Código de identificación de participante RTGS de Marruecos",
+      "definition": "Código de identificación de participante RTGS utilizado en el Reino de Marruecos."
+    },
+    "MARAC": {
+      "name": "Código nacional de compensación RTGS de Marruecos",
+      "definition": "Identificación del sistema de compensación RTGS utilizada en el Reino de Marruecos."
+    },
+    "CEAPA": {
+      "name": "Código de identificación de participante del Banco de los Estados de África Central",
+      "definition": "Código de identificación de participante del Banco de los Estados de África Central (BEAC), identificación de entidad financiera utilizada en el sistema SYGMA del BEAC para la liquidación entre participantes en Camerún, la República Centroafricana, Chad, Guinea Ecuatorial, Gabón y la República del Congo. En este caso, es propio de la modalidad de pago electrónico de liquidación bruta en tiempo real."
+    },
+    "CEAAC": {
+      "name": "Código de identificación de cuenta de participante del Banco de los Estados de África Central",
+      "definition": "Código de identificación de cuenta de participante del Banco de los Estados de África Central (BEAC), identificación de entidad financiera utilizada en el sistema SYGMA del BEAC para la liquidación entre cuentas de participantes en Camerún, la República Centroafricana, Chad, Guinea Ecuatorial, Gabón y la República del Congo. En este caso, es propio de la modalidad de pago electrónico de liquidación bruta en tiempo real."
+    },
+    "RSDPA": {
+      "name": "Código de identificación de participante RTGS de Serbia",
+      "definition": "Código de identificación de participante RTGS utilizado en la República de Serbia."
+    },
+    "RSDAC": {
+      "name": "Código de identificación de cuenta RTGS de Serbia",
+      "definition": "Código de identificación de cuenta RTGS utilizado en la República de Serbia."
+    },
+    "RSEPA": {
+      "name": "Código de identificación de participante en la compensación nacional de Serbia",
+      "definition": "Código de identificación de participante del sistema Interbank and International Clearing of FX Payments utilizado en la República de Serbia."
+    },
+    "RSEAC": {
+      "name": "Código de identificación de cuenta de la compensación nacional de Serbia",
+      "definition": "Código de identificación de cuenta del sistema Interbank and International Clearing of FX Payments utilizado en la República de Serbia."
+    },
+    "MUPPA": {
+      "name": "Código de identificación de participante RTGS de Mauricio",
+      "definition": "Código de identificación de participante MACSS utilizado en Mauricio."
+    },
+    "MUPAC": {
+      "name": "Código de identificación de cuenta RTGS de Mauricio",
+      "definition": "Cuenta de liquidación MACSS utilizada en Mauricio."
+    },
+    "CBHPA": {
+      "name": "Código de identificación de participante COMESA REPSS",
+      "definition": "Código de identificación de participante de REPSS (plataforma regional transfronteriza de pago y liquidación diseñada para facilitar pagos comerciales intrarregionales eficientes y seguros entre los Estados miembros del COMESA)."
+    },
+    "CBHAC": {
+      "name": "Código de identificación de cuenta COMESA REPSS",
+      "definition": "Cuenta de liquidación de REPSS (plataforma regional transfronteriza de pago y liquidación diseñada para facilitar pagos comerciales intrarregionales eficientes y seguros entre los Estados miembros del COMESA)."
+    },
+    "CBPPA": {
+      "name": "Código de identificación de participante COMESA SS",
+      "definition": "Código de identificación de participante de COMESA SS."
+    },
+    "CBPAC": {
+      "name": "Código de identificación de cuenta COMESA SS",
+      "definition": "Cuenta de liquidación de COMESA SS."
+    },
+    "DZRPA": {
+      "name": "Código de identificación de entidad de Argelia",
+      "definition": "Código de identificación de entidad utilizado en el sistema RTGS de Argelia."
+    },
+    "DZRAC": {
+      "name": "Código de identificación de cuenta de Argelia",
+      "definition": "Código de identificación de cuenta utilizado en el sistema RTGS de Argelia."
+    },
+    "UGDPA": {
+      "name": "Código de identificación de participante RTGS de Uganda",
+      "definition": "Código de identificación de participante RTGS utilizado en la República de Uganda."
+    },
+    "UGDAC": {
+      "name": "Código de identificación de cuenta RTGS de Uganda",
+      "definition": "Código de identificación de cuenta RTGS utilizado en la República de Uganda."
+    },
+    "MGRPA": {
+      "name": "Código de identificación de participante RTGS de Madagascar",
+      "definition": "Código de identificación de participante RTGS utilizado en Madagascar."
+    },
+    "MGRAC": {
+      "name": "Código de identificación de cuenta RTGS de Madagascar",
+      "definition": "Código de identificación de cuenta RTGS utilizado en Madagascar."
+    }
+  }
+}

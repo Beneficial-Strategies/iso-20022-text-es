@@ -1,0 +1,12 @@
+{
+  "isoType": "RegulatoryAuthority2",
+  "definition": "Entidad que requiere la información de reporte regulatorio.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre de la entidad que requiere la información de reporte regulatorio."
+    },
+    "Country": {
+      "definition": "País de la entidad que requiere la información de reporte regulatorio."
+    }
+  }
+}

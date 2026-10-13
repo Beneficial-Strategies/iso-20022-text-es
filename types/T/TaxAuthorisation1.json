@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxAuthorisation1",
+  "definition": "Detalles de la parte autorizada que paga el impuesto.",
+  "isoElements": {
+    "Title": {
+      "definition": "Cargo o puesto del ordenante o del representante autorizado del ordenante."
+    },
+    "Name": {
+      "definition": "Nombre del ordenante o del representante autorizado del ordenante."
+    }
+  }
+}

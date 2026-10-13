@@ -1,0 +1,33 @@
+{
+  "isoType": "StructuredRemittanceInformation22",
+  "definition": "Información proporcionada para permitir la correspondencia y la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar, de forma estructurada.",
+  "isoElements": {
+    "ReferredDocumentInformation": {
+      "definition": "Proporciona la identificación y el contenido del documento referenciado."
+    },
+    "ReferredDocumentAmount": {
+      "definition": "Proporciona detalles sobre los importes del documento referido."
+    },
+    "CreditorReferenceInformation": {
+      "definition": "Información de referencia proporcionada por el beneficiario para permitir la identificación de los documentos subyacentes."
+    },
+    "Invoicer": {
+      "definition": "Identificación de la organización que emite la factura, cuando es distinta del beneficiario o del beneficiario final."
+    },
+    "Invoicee": {
+      "definition": "Identificación de la parte a la que se emite una factura, cuando es distinta del ordenante o del ordenante final."
+    },
+    "TaxRemittance": {
+      "definition": "Proporciona información de remesa sobre un pago realizado con fines fiscales."
+    },
+    "GarnishmentRemittance": {
+      "definition": "Proporciona información de remesa sobre un pago con fines relacionados con el embargo."
+    },
+    "SecuritiesData": {
+      "definition": "Proporciona información sobre las operaciones de valores que componen el pago."
+    },
+    "AdditionalRemittanceInformation": {
+      "definition": "Información adicional, en forma de texto libre, para complementar la información de remesa estructurada."
+    }
+  }
+}
