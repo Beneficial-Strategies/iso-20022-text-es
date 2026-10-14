@@ -1,0 +1,4 @@
+{
+  "isoType": "ISOTime",
+  "format": "Use hh:mm:ss, con fracciones de segundo y Z o un desfase como +02:00 si hace falta, por ejemplo 09:30:00Z"
+}
