@@ -1,0 +1,15 @@
+{
+  "isoType": "RatioFormat1Choice",
+  "definition": "Elección del formato para expresar una proporción.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "La proporción se expresa como una cantidad por otra cantidad."
+    },
+    "AmountToAmount": {
+      "definition": "La proporción se expresa como un importe por otro importe."
+    },
+    "NotSpecifiedRate": {
+      "definition": "El valor de la proporción no está especificado."
+    }
+  }
+}

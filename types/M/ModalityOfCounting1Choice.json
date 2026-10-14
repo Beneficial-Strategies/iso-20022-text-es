@@ -1,0 +1,12 @@
+{
+  "isoType": "ModalityOfCounting1Choice",
+  "definition": "Modalidad de recuento como valor de código predefinido o propietario.",
+  "isoElements": {
+    "Code": {
+      "definition": "Modalidad de recuento expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Modalidad de recuento expresada como código propietario."
+    }
+  }
+}

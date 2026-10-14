@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionEventDeadlines4",
+  "definition": "Especifica los plazos del evento de operación societaria.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Fecha y hora fijadas por la entidad administradora de cuentas como plazo para responder, con instrucciones, a un evento pendiente, otorgando al titular derecho a incentivos. Esta hora depende de la zona horaria de referencia de la entidad administradora de cuentas, según se especifica en un acuerdo de nivel de servicio (SLA)."
+    },
+    "ResponseDeadline": {
+      "definition": "Fecha y hora fijadas por la entidad administradora de cuentas como plazo para responder, con instrucciones, a un evento pendiente. Esta hora depende de la zona horaria de referencia de la entidad administradora de cuentas, según se especifica en un acuerdo de nivel de servicio (SLA)."
+    },
+    "MarketDeadline": {
+      "definition": "Plazo del emisor o de su agente para responder con una instrucción a una oferta o privilegio pendiente."
+    },
+    "ProtectDeadline": {
+      "definition": "Plazo para las instrucciones de protección."
+    },
+    "CoverProtectDeadline": {
+      "definition": "Plazo para cubrir una instrucción de protección."
+    }
+  }
+}

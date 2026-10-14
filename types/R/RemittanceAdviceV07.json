@@ -1,0 +1,4 @@
+{
+  "isoType": "RemittanceAdviceV07",
+  "definition": "El mensaje RemittanceAdvice permite al originador facilitar detalles de remesa que pueden asociarse a un pago."
+}

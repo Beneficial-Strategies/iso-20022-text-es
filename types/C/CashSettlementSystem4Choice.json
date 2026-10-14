@@ -1,0 +1,12 @@
+{
+  "isoType": "CashSettlementSystem4Choice",
+  "definition": "Elección del formato del sistema de liquidación de efectivo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Sistema de liquidación de efectivo expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Sistema de liquidación de efectivo expresado como código propietario."
+    }
+  }
+}

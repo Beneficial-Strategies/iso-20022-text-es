@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionQuantity14",
+  "definition": "Especifica las cantidades de la operación societaria.",
+  "isoElements": {
+    "MaximumQuantity": {
+      "definition": "Número máximo de valores que el oferente/emisor está dispuesto a comprar o reembolsar. Puede ser un número o el término \"any and all\"."
+    },
+    "MinimumQuantitySought": {
+      "definition": "Cantidad mínima de valores que el oferente/emisor está dispuesto a comprar o reembolsar según las condiciones del evento. Puede ser un número o el término \"any and all\"."
+    },
+    "NewBoardLotQuantity": {
+      "definition": "Cantidad de capital que constituye el nuevo lote de negociación."
+    },
+    "NewDenominationQuantity": {
+      "definition": "Nueva denominación del capital tras, por ejemplo, un aumento o una disminución del valor nominal."
+    },
+    "BaseDenomination": {
+      "definition": "Importe integral mínimo de valores que debe conservar cada titular de cuenta tras aplicarse los importes amortizados."
+    },
+    "IncrementalDenomination": {
+      "definition": "Importe utilizado cuando el importe amortizado no se alcanza al realizar el sorteo con la denominación base."
+    }
+  },
+  "isoRules": {
+    "MaximumAndMinimumQuantitySoughtUsageRule": {
+      "definition": "Cuando MaximumQuantity está presente, MinimumQuantitySought también debe estar presente. Cuando MinimumQuantitySought está presente, MaximumQuantity también debe estar presente.|Cuando MinimumQuantitySought/Code es AnyAndAll, entonces MaximumQuantity/Code no debe ser AnyAndAll.|Cuando MaximumQuantity/Code es AnyAndAll, MinimumQuantitySought/code no debe utilizarse con el valor AnyAndAll."
+    }
+  }
+}

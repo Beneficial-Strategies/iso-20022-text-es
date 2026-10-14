@@ -1,0 +1,402 @@
+{
+  "isoType": "ResultDetail5Code",
+  "definition": "Detalle de la respuesta a un cajero automático (ATM).",
+  "isoCodes": {
+    "ACTF": {
+      "name": "Cuenta no encontrada",
+      "definition": "No se encuentra la cuenta del titular de la tarjeta o del cliente."
+    },
+    "ACQS": {
+      "name": "Adquirente no soportado",
+      "definition": "El adquirente no está soportado."
+    },
+    "AMLV": {
+      "name": "Validación AML",
+      "definition": "Error en la validación AML (prevención del blanqueo de capitales)."
+    },
+    "AMTA": {
+      "name": "Importe no encontrado",
+      "definition": "Importe no encontrado."
+    },
+    "AUTH": {
+      "name": "Autenticación fallida",
+      "definition": "No se ha podido autenticar al titular de la tarjeta o al cliente, por ejemplo, por un identificador de acceso o una contraseña incorrectos."
+    },
+    "BANK": {
+      "name": "Banco no encontrado",
+      "definition": "Banco no encontrado."
+    },
+    "CRDR": {
+      "name": "Error de tarjeta",
+      "definition": "Error de tarjeta, por ejemplo, ARQC (Authorisation ReQuest Cryptogram) no válido."
+    },
+    "CRDF": {
+      "name": "Verificación de tarjeta fallida",
+      "definition": "La identificación de la tarjeta no es válida."
+    },
+    "ACTC": {
+      "name": "Cuenta cerrada",
+      "definition": "La cuenta ya no se puede utilizar para la operación."
+    },
+    "CTVG": {
+      "name": "Cutover en curso",
+      "definition": "Hay un cambio de jornada (cutover) en curso; la operación no se pudo procesar."
+    },
+    "DBER": {
+      "name": "Error de base de datos",
+      "definition": "Error de acceso a la base de datos."
+    },
+    "FEES": {
+      "name": "Comisiones discutidas",
+      "definition": "El emisor discute las comisiones de la operación."
+    },
+    "TXNL": {
+      "name": "Ciclo de vida de la operación excedido",
+      "definition": "Se ha superado el período de validez de la operación."
+    },
+    "AMTD": {
+      "name": "Límite de importe de depósito",
+      "definition": "El importe de las operaciones de depósito supera el límite."
+    },
+    "NMBD": {
+      "name": "Límite de número de ingresos",
+      "definition": "El número de operaciones de ingreso o de efectos supera el límite."
+    },
+    "CRDX": {
+      "name": "Tarjeta caducada",
+      "definition": "La tarjeta ha caducado."
+    },
+    "FDCL": {
+      "name": "Fallback denegado",
+      "definition": "El emisor denegó la operación en modo alternativo (fall-back)."
+    },
+    "FMTR": {
+      "name": "Error de formato",
+      "definition": "Formato no válido del mensaje o de su contenido."
+    },
+    "TXNG": {
+      "name": "En curso",
+      "definition": "La solicitud original está en curso."
+    },
+    "FNDI": {
+      "name": "Fondos insuficientes",
+      "definition": "El saldo de la cuenta no es suficiente."
+    },
+    "ACPI": {
+      "name": "Aceptante no válido",
+      "definition": "El emisor deniega el aceptante."
+    },
+    "AMTI": {
+      "name": "Importe no válido",
+      "definition": "El importe solicitado está fuera de los límites de la tarjeta, o la divisa no es válida."
+    },
+    "ADDI": {
+      "name": "Dirección no válida",
+      "definition": "Parte de la dirección especificada es incorrecta."
+    },
+    "BRHI": {
+      "name": "Sucursal no válida",
+      "definition": "Información de sucursal o de banco no válida."
+    },
+    "CHDI": {
+      "name": "Identificación del titular no válida",
+      "definition": "La identificación del titular de la tarjeta o del cliente no coincide."
+    },
+    "CRDI": {
+      "name": "Número de tarjeta no válido",
+      "definition": "La identificación de la tarjeta no es válida."
+    },
+    "CTFV": {
+      "name": "Certificado no válido",
+      "definition": "El certificado digital no se puede autenticar, ha caducado o ha sido revocado."
+    },
+    "AMTO": {
+      "name": "Importe original no válido",
+      "definition": "El importe original no es válido."
+    },
+    "PINV": {
+      "name": "PIN no válido",
+      "definition": "El PIN no es válido."
+    },
+    "TKKO": {
+      "name": "Token no válido",
+      "definition": "El token no puede utilizarse para sustituir un PAN (Primary Account Number, número de cuenta principal)."
+    },
+    "SGNI": {
+      "name": "Firma no válida",
+      "definition": "El mensaje firmado tiene una firma no válida."
+    },
+    "TKID": {
+      "name": "Identificación de token no válida",
+      "definition": "La identificación del proveedor del token o del solicitante del token no es válida."
+    },
+    "TXNV": {
+      "name": "Operación no válida",
+      "definition": "La operación no es válida."
+    },
+    "DATI": {
+      "name": "Fecha y hora de la operación no válidas",
+      "definition": "La fecha y hora de la operación no son válidas."
+    },
+    "ISSP": {
+      "name": "Emisor inoperativo",
+      "definition": "El emisor no está operativo."
+    },
+    "ISSF": {
+      "name": "Emisor no encontrado",
+      "definition": "No se encuentra el emisor."
+    },
+    "ISSO": {
+      "name": "Emisor desconectado",
+      "definition": "La operación no se pudo procesar porque el emisor está desconectado (signed off)."
+    },
+    "ISST": {
+      "name": "Tiempo de espera del emisor agotado",
+      "definition": "La operación no se pudo procesar porque el emisor ha agotado el tiempo de espera."
+    },
+    "ISSU": {
+      "name": "Emisor no disponible",
+      "definition": "La operación no se pudo procesar porque el emisor no está disponible."
+    },
+    "KEYS": {
+      "name": "Almacenamiento de claves saturado",
+      "definition": "No hay espacio de almacenamiento disponible para la clave."
+    },
+    "LBLA": {
+      "name": "Responsabilidad aceptada",
+      "definition": "La operación se procesa y se acepta la responsabilidad."
+    },
+    "CRDL": {
+      "name": "Tarjeta perdida",
+      "definition": "La tarjeta ha sido declarada perdida."
+    },
+    "MACR": {
+      "name": "Error de MAC",
+      "definition": "Error de MAC."
+    },
+    "MACK": {
+      "name": "Error de clave MAC",
+      "definition": "Error en la clave MAC."
+    },
+    "ICCM": {
+      "name": "Datos ICC ausentes",
+      "definition": "Los elementos de datos ICC necesarios para procesar la operación con ICC no estaban presentes en el mensaje."
+    },
+    "PINN": {
+      "name": "Nuevo PIN no válido",
+      "definition": "El nuevo PIN no es válido (cambio de PIN)."
+    },
+    "CRDA": {
+      "name": "Sin registro de tarjeta",
+      "definition": "Sin registro en el fichero de tarjetas."
+    },
+    "LBLU": {
+      "name": "Responsabilidad no aceptada",
+      "definition": "La operación se procesa, pero no se acepta la responsabilidad."
+    },
+    "PINA": {
+      "name": "No se puede validar el PIN",
+      "definition": "No se pudo validar el PIN."
+    },
+    "NPRA": {
+      "name": "No permitido al aceptante",
+      "definition": "Proceso no permitido al aceptante (por ejemplo, fallback)."
+    },
+    "OFFL": {
+      "name": "Proceso sin conexión",
+      "definition": "La operación ha sido procesada sin conexión por el terminal."
+    },
+    "ONLP": {
+      "name": "Proceso sin conexión tras consulta",
+      "definition": "La operación ha sido procesada sin conexión tras una consulta al emisor."
+    },
+    "NPRC": {
+      "name": "No permitido al titular",
+      "definition": "Operación no permitida al titular de la tarjeta o al cliente."
+    },
+    "TXNM": {
+      "name": "La original no coincide",
+      "definition": "Se encuentra la original, pero la operación no coincide."
+    },
+    "OTHR": {
+      "name": "Otro error",
+      "definition": "Otro error."
+    },
+    "BALO": {
+      "name": "Descuadre",
+      "definition": "Descuadre."
+    },
+    "SEQO": {
+      "name": "Fuera de secuencia",
+      "definition": "El mensaje está fuera de secuencia."
+    },
+    "PINC": {
+      "name": "Cambio de PIN obligatorio",
+      "definition": "El titular debe cambiar el PIN para poder realizar la operación."
+    },
+    "PIND": {
+      "name": "Datos de PIN requeridos",
+      "definition": "Se requiere información adicional para verificar el PIN."
+    },
+    "PINS": {
+      "name": "Error de seguridad del PIN",
+      "definition": "La longitud del PIN o la clave del PIN no es válida."
+    },
+    "PINX": {
+      "name": "Intentos de PIN excedidos",
+      "definition": "Falla el último intento de verificación del PIN."
+    },
+    "PINE": {
+      "name": "Error de cifrado del PIN",
+      "definition": "El bloque de PIN descifrado no es válido."
+    },
+    "QMAX": {
+      "name": "Máximo de cola excedido",
+      "definition": "Se ha superado el máximo de la cola de almacenamiento y reenvío."
+    },
+    "RECD": {
+      "name": "Error recurrente de datos",
+      "definition": "Error recurrente en los datos."
+    },
+    "CRDT": {
+      "name": "Tarjeta restringida",
+      "definition": "La tarjeta no permite el servicio solicitado."
+    },
+    "SECV": {
+      "name": "Violación de seguridad",
+      "definition": "Violación de seguridad, por ejemplo un ARPC (Authorisation ResPonse Cryptogram) no válido."
+    },
+    "SRVU": {
+      "name": "Servicio no habilitado",
+      "definition": "El titular de la tarjeta o el cliente no ha habilitado el servicio con el proveedor del servicio."
+    },
+    "SFWE": {
+      "name": "Error de software o hardware",
+      "definition": "Error de software o hardware de seguridad."
+    },
+    "SPCC": {
+      "name": "Condiciones especiales",
+      "definition": "No se respetan las condiciones especiales de la tarjeta."
+    },
+    "CRDS": {
+      "name": "Tarjeta robada",
+      "definition": "La tarjeta ha sido declarada robada."
+    },
+    "SRCH": {
+      "name": "Recargo no permitido",
+      "definition": "No se permite aplicar recargos."
+    },
+    "CNTC": {
+      "name": "Sospecha de tarjeta falsa",
+      "definition": "El emisor o el procesador sospechan que la tarjeta es falsa."
+    },
+    "FRDS": {
+      "name": "Sospecha de fraude",
+      "definition": "El emisor o el procesador sospechan que la operación es fraudulenta."
+    },
+    "SYSP": {
+      "name": "Sistema inoperativo",
+      "definition": "Procesamiento temporalmente no disponible."
+    },
+    "SYSM": {
+      "name": "Mal funcionamiento del sistema",
+      "definition": "Mal funcionamiento del sistema."
+    },
+    "TRMI": {
+      "name": "Terminal no configurado",
+      "definition": "El servidor ha recibido una identificación de terminal que no conoce."
+    },
+    "ACTT": {
+      "name": "Error en la cuenta de destino",
+      "definition": "Error en el estado de la cuenta de destino."
+    },
+    "TTLV": {
+      "name": "Totales no disponibles",
+      "definition": "Los totales no están disponibles."
+    },
+    "TXNU": {
+      "name": "Operación no completada",
+      "definition": "La operación no se completó en el terminal."
+    },
+    "TXND": {
+      "name": "Operación duplicada",
+      "definition": "Identificación de operación ya utilizada para otra operación."
+    },
+    "ORGF": {
+      "name": "Original no encontrada",
+      "definition": "La operación no se pudo procesar porque no se encuentra la original."
+    },
+    "UNBO": {
+      "name": "Imposible conectar en línea",
+      "definition": "El terminal no puede procesar la operación en línea."
+    },
+    "UNBP": {
+      "name": "Imposible procesar sin conexión",
+      "definition": "La operación no se puede procesar sin conexión."
+    },
+    "UNBC": {
+      "name": "Divisa no aceptable",
+      "definition": "La divisa no es aceptable para el emisor o el procesador."
+    },
+    "CMKY": {
+      "name": "Clave de comunicación no disponible",
+      "definition": "Las claves de comunicación no están disponibles."
+    },
+    "CRDU": {
+      "name": "Tarjeta no activa",
+      "definition": "La tarjeta aún no está activa."
+    },
+    "SVSU": {
+      "name": "Servicio no admitido",
+      "definition": "Servicio solicitado no admitido."
+    },
+    "VNDR": {
+      "name": "Error de formato del proveedor",
+      "definition": "El formato del proveedor contiene un error."
+    },
+    "VNDF": {
+      "name": "Proveedor no encontrado",
+      "definition": "Proveedor no encontrado."
+    },
+    "AMTW": {
+      "name": "Límite de importe de reintegro",
+      "definition": "El importe de las operaciones de reintegro supera el límite de la tarjeta."
+    },
+    "NMBW": {
+      "name": "Límite de número de reintegros",
+      "definition": "El número de operaciones de reintegro supera el límite de la tarjeta."
+    },
+    "CRDW": {
+      "name": "Tarjeta incorrecta",
+      "definition": "Se utilizó otra tarjeta en la operación original."
+    },
+    "MEDI": {
+      "name": "Tipo de soporte no válido",
+      "definition": "Los soportes solicitados no están permitidos para el servicio."
+    },
+    "SRVI": {
+      "name": "Servicio no válido",
+      "definition": "El servicio solicitado no está permitido."
+    },
+    "AMMA": {
+      "name": "La cuenta coincide con varias cuentas",
+      "definition": "Los datos de cuenta facilitados en el mensaje de solicitud coinciden con varias cuentas."
+    },
+    "AGFE": {
+      "name": "Aceptar comisión",
+      "definition": "El consumidor debe aceptar una de las comisiones facilitadas para autorizar la operación. Véase <Tx><AuthstnRslt><FeeToAdd>."
+    },
+    "SACT": {
+      "name": "Seleccionar cuenta",
+      "definition": "El consumidor debe seleccionar una de las cuentas proporcionadas para autorizar la operación. Véase <Tx><AcctInf>."
+    },
+    "ADCC": {
+      "name": "Aceptar DCC",
+      "definition": "El consumidor debe elegir si acepta la oferta de DCC facilitada para autorizar la operación. Véase <Tx><CcyConvsElgblty>."
+    },
+    "FEEM": {
+      "name": "Comisión ausente",
+      "definition": "Falta la comisión de la operación en la solicitud."
+    }
+  }
+}

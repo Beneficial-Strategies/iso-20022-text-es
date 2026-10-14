@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionCriteria8Choice",
+  "definition": "Define la información que se busca, ya sea implícitamente, recuperando una consulta anterior, o explícitamente, definiendo los criterios.",
+  "isoElements": {
+    "QueryName": {
+      "definition": "Recupera los criterios (de búsqueda y de devolución) definidos en una consulta anterior."
+    },
+    "NewCriteria": {
+      "definition": "Define explícitamente los criterios de la consulta."
+    }
+  }
+}

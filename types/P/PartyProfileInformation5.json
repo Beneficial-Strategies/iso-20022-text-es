@@ -1,0 +1,48 @@
+{
+  "isoType": "PartyProfileInformation5",
+  "definition": "Información de apoyo a los procesos de conocimiento del cliente (KYC).",
+  "isoElements": {
+    "CertificationIndicator": {
+      "definition": "Indica si se ha obtenido y verificado el tipo de certificado."
+    },
+    "ValidatingParty": {
+      "definition": "Identificación de la persona que validó el documento."
+    },
+    "CheckingParty": {
+      "definition": "Identificación de la persona que comprobó el documento."
+    },
+    "ResponsibleParty": {
+      "definition": "Identificación de la persona responsable del documento."
+    },
+    "CertificateType": {
+      "definition": "Tipo de certificado."
+    },
+    "CheckingDate": {
+      "definition": "Fecha en que se realizó la comprobación de la certificación."
+    },
+    "CheckingFrequency": {
+      "definition": "Especifica con qué frecuencia se realiza la comprobación."
+    },
+    "NextRevisionDate": {
+      "definition": "Especifica la fecha en que se realizará la siguiente comprobación de la certificación."
+    },
+    "SalaryRange": {
+      "definition": "Límites entre los que se estima el salario de una persona."
+    },
+    "SourceOfWealth": {
+      "definition": "Indica la principal fuente de ingresos."
+    },
+    "CustomerConductClassification": {
+      "definition": "Especifica una valoración del comportamiento del cliente en el momento de la solicitud de apertura de cuenta."
+    },
+    "RiskLevel": {
+      "definition": "Especifica el riesgo de blanqueo de capitales del cliente."
+    },
+    "KnowYourCustomerCheckType": {
+      "definition": "Especifica el tipo de comprobaciones de diligencia debida realizadas sobre el inversor o el titular de la cuenta. Para las definiciones de las comprobaciones de conocimiento del cliente ordinarias, simplificadas y reforzadas, deben consultarse las normativas del mercado local."
+    },
+    "KnowYourCustomerDatabaseCheck": {
+      "definition": "Especifica si un cliente ha sido comprobado en una base de datos de conocimiento del cliente (KYC)."
+    }
+  }
+}

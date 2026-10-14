@@ -1,0 +1,12 @@
+{
+  "isoType": "ExtendedParty14",
+  "definition": "Información de la parte y de la cuenta.",
+  "isoElements": {
+    "ExtendedPartyRole": {
+      "definition": "Otro tipo de función de la parte."
+    },
+    "OtherPartyDetails": {
+      "definition": "Información detallada de titularidad sobre una parte."
+    }
+  }
+}

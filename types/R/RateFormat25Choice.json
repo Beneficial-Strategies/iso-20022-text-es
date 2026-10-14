@@ -1,0 +1,12 @@
+{
+  "isoType": "RateFormat25Choice",
+  "definition": "Elección entre una tasa o una tasa no especificada.",
+  "isoElements": {
+    "Rate": {
+      "definition": "El valor se expresa como una tasa."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor de la tasa no especificado."
+    }
+  }
+}

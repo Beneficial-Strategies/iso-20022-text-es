@@ -1,0 +1,15 @@
+{
+  "isoType": "UnitsOrAmountOrPercentage1Choice",
+  "definition": "Elección entre un importe, un número de participaciones o un porcentaje.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe en efectivo."
+    },
+    "Unit": {
+      "definition": "Número de participaciones."
+    },
+    "Percentage": {
+      "definition": "Porcentaje del importe en efectivo."
+    }
+  }
+}

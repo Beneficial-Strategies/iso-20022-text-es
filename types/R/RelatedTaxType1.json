@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedTaxType1",
+  "definition": "Especifica el tipo de impuesto relacionado.",
+  "isoElements": {
+    "TaxType": {
+      "definition": "Especifica el tipo de impuesto."
+    },
+    "Amount": {
+      "definition": "Valor del impuesto relacionado expresado como un importe."
+    }
+  }
+}

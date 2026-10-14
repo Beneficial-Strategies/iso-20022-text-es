@@ -1,0 +1,21 @@
+{
+  "isoType": "CashNote1",
+  "definition": "Retirada o ingreso de una suma de dinero expresada en billetes.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de efectivo."
+    },
+    "BoxReference": {
+      "definition": "Referencia de la caja que contiene estos billetes."
+    },
+    "NoteDenomination": {
+      "definition": "Especifica la denominación del billete, incluida la divisa, por ejemplo un billete de 50 euros."
+    },
+    "NumberOfNotes": {
+      "definition": "Especifica el número de billetes de la misma denominación."
+    },
+    "Amount": {
+      "definition": "Especifica el importe total de dinero de esta denominación de billete, es decir, la denominación del billete multiplicada por el número de billetes."
+    }
+  }
+}

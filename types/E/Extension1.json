@@ -1,0 +1,17 @@
+{
+  "isoType": "Extension1",
+  "definition": "Información adicional que no puede recogerse en los campos estructurados ni en ningún otro bloque específico.",
+  "isoElements": {
+    "PlaceAndName": {
+      "definition": "Nombre que califica la información facilitada en el campo Text y lugar donde debe insertarse esta información."
+    },
+    "Text": {
+      "definition": "Texto de la extensión."
+    }
+  },
+  "isoRules": {
+    "ExtensionRule": {
+      "definition": "Este componente no puede utilizarse sin la aprobación expresa de la Autoridad de Registro y sin normas de uso estrictas publicadas por la Autoridad de Registro."
+    }
+  }
+}

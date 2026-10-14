@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferUnmatchedStatus4Choice",
+  "definition": "Motivo del estado de no casada.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    },
+    "Reason": {
+      "definition": "Motivo del estado de no casada."
+    },
+    "ExtendedReason": {
+      "definition": "Motivo del estado de no casada."
+    },
+    "DataSourceScheme": {
+      "definition": "Identificación propietaria del motivo del estado de no casada."
+    }
+  }
+}

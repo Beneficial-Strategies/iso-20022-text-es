@@ -1,0 +1,14 @@
+{
+  "isoType": "RegistrationProcessingStatus1Code",
+  "definition": "Especifica el estado del procesamiento del registro.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Acuse de recibo aceptado",
+      "definition": "El registro ha sido reconocido/aceptado por el emisor/registrador."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "El registro ha sido rechazado por el emisor/registrador."
+    }
+  }
+}

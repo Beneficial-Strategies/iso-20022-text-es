@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementCancellationQueryV02",
+  "definition": "El mensaje IntraBalanceMovementCancellationQuery es enviado por un titular de cuenta o solicitante a una infraestructura de liquidación para consultar el estado de una o varias instrucciones de cancelación de movimientos entre saldos, a partir de un conjunto de criterios de búsqueda o atributos de negocio.|El mensaje también puede utilizarse para: |- reenviar un mensaje enviado por el titular de la cuenta a la entidad gestora de la cuenta (la subfunción del mensaje es \"Duplicate\") |- proporcionar a un tercero, a título informativo, una copia de un mensaje enviado por el titular de la cuenta (la subfunción del mensaje es \"Copy\") |- reenviar a un tercero, a título informativo, una copia de un mensaje enviado por el titular de la cuenta (la subfunción del mensaje es \"Copy Duplicate\")."
+}

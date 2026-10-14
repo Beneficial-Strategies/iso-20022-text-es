@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxBasis1Choice",
+  "definition": "Elección de formatos para la base del impuesto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Base del impuesto expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Base del impuesto expresada como código propietario."
+    }
+  }
+}

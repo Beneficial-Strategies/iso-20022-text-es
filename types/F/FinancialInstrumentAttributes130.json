@@ -1,0 +1,86 @@
+{
+  "isoType": "FinancialInstrumentAttributes130",
+  "definition": "Descripción del instrumento financiero.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "PlaceOfListing": {
+      "definition": "Lugar donde cotiza el instrumento financiero referenciado."
+    },
+    "DayCountBasis": {
+      "definition": "Especifica el método de cálculo de los intereses (devengados) del instrumento financiero."
+    },
+    "ClassificationType": {
+      "definition": "Tipo de clasificación del instrumento financiero, conforme a la clasificación ISO de instrumentos financieros (CFI)."
+    },
+    "OptionStyle": {
+      "definition": "Especifica cómo puede ejercerse una opción."
+    },
+    "DenominationCurrency": {
+      "definition": "Divisa en la que está denominado actualmente un instrumento financiero."
+    },
+    "NextCouponDate": {
+      "definition": "Próxima fecha de pago de un instrumento financiero que devenga intereses."
+    },
+    "FloatingRateFixingDate": {
+      "definition": "Fecha en que se calculará o se calculó el tipo de interés o el precio de reembolso según las condiciones de la emisión."
+    },
+    "MaturityDate": {
+      "definition": "Fecha en que un instrumento financiero vence y deben reembolsarse los activos."
+    },
+    "IssueDate": {
+      "definition": "Fecha en la que el valor se puso a disposición."
+    },
+    "NextCallableDate": {
+      "definition": "Fecha en que un instrumento financiero es amortizado o reembolsado antes de su vencimiento previsto."
+    },
+    "PutableDate": {
+      "definition": "Fecha en que el titular de un instrumento financiero tiene derecho a solicitar el reembolso del principal antes de su fecha de vencimiento prevista."
+    },
+    "DatedDate": {
+      "definition": "Fecha en que un instrumento financiero que devenga intereses comienza a devengarlos."
+    },
+    "ConversionDate": {
+      "definition": "Plazo límite en el que debe convertirse un valor convertible, según las condiciones de la emisión."
+    },
+    "PreviousFactor": {
+      "definition": "Factor utilizado para calcular el valor del principal pendiente del instrumento financiero (para valores con factor) hasta la siguiente fecha de reembolso (factor)."
+    },
+    "NextFactor": {
+      "definition": "Factor utilizado para calcular el valor del principal pendiente del instrumento financiero (para valores con factor) que será aplicable después de la fecha de reembolso (factor)."
+    },
+    "InterestRate": {
+      "definition": "Tipo de interés anualizado de un instrumento financiero, utilizado para calcular el tipo de interés real del cupón o del interés devengado."
+    },
+    "NextInterestRate": {
+      "definition": "Tipo de interés aplicable al próximo período de pago de intereses en relación con instrumentos de tipo variable."
+    },
+    "MinimumNominalQuantity": {
+      "definition": "Cantidad nominal mínima del instrumento financiero."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Cantidad mínima de instrumento financiero que puede instruirse."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Cantidad múltiplo mínima de instrumento financiero que puede instruirse."
+    },
+    "ContractSize": {
+      "definition": "Relación o factor multiplicador utilizado para convertir un contrato en una cantidad de instrumento financiero."
+    },
+    "IssuePrice": {
+      "definition": "Precio de emisión o valoración inicial de un valor resultante de una operación societaria."
+    },
+    "BabyBondDenomination": {
+      "definition": "Importe en dólares atribuido al bono cuando el valor nominal es inferior a 1000."
+    }
+  },
+  "isoRules": {
+    "PreviousNextFactorRule": {
+      "definition": "En caso de reembolso parcial por factor de pool, PreviousFactor proporciona el factor aplicable antes del reembolso y NextFactor proporciona el factor aplicable después del reembolso."
+    },
+    "MaturityDateRule": {
+      "definition": "La fecha de vencimiento solo puede proporcionar información genérica sobre el vencimiento final del instrumento subyacente."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "MarketClaimCancellationRequestV02",
+  "definition": "Alcance y uso|El mensaje MarketClaimCancellationRequest es enviado por el titular de la cuenta a la entidad administradora de cuentas. |Se envía para solicitar la cancelación de una operación de reclamación de mercado.|Esta definición de mensaje está prevista para su uso con la cabecera de aplicación empresarial (BAH)."
+}

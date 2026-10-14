@@ -1,0 +1,27 @@
+{
+  "isoType": "ForeignExchangeTerms37",
+  "definition": "Información necesaria para procesar un cambio o una conversión de divisas.",
+  "isoElements": {
+    "ToAmount": {
+      "definition": "Importe en efectivo resultante de una operación de cambio de divisas."
+    },
+    "FromAmount": {
+      "definition": "Importe en efectivo para el que se requiere un cambio de divisas."
+    },
+    "UnitCurrency": {
+      "definition": "Divisa desde la que se convierte la divisa cotizada en un cálculo de tipo de cambio.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotedCurrency": {
+      "definition": "Divisa a la que se convierte la divisa base en un cálculo de tipo de cambio.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "ExchangeRate": {
+      "definition": "Factor utilizado para la conversión de un importe de una divisa a otra. Refleja el importe de la divisa cotizada que se puede adquirir con una unidad de la divisa base, del siguiente modo: |1 x CUR1 = nnn x CUR2, |donde: |CUR1 es la divisa base |CUR2 es la divisa cotizada |nnn es el tipo de cambio.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotationDate": {
+      "definition": "Fecha y hora en que se cotiza un tipo de cambio."
+    },
+    "QuotingInstitution": {
+      "definition": "Parte que propone el tipo de cambio."
+    }
+  }
+}

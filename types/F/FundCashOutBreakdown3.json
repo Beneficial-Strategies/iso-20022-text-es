@@ -1,0 +1,30 @@
+{
+  "isoType": "FundCashOutBreakdown3",
+  "definition": "Desglose de los movimientos de efectivo desde un fondo como resultado de operaciones con fondos de inversión, por ejemplo, reembolsos o traspasos de salida.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe del flujo de efectivo de salida, expresado como importe de dinero."
+    },
+    "UnitsNumber": {
+      "definition": "Importe del flujo de efectivo de salida, expresado como número de participaciones."
+    },
+    "NewAmountIndicator": {
+      "definition": "Indica si el flujo de efectivo es una partida que no figuraba en el informe enviado anteriormente, por ejemplo, porque se recibió cerca de la hora límite."
+    },
+    "InvestmentFundTransactionOutType": {
+      "definition": "Tipo de operación que dio lugar al movimiento de efectivo de salida, por ejemplo, reembolso o traspaso de salida."
+    },
+    "OriginalOrderQuantityType": {
+      "definition": "Especifica cómo se expresó la orden original que dio lugar al movimiento de efectivo de salida, es decir, en efectivo o en participaciones."
+    },
+    "ChargeDetails": {
+      "definition": "Gastos por la colocación de una orden."
+    },
+    "CommissionDetails": {
+      "definition": "Información relativa a la comisión aplicada a una orden, por ejemplo, comisión de salida o de entrada."
+    },
+    "SettlementCurrency": {
+      "definition": "Divisa de liquidación de la operación."
+    }
+  }
+}

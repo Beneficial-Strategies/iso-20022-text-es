@@ -1,0 +1,44 @@
+{
+  "isoType": "UnderlyingPaymentInstruction11",
+  "definition": "Proporciona más detalles sobre la iniciación de pago original a la que se refiere el mensaje de investigación.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Conjunto de elementos utilizados para proporcionar información sobre el mensaje original."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Identificación única, asignada por la parte emisora original, para identificar inequívocamente el grupo de información del pago original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original para la parte instruida original, para identificar inequívocamente la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar inequívocamente la operación original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal que proporciona la referencia de extremo a extremo original de una operación de pago."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Importe de dinero, tal como se indicó en la operación original, que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora original."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha en la que la parte iniciadora solicita a la entidad de compensación que procese el pago. |Uso: Es la fecha en la que debe adeudarse la cuenta del ordenante. Si el pago es mediante cheque, la fecha en que el banco debe emitir el cheque."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Fecha en la que el beneficiario solicita que se cobre el importe de dinero al ordenante."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos clave utilizados para identificar la operación original a la que se hace referencia."
+    },
+    "OriginalServiceLevel": {
+      "definition": "Acuerdo o normas con arreglo a los cuales debe procesarse la operación."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "Debe estar presente OriginalInstructionIdentification, OriginalEndToEndIdentification u OriginalUETR."
+    },
+    "OriginalRequestedDateRule": {
+      "definition": "Debe estar presente RequestedExecutionDate o RequestedCollectionDate."
+    }
+  }
+}

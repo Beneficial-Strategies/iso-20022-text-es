@@ -1,0 +1,198 @@
+{
+  "isoType": "DTCCSubEventType9Code",
+  "definition": "Especifica los tipos de subevento definidos por DTCC (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "OPTO": {
+      "name": "Exclusión voluntaria",
+      "definition": "Identifica un evento (por ejemplo, Cash Dividend) en el que DTC (the Depository Trust Company) ofrece una opción DRIP como opción por defecto (el titular debe optar por salir de la opción DRIP)."
+    },
+    "DRPD": {
+      "name": "Reinversión de dividendos por DTC",
+      "definition": "Identifica un evento en el que la emisión es elegible para un programa de reinversión de dividendos en DTCC (The Depository Trust and Clearing Corporation)."
+    },
+    "PLCL": {
+      "name": "Lugar de cotización",
+      "definition": "Identifica un cambio en el lugar donde cotiza el valor."
+    },
+    "BLOT": {
+      "name": "Lote estándar",
+      "definition": "Identifica un cambio en el tamaño del lote de negociación (Board Lot)."
+    },
+    "RMRK": {
+      "name": "Recolocación",
+      "definition": "Identifica un evento que involucra un producto de contrato de compra de acciones (Stock Purchase Contract) que ofrece una característica de liquidación anticipada o de recolocación en el mercado antes del vencimiento del contrato."
+    },
+    "UNWD": {
+      "name": "Liquidación anticipada",
+      "definition": "Identifica un evento en el que se produce la \"liquidación\" (unwinding) de la cesta de valores."
+    },
+    "SHEX": {
+      "name": "Canje de acciones",
+      "definition": "Identifica un evento en el que dos sociedades intercambian sus acciones durante una fusión. Tras el intercambio de acciones, una sociedad pasa a ser filial de la otra y deja de cotizar. Normalmente aplicable a un evento en los mercados de JP."
+    },
+    "STDT": {
+      "name": "Estándar",
+      "definition": "Identifica un evento en el que una sociedad se fusiona con otra y adopta el nombre de la sociedad superviviente. Es la fusión estándar aceptada en el mercado. Normalmente aplicable a un evento en los mercados de JP."
+    },
+    "XFER": {
+      "name": "Transferencia",
+      "definition": "Identifica un evento en el que una sociedad transfiere todas sus acciones a una sociedad de nueva creación. Normalmente aplicable a un evento en los mercados de JP."
+    },
+    "SOPT": {
+      "name": "Opciones de supervivencia",
+      "definition": "Indica un evento en el que la emisión tiene una característica de reembolso anticipado. Esta característica permite al titular optar por vender los bonos de vuelta al emisor sobre una base predeterminada (excluida la mensual) conforme a prioridades específicas."
+    },
+    "MBCK": {
+      "name": "Respaldado por hipotecas",
+      "definition": "Indica un evento en el que la emisión tiene una característica de reembolso anticipado que permite al titular optar por vender los bonos de vuelta al emisor con periodicidad mensual, conforme a condiciones especificadas."
+    },
+    "SALE": {
+      "name": "Venta de activos",
+      "definition": "Identifica un evento en el que la distribución procede del producto de la venta de activos."
+    },
+    "PRNI": {
+      "name": "Derechos físicos no emitidos",
+      "definition": "Identifica un evento en el que la sociedad no emite un valor con derecho a suscribir acciones adicionales. En estos casos, DTC (The Depository Trust Company) crea un CUSIP de usuario, en lugar de un CUSIP emitido por la sociedad, para identificar estas emisiones."
+    },
+    "POPI": {
+      "name": "Píldora venenosa",
+      "definition": "Identifica un evento de venta de derechos en el que los emisores rescatan derechos de píldora venenosa (poison pill)."
+    },
+    "DRPI": {
+      "name": "Reinversión de dividendos por el emisor",
+      "definition": "Identifica un evento en el que el emisor ofrece un programa de reinversión de dividendos que no es procesado por DTC (the Depository Trust Company)."
+    },
+    "MROS": {
+      "name": "Amortización obligatoria de acciones",
+      "definition": "Identifica un evento en el que se emiten acciones de reembolso además de las acciones del valor original. Está relacionado con el evento Mandatory Exchange con el mismo nombre de tipo de subevento."
+    },
+    "SHPP": {
+      "name": "Plan de compra de acciones",
+      "definition": "Identifica un evento que implica la oferta de acciones por parte de una sociedad que cotiza en la Australia Stock Exchange, en el cual ASIC concederá una dispensa para que la sociedad pueda ofrecer a los accionistas existentes la oportunidad de adquirir pequeñas cantidades de acciones adicionales sin necesidad de un documento informativo o de una Product Disclosure Statement (PDS)."
+    },
+    "OPOF": {
+      "name": "Oferta abierta",
+      "definition": "Identifica un evento, en ciertos mercados, en el que no se emiten los derechos subyacentes."
+    },
+    "TWRI": {
+      "name": "Oferta con derechos",
+      "definition": "Identifica un evento de oferta pública de adquisición sobre un valor de derechos (Rights). Los titulares deben presentar tanto las acciones ordinarias como los derechos para ser elegibles para recibir la contraprestación de la oferta. La proporción entre acciones ordinarias y derechos se define en la oferta."
+    },
+    "CILI": {
+      "name": "Efectivo en sustitución",
+      "definition": "Identifica un subevento específico de DTC (the Depository Trust Company) en el que los titulares pueden optar por \"vender\" acciones enteras para satisfacer derechos fraccionarios (normalmente como resultado de una fusión) a nivel del titular real."
+    },
+    "BTST": {
+      "name": "Oferta licitada en sobre cerrado",
+      "definition": "Identifica un evento de oferta pública de adquisición en el que el titular puede elegir el precio al que está dispuesto a ofrecer sus valores. Este precio puede ser aceptado o no por el oferente."
+    },
+    "FTPR": {
+      "name": "Oferta de compra",
+      "definition": "Identifica un evento de oferta pública de adquisición realizada por otra sociedad para comprar una parte o la totalidad de las acciones en circulación."
+    },
+    "ADRS": {
+      "name": "ADR",
+      "definition": "Identifica cuando el valor del evento es un ADR. El valor subyacente es un American Depositary Receipt."
+    },
+    "WITH": {
+      "name": "Con pago",
+      "definition": "Identifica un evento de consentimiento con pago."
+    },
+    "WITO": {
+      "name": "Sin pago",
+      "definition": "Identifica un evento de consentimiento sin pago."
+    },
+    "CTAX": {
+      "name": "Crédito fiscal",
+      "definition": "Identifica un evento en el que se producirá un crédito fiscal relacionado con los Build America Bonds."
+    },
+    "A144": {
+      "name": "Legal estadounidense 144A",
+      "definition": "Identifica una oferta de canje sobre valores sujetos a la Securities Rule 144A."
+    },
+    "CASE": {
+      "name": "Efectivo y valores",
+      "definition": "Identifica un evento en el que el pago será tanto en efectivo como en valores."
+    },
+    "REGS": {
+      "name": "Regulación S",
+      "definition": "Identifica una oferta de canje sobre valores sujetos a la norma de valores Reg S."
+    },
+    "NOTI": {
+      "name": "Aviso importante",
+      "definition": "Identifica un aviso importante de MMI."
+    },
+    "RDTH": {
+      "name": "Basado en las posiciones en la fecha de registro",
+      "definition": "Identifica un evento que se basará en las posiciones a la fecha de registro."
+    },
+    "CASH": {
+      "name": "Efectivo",
+      "definition": "Identifica un evento en el que el pago será en efectivo."
+    },
+    "PREQ": {
+      "name": "Presentación requerida",
+      "definition": "Identifica un evento en el que se requerirá la presentación de los valores."
+    },
+    "SECU": {
+      "name": "Valores",
+      "definition": "Identifica un evento en el que el pago será en valores."
+    },
+    "COTE": {
+      "name": "Conversión y oferta",
+      "definition": "Identifica una oferta pública de adquisición con una característica de conversión."
+    },
+    "MITE": {
+      "name": "Mini oferta",
+      "definition": "Identifica cuando una oferta pública de adquisición es una mini oferta (mini tender)."
+    },
+    "SETE": {
+      "name": "Autooferta",
+      "definition": "Identifica cuando una oferta pública de adquisición es una autooferta (self tender)."
+    },
+    "GDRS": {
+      "name": "GDR",
+      "definition": "Identifica cuando el valor del evento es un GDR. El valor subyacente es un certificado de depósito global (global depositary receipt)."
+    },
+    "M871": {
+      "name": "Pago equivalente a dividendo 871M",
+      "definition": "Identifica un evento que se ha considerado un pago equivalente a dividendos conforme a la Sección 871(m) del United States Internal Revenue Code."
+    },
+    "C305": {
+      "name": "Dividendo presunto 305C",
+      "definition": "Identifica un evento que se ha considerado una distribución presunta conforme a la Sección 305(c) del United States Internal Revenue Code."
+    },
+    "CONV": {
+      "name": "Conversión",
+      "definition": "Identifica un evento que es una amortización total o un vencimiento con conversión."
+    },
+    "CUSP": {
+      "name": "Cambio de nombre y de CUSIP",
+      "definition": "Cambio de nombre con cambio de CUSIP."
+    },
+    "CUPR": {
+      "name": "Cambio de nombre y de CUSIP y presentación requerida",
+      "definition": "Cambio de nombre con cambio de CUSIP y presentación requerida."
+    },
+    "RCLA": {
+      "name": "Clasificación 1042S",
+      "definition": "Identifica distribuciones que tienen múltiples componentes a efectos de retención fiscal y de declaración en el formulario 1042-S."
+    },
+    "QN92": {
+      "name": "Aviso calificado de exención de 92 días",
+      "definition": "Identifica un aviso cualificado emitido por una sociedad de personas que cotiza en bolsa (publicly traded partnership) que declara la aplicabilidad de la excepción del 10 por ciento conforme a la normativa IRS 1.1446(f)-4(b)(3)."
+    },
+    "UNIT": {
+      "name": "Combinación de unidades",
+      "definition": "Identifica una combinación de activos o tipos de activos agrupados y vendidos como uno solo. Por ejemplo, un accionista que compra una unidad de acciones de una sociedad puede recibir en la unidad acciones preferentes, acciones ordinarias e incluso warrants."
+    },
+    "ECNI": {
+      "name": "Importes que exceden los ingresos netos acumulados",
+      "definition": "Identifica cuando una sociedad de personas que cotiza en bolsa (publicly traded partnership) identifica el importe realizado sobre dicha parte de la distribución como un importe superior a la renta neta acumulada conforme a la normativa IRS 1.1446(f)-4(c)(2)(iii)."
+    },
+    "SPAC": {
+      "name": "Sociedad de adquisición con propósito especial",
+      "definition": "Las sociedades de adquisición con propósito específico (SPACs) son sociedades cotizadas constituidas por efectivo puesto a disposición de inversores en los mercados financieros. El único propósito de las SPACs es utilizar los fondos obtenidos para financiar una adquisición futura. Por lo general, las SPACs se comprometen a identificar una sociedad operativa objetivo y a completar una operación de combinación de negocios dentro de un plazo especificado. Las SPACS tienen una característica por la cual los fondos se depositan en una cuenta fiduciaria y, cuando se identifica la inversión objetivo, el inversor puede recibir de vuelta sus fondos o participar en la combinación de negocios."
+    }
+  }
+}

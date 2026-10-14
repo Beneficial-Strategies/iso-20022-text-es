@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountModificationInstructionV08",
+  "definition": "Ámbito|El mensaje AccountModificationInstruction lo envía un titular de cuenta, por ejemplo, un inversor o su agente designado, al administrador de la cuenta, por ejemplo, un registrador, agente de transferencias, banco custodio o depositario central de valores, para modificar, es decir, crear, actualizar o eliminar, detalles específicos de una cuenta existente.|Uso|El mensaje AccountModificationInstruction se utiliza para modificar los detalles de una cuenta existente.|El mensaje AccountModificationInstruction puede utilizarse para:|- mantener/actualizar cualquiera de los detalles existentes de la cuenta, por ejemplo, para actualizar la dirección del beneficiario o modificar la preferencia de ingresos de distribución a capitalización, o,|- añadir/crear detalles específicos en la cuenta existente cuando dichos detalles aún no se habían registrado en el momento de crear la cuenta, por ejemplo, para añadir una segunda dirección o establecer nuevas instrucciones permanentes de liquidación en efectivo, o,|- eliminar detalles específicos de la cuenta, por ejemplo, eliminar instrucciones permanentes en efectivo, o,|- instruir un cambio del estado de la cuenta, por ejemplo, instruir el cierre de la cuenta.|El uso de este mensaje puede estar sujeto a un acuerdo de nivel de servicio (SLA) entre las contrapartes.|La ejecución de AccountModificationInstruction se confirma mediante un mensaje AccountDetailsConfirmation.",
+  "isoRules": {
+    "UnitRule": {
+      "definition": "Si ModifiedSavingsInvestmentPlan está presente, entonces ModifiedSavingsInvestmentPlan/InvestmentPlan/Quantity/Unit no está permitido."
+    }
+  }
+}

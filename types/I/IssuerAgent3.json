@@ -1,0 +1,12 @@
+{
+  "isoType": "IssuerAgent3",
+  "definition": "Identificación del emisor y de su rol.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación del agente del emisor."
+    },
+    "Role": {
+      "definition": "Rol del agente del emisor."
+    }
+  }
+}

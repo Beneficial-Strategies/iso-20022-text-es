@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionDate110",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Fecha y hora que la entidad gestora de la cuenta ha fijado como plazo para responder, con instrucciones, a un evento pendiente, lo que da al titular derecho a incentivos."
+    },
+    "CoverExpirationDeadline": {
+      "definition": "Último día en que un titular puede entregar los valores que había elegido y/o protegido previamente."
+    },
+    "ProtectDeadline": {
+      "definition": "Última fecha y hora en que un titular puede solicitar el aplazamiento de la entrega de valores en virtud de un aviso de entrega garantizada u otra documentación requerida."
+    },
+    "MarketDeadline": {
+      "definition": "Plazo del emisor o de su agente para responder con una instrucción a una oferta o privilegio pendiente."
+    },
+    "ResponseDeadline": {
+      "definition": "Fecha y hora en que la entidad gestora de la cuenta ha fijado el plazo para responder, con instrucciones, a un evento pendiente."
+    },
+    "ExpiryDate": {
+      "definition": "Fecha y hora en que vence una orden o en que finaliza un privilegio o una oferta."
+    },
+    "SubscriptionCostDebitDate": {
+      "definition": "Fecha y hora en que el efectivo debe estar disponible para participar en el evento."
+    },
+    "DepositoryCoverExpirationDate": {
+      "definition": "Último día en que un participante del depositario puede entregar los valores que había elegido y/o protegido previamente."
+    },
+    "StockLendingDeadline": {
+      "definition": "Fecha y hora fijadas como plazo para responder, con instrucciones, a un evento pendiente cuyo valor subyacente está prestado."
+    },
+    "BorrowerStockLendingDeadline": {
+      "definition": "Especifica la parte que toma valores en préstamo y el plazo de préstamo de valores asociado asignado al prestatario."
+    },
+    "EndOfSecuritiesBlockingPeriod": {
+      "definition": "Fecha hasta la cual puede producirse el bloqueo de valores al instruir esta opción."
+    },
+    "DocumentationDeadline": {
+      "definition": "Fecha y hora en que debe proporcionarse la documentación."
+    }
+  }
+}

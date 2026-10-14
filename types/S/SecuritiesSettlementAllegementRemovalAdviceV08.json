@@ -1,0 +1,23 @@
+{
+  "isoType": "SecuritiesSettlementAllegementRemovalAdviceV08",
+  "definition": "Alcance|Un administrador de la cuenta envía un SecuritiesSettlementAllegementRemovalAdvice a un titular de la cuenta para acusar recibo de que una alegación enviada previamente ya no está pendiente, porque la parte alegada envió su instrucción.|La relación entre el administrador de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que actúe en nombre de sus participantes|- un agente (subcustodio) que actúe en nombre de su cliente custodio global, o|- un custodio que actúe en nombre de una entidad de gestión de inversiones o de un intermediario/operador (broker/dealer).||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo|utilizando los elementos pertinentes de la Business Application Header.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación de la contraparte asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForAccountManagementStatusReportV06",
+  "definition": "Ámbito|El mensaje RequestForAccountManagementStatusReport lo envía un titular de cuenta, por ejemplo, un inversor o su agente designado, al administrador de la cuenta, por ejemplo, un registrador, agente de transferencias, banco custodio o depositario central de valores, para solicitar el estado de una AccountOpeningInstruction, GetAccountDetails o una AccountModificationInstruction.|Uso|El mensaje RequestForAccountManagementStatusReport se utiliza para solicitar el estado de procesamiento de un mensaje AccountOpeningInstruction, GetAccountDetails o AccountModificationInstruction enviado previamente para el que aún no se ha recibido un mensaje AccountDetailsConfirmation."
+}

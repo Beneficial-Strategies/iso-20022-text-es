@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementConditionModificationStatus1Code",
+  "definition": "Especifica el estado de una solicitud de modificación de una condición de liquidación de valores.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Acuse de recibo aceptado",
+      "definition": "La instrucción ha sido reconocida/aceptada por la entidad gestora de la cuenta."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "La instrucción ha sido rechazada para su posterior tramitación."
+    },
+    "MODP": {
+      "name": "Pendiente",
+      "definition": "La modificación está pendiente. En este momento se desconoce si la modificación puede efectuarse."
+    },
+    "DEND": {
+      "name": "Denegado",
+      "definition": "La solicitud de modificación no se ejecutará."
+    },
+    "MODC": {
+      "name": "Completado",
+      "definition": "La modificación se ha completado."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "FailureReason8Code",
+  "definition": "Excepción que se produce fuera del servicio.",
+  "isoCodes": {
+    "CDRT": {
+      "name": "Tarjeta retenida",
+      "definition": "La tarjeta ha sido retenida por el cajero automático (ATM) o por el terminal."
+    },
+    "CDCP": {
+      "name": "Tarjeta capturada",
+      "definition": "El gestor del cajero automático (ATM) ha solicitado retener la tarjeta."
+    },
+    "CUCL": {
+      "name": "Cancelación del cliente",
+      "definition": "Cancelación por parte del cliente, por ejemplo, retirando la tarjeta antes del final de la operación."
+    },
+    "CDFG": {
+      "name": "Tarjeta olvidada",
+      "definition": "El cliente ha dejado la tarjeta en el cajero automático (ATM) o en un lector de tarjetas motorizado."
+    },
+    "MALF": {
+      "name": "Mal funcionamiento",
+      "definition": "Sospecha de mal funcionamiento."
+    },
+    "SECU": {
+      "name": "Error de seguridad",
+      "definition": "Se ha producido un error de seguridad en el mensaje de respuesta de autorización enviado por el adquirente."
+    },
+    "SFRD": {
+      "name": "Sospecha de fraude",
+      "definition": "La operación de pago con tarjeta falla porque el comercio sospecha un fraude."
+    },
+    "UCPT": {
+      "name": "No se puede capturar",
+      "definition": "No es posible retener la tarjeta como se solicitó."
+    }
+  }
+}

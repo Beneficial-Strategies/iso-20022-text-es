@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyTransaction3",
+  "definition": "Especifica la operación a la que se aplican las penalizaciones.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referencia de la operación para la que se facilitan penalizaciones."
+    },
+    "ReferenceOwner": {
+      "definition": "Parte que genera la referencia."
+    },
+    "TransactionDetails": {
+      "definition": "Información adicional sobre la operación a la que se aplican las penalizaciones."
+    },
+    "NetMovementDetails": {
+      "definition": "Detalles del movimiento de liquidación neta al que se aplican las penalizaciones."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Code",
+  "definition": "Especifica si el fondo calcula un interés imponible por participación (TIS).",
+  "isoCodes": {
+    "TSIY": {
+      "name": "El fondo calcula",
+      "definition": "El fondo calcula el interés imponible por participación con el NAV."
+    },
+    "TSIN": {
+      "name": "El fondo no calcula",
+      "definition": "El fondo no calcula el interés imponible por participación con el NAV."
+    },
+    "UKWN": {
+      "name": "Se desconoce si el fondo calcula",
+      "definition": "Se desconoce si el fondo calcula el interés imponible por participación con el NAV."
+    }
+  }
+}

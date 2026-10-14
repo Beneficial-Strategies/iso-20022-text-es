@@ -1,0 +1,21 @@
+{
+  "isoType": "CashCoin1",
+  "definition": "Retirada o ingreso de una suma de dinero expresada en monedas.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de efectivo."
+    },
+    "BoxReference": {
+      "definition": "Referencia de la caja que contiene estas monedas."
+    },
+    "CoinDenomination": {
+      "definition": "Especifica la denominación de la moneda, incluida la divisa, por ejemplo una moneda de 50 céntimos de euro."
+    },
+    "NumberOfCoins": {
+      "definition": "Especifica el número de monedas de la misma denominación."
+    },
+    "Amount": {
+      "definition": "Especifica el importe total de dinero de esta denominación de moneda, es decir, la denominación de la moneda multiplicada por el número de monedas."
+    }
+  }
+}

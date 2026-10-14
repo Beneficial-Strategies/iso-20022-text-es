@@ -1,0 +1,18 @@
+{
+  "isoType": "OnLineCapability1Code",
+  "definition": "Capacidades en línea y sin conexión del POI (punto de interacción).",
+  "isoCodes": {
+    "OFLN": {
+      "name": "Sin conexión",
+      "definition": "Solo con capacidad sin conexión."
+    },
+    "ONLN": {
+      "name": "En línea",
+      "definition": "Solo con capacidad en línea."
+    },
+    "SMON": {
+      "name": "Semiconexión",
+      "definition": "Con capacidad sin conexión y posibles solicitudes en línea a la entidad adquirente."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "BreakdownByUserDefinedParameter3",
+  "definition": "Especifica los flujos de entrada y salida de efectivo por uno o varios parámetros definidos por el usuario.",
+  "isoElements": {
+    "Party": {
+      "definition": "Parte a la que se refiere el flujo de efectivo comunicado."
+    },
+    "Country": {
+      "definition": "País al que se refiere el flujo de efectivo comunicado."
+    },
+    "Currency": {
+      "definition": "Divisa a la que se refiere el flujo de efectivo comunicado."
+    },
+    "UserDefined": {
+      "definition": "Parámetro al que se refiere el flujo de efectivo comunicado."
+    },
+    "CashInForecast": {
+      "definition": "Movimiento de efectivo hacia el fondo como resultado de operaciones con participaciones de un fondo de inversión, por ejemplo, suscripciones o traspasos de entrada."
+    },
+    "CashOutForecast": {
+      "definition": "Movimiento de efectivo desde el fondo como resultado de operaciones con participaciones de un fondo de inversión, por ejemplo, reembolsos o traspasos de salida."
+    },
+    "NetCashForecast": {
+      "definition": "Efectivo neto resultante de los flujos de entrada y salida de efectivo especificados para el parámetro definido por el usuario."
+    }
+  },
+  "isoRules": {
+    "UserDefinedRule": {
+      "definition": "Debe estar presente al menos un elemento del mensaje de la lista (Party, Country, Currency, UserDefined). Puede estar presente más de un elemento de la lista (Party, Country, Currency, UserDefined)."
+    }
+  }
+}

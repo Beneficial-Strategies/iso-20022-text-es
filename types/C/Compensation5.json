@@ -1,0 +1,24 @@
+{
+  "isoType": "Compensation5",
+  "definition": "Especifica los detalles de una compensación de pago.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero que debe pagarse en concepto de compensación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante.||Uso: la entidad del ordenante es la pagadora del importe de la compensación."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad gestora dentro de la cadena de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del beneficiario.||Uso: la entidad del beneficiario es la receptora del importe de la compensación."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad gestora, en la que se abonará el importe como resultado de la operación de pago."
+    },
+    "Reason": {
+      "definition": "Motivo de la compensación del pago."
+    }
+  }
+}

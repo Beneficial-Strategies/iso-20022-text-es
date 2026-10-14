@@ -1,0 +1,15 @@
+{
+  "isoType": "Receipt7",
+  "definition": "Proporciona detalles sobre la solicitud.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Identificación del mensaje de solicitud original."
+    },
+    "OriginalPaymentIdentification": {
+      "definition": "Identificación de la operación original, cuando la solicitud para la que se genera el acuse de recibo es una operación de pago."
+    },
+    "RequestHandling": {
+      "definition": "Indica el estado de la solicitud."
+    }
+  }
+}

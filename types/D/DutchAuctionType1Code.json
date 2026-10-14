@@ -1,0 +1,14 @@
+{
+  "isoType": "DutchAuctionType1Code",
+  "definition": "Especifica el tipo de subasta holandesa.",
+  "isoCodes": {
+    "MDFD": {
+      "name": "Modificado",
+      "definition": "Todas las instrucciones se aceptan al mismo precio (oferta del emisor)."
+    },
+    "UNMD": {
+      "name": "Sin modificar",
+      "definition": "Todas las instrucciones se aceptan al precio instruido (oferta de venta)."
+    }
+  }
+}

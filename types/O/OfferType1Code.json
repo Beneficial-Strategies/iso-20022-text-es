@@ -1,0 +1,34 @@
+{
+  "isoType": "OfferType1Code",
+  "definition": "Especifica las condiciones aplicables a la oferta.",
+  "isoCodes": {
+    "DISS": {
+      "name": "Derechos de los socios disidentes",
+      "definition": "El titular de los valores tiene derecho a manifestar su desacuerdo con un evento obligatorio. Este derecho no es inherente a todas las ofertas y, por tanto, debe indicarse en los anuncios únicamente cuando proceda."
+    },
+    "ERUN": {
+      "name": "Canje con restricción",
+      "definition": "Canje de restringido a no restringido (o viceversa)."
+    },
+    "FCFS": {
+      "name": "Por orden de llegada",
+      "definition": "Los valores se aceptarán en el orden en que se hayan presentado hasta alcanzar el número objetivo de cantidad solicitada."
+    },
+    "FINL": {
+      "name": "Oferta final",
+      "definition": "Oferta final o última a los titulares, sujeta a que se alcancen las condiciones de la oferta, por ejemplo, la aceptación del 50 por ciento en una oferta de adquisición."
+    },
+    "MINI": {
+      "name": "Mini oferta",
+      "definition": "Oferta pública de adquisición de un valor a un precio inferior al precio de negociación actual de dicho instrumento."
+    },
+    "PART": {
+      "name": "Oferta parcial",
+      "definition": "Oferta realizada por el oferente por una parte de las acciones en circulación que el oferente aún no posee."
+    },
+    "SQUE": {
+      "name": "Oferta de exclusión forzosa",
+      "definition": "Oferta lanzada por una sociedad que posee un gran número de las acciones (90% - 95%) de otra sociedad (generalmente como resultado de una oferta de adquisición), con el fin de adquirir las acciones restantes de esa sociedad."
+    }
+  }
+}

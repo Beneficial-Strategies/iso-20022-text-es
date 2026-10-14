@@ -1,0 +1,12 @@
+{
+  "isoType": "InterestType1Choice",
+  "definition": "El tipo de interés se expresa mediante un código o un texto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el tipo de interés."
+    },
+    "Proprietary": {
+      "definition": "Especifica el tipo de interés en forma no codificada."
+    }
+  }
+}

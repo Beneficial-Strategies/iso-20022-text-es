@@ -1,0 +1,42 @@
+{
+  "isoType": "Status11Code",
+  "definition": "Especifica el estado de una instrucción.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Aceptado",
+      "definition": "La instrucción ha sido aceptada y validada para su tratamiento posterior."
+    },
+    "ATTC": {
+      "name": "Asistencia confirmada",
+      "definition": "Se confirma la asistencia a la junta."
+    },
+    "CAND": {
+      "name": "Cancelado",
+      "definition": "La instrucción ha sido cancelada."
+    },
+    "CSUB": {
+      "name": "Cancelado por el subcustodio",
+      "definition": "La instrucción ha sido cancelada por el agente, por ejemplo, debido a una prórroga del plazo del evento."
+    },
+    "FRWD": {
+      "name": "Reenviado",
+      "definition": "Aceptada y enviada a lo largo de la cadena."
+    },
+    "RCIS": {
+      "name": "Recibido por el emisor o el registrador",
+      "definition": "La instrucción ha sido recibida por el emisor, equivalente a la confirmación de recepción de los votos emitidos electrónicamente."
+    },
+    "REGM": {
+      "name": "Inscrito para participar en la junta",
+      "definition": "El titular de derechos ha sido registrado para participar en la junta."
+    },
+    "STIN": {
+      "name": "Instrucción permanente",
+      "definition": "Se aplica la instrucción permanente."
+    },
+    "DREG": {
+      "name": "Baja de inscripción completada",
+      "definition": "El titular de derechos ha sido dado de baja de la lista de participantes de la junta."
+    }
+  }
+}

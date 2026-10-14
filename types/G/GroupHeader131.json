@@ -1,0 +1,47 @@
+{
+  "isoType": "GroupHeader131",
+  "definition": "Conjunto de características comunes a todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena, para identificar inequívocamente el mensaje.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por parte instruida durante un periodo acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "ExpiryDateTime": {
+      "definition": "Fecha y hora en que debe caducar el pago si no se ha liquidado."
+    },
+    "BatchBooking": {
+      "definition": "Identifica si se solicita un apunte individual por cada operación o un apunte en lote por la suma de los importes de todas las operaciones del grupo de un mensaje.|Uso: El lote se utiliza para solicitar, y no para ordenar, un posible apunte en lote."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, con independencia de las divisas."
+    },
+    "TotalInterbankSettlementAmount": {
+      "definition": "Importe total de dinero movido entre la entidad que instruye y la entidad instruida."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en la que el importe deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se debe."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica los detalles de cómo se completa la liquidación de las operaciones entre la entidad instructora y la entidad instruida."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la instrucción o el conjunto de instrucciones."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute la instrucción o el conjunto de instrucciones."
+    }
+  },
+  "isoRules": {
+    "TotalInterbankSettlementAmountAndDateRule": {
+      "definition": "Si TotalInterbankSettlementAmount está presente, debe estar presente InterbankSettlementDate."
+    }
+  }
+}

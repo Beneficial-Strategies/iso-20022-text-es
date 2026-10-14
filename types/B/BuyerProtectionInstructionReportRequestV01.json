@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyerProtectionInstructionReportRequestV01",
+  "definition": "Alcance|El mensaje BuyerProtectionInstructionReportRequest es enviado por un titular de cuenta o su agente designado a una entidad gestora de cuentas para solicitar un informe de todas las instrucciones de protección del comprador, a nivel de cuenta de valores para uno o varios eventos de operaciones societarias, o a nivel de evento de operación societaria para una o varias cuentas de valores.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente (la subfunción del mensaje es Duplicate),|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy),|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy Duplicate), utilizando los elementos correspondientes de la cabecera de aplicación comercial (BAH).",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identificación del mensaje SecuritiesStatementQuery enviado para solicitar este extracto."
+    }
+  }
+}

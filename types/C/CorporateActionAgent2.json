@@ -1,0 +1,33 @@
+{
+  "isoType": "CorporateActionAgent2",
+  "definition": "Información detallada sobre las entidades que intervienen en un evento de acción corporativa.",
+  "isoElements": {
+    "IssuerAgent": {
+      "definition": "Parte designada para administrar el evento en nombre de la sociedad emisora u oferente. Puede contactarse con la parte para obtener más información sobre el evento."
+    },
+    "PayingAgent": {
+      "definition": "Entidad (agente pagador principal o fiscal) designada para ejecutar el pago del evento de acción corporativa en nombre de la sociedad emisora u oferente."
+    },
+    "Registrar": {
+      "definition": "Parte o entidad responsable de llevar el registro del valor."
+    },
+    "RemarketingAgent": {
+      "definition": "Entidad que recoloca el valor en el mercado de modo que el saldo en circulación no se reduce."
+    },
+    "SolicitationAgent": {
+      "definition": "Sociedad fiduciaria, banco o entidad financiera similar designada por un emisor para llevar los registros de inversores, saldos de cuenta y operaciones a efectos del consentimiento de un cambio sustancial."
+    },
+    "InformationAgent": {
+      "definition": "Sociedad fiduciaria, banco o entidad financiera similar designada por un emisor para facilitar información y copias de la documentación de la oferta."
+    },
+    "Issuer": {
+      "definition": "Emisor del instrumento financiero."
+    },
+    "TransferAgent": {
+      "definition": "Sociedad fiduciaria, banco o entidad financiera similar designada por una sociedad gestora de fondos para llevar los registros de inversores y saldos de cuenta. El agente de transferencias registra las operaciones, incluidas suscripciones, reembolsos, traspasos, transferencias y reinscripciones."
+    },
+    "RedemptionAgent": {
+      "definition": "Depositario o cualquier banco o sociedad fiduciaria designado para recibir y enviar los fondos del reembolso."
+    }
+  }
+}

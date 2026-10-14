@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification246Choice",
+  "definition": "Identificación de una parte.",
+  "isoElements": {
+    "LegalPerson": {
+      "definition": "Entidad jurídica."
+    },
+    "NaturalPerson": {
+      "definition": "Persona física."
+    }
+  }
+}

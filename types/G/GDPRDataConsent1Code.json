@@ -1,0 +1,22 @@
+{
+  "isoType": "GDPRDataConsent1Code",
+  "definition": "Tipo de consentimiento en el contexto del Reglamento General de Protección de Datos (GDPR) 2016/679.",
+  "isoCodes": {
+    "DP00": {
+      "name": "Consentimiento de mercadotecnia",
+      "definition": "Consentimiento para autorizar al responsable del tratamiento de datos personales a tratar los datos personales con fines de marketing."
+    },
+    "DP03": {
+      "name": "Consentimiento de elaboración de perfiles dirigida",
+      "definition": "Consentimiento para autorizar al responsable del tratamiento de datos personales a tratar los datos personales con fines de elaboración de perfiles, con el fin de formular ofertas de productos y servicios personalizadas y dirigidas."
+    },
+    "DP01": {
+      "name": "Consentimiento de cesión para mercadotecnia del mismo grupo",
+      "definition": "Consentimiento para autorizar al responsable del tratamiento de datos personales a transferir los datos personales a otras empresas del mismo grupo para su tratamiento independiente con fines de marketing."
+    },
+    "DP02": {
+      "name": "Consentimiento de cesión para mercadotecnia de terceros",
+      "definition": "Consentimiento para autorizar al responsable del tratamiento de datos personales a transferir los datos personales a empresas terceras para su tratamiento independiente con fines de marketing."
+    }
+  }
+}

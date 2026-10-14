@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingInstructionCancellationStatus1Choice",
+  "definition": "Proporciona información sobre el estado de una solicitud de cancelación de instrucción permanente.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Proporciona información sobre el estado de procesamiento de la solicitud de cancelación."
+    },
+    "RejectedStatus": {
+      "definition": "Proporciona información sobre el estado de rechazo."
+    }
+  }
+}

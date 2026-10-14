@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndCurrencyExchangeDetails5",
+  "definition": "Conjunto de elementos utilizados para proporcionar información sobre el importe original y el cambio de divisas.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora."
+    },
+    "CurrencyExchange": {
+      "definition": "Conjunto de elementos utilizados para proporcionar información sobre el cambio de divisas."
+    }
+  }
+}

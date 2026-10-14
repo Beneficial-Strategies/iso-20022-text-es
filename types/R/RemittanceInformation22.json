@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceInformation22",
+  "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales de un sistema de cuentas por cobrar.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales de un sistema de cuentas por cobrar, en forma no estructurada."
+    },
+    "Structured": {
+      "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales de un sistema de cuentas por cobrar, en forma estructurada."
+    }
+  }
+}

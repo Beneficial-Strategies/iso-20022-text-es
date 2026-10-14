@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceType1Choice",
+  "definition": "Especifica el tipo de documento al que hace referencia el beneficiario.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de referencia del beneficiario, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de referencia del beneficiario, en forma propietaria."
+    }
+  }
+}

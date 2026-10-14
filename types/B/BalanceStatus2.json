@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceStatus2",
+  "definition": "Representación numérica de los aumentos y disminuciones netos en una cuenta en un momento determinado. Un saldo de efectivo se calcula como la suma de los abonos en efectivo menos la suma de los adeudos en efectivo.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Saldo en cada divisa calculado en la fecha valor y la hora indicadas en el informe."
+    }
+  }
+}

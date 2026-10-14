@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDepositConfirmation1",
+  "definition": "Confirmación de cómo liquidará el receptor del efectivo el ingreso de efectivo.",
+  "isoElements": {
+    "ValidCashDepositReceived": {
+      "definition": "Confirma el efectivo recibido por el receptor del efectivo para una solicitud de ingreso de efectivo que se abonará en la cuenta."
+    },
+    "InvalidCashDepositReceived": {
+      "definition": "Confirma el efectivo recibido por el receptor del efectivo para un CashDepositRequest que no se abonará en una cuenta, por ejemplo porque el efectivo es falso."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Identificación única de la discrepancia."
+    }
+  }
+}

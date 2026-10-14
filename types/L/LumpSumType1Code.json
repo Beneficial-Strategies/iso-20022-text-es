@@ -1,0 +1,18 @@
+{
+  "isoType": "LumpSumType1Code",
+  "definition": "Especifica un tipo de pago único.",
+  "isoCodes": {
+    "DEAB": {
+      "name": "Prestación por fallecimiento",
+      "definition": "El pago único es un pago único por fallecimiento."
+    },
+    "PCLS": {
+      "name": "Inicio de la pensión",
+      "definition": "El pago único es un pago único por inicio de la pensión."
+    },
+    "UFPL": {
+      "name": "No cristalizado",
+      "definition": "El pago único es un pago único de pensión de fondo no cristalizado."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "ReinvestmentIncomeClassification2Code",
+  "definition": "Especifica el tipo de fondos en efectivo que el titular puede reinvertir.",
+  "isoCodes": {
+    "CAPG": {
+      "name": "Plusvalías",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como ganancias de capital."
+    },
+    "DVCA": {
+      "name": "Dividendo en efectivo",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como dividendo en efectivo."
+    },
+    "CDPS": {
+      "name": "Dividendo especial en efectivo",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como dividendo especial en efectivo."
+    },
+    "INTR": {
+      "name": "Intereses",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como intereses."
+    },
+    "LTCG": {
+      "name": "Plusvalías a largo plazo",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como ganancias de capital a largo plazo."
+    },
+    "PRPL": {
+      "name": "Principal",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como principal."
+    },
+    "ROCA": {
+      "name": "Devolución de capital",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como devolución de capital."
+    },
+    "STCG": {
+      "name": "Plusvalías a corto plazo",
+      "definition": "Los fondos en efectivo que se reinvierten se clasifican como ganancias de capital a corto plazo."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "InvestigationRequest50",
+  "definition": "Especifica los detalles de una solicitud de investigación, incluidas la identificación y el tipo.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el solicitante y enviada al respondedor para identificar de forma inequívoca el mensaje.|Uso: El solicitante debe asegurarse de que MessageIdentification sea único por respondedor durante un período acordado previamente."
+    },
+    "RequestorInvestigationIdentification": {
+      "definition": "Identificación única, asignada por el solicitante, para identificar de forma inequívoca la investigación para el solicitante."
+    },
+    "ResponderInvestigationIdentification": {
+      "definition": "Identificación única, asignada por el respondedor, para identificar de forma inequívoca la investigación para el respondedor."
+    },
+    "EIR": {
+      "definition": "Identificador único que proporciona la referencia de extremo a extremo de una investigación."
+    },
+    "RequestAction": {
+      "definition": "Especifica una acción que el respondedor debe emprender ahora en relación con la investigación y el motivo de la acción."
+    },
+    "InvestigationType": {
+      "definition": "Tipo de investigación."
+    },
+    "InvestigationSubType": {
+      "definition": "Subtipo de una investigación.||Uso: El elemento de subtipo de investigación puede utilizarse para identificar un departamento dentro de una entidad al que se puede dirigir la investigación, con fines de enrutamiento. Solo debe utilizarse cuando el tipo de investigación pueda dirigirse lógicamente a distintos departamentos dentro de una entidad, por ejemplo, una solicitud de información."
+    },
+    "UnderlyingInstrument": {
+      "definition": "Especifica el instrumento o producto al que se refiere la investigación."
+    },
+    "Underlying": {
+      "definition": "Proporciona detalles sobre el asunto al que se refiere la investigación, por ejemplo, un pago o un apunte de extracto."
+    },
+    "Requestor": {
+      "definition": "Identificación de la entidad o parte que solicita la apertura de una nueva investigación o la actualización del estado de una investigación existente."
+    },
+    "Responder": {
+      "definition": "Identificación de la entidad o parte de la que se espera que abra una nueva investigación o proporcione una actualización del estado de una investigación existente."
+    },
+    "RequestOriginator": {
+      "definition": "Identificación de la entidad o parte que ha originado la solicitud.||Uso: Cuando el solicitante ha reenviado la investigación de otra parte, se recomienda indicar RequestOriginator en este elemento."
+    },
+    "ExpectedResponder": {
+      "definition": "Identificación de la entidad o parte con la que el solicitante de la investigación espera que el respondedor se ponga en contacto en relación con la solicitud de investigación."
+    },
+    "ServiceLevel": {
+      "definition": "Especifica un servicio o nivel de servicio acordado previamente entre el solicitante y el respondedor."
+    }
+  },
+  "isoRules": {
+    "ResponderInvestigationIdentificationGuideline": {
+      "definition": "Si ResponderInvestigationIdentification se ha proporcionado previamente al solicitante como parte de una respuesta anterior, debe estar presente ResponderInvestigationIdentification."
+    }
+  }
+}

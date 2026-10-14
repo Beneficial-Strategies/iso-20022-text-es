@@ -1,0 +1,12 @@
+{
+  "isoType": "CapitalGainFormat3Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de plusvalía.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica si la plusvalía está comprendida en el ámbito de la directiva europea sobre fiscalidad de los rendimientos del ahorro en forma de pago de intereses (Directiva 2003/48/CE del Consejo, de 3 de junio) para un ingreso obtenido por la venta, el reembolso o el rescate de acciones y participaciones, etc (EC)."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de plusvalía."
+    }
+  }
+}

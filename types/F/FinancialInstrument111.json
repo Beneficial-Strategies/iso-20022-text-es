@@ -1,0 +1,36 @@
+{
+  "isoType": "FinancialInstrument111",
+  "definition": "Identificación de un valor u otro activo.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identificación de la línea de posición de la cartera."
+    },
+    "Instrument": {
+      "definition": "Identificación del activo."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de la transferencia por parte del inversor. Esta referencia suele poder utilizarse en un escenario de concentrador (hub) para indicar la referencia de la transferencia asignada por el cliente subyacente."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificación inequívoca de la transferencia asignada por la contraparte."
+    },
+    "TransfereeAccount": {
+      "definition": "Cuenta mantenida a nombre de la parte que no es el titular real de las acciones.|(Parte y cuenta en la que el receptor recibe el instrumento financiero del cedente.)"
+    },
+    "Transferor": {
+      "definition": "Parte y cuenta desde la que el cedente entrega el instrumento financiero al receptor."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Cadena de partes que intervienen en la liquidación de una operación."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Indica si los activos se mantienen a nombre propio de una persona física."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Indica si la transferencia da lugar a un cambio de titular real."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el instrumento financiero."
+    }
+  }
+}

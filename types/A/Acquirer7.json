@@ -1,0 +1,12 @@
+{
+  "isoType": "Acquirer7",
+  "definition": "Adquirente de la operación de retirada de efectivo, encargado de la liquidación de fondos con el emisor.",
+  "isoElements": {
+    "AcquiringInstitution": {
+      "definition": "Identificación del adquirente."
+    },
+    "Branch": {
+      "definition": "Identificación de la sucursal del adquirente."
+    }
+  }
+}

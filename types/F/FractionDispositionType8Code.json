@@ -1,0 +1,34 @@
+{
+  "isoType": "FractionDispositionType8Code",
+  "definition": "Indica que debe conservarse el valor fraccionario; sin redondeo.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Adquisición adicional",
+      "definition": "Comprar valores hasta el siguiente número entero."
+    },
+    "CINL": {
+      "name": "Efectivo en lugar de fracción",
+      "definition": "Parte fraccionaria en efectivo. Recibir efectivo en lugar de fracciones."
+    },
+    "DIST": {
+      "name": "Emitir fracción",
+      "definition": "Recibir la distribución de fracciones en forma de valores."
+    },
+    "RDDN": {
+      "name": "Redondeo a la baja",
+      "definition": "Redondear el derecho a la última unidad completa o cantidad nominal mínima; las fracciones se descartan."
+    },
+    "STAN": {
+      "name": "Redondeo al más próximo",
+      "definition": "Si la fracción es mayor o igual a 0,5 del valor resultante, se redondea al alza; en caso contrario, a la baja, según lo especificado en los códigos RDUP y RDDN respectivos (0.5)."
+    },
+    "RDUP": {
+      "name": "Redondeo al alza",
+      "definition": "Redondear al alza a la siguiente unidad completa o cantidad nominal mínima sin coste."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "Se desconocen las características de la disposición de las fracciones."
+    }
+  }
+}

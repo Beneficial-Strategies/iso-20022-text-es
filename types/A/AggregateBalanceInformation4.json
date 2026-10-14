@@ -1,0 +1,65 @@
+{
+  "isoType": "AggregateBalanceInformation4",
+  "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una cuenta de valores. Un saldo de valores se calcula a partir de la suma de las recepciones de valores menos la suma de las entregas de valores.",
+  "isoElements": {
+    "AggregateQuantity": {
+      "definition": "Cantidad total de instrumento financiero de la posición referenciada."
+    },
+    "AvailableQuantity": {
+      "definition": "Cantidad total de instrumento financiero de la posición referenciada que está disponible."
+    },
+    "NotAvailableQuantity": {
+      "definition": "Cantidad total de instrumento financiero de la posición referenciada que no está disponible."
+    },
+    "DaysAccrued": {
+      "definition": "Especifica el número de días utilizado para calcular el importe de los intereses devengados."
+    },
+    "HoldingValue": {
+      "definition": "Valor total de un saldo de la cuenta de valores para un instrumento financiero específico, expresado en una o varias divisas."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Valor total anterior de un saldo de la cuenta de valores para un instrumento financiero específico, expresado en una o varias divisas."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    },
+    "AccruedInterestAmountSign": {
+      "definition": "Indica si los intereses devengados son un importe positivo o negativo."
+    },
+    "BookValue": {
+      "definition": "Valor de un valor, tal como está contabilizado en una cuenta. El valor contable suele ser distinto del valor de mercado actual del valor."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Valor mantenido en la cuenta para la que se calcula el saldo."
+    },
+    "PriceDetails": {
+      "definition": "Precio del instrumento financiero en una o varias divisas."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Cambio de divisas relacionado con una orden de valores."
+    },
+    "BalanceBreakdownDetails": {
+      "definition": "Posición neta de una tenencia segregada de un único valor dentro de la posición global mantenida en una cuenta de valores, p. ej., subsaldo por estado."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Posición neta de una tenencia segregada de un único valor dentro de la posición global mantenida en una cuenta de valores, p. ej., subsaldo por estado."
+    },
+    "BalanceAtSafekeepingPlace": {
+      "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una cuenta de valores en un lugar de custodia especificado."
+    }
+  },
+  "isoRules": {
+    "BalanceAtSafekeepingPlaceRule": {
+      "definition": "Si SafekeepingPlace está presente, BalanceAtSafekeepingPlace no está permitido."
+    },
+    "AggregateQuantityGuideline": {
+      "definition": "AggregateQuantity debe ser la suma de AvailableQuantity y NotAvailableQuantity si AvailableQuantity y NotAvailableQuantity están ambos presentes."
+    },
+    "AccruedInterestAmountSignRule": {
+      "definition": "Si AccruedInterestAmount está presente, AccruedInterestAmountSign debe estar presente. Si AccruedInterestAmount no está presente, AccruedInterestAmountSign no puede estar presente."
+    }
+  }
+}

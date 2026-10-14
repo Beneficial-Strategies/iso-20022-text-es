@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionPrice86",
+  "definition": "Especifica los precios relacionados con una opción de operación societaria.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Desembolso en efectivo en lugar de acciones; normalmente en lugar de una cantidad fraccionaria."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Importe de dinero requerido por cada acción sobresuscrita, según lo defina el emisor."
+    },
+    "MaximumCashToInstruct": {
+      "definition": "Importe máximo en efectivo que puede instruirse."
+    },
+    "MinimumCashToInstruct": {
+      "definition": "Importe mínimo en efectivo que puede instruirse."
+    },
+    "MinimumMultipleCashToInstruct": {
+      "definition": "Múltiplo mínimo de un importe en efectivo que puede instruirse."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "VotingParticipationMethod2Code",
+  "definition": "Especifica los distintos métodos permitidos para participar en la votación de las resoluciones del orden del día en una junta general.",
+  "isoCodes": {
+    "PHNV": {
+      "name": "Sin voto",
+      "definition": "La participación en la junta es presencial, pero la persona no vota."
+    }
+  }
+}

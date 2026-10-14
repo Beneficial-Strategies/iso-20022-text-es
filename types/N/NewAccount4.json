@@ -1,0 +1,15 @@
+{
+  "isoType": "NewAccount4",
+  "definition": "Información sobre la cuenta nueva.",
+  "isoElements": {
+    "Account": {
+      "definition": "Detalles de la cuenta nueva."
+    },
+    "AccountParty": {
+      "definition": "Parte o partes que deben identificarse en el contexto de las operaciones de la cuenta."
+    },
+    "Organisation": {
+      "definition": "Estructura organizada constituida con un fin determinado, por ejemplo, una empresa, un organismo gubernamental, un departamento, una organización benéfica o una entidad financiera."
+    }
+  }
+}

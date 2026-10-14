@@ -1,0 +1,18 @@
+{
+  "isoType": "MessageHeader11",
+  "definition": "Especifica los datos de cabecera, como la identificación y la fecha y hora de creación, propios del mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el emisor, que identifica el mensaje de forma inequívoca.|Uso: el emisor debe asegurarse de que MessageIdentification sea único durante un período acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "RequestType": {
+      "definition": "Acciones específicas que deben ejecutarse mediante la solicitud."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Identificación única del mensaje de consulta original."
+    }
+  }
+}

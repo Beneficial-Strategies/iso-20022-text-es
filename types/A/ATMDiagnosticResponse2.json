@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMDiagnosticResponse2",
+  "definition": "Información relativa a la respuesta de diagnóstico de un gestor de cajeros automáticos (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno del cajero automático (ATM)."
+    },
+    "Command": {
+      "definition": "Comando de mantenimiento que debe ejecutarse en el cajero automático (ATM)."
+    }
+  }
+}

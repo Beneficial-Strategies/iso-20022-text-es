@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesTransactionType60Choice",
+  "definition": "Elección de formatos para la información del tipo de operación de liquidación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de operación con valores expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de operación con valores expresado como código propietario."
+    }
+  }
+}

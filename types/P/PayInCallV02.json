@@ -1,0 +1,9 @@
+{
+  "isoType": "PayInCallV02",
+  "definition": "El mensaje PayInCall lo envía un sistema central de liquidación para solicitar fondos adicionales a un miembro de liquidación afectado por una situación de fallo.",
+  "isoElements": {
+    "SettlementSessionIdentifier": {
+      "definition": "Para indicar la sesión de liquidación de CLS solicitada de la que forma parte la operación comercial relacionada."
+    }
+  }
+}

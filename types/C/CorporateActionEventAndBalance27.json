@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventAndBalance27",
+  "definition": "Informe detallado de posiciones de cuenta para un evento de operación societaria.",
+  "isoElements": {
+    "GeneralInformation": {
+      "definition": "Proporciona información general relacionada con un evento de operación societaria."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Valor afectado por la acción corporativa."
+    },
+    "Balance": {
+      "definition": "Proporciona información sobre el saldo relacionado con una operación societaria."
+    },
+    "SupplementaryData": {
+      "definition": "Proporciona información adicional relacionada con el evento y el saldo de la operación societaria."
+    }
+  }
+}

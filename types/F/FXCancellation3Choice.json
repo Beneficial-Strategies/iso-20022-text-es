@@ -1,0 +1,12 @@
+{
+  "isoType": "FXCancellation3Choice",
+  "definition": "Elección de formato para la información de cancelación de divisas.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si la operación de divisas subyacente también debe cancelarse. Sí significa que la operación de divisas se cancela. No significa que se mantiene."
+    },
+    "Proprietary": {
+      "definition": "Información de cancelación de divisas expresada como código propietario."
+    }
+  }
+}

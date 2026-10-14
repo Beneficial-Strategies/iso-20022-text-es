@@ -1,0 +1,22 @@
+{
+  "isoType": "SecuritiesBalanceType10Code",
+  "definition": "Especifica el tipo de saldo de valores.",
+  "isoCodes": {
+    "AVLB": {
+      "name": "Disponible",
+      "definition": "Saldo de dinero o de valores que está a disposición del titular de la cuenta en la fecha especificada."
+    },
+    "REST": {
+      "name": "Restringido",
+      "definition": "Saldo de efectivo que solo puede utilizarse bajo ciertas condiciones.||El tipo de saldo se utiliza para bloquear valores o efectivo en la cuenta del cliente, p. ej., en relación con elecciones relativas a determinadas operaciones societarias. La posición está bajo el control directo del agente de pago del sistema, que es el único que puede transferir valores fuera de este tipo de saldo.|También conocido como \"saldo en garantía\" o \"saldo secuestrado\"."
+    },
+    "RDIS": {
+      "name": "Reservado para distribución",
+      "definition": "Saldo de instrumentos financieros reservados para la distribución del producto."
+    },
+    "RREM": {
+      "name": "Reservado para retirada",
+      "definition": "Saldo de valores reservados temporalmente en la cuenta del SPA antes de que se canjeen efectivamente."
+    }
+  }
+}

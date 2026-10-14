@@ -1,0 +1,15 @@
+{
+  "isoType": "References4",
+  "definition": "Conjunto de elementos para la identificación del mensaje y las referencias relacionadas.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifica un mensaje mediante un identificador único y la fecha y hora en que el remitente creó el mensaje."
+    },
+    "ProcessIdentification": {
+      "definition": "Identifica un proceso mediante un identificador único y la fecha y hora en que el remitente creó el primer mensaje perteneciente al proceso. La identificación del proceso permanece igual en todos los mensajes pertenecientes al mismo proceso, desde el mensaje de solicitud inicial hasta el informe de cuenta final que cierra el proceso."
+    },
+    "AttachedDocumentName": {
+      "definition": "Nombre de archivo de un documento relacionado lógicamente con la solicitud."
+    }
+  }
+}

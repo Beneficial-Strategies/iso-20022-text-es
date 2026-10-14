@@ -1,0 +1,24 @@
+{
+  "isoType": "AgentCADeactivationStatusAdviceV01",
+  "definition": "Ámbito|Este mensaje lo envía un CSD a un emisor (o a su agente) para comunicar el estado, o un cambio de estado, de una instrucción de desactivación de operación societaria o el estado de una solicitud de cancelación de desactivación.|Uso|Este mensaje se utiliza para proporcionar un estado sobre la instrucción de desactivación, en especial para confirmar la desactivación de un evento u opción de operación societaria.",
+  "isoRules": {
+    "DeactivationInstructionIDOrDeactivationCancellationRequestIDRule": {
+      "definition": "Debe estar presente AgentCADeactivationInstructionIdentification o AgentCADeactivationCancellationRequestIdentification."
+    },
+    "DeactivationInstructionIDOrDeactivationCancellationRequestIDRuleNotBoth": {
+      "definition": "Debe estar presente AgentCADeactivationInstructionIdentification o AgentCADeactivationCancellationRequestIdentification."
+    },
+    "DeactivationInstructionStatusOrDeactivationCancellationRequestStatusRule": {
+      "definition": "Debe estar presente DeactivationInstructionStatus o DeactivationCancellationRequestStatus."
+    },
+    "DeactivationInstructionStatusOrDeactivationCancellationRequestStatusRuleNotBoth": {
+      "definition": "Debe estar presente DeactivationInstructionStatus o DeactivationCancellationRequestStatus."
+    },
+    "DeactivationInstructionStatusRule": {
+      "definition": "Si AgentCADeactivationInstructionIdentification está presente, entonces debe estar presente al menos una ocurrencia de DeactivationInstructionStatus."
+    },
+    "DeactivationCancellationRequestStatusRule": {
+      "definition": "Si AgentCADeactivationCancellationRequestIdentification está presente, entonces DeactivationCancellationRequestStatus debe estar presente."
+    }
+  }
+}

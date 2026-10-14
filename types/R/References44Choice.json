@@ -1,0 +1,18 @@
+{
+  "isoType": "References44Choice",
+  "definition": "Elección de referencia.",
+  "isoElements": {
+    "OtherTransactionIdentification": {
+      "definition": "Referencia a una operación que no puede identificarse mediante un elemento de referencia estándar presente en el mensaje."
+    },
+    "SecuritiesFinancingTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación de financiación de valores subyacente (no de la negociación de financiación de valores subyacente), asignada por la parte instructora."
+    },
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación de liquidación de valores."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Referencia del movimiento intraposición cuya cancelación se solicita, tal como la conoce el titular de la cuenta (o la parte instructora que actúa en su nombre)."
+    }
+  }
+}

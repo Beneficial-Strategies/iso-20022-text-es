@@ -1,0 +1,22 @@
+{
+  "isoType": "QueryType2Code",
+  "definition": "Especifica la naturaleza de la consulta, es decir, si la consulta solicita que se devuelvan todos los elementos coincidentes o solo los nuevos elementos coincidentes desde la última consulta similar.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Todos",
+      "definition": "Especifica que la consulta solicita que se devuelvan todos los elementos coincidentes."
+    },
+    "CHNG": {
+      "name": "Modificado",
+      "definition": "Especifica que la consulta solicita que solo se devuelvan los nuevos elementos coincidentes desde la última consulta similar."
+    },
+    "MODF": {
+      "name": "Modificado",
+      "definition": "Especifica que la consulta solicita que solo se devuelvan los elementos que han cambiado desde la última consulta."
+    },
+    "DELD": {
+      "name": "Eliminado",
+      "definition": "Especifica que la consulta solicita que se devuelvan los elementos que se han eliminado desde la última consulta."
+    }
+  }
+}

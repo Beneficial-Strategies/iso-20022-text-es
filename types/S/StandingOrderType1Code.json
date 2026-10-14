@@ -1,0 +1,14 @@
+{
+  "isoType": "StandingOrderType1Code",
+  "definition": "Especifica el tipo de orden permanente, por ejemplo, una orden permanente definida por el usuario o una transferencia de liquidez predefinida.",
+  "isoCodes": {
+    "USTO": {
+      "name": "Orden permanente definida por el usuario",
+      "definition": "Tipo de orden permanente de transferencia de liquidez que ha sido personalizada o definida según las necesidades específicas del usuario."
+    },
+    "PSTO": {
+      "name": "Orden permanente predefinida",
+      "definition": "Tipo de orden permanente de transferencia de liquidez predefinida en el sistema."
+    }
+  }
+}

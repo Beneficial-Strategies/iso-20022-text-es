@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason8FormatChoice",
+  "definition": "Elección de formatos para expresar el motivo del rechazo de una solicitud de modificación de elección.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo del rechazo de una solicitud de modificación de elección."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el motivo del rechazo de una solicitud de modificación de elección."
+    }
+  }
+}

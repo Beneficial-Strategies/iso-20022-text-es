@@ -1,0 +1,14 @@
+{
+  "isoType": "RestrictionStatus1Code",
+  "definition": "Especifica el estado de una restricción.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Activo",
+      "definition": "El estado de la restricción es activo."
+    },
+    "INAC": {
+      "name": "Inactivo",
+      "definition": "El estado de la restricción es inactivo."
+    }
+  }
+}

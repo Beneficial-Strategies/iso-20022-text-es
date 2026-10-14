@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification7",
+  "definition": "Información expresada de forma propia.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    },
+    "Information": {
+      "definition": "Información propia, a menudo un código, emitida por el emisor del esquema de la fuente de datos."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferReason1Code",
+  "definition": "Especifica el motivo de la transferencia de activos.",
+  "isoCodes": {
+    "TRAU": {
+      "name": "Posesión indivisa",
+      "definition": "La transferencia es una posesión indivisa."
+    },
+    "TRAC": {
+      "name": "Transferencia entre cónyuges",
+      "definition": "La transferencia es entre cónyuges."
+    },
+    "TRAT": {
+      "name": "Operación bursátil",
+      "definition": "La transferencia es una operación comercial."
+    },
+    "TRAO": {
+      "name": "Transferencia ordinaria",
+      "definition": "La transferencia es ordinaria."
+    },
+    "TRAI": {
+      "name": "Herencia",
+      "definition": "La transferencia es una herencia."
+    },
+    "TRAG": {
+      "name": "Donación",
+      "definition": "La transferencia es una donación."
+    },
+    "TPLD": {
+      "name": "Transferencia de cuenta pignorada",
+      "definition": "Transferencia a cuenta pignorada (en determinadas circunstancias, los distribuidores deben inmovilizar y transferir la posición total o parcial a una cuenta ómnibus separada, por ejemplo, por una investigación requerida por la autoridad fiscal o la policía)."
+    },
+    "TTDT": {
+      "name": "Transferencia en el marco TDT",
+      "definition": "Instrucción de transferencia ejecutada dentro del marco TDT (el marco TDT es el modelo operativo promovido por la Asociación Bancaria Italiana para las transferencias, y la mayoría de las transferencias, aunque no todas, se ejecutarán de acuerdo con ese proceso)."
+    },
+    "TRPE": {
+      "name": "Transferencia entre distintos beneficiarios",
+      "definition": "Transferencia entre distintos beneficiarios con aplicación de impuestos (cuentas con distinto titular)."
+    },
+    "TRAF": {
+      "name": "Escisión",
+      "definition": "La transferencia es el resultado de una escisión o división."
+    },
+    "TRAN": {
+      "name": "Entre cuentas propias",
+      "definition": "La transferencia es entre cuentas propias."
+    }
+  }
+}

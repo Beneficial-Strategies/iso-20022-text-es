@@ -1,0 +1,30 @@
+{
+  "isoType": "BillingService2",
+  "definition": "Especifica los valores utilizados para cada línea de servicio del extracto.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Especifica valores detallados adicionales para este servicio."
+    },
+    "Price": {
+      "definition": "Precio aplicado al servicio, expresado en la divisa de tarificación."
+    },
+    "PaymentMethod": {
+      "definition": "Código que identifica el destino del cargo calculado."
+    },
+    "OriginalChargePrice": {
+      "definition": "Importe del cargo calculado, expresado en la divisa de tarificación. Este valor no incluye ningún impuesto sobre el servicio."
+    },
+    "OriginalChargeSettlementAmount": {
+      "definition": "Importe del cargo calculado, expresado en la divisa de liquidación."
+    },
+    "BalanceRequiredAccountAmount": {
+      "definition": "Saldo medio diario cobrado necesario para compensar un cargo por servicio compensable con el saldo, sin impuestos, expresado en la divisa de la cuenta."
+    },
+    "TaxDesignation": {
+      "definition": "Proporciona los detalles de la situación fiscal de un servicio."
+    },
+    "TaxCalculation": {
+      "definition": "Proporciona valores relacionados con los impuestos para los métodos A, B o D de cálculo de impuestos."
+    }
+  }
+}

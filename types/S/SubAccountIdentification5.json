@@ -1,0 +1,18 @@
+{
+  "isoType": "SubAccountIdentification5",
+  "definition": "Cuenta en la que, o desde la que, se realiza un apunte de valores.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "FungibleIndicator": {
+      "definition": "Indica si los valores de la cuenta son fungibles, es decir, intercambiables."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si hay actividad comunicada en el extracto."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una cuenta de valores."
+    }
+  }
+}

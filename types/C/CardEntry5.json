@@ -1,0 +1,18 @@
+{
+  "isoType": "CardEntry5",
+  "definition": "Apunte de operación con tarjeta.",
+  "isoElements": {
+    "Card": {
+      "definition": "Producto de dinero electrónico que proporciona al titular de la tarjeta un dispositivo informático portátil y especializado, que normalmente contiene un microprocesador."
+    },
+    "POI": {
+      "definition": "Terminal de pago con tarjeta físico o lógico que contiene componentes de software y hardware."
+    },
+    "AggregatedEntry": {
+      "definition": "Información del apunte de tarjeta, basada en datos agregados de operaciones con tarjeta realizados por la entidad gestora de la cuenta."
+    },
+    "PrePaidAccount": {
+      "definition": "Cuenta de prepago para la transferencia o la carga de un importe de dinero."
+    }
+  }
+}

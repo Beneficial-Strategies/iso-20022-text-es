@@ -1,0 +1,12 @@
+{
+  "isoType": "LumpSumType1Choice",
+  "definition": "Elección de formatos para un tipo de pago único.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de pago único expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de pago único expresado como código propietario."
+    }
+  }
+}

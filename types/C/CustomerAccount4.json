@@ -1,0 +1,51 @@
+{
+  "isoType": "CustomerAccount4",
+  "definition": "Cuenta que pertenece a un cliente.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la cuenta."
+    },
+    "Name": {
+      "definition": "Nombre de la cuenta. Proporciona un medio adicional de identificación y lo designa la entidad gestora de la cuenta de acuerdo con el titular de la cuenta."
+    },
+    "Status": {
+      "definition": "Especifica el estado actual de una cuenta, p. ej., habilitada o eliminada."
+    },
+    "Type": {
+      "definition": "Tipo de cuenta."
+    },
+    "Currency": {
+      "definition": "Medio de intercambio de valor."
+    },
+    "MonthlyPaymentValue": {
+      "definition": "Promedio mensual de los importes de pagos (es decir, pagos salientes) a lo largo de un año."
+    },
+    "MonthlyReceivedValue": {
+      "definition": "Promedio mensual de los importes recibidos a lo largo de un año (es decir, pagos entrantes)."
+    },
+    "MonthlyTransactionNumber": {
+      "definition": "Promedio mensual del número de pagos (entrantes y salientes) a lo largo de un año."
+    },
+    "AverageBalance": {
+      "definition": "Suma de los saldos al cierre del día durante un mes dividida por el número de días hábiles del mes."
+    },
+    "AccountPurpose": {
+      "definition": "Especifica la finalidad de la cuenta."
+    },
+    "FloorNotificationAmount": {
+      "definition": "Especifica el valor del saldo por debajo del cual se enviará una notificación al titular de la cuenta."
+    },
+    "CeilingNotificationAmount": {
+      "definition": "Especifica el valor del saldo por encima del cual se enviará una notificación al titular de la cuenta."
+    },
+    "StatementFrequencyAndFormat": {
+      "definition": "Especifica con qué frecuencia, en qué formato y a qué dirección se enviarán los extractos (con fines de auditoría)."
+    },
+    "ClosingDate": {
+      "definition": "Fecha en que se cerrará o se cerró la cuenta."
+    },
+    "Restriction": {
+      "definition": "Restricción de la capacidad o de las operaciones permitidas."
+    }
+  }
+}

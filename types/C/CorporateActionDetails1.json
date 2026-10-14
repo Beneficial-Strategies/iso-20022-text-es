@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDetails1",
+  "definition": "Información clave sobre el evento de operación societaria relacionado.",
+  "isoElements": {
+    "CorporateActionGeneralInformation": {
+      "definition": "Información general sobre el evento de acción corporativa."
+    },
+    "CorporateActionOption": {
+      "definition": "Opciones seleccionadas de instrucciones de protección del comprador."
+    }
+  }
+}

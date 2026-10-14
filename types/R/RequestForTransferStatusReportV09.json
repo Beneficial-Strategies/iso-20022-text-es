@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForTransferStatusReportV09",
+  "definition": "Ámbito|El RequestForTransferStatusReport lo envía una parte instructora, por ejemplo, un gestor de inversiones o su representante autorizado, a la parte ejecutante, por ejemplo, un agente de transferencias, para solicitar el estado de una transferencia instruida previamente.|El RequestForTransferStatusReport también puede ser enviado por cualquier parte de la operación de transferencia a otra parte de la cadena de la operación de transferencia para solicitar información relevante para la liquidación de una operación de transferencia.|Uso|El RequestForTransferStatusReport se utiliza para solicitar, bien:|- el estado de una o varias solicitudes de información o instrucciones de transferencia, o bien,|- el estado de una o varias instrucciones de cancelación de transferencia, o bien,|- información relevante para una o varias instrucciones de transferencia."
+}

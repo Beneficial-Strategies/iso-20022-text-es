@@ -1,0 +1,119 @@
+{
+  "isoType": "Pension5",
+  "definition": "Atributos de una pensión.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la póliza, el plan o el esquema de pensiones."
+    },
+    "Type": {
+      "definition": "Tipo de póliza, plan o esquema de pensiones."
+    },
+    "TransferScope": {
+      "definition": "Alcance de la transferencia de la póliza, plan o esquema de pensiones."
+    },
+    "TaxReference": {
+      "definition": "Referencia fiscal asignada a la póliza, plan o esquema de pensiones por un organismo central."
+    },
+    "DrawdownTrancheIdentification": {
+      "definition": "Referencia de la disposición."
+    },
+    "DrawdownStatus": {
+      "definition": "Estado de disposición de la pensión."
+    },
+    "DrawdownType": {
+      "definition": "Tipo de tramo de disposición."
+    },
+    "NumberOfDrawdownTranches": {
+      "definition": "Número de tramos de disposición."
+    },
+    "EstimatedValue": {
+      "definition": "Valor estimado de la póliza, el plan o el régimen de pensiones."
+    },
+    "BlockTransfer": {
+      "definition": "Indica si el traspaso forma parte de un traspaso en bloque."
+    },
+    "BlockTransferReference": {
+      "definition": "Cuando el traspaso forma parte de un traspaso en bloque, referencia para vincular varios elementos."
+    },
+    "TaxFreeCashProtection": {
+      "definition": "Indica si el efectivo exento de impuestos está protegido cuando se traspasa la póliza, el plan o el régimen de pensiones."
+    },
+    "TaxFreeCashAmount": {
+      "definition": "Importe de efectivo exento de impuestos."
+    },
+    "ValueOfPensionPolicyOrPlanOrScheme": {
+      "definition": "Valor de la póliza, el plan o el régimen de pensiones."
+    },
+    "RetirementAgeProtection": {
+      "definition": "Indica si la póliza, el plan o el régimen de pensiones tiene protección de la edad de jubilación."
+    },
+    "RetirementAge": {
+      "definition": "Edad a la que se jubila el titular de la póliza, el plan o el régimen de pensiones."
+    },
+    "Sharing": {
+      "definition": "Indica si las prestaciones de la pensión se comparten."
+    },
+    "LumpSumType": {
+      "definition": "Tipo de pago único abonado a un miembro de la póliza, el plan o el régimen de pensiones."
+    },
+    "PensionOrder": {
+      "definition": "Orden asociada a la póliza, el plan o el régimen de pensiones."
+    },
+    "RingFencedDrawdownAssets": {
+      "definition": "Indica si los activos mantenidos dentro de la pensión están segregados en tramos específicos."
+    },
+    "MoneyPurchaseAnnualAllowance": {
+      "definition": "Detalles de la Money Purchase Annual Allowance (MPAA)."
+    },
+    "SafeguardBenefit": {
+      "definition": "Indica si la póliza, el plan o el régimen de pensiones está cubierto por una prestación de salvaguarda."
+    },
+    "NonSafeguardedGuaranteedBenefits": {
+      "definition": "Indica si la póliza, el plan o el régimen de pensiones tiene prestaciones garantizadas no salvaguardadas."
+    },
+    "LifetimeAllowanceProtection": {
+      "definition": "Indica si la póliza, el plan o el régimen de pensiones tiene protección del límite vitalicio."
+    },
+    "ClientLifetimeAllowanceProtection": {
+      "definition": "Indica si el cliente tiene alguna protección del límite vitalicio."
+    },
+    "BenefitCrystallisationEventOccurred": {
+      "definition": "Indica si se ha producido un evento de cristalización de prestaciones (BCE). Esto incluye las 'comprobaciones de los 75 años'."
+    },
+    "NonWrapperTransfer": {
+      "definition": "Indica que la transferencia se refiere únicamente a los activos subyacentes y que la transferencia del envoltorio se realizará por separado."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la póliza, el plan o el esquema de pensiones."
+    }
+  },
+  "isoRules": {
+    "BlockTransferRetirementAgeProtectionRule": {
+      "definition": "Si BlockTransfer es \"false\" o \"0\" (No), entonces RetirementAgeProtection no está permitido.|Si BlockTransfer es \"true\" o \"1\" (Sí), entonces RetirementAgeProtection puede estar presente."
+    },
+    "RetirementAgeRule": {
+      "definition": "Si RetirementAgeProtection es \"false\" o \"0\" (No), entonces RetirementAge no está permitido.|Si RetirementAgeProtection es \"true\" o \"1\" (Sí), entonces RetirementAge puede estar presente."
+    },
+    "BlockTransferTaxFreeCashProtectionRule": {
+      "definition": "Si BlockTransfer es \"false\" o \"0\" (No), entonces TaxFreeCashProtection no está permitido.|Si BlockTransfer es \"true\" o \"1\" (Sí), entonces TaxFreeCashProtection puede estar presente."
+    },
+    "TaxFreeCashAmountRule": {
+      "definition": "Si TaxFreeCashProtection es \"false\" o \"0\" (No), entonces TaxFreeCashAmount no está permitido.|Si TaxFreeCashProtection es \"true\" o \"1\" (Sí), entonces TaxFreeCashAmount puede estar presente."
+    },
+    "RingFencedDrawdownAssets1Rule": {
+      "definition": "Si DrawdownStatus/Code/NONE (None) está presente, entonces RingFencedDrawdownAssets no está permitido."
+    },
+    "PensionOrderTypeGuideline": {
+      "definition": "Una póliza, plan o régimen de pensiones no puede tener a la vez una reserva y una orden de reparto.|Si PensionOrder/Type/Code/SHAR está presente, entonces PensionOrder/Type/Code/EARM no está permitido.|Si PensionOrder/Type/Code/EARM está presente, entonces PensionOrder/Type/Code/SHAR no está permitido."
+    },
+    "TaxFreeCashAndValueRule": {
+      "definition": "Si TaxFreeCashProtection es \"true\" o \"1\" (Sí), entonces TaxFreeCashAmount y ValueOfPensionPolicyOrPlanOrScheme deben estar presentes.|Si TaxFreeCashProtection es \"false\" o \"0\" (Sí), entonces TaxFreeCashAmount y ValueOfPensionPolicyOrPlanOrScheme pueden estar presentes."
+    },
+    "TransferScopeTrancheIdentification1Rule": {
+      "definition": "Si TransferScope/Code/SDDT (DrawdownTranche) no está presente, entonces DrawdownTrancheIdentification no está permitido.|Si TransferScope/Code/SDDT (DrawdownTranche) está presente, entonces DrawdownTrancheIdentification puede estar presente."
+    },
+    "RingFencedDrawdownAssets2Rule": {
+      "definition": "Si DrawdownStatus/Code/PART (Partial) o FULL (Full) está presente, entonces RingFencedDrawdownAssets debe estar presente."
+    }
+  }
+}

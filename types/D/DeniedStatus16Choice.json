@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedStatus16Choice",
+  "definition": "Especifica si el estado se facilita con un motivo o sin él.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo del estado denegado."
+    }
+  }
+}

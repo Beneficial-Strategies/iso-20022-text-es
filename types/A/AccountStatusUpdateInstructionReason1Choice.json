@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstructionReason1Choice",
+  "definition": "Elección de formatos para un motivo de una instrucción de cambio del estado de una cuenta.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "No hay ningún motivo disponible ni que comunicar para la instrucción de cambio del estado de la cuenta."
+    },
+    "Reason": {
+      "definition": "Motivo de la instrucción de cambio del estado de la cuenta."
+    }
+  }
+}

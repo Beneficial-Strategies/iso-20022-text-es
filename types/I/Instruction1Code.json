@@ -1,0 +1,18 @@
+{
+  "isoType": "Instruction1Code",
+  "definition": "Especifica instrucciones adicionales relativas al procesamiento de una instrucción de pago, proporcionadas por la entidad de compensación emisora a la entidad o entidades siguientes.",
+  "isoCodes": {
+    "PBEN": {
+      "name": "Pagar al beneficiario",
+      "definition": "Beneficiario (final) que debe cobrar únicamente tras la verificación de su identidad."
+    },
+    "TTIL": {
+      "name": "Hasta la hora",
+      "definition": "La instrucción de pago es válida y apta para su ejecución hasta la fecha y hora estipuladas. En caso contrario, la instrucción de pago será rechazada."
+    },
+    "TFRO": {
+      "name": "Desde la hora",
+      "definition": "La instrucción de pago será válida y apta para su ejecución a partir de la fecha y hora estipuladas."
+    }
+  }
+}

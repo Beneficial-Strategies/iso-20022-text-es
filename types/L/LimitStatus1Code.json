@@ -1,0 +1,22 @@
+{
+  "isoType": "LimitStatus1Code",
+  "definition": "Especifica el estado actual de un límite.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Habilitado",
+      "definition": "El límite está actualmente en vigor."
+    },
+    "DISA": {
+      "name": "Deshabilitado",
+      "definition": "El límite no está actualmente en vigor."
+    },
+    "DELD": {
+      "name": "Eliminado",
+      "definition": "El límite se ha eliminado o suspendido."
+    },
+    "REQD": {
+      "name": "Solicitado",
+      "definition": "El límite se ha solicitado y todavía no está habilitado."
+    }
+  }
+}

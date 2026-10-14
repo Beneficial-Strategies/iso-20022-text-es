@@ -1,0 +1,30 @@
+{
+  "isoType": "PendingStatusReason1Code",
+  "definition": "Especifica el motivo de un estado pendiente.",
+  "isoCodes": {
+    "KYCM": {
+      "name": "Falta documento de conocimiento del cliente",
+      "definition": "Falta el documento de conocimiento del cliente (KYC, Know Your Customer)."
+    },
+    "FRDM": {
+      "name": "Falta fecha de declaración FATCA",
+      "definition": "Falta la fecha de reporte de FATCA."
+    },
+    "RIGH": {
+      "name": "Falta titular de derechos",
+      "definition": "Falta la información del titular de derechos."
+    },
+    "ATHR": {
+      "name": "Autorización",
+      "definition": "Se requiere autorización."
+    },
+    "ATHP": {
+      "name": "Autorizado pero pendiente",
+      "definition": "La autorización se ha proporcionado, pero el cambio de la cuenta sigue pendiente."
+    },
+    "MODI": {
+      "name": "Modificación en curso",
+      "definition": "La modificación de los datos de la cuenta está en curso."
+    }
+  }
+}

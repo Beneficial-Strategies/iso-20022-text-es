@@ -1,0 +1,10 @@
+{
+  "isoType": "ProcessingPosition5Code",
+  "definition": "Especifica cuándo debe ejecutarse una operación/instrucción en relación con una operación/instrucción vinculada.",
+  "isoCodes": {
+    "INFO": {
+      "name": "Información",
+      "definition": "Especifica que las operaciones o instrucciones están vinculadas únicamente con fines informativos."
+    }
+  }
+}

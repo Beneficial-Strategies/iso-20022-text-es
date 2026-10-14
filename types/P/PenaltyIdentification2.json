@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyIdentification2",
+  "definition": "Identificación única e inequívoca de una penalización.",
+  "isoElements": {
+    "MarketInfrastructureIdentification": {
+      "definition": "Identificación asignada por la infraestructura del mercado a la penalización, común tanto para el participante incumplidor como para el no incumplidor."
+    },
+    "Identification": {
+      "definition": "Identificación asignada por la infraestructura del mercado a la penalización, que es la identificación individual de la penalización para el titular de la cuenta correspondiente (es decir, para el participante incumplidor o para el participante no incumplidor)."
+    }
+  }
+}

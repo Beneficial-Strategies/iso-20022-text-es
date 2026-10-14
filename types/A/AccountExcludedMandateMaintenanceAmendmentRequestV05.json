@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountExcludedMandateMaintenanceAmendmentRequestV05",
+  "definition": "El mensaje AccountExcludedMandateMaintenanceAmendmentRequest lo envía una organización a una entidad financiera como parte del proceso de mantenimiento de cuenta. Se envía en respuesta a una solicitud de la entidad financiera de enviar información adicional. Uso: esta actualización se refiere a los datos de la cuenta, excluida cualquier información de mandatos. |Si no se utilizan códigos de modificación: la organización especificará en las etiquetas “Account” y “Organisation” la información completa tal como debe figurar en los registros de la entidad financiera después de procesar la solicitud de actualización. |Si se utilizan códigos de modificación (en ese caso, deben utilizarse en todas partes): la organización especificará en las etiquetas “Account” y “Organisation” qué elementos deben añadirse, eliminarse, modificarse o si permanecen sin cambios."
+}

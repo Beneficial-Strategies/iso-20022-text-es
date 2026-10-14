@@ -1,0 +1,24 @@
+{
+  "isoType": "Statement87",
+  "definition": "Características del extracto.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identificación del mensaje SecuritiesStatementQuery enviado para solicitar este extracto."
+    },
+    "StatementIdentification": {
+      "definition": "Referencia común a todas las páginas de un extracto."
+    },
+    "StatementDateTime": {
+      "definition": "Fecha y hora del extracto."
+    },
+    "Frequency": {
+      "definition": "Frecuencia del extracto."
+    },
+    "UpdateType": {
+      "definition": "Indica si el informe está completo o contiene únicamente cambios."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si el extracto comunica actividad o actualización de información."
+    }
+  }
+}

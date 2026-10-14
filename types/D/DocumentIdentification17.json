@@ -1,0 +1,9 @@
+{
+  "isoType": "DocumentIdentification17",
+  "definition": "Identifica un documento mediante una identificación única.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifica el documento."
+    }
+  }
+}

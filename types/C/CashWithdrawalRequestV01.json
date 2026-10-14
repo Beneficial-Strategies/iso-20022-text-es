@@ -1,0 +1,4 @@
+{
+  "isoType": "CashWithdrawalRequestV01",
+  "definition": "El mensaje CashWithdrawalRequest lo envía un receptor del efectivo a un remitente del efectivo para solicitar que se retire efectivo de una cuenta."
+}

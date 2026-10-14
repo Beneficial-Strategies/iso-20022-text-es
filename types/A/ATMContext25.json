@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMContext25",
+  "definition": "Contexto de la excepción.",
+  "isoElements": {
+    "SessionReference": {
+      "definition": "Identificación única de la sesión de cliente en la que se produjo la excepción."
+    },
+    "Service": {
+      "definition": "Servicio prestado por el cajero automático (ATM) dentro de la sesión."
+    }
+  }
+}

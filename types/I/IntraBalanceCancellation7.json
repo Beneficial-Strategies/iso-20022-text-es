@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalanceCancellation7",
+  "definition": "Proporciona los datos de las solicitudes de cancelación en el informe.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gestiona la cuenta de efectivo por cuenta del titular de la cuenta, es decir, gestiona el registro y la contabilización de los apuntes en la cuenta, calcula los saldos de la cuenta y proporciona información sobre la cuenta."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "Cancellation": {
+      "definition": "Detalles adicionales de la operación individual de cancelación entre saldos."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount debe estar presente o Cancellation(*)/CashAccount debe estar presente, pero no ambos."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner debe estar presente o Cancellation(*)/AccountOwner debe estar presente, pero no ambos."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus debe estar presente o Cancellation(*)/ProcessingStatus debe estar presente, pero no ambos."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer debe estar presente o Cancellation(*)/AccountOwner debe estar presente, pero no ambos."
+    }
+  }
+}

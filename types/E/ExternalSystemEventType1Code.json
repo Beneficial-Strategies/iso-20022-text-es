@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalSystemEventType1Code",
+  "definition": "Especifica el tipo de un evento generado dentro de un sistema, tal como se publica en una lista de códigos de tipos de evento del sistema.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "CRCO": {
+      "name": "Hora límite de reserva de efectivo",
+      "definition": "El evento es la hora límite de la ventana de reserva de efectivo."
+    },
+    "CUSC": {
+      "name": "Hora límite de clientes",
+      "definition": "El evento es el cierre para los pagos de clientes."
+    },
+    "ESTF": {
+      "name": "Fin de facilidades permanentes",
+      "definition": "El evento es el cierre de las facilidades permanentes."
+    },
+    "EUCO": {
+      "name": "Hora límite de Euro1",
+      "definition": "El evento es la hora límite del sistema Euro1, es decir, el plazo para procesar las operaciones de Euro1."
+    },
+    "EUSU": {
+      "name": "Inicio de Euro1",
+      "definition": "El evento es la apertura del funcionamiento del sistema Euro 1."
+    },
+    "FIRE": {
+      "name": "Informe final",
+      "definition": "El evento es el informe posterior al cese de todas las operaciones en el sistema."
+    },
+    "IBKC": {
+      "name": "Hora límite interbancaria",
+      "definition": "El evento es el cierre para los pagos interbancarios."
+    },
+    "LTDC": {
+      "name": "Hora límite LTD",
+      "definition": "El evento es el cierre para la liquidación de los saldos multilaterales de efectivo resultantes del ciclo diurno del sistema de liquidación de valores."
+    },
+    "LTGC": {
+      "name": "Hora límite LTG",
+      "definition": "El evento es la hora límite del ciclo diurno del sistema de liquidación de valores."
+    },
+    "LTNC": {
+      "name": "Hora límite LTN",
+      "definition": "El evento es la hora límite para la liquidación de los saldos multilaterales de efectivo resultantes del ciclo nocturno del sistema de liquidación de valores."
+    },
+    "LVCC": {
+      "name": "Hora límite de cancelación de pagos de alto valor",
+      "definition": "El evento es la hora límite a partir de la cual ya no pueden cancelarse los pagos de bajo valor."
+    },
+    "LVCO": {
+      "name": "Hora límite de pagos de alto valor",
+      "definition": "El evento es la hora límite para los pagos de bajo valor procesados por el sistema."
+    },
+    "LVRT": {
+      "name": "Hora del informe de hora límite de pagos de alto valor",
+      "definition": "El evento es el momento en que se proporciona a los miembros el informe correspondiente al procesamiento de los pagos de bajo valor."
+    },
+    "LWSU": {
+      "name": "Inicio de aviso de límite",
+      "definition": "El evento es el inicio del período de aviso de límite."
+    },
+    "NPCT": {
+      "name": "Hora límite de nuevos pagos",
+      "definition": "El evento es la hora de cierre para la recepción de nuevos pagos comerciales."
+    },
+    "PCOT": {
+      "name": "Hora límite de procesamiento",
+      "definition": "El evento es la hora de cierre para el procesamiento de pagos."
+    },
+    "RECC": {
+      "name": "Hora límite REC",
+      "definition": "El evento es la hora límite para la liquidación de los saldos multilaterales procedentes del sistema de compensación minorista."
+    },
+    "REOP": {
+      "name": "Reanudación de la operativa",
+      "definition": "El evento es la hora prevista de reanudación de un componente TARGET."
+    },
+    "SSSC": {
+      "name": "Hora límite de reserva NetSSS",
+      "definition": "El evento es el cierre de la ventana de reserva de efectivo del sistema de liquidación de valores."
+    },
+    "STDY": {
+      "name": "Inicio del día",
+      "definition": "El evento es el inicio de la jornada operativa."
+    },
+    "STSU": {
+      "name": "Inicio de Step1",
+      "definition": "El evento es el inicio del funcionamiento de la Etapa 1 del sistema."
+    },
+    "SYSC": {
+      "name": "Hora límite del sistema",
+      "definition": "El evento es el cierre del sistema."
+    }
+  }
+}

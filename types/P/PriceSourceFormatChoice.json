@@ -1,0 +1,15 @@
+{
+  "isoType": "PriceSourceFormatChoice",
+  "definition": "Elección de la fuente (lugar) de la cotización de precio.",
+  "isoElements": {
+    "LocalMarketPlace": {
+      "definition": "La fuente de la cotización de precio es el mercado, expresado mediante un Market Identifier Code (MIC)."
+    },
+    "NonLocalMarketPlace": {
+      "definition": "Fuente de una cotización de precio cuando no es el mercado local."
+    },
+    "PlaceAsDSS": {
+      "definition": "Fuente de una cotización de precio expresada mediante un esquema de identificación propio."
+    }
+  }
+}

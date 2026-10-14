@@ -1,0 +1,12 @@
+{
+  "isoType": "InsuranceType2Choice",
+  "definition": "Elección de formatos para la especificación del tipo de seguro.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de contrato de seguro expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de contrato de seguro expresado como código propietario."
+    }
+  }
+}

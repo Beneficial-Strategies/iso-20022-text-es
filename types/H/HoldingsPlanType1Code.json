@@ -1,0 +1,18 @@
+{
+  "isoType": "HoldingsPlanType1Code",
+  "definition": "Especifica el plan de posiciones de los activos que se van a transferir.",
+  "isoCodes": {
+    "INVP": {
+      "name": "Plan de inversión",
+      "definition": "La posición que se va a transferir pertenece a un plan de inversión."
+    },
+    "SWIP": {
+      "name": "Plan de traspaso",
+      "definition": "La posición que se va a transferir pertenece a un plan de traspaso."
+    },
+    "PLAR": {
+      "name": "Plan de reembolso",
+      "definition": "La posición que se va a transferir pertenece a un plan de reembolso."
+    }
+  }
+}

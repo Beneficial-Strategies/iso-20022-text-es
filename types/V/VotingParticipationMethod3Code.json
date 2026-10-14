@@ -1,0 +1,30 @@
+{
+  "isoType": "VotingParticipationMethod3Code",
+  "definition": "Especifica los distintos métodos permitidos para participar en la votación de las resoluciones del orden del día en una junta general.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "Correspondencia",
+      "definition": "La participación en la votación se realiza mediante documentos enviados por correo postal."
+    },
+    "EVOT": {
+      "name": "Voto electrónico",
+      "definition": "La participación en la votación se realiza por medios electrónicos, como mensajería estandarizada específica o aplicaciones de votación basadas en la web."
+    },
+    "PHYS": {
+      "name": "En persona",
+      "definition": "La participación en la votación se realiza mediante asistencia presencial."
+    },
+    "PHNV": {
+      "name": "Sin voto",
+      "definition": "La participación en la junta es presencial, pero la persona no vota."
+    },
+    "PRXY": {
+      "name": "Representante",
+      "definition": "La participación en la votación se realiza a través de un representante."
+    },
+    "VIRT": {
+      "name": "Virtual",
+      "definition": "La participación en la votación se realiza mediante asistencia virtual a la junta, como multimedia y videoconferencia o audioconferencia basadas en la web."
+    }
+  }
+}

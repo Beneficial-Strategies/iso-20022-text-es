@@ -1,0 +1,12 @@
+{
+  "isoType": "CashInOutForecast7",
+  "definition": "Movimientos de efectivo de entrada o salida de un fondo como resultado de operaciones de fondos de inversión, por ejemplo, suscripciones, reembolsos o traspasos.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Fecha en la que el efectivo está disponible."
+    },
+    "Amount": {
+      "definition": "Importe del flujo de efectivo."
+    }
+  }
+}

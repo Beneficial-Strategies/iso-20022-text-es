@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMEnvironment15",
+  "definition": "Entorno de la descarga de claves.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Adquirente de las operaciones del cajero automático (ATM), responsable de la liquidación de fondos con el emisor."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identificación del gestor de cajeros automáticos (ATM)."
+    },
+    "HostingEntity": {
+      "definition": "Entidad que aloja el terminal del cajero automático (ATM)."
+    },
+    "ATM": {
+      "definition": "Información del cajero automático (ATM)."
+    }
+  }
+}

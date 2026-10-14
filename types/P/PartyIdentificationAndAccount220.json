@@ -1,0 +1,32 @@
+{
+  "isoType": "PartyIdentificationAndAccount220",
+  "definition": "Entidad que participa en una actividad.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Información relacionada con una identificación, por ejemplo, la identificación de una parte o de una cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificación inequívoca de la operación para la parte identificada."
+    },
+    "CountryOfResidence": {
+      "definition": "País en el que reside una persona (el lugar de su domicilio). En el caso de una empresa, es el país desde el que se dirigen los asuntos de dicha empresa."
+    },
+    "AdditionalInformation": {
+      "definition": "Proporciona información adicional sobre la parte."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificación alternativa de una parte."
+    }
+  },
+  "isoRules": {
+    "IdentificationUsageRule": {
+      "definition": "La presencia de Identification y/o CountryOfResidence es obligatoria."
+    }
+  }
+}

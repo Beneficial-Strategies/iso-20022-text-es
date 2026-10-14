@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification17",
+  "definition": "Identificación de un algoritmo criptográfico y de los parámetros para las firmas digitales.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identificación del algoritmo."
+    },
+    "Parameter": {
+      "definition": "Parámetros del algoritmo de firma digital RSASSA-PSS (algoritmo de firma RSA con apéndice: esquema de firma probabilístico)."
+    }
+  }
+}

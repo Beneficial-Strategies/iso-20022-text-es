@@ -1,0 +1,12 @@
+{
+  "isoType": "ClearingSystemIdentification3Choice",
+  "definition": "Especifica la identificación del sistema de compensación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Infraestructura a través de la cual se procesa la instrucción de pago, según se publica en una lista externa de códigos de identificación de sistemas de compensación."
+    },
+    "Proprietary": {
+      "definition": "Identificación del sistema de compensación en forma propietaria."
+    }
+  }
+}

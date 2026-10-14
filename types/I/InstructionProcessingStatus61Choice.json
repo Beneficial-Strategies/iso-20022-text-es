@@ -1,0 +1,30 @@
+{
+  "isoType": "InstructionProcessingStatus61Choice",
+  "definition": "Elección de formatos para una situación de procesamiento de instrucción.",
+  "isoElements": {
+    "PendingProcessing": {
+      "definition": "La instrucción ha sido acusada de recibo por el administrador de cuentas, pero su procesamiento está pendiente."
+    },
+    "CancellationRequested": {
+      "definition": "La solicitud de cancelación de su contraparte para esta operación está pendiente a la espera de su solicitud de cancelación."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la instrucción."
+    },
+    "Cancelled": {
+      "definition": "La instrucción ha sido cancelada."
+    },
+    "Generated": {
+      "definition": "La operación fue creada por el administrador de cuentas o por un tercero. No fue instruida directamente por el titular de la cuenta."
+    },
+    "Repair": {
+      "definition": "La instrucción ha sido acusada de recibo por el administrador de cuentas, pero está en reparación."
+    },
+    "PendingCancellation": {
+      "definition": "Su solicitud de cancelación de esta instrucción está pendiente a la espera de su posterior procesamiento."
+    },
+    "ModificationRequested": {
+      "definition": "La solicitud de modificación de su contraparte para esta operación está pendiente a la espera de su solicitud de cancelación o de su consentimiento."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "TransactionDetails181",
+  "definition": "Identifica los detalles de la operación.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce el titular de la cuenta (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la entidad gestora de la cuenta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador de la instrucción distinto del titular de la cuenta, la entidad depositaria y la infraestructura del mercado."
+    },
+    "OtherTransactionIdentification": {
+      "definition": "Identificación de una operación que no puede identificarse mediante un elemento de referencia estándar presente en el mensaje."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "TransactionDetails": {
+      "definition": "Proporciona detalles adicionales sobre la operación que no pueden incluirse en los campos estructurados del mensaje."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "Si AccountOwnerTransactionIdentification es NONREF, entonces al menos una de las demás referencias debe estar presente."
+    },
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Si no hay ninguna referencia disponible para AccountOwnerTransactionIdentification, entonces AccountOwnerTransactionIdentification debe ser NONREF."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "MessageHeader7",
+  "definition": "Conjunto de características, como la identificación o la fecha y hora de creación, propias del mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el emisor, para identificar inequívocamente el mensaje.|Uso: el emisor debe asegurarse de que MessageIdentification sea único durante un período acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "RequestType": {
+      "definition": "Acciones específicas que se ejecutarán mediante la solicitud."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Identificación única del mensaje de consulta original."
+    },
+    "QueryName": {
+      "definition": "Recuerda los criterios (de búsqueda y de devolución) definidos en una consulta anterior."
+    }
+  }
+}

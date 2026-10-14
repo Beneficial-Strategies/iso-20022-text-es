@@ -1,0 +1,42 @@
+{
+  "isoType": "CardIndividualTransaction2",
+  "definition": "Detalles de cada apunte individual de operación con tarjeta.",
+  "isoElements": {
+    "ICCRelatedData": {
+      "definition": "Datos relativos a una aplicación de tarjeta con circuito integrado."
+    },
+    "PaymentContext": {
+      "definition": "Contexto de la operación de pago con tarjeta."
+    },
+    "AdditionalService": {
+      "definition": "Servicio adicional al servicio principal."
+    },
+    "TransactionCategory": {
+      "definition": "Código de categoría conforme a ISO 18245, relativo al tipo de servicios o bienes que el comercio ofrece en la operación.|Este elemento también se conoce como MerchantCategoryCode."
+    },
+    "SaleReconciliationIdentification": {
+      "definition": "Identificación única del período de conciliación de ventas entre el aceptante y el adquirente. Esta identificación puede estar vinculada a la identificación de la liquidación para su posterior verificación por el comercio."
+    },
+    "SaleReferenceNumber": {
+      "definition": "Referencia única de las ventas facilitada por el comercio."
+    },
+    "RePresentmentReason": {
+      "definition": "Motivo de la nueva presentación de una operación con tarjeta."
+    },
+    "SequenceNumber": {
+      "definition": "Número secuencial de la operación con tarjeta, asignado por el POI (punto de interacción). |Uso: el número secuencial se incrementa de forma progresiva con cada operación."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el POI (punto de interacción)."
+    },
+    "Product": {
+      "definition": "Producto adquirido con la operación."
+    },
+    "ValidationDate": {
+      "definition": "Fecha en que la entidad financiera que recaudó el efectivo validó el ingreso."
+    },
+    "ValidationSequenceNumber": {
+      "definition": "Número secuencial de la validación del ingreso en efectivo.|Uso: el número secuencial se incrementa de forma progresiva con cada operación."
+    }
+  }
+}

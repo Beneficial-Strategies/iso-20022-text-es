@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCassetteType1Code",
+  "definition": "Tipo de cartucho.",
+  "isoCodes": {
+    "DPST": {
+      "name": "Entrada",
+      "definition": "Cartucho de depósitos."
+    },
+    "DISP": {
+      "name": "Salida",
+      "definition": "Cartucho de dispensación."
+    },
+    "RCYC": {
+      "name": "Reciclaje",
+      "definition": "Cartucho de reciclaje."
+    },
+    "RJCT": {
+      "name": "Rechazo",
+      "definition": "Cartucho de rechazo."
+    },
+    "RPLT": {
+      "name": "Reposición",
+      "definition": "Cartucho de reposición."
+    },
+    "RTRC": {
+      "name": "Retención",
+      "definition": "Cartucho de retención."
+    }
+  }
+}

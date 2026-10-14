@@ -1,0 +1,12 @@
+{
+  "isoType": "Role5Choice",
+  "definition": "Elección del formato para el papel de una parte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Función expresada como un código."
+    },
+    "Proprietary": {
+      "definition": "Rol expresado como código propietario."
+    }
+  }
+}

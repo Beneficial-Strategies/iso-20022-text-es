@@ -1,0 +1,15 @@
+{
+  "isoType": "RateFormat30Choice",
+  "definition": "Elección entre una tasa o una tasa no especificada.",
+  "isoElements": {
+    "Rate": {
+      "definition": "El valor se expresa como una tasa."
+    },
+    "Amount": {
+      "definition": "Importe en efectivo."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor de la tasa no especificado."
+    }
+  }
+}

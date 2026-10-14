@@ -1,0 +1,9 @@
+{
+  "isoType": "AdjustmentRequest1",
+  "definition": "Especifica el intervalo de fechas de una solicitud de valoración.",
+  "isoElements": {
+    "Period": {
+      "definition": "Especifica la fecha de valor actual y la fecha de valor solicitada de la operación o apunte subyacente."
+    }
+  }
+}

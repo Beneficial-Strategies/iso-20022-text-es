@@ -1,0 +1,89 @@
+{
+  "isoType": "CreditTransferTransaction78",
+  "definition": "Proporciona detalles adicionales específicos de la operación u operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Conjunto de elementos utilizados para hacer referencia a una instrucción de pago."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "TaxRateMarker": {
+      "definition": "Especifica el tipo impositivo aplicado."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la moneda indicada por la parte iniciadora."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica qué parte o partes asumirán los gastos asociados al procesamiento de la operación de pago."
+    },
+    "ChequeInstruction": {
+      "definition": "Conjunto de elementos necesarios para emitir un cheque."
+    },
+    "Frequency": {
+      "definition": "Calendario de un acuerdo de pago de abono."
+    },
+    "TransferInstruction": {
+      "definition": "Proporciona información adicional sobre el estado de los pagos programados transferidos."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe una cantidad de dinero al beneficiario (final)."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si hay más de una entidad intermediaria, IntermediaryAgent1 identifica a la entidad situada entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: Si hay más de dos entidades intermediarias, IntermediaryAgent2 identifica la entidad situada entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: Si IntermediaryAgent3 está presente, identifica a la entidad situada entre IntermediaryAgent 2 y CreditorAgent."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicios sobre una cuenta del beneficiario."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se abonará un apunte como resultado de la operación de pago."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe de dinero."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Información adicional relativa al procesamiento de la instrucción de pago, proporcionada por la parte iniciadora y destinada a la entidad del beneficiario."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago.||Uso: La finalidad es utilizada por los clientes finales, es decir, la parte iniciadora, el ordenante (final) y el beneficiario (final), para proporcionar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no es utilizado para su procesamiento por ninguna de las entidades que intervienen en la cadena de pago."
+    },
+    "RegulatoryReporting": {
+      "definition": "Información necesaria debido a requisitos reglamentarios y legales."
+    },
+    "Tax": {
+      "definition": "Proporciona detalles sobre el impuesto."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Proporciona información relativa al tratamiento de la información de remesa por parte de cualquiera de las entidades de la cadena de procesamiento de la operación."
+    },
+    "RemittanceInformation": {
+      "definition": "Información proporcionada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    }
+  },
+  "isoRules": {
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor solo puede estar presente si es distinto de Creditor."
+    },
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor solo puede estar presente si es distinto de Debtor."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Si IntermediaryAgent2 está presente, IntermediaryAgent1 debe estar presente."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Si IntermediaryAgent3 está presente, entonces IntermediaryAgent2 debe estar presente."
+    },
+    "InstructionForCreditorAgentRule": {
+      "definition": "Si InstructionForCreditorAgent/Code contiene CHQB, CreditorAccount no está permitido."
+    }
+  }
+}

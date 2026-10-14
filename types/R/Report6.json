@@ -1,0 +1,27 @@
+{
+  "isoType": "Report6",
+  "definition": "Características generales de un extracto que comunica información para una fecha precisa.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Número secuencial del informe."
+    },
+    "QueryReference": {
+      "definition": "Indica el nombre y la referencia de la consulta."
+    },
+    "ReportIdentification": {
+      "definition": "Referencia del informe."
+    },
+    "ReportDateTime": {
+      "definition": "Fecha del extracto."
+    },
+    "Frequency": {
+      "definition": "Especifica la periodicidad de un evento."
+    },
+    "UpdateType": {
+      "definition": "Indica si el informe está completo o contiene únicamente cambios."
+    },
+    "NoticeType": {
+      "definition": "Notifica el tipo de informe transmitido."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeDate8Choice",
+  "definition": "Elección del formato de la fecha de negociación.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha expresada como fecha ISO."
+    },
+    "DateCode": {
+      "definition": "Fecha expresada como código."
+    }
+  }
+}

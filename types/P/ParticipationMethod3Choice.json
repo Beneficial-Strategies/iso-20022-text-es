@@ -1,0 +1,12 @@
+{
+  "isoType": "ParticipationMethod3Choice",
+  "definition": "Elección entre un valor de código predefinido o un valor de código propio para un método de participación en la votación de una junta general.",
+  "isoElements": {
+    "Code": {
+      "definition": "Método de participación en la votación de la junta general expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Método de participación en la votación de la junta general expresado como código propio."
+    }
+  }
+}

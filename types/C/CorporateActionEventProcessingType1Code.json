@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingType1Code",
+  "definition": "Especifica el tipo de tratamiento del evento.",
+  "isoCodes": {
+    "GENL": {
+      "name": "General",
+      "definition": "Sin adeudo ni abono de recursos."
+    },
+    "DISN": {
+      "name": "Distribución",
+      "definition": "El titular del valor correspondiente en una fecha determinada, por ejemplo, la fecha de registro, recibirá un beneficio sin renunciar al valor subyacente."
+    },
+    "REOR": {
+      "name": "Reorganización",
+      "definition": "El valor subyacente será adeudado y podrá ser sustituido por otro recurso (u otros recursos)."
+    }
+  }
+}

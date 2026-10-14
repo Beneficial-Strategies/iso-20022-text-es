@@ -1,0 +1,14 @@
+{
+  "isoType": "AdjustmentDirection1Code",
+  "definition": "Especifica si el ajuste se suma o se resta del importe total.",
+  "isoCodes": {
+    "ADDD": {
+      "name": "Sumado",
+      "definition": "El importe del ajuste debe sumarse al importe total."
+    },
+    "SUBS": {
+      "name": "Restado",
+      "definition": "El importe del ajuste debe restarse del importe total."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason14",
+  "definition": "Especifica el motivo por el que la instrucción o la solicitud tiene estado pendiente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción tiene un estado pendiente."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

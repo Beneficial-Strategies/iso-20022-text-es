@@ -1,0 +1,15 @@
+{
+  "isoType": "GDPRData1",
+  "definition": "Información sobre el consentimiento de una persona para el uso de datos personales conforme al Reglamento General de Protección de Datos (GDPR) 2016/679.",
+  "isoElements": {
+    "ConsentType": {
+      "definition": "Tipo de consentimiento."
+    },
+    "ConsentIndicator": {
+      "definition": "Indica si se ha otorgado el consentimiento."
+    },
+    "ConsentDate": {
+      "definition": "Fecha del consentimiento."
+    }
+  }
+}

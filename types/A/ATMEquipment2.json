@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMEquipment2",
+  "definition": "Información del módulo de seguridad de hardware, denominado EPP (Encrypted PIN Pad, teclado cifrado de PIN).",
+  "isoElements": {
+    "Manufacturer": {
+      "definition": "Fabricante del cajero automático (ATM)."
+    },
+    "Model": {
+      "definition": "Modelo del cajero automático (ATM)."
+    },
+    "Version": {
+      "definition": "Versión del modelo de dispositivo."
+    },
+    "SerialNumber": {
+      "definition": "Número de serie del cajero automático (ATM)."
+    },
+    "FirmwareProvider": {
+      "definition": "Proveedor del firmware."
+    },
+    "FirmwareIdentification": {
+      "definition": "Identificación del firmware."
+    },
+    "FirmwareVersion": {
+      "definition": "Versión del firmware."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TR34Status1Code",
+  "definition": "Estado específico de TR34 que puede utilizar el ATM.",
+  "isoCodes": {
+    "BUND": {
+      "name": "Vinculado",
+      "definition": "El dispositivo está vinculado."
+    },
+    "UBND": {
+      "name": "Desvinculado",
+      "definition": "El dispositivo está desvinculado."
+    }
+  }
+}

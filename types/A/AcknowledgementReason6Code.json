@@ -1,0 +1,26 @@
+{
+  "isoType": "AcknowledgementReason6Code",
+  "definition": "Especifica información adicional sobre la instrucción procesada.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Recibida después del plazo límite de la entidad gestora de la cuenta. Se procesa en la medida de lo posible."
+    },
+    "SMPG": {
+      "name": "Discrepancia con la norma de práctica de mercado",
+      "definition": "La instrucción se acepta, pero no cumple la norma de práctica de mercado publicada para el mercado o proceso en cuestión."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "NSTP": {
+      "name": "Sin procesamiento automático de extremo a extremo",
+      "definition": "La instrucción no se trató de forma totalmente automatizada y hubo que tratarla manualmente."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del mercado."
+    }
+  }
+}

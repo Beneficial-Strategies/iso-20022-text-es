@@ -1,0 +1,26 @@
+{
+  "isoType": "TransactionActivity1Code",
+  "definition": "Especifica el tipo de actividad a la que se refiere esta operación.",
+  "isoCodes": {
+    "BOLE": {
+      "name": "Actividad de toma y concesión de préstamos",
+      "definition": "La operación se refiere a un préstamo o empréstito de valores."
+    },
+    "CLAI": {
+      "name": "Reclamación de mercado",
+      "definition": "La operación se refiere a una reclamación de mercado tras una operación societaria."
+    },
+    "COLL": {
+      "name": "Actividad de garantías",
+      "definition": "La operación se refiere a garantías."
+    },
+    "CORP": {
+      "name": "Actividad de operaciones societarias",
+      "definition": "La operación se refiere a una operación societaria."
+    },
+    "SETT": {
+      "name": "Actividad de liquidación y compensación",
+      "definition": "La operación se refiere a la liquidación y la compensación."
+    }
+  }
+}

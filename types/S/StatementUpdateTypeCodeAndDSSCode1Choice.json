@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementUpdateTypeCodeAndDSSCode1Choice",
+  "definition": "Elección entre formatos para el tipo de actualización.",
+  "isoElements": {
+    "StatementUpdateTypeAsCode": {
+      "definition": "Tipo de actualización expresado mediante un código."
+    },
+    "StatementUpdateTypeAsDSS": {
+      "definition": "Tipo de actualización expresado mediante un esquema de fuente de datos y un código utilizado dentro de dicho esquema."
+    }
+  }
+}

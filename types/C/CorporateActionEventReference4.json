@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventReference4",
+  "definition": "Identificación de un evento de operación societaria vinculado.",
+  "isoElements": {
+    "EventIdentification": {
+      "definition": "Identificación del evento de operación societaria vinculado."
+    },
+    "LinkageType": {
+      "definition": "Especifica cuándo debe procesarse este evento de operación societaria en relación con un evento de operación societaria vinculado."
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "isoType": "ExternalUnableToApplyIncorrectData1Code",
+  "definition": "Especifica el motivo de una imposibilidad de aplicar por datos incorrectos, tal como se publica en un conjunto de códigos externo de imposibilidad de aplicar por datos incorrectos.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "IN01": {
+      "name": "Referencia relacionada incorrecta",
+      "definition": "La referencia de la operación relacionada es incorrecta."
+    },
+    "IN02": {
+      "name": "Nivel de servicio del pago incorrecto",
+      "definition": "El nivel de servicio del tipo de pago es incorrecto (anteriormente IncorrectBankOperationCode)."
+    },
+    "IN03": {
+      "name": "Categoría de finalidad incorrecta",
+      "definition": "La finalidad de categoría del tipo de pago es incorrecta (anteriormente IncorrectInstructionCode)."
+    },
+    "IN04": {
+      "name": "Fecha de ejecución solicitada incorrecta",
+      "definition": "RequestedExecutionDate es incorrecta."
+    },
+    "IN05": {
+      "name": "Fecha de liquidación interbancaria incorrecta",
+      "definition": "La fecha de liquidación interbancaria es incorrecta (anteriormente IncorrectValueDate)."
+    },
+    "IN06": {
+      "name": "Importe de liquidación interbancaria incorrecto",
+      "definition": "El importe de liquidación interbancaria es incorrecto (anteriormente IncorrectSettledAmount)."
+    },
+    "IN07": {
+      "name": "Ordenante incorrecto",
+      "definition": "El ordenante es incorrecto."
+    },
+    "IN08": {
+      "name": "Cuenta del ordenante incorrecta",
+      "definition": "DebtorAccount es incorrecta."
+    },
+    "IN09": {
+      "name": "Entidad de reembolso instruida incorrecta",
+      "definition": "InstructedReimbursementAgent es incorrecto (anteriormente IncorrectReceiverCorrespondent)."
+    },
+    "IN10": {
+      "name": "Tercera entidad de reembolso incorrecta",
+      "definition": "ThirdReimbursementAgent es incorrecto (anteriormente IncorrectThirdReimbursementInstitution)."
+    },
+    "IN11": {
+      "name": "Canal de compensación del pago incorrecto",
+      "definition": "El canal de compensación del tipo de pago es incorrecto (anteriormente PaymentScheme)."
+    },
+    "IN12": {
+      "name": "Cuenta de la entidad del beneficiario incorrecta",
+      "definition": "CreditorAgentAccount es incorrecta (anteriormente IncorrectAccountOfBeneficiaryInstitution)."
+    },
+    "IN13": {
+      "name": "Beneficiario incorrecto",
+      "definition": "El beneficiario es incorrecto."
+    },
+    "IN14": {
+      "name": "Cuenta del beneficiario incorrecta",
+      "definition": "La cuenta del beneficiario es incorrecta."
+    },
+    "IN15": {
+      "name": "Información de remesa incorrecta",
+      "definition": "RemittanceInformation es incorrecta."
+    },
+    "IN16": {
+      "name": "Finalidad del pago incorrecta",
+      "definition": "La finalidad del pago de la operación es incorrecta."
+    },
+    "IN17": {
+      "name": "Responsable de los gastos incorrecto",
+      "definition": "ChargeBearer es incorrecto (anteriormente IncorrectDetailsOfCharges)."
+    },
+    "IN18": {
+      "name": "Instrucción para la siguiente entidad incorrecta",
+      "definition": "La instrucción para la siguiente entidad es incorrecta (anteriormente IncorrectSenderToReceiverInformation)."
+    },
+    "IN19": {
+      "name": "Instrucción para la entidad del beneficiario incorrecta",
+      "definition": "La instrucción para la entidad del beneficiario es incorrecta (anteriormente IncorrectInstructionForFinalAgent)."
+    },
+    "IN33": {
+      "name": "Importe del apunte del informe incorrecto",
+      "definition": "El importe en el apunte del extracto es incorrecto."
+    },
+    "IN36": {
+      "name": "Cuenta de liquidación incorrecta",
+      "definition": "SettlementAccount es incorrecta."
+    },
+    "IN37": {
+      "name": "Entidad de reembolso ordenante incorrecta",
+      "definition": "El agente de reembolso instructor es incorrecto."
+    },
+    "IN38": {
+      "name": "Dirección del ordenante incorrecta",
+      "definition": "La dirección del ordenante es incorrecta."
+    },
+    "IN39": {
+      "name": "Dirección del beneficiario incorrecta",
+      "definition": "La dirección del beneficiario es incorrecta."
+    },
+    "IN40": {
+      "name": "Información de remesa relacionada incorrecta",
+      "definition": "RelatedRemittanceInformation es incorrecta."
+    },
+    "MM20": {
+      "name": "Falta de coincidencia entre el nombre y la cuenta del beneficiario",
+      "definition": "El nombre y la cuenta del beneficiario no coinciden."
+    },
+    "MM21": {
+      "name": "Falta de coincidencia entre el nombre y la cuenta del ordenante",
+      "definition": "El nombre y la cuenta del ordenante no coinciden."
+    },
+    "MM22": {
+      "name": "Falta de coincidencia entre el nombre y la cuenta de la entidad del beneficiario",
+      "definition": "El nombre y la cuenta de la entidad del beneficiario (anteriormente FinalAgent) no coinciden."
+    },
+    "MM23": {
+      "name": "Datos del ordenante insuficientes",
+      "definition": "Detalles insuficientes o incoherentes sobre el ordenante respecto de los requisitos regulatorios."
+    },
+    "MM24": {
+      "name": "Datos del beneficiario insuficientes",
+      "definition": "Detalles insuficientes o incoherentes sobre el beneficiario respecto de los requisitos regulatorios."
+    },
+    "MM25": {
+      "name": "Pendiente de ejecución: cuenta o identificación del ordenante",
+      "definition": "El pago está pendiente de ejecución. Por requisitos regulatorios solicitamos más información sobre el número de cuenta o la identificación única del ordenante."
+    },
+    "MM26": {
+      "name": "Pendiente de ejecución: nombre o dirección del ordenante",
+      "definition": "El pago está pendiente de ejecución. Por requisitos regulatorios solicitamos más información sobre el nombre y/o la dirección del ordenante."
+    },
+    "MM27": {
+      "name": "Pago ejecutado: cuenta o identificación del ordenante",
+      "definition": "El pago se ha ejecutado. Por requisitos regulatorios solicitamos más información sobre el número de cuenta o la identificación única del ordenante."
+    },
+    "MM28": {
+      "name": "Pago ejecutado: nombre o dirección del ordenante",
+      "definition": "El pago se ha ejecutado. Por requisitos regulatorios solicitamos más información sobre el nombre y/o la dirección del ordenante."
+    },
+    "MM29": {
+      "name": "Pendiente de ejecución: cuenta o identificación del beneficiario",
+      "definition": "El pago está pendiente de ejecución. Por requisitos regulatorios solicitamos más información sobre el número de cuenta o la identificación única del beneficiario."
+    },
+    "MM30": {
+      "name": "Pendiente de ejecución: nombre o dirección del beneficiario",
+      "definition": "El pago está pendiente de ejecución. Por requisitos regulatorios solicitamos más información sobre el nombre y/o la dirección del beneficiario."
+    },
+    "MM31": {
+      "name": "Pago ejecutado: cuenta o identificación del beneficiario",
+      "definition": "El pago se ha ejecutado. Por requisitos regulatorios solicitamos más información sobre el número de cuenta o la identificación única del beneficiario."
+    },
+    "MM32": {
+      "name": "Pago ejecutado: nombre o dirección del beneficiario",
+      "definition": "El pago se ha ejecutado. Por requisitos regulatorios solicitamos más información sobre el nombre y/o la dirección del beneficiario."
+    },
+    "MM34": {
+      "name": "Detalles de los gastos insuficientes",
+      "definition": "Detalles de gastos insuficientes."
+    },
+    "MM35": {
+      "name": "Finalidad del pago insuficiente",
+      "definition": "Es necesario especificar con mayor detalle la finalidad del pago."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "Consulte el campo narrativo para información adicional."
+    }
+  }
+}

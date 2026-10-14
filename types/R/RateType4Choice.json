@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType4Choice",
+  "definition": "Especifica la tasa como porcentaje o como texto.",
+  "isoElements": {
+    "Percentage": {
+      "definition": "Proporción entre el importe de los intereses pagados durante un determinado período y el importe principal del instrumento financiero que devenga intereses."
+    },
+    "Other": {
+      "definition": "Tipo de tasa expresado en otra forma."
+    }
+  }
+}

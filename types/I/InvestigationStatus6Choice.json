@@ -1,0 +1,18 @@
+{
+  "isoType": "InvestigationStatus6Choice",
+  "definition": "Especifica el estado de un caso de investigación.",
+  "isoElements": {
+    "Confirmation": {
+      "definition": "Especifica el estado de la investigación, en forma codificada."
+    },
+    "RejectedModification": {
+      "definition": "Motivo del rechazo de una solicitud de modificación, en forma codificada."
+    },
+    "DuplicateOf": {
+      "definition": "Indica un caso duplicado.|Uso: cuando está presente, el caso identificado en el mensaje debe cerrarse. Se continuará con el caso identificado como duplicado (en este componente)."
+    },
+    "AssignmentCancellationConfirmation": {
+      "definition": "Indica si la anulación de la asignación se confirma o se rechaza.|Uso: si es afirmativo, se confirma la anulación de la asignación.|Si es negativo, se rechaza la anulación de la asignación y el proceso de investigación continúa."
+    }
+  }
+}

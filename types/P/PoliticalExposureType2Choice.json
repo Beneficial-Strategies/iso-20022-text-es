@@ -1,0 +1,12 @@
+{
+  "isoType": "PoliticalExposureType2Choice",
+  "definition": "Elección de formatos para la especificación del tipo de exposición política.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de exposición política expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de exposición política expresado como código propietario."
+    }
+  }
+}

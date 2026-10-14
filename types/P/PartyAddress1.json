@@ -1,0 +1,23 @@
+{
+  "isoType": "PartyAddress1",
+  "definition": "Proporciona varios tipos de dirección de una parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Código asignado a una institución financiera o no financiera por la Autoridad de Registro de ISO 9362, tal como se describe en ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "PostalAddress": {
+      "definition": "Dirección postal de la parte."
+    },
+    "EmailAddress": {
+      "definition": "Dirección de correo electrónico (e-mail)."
+    },
+    "URLAddress": {
+      "definition": "Dirección del Localizador Uniforme de Recursos (URL), por ejemplo, utilizado en el servicio www (HTTP)."
+    }
+  },
+  "isoRules": {
+    "PartyAddressRule": {
+      "definition": "Debe estar presente al menos un elemento del mensaje de la lista (AnyBic, PostalAddress, EmailAddress, URLAddress). Puede estar presente más de un elemento del mensaje de la lista."
+    }
+  }
+}

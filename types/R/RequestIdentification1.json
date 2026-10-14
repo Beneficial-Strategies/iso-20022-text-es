@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestIdentification1",
+  "definition": "Identificación de la solicitud original de retirada o de ingreso.",
+  "isoElements": {
+    "OriginalOrderReference": {
+      "definition": "Identificación única de la orden."
+    },
+    "OriginalCashReceiverReference": {
+      "definition": "Identificación única, asignada por el receptor del efectivo para la retirada de efectivo."
+    },
+    "OriginalCashSenderReference": {
+      "definition": "Identificación única, asignada por el remitente del efectivo para el ingreso de efectivo."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "isoType": "PaymentTransaction178",
+  "definition": "Proporciona más detalles sobre las operaciones originales a las que se refiere el mensaje de informe de estado.",
+  "isoElements": {
+    "StatusIdentification": {
+      "definition": "Identificación única, asignada por una parte instructora para una parte instruida, para identificar de forma inequívoca el estado notificado.|Uso: La parte instructora es la parte que envía el mensaje de estado y no la parte que envió la instrucción original sobre la que se informa."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original para la parte instruida original, para identificar de forma inequívoca la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar de forma inequívoca la operación original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal para proporcionar la referencia de extremo a extremo original de una operación de pago."
+    },
+    "TransactionStatus": {
+      "definition": "Especifica el estado de una operación, según se publica en una lista externa de códigos de estado de operaciones de pago."
+    },
+    "StatusReasonInformation": {
+      "definition": "Proporciona información detallada sobre el motivo del estado."
+    },
+    "ChargesInformation": {
+      "definition": "Proporciona información sobre los gastos relacionados con el procesamiento del rechazo de la instrucción.|Uso: Se transmite únicamente con fines informativos. La liquidación de los gastos se realizará por separado."
+    },
+    "TrackerData": {
+      "definition": "Proporciona información sobre el seguimiento de la operación interbancaria relacionada con el pago."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento en el que la orden de pago de la parte iniciadora cumple las condiciones de procesamiento de la entidad gestora de la cuenta. Esto significa que la entidad gestora de la cuenta ha recibido la orden de pago y ha aplicado comprobaciones como la autorización o la disponibilidad de fondos."
+    },
+    "AccountServicerReference": {
+      "definition": "Referencia única, asignada por la entidad gestora de la cuenta, para identificar de forma inequívoca la instrucción."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referencia única, asignada por un sistema de compensación, para identificar de forma inequívoca la instrucción."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos clave utilizados para identificar la operación original a la que se hace referencia."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede recogerse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

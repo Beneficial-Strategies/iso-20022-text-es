@@ -1,0 +1,15 @@
+{
+  "isoType": "HostToATMRequest1",
+  "definition": "Información relativa a la solicitud a un cajero automático (ATM) para que contacte con el gestor de cajeros automáticos.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno del cajero automático (ATM)."
+    },
+    "CommandIdentification": {
+      "definition": "Identificación de la entidad que emite el comando."
+    },
+    "ExpectedMessageFunction": {
+      "definition": "Mensaje que debe enviar el cajero automático (ATM)."
+    }
+  }
+}

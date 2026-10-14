@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferOutInstructionV10",
+  "definition": "Ámbito|El mensaje TransferOutInstruction lo envía una parte instructora, por ejemplo, un gestor de inversiones o su representante autorizado, a la parte ejecutante, por ejemplo, un agente de transferencias, para instruir la entrega de un instrumento financiero, libre de pago, en una fecha determinada desde una parte especificada.|Este mensaje también puede utilizarse para instruir la entrega de un instrumento financiero, libre de pago, a otra de las cuentas propias de la parte instructora o a un tercero.|Uso|El mensaje TransferOutInstruction se utiliza para instruir la retirada de un instrumento financiero de una cuenta y su entrega a otra cuenta o a un tercero.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Puede estar presente TransferDetails/RequestedSettlementDate en una o varias apariciones de TransferDetails, o bien SettlementDetails/RequestedSettlementDate, pero no ambos."
+    }
+  }
+}

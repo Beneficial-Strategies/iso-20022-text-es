@@ -1,0 +1,27 @@
+{
+  "isoType": "BusinessDayReturnCriteria2",
+  "definition": "Define los criterios utilizados para informar sobre el día hábil.",
+  "isoElements": {
+    "SystemDateIndicator": {
+      "definition": "Indica si se solicita la fecha del sistema."
+    },
+    "SystemStatusIndicator": {
+      "definition": "Indica si se solicita el estado del sistema."
+    },
+    "SystemCurrencyIndicator": {
+      "definition": "Indica si se solicita la divisa del sistema."
+    },
+    "ClosurePeriodIndicator": {
+      "definition": "Indica si se solicita la información de cierre."
+    },
+    "EventIndicator": {
+      "definition": "Indica si se solicitan los eventos."
+    },
+    "SessionPeriodIndicator": {
+      "definition": "Indica si se solicita el período de sesión."
+    },
+    "EventTypeIndicator": {
+      "definition": "Indica si se solicita el tipo de evento del sistema."
+    }
+  }
+}

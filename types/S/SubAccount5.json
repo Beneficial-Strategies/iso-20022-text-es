@@ -1,0 +1,15 @@
+{
+  "isoType": "SubAccount5",
+  "definition": "Relación comercial entre dos entidades; una entidad es el titular de la cuenta y la otra es la entidad gestora de la cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "Name": {
+      "definition": "Nombre de la cuenta. Proporciona un medio adicional de identificación y lo designa la entidad gestora de la cuenta de acuerdo con el titular de la cuenta."
+    },
+    "Characteristic": {
+      "definition": "Especifica propiedades adicionales de la cuenta."
+    }
+  }
+}

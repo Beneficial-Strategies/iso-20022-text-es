@@ -1,0 +1,15 @@
+{
+  "isoType": "Parameter4",
+  "definition": "Parámetros del algoritmo de cifrado asimétrico.",
+  "isoElements": {
+    "EncryptionFormat": {
+      "definition": "Formato de los datos antes del cifrado, si el formato no es texto en claro o implícito."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identificación del algoritmo de resumen."
+    },
+    "MaskGeneratorAlgorithm": {
+      "definition": "Algoritmo criptográfico y parámetros de la función generadora de máscara."
+    }
+  }
+}

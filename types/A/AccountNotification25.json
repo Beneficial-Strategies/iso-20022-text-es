@@ -1,0 +1,51 @@
+{
+  "isoType": "AccountNotification25",
+  "definition": "Proporciona detalles adicionales de la notificación de cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única, asignada por la entidad que administra la cuenta, para identificar inequívocamente la notificación de cuenta."
+    },
+    "NotificationPagination": {
+      "definition": "Proporciona detalles sobre el número de página de la notificación.||Uso: la paginación de la notificación solo se permite cuando así lo acuerdan las partes."
+    },
+    "ElectronicSequenceNumber": {
+      "definition": "Número secuencial de la notificación, asignado por la entidad que administra la cuenta. |Uso: el número secuencial se incrementa de forma progresiva con cada notificación enviada por vía electrónica."
+    },
+    "ReportingSequence": {
+      "definition": "Especifica el rango de números de secuencia de identificación, tal como se indicó en la solicitud."
+    },
+    "LegalSequenceNumber": {
+      "definition": "Número secuencial legal de la notificación, asignado por la entidad que administra la cuenta. Se incrementa de forma progresiva con cada notificación enviada."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó la notificación."
+    },
+    "FromToDate": {
+      "definition": "Período comprendido entre una fecha de inicio y una fecha de fin para el que se emite la notificación de cuenta."
+    },
+    "CopyDuplicateIndicator": {
+      "definition": "Indica si el documento es una copia, un duplicado o un duplicado de una copia."
+    },
+    "ReportingSource": {
+      "definition": "Especifica la aplicación utilizada para generar la información."
+    },
+    "Account": {
+      "definition": "Identificación inequívoca de la cuenta en la que se realizan los apuntes de crédito y de débito."
+    },
+    "RelatedAccount": {
+      "definition": "Identifica la cuenta principal de la cuenta para la que se ha emitido la notificación."
+    },
+    "Interest": {
+      "definition": "Proporciona información general sobre los intereses que se aplican a la cuenta en un momento determinado."
+    },
+    "TransactionsSummary": {
+      "definition": "Proporciona información resumida sobre los apuntes."
+    },
+    "Entry": {
+      "definition": "Especifica un apunte de la notificación de débito y crédito.|Uso: debe facilitarse al menos una referencia para identificar el apunte y su(s) operación(es) subyacente(s).||Regla de uso: en el caso de una operación R de pagos, el beneficiario/ordenante al que se hace referencia en los mensajes originales de iniciación de pago también se utiliza para la notificación de la operación R. El ordenante/beneficiario original en la notificación de operaciones R no se invierte. |Esta regla de uso afecta a los siguientes elementos, todos ellos definidos en TransactionDetails en RelatedParties o RelatedAgents:|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount y DebtorAgent."
+    },
+    "AdditionalNotificationInformation": {
+      "definition": "Detalles adicionales de la notificación de cuenta."
+    }
+  }
+}

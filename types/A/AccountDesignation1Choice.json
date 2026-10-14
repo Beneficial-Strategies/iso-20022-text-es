@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountDesignation1Choice",
+  "definition": "Elección de formatos para la designación de una cuenta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Designación de la cuenta expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Designación de la cuenta expresada como código propietario."
+    }
+  }
+}

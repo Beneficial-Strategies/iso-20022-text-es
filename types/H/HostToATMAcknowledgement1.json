@@ -1,0 +1,9 @@
+{
+  "isoType": "HostToATMAcknowledgement1",
+  "definition": "Información relativa al acuse de recibo de un cajero automático (ATM) para contactar con el gestor de cajeros automáticos.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno del cajero automático (ATM)."
+    }
+  }
+}

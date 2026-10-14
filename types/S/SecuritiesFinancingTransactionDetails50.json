@@ -1,0 +1,45 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails50",
+  "definition": "Detalles del cierre de la operación de financiación de valores.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Identificación inequívoca de la operación de financiación de valores subyacente, asignada por la parte instructora. La identificación es común a todas las garantías (una o varias)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Identificación inequívoca del segundo tramo de la operación, tal como la conoce el titular de la cuenta (o la parte instructora que actúa en su nombre)."
+    },
+    "TerminationDate": {
+      "definition": "Fecha y hora de cierre o de vencimiento de la operación."
+    },
+    "RateType": {
+      "definition": "Especifica si la tasa es fija o variable."
+    },
+    "LegalFramework": {
+      "definition": "Marco jurídico de la operación."
+    },
+    "MaturityDateModification": {
+      "definition": "Indica si la fecha de vencimiento de la operación de financiación de valores puede modificarse."
+    },
+    "InterestPayment": {
+      "definition": "Indica si los intereses deben abonarse al receptor de la garantía. Si se establece en no, los intereses se abonan al otorgante de la garantía."
+    },
+    "VariableRateSupport": {
+      "definition": "Índice o tasa de apoyo utilizada junto con el diferencial para calcular la tasa de recompra."
+    },
+    "RepurchaseRate": {
+      "definition": "Tasa que se utilizará para recalcular el importe de recompra."
+    },
+    "TransactionCallDelay": {
+      "definition": "Número mínimo de días de preaviso que necesita una contraparte para dar por terminada la operación."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Importe total de dinero que debe liquidarse para dar por terminada la operación."
+    },
+    "SecondLegNarrative": {
+      "definition": "Proporciona información adicional sobre el segundo tramo en forma narrativa."
+    }
+  }
+}

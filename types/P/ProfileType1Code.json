@@ -1,0 +1,22 @@
+{
+  "isoType": "ProfileType1Code",
+  "definition": "Especifica el tipo de perfil.",
+  "isoCodes": {
+    "HEDG": {
+      "name": "Cobertura",
+      "definition": "Acciones de inversor que utilizan operaciones defensivas (cobertura), evitando así el riesgo de grandes oscilaciones."
+    },
+    "HFTR": {
+      "name": "Operador de alta frecuencia",
+      "definition": "Inversores que operan mediante algoritmos y envían órdenes automáticamente según las estrategias definidas por sus gestores. Mediante este modelo de acceso, los participantes de estos servidores se alojan principalmente en las instalaciones del Mercado Brasileño y reducen significativamente el tiempo de envío de ofertas a los sistemas de negociación."
+    },
+    "MAKE": {
+      "name": "Creador de mercado",
+      "definition": "Agente de liquidez, facilitador de liquidez, promotor de negocio, especialista, creador de mercado y proveedor de liquidez son algunas de las denominaciones que reciben quienes se proponen proporcionar liquidez y un precio de referencia mínimo para activos previamente acreditados, factores destacados en el análisis de la eficiencia de los mercados de capitales."
+    },
+    "TREA": {
+      "name": "Tesorería",
+      "definition": "Sistema de negociación de valores federales en el mercado minorista directamente al inversor. La operación puede realizarse directamente por Internet."
+    }
+  }
+}

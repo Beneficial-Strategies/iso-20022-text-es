@@ -1,0 +1,56 @@
+{
+  "isoType": "TransactionDetails183",
+  "definition": "Identifica los detalles de la operación.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Cantidad total de activo digital que debe pagarse o recibirse a cambio del token de valores."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "Investor": {
+      "definition": "Parte, ya sea una persona física u organización, cuyos activos se están invirtiendo."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

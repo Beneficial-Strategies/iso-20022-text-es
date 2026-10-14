@@ -1,0 +1,9 @@
+{
+  "isoType": "FinancialInstrumentQuantity1",
+  "definition": "Cantidad de un valor.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Cantidad expresada como un número, por ejemplo, un número de acciones."
+    }
+  }
+}

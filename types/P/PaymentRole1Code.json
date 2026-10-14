@@ -1,0 +1,30 @@
+{
+  "isoType": "PaymentRole1Code",
+  "definition": "Función asociada a una parte determinada en relación con una instrucción de pago. La función identifica bien la función específica de la parte, bien los derechos de la parte respecto a la gestión de la instrucción.",
+  "isoCodes": {
+    "LQMG": {
+      "name": "Gestor de liquidez",
+      "definition": "Parte de una entidad financiera responsable de la gestión de la liquidez de la entidad financiera. Esta parte tiene acceso a algunas funciones disponibles en el sistema, como las transferencias de liquidez o la gestión de instrucciones permanentes de control de liquidez."
+    },
+    "LMMG": {
+      "name": "Gestor de límites",
+      "definition": "Parte de una entidad financiera responsable de la gestión de los límites. Esta parte se encarga de fijar, modificar o suspender los límites según corresponda para la gestión del riesgo de contraparte o la contención del riesgo sistémico."
+    },
+    "PYMG": {
+      "name": "Gestor de pagos",
+      "definition": "Parte de una entidad financiera responsable de la gestión del procesamiento de pagos de la entidad financiera. Incluye la autorización, el reciclaje y la modificación de las operaciones de pago."
+    },
+    "REDR": {
+      "name": "Lector",
+      "definition": "Parte de una entidad financiera con derecho a obtener información del sistema, pero no a actuar sobre ella ni a modificarla."
+    },
+    "BKMG": {
+      "name": "Gestor de respaldo",
+      "definition": "Parte responsable de gestionar las funciones de recuperación relacionadas con un sistema."
+    },
+    "STMG": {
+      "name": "Gestor de liquidación",
+      "definition": "Parte de una entidad financiera responsable de la gestión del procesamiento de la liquidación."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAMovementCancellationRequestV01",
+  "definition": "Ámbito|Este mensaje lo envía un emisor (o su agente) a un CSD para solicitar la cancelación de uno o varios movimientos enviados previamente mediante una instrucción de movimiento de evento corporativo del agente.|Uso|Este mensaje puede utilizarse para cancelar un mensaje completo de instrucción de movimiento de evento corporativo del agente enviado previamente por el emisor (o su agente), o movimientos específicos.|Este mensaje debe contener la identificación de la instrucción de movimiento de evento corporativo del agente que contiene los movimientos que se van a cancelar, la identificación del agente y las referencias del evento corporativo. Este mensaje también debe contener los detalles de los movimientos que se van a cancelar."
+}

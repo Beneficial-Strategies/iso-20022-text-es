@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel24",
+  "definition": "Proporciona información detallada de propiedad sobre la cantidad de acciones que se ha de divulgar, o la cantidad de acciones que no se ha de divulgar y la cantidad de acciones por debajo del umbral.",
+  "isoElements": {
+    "NonDisclosedShareholdingQuantity": {
+      "definition": "Cantidad de acciones cuyos detalles de tenencia no se divulgan."
+    },
+    "BelowThresholdShareholdingQuantity": {
+      "definition": "Cantidad de acciones cuyos detalles de tenencia no se reportan porque la cantidad de acciones que posee el accionista está por debajo del límite del umbral."
+    },
+    "Disclosure": {
+      "definition": "Detalles de los subniveles de cuenta y de las posiciones."
+    }
+  }
+}

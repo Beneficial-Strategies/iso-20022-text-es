@@ -1,0 +1,15 @@
+{
+  "isoType": "RateTypeAndAmountAndStatus59",
+  "definition": "Especifica el valor expresado como una tasa y un importe.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Valor expresado como un tipo de tasa."
+    },
+    "Amount": {
+      "definition": "Valor expresado como importe."
+    },
+    "RateStatus": {
+      "definition": "Valor expresado como estado del tipo."
+    }
+  }
+}

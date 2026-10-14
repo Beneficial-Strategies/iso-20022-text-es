@@ -1,0 +1,18 @@
+{
+  "isoType": "CashAccount17",
+  "definition": "Proporciona información sobre la cuenta de efectivo.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta de efectivo."
+    },
+    "PaymentCurrency": {
+      "definition": "Divisa del pago."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificación de la parte titular de la cuenta."
+    },
+    "CorrespondentBankIdentification": {
+      "definition": "Identificación del banco corresponsal de efectivo."
+    }
+  }
+}

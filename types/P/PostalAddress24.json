@@ -1,0 +1,54 @@
+{
+  "isoType": "PostalAddress24",
+  "definition": "Información que localiza e identifica una dirección específica, tal como la definen los servicios postales.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Identifica la naturaleza de la dirección postal."
+    },
+    "Department": {
+      "definition": "Identificación de una división de una organización o edificio de gran tamaño."
+    },
+    "SubDepartment": {
+      "definition": "Identificación de una subdivisión de una organización o edificio de gran tamaño."
+    },
+    "StreetName": {
+      "definition": "Nombre de una calle o vía pública."
+    },
+    "BuildingNumber": {
+      "definition": "Número que identifica la posición de un edificio en una calle."
+    },
+    "BuildingName": {
+      "definition": "Nombre del edificio o de la casa."
+    },
+    "Floor": {
+      "definition": "Piso o planta de un edificio."
+    },
+    "PostBox": {
+      "definition": "Apartado numerado de una oficina de correos, asignado a una persona u organización, donde se conservan las cartas hasta que se retiran."
+    },
+    "Room": {
+      "definition": "Número de habitación del edificio."
+    },
+    "PostCode": {
+      "definition": "Identificador formado por un grupo de letras y/o números que se añade a una dirección postal para facilitar la clasificación del correo."
+    },
+    "TownName": {
+      "definition": "Nombre de un área urbanizada, con límites definidos y un gobierno local."
+    },
+    "TownLocationName": {
+      "definition": "Nombre de una ubicación específica dentro de la localidad."
+    },
+    "DistrictName": {
+      "definition": "Identifica una subdivisión dentro de una subdivisión del país."
+    },
+    "CountrySubDivision": {
+      "definition": "Identifica una subdivisión de un país, como estado, región o condado."
+    },
+    "Country": {
+      "definition": "Nación con gobierno propio."
+    },
+    "AddressLine": {
+      "definition": "Información que localiza e identifica una dirección específica, tal como la definen los servicios postales, presentada en texto de formato libre."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesQuantityOrAmount6Choice",
+  "definition": "Elección entre cantidades de valores o un importe.",
+  "isoElements": {
+    "SecuritiesQuantity": {
+      "definition": "Proporciona información sobre la cantidad de valores vinculada a una opción de operación societaria."
+    },
+    "InstructedAmount": {
+      "definition": "Importe en efectivo que se va a instruir."
+    }
+  }
+}

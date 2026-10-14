@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument22",
+  "definition": "Partes del pago para la transferencia de efectivo del ordenante al beneficiario.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Información proporcionada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    },
+    "CreditTransferDetails": {
+      "definition": "Instrumento de pago entre un ordenante y un beneficiario que circula a través de una o varias entidades financieras o sistemas."
+    }
+  }
+}

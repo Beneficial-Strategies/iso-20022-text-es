@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInstructionRejectionStatus1",
+  "definition": "Proporciona el motivo del rechazo de un aviso de elección.",
+  "isoElements": {
+    "Reason": {
+      "definition": "El motivo del rechazo."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

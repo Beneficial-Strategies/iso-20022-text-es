@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingProcessingReason8Code",
+  "definition": "Especifica el motivo por el que la operación o instrucción incumple la liquidación. La liquidación en la fecha de liquidación instruida ya no es posible.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Cuenta bloqueada",
+      "definition": "Su cuenta está bloqueada; ninguna instrucción puede liquidarse a través de la cuenta."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del administrador de cuentas. Se gestionará conforme al acuerdo de servicio bilateral entre el administrador de cuentas y el titular de la cuenta."
+    },
+    "MINO": {
+      "name": "Importe mínimo de liquidación",
+      "definition": "La cantidad instruida es inferior a la cantidad mínima de liquidación existente para el instrumento financiero."
+    },
+    "MUNO": {
+      "name": "Importe de liquidación múltiple",
+      "definition": "La cantidad instruida no es múltiplo de un lote de liquidación existente para el instrumento financiero."
+    },
+    "NEXT": {
+      "name": "Siguiente proceso",
+      "definition": "Se inicia el siguiente proceso. No hay problemas de procesamiento pendientes que notificar."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "DENO": {
+      "name": "Cantidad denominada entregable no disponible",
+      "definition": "La cantidad instruida no coincide con la denominación disponible o entregable. Los valores físicos deben obtenerse en cantidades de denominaciones entregables."
+    },
+    "CERT": {
+      "name": "Números de certificados incorrectos",
+      "definition": "Error en el número de certificado."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "ATMReconciliationOperation1",
+  "definition": "Información relativa a una conciliación entre un dispositivo cajero automático (ATM) y un host de mantenimiento.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Operación lógica o física que se debe realizar en un cajero automático (ATM)."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el cajero automático (ATM)."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identificación del periodo de conciliación asignada por el cajero automático (ATM)."
+    },
+    "ATMTotals": {
+      "definition": "Totales actuales del cajero automático (ATM)."
+    },
+    "Cassette": {
+      "definition": "Información sobre los cartuchos del cajero automático (ATM)."
+    },
+    "TransactionTotals": {
+      "definition": "Contadores de operaciones que se ponen a cero tras una conciliación con comando de reinicialización de contadores."
+    },
+    "RetainedCard": {
+      "definition": "Número total de tarjetas retenidas."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Información adicional sobre la conciliación."
+    },
+    "Incident": {
+      "definition": "Incidencia ocurrida durante el procesamiento de la operación."
+    }
+  }
+}

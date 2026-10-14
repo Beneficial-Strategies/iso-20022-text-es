@@ -1,0 +1,38 @@
+{
+  "isoType": "ChargeType12Code",
+  "definition": "Tipo de servicio por el que se solicita o se paga una comisión.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Comisión de salida",
+      "definition": "Comisión de venta que paga el inversor al reembolsar una inversión, como un fondo de inversión."
+    },
+    "DISC": {
+      "name": "Descuento",
+      "definition": "Comisión que se ha reducido respecto de la comisión inicial estándar aplicada por un fondo, por ejemplo, durante un periodo de lanzamiento o según lo negociado por un supermercado de fondos o un corredor de descuento."
+    },
+    "FEND": {
+      "name": "Comisión de entrada",
+      "definition": "Comisión de venta que paga de inmediato el inversor al suscribir una inversión, como un fondo de inversión."
+    },
+    "POST": {
+      "name": "Gastos de franqueo",
+      "definition": "Gastos de franqueo."
+    },
+    "REGF": {
+      "name": "Tasa regulatoria",
+      "definition": "Tasa cobrada por una autoridad reguladora, por ejemplo, las tasas de la Securities and Exchange Commission."
+    },
+    "SHIP": {
+      "name": "Gastos de envío",
+      "definition": "Gastos de envío, incluido el seguro de los valores."
+    },
+    "SPCN": {
+      "name": "Concesiones especiales",
+      "definition": "Gastos, descuentos u otras reducciones o adiciones respecto del precio de la operación."
+    },
+    "TRAN": {
+      "name": "Comisión de traspaso",
+      "definition": "En fondos de inversión, comisión cobrada por la transmisión de la titularidad de un fondo de inversión."
+    }
+  }
+}

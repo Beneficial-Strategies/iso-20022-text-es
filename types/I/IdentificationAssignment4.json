@@ -1,0 +1,24 @@
+{
+  "isoType": "IdentificationAssignment4",
+  "definition": "Proporciona los detalles de la asignación de identificación.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el asignador y enviada a la siguiente parte de la cadena para identificar inequívocamente el mensaje.||Uso: el asignador debe asegurarse de que MessageIdentification sea único por asignatario durante un período acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó la asignación de identificación."
+    },
+    "Creator": {
+      "definition": "Parte que creó la asignación de identificación."
+    },
+    "FirstAgent": {
+      "definition": "Identifica a la primera entidad de la cadena de identificación, a continuación de la parte iniciadora del pago."
+    },
+    "Assigner": {
+      "definition": "Parte que asigna la asignación de identificación a otra parte. Es también el remitente del mensaje."
+    },
+    "Assignee": {
+      "definition": "Parte a la que se asigna la asignación de identificación. Es también el destinatario del mensaje."
+    }
+  }
+}

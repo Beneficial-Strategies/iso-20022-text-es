@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1",
+  "definition": "Posición agregada de las tenencias mantenidas en una cuenta de valores para un instrumento financiero especificado.",
+  "isoElements": {
+    "ItemDate": {
+      "definition": "Fecha de la línea de tenencia en el extracto."
+    },
+    "Holdings": {
+      "definition": "Saldos y subsaldos atribuidos a la tenencia."
+    },
+    "Price": {
+      "definition": "Detalles sobre el valor, el tipo y la fuente del precio."
+    }
+  }
+}

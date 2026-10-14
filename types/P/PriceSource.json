@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceSource",
+  "definition": "Fuente de una cotización de precio cuando no es el mercado local.",
+  "isoElements": {
+    "PriceSource": {
+      "definition": "Fuente del precio."
+    },
+    "Narrative": {
+      "definition": "Información adicional sobre la fuente de un precio."
+    }
+  }
+}

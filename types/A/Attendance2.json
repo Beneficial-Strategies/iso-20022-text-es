@@ -1,0 +1,18 @@
+{
+  "isoType": "Attendance2",
+  "definition": "Información y condiciones facilitadas para la asistencia presencial a la junta.",
+  "isoElements": {
+    "AdmissionConditions": {
+      "definition": "Condiciones de admisión presencial a la junta general."
+    },
+    "ConfirmationInformation": {
+      "definition": "Especifica cómo solicitar la tarjeta de asistencia o cómo comunicar la asistencia."
+    },
+    "ConfirmationDeadline": {
+      "definition": "Fecha y hora límite en que el titular real o el agente debe notificar su intención de participar en la junta. Este plazo lo fija un intermediario."
+    },
+    "ConfirmationMarketDeadline": {
+      "definition": "Fecha y hora límite en que debe confirmarse la asistencia a la junta. Este plazo lo fija el emisor."
+    }
+  }
+}

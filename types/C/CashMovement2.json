@@ -1,0 +1,12 @@
+{
+  "isoType": "CashMovement2",
+  "definition": "Proporciona información sobre el movimiento de efectivo.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe en efectivo."
+    },
+    "AccountDetails": {
+      "definition": "Proporciona información sobre la cuenta que se adeuda/abona."
+    }
+  }
+}

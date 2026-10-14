@@ -1,0 +1,78 @@
+{
+  "isoType": "PendingReason38Code",
+  "definition": "Especifica el motivo por el que la instrucción tiene un estado pendiente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del administrador de cuentas. Se gestionará conforme al acuerdo de servicio bilateral entre el administrador de cuentas y el titular de la cuenta."
+    },
+    "BSTR": {
+      "name": "Antes del periodo de instrucción",
+      "definition": "La instrucción se presenta antes de la fecha de inicio de la instrucción."
+    },
+    "DQCS": {
+      "name": "Desacuerdo sobre el importe en efectivo",
+      "definition": "Importe en efectivo instruido no reconocido o no válido."
+    },
+    "NTAX": {
+      "name": "Tipo impositivo incoherente",
+      "definition": "El tipo impositivo no es coherente con la documentación existente."
+    },
+    "ITAX": {
+      "name": "Tipo impositivo incorrecto",
+      "definition": "El tipo impositivo proporcionado es incorrecto. Queda fuera de los valores aceptables para ese país de inversión."
+    },
+    "IPED": {
+      "name": "Instrucción anterior a la fecha de derechos",
+      "definition": "La instrucción se recibió antes de la fecha de derecho."
+    },
+    "MONY": {
+      "name": "Fondos insuficientes",
+      "definition": "Fondos insuficientes en su cuenta."
+    },
+    "IPAW": {
+      "name": "Documentación no válida",
+      "definition": "La documentación requerida no es válida, está incompleta o falta."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "Instrumentos financieros insuficientes en su cuenta."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del mercado."
+    },
+    "MCER": {
+      "name": "Falta la certificación",
+      "definition": "A la espera de recibir la certificación adecuada."
+    },
+    "MTAX": {
+      "name": "Tipo impositivo ausente",
+      "definition": "Falta el tipo impositivo."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "FULL": {
+      "name": "Pendiente de datos del titular real",
+      "definition": "Pendiente de recibir los datos del titular beneficiario."
+    },
+    "PENR": {
+      "name": "Recepción pendiente",
+      "definition": "La instrucción está pendiente de recepción de valores, por ejemplo, de una compra o un préstamo."
+    },
+    "DQUA": {
+      "name": "Desacuerdo en la cantidad",
+      "definition": "La cantidad de instrumentos financieros no coincide."
+    },
+    "SNAV": {
+      "name": "Sistema no disponible",
+      "definition": "El sistema no está disponible. La instrucción se envía fuera del horario laboral."
+    },
+    "CERT": {
+      "name": "Números de certificados incorrectos",
+      "definition": "Error en el número de certificado."
+    }
+  }
+}

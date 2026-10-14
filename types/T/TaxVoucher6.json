@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxVoucher6",
+  "definition": "Especifica los certificados fiscales en el marco de un evento de operación corporativa.",
+  "isoElements": {
+    "TaxVoucherReference": {
+      "definition": "Referencia única del certificado fiscal exigida por las autoridades fiscales pertinentes para garantizar que no pueda duplicarse ninguna reclamación relativa a este certificado fiscal concreto."
+    },
+    "TaxReclaimDocumentationReference": {
+      "definition": "Referencia única asignada por el titular de la cuenta a la documentación fiscal enviada al administrador de la cuenta para su tratamiento."
+    },
+    "BeneficialOwnerReference": {
+      "definition": "Referencia única que identifica al beneficiario efectivo al que se aplica la devolución, asignada por el titular de la cuenta a la documentación fiscal enviada al administrador de la cuenta para su tratamiento."
+    }
+  },
+  "isoRules": {
+    "TaxVoucherPresenceRule": {
+      "definition": "Al menos uno de TaxVoucherReference, TaxReclaimDocumentationReference o BeneficialOwnerReference debe estar presente."
+    },
+    "TaxReclaimDocumentationReferencePresenceRule": {
+      "definition": "Si TaxReclaimDocumentationReference está presente, entonces BeneficialOwnerReference debe estar ausente."
+    },
+    "BeneficialOwnerReferencePresenceRule": {
+      "definition": "Si BeneficialOwnerReference está presente, entonces TaxReclaimDocumentationReference debe estar ausente."
+    }
+  }
+}

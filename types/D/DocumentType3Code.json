@@ -1,0 +1,30 @@
+{
+  "isoType": "DocumentType3Code",
+  "definition": "Especifica un tipo de documento financiero o comercial.",
+  "isoCodes": {
+    "RADM": {
+      "name": "Mensaje de aviso de remesa",
+      "definition": "El documento es un aviso de remesa enviado por separado de la operación actual."
+    },
+    "RPIN": {
+      "name": "Instrucción de pago relacionada",
+      "definition": "El documento es una instrucción de pago vinculada con la que está relacionada la instrucción de pago actual, por ejemplo, en un escenario de cobertura."
+    },
+    "FXDR": {
+      "name": "Referencia de la operación de cambio de divisas",
+      "definition": "El documento es una operación de cambio de divisas preacordada o preestablecida a la que se refiere la operación de pago."
+    },
+    "DISP": {
+      "name": "Aviso de expedición",
+      "definition": "El documento es un aviso de expedición."
+    },
+    "PUOR": {
+      "name": "Orden de compra",
+      "definition": "El documento es un pedido de compra."
+    },
+    "SCOR": {
+      "name": "Referencia de comunicación estructurada",
+      "definition": "El documento es una referencia de comunicación estructurada proporcionada por el beneficiario para identificar la operación referenciada."
+    }
+  }
+}

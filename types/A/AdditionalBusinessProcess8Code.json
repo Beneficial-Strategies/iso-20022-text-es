@@ -1,0 +1,22 @@
+{
+  "isoType": "AdditionalBusinessProcess8Code",
+  "definition": "Especifica el proceso de negocio adicional vinculado a un evento de operación corporativa, como una reclamación de mercado automática.",
+  "isoCodes": {
+    "CONS": {
+      "name": "Consentimiento",
+      "definition": "Se refiere a un consentimiento dentro de un evento de acción corporativa distinto de un evento de consentimiento (: 22F:: CAEV//CONS)."
+    },
+    "FPRE": {
+      "name": "Prefinanciación total",
+      "definition": "Prefinanciación total de un instrumento de deuda por el emisor antes del vencimiento original, mediante el depósito de activos en fideicomiso. Aplicable únicamente en el marco de un evento de operación societaria de defeasance parcial."
+    },
+    "PPUT": {
+      "name": "Amortización parcial obligatoria por opción de venta",
+      "definition": "Canje obligatorio parcial de una parte de los bonos en el que los valores canjeados suelen recolocarse en el mercado. El emisor puede ofrecer a los titulares el derecho a conservar sus valores en lugar de canjearlos. Se utilizará un sorteo para determinar la elegibilidad para el evento."
+    },
+    "PPRE": {
+      "name": "Prefinanciación parcial",
+      "definition": "Prefinanciación parcial de un instrumento de deuda antes de su vencimiento, determinada mediante un proceso de sorteo. Se emite un nuevo valor con una fecha de vencimiento anterior para la parte refinanciada (amortizada) y se emite el otro nuevo valor con la fecha de vencimiento original para la parte no refinanciada (restante). Aplicable únicamente en el marco de un evento de acción corporativa de partial defeasance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "SecuritiesBalanceType13Code",
+  "definition": "Especifica la naturaleza del saldo de valores o de fondos de inversión.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de instrumentos financieros que están bloqueados."
+    },
+    "AWAS": {
+      "name": "Disponible sin estado adicional",
+      "definition": "Saldo de instrumentos financieros que están libremente disponibles sin ningún estado adicional específico."
+    },
+    "AVAI": {
+      "name": "Disponible",
+      "definition": "Saldo de instrumentos financieros que están disponibles."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de instrumentos financieros que están registrados (a nombre de un titular interpuesto o del titular real)."
+    },
+    "PLED": {
+      "name": "Pignorado",
+      "definition": "Saldo de valores que pertenecen a la cuenta de custodia indicada en este mensaje, y se mantienen en ella, y que están pignorados."
+    },
+    "REGO": {
+      "name": "Pendiente de registro",
+      "definition": "Saldo de instrumentos financieros que está procesando actualmente la entidad responsable de registrar al nuevo titular real (o nominatario)."
+    },
+    "RSTR": {
+      "name": "Restringido",
+      "definition": "Saldo de instrumentos financieros que solo pueden venderse bajo determinadas condiciones o que requieren documentos legales."
+    },
+    "OTHR": {
+      "name": "Sin clasificar",
+      "definition": "Otro. Véase Narrative."
+    },
+    "SPOS": {
+      "name": "Posición a nombre de intermediario",
+      "definition": "Saldo de instrumentos financieros que siguen registrados a nombre del titular real anterior."
+    },
+    "UNRG": {
+      "name": "No registrado",
+      "definition": "Saldo de valores que no pudieron registrarse debido a una limitación de propiedad extranjera."
+    },
+    "ISSU": {
+      "name": "Emitido",
+      "definition": "En la comunicación entre agente emisor y depositario, saldo de instrumentos financieros emitidos para los que se ha recibido la documentación legal."
+    },
+    "QUAS": {
+      "name": "Cuasiemitido",
+      "definition": "En la comunicación entre agente emisor y depositario, saldo de instrumentos financieros emitidos para los que aún no se ha recibido la documentación legal."
+    },
+    "COLA": {
+      "name": "Admisible como garantía",
+      "definition": "Saldo de valores admisibles para su uso como garantía."
+    }
+  }
+}

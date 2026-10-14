@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestType3Choice",
+  "definition": "Define el tipo de acción que debe realizarse en la solicitud.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de solicitud de transferencia de liquidez, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de solicitud de transferencia de liquidez, en forma propia."
+    }
+  }
+}

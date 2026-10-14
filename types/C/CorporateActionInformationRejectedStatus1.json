@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationRejectedStatus1",
+  "definition": "Proporciona el motivo del rechazo de un aviso de información.",
+  "isoElements": {
+    "Reason": {
+      "definition": "El motivo del rechazo."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

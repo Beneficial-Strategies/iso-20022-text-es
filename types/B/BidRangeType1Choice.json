@@ -1,0 +1,12 @@
+{
+  "isoType": "BidRangeType1Choice",
+  "definition": "Tipo de rango de ofertas como elección entre un valor codificado definido o un valor propietario.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de rango de ofertas expresado como valor codificado."
+    },
+    "Proprietary": {
+      "definition": "Tipo de rango de ofertas expresado como valor propietario."
+    }
+  }
+}

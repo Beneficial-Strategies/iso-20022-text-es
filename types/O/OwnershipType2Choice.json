@@ -1,0 +1,12 @@
+{
+  "isoType": "OwnershipType2Choice",
+  "definition": "Elección de formatos para la especificación del tipo de titularidad.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de titularidad expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de titularidad expresado como código propietario."
+    }
+  }
+}

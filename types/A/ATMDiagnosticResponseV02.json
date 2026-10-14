@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDiagnosticResponseV02",
+  "definition": "El mensaje ATMDiagnosticResponse lo envía un adquirente a un cajero automático (ATM) en respuesta a un mensaje ATMDiagnosticRequest, asegurando la disponibilidad y la validez de los parámetros."
+}

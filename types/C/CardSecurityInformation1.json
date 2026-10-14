@@ -1,0 +1,12 @@
+{
+  "isoType": "CardSecurityInformation1",
+  "definition": "Código de seguridad de la tarjeta (CSC) asociado a la tarjeta con la que se realiza la operación.",
+  "isoElements": {
+    "CSCManagement": {
+      "definition": "Gestión del código de seguridad de la tarjeta (CSC) asociada a la operación."
+    },
+    "CSCValue": {
+      "definition": "Código de seguridad de la tarjeta (CSC)."
+    }
+  }
+}

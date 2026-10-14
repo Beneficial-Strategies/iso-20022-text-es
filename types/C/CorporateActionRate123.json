@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionRate123",
+  "definition": "Especifica los detalles del tipo del valor.",
+  "isoElements": {
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Cantidad de valores intermedios adicionales o nuevas acciones adjudicadas por una cantidad dada de valores derivados de la suscripción."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Cantidad de valores adicionales por una cantidad dada de valores subyacentes cuando los valores subyacentes no se canjean ni se adeudan, por ejemplo, 1 por 1: 1 acción nueva abonada por cada acción subyacente = 2 acciones resultantes."
+    },
+    "NewToOld": {
+      "definition": "Cantidad de valores nuevos por una cantidad dada de valores subyacentes, cuando los valores subyacentes se canjearán o se adeudarán, por ejemplo, 2 por 1: 2 acciones nuevas abonadas por cada acción subyacente adeudada = 2 acciones resultantes."
+    },
+    "TransformationRate": {
+      "definition": "Tipo utilizado para determinar el reparto de la contraprestación en efectivo entre las operaciones de liquidación de salida que son resultado de una transformación de la operación principal."
+    },
+    "ChargesFees": {
+      "definition": "Tipo utilizado para calcular el importe de los cargos o comisiones que no pueden clasificarse."
+    },
+    "FiscalStamp": {
+      "definition": "Porcentaje de impuesto fiscal que se aplicará."
+    },
+    "ApplicableRate": {
+      "definition": "Tipo aplicable al evento anunciado, por ejemplo, el tipo de reembolso para un evento de reembolso."
+    },
+    "TaxCreditRate": {
+      "definition": "Importe de dinero por acción asignado como resultado de un crédito fiscal."
+    },
+    "FinancialTransactionTaxRate": {
+      "definition": "Tipo del impuesto sobre las transacciones financieras."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Porcentaje de una distribución en efectivo que será retenido por las autoridades fiscales de la jurisdicción del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "SecondLevelTax": {
+      "definition": "Tipo al que una jurisdicción distinta de la del país de domicilio fiscal del emisor retendrá los ingresos, para el cual puede ser posible una desgravación en origen y/o una reclamación. Se aplica de forma complementaria o compensatoria al tipo de retención fiscal (TAXR) aplicado por la jurisdicción del domicilio fiscal del emisor."
+    }
+  }
+}

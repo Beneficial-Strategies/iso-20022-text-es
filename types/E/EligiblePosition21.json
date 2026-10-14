@@ -1,0 +1,38 @@
+{
+  "isoType": "EligiblePosition21",
+  "definition": "Información sobre una posición de valores y los titulares de derechos.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "HoldingBalance": {
+      "definition": "Posición neta de una tenencia segregada de un único valor dentro de la posición global mantenida en una cuenta de valores, por ejemplo, subsaldo por estado."
+    },
+    "RightsHolder": {
+      "definition": "Titular de los derechos de voto."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Se recomienda que RightsHolder solo esté presente más de una vez si existe copropiedad."
+    },
+    "HoldingBalanceTypeRule": {
+      "definition": "En todas las ocurrencias de HoldingBalance, uno y solo un BalanceType puede ser ELIG (con derecho)."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Debe estar presente AccountIdentification o BlockChainAddressOrWallet, pero no ambos."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, AccountIdentification debe estar ausente."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "Si AccountIdentification está presente, BlockChainAddressOrWallet debe estar ausente."
+    }
+  }
+}

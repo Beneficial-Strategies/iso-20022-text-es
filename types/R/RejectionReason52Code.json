@@ -1,0 +1,18 @@
+{
+  "isoType": "RejectionReason52Code",
+  "definition": "Especifica el motivo por el que la respuesta de divulgación de la identificación tiene un estado rechazado.",
+  "isoCodes": {
+    "IDRI": {
+      "name": "Identificación de la solicitud de divulgación no válida",
+      "definition": "La identificación de la solicitud de divulgación no es válida o es desconocida."
+    },
+    "IDRJ": {
+      "name": "Identificación de la respuesta de divulgación no válida",
+      "definition": "La identificación de la respuesta de divulgación no es válida o es desconocida."
+    },
+    "SVNO": {
+      "name": "Servicio no ofrecido",
+      "definition": "El servicio para el que se envió la información no se ofrece."
+    }
+  }
+}

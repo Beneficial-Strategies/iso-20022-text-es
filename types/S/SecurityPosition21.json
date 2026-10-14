@@ -1,0 +1,12 @@
+{
+  "isoType": "SecurityPosition21",
+  "definition": "Identificación de un valor y de su saldo.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación del valor, según se asigne en un esquema de identificación formal o propio."
+    },
+    "Position": {
+      "definition": "Cantidad de valores con derecho a voto."
+    }
+  }
+}

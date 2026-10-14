@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionCancellationStatus16",
+  "definition": "Estado aplicable a las instrucciones de cancelación individuales de un mensaje de solicitud de cancelación de instrucciones de junta.",
+  "isoElements": {
+    "SingleInstructionCancellationIdentification": {
+      "definition": "Identificación de la solicitud de cancelación de instrucción individual específica del mensaje original de solicitud de cancelación de instrucciones de junta, identificado en InstructionType/ InstructionCancellationIdentification, para la cual se facilita el estado."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta de valores."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identificación de la subcuenta dentro de la cuenta de custodia."
+    },
+    "InstructionCancellationStatus": {
+      "definition": "Estado de una solicitud de cancelación de instrucción de junta individual."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Si SubAccountIdentification está presente, entonces AccountIdentification debe estar presente."
+    }
+  }
+}

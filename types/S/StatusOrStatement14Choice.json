@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusOrStatement14Choice",
+  "definition": "Especifica el estado o el extracto que se solicita.",
+  "isoElements": {
+    "StatusAdvice": {
+      "definition": "Identifica el aviso de estado y la operación para la que se solicitó el aviso de estado."
+    },
+    "Statement": {
+      "definition": "Identifica el extracto/informe que se solicitó."
+    }
+  }
+}

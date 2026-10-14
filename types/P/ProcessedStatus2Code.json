@@ -1,0 +1,14 @@
+{
+  "isoType": "ProcessedStatus2Code",
+  "definition": "Especifica el estado de procesamiento de una solicitud de cancelación.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recibido",
+      "definition": "Se ha recibido la instrucción o solicitud."
+    },
+    "COMP": {
+      "name": "Completado",
+      "definition": "La solicitud se ha completado."
+    }
+  }
+}

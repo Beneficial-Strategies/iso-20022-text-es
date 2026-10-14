@@ -1,0 +1,12 @@
+{
+  "isoType": "DistributionProcessingStatus1",
+  "definition": "Proporciona información sobre el estado de procesamiento de un movimiento global.",
+  "isoElements": {
+    "Status": {
+      "definition": "El estado de procesamiento."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

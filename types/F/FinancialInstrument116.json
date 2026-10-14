@@ -1,0 +1,35 @@
+{
+  "isoType": "FinancialInstrument116",
+  "definition": "Valor que es un subconjunto de un fondo de inversión y se rige por la misma política del fondo de inversión, por ejemplo, la opción de dividendos o la divisa de valoración.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de un valor mediante un ISIN."
+    },
+    "Name": {
+      "definition": "Nombre del instrumento financiero en texto de formato libre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) expresado conforme a la norma ISO 18774."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Información adicional sobre el instrumento financiero."
+    },
+    "ClassType": {
+      "definition": "Características de las participaciones ofrecidas por un fondo. Por ejemplo, una participación puede tener una estructura de comisiones específica, por ejemplo, de entrada o de salida, una política de rentas, por ejemplo, distribución o acumulación, o una política de comisión de seguimiento, por ejemplo, con o sin ella. Las clases de fondos suelen designarse con un solo carácter, por ejemplo, «Clase A», «Clase 2»."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, es decir, titularidad, del valor, es decir, nominativo o al portador."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rentas relativa a un tipo de clase, es decir, si las rentas se distribuyen o se retienen en el fondo."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Indica si un valor existe únicamente como registro electrónico, es decir, si no hay ningún documento físico que represente el valor."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Se recomienda utilizar el ISIN en Identification.|Cuando existe un código ISIN, se recomienda encarecidamente utilizar el ISIN."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMCustomer7",
+  "definition": "Cliente que interviene en una operación de retirada.",
+  "isoElements": {
+    "Profile": {
+      "definition": "Perfil del cliente seleccionado para realizar el servicio."
+    },
+    "SelectedLanguage": {
+      "definition": "Idioma seleccionado por el cliente en el cajero automático (ATM) para la sesión de cliente. Referencia ISO 639-1 (alfa-2) y ISO 639-2 (alfa-3)."
+    },
+    "AuthenticationResult": {
+      "definition": "Resultado de la autenticación del cliente para esta operación."
+    }
+  }
+}

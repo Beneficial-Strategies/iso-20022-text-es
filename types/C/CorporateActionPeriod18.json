@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPeriod18",
+  "definition": "Especifica los periodos relacionados con una opción de operación societaria.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Periodo durante el cual se determina el precio de un valor."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Periodo durante el cual pueden negociarse simultáneamente las acciones antiguas y las nuevas, por ejemplo, en la consolidación o el desdoblamiento de acciones."
+    },
+    "ActionPeriod": {
+      "definition": "Periodo durante el cual la opción especificada, o todas las opciones del evento, siguen siendo válidas, por ejemplo, el periodo de la oferta."
+    },
+    "RevocabilityPeriod": {
+      "definition": "Periodo durante el cual el accionista puede revocar, modificar o retirar su instrucción."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "definition": "Periodo durante el cual el privilegio no está disponible, por ejemplo, cuando se celebra una junta o cuando vence el pago de un cupón."
+    },
+    "AccountServicerRevocabilityPeriod": {
+      "definition": "Periodo durante el cual el participante de la entidad gestora de la cuenta puede revocar, modificar o retirar sus instrucciones."
+    },
+    "DepositorySuspensionPeriodForWithdrawal": {
+      "definition": "Periodo que define la última fecha en que se aceptarán las solicitudes de retirada a nombre de la entidad intermediaria sobre el valor resultante y la fecha en que se levantará la suspensión y se reanudará el procesamiento de la retirada por transferencia sobre el valor resultante."
+    }
+  }
+}

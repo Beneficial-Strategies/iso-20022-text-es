@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountType3Choice",
+  "definition": "Especifica el importe de dinero que se va a transferir entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la moneda ordenada por la parte iniciadora.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la moneda indicada por la parte iniciadora."
+    },
+    "EquivalentAmount": {
+      "definition": "Importe de dinero que se va a transferir entre el ordenante y el beneficiario, expresado en la moneda de la cuenta del ordenante, y la moneda en la que se va a transferir el importe."
+    }
+  }
+}

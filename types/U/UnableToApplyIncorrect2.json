@@ -1,0 +1,17 @@
+{
+  "isoType": "UnableToApplyIncorrect2",
+  "definition": "Especifica los detalles de la información incorrecta.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica qué tipo de dato es incorrecto en la operación."
+    },
+    "AdditionalIncorrectInformation": {
+      "definition": "Detalles adicionales sobre la información incorrecta."
+    }
+  },
+  "isoRules": {
+    "AdditionalIncorrectInformationRule": {
+      "definition": "Si Code es igual a NARR (Narrative), debe estar presente AdditionalIncorrectInformation."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "AdjustmentCompensation1",
+  "definition": "Especifica la compensación de una solicitud de valoración.",
+  "isoElements": {
+    "InitialAmount": {
+      "definition": "Compensación calculada para la solicitud antes de añadir los gastos."
+    },
+    "DueCharges": {
+      "definition": "Gastos añadidos al importe inicial."
+    },
+    "AmountDue": {
+      "definition": "Compensación debida por la solicitud después de añadir los gastos."
+    },
+    "CompensationAgent": {
+      "definition": "Entidad financiera que presta servicio a una cuenta de la parte o entidad a la que se debe la compensación."
+    },
+    "CompensationAccount": {
+      "definition": "Cuenta a la que se debe la compensación."
+    },
+    "Period": {
+      "definition": "Intervalo de fechas al que se aplica la compensación."
+    },
+    "InterestRate": {
+      "definition": "Tipo de interés de un instrumento financiero utilizado para calcular la compensación."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la respuesta a la valoración."
+    }
+  }
+}

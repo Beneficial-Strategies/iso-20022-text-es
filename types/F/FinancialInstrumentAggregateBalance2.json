@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance2",
+  "definition": "Posición agregada mantenida en una cuenta de valores para un instrumento financiero especificado.",
+  "isoElements": {
+    "SettledBalance": {
+      "definition": "Saldo de las operaciones liquidadas."
+    },
+    "TradedBalance": {
+      "definition": "Saldo de las operaciones liquidadas y de las operaciones pendientes de liquidación."
+    },
+    "BalanceBreakdown": {
+      "definition": "Desglose de los saldos de las tenencias en subsaldos."
+    }
+  }
+}

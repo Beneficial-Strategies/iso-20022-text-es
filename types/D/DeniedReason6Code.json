@@ -1,0 +1,46 @@
+{
+  "isoType": "DeniedReason6Code",
+  "definition": "Especifica el motivo de la denegación.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Recibida después del plazo límite de la entidad gestora de la cuenta."
+    },
+    "CDCY": {
+      "name": "Divisa condicional",
+      "definition": "La ejecución se deniega debido a un proceso vinculado a la moneda de la operación."
+    },
+    "CDRE": {
+      "name": "Realineamiento condicional",
+      "definition": "La ejecución se deniega debido a la ejecución de un proceso de realineación en el CSD emisor."
+    },
+    "DCAN": {
+      "name": "Denegado por estar cancelado",
+      "definition": "La solicitud fue denegada porque la instrucción ha sido cancelada."
+    },
+    "DSET": {
+      "name": "Denegado por estar liquidado",
+      "definition": "La solicitud fue denegada porque la instrucción fue liquidada."
+    },
+    "DPRG": {
+      "name": "Denegado por estar en curso",
+      "definition": "La solicitud fue denegada porque el proceso de liquidación está en curso."
+    },
+    "DREP": {
+      "name": "Denegado por haber finalizado el repo",
+      "definition": "La solicitud fue denegada porque el repo fue cancelado."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "CDRG": {
+      "name": "Registrador condicional",
+      "definition": "La ejecución se deniega debido a la ejecución de un proceso en el registrador."
+    }
+  }
+}

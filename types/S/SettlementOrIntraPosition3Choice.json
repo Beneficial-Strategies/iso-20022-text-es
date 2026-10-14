@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementOrIntraPosition3Choice",
+  "definition": "Elección entre el movimiento intraposición o la operación de liquidación.",
+  "isoElements": {
+    "IntraPositionMovement": {
+      "definition": "Especifica los detalles solicitados del movimiento intraposición."
+    },
+    "SettlementTransaction": {
+      "definition": "Especifica los detalles solicitados de la operación de liquidación."
+    }
+  }
+}

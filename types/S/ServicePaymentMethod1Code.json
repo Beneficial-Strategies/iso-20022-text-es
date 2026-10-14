@@ -1,0 +1,30 @@
+{
+  "isoType": "ServicePaymentMethod1Code",
+  "definition": "Define el método de pago del cargo por los servicios.",
+  "isoCodes": {
+    "BCMP": {
+      "name": "Compensable con saldo",
+      "definition": "Permite al banco compensar un cargo por servicio con los intereses devengados por el saldo de la cuenta de depósito. Los cargos reales derivados de servicios compensables con el saldo se calculan y cobran siempre a fin de mes. Se utiliza en USA."
+    },
+    "FLAT": {
+      "name": "Cargo directo",
+      "definition": "El cargo no es compensable con el saldo y es exigible. A falta de cargos compensables con el saldo en Europa, este sería el código más utilizado para los servicios que se facturan a fin de mes."
+    },
+    "PVCH": {
+      "name": "Cobrado previamente",
+      "definition": "El cargo se evaluó previamente y no forma parte del importe adeudado a la fecha de este extracto. Este código se utiliza para cargos que se adeudaron en cuenta cuando tuvo lugar el hecho imponible."
+    },
+    "INVS": {
+      "name": "Facturado por separado",
+      "definition": "El cargo se facturó previamente y no forma parte del importe adeudado a la fecha de este extracto. Este código se utiliza para cargos que se facturaron cuando tuvo lugar el hecho imponible."
+    },
+    "WVED": {
+      "name": "Condonado",
+      "definition": "El cargo se condona y no es exigible. El importe condonado debe indicarse en el importe del cargo original."
+    },
+    "FREE": {
+      "name": "Gratuito",
+      "definition": "El servicio es gratuito para el cliente, sin cargo."
+    }
+  }
+}

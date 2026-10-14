@@ -1,0 +1,15 @@
+{
+  "isoType": "DateFormat4Choice",
+  "definition": "Especifica el valor de una fecha.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha expresada como ISO Date."
+    },
+    "NotSpecifiedDate": {
+      "definition": "La fecha no está especificada, por ejemplo, la fecha se desconoce."
+    },
+    "Proprietary": {
+      "definition": "Esquema propietario para especificar una fecha."
+    }
+  }
+}

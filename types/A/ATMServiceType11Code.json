@@ -1,0 +1,102 @@
+{
+  "isoType": "ATMServiceType11Code",
+  "definition": "Describe el tipo de servicio seleccionado por el cliente.",
+  "isoCodes": {
+    "TRFC": {
+      "name": "Transferencia del cliente",
+      "definition": "Transferencia de fondos entre cuentas del cliente en la misma entidad."
+    },
+    "TRFI": {
+      "name": "Transferencia entre clientes",
+      "definition": "Transferencia de fondos a otro cliente."
+    },
+    "TRFP": {
+      "name": "Pago",
+      "definition": "Transferencia de fondos para pagar a un tercero."
+    },
+    "ASTS": {
+      "name": "Extractos de cuenta",
+      "definition": "Solicitud de un extracto completo (es decir, un extracto legal) de una cuenta del cliente."
+    },
+    "BLCQ": {
+      "name": "Consulta de saldo",
+      "definition": "Consulta de saldo."
+    },
+    "CDVF": {
+      "name": "Verificación de tarjeta",
+      "definition": "Verificación de la tarjeta."
+    },
+    "CHSN": {
+      "name": "Reintegro elegido",
+      "definition": "El cliente elige el importe y los valores de los billetes."
+    },
+    "CMPF": {
+      "name": "Perfil del cliente",
+      "definition": "Solicitud del perfil del cliente, con la información de cuentas relacionada si procede."
+    },
+    "DCCS": {
+      "name": "Conversión dinámica de divisa",
+      "definition": "Solicitud a un proveedor de servicios DCC para determinar la conversión de divisa aplicable a la tarjeta."
+    },
+    "XRTD": {
+      "name": "Tipo de cambio de ingreso",
+      "definition": "Solicitud del tipo de cambio para la operación de ingreso en curso."
+    },
+    "XRTW": {
+      "name": "Tipo de cambio de reintegro",
+      "definition": "Solicitud del tipo de cambio para la operación de reintegro en curso."
+    },
+    "MCHG": {
+      "name": "Cambio de moneda",
+      "definition": "Cambio entre tipos de soporte."
+    },
+    "DPSN": {
+      "name": "Ingreso no verificado",
+      "definition": "Ingreso de soportes no verificados por el cajero automático (ATM), por ejemplo en un sobre."
+    },
+    "PINC": {
+      "name": "Cambio de PIN",
+      "definition": "Modificación del valor del PIN de la tarjeta."
+    },
+    "PINR": {
+      "name": "Recuperación de PIN",
+      "definition": "Restablecimiento de un PIN."
+    },
+    "PINU": {
+      "name": "Desbloqueo de PIN",
+      "definition": "Desbloqueo del PIN."
+    },
+    "PATH": {
+      "name": "Reintegro preautorizado",
+      "definition": "La operación de reintegro fue preautorizada por otro canal, por ejemplo un móvil. El importe puede no figurar en el mensaje de solicitud de reintegro."
+    },
+    "PRFL": {
+      "name": "Reintegro por perfil",
+      "definition": "El importe y los valores de los billetes están predefinidos por el perfil del cliente."
+    },
+    "EMVS": {
+      "name": "Seleccionar aplicación EMV",
+      "definition": "Selección de las aplicaciones EMV permitidas por el adquirente."
+    },
+    "STDR": {
+      "name": "Reintegro estándar",
+      "definition": "Reintegro estándar de efectivo."
+    },
+    "SPRV": {
+      "name": "Reintegro supervisado",
+      "definition": "Reintegro autorizado por un supervisor."
+    },
+    "DPSV": {
+      "name": "Ingreso verificado",
+      "definition": "Ingreso de soportes verificados por el cajero automático (ATM)."
+    },
+    "ACCD": {
+      "name": "Descarga de cuentas",
+      "definition": "Descarga de las cuentas asociadas a la tarjeta del cliente."
+    },
+    "MINI": {
+      "name": "Miniextracto",
+      "definition": "Solicitud de un miniextracto (es decir, un extracto parcial) de una cuenta del cliente."
+    }
+  }
+}

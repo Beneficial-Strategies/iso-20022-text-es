@@ -1,0 +1,48 @@
+{
+  "isoType": "PaymentReturnV15",
+  "definition": "Ámbito|El mensaje PaymentReturn lo envía una entidad a la entidad anterior de la cadena de pago para deshacer un pago previamente liquidado.|Uso|El mensaje PaymentReturn se intercambia entre entidades para devolver fondos tras la liquidación de instrucciones de transferencia (es decir, el mensaje FIToFICustomerCreditTransfer y el mensaje FinancialInstitutionCreditTransfer) o de instrucciones de adeudo directo (mensaje FIToFICustomerDirectDebit).|El mensaje PaymentReturn no debe utilizarse entre entidades y clientes que no son entidad financiera. Los clientes que no son entidad financiera serán informados de un adeudo o un abono en su(s) cuenta(s) mediante un mensaje BankToCustomerDebitCreditNotification ('notificación') y/o un mensaje BankToCustomerAccountReport/BankToCustomerStatement ('extracto').|El mensaje PaymentReturn puede utilizarse para devolver instrucciones individuales o múltiples procedentes de uno o varios ficheros.|El mensaje PaymentReturn puede utilizarse en escenarios nacionales y transfronterizos.|El mensaje PaymentReturn hace referencia a la(s) instrucción(es) original(es) únicamente mediante referencias o mediante referencias y un conjunto de elementos de la instrucción original.",
+  "isoRules": {
+    "InstructedAgentRule": {
+      "definition": "Si GroupHeader/InstructedAgent está presente, TransactionInformation/InstructedAgent no está permitido."
+    },
+    "InstructingAgentRule": {
+      "definition": "Si GroupHeader/InstructingAgent está presente, TransactionInformation/InstructingAgent no está permitido."
+    },
+    "GroupReturnAndNumberOfTransactionsRule": {
+      "definition": "Si GroupHeader/GroupReturn es false, GroupHeader/NumberOfTransactions debe ser igual al número de apariciones de TransactionInformation."
+    },
+    "GroupReturnAndReturnReasonRule": {
+      "definition": "Si GroupHeader/GroupReturn es true, OriginalGroupInformation/ReturnReasonInformation/ReturnReason debe estar presente."
+    },
+    "TotalReturnedInterbankSettlementAmountRule": {
+      "definition": "Si GroupHeader/TotalReturnedInterbankSettlementAmount está presente, todas las apariciones de TransactionInformation/ReturnedInterbankSettlementAmount deben tener la misma divisa que GroupHeader/TotalReturnedInterbankSettlementAmount."
+    },
+    "TotalReturnedInterbankSettlementAmountAndSumRule": {
+      "definition": "GroupHeader/TotalReturnedInterbankSettlementAmount debe ser igual a la suma de todas las apariciones de TransactionInformation/ReturnedInterbankSettlementAmount cuando esté presente."
+    },
+    "OriginalGroupInformationRule": {
+      "definition": "Si OriginalGroupInformation está presente, TransactionInformation/OriginalGroupInformation no está permitido."
+    },
+    "NoCoverSettlementMethodRule": {
+      "definition": "GroupHeader/SettlementInformation/SettlementMethod debe ser distinto de COVE (Cover) al devolver operaciones de adeudo directo."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate está presente, TransactionInformation/InterbankSettlementDate no está permitido."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate no está presente, TransactionInformation/InterbankSettlementDate debe estar presente."
+    },
+    "GroupReturnAndTransactionInformationNotPresentRule": {
+      "definition": "Si GroupHeader/GroupReturn es true, TransactionInformation no está permitido."
+    },
+    "GroupReturnAndTransactionInformationPresentRule": {
+      "definition": "Si GroupHeader/GroupReturn es false, debe estar presente al menos una aparición de TransactionInformation."
+    },
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Si GroupHeader/PaymentTypeInformation está presente, TransactionInformation/PaymentTypeInformation no está permitido."
+    }
+  }
+}

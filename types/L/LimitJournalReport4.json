@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReport4",
+  "definition": "Informa sobre el límite de gestión de riesgos o sobre un error de negocio.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identificación del límite sobre el cual se solicita información."
+    },
+    "LimitReport": {
+      "definition": "Especifica el informe comercial como un diario de utilización del límite o un error comercial."
+    }
+  }
+}

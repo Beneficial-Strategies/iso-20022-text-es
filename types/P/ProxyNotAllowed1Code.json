@@ -1,0 +1,10 @@
+{
+  "isoType": "ProxyNotAllowed1Code",
+  "definition": "Indica que no se permite la designación de un representante para la junta.",
+  "isoCodes": {
+    "NPRO": {
+      "name": "No permitido",
+      "definition": "Representante no permitido."
+    }
+  }
+}

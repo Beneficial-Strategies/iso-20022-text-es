@@ -1,0 +1,30 @@
+{
+  "isoType": "Limit7",
+  "definition": "Detalles sobre los límites.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del límite, expresado en una moneda admisible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si un límite es un límite de débito o un límite de crédito."
+    },
+    "Status": {
+      "definition": "Estado del límite, como habilitado o inhabilitado."
+    },
+    "StartDateTime": {
+      "definition": "Fecha y hora en que el límite pasa a ser efectivo."
+    },
+    "UsedAmount": {
+      "definition": "Uso real del límite expresado como importe."
+    },
+    "UsedAmountCreditDebitIndicator": {
+      "definition": "Especifica si el importe utilizado del límite es un importe de débito o de crédito."
+    },
+    "UsedPercentage": {
+      "definition": "Uso real del límite expresado como porcentaje."
+    },
+    "RemainingAmount": {
+      "definition": "Uso real del límite expresado como importe."
+    }
+  }
+}

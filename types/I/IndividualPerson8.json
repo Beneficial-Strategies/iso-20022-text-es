@@ -1,0 +1,35 @@
+{
+  "isoType": "IndividualPerson8",
+  "definition": "Entidad humana, por oposición a una entidad corporativa (a la que a veces se denomina «persona jurídica»).",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre por el que se conoce a una parte y que suele utilizarse para identificarla."
+    },
+    "GivenName": {
+      "definition": "Nombre de pila de una persona."
+    },
+    "NamePrefix": {
+      "definition": "Especifica el tratamiento utilizado para dirigirse formalmente a una persona."
+    },
+    "NameSuffix": {
+      "definition": "Información adicional sobre una persona que sigue al nombre de la persona, por ejemplo, una titulación como Doctor en Filosofía (PhD)."
+    },
+    "Gender": {
+      "definition": "Especifica el sexo de la persona."
+    },
+    "BirthDate": {
+      "definition": "Fecha en la que nace una persona."
+    },
+    "SocialSecurityNumber": {
+      "definition": "Número asignado por un organismo de seguridad social."
+    },
+    "IndividualInvestorAddress": {
+      "definition": "Dirección postal de una parte."
+    }
+  },
+  "isoRules": {
+    "SocialSecurityNumberGuideline": {
+      "definition": "El número de seguro del Reino Unido (UK Insurance Number) debe indicarse sin espacios."
+    }
+  }
+}

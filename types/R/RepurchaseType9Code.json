@@ -1,0 +1,38 @@
+{
+  "isoType": "RepurchaseType9Code",
+  "definition": "Especifica el tipo de operación de recompra.",
+  "isoCodes": {
+    "PAIR": {
+      "name": "Cruce de posiciones",
+      "definition": "Se refiere a una operación que se empareja y se netea contra una o más operaciones anteriores. Una operación emparejada (paired off) es una recompra (buyback) para compensar y liquidar efectivamente una venta anterior de valores, o una reventa (sellback) para compensar y liquidar efectivamente una compra anterior de valores."
+    },
+    "PADJ": {
+      "name": "Ajuste de la exposición principal",
+      "definition": "Se refiere a un ajuste del principal."
+    },
+    "RATE": {
+      "name": "Tipo del repo",
+      "definition": "Forma parte de una compensación cruzada (pair-off)."
+    },
+    "CALL": {
+      "name": "Llamada de recompra",
+      "definition": "Se refiere al cierre anticipado o la fecha de vencimiento de un repo a plazo, o a la fecha de terminación de un repo abierto con la garantía subyacente."
+    },
+    "ROLP": {
+      "name": "Renovación del contrato de repo",
+      "definition": "Se refiere a la prórroga (rollover) de un repo de un contrato que amplía la fecha de cierre o de vencimiento sin que se vea afectada la garantía subyacente."
+    },
+    "CADJ": {
+      "name": "Sustitución",
+      "definition": "Se refiere a un canje o sustitución."
+    },
+    "TOPU": {
+      "name": "Reposición",
+      "definition": "Se refiere a la prórroga (rollover) de un repo de una posición que amplía la fecha de cierre o de vencimiento."
+    },
+    "WTHD": {
+      "name": "Retirada",
+      "definition": "Se refiere a la prórroga (rollover) de un repo de una posición que amplía la fecha de cierre o de vencimiento."
+    }
+  }
+}

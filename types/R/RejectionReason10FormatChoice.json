@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason10FormatChoice",
+  "definition": "Elección entre formatos para expresar el motivo del rechazo de una solicitud de cancelación de instrucción permanente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo del rechazo de una solicitud de cancelación de instrucción permanente."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el motivo del rechazo de una solicitud de cancelación de instrucción permanente."
+    }
+  }
+}

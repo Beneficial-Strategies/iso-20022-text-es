@@ -1,0 +1,146 @@
+{
+  "isoType": "RejectionReason73Code",
+  "definition": "Especifica el motivo por el que la instrucción de liquidación tiene estado de rechazada.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "CASH": {
+      "name": "Cuenta de efectivo",
+      "definition": "Cuenta de efectivo no reconocida o no válida."
+    },
+    "DDEA": {
+      "name": "Precio de la transacción",
+      "definition": "Precio de la operación no reconocido o no válido."
+    },
+    "DTRD": {
+      "name": "Fecha de negociación",
+      "definition": "Fecha de la operación, fecha de operación solicitada o fecha de operación futura no reconocida o no válida."
+    },
+    "PLCE": {
+      "name": "Lugar de negociación",
+      "definition": "Lugar de negociación no reconocido o no válido."
+    },
+    "RTGS": {
+      "name": "Imposible utilizar el sistema RTGS indicado",
+      "definition": "No es posible utilizar el sistema RTGS instruido (NRTG o YRTG)."
+    },
+    "NCRR": {
+      "name": "Rechazo de la divisa del importe de liquidación",
+      "definition": "Divisa del importe de liquidación no reconocida o no válida."
+    },
+    "PHYS": {
+      "name": "Liquidación física imposible",
+      "definition": "La liquidación física es imposible para el instrumento financiero instruido."
+    },
+    "REFE": {
+      "name": "Rechazo por referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida previamente."
+    },
+    "DMON": {
+      "name": "Rechazo del importe de liquidación",
+      "definition": "Importe de liquidación no reconocido o no válido."
+    },
+    "MINO": {
+      "name": "Cantidad mínima de liquidación",
+      "definition": "La cantidad instruida es inferior a la cantidad mínima de liquidación existente para el instrumento financiero."
+    },
+    "BATC": {
+      "name": "Rechazo del lote de procesamiento",
+      "definition": "Lote de procesamiento no reconocido o no válido, es decir, diurno/en tiempo real cuando solo es posible liquidar en el lote nocturno."
+    },
+    "MUNO": {
+      "name": "Cantidad de liquidación múltiple",
+      "definition": "La cantidad instruida no es múltiplo de un lote de liquidación existente para el instrumento financiero."
+    },
+    "TXST": {
+      "name": "Rechazo por estatus fiscal",
+      "definition": "Régimen fiscal de los valores instruidos no reconocido o no válido."
+    },
+    "SETS": {
+      "name": "Rechazo por método del sistema de liquidación",
+      "definition": "Sistema/método de liquidación instruido no reconocido o no válido."
+    },
+    "IIND": {
+      "name": "Rechazo por referencia común",
+      "definition": "Referencia común no reconocida, no válida o ausente."
+    },
+    "CAEV": {
+      "name": "Rechazo de operación societaria",
+      "definition": "Operación societaria pendiente sobre el instrumento financiero instruido."
+    },
+    "CASY": {
+      "name": "Sistema de liquidación de efectivo imposible",
+      "definition": "Acuerdos permanentes imposibles anulan la instrucción para el sistema de liquidación de efectivo."
+    },
+    "DDAT": {
+      "name": "Rechazo de la fecha de liquidación",
+      "definition": "Fecha de liquidación no reconocida o no válida."
+    },
+    "SETR": {
+      "name": "Rechazo por operación de liquidación",
+      "definition": "Tipo de operación de liquidación no reconocido o no válido."
+    },
+    "SDUT": {
+      "name": "Falta de impuesto de timbre",
+      "definition": "Falta la información requerida sobre el impuesto de timbre."
+    },
+    "INPS": {
+      "name": "Lugar de custodia",
+      "definition": "Lugar de custodia no reconocido, no válido o ausente."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "ICUS": {
+      "name": "Parte receptora o entregadora 2",
+      "definition": "Cliente de la parte 1 entregadora o receptora no reconocido o no válido."
+    },
+    "ICAG": {
+      "name": "Parte receptora o entregadora 1",
+      "definition": "Participante del depositario entregador o receptor no reconocido o no válido."
+    },
+    "DEPT": {
+      "name": "Depositario receptor o entregador",
+      "definition": "Depositario no reconocido o no válido."
+    },
+    "IEXE": {
+      "name": "Parte receptora o entregadora 3",
+      "definition": "Cliente de la parte 2 entregadora o receptora no reconocido o no válido."
+    },
+    "INVB": {
+      "name": "Saldo no válido",
+      "definition": "La instrucción pretende utilizar un saldo no válido."
+    },
+    "INVL": {
+      "name": "Vínculo no válido",
+      "definition": "Vínculo no válido o no reconocido."
+    },
+    "INVN": {
+      "name": "Número de lote no válido",
+      "definition": "Número de lote no válido o no reconocido."
+    },
+    "VALR": {
+      "name": "Regla no válida",
+      "definition": "Rechazo por una regla de validación de la entidad gestora de la cuenta."
+    }
+  }
+}

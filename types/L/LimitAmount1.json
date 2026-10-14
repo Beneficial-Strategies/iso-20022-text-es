@@ -1,0 +1,15 @@
+{
+  "isoType": "LimitAmount1",
+  "definition": "Características del importe de dinero utilizadas para especificar un límite.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del límite, expresado en una moneda admisible."
+    },
+    "UtilisationAmount": {
+      "definition": "Importe de dinero utilizado del límite, expresado en una divisa admisible."
+    },
+    "AvailableAmount": {
+      "definition": "Importe de dinero restante del límite, expresado en una divisa admisible."
+    }
+  }
+}

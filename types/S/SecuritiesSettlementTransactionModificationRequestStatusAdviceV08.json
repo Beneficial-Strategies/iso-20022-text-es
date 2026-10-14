@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesSettlementTransactionModificationRequestStatusAdviceV08",
+  "definition": "Ámbito|Un administrador de cuentas envía un SecuritiesSettlementTransactionModificationRequestStatusAdvice a un titular de cuenta para comunicarle el estado de un mensaje SecuritiesSettlementModificationRequest enviado previamente por el titular de la cuenta.|El administrador de cuentas puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que gestiona operaciones de liquidación de valores por cuenta de sus participantes|- un custodio que actúa como agente contable y/o de liquidación.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado por el titular de la cuenta al administrador de cuentas,|- facilitar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo,|- reenviar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo|utilizando los elementos pertinentes de la Business Application Header.",
+  "isoElements": {
+    "ModificationRequestReference": {
+      "definition": "Referencia a la identificación inequívoca de la solicitud de cancelación según el titular de la cuenta."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

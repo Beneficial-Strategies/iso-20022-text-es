@@ -1,0 +1,47 @@
+{
+  "isoType": "GroupHeader125",
+  "definition": "Conjunto de características compartidas por todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar el mensaje de forma inequívoca.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por cada parte instruida durante un periodo previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "Authorisation": {
+      "definition": "Identificación de usuario o cualquier clave de usuario que se utilice para comprobar si la parte iniciadora está autorizada a iniciar operaciones desde la cuenta especificada en el mensaje.||Uso: El contenido no es de naturaleza técnica, sino que refleja la estructura organizativa del lado iniciador.|El elemento de autorización puede utilizarse normalmente en escenarios de retransmisión, iniciaciones de pago, devoluciones de pago o reversiones de pago que se inicien en nombre de una parte distinta de la parte iniciadora."
+    },
+    "BatchBooking": {
+      "definition": "Identifica si se solicita un único apunte por cada operación individual o un apunte en lote por la suma de los importes de todas las operaciones del grupo de un mensaje.|Uso: El lote se utiliza para solicitar, y no para ordenar, un posible apunte en lote."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, independientemente de las divisas."
+    },
+    "TotalInterbankSettlementAmount": {
+      "definition": "Importe total de dinero transferido entre la entidad instructora y la entidad instruida."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en que el importe deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se le debe."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica los detalles de cómo se completa la liquidación de la operación u operaciones entre la entidad instructora y la entidad instruida."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para ejecutar la instrucción o el conjunto de instrucciones."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad instruida por la parte anterior de la cadena para ejecutar la instrucción o el conjunto de instrucciones."
+    }
+  },
+  "isoRules": {
+    "TotalInterbankSettlementAmountAndDateRule": {
+      "definition": "Si TotalInterbankSettlementAmount está presente, entonces InterbankSettlementDate debe estar presente."
+    }
+  }
+}

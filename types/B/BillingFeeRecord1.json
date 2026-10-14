@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingFeeRecord1",
+  "definition": "Proporciona información sobre comisiones y gastos.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comisiones o gastos."
+    },
+    "Description": {
+      "definition": "Información adicional sobre los gastos o comisiones."
+    },
+    "Rate": {
+      "definition": "Tasa utilizada para calcular los gastos o comisiones."
+    },
+    "Amount": {
+      "definition": "Importe solicitado o pagado en concepto de gastos o comisiones."
+    }
+  }
+}

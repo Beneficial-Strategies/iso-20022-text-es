@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountIdentification70",
+  "definition": "Proporciona información de identificación de la cuenta.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Cuenta en la que se mantienen los instrumentos financieros."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde los instrumentos financieros están o estarán en custodia."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceRule": {
+      "definition": "SafekeepingPlace solo debe ser utilizado por los custodios globales que permiten a sus clientes especificar dónde se mantienen los valores, por ejemplo, en una cuenta de un ICSD frente a una cuenta en el CSD local."
+    }
+  }
+}

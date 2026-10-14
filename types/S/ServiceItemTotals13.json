@@ -1,0 +1,27 @@
+{
+  "isoType": "ServiceItemTotals13",
+  "definition": "Especifica los totales relacionados con la factura.",
+  "isoElements": {
+    "ItemType": {
+      "definition": "Especifica una clasificación de los elementos de servicio, como consulta, informe, cuenta de valores, etc."
+    },
+    "Description": {
+      "definition": "Descripción del elemento de servicio."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si la corrección es de débito o de crédito."
+    },
+    "Quantity": {
+      "definition": "Suma del número total de unidades por elemento de servicio."
+    },
+    "UnitPrice": {
+      "definition": "Especifica el precio por unidad del elemento de servicio."
+    },
+    "Tax": {
+      "definition": "Información detallada sobre el impuesto aplicado."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Importe total de la factura, que es la suma de los importes totales de las líneas de factura, el importe total de ajustes de la factura (descuentos, bonificaciones y gastos) y los importes totales de impuestos."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReferredDocumentType4",
+  "definition": "Especifica el tipo del documento al que se hace referencia en la información de remesa.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Proporciona los detalles del tipo del documento referenciado."
+    },
+    "Issuer": {
+      "definition": "Identificación del emisor del tipo de documento de referencia."
+    }
+  }
+}

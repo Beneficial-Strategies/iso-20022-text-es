@@ -1,0 +1,12 @@
+{
+  "isoType": "BasicCollateralValuation1Details",
+  "definition": "Detalles básicos de valoración de una posición de garantía.",
+  "isoElements": {
+    "ValuationHaircut": {
+      "definition": "Porcentaje de recorte (haircut) aplicado al valor de mercado de los activos subyacentes utilizados como garantía como medida de control del riesgo. La institución que valora la garantía calcula el valor de los activos subyacentes sobre la base de su valor de mercado menos un determinado porcentaje (el recorte)."
+    },
+    "HaircutSource": {
+      "definition": "Lugar donde se calculó el recorte de valoración."
+    }
+  }
+}

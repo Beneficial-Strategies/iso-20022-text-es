@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection102",
+  "definition": "Contabilización de una partida en una cuenta de efectivo, en el contexto de una operación de efectivo, que da lugar a un aumento o una disminución del saldo de la cuenta.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del apunte de efectivo."
+    },
+    "Sign": {
+      "definition": "Indica que el valor del importe es positivo o negativo."
+    }
+  }
+}

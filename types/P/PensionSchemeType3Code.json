@@ -1,0 +1,86 @@
+{
+  "isoType": "PensionSchemeType3Code",
+  "definition": "Especifica un tipo de plan de pensiones.",
+  "isoCodes": {
+    "AAVC": {
+      "name": "Aportación voluntaria adicional",
+      "definition": "El plan de pensiones es un plan de aportaciones voluntarias adicionales."
+    },
+    "DBEN": {
+      "name": "Prestación definida",
+      "definition": "El plan de pensiones es un plan de prestación definida."
+    },
+    "EXPP": {
+      "name": "Plan de pensiones de directivos",
+      "definition": "El plan de pensiones es un plan de pensiones para directivos."
+    },
+    "FAVC": {
+      "name": "Aportación voluntaria adicional independiente",
+      "definition": "El plan de pensiones es un plan independiente de aportaciones voluntarias adicionales."
+    },
+    "GPPS": {
+      "name": "Pensión personal de grupo",
+      "definition": "La pensión es una pensión personal de grupo."
+    },
+    "SIPG": {
+      "name": "Pensión de grupo autoinvertida",
+      "definition": "El plan de pensiones es un plan de pensiones de grupo autoinvertido."
+    },
+    "STKG": {
+      "name": "Stakeholder de grupo",
+      "definition": "El plan de pensiones es un plan de pensiones de grupo stakeholder."
+    },
+    "IPST": {
+      "name": "Pensión individual con ventaja fiscal",
+      "definition": "La pensión es un plan individual de ahorro para pensiones con ventaja fiscal. Se conoce como Individual Pension Schema (IPS) en algunos mercados."
+    },
+    "STKI": {
+      "name": "Stakeholder individual",
+      "definition": "El plan de pensiones es una pensión individual stakeholder."
+    },
+    "OTPM": {
+      "name": "Pensión profesional obligatoria",
+      "definition": "La pensión es una pensión de empleo obligatoria. Se conoce como Obligatory Occupation Pension (OTP) en algunos mercados."
+    },
+    "OCDC": {
+      "name": "Aportación definida profesional",
+      "definition": "El plan de pensiones es un plan de empleo de aportación definida."
+    },
+    "PPNS": {
+      "name": "Pensión personal",
+      "definition": "La pensión es un plan de pensiones personal."
+    },
+    "EPKA": {
+      "name": "Cuenta de pensión personal",
+      "definition": "La pensión es una cuenta de pensiones personal. Se conoce como Employee Pension Kapital (EPK) en algunos mercados."
+    },
+    "ITPO": {
+      "name": "Pensión profesional privada",
+      "definition": "La pensión es una pensión de empleo privada. Se conoce como industrial and trade supplementary pension (ITP) en algunos mercados."
+    },
+    "REAN": {
+      "name": "Renta de jubilación",
+      "definition": "El plan de pensiones es una renta vitalicia de jubilación."
+    },
+    "SC32": {
+      "name": "Sección 32",
+      "definition": "Tipo de pensión cubierto por la sección 32."
+    },
+    "S32A": {
+      "name": "Sección 32A",
+      "definition": "Tipo de pensión cubierto por la sección 32A."
+    },
+    "SIPP": {
+      "name": "Pensión personal autoinvertida",
+      "definition": "La pensión es un plan de pensiones personal autoinvertido."
+    },
+    "SSAS": {
+      "name": "Pequeño plan autoadministrado",
+      "definition": "La pensión es un plan de pensiones de pequeña dimensión autoadministrado."
+    },
+    "NWRP": {
+      "name": "Pensión sin envoltorio",
+      "definition": "Indica que la parte no gestiona el envoltorio de la pensión."
+    }
+  }
+}

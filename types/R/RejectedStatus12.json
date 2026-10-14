@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus12",
+  "definition": "Información de estado y cantidad relativa a una solicitud de instrucción rechazada.",
+  "isoElements": {
+    "RejectedQuantity": {
+      "definition": "Cantidad de valores instruidos cuyo procesamiento se rechaza."
+    },
+    "RejectedReason": {
+      "definition": "Motivo del estado rechazado."
+    }
+  }
+}

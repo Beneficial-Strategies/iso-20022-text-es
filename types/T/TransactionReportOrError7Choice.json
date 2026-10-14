@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionReportOrError7Choice",
+  "definition": "Elección entre las operaciones y los apuntes contabilizados mantenidos en el administrador de operaciones o un error operativo cuando no pueden recuperarse los datos solicitados.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Informa sobre operaciones de pago."
+    },
+    "OperationalError": {
+      "definition": "Indica que se ha emitido un error operativo durante el procesamiento de la solicitud relacionada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionQuantity13",
+  "definition": "Especifica las cantidades de la operación societaria.",
+  "isoElements": {
+    "BaseDenomination": {
+      "definition": "Importe integral mínimo de valores que debe conservar cada titular de cuenta tras aplicarse los importes amortizados."
+    },
+    "IncrementalDenomination": {
+      "definition": "Importe utilizado cuando el importe amortizado no se alcanza al realizar el sorteo con la denominación base."
+    }
+  }
+}

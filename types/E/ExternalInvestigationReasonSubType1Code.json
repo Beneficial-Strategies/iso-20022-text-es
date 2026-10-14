@@ -1,0 +1,378 @@
+{
+  "isoType": "ExternalInvestigationReasonSubType1Code",
+  "definition": "Especifica el subtipo de motivo de la investigación, tal como se publica en un conjunto externo de subtipos de códigos de motivo de investigación.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "MMNA": {
+      "name": "Discrepancia entre nombre y cuenta",
+      "definition": "El nombre y la cuenta no coinciden."
+    },
+    "RQAC": {
+      "name": "Solicitud de cuenta",
+      "definition": "Se solicita la cuenta."
+    },
+    "RQPP": {
+      "name": "Solicitud de copia del pasaporte",
+      "definition": "Se solicita copia del pasaporte."
+    },
+    "RQIN": {
+      "name": "Solicitud de copia de la factura",
+      "definition": "Se solicita copia de la factura."
+    },
+    "RQOW": {
+      "name": "Solicitud de confirmación de titularidad",
+      "definition": "Se solicita confirmación de la titularidad."
+    },
+    "RQDB": {
+      "name": "Solicitud de la fecha de nacimiento",
+      "definition": "Se solicita la fecha de nacimiento."
+    },
+    "RQCB": {
+      "name": "Solicitud de la ciudad de nacimiento",
+      "definition": "Se solicita la ciudad de nacimiento."
+    },
+    "RQPO": {
+      "name": "Solicitud de la provincia de nacimiento",
+      "definition": "Se solicita la provincia de nacimiento."
+    },
+    "RQCO": {
+      "name": "Solicitud del país de nacimiento",
+      "definition": "Se solicita el país de nacimiento."
+    },
+    "RQAT": {
+      "name": "Solicitud del tipo de dirección postal",
+      "definition": "Se solicita el tipo de dirección postal."
+    },
+    "RQDE": {
+      "name": "Solicitud del departamento de la dirección postal",
+      "definition": "Se solicita el departamento de la dirección postal."
+    },
+    "RQAS": {
+      "name": "Solicitud del subdepartamento de la dirección postal",
+      "definition": "Se solicita el subdepartamento de la dirección postal."
+    },
+    "RQSN": {
+      "name": "Solicitud del nombre de la calle de la dirección postal",
+      "definition": "Se solicita el nombre de la calle de la dirección postal."
+    },
+    "RQB1": {
+      "name": "Solicitud del número de edificio de la dirección postal",
+      "definition": "Se solicita el número de edificio de la dirección postal."
+    },
+    "RQBN": {
+      "name": "Solicitud del nombre del edificio de la dirección postal",
+      "definition": "Se solicita el nombre del edificio de la dirección postal."
+    },
+    "RQFL": {
+      "name": "Solicitud de la planta de la dirección postal",
+      "definition": "Se solicita la planta de la dirección postal."
+    },
+    "RQPB": {
+      "name": "Solicitud del apartado de correos de la dirección postal",
+      "definition": "Se solicita el apartado de correos de la dirección postal."
+    },
+    "RQRO": {
+      "name": "Solicitud de la habitación de la dirección postal",
+      "definition": "Se solicita la habitación de la dirección postal."
+    },
+    "RQPC": {
+      "name": "Solicitud del código postal de la dirección postal",
+      "definition": "Se solicita el código postal de la dirección postal."
+    },
+    "RQTN": {
+      "name": "Solicitud del nombre de la localidad de la dirección postal",
+      "definition": "Se solicita el nombre de la localidad de la dirección postal."
+    },
+    "RQTL": {
+      "name": "Solicitud del nombre de la ubicación en la localidad de la dirección postal",
+      "definition": "Se solicita el nombre de la ubicación de la localidad de la dirección postal."
+    },
+    "RQDN": {
+      "name": "Solicitud del nombre del distrito de la dirección postal",
+      "definition": "Se solicita el nombre del distrito de la dirección postal."
+    },
+    "RQCS": {
+      "name": "Solicitud de la subdivisión del país de la dirección postal",
+      "definition": "Se solicita la subdivisión del país de la dirección postal."
+    },
+    "RQCC": {
+      "name": "Solicitud del país de la dirección postal",
+      "definition": "Se solicita el país de la dirección postal."
+    },
+    "RQAL": {
+      "name": "Solicitud de la línea de la dirección postal",
+      "definition": "Se solicita la línea de la dirección postal."
+    },
+    "RQPA": {
+      "name": "Solicitud de la dirección postal completa",
+      "definition": "Se solicita la dirección postal completa."
+    },
+    "RQNM": {
+      "name": "Solicitud del nombre completo",
+      "definition": "Se solicita el nombre completo."
+    },
+    "ARNU": {
+      "name": "Solicitud del número de registro de extranjero",
+      "definition": "Se solicita el Alien Registration Number."
+    },
+    "CCPT": {
+      "name": "Solicitud del número de pasaporte",
+      "definition": "Se solicita el número de pasaporte."
+    },
+    "DRLC": {
+      "name": "Solicitud del número del permiso de conducir",
+      "definition": "Se solicita el número del permiso de conducir."
+    },
+    "EMPL": {
+      "name": "Solicitud del número de identificación de empleado",
+      "definition": "Se solicita el número de identificación del empleado."
+    },
+    "NIDN": {
+      "name": "Solicitud del número de identidad nacional",
+      "definition": "Se solicita el número de identidad nacional."
+    },
+    "SOSE": {
+      "name": "Solicitud del número de la Seguridad Social",
+      "definition": "Se solicita el número de la seguridad social."
+    },
+    "TELE": {
+      "name": "Solicitud del número de teléfono",
+      "definition": "Se solicita el número de teléfono."
+    },
+    "TXID": {
+      "name": "Solicitud del número de identificación fiscal",
+      "definition": "Se solicita el número de identificación fiscal."
+    },
+    "POID": {
+      "name": "Solicitud de la identificación comercial de la persona",
+      "definition": "Se solicita la identificación comercial de la persona."
+    },
+    "BANK": {
+      "name": "Solicitud de la identificación bancaria de la parte",
+      "definition": "Se solicita la identificación de la parte bancaria. Se trata de una asignación única e inequívoca efectuada por un banco concreto o entidad financiera similar para identificar una relación definida entre el banco y su cliente."
+    },
+    "CBID": {
+      "name": "Solicitud del número de identificación del banco central",
+      "definition": "Se solicita el número de identificación del banco central. Se trata de un número de identificación único asignado por un banco central para identificar a una organización."
+    },
+    "CHID": {
+      "name": "Solicitud del número de identificación de compensación",
+      "definition": "Se solicita el número de identificación de compensación. Se trata de un número de identificación único asignado por una cámara de compensación para identificar a una organización"
+    },
+    "CINC": {
+      "name": "Solicitud del número del certificado de constitución",
+      "definition": "Se solicita el número del certificado de constitución. Se trata de un número de identificación único asignado por una autoridad designada a un certificado de constitución y utilizado para identificar a una organización."
+    },
+    "COID": {
+      "name": "Solicitud del código de identificación del país",
+      "definition": "Se solicita el código de identificación del país. Se trata de una identificación de organización otorgada por una autoridad del país (por ejemplo, el número de registro mercantil)"
+    },
+    "CUST": {
+      "name": "Solicitud del número de cliente",
+      "definition": "Se solicita el número de cliente. Se trata de un número asignado por un emisor para identificar a un cliente o de un número asignado por una parte para identificar una relación de beneficiario u ordenante."
+    },
+    "DUNS": {
+      "name": "Solicitud del sistema universal de numeración de datos",
+      "definition": "Se solicita el número universal de datos. Se trata de un número de identificación único proporcionado por Dun & Bradstreet para identificar a una organización."
+    },
+    "GS1G": {
+      "name": "Solicitud del identificador GS1 GLN",
+      "definition": "Se solicita el identificador GS1GLN (Global location number). Se trata de un número de referencia no significativo utilizado para identificar entidades jurídicas, entidades funcionales o entidades físicas según las reglas de numeración de GS1. El número se utiliza para recuperar la información detallada vinculada a él."
+    },
+    "SREN": {
+      "name": "Solicitud del SIREN",
+      "definition": "Se solicita el número SIREN. Se trata de un código de 9 dígitos asignado por el INSEE, el Instituto Nacional de Estadística y Estudios Económicos de Francia, para identificar a una organización en Francia."
+    },
+    "SRET": {
+      "name": "Solicitud del SIRET",
+      "definition": "Se solicita el número SIRET. Se trata de un código de 14 dígitos asignado por el INSEE, el Instituto Nacional de Estadística y Estudios Económicos de Francia, para identificar a una unidad de una organización en Francia. Consta del número SIREN, seguido de un número de clasificación de cinco dígitos, para identificar la unidad geográfica local de dicha entidad"
+    },
+    "BDID": {
+      "name": "Solicitud del identificador del dominio empresarial",
+      "definition": "Se solicita el identificador del ámbito empresarial en el que opera la organización."
+    },
+    "BOID": {
+      "name": "Solicitud de otra identificación empresarial",
+      "definition": "Se solicita otra identificación de la organización."
+    },
+    "RQLE": {
+      "name": "Solicitud del LEI",
+      "definition": "Se solicita el identificador de entidad jurídica."
+    },
+    "RQNA": {
+      "name": "Solicitud de la nacionalidad",
+      "definition": "Se solicita la nacionalidad."
+    },
+    "RQCZ": {
+      "name": "Solicitud de la ciudadanía",
+      "definition": "Se solicita la ciudadanía."
+    },
+    "RQRE": {
+      "name": "Solicitud de la relación entre ordenante y beneficiario",
+      "definition": "Se solicita la relación entre ordenante y beneficiario."
+    },
+    "RQOC": {
+      "name": "Solicitud de la ocupación",
+      "definition": "Se solicita la ocupación."
+    },
+    "RQID": {
+      "name": "Solicitud del sector",
+      "definition": "Se solicita el sector."
+    },
+    "RICD": {
+      "name": "Solicitud de la fecha de constitución",
+      "definition": "Se solicita la fecha de constitución."
+    },
+    "RICC": {
+      "name": "Solicitud del país de constitución",
+      "definition": "Se solicita el país de constitución/país de registro."
+    },
+    "RCBL": {
+      "name": "Solicitud de los países de todas las ubicaciones de negocio",
+      "definition": "Se solicitan los países de todas las ubicaciones de negocio/operaciones."
+    },
+    "RQLB": {
+      "name": "Solicitud de la línea de negocio",
+      "definition": "Se solicita la línea de negocio."
+    },
+    "RQON": {
+      "name": "Solicitud de la ubicación de cualquier comercio posterior de bienes o servicios",
+      "definition": "Se solicita la ubicación de cualquier comercio posterior de bienes o servicios."
+    },
+    "RQCI": {
+      "name": "Solicitud de los países implicados en la operación",
+      "definition": "Se solicita el detalle de todos los países implicados en la operación."
+    },
+    "RQDS": {
+      "name": "Solicitud de detalles de los servicios",
+      "definition": "Se solicita el detalle de los servicios."
+    },
+    "RQDG": {
+      "name": "Solicitud de detalles de los bienes",
+      "definition": "Se solicita el detalle de los bienes."
+    },
+    "RQLS": {
+      "name": "Solicitud de la ubicación de los servicios",
+      "definition": "Se solicita la ubicación donde se prestan los servicios."
+    },
+    "RQGF": {
+      "name": "Solicitud del destino final de los bienes",
+      "definition": "Se solicita el destino final de los bienes."
+    },
+    "RQSD": {
+      "name": "Solicitud de la fecha de los servicios",
+      "definition": "Se solicita la fecha en que se prestan los servicios."
+    },
+    "RQGD": {
+      "name": "Solicitud de la fecha de los bienes",
+      "definition": "Se solicita la fecha en que los bienes cambian oficialmente de titularidad."
+    },
+    "RQUS": {
+      "name": "Solicitud del estado de vinculación con US",
+      "definition": "Se solicita confirmación de si US es un nexo de la operación."
+    },
+    "RQBL": {
+      "name": "Solicitud del conocimiento de embarque",
+      "definition": "Se solicita el conocimiento de embarque."
+    },
+    "RQCD": {
+      "name": "Solicitud de la declaración de aduanas",
+      "definition": "Se solicita la declaración de aduanas."
+    },
+    "RQTD": {
+      "name": "Solicitud de la documentación de transporte",
+      "definition": "Se solicita la documentación de transporte."
+    },
+    "RQHS": {
+      "name": "Solicitud de los códigos HS de los bienes suministrados",
+      "definition": "Se solicita el código HS de los bienes."
+    },
+    "RQAB": {
+      "name": "Solicitud de la guía aérea",
+      "definition": "Se solicita la carta de porte aéreo."
+    },
+    "RQIM": {
+      "name": "Solicitud del buque IMO implicado",
+      "definition": "Se solicita el IMO del buque."
+    },
+    "RQTA": {
+      "name": "Solicitud del número de cola de la aeronave implicada",
+      "definition": "Se solicita la matrícula de la aeronave."
+    },
+    "RCOO": {
+      "name": "Solicitud del país de origen",
+      "definition": "Se solicita el país de origen."
+    },
+    "RQUO": {
+      "name": "Solicitud del titular subyacente",
+      "definition": "Se solicita el propietario subyacente."
+    },
+    "RQCT": {
+      "name": "Solicitud de los países de tránsito entre ordenante y beneficiario en la operación",
+      "definition": "Se solicitan los países de tránsito entre el ordenante y el beneficiario."
+    },
+    "RQDV": {
+      "name": "Solicitud de las fechas del viaje de los bienes o servicios referenciados en la operación",
+      "definition": "Se solicitan las fechas del viaje de los bienes o servicios."
+    },
+    "RPOC": {
+      "name": "Solicitud de los puertos de escala",
+      "definition": "Se solicitan los puertos de escala."
+    },
+    "RQCM": {
+      "name": "Solicitud de si el pago es de naturaleza civil o militar",
+      "definition": "Se solicita confirmación de si la operación es de naturaleza civil o militar."
+    },
+    "RQUP": {
+      "name": "Solicitud de las partes finales implicadas, incluido el origen de los fondos",
+      "definition": "Se solicitan las partes finales y el origen de los fondos."
+    },
+    "RQLP": {
+      "name": "Solicitud de si se aplica o requiere una licencia para el pago",
+      "definition": "Se solicita la licencia aplicable o requerida para el pago."
+    },
+    "RQIC": {
+      "name": "Solicitud de si interviene el sector benéfico",
+      "definition": "Se solicita confirmación de si el sector benéfico participa en la operación."
+    },
+    "RQKC": {
+      "name": "Solicitud de la certificación Kimberley",
+      "definition": "Se solicita la certificación Kimberley."
+    },
+    "RQGL": {
+      "name": "Solicitud de copia de la licencia general",
+      "definition": "Se solicita copia de la licencia general."
+    },
+    "RQSL": {
+      "name": "Solicitud de copia de la licencia específica",
+      "definition": "Se solicita copia de la licencia específica."
+    },
+    "RQDP": {
+      "name": "Solicitud de la finalidad detallada del pago",
+      "definition": "Se solicita la finalidad detallada del pago."
+    },
+    "RQBW": {
+      "name": "Solicitud del sitio web de la empresa",
+      "definition": "Se solicita el sitio web de la empresa."
+    },
+    "RQOG": {
+      "name": "Solicitud del origen de los bienes",
+      "definition": "Se solicita el origen de los bienes."
+    },
+    "RQUU": {
+      "name": "Solicitud del usuario final y el uso de los bienes o servicios",
+      "definition": "Se solicitan el usuario final y el uso de los bienes o servicios."
+    },
+    "MISS": {
+      "name": "Ausente",
+      "definition": "Falta información."
+    },
+    "INVA": {
+      "name": "No válido",
+      "definition": "La información no es válida."
+    },
+    "ICOM": {
+      "name": "Incompleto",
+      "definition": "La información está incompleta."
+    }
+  }
+}

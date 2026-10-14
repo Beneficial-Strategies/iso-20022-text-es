@@ -1,0 +1,10 @@
+{
+  "isoType": "PortfolioWithdrawalReason1Code",
+  "definition": "Especifica un motivo de retirada del producto de inversión.",
+  "isoCodes": {
+    "FTRS": {
+      "name": "Primera vivienda",
+      "definition": "La retirada es para una primera vivienda."
+    }
+  }
+}

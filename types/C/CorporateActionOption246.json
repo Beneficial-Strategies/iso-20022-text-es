@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionOption246",
+  "definition": "Proporciona información sobre la opción de operación societaria.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de valores vinculado a la opción de operación societaria."
+    },
+    "CashMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de efectivo relacionado con una opción de operación corporativa."
+    }
+  }
+}

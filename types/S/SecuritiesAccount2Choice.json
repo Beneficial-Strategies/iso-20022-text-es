@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccount2Choice",
+  "definition": "Especifica una cuenta de valores o un rango de cuentas de valores.",
+  "isoElements": {
+    "Range": {
+      "definition": "Rango de identificaciones de las cuentas de valores."
+    },
+    "Account": {
+      "definition": "Identificación única de la cuenta de valores."
+    }
+  }
+}

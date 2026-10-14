@@ -1,0 +1,114 @@
+{
+  "isoType": "PendingProcessingReason4Code",
+  "definition": "Especifica el motivo por el que la operación o instrucción incumple la liquidación. La liquidación en la fecha de liquidación instruida ya no es posible.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "La instrucción se recibió después del plazo límite de la entidad gestora de la cuenta. Se procesa en la medida de lo posible."
+    },
+    "CAIS": {
+      "name": "A la espera de valores",
+      "definition": "En espera de instrumentos financieros procedentes de una operación societaria u otro procedimiento, por ejemplo, conversión, desmaterialización, canje, registro, estampillado o división."
+    },
+    "DOCY": {
+      "name": "A la espera de documentos o endosos de su parte",
+      "definition": "A la espera de documentos o endosos de su parte."
+    },
+    "NOFX": {
+      "name": "Sin instrucción de cambio de divisas",
+      "definition": "Falta una instrucción de cambio de divisas de su parte."
+    },
+    "BLOC": {
+      "name": "Cuenta bloqueada",
+      "definition": "Su cuenta está bloqueada; ninguna instrucción puede liquidarse a través de la cuenta."
+    },
+    "MUNO": {
+      "name": "Importe de liquidación múltiple",
+      "definition": "La cantidad instruida no es múltiplo de un lote de liquidación existente para el instrumento financiero."
+    },
+    "GLOB": {
+      "name": "Valores en forma global",
+      "definition": "No se puede ejecutar la liquidación; los instrumentos financieros están en forma global."
+    },
+    "YCOL": {
+      "name": "Insuficiencia de garantías",
+      "definition": "Garantía insuficiente en su cuenta para ejecutar la instrucción."
+    },
+    "COLL": {
+      "name": "Valores pignorados como garantía",
+      "definition": "Los instrumentos financieros no son entregables porque están pignorados como garantía."
+    },
+    "FLIM": {
+      "name": "Límite máximo de extranjeros alcanzado",
+      "definition": "Instrumentos financieros entregables insuficientes en su cuenta porque se ha alcanzado el límite máximo para extranjeros."
+    },
+    "NEXT": {
+      "name": "Siguiente proceso",
+      "definition": "Se inicia el siguiente proceso. No hay problemas de procesamiento pendientes que notificar."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "Instrumentos financieros insuficientes en su cuenta."
+    },
+    "LALO": {
+      "name": "Valores prestados",
+      "definition": "Los instrumentos financieros están prestados."
+    },
+    "MONY": {
+      "name": "Fondos insuficientes",
+      "definition": "Fondos insuficientes en su cuenta."
+    },
+    "MINO": {
+      "name": "Importe mínimo de liquidación",
+      "definition": "La cantidad instruida es inferior a la cantidad mínima de liquidación existente para el instrumento financiero."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "DENO": {
+      "name": "Cantidad denominada entregable no disponible",
+      "definition": "La cantidad instruida no coincide con la denominación disponible o entregable. Los valores físicos deben obtenerse en cantidades de denominaciones entregables."
+    },
+    "LIQU": {
+      "name": "Liquidez insuficiente en el banco central",
+      "definition": "La liquidez del banco central es insuficiente."
+    },
+    "CERT": {
+      "name": "Números de certificados incorrectos",
+      "definition": "Error en el número de certificado."
+    },
+    "CSDH": {
+      "name": "Retención del CSD",
+      "definition": "El depositario central de valores pone la instrucción en modo de retención/bloqueo/preaviso."
+    },
+    "CVAL": {
+      "name": "Validación del CSD",
+      "definition": "La instrucción está en modo de retención/bloqueo/preaviso porque cumple condiciones predefinidas de un tipo de procesamiento de restricción en la plataforma de la infraestructura de mercado."
+    },
+    "CDEL": {
+      "name": "Entrega condicional",
+      "definition": "La instrucción está en modo de retención/bloqueo/preaviso porque cumple reglas predefinidas de entrega condicional en la plataforma de la infraestructura de mercado para entrega condicional."
+    },
+    "CDLR": {
+      "name": "Entrega condicional pendiente de liberación",
+      "definition": "La instrucción está en modo de retención/bloqueo/preaviso. La plataforma de la infraestructura de mercado está a la espera de su liberación."
+    },
+    "CDAC": {
+      "name": "Entrega condicional pendiente de cancelación",
+      "definition": "A la espera de la cancelación por una de las partes."
+    },
+    "INBC": {
+      "name": "Recuento de números incompleto",
+      "definition": "No se han recibido todas las instrucciones que forman parte de un conjunto."
+    },
+    "PREA": {
+      "name": "Su instrucción retenida",
+      "definition": "Su instrucción es un preaviso, es decir, solo para casamiento."
+    },
+    "PRSY": {
+      "name": "Sistema en espera",
+      "definition": "El sistema ha puesto la operación en espera o la ha congelado."
+    }
+  }
+}

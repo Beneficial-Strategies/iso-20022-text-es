@@ -1,0 +1,14 @@
+{
+  "isoType": "DistributionPolicy1Code",
+  "definition": "Especifica si los ingresos se van a pagar (distribuir) o a retener (acumular).",
+  "isoCodes": {
+    "DIST": {
+      "name": "Distribución",
+      "definition": "Los ingresos se distribuyen entre los inversores del fondo."
+    },
+    "ACCU": {
+      "name": "Acumulación",
+      "definition": "Los ingresos se añaden al capital del fondo."
+    }
+  }
+}

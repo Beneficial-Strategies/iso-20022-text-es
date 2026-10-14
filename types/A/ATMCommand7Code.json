@@ -1,0 +1,74 @@
+{
+  "isoType": "ATMCommand7Code",
+  "definition": "Tipo de comando ejecutado por el cajero automático (ATM).",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Balance del ATM",
+      "definition": "Proporcionar los contadores del cajero automático (ATM), reiniciando los que correspondan."
+    },
+    "ASTS": {
+      "name": "Actualización de estado del ATM",
+      "definition": "Estado del cajero automático (ATM) solicitado por el gestor de ATM."
+    },
+    "CFGT": {
+      "name": "Actualización de configuración",
+      "definition": "Actualizar los parámetros de configuración del cajero automático (ATM)."
+    },
+    "CCNT": {
+      "name": "Consulta de contadores",
+      "definition": "Solicitar el valor de los contadores del cajero automático (ATM)."
+    },
+    "DISC": {
+      "name": "Desconexión",
+      "definition": "Realizar una desconexión seguida de una reconexión."
+    },
+    "KACT": {
+      "name": "Activación de claves",
+      "definition": "Activar claves criptográficas."
+    },
+    "KDAC": {
+      "name": "Desactivación de claves",
+      "definition": "Desactivar claves criptográficas."
+    },
+    "KDWL": {
+      "name": "Descarga de claves",
+      "definition": "Iniciar una descarga de claves criptográficas."
+    },
+    "KRMV": {
+      "name": "Eliminación de claves",
+      "definition": "Eliminar claves criptográficas."
+    },
+    "SCFU": {
+      "name": "Actualización de configuración del dispositivo de seguridad",
+      "definition": "Actualizar la configuración del módulo de seguridad hardware del cajero automático (ATM)."
+    },
+    "SSCU": {
+      "name": "Actualización de esquema del dispositivo de seguridad",
+      "definition": "Actualizar el esquema de seguridad del módulo de seguridad hardware del cajero automático (ATM)."
+    },
+    "SSTU": {
+      "name": "Actualización de estado del dispositivo de seguridad",
+      "definition": "Actualizar el estado del módulo de seguridad hardware del cajero automático (ATM)."
+    },
+    "SNDM": {
+      "name": "Envío de mensaje",
+      "definition": "Enviar un mensaje específico para iniciar un proceso."
+    },
+    "HKCG": {
+      "name": "Sustitución de clave HLA",
+      "definition": "Sustituir una clave existente mediante una clave de la autoridad de nivel superior (HLA, Higher Level Authority). En el esquema TR34 se utilizaría para implementar una operación HLA Rebind."
+    },
+    "HKRV": {
+      "name": "Eliminación de clave HLA",
+      "definition": "Eliminar una clave criptográfica mediante una clave de la autoridad de nivel superior (HLA, Higher Level Authority). En el esquema TR34 se utilizaría para implementar una operación HLA Unbind."
+    },
+    "KCHG": {
+      "name": "Sustitución de clave",
+      "definition": "Sustituye una clave criptográfica existente. En un esquema TR34 se utilizaría para implementar una operación Rebind."
+    },
+    "RREQ": {
+      "name": "Solicitud de conciliación",
+      "definition": "Enviar un mensaje ReconciliationRequest."
+    }
+  }
+}

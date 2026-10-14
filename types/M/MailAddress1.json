@@ -1,0 +1,12 @@
+{
+  "isoType": "MailAddress1",
+  "definition": "Dirección de correo electrónico y postal.",
+  "isoElements": {
+    "Correspondence": {
+      "definition": "Dirección postal para la correspondencia."
+    },
+    "EmailAddress": {
+      "definition": "Dirección de correo electrónico (e-mail)."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "BookingConfirmation8",
+  "definition": "Especifica los detalles de contabilización de la operación o apunte subyacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero de la operación o apunte que ha adeudado o abonado una cuenta."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si la contabilización es un abono o un adeudo."
+    },
+    "ExchangeRate": {
+      "definition": "Proporciona información sobre el tipo de cambio utilizado en la operación o apunte."
+    },
+    "Account": {
+      "definition": "Cuenta que la operación o apunte ha adeudado o abonado."
+    },
+    "BookingDate": {
+      "definition": "Fecha y hora en que un apunte se contabiliza en una cuenta en los libros de la entidad gestora de la cuenta."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que los activos pasan a estar disponibles para el titular de la cuenta en caso de un apunte de abono, o dejan de estar disponibles para el titular de la cuenta en caso de un apunte de adeudo."
+    },
+    "References": {
+      "definition": "Proporciona la identificación de la operación o apunte. Puede ser utilizada por el originador de la investigación para localizar ahora la operación o apunte."
+    },
+    "Charges": {
+      "definition": "Proporciona información sobre los gastos relativos a la operación o apunte."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la respuesta de confirmación."
+    }
+  }
+}

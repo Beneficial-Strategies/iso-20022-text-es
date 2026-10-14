@@ -1,0 +1,12 @@
+{
+  "isoType": "FXStandingInstruction5Choice",
+  "definition": "Elección de formato para la información de la instrucción permanente de divisas.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si debe aplicarse la instrucción permanente de divisas vigente."
+    },
+    "Proprietary": {
+      "definition": "Información de la instrucción permanente de divisas (FX) expresada como un código propio."
+    }
+  }
+}

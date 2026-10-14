@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMEnvironment20",
+  "definition": "Entorno de las excepciones.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Adquirente de las operaciones, encargado de la liquidación de fondos con el emisor."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identificación del gestor de cajeros automáticos (ATM)."
+    },
+    "HostingEntity": {
+      "definition": "Entidad que aloja el terminal del cajero automático (ATM)."
+    },
+    "ATM": {
+      "definition": "Información del cajero automático (ATM)."
+    },
+    "Customer": {
+      "definition": "Cliente que interviene en la operación."
+    },
+    "Card": {
+      "definition": "Tarjeta que realiza la operación."
+    }
+  }
+}

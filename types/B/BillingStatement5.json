@@ -1,0 +1,45 @@
+{
+  "isoType": "BillingStatement5",
+  "definition": "Detalles del extracto que informa de la facturación de los servicios bancarios.",
+  "isoElements": {
+    "StatementIdentification": {
+      "definition": "Identificación del extracto de facturación del cliente."
+    },
+    "FromToDate": {
+      "definition": "Intervalo de fechas, entre la fecha de inicio y la fecha de fin, al que corresponde el extracto emitido."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha de creación del mensaje de extracto."
+    },
+    "Status": {
+      "definition": "Define el estado del extracto."
+    },
+    "AccountCharacteristics": {
+      "definition": "Especifica los detalles de las características de la cuenta."
+    },
+    "RateData": {
+      "definition": "Identifica los valores de tasa anual y de factor no fiscales utilizados en el extracto, junto con cualquier base de cargo dependiente del tiempo."
+    },
+    "CurrencyExchange": {
+      "definition": "Especifica los detalles relativos a los datos de cambio de divisas."
+    },
+    "Balance": {
+      "definition": "Identifica el valor medio de los saldos mantenidos durante el periodo del extracto."
+    },
+    "Compensation": {
+      "definition": "Identifica el conjunto de valores y totales utilizados para proporcionar información de compensación y totales de servicios e impuestos."
+    },
+    "Service": {
+      "definition": "Especifica los valores utilizados para cada línea de servicio del extracto."
+    },
+    "TaxRegion": {
+      "definition": "Región fiscal que aplica un impuesto a los servicios incluidos en este extracto."
+    },
+    "BalanceAdjustment": {
+      "definition": "Una o varias secciones que identifican ajustes de saldo o de flotante de la cuenta. Pueden reflejar ajustes del extracto actual o de extractos de periodos de información anteriores."
+    },
+    "ServiceAdjustment": {
+      "definition": "Una o varias secciones que identifican ajustes de servicio por partida de la cuenta. Reflejan ajustes de extractos de periodos de información anteriores."
+    }
+  }
+}

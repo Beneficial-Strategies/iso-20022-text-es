@@ -1,0 +1,15 @@
+{
+  "isoType": "TotalEligibleBalanceFormat11",
+  "definition": "Saldo total admisible para la operación societaria y unidades de periodo completo y parcial.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Proporciona información sobre el saldo relacionado con una operación societaria."
+    },
+    "FullPeriodUnits": {
+      "definition": "Número de participaciones de un fondo que se adquirieron en un periodo de distribución anterior y/o se mantenían al comienzo de un periodo de distribución, por ejemplo, las participaciones del Grupo I en el UK."
+    },
+    "PartWayPeriodUnits": {
+      "definition": "Número de participaciones de un fondo que se adquirieron durante un periodo de distribución, por ejemplo, las participaciones del Grupo II en el U.K."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalParameters1",
+  "definition": "Criterios de ordenación.",
+  "isoElements": {
+    "Country": {
+      "definition": "Especifica el país."
+    },
+    "Currency": {
+      "definition": "Especifica la divisa."
+    },
+    "GeographicalArea": {
+      "definition": "Especifica la zona geográfica, por ejemplo, Asia-Pacífico, Europa, Oriente Medio."
+    }
+  }
+}

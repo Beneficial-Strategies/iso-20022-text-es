@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMReconciliationRequestComponent1",
+  "definition": "Información relativa a un intercambio de conciliación.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno de la operación."
+    },
+    "Transaction": {
+      "definition": "Información de la operación de conciliación."
+    }
+  }
+}

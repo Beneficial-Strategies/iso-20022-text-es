@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus68Choice",
+  "definition": "Elección del formato del estado de tratamiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado de una instrucción."
+    },
+    "Proprietary": {
+      "definition": "Especifica una elección de estado para el tratamiento de un movimiento intrasaldo."
+    }
+  }
+}

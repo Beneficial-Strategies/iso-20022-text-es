@@ -1,0 +1,14 @@
+{
+  "isoType": "CertificationFormatType1Code",
+  "definition": "Especifica el formato de certificación requerido, es decir, formato físico o electrónico.",
+  "isoCodes": {
+    "ELEC": {
+      "name": "Electrónico",
+      "definition": "La certificación debe proporcionarse en formato electrónico."
+    },
+    "PHYS": {
+      "name": "Física",
+      "definition": "La certificación debe proporcionarse en formato físico."
+    }
+  }
+}

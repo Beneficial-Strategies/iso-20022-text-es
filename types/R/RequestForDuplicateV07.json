@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForDuplicateV07",
+  "definition": "Alcance|El mensaje RequestForDuplicate lo envía el asignatario del caso al creador o al asignador del caso.|Este mensaje se utiliza para solicitar una copia de la instrucción de pago original a la que se refiere el caso.|Uso|El mensaje RequestForDuplicate:|- debe responderse con un mensaje Duplicate;|- debe utilizarse cuando el asignatario del caso solicita una copia de la instrucción de pago original. Esto ocurre, por ejemplo, cuando el asignatario del caso no puede localizar la instrucción de pago a partir de los elementos mencionados en el mensaje de asignación del caso;|- abarca una única instrucción cada vez. Si el asignatario del caso necesita varias copias de instrucciones de pago, deben enviarse varios mensajes RequestForDuplicate;|- debe utilizarse exclusivamente entre el asignatario del caso y su creador o asignador del caso."
+}

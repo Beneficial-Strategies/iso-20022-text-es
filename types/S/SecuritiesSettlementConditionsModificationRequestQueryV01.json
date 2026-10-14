@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesSettlementConditionsModificationRequestQueryV01",
+  "definition": "El mensaje SecuritiesSettlementConditionsModificationRequestQuery es enviado por un titular de cuenta o solicitante a una infraestructura de liquidación para consultar el estado de las instrucciones de modificación de liquidación o de movimiento intraposición según un conjunto de criterios de búsqueda o atributos de negocio.|El mensaje también puede utilizarse para: |- reenviar un mensaje enviado por el titular de la cuenta a la entidad gestora de la cuenta (la subfunción del mensaje es «Duplicate») |- proporcionar a un tercero una copia, a título informativo, de un mensaje enviado por el titular de la cuenta (la subfunción del mensaje es «Copy») |- reenviar a un tercero una copia, a título informativo, de un mensaje enviado por el titular de la cuenta (la subfunción del mensaje es «Copy Duplicate»)."
+}

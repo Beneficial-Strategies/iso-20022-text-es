@@ -1,0 +1,89 @@
+{
+  "isoType": "Transfer38",
+  "definition": "Parámetros aplicados a la liquidación de una transferencia de valores.",
+  "isoElements": {
+    "TransferConfirmationReference": {
+      "definition": "Identificador único e inequívoco de la ejecución de la transferencia, asignado por la parte confirmante."
+    },
+    "TransferReference": {
+      "definition": "Identificador único e inequívoco de la instrucción de transferencia, asignado por la parte instructora."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de la transferencia por parte del inversor. Esta referencia suele poder utilizarse en un escenario de concentrador (hub) para indicar la referencia de la transferencia asignada por el cliente subyacente."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificación inequívoca de la transferencia asignada por la contraparte."
+    },
+    "BusinessFlowType": {
+      "definition": "Identifica el proceso de negocio en el que participan los actores. Esto es importante para activar el proceso de negocio correcto, según el modelo de negocio del mercado, que puede requerir la correspondencia de instrucciones en un entorno CSD (proceso de doble tramo) o no (proceso de tramo único)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Fecha y hora en que se van a intercambiar los valores en el depositario central internacional de valores (ICSD) o en el depositario central de valores (CSD)."
+    },
+    "EffectiveTransferDate": {
+      "definition": "Fecha y hora en que se ejecutó la transferencia."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Fecha y hora en que se intercambiaron los valores en el Depositario Central de Valores Internacional (ICSD) o Depositario Central de Valores (CSD)."
+    },
+    "TradeDate": {
+      "definition": "Fecha y hora en que la operación se completa y se compensa, es decir, se entregan los valores."
+    },
+    "TransferOrderDateForm": {
+      "definition": "Fecha en que el inversor firmó el formulario de orden de transferencia."
+    },
+    "TransferReason": {
+      "definition": "Motivo de la transferencia."
+    },
+    "HoldingsPlanType": {
+      "definition": "Especifica información sobre los planes de inversión incluidos en la posición."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Información relativa al instrumento financiero transferido."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Número de unidades transferidas."
+    },
+    "TransferRate": {
+      "definition": "Cantidad de valores transferidos como porcentaje de la posición."
+    },
+    "UnitsDetails": {
+      "definition": "Desglose de las unidades transferidas."
+    },
+    "Rounding": {
+      "definition": "Sentido del redondeo aplicado a la unidad más próxima."
+    },
+    "OriginalCost": {
+      "definition": "Importe original pagado por el activo en el momento de la compra. También puede conocerse como coste contable."
+    },
+    "AveragePrice": {
+      "definition": "Precio medio ponderado de las unidades en la cuenta antes de ejecutarse la transferencia."
+    },
+    "NewAveragePrice": {
+      "definition": "Precio medio ponderado de las unidades en la cuenta después de ejecutarse la transferencia."
+    },
+    "AverageDate": {
+      "definition": "Fecha de contratación de los datos medios ponderados de las unidades en la cuenta antes de ejecutarse la transferencia."
+    },
+    "NewAverageDate": {
+      "definition": "Fecha de contratación de los datos medios ponderados de las unidades en la cuenta después de ejecutarse la transferencia."
+    },
+    "TransferCurrency": {
+      "definition": "Divisa utilizada para transferir las posiciones. Algunos agentes de transferencias registran las posiciones agrupadas por divisa, además de utilizar el ISIN, en el caso de participaciones de fondos multidivisa."
+    },
+    "OwnAccountTransferIndicator": {
+      "definition": "Indica si la transferencia da lugar a un cambio de titular real."
+    },
+    "NonStandardSettlementInformation": {
+      "definition": "Información de liquidación específica adicional para fondos no negociados en mercados regulados."
+    },
+    "TransferExpensesPaymentType": {
+      "definition": "Especifica cómo se cubre el pago de comisiones e impuestos resultantes de la transferencia, es decir, si es en efectivo o mediante el reembolso de participaciones."
+    }
+  },
+  "isoRules": {
+    "TotalUnitsNumberRule": {
+      "definition": "TotalUnitsNumber debe ser la suma de todas las apariciones de UnitsDetails/UnitsNumber cuando UnitsDetails está presente."
+    }
+  }
+}

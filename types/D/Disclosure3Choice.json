@@ -1,0 +1,12 @@
+{
+  "isoType": "Disclosure3Choice",
+  "definition": "Elección entre una indicación de no divulgación y el suministro de información de divulgación de tenencia de acciones.",
+  "isoElements": {
+    "NoDisclosure": {
+      "definition": "La información de tenencia de acciones no se divulga."
+    },
+    "SafekeepingAccountAndHoldings": {
+      "definition": "Detalles de la cuenta, de los subniveles de cuenta y de las posiciones."
+    }
+  }
+}

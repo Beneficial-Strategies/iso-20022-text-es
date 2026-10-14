@@ -1,0 +1,26 @@
+{
+  "isoType": "DistributionInstructionType1Code",
+  "definition": "Especifica el tipo de instrucción de distribución.",
+  "isoCodes": {
+    "GDEB": {
+      "name": "Orden de adeudo global",
+      "definition": "Instrucción de adeudar las posiciones mantenidas en todas las cuentas de clientes en los recursos subyacentes del evento y la opción dados. Esta orden se aplica a todos los clientes que son admisibles para participar en el evento corporativo (CA)."
+    },
+    "IDEB": {
+      "name": "Orden individual",
+      "definition": "Instrucción, cliente por cliente, de adeudar la posición mantenida en los recursos subyacentes (valores y/o efectivo) y/o de abonar los productos (valores y/o efectivo)."
+    },
+    "GRET": {
+      "name": "Orden de devolución global",
+      "definition": "Instrucción de transferir valores de los saldos secuestrados de los clientes de vuelta a los respectivos saldos disponibles."
+    },
+    "CHAN": {
+      "name": "Orden de cambio de opción",
+      "definition": "Instrucción de transferir la posición de un saldo secuestrado (relacionado con una opción de evento corporativo) a otro saldo secuestrado (relacionado con otra opción de evento corporativo) (CA)."
+    },
+    "IRET": {
+      "name": "Orden de devolución individual",
+      "definition": "Instrucción de transferir valores de un saldo secuestrado de un cliente de vuelta a su saldo disponible."
+    }
+  }
+}

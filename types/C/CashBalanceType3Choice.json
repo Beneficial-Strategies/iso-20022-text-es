@@ -1,0 +1,12 @@
+{
+  "isoType": "CashBalanceType3Choice",
+  "definition": "Elección del formato del tipo de saldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Saldo de efectivo expresado en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Saldo de efectivo expresado en forma propietaria."
+    }
+  }
+}

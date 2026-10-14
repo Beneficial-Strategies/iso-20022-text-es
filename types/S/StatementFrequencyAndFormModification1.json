@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementFrequencyAndFormModification1",
+  "definition": "Especifica el tipo de cambio en la frecuencia y la forma de los extractos.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica el tipo de cambio."
+    },
+    "StatementFrequencyAndForm": {
+      "definition": "Especifica la frecuencia, el formato y la dirección de entrega de los extractos."
+    }
+  }
+}

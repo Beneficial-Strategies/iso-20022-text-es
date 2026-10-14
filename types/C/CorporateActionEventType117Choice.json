@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionEventType117Choice",
+  "definition": "Elección entre formatos para expresar el tipo de evento societario.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipos de evento expresados como código."
+    },
+    "Proprietary": {
+      "definition": "Tipos de evento expresados como código propietario."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "Si Code está presente, el código OTHR solo debe utilizarse en caso de que ningún otro código de evento de operación societaria sea apropiado. ||Si Code está presente, el código CHAN solo debe utilizarse en caso de que ningún otro código de evento de operación societaria sea apropiado y únicamente para un evento relacionado con un cambio. ||Si Code está presente, el código REDM solo debe utilizarse cuando el reembolso lo decide el emisor y no los titulares de los valores."
+    }
+  }
+}

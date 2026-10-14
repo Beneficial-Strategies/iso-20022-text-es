@@ -1,0 +1,29 @@
+{
+  "isoType": "CashBalance14",
+  "definition": "Detalles del saldo de una cuenta de efectivo.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica la naturaleza de un saldo."
+    },
+    "CounterpartyType": {
+      "definition": "Especifica el tipo de contraparte para la que se calcula el saldo."
+    },
+    "CounterpartyIdentification": {
+      "definition": "Especifica la contraparte para la que se calcula el saldo."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que el saldo está o estará disponible."
+    },
+    "ProcessingDate": {
+      "definition": "Fecha o fecha y hora en que se actualizó por última vez el saldo a raíz de un apunte contabilizado en la cuenta, en los libros de la entidad que administra la cuenta."
+    }
+  },
+  "isoRules": {
+    "CounterpartyIdentification1Rule": {
+      "definition": "Si está presente al menos una ocurrencia de CounterpartyType y es igual a Multilateral (MULT), no se permite ninguna ocurrencia de CounterpartyIdentification.|Si CounterpartyType no está presente, cualquier ocurrencia de CounterpartyIdentification es opcional."
+    },
+    "CounterpartyIdentification2Rule": {
+      "definition": "Si está presente al menos una ocurrencia de CounterpartyType y es igual a Bilateral (BILA), debe estar presente al menos una ocurrencia de CounterpartyIdentification.|Si CounterpartyType no está presente, cualquier ocurrencia de CounterpartyIdentification es opcional."
+    }
+  }
+}

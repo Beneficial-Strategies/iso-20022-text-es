@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason45Choice",
+  "definition": "Elección de formato para el motivo de rechazo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción o solicitud tiene un estado de reparación o rechazo."
+    },
+    "Proprietary": {
+      "definition": "Especifica el motivo por el que la instrucción o solicitud tiene un estado de reparación o rechazo."
+    }
+  }
+}

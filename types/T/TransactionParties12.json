@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionParties12",
+  "definition": "Proporciona detalles adicionales sobre las partes específicas de cada operación.",
+  "isoElements": {
+    "InitiatingParty": {
+      "definition": "Parte que inició el pago notificado en el apunte."
+    },
+    "Debtor": {
+      "definition": "Parte que debe un importe al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe un importe al beneficiario (final)."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se ha anotado un abono como resultado de la operación de pago."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe."
+    },
+    "TradingParty": {
+      "definition": "Parte que desempeña un papel activo en la planificación y ejecución de las operaciones que crean o liquidan inversiones de los activos de los inversores, o que trasladan los activos del inversor de una inversión a otra. Una parte operadora es un instructor de operaciones, un responsable de decisiones de inversión, un administrador posterior a la operación o un operador. En el contexto de tesorería, es la parte que negocia y ejecuta la operación de tesorería."
+    },
+    "Proprietary": {
+      "definition": "Parte propia relacionada con la operación subyacente."
+    }
+  }
+}

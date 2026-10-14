@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceBreakdown1",
+  "definition": "Posición neta de una tenencia segregada de un único instrumento financiero dentro de la posición global mantenida en la cuenta de valores, por ejemplo, el subsaldo por estado.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motivo del subsaldo."
+    },
+    "Quantity": {
+      "definition": "Cantidad de instrumento financiero en el subsaldo."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestStatusAdvice002V07",
+  "definition": "Alcance|Un administrador de la cuenta envía un SecuritiesTransactionCancellationRequestStatusAdvice a un titular de la cuenta para notificar el estado de una solicitud de cancelación de una operación con valores enviada previamente por el titular de la cuenta.|La relación entre el administrador de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que actúe en nombre de sus participantes|- un agente (subcustodio) que actúe en nombre de su cliente custodio global, o|- un custodio que actúe en nombre de una entidad de gestión de inversiones o de un intermediario/operador (broker/dealer).||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo|utilizando los elementos pertinentes de la Business Application Header.",
+  "isoElements": {
+    "CancellationRequestReference": {
+      "definition": "Referencia a la identificación inequívoca de la solicitud de cancelación según el titular de la cuenta."
+    }
+  },
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    }
+  }
+}

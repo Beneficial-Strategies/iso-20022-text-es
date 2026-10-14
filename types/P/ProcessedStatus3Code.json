@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus3Code",
+  "definition": "Especifica el estado de procesamiento de un aviso, una solicitud o un movimiento.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recibido",
+      "definition": "Se ha recibido la instrucción o solicitud."
+    },
+    "PEND": {
+      "name": "Pendiente",
+      "definition": "El procesamiento de la solicitud está pendiente."
+    },
+    "PACK": {
+      "name": "Aceptado",
+      "definition": "La solicitud se acepta."
+    }
+  }
+}

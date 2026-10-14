@@ -1,0 +1,15 @@
+{
+  "isoType": "CurrencyDesignation1",
+  "definition": "Información sobre la designación de una divisa.",
+  "isoElements": {
+    "CurrencyDesignation": {
+      "definition": "Especifica si la divisa se liquida en el mercado extraterritorial (offshore) o en el nacional (onshore)."
+    },
+    "Location": {
+      "definition": "Ubicación extraterritorial (offshore) de la divisa."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la divisa extraterritorial (offshore)."
+    }
+  }
+}

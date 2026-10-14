@@ -1,0 +1,27 @@
+{
+  "isoType": "GroupHeader130",
+  "definition": "Conjunto de características comunes a todos los registros de cargos individuales incluidos en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia de punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar inequívocamente el mensaje.|Uso: la parte instructora debe asegurarse de que MessageIdentification sea único por parte instruida durante un periodo acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "ChargesRequestor": {
+      "definition": "Entidad que solicita los cargos, si es distinta del remitente."
+    },
+    "SettlementInstruction": {
+      "definition": "Especifica los detalles de cómo se completa la liquidación de las operaciones posteriores.||Uso: estos datos de entidad y parte deben trasladarse tal cual al mensaje resultante para el pago de los cargos."
+    },
+    "TotalCharges": {
+      "definition": "Total de cargos reclamados mediante este mensaje."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Entidad que gestiona la cuenta de cargos.||Uso: este elemento debe utilizarse cuando el cargo reclamado no esté relacionado con el procesamiento de una operación de pago, por ejemplo, cuando se refiera a una investigación u otro proceso. Identifica la entidad que gestiona la cuenta con cargo a la cual se liquidarán los cargos."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Cuenta de la entidad que gestiona la cuenta de cargos.||Uso: este elemento debe utilizarse cuando el cargo reclamado no esté relacionado con el procesamiento de una operación de pago, por ejemplo, cuando se refiera a una investigación u otro proceso. Identifica la cuenta con cargo a la cual se liquidarán los cargos."
+    }
+  }
+}

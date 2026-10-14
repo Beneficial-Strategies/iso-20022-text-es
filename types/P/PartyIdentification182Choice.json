@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification182Choice",
+  "definition": "Elección de formatos para la identificación de una parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Identificación de la parte expresada como BIC."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identificador único e inequívoco asignado a la parte mediante un esquema de identificación propietario."
+    },
+    "NameAndAddress": {
+      "definition": "Nombre y dirección de la parte."
+    },
+    "TaxIdentificationNumber": {
+      "definition": "Número asignado por una autoridad tributaria a una entidad."
+    },
+    "NationalRegistrationNumber": {
+      "definition": "Número asignado por una autoridad nacional de registro a una entidad."
+    }
+  }
+}

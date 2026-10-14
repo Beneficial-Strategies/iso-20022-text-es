@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationCompleteReason1Choice",
+  "definition": "Elección de formatos para el motivo de cancelación completada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de cancelación completada expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo de cancelación completada expresado como código propietario."
+    }
+  }
+}

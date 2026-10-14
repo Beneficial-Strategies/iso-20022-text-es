@@ -1,0 +1,198 @@
+{
+  "isoType": "ExternalMandateReason1Code",
+  "definition": "Especifica el código externo del motivo del procesamiento del mandato, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa publicada por separado.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Número de cuenta incorrecto",
+      "definition": "El formato del número de cuenta indicado no es correcto."
+    },
+    "AC04": {
+      "name": "Número de cuenta cerrada",
+      "definition": "El número de cuenta especificado ha sido cerrado en los libros del receptor"
+    },
+    "AC06": {
+      "name": "Cuenta bloqueada",
+      "definition": "La cuenta especificada está bloqueada, lo que impide contabilizar operaciones en ella."
+    },
+    "AG01": {
+      "name": "Operación prohibida",
+      "definition": "Operación prohibida en este tipo de cuenta (anteriormente NoAgreement)"
+    },
+    "AG02": {
+      "name": "Código de operación bancaria no válido",
+      "definition": "El código de operación bancaria especificado en el mensaje no es válido para el receptor"
+    },
+    "AM02": {
+      "name": "Importe no permitido",
+      "definition": "El importe de la operación o del mensaje específico es superior al máximo permitido"
+    },
+    "AM03": {
+      "name": "Divisa no permitida",
+      "definition": "El importe del mensaje especificado es una divisa no procesable fuera del acuerdo existente"
+    },
+    "AM05": {
+      "name": "Duplicación",
+      "definition": "Duplicación."
+    },
+    "BE01": {
+      "name": "Incoherente con el cliente final",
+      "definition": "La identificación del cliente final no es coherente con el número de cuenta asociado. (anteriormente CreditorConsistency)."
+    },
+    "BE04": {
+      "name": "Falta la dirección del beneficiario",
+      "definition": "Falta o es incorrecta la especificación de la dirección del beneficiario, necesaria para el pago (anteriormente IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "name": "Parte iniciadora no reconocida",
+      "definition": "El cliente final no reconoce a la parte que inició el mensaje"
+    },
+    "BE06": {
+      "name": "Cliente final desconocido",
+      "definition": "El cliente final especificado no es conocido en el código de sucursal o de banco nacional asociado o ya no existe en los libros"
+    },
+    "BE07": {
+      "name": "Falta la dirección del ordenante",
+      "definition": "Falta o es incorrecta la especificación de la dirección del ordenante, necesaria para el pago."
+    },
+    "DT01": {
+      "name": "Fecha no válida",
+      "definition": "Fecha no válida (p. ej., fecha de liquidación incorrecta)."
+    },
+    "FF01": {
+      "name": "Formato de archivo no válido",
+      "definition": "Formato de fichero incompleto o no válido"
+    },
+    "MD01": {
+      "name": "Sin mandato",
+      "definition": "Sin mandato"
+    },
+    "MD02": {
+      "name": "Falta información obligatoria en el mandato",
+      "definition": "Falta la información relacionada con el mandato exigida por el esquema."
+    },
+    "MD07": {
+      "name": "Cliente final fallecido",
+      "definition": "El cliente final ha fallecido."
+    },
+    "MD08": {
+      "name": "Sin servicio de mandato por la entidad",
+      "definition": "La entidad receptora no ofrece los servicios de mandato especificados"
+    },
+    "MD09": {
+      "name": "Sin servicio de mandato para el cliente",
+      "definition": "La cuenta no está habilitada para los servicios de mandato especificados"
+    },
+    "MD10": {
+      "name": "Sin servicio de mandato para lo especificado",
+      "definition": "La cuenta no está habilitada para los servicios de mandato especificados para este beneficiario en particular"
+    },
+    "MD11": {
+      "name": "Entidad no reconocida",
+      "definition": "No se puede localizar la entidad a la que debe reenviarse el mensaje"
+    },
+    "MD12": {
+      "name": "Referencia de mandato no única",
+      "definition": "La identificación del mandato no es única para el beneficiario"
+    },
+    "MD13": {
+      "name": "Autenticación del cliente incorrecta",
+      "definition": "Existe un problema con la autenticación del cliente"
+    },
+    "MD14": {
+      "name": "Agente incorrecto",
+      "definition": "La entidad en el flujo de pago es incorrecta"
+    },
+    "MD15": {
+      "name": "Divisa incorrecta",
+      "definition": "La divisa de la operación es incorrecta"
+    },
+    "MD16": {
+      "name": "Solicitado por el cliente",
+      "definition": "Cancelación/modificación solicitada por el ordenante"
+    },
+    "MD17": {
+      "name": "Solicitado por la parte iniciadora",
+      "definition": "Cancelación/modificación solicitada por el beneficiario"
+    },
+    "MD18": {
+      "name": "Solicitado por la parte iniciadora y el cliente",
+      "definition": "Cancelación/modificación solicitada por el beneficiario y el ordenante"
+    },
+    "MD19": {
+      "name": "Mandato cancelado por liquidación anticipada",
+      "definition": "Cancelación del mandato tras el reembolso anticipado del adeudo por el ordenante"
+    },
+    "MD20": {
+      "name": "Mandato vencido",
+      "definition": "Cancelación del mandato tras la expiración de su validez"
+    },
+    "MD21": {
+      "name": "Mandato cancelado por fraude",
+      "definition": "Cancelación del mandato por sospecha de fraude"
+    },
+    "MD22": {
+      "name": "Iniciación del mandato cancelada",
+      "definition": "Cancelación del mandato tras la cancelación de la iniciación del mandato"
+    },
+    "MD23": {
+      "name": "Modificación del mandato cancelada",
+      "definition": "Cancelación del mandato tras la cancelación de la modificación del mandato"
+    },
+    "MS02": {
+      "name": "Motivo no especificado generado por el cliente",
+      "definition": "El cliente final no ha especificado el motivo"
+    },
+    "MS03": {
+      "name": "Motivo no especificado generado por la entidad",
+      "definition": "La entidad no ha especificado el motivo."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "El motivo se facilita como información narrativa en la información adicional del motivo."
+    },
+    "RC01": {
+      "name": "Identificador de la entidad incorrecto",
+      "definition": "El código identificador de entidad indicado en el mensaje tiene un formato incorrecto (anteriormente IncorrectFormatForRoutingCode)."
+    },
+    "RF01": {
+      "name": "Referencia de la operación no única",
+      "definition": "La referencia de la operación no es única dentro del mensaje."
+    },
+    "RR01": {
+      "name": "Falta la cuenta o la identificación del ordenante",
+      "definition": "La especificación de la cuenta del ordenante o de la identificación única necesaria por requisitos regulatorios es insuficiente o falta"
+    },
+    "RR02": {
+      "name": "Falta el nombre o la dirección del ordenante",
+      "definition": "La especificación del nombre y/o la dirección del ordenante necesaria por requisitos regulatorios es insuficiente o falta."
+    },
+    "RR03": {
+      "name": "Falta el nombre o la dirección del beneficiario",
+      "definition": "La especificación del nombre y/o la dirección del beneficiario necesaria por requisitos regulatorios es insuficiente o falta."
+    },
+    "RR04": {
+      "name": "Motivo regulatorio",
+      "definition": "Motivo regulatorio"
+    },
+    "SL01": {
+      "name": "Servicio específico ofrecido por la entidad del ordenante",
+      "definition": "Debido a un servicio específico ofrecido por la entidad del ordenante."
+    },
+    "SL11": {
+      "name": "Beneficiario no incluido en la lista blanca del ordenante",
+      "definition": "Servicio de lista blanca ofrecido por la entidad del ordenante; el ordenante (todavía) no ha incluido al beneficiario en su «lista blanca». En la lista blanca el ordenante puede indicar todos los beneficiarios autorizados a adeudar la cuenta bancaria del ordenante."
+    },
+    "SL12": {
+      "name": "Beneficiario incluido en la lista negra del ordenante",
+      "definition": "Servicio de lista negra ofrecido por la entidad del ordenante; el ordenante ha incluido al beneficiario en su «lista negra». En la lista negra el ordenante puede indicar todos los beneficiarios no autorizados a adeudar la cuenta bancaria del ordenante."
+    },
+    "SL13": {
+      "name": "Número máximo de operaciones de adeudo directo superado",
+      "definition": "Debido al servicio de número máximo permitido de operaciones de adeudo directo por período ofrecido por la entidad del ordenante."
+    },
+    "SL14": {
+      "name": "Importe máximo de la operación de adeudo directo superado",
+      "definition": "Debido al servicio de importe máximo permitido de operaciones de adeudo directo ofrecido por la entidad del ordenante."
+    }
+  }
+}

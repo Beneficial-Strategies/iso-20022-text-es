@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentRole1FormatChoice",
+  "definition": "Elección de formatos para expresar el rol de la entidad.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el rol de la entidad."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el rol de la entidad."
+    }
+  }
+}

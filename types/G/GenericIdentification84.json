@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification84",
+  "definition": "Identificación mediante un esquema propietario.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Información propia, a menudo un código, emitida por el emisor del esquema de la fuente de datos."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    },
+    "SchemeName": {
+      "definition": "Descripción textual breve del esquema."
+    }
+  }
+}

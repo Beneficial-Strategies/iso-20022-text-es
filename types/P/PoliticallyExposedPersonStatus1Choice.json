@@ -1,0 +1,12 @@
+{
+  "isoType": "PoliticallyExposedPersonStatus1Choice",
+  "definition": "Elección de formatos para la condición de una persona con responsabilidad pública.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condición de la persona con responsabilidad pública expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Condición de la persona con responsabilidad pública expresada como código propietario."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "TransactionProcessingStatus3Code",
+  "definition": "Proporciona el estado de tramitación de una operación (a nivel de la entidad gestora de la cuenta).",
+  "isoCodes": {
+    "CAND": {
+      "name": "Cancelado",
+      "definition": "La instrucción ha sido cancelada."
+    },
+    "PACK": {
+      "name": "Acuse de recibo aceptado",
+      "definition": "La instrucción ha sido recibida/aceptada por la entidad gestora de la cuenta para su posterior tramitación."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "La instrucción ha sido rechazada para su posterior tramitación."
+    },
+    "REPR": {
+      "name": "En reparación",
+      "definition": "La instrucción ha sido aceptada, pero está en reparación."
+    }
+  }
+}

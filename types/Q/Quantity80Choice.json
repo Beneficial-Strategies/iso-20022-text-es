@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity80Choice",
+  "definition": "Elección entre distintos formatos de cantidad de valores.",
+  "isoElements": {
+    "QuantityChoice": {
+      "definition": "Elección entre distintos formatos de cantidad de valores."
+    },
+    "ProprietaryQuantity": {
+      "definition": "Formato propietario de cantidad de valores."
+    }
+  }
+}

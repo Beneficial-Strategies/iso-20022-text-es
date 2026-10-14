@@ -1,0 +1,27 @@
+{
+  "isoType": "InterestRecord2",
+  "definition": "Proporciona información sobre los intereses específicos de la operación que se aplican a la operación subyacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de los intereses incluido en el importe del apunte."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe de los intereses incluido en el apunte es un importe a favor (crédito) o en contra (débito).|Uso: un importe cero se considera un crédito."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de interés."
+    },
+    "Rate": {
+      "definition": "Conjunto de elementos utilizados para calificar el tipo de interés."
+    },
+    "FromToDate": {
+      "definition": "Período comprendido entre una fecha de inicio y una fecha de fin para el cálculo de los intereses."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de los intereses."
+    },
+    "Tax": {
+      "definition": "Proporciona información sobre el impuesto aplicado a los gastos."
+    }
+  }
+}

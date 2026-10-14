@@ -1,0 +1,22 @@
+{
+  "isoType": "NewSecuritiesIssuanceType6Code",
+  "definition": "Especifica el tipo de fondos de valores; si están o no objeto de defeasance.",
+  "isoCodes": {
+    "DEFE": {
+      "name": "Indicador de valor extinguido",
+      "definition": "Un fiduciario o agente ha depositado fondos en garantía para asegurar el pago de una parte del saldo pendiente del valor original al vencimiento. Aplicable únicamente en el marco de un evento de operación societaria de defeasance parcial PDEF."
+    },
+    "NDEF": {
+      "name": "Indicador de valor no extinguido",
+      "definition": "El emisor o el agente de pagos no garantizará los fondos al vencimiento de este valor de nueva emisión no sujeto a defeasance. Aplicable únicamente en el marco de un evento de operación societaria de defeasance parcial PDEF."
+    },
+    "REFU": {
+      "name": "Indicador de valor reembolsado",
+      "definition": "Nuevo valor emitido que ha sido reembolsado hasta un vencimiento anterior. Aplicable únicamente en el marco de un evento de operación societaria de defeasance parcial PDEF."
+    },
+    "NREF": {
+      "name": "Indicador de valor no reembolsado",
+      "definition": "Nuevo valor emitido que no ha sido reembolsado y cuya fecha de vencimiento del valor subyacente original no varía. Aplicable únicamente en el marco de un evento de operación societaria de defeasance parcial PDEF."
+    }
+  }
+}

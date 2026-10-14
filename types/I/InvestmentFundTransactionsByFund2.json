@@ -1,0 +1,30 @@
+{
+  "isoType": "InvestmentFundTransactionsByFund2",
+  "definition": "Operaciones de fondos de inversión para un instrumento financiero específico.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de un valor mediante un ISIN."
+    },
+    "Name": {
+      "definition": "Nombre del instrumento financiero en texto de formato libre."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Información adicional sobre un instrumento financiero que ayuda a identificarlo."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, es decir, titularidad, del valor, por ejemplo, nominativo o al portador."
+    },
+    "ClassType": {
+      "definition": "Características de las participaciones ofrecidas por un fondo. Por ejemplo, una participación puede tener una estructura de comisiones específica, por ejemplo, de entrada o de salida, una política de ingresos, por ejemplo, distribución o acumulación, o una política de comisiones de seguimiento, por ejemplo, con o sin ellas. Las clases de fondo se denotan normalmente con un solo carácter, por ejemplo, 'Clase A', 'Clase 2'."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de ingresos relativa a un tipo de clase, es decir, si los ingresos se distribuyen o se retienen en el fondo."
+    },
+    "TransactionDetails": {
+      "definition": "Proceso de compra, venta, canje (switch) o traspaso de participaciones de fondos."
+    },
+    "BalanceByPage": {
+      "definition": "Saldo del instrumento financiero para esta página específica del extracto."
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "isoType": "FinancialInstrumentAttributes122",
+  "definition": "Elementos que caracterizan un instrumento financiero.",
+  "isoElements": {
+    "PlaceOfListing": {
+      "definition": "Mercado o mercados en los que cotiza el valor."
+    },
+    "DayCountBasis": {
+      "definition": "Especifica el método de cálculo del interés (devengado) del valor."
+    },
+    "RegistrationForm": {
+      "definition": "Especifica la forma, es decir, la titularidad, del valor."
+    },
+    "PaymentFrequency": {
+      "definition": "Especifica la frecuencia de un pago de intereses."
+    },
+    "PaymentStatus": {
+      "definition": "Estado de pago de un valor en un momento determinado."
+    },
+    "VariableRateChangeFrequency": {
+      "definition": "Especifica la frecuencia de cambio del tipo variable de un instrumento que devenga intereses."
+    },
+    "ClassificationType": {
+      "definition": "Tipo de clasificación del instrumento financiero, según la codificación ISO de clasificación de instrumentos financieros (CFI), por ejemplo, acción ordinaria con derechos de voto, totalmente desembolsada o nominativa."
+    },
+    "OptionStyle": {
+      "definition": "Especifica cómo puede ejercerse una opción (americana, europea, bermudeña)."
+    },
+    "OptionType": {
+      "definition": "Especifica si se trata de una opción de compra (Call; derecho a adquirir un activo subyacente específico) o de una opción de venta (Put; derecho a vender un activo subyacente específico)."
+    },
+    "DenominationCurrency": {
+      "definition": "Divisa en la que se emite o se redenomina un valor."
+    },
+    "CouponDate": {
+      "definition": "Próxima fecha de pago de un instrumento financiero que devenga intereses."
+    },
+    "ExpiryDate": {
+      "definition": "Fecha en la que expira un privilegio."
+    },
+    "FloatingRateFixingDate": {
+      "definition": "Fecha en la que se calculará y restablecerá el tipo de interés de un valor que devenga intereses, según las condiciones de la emisión."
+    },
+    "MaturityDate": {
+      "definition": "Fecha prevista de reembolso final en el momento de la emisión."
+    },
+    "IssueDate": {
+      "definition": "Fecha en la que el valor se puso a disposición."
+    },
+    "NextCallableDate": {
+      "definition": "Próxima fecha en la que el emisor tiene derecho a amortizar el valor antes del vencimiento."
+    },
+    "PutableDate": {
+      "definition": "Fecha en la que el titular tiene derecho a solicitar el reembolso del valor antes del vencimiento final."
+    },
+    "DatedDate": {
+      "definition": "Primera fecha en la que un valor comienza a devengar intereses."
+    },
+    "FirstPaymentDate": {
+      "definition": "Fecha en la que vence el primer pago de intereses a los titulares del valor."
+    },
+    "PreviousFactor": {
+      "definition": "Tasa expresada como un decimal entre 0 y 1 que era aplicable antes del factor actual y define el principal pendiente del instrumento financiero (para valores con factor de amortización)."
+    },
+    "CurrentFactor": {
+      "definition": "Tasa expresada como un decimal entre 0 y 1 que define el principal pendiente del instrumento financiero (para valores con factor de amortización)."
+    },
+    "NextFactor": {
+      "definition": "Tasa expresada como un decimal entre 0 y 1 que será aplicable a partir de la próxima fecha de factor y define el principal pendiente del instrumento financiero (para valores con factor de amortización)."
+    },
+    "InterestRate": {
+      "definition": "Razón anual entre el interés pagado y el importe principal del instrumento financiero durante un período de tiempo determinado."
+    },
+    "YieldToMaturityRate": {
+      "definition": "Tasa de rendimiento prevista de un bono mantenido hasta la fecha de vencimiento."
+    },
+    "NextInterestRate": {
+      "definition": "Tipo de interés aplicable al próximo período de pago de intereses en relación con instrumentos de tipo variable."
+    },
+    "IndexRateBasis": {
+      "definition": "Especifica el tipo de referencia para instrumentos de renta fija en los que el |precio del instrumento está indexado al precio de un índice de referencia subyacente."
+    },
+    "CouponAttachedNumber": {
+      "definition": "Número del cupón adjunto al valor físico."
+    },
+    "PoolNumber": {
+      "definition": "Número que identifica un grupo de activos subyacentes asignado por el emisor de un valor con factor de amortización."
+    },
+    "VariableRateIndicator": {
+      "definition": "Indica si el tipo de interés de un instrumento que devenga intereses se restablece periódicamente."
+    },
+    "CallableIndicator": {
+      "definition": "Indica si el emisor tiene derecho a amortizar el valor antes del vencimiento. También denominado RetractableIndicator."
+    },
+    "PutableIndicator": {
+      "definition": "Indica si el titular tiene derecho a solicitar el reembolso del valor antes del vencimiento final. También denominado RedeemableIndicator."
+    },
+    "MarketOrIndicativePrice": {
+      "definition": "Valor del precio, por ejemplo, como divisa y valor por unidad o como porcentaje."
+    },
+    "ExercisePrice": {
+      "definition": "Precio predeterminado al que el titular de un derivado comprará o venderá el instrumento subyacente."
+    },
+    "SubscriptionPrice": {
+      "definition": "Precio predeterminado al que el titular de un derecho tiene derecho a comprar el instrumento subyacente."
+    },
+    "ConversionPrice": {
+      "definition": "Precio de un valor objetivo en la conversión."
+    },
+    "StrikePrice": {
+      "definition": "Precio predeterminado al que el titular tendrá que comprar o vender el instrumento subyacente."
+    },
+    "MinimumNominalQuantity": {
+      "definition": "Cantidad nominal mínima del instrumento financiero."
+    },
+    "ContractSize": {
+      "definition": "Razón o factor multiplicador utilizado para convertir un contrato en una cantidad."
+    },
+    "UnderlyingFinancialInstrumentIdentification": {
+      "definition": "Identificación del valor subyacente."
+    },
+    "FinancialInstrumentAttributeAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre el instrumento financiero en forma narrativa."
+    }
+  },
+  "isoRules": {
+    "PlaceOfListingRule": {
+      "definition": "Si se utiliza PlaceOfListing y existe un MIC ISO 10383 para el mercado que se va a identificar, debe utilizarse el código de identificación de mercado (MIC) ISO 10383."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el remitente y el receptor, si FinancialInstrumentAttributeAdditionalDetails está presente, no debe contener información que pueda proporcionarse en un campo estructurado."
+    }
+  }
+}

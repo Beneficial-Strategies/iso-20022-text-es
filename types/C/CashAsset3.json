@@ -1,0 +1,23 @@
+{
+  "isoType": "CashAsset3",
+  "definition": "Identificación de un activo en efectivo.",
+  "isoElements": {
+    "CashAssetType": {
+      "definition": "Tipo de activo en efectivo."
+    },
+    "HoldingCurrency": {
+      "definition": "Divisa del activo en la posición."
+    },
+    "TransferCurrency": {
+      "definition": "Divisa del activo en otra divisa."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el activo en efectivo."
+    }
+  },
+  "isoRules": {
+    "HoldingTransferCurrencyGuideline": {
+      "definition": "Cuando el efectivo se transfiere en una divisa distinta de la del efectivo, la divisa debe especificarse en TransferCurrency."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "WithholdingTaxRateType1Code",
+  "definition": "Especifica el tipo de tasa de retención fiscal.",
+  "isoCodes": {
+    "BWIT": {
+      "name": "Retención de respaldo",
+      "definition": "Retención fiscal relativa a pagos sujetos a retención de respaldo."
+    },
+    "FTCA": {
+      "name": "Impuesto FATCA",
+      "definition": "Retención fiscal relativa a ingresos sujetos a FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRAT": {
+      "name": "Impuesto NRA",
+      "definition": "Retención fiscal relativa a ingresos sujetos a NRA (Non Resident Alien)."
+    }
+  }
+}

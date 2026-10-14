@@ -1,0 +1,12 @@
+{
+  "isoType": "DefaultProcessingOrStandingInstruction2Choice",
+  "definition": "Elección entre tratamiento por defecto o instrucción permanente.",
+  "isoElements": {
+    "DefaultOptionIndicator": {
+      "definition": "Indica si la opción, por ejemplo, una opción de moneda, se seleccionará por defecto si el titular de la cuenta no facilita ninguna instrucción."
+    },
+    "StandingInstructionIndicator": {
+      "definition": "Indica si el titular de una cuenta ha dado una orden permanente para seleccionar esta opción de operación societaria.|La instrucción permanente puede o no ser anulada, según los términos de la cuenta o del evento."
+    }
+  }
+}

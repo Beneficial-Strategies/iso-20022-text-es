@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceMovementPostingReportV02",
+  "definition": "Este mensaje IntraBalanceMovementPostingReport lo envía una infraestructura de liquidación a un titular de cuenta/solicitante para informar de las instrucciones de movimiento entre saldos, enviadas previamente por el titular de la cuenta, que tienen estado liquidado.||El mensaje también puede utilizarse para: |- reenviar un mensaje enviado por el titular de la cuenta a la entidad gestora de la cuenta (la subfunción del mensaje es \"Duplicate\") |- proporcionar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy\") |- reenviar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ActivityIndicator es igual a Yes (true o 1), entonces SubBalances debe estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ActivityIndicator es igual a No (false o 0), entonces SubBalances debe estar ausente."
+    }
+  }
+}

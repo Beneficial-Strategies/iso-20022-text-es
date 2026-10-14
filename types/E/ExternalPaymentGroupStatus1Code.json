@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalPaymentGroupStatus1Code",
+  "definition": "Especifica el estado de un grupo de instrucciones de pago, tal como se publica en un conjunto de códigos externo de estados de grupos de pagos.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "ACCP": {
+      "name": "Perfil de cliente aceptado",
+      "definition": "La comprobación técnica previa se ha superado correctamente. La comprobación del perfil del cliente también se ha superado correctamente."
+    },
+    "ACCC": {
+      "name": "Aceptado, liquidación completada en la cuenta del beneficiario",
+      "definition": "La liquidación en la cuenta del beneficiario se ha completado."
+    },
+    "ACSC": {
+      "name": "Aceptado, liquidación completada en la cuenta del ordenante",
+      "definition": "La liquidación en la cuenta del ordenante se ha completado.|Uso: puede ser utilizado por la primera entidad para informar al ordenante de que la operación se ha completado. |Advertencia: este estado se facilita por motivos de estado de la operación, no como información financiera. Solo puede utilizarse previo acuerdo bilateral"
+    },
+    "ACSP": {
+      "name": "Aceptado, liquidación en curso",
+      "definition": "Todas las comprobaciones previas, como la validación técnica y la del perfil del cliente, se han superado correctamente y, por tanto, la iniciación del pago ha sido aceptada para su ejecución."
+    },
+    "ACTC": {
+      "name": "Validación técnica aceptada",
+      "definition": "La autenticación y la validación sintáctica y semántica son satisfactorias"
+    },
+    "ACWC": {
+      "name": "Aceptado con cambios",
+      "definition": "La instrucción se acepta, pero se realizará un cambio, como la fecha o la no transmisión de la información de remesa."
+    },
+    "PART": {
+      "name": "Aceptado parcialmente",
+      "definition": "Un número de operaciones ha sido aceptado, mientras que otro número de operaciones aún no ha alcanzado el|estado 'aceptado'."
+    },
+    "PDNG": {
+      "name": "Pendiente",
+      "definition": "La iniciación del pago o una operación individual incluida en la iniciación del pago está pendiente. Se realizarán comprobaciones adicionales y una actualización del estado."
+    },
+    "RCVD": {
+      "name": "Recibido",
+      "definition": "La iniciación del pago ha sido recibida por la entidad receptora"
+    },
+    "RJCT": {
+      "name": "Rechazado",
+      "definition": "La iniciación del pago o una operación individual incluida en ella ha sido rechazada."
+    },
+    "RCVC": {
+      "name": "Recibido, verificación completada",
+      "definition": "Se han aplicado las comprobaciones de Verification of Payee a las operaciones recibidas, indicándose que están completas sin datos discordantes."
+    },
+    "RVCM": {
+      "name": "Recibido, verificación completada con discrepancias",
+      "definition": "Se han aplicado las comprobaciones de Verification of Payee a las operaciones recibidas, indicándose que están completas con datos discordantes."
+    },
+    "RVNC": {
+      "name": "Recibido, verificación no completada",
+      "definition": "La comprobación de verificación de la parte en las operaciones recibidas aún no se ha completado."
+    }
+  }
+}

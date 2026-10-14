@@ -1,0 +1,12 @@
+{
+  "isoType": "Pagination",
+  "definition": "Número utilizado para secuenciar páginas cuando no es posible transmitir los datos en un único mensaje y estos deben dividirse en varias páginas (mensajes).",
+  "isoElements": {
+    "PageNumber": {
+      "definition": "Número de página."
+    },
+    "LastPageIndicator": {
+      "definition": "Indica la última página."
+    }
+  }
+}

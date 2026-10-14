@@ -1,0 +1,78 @@
+{
+  "isoType": "PaymentReturnCriteria4",
+  "definition": "Define los criterios utilizados para informar sobre el pago.",
+  "isoElements": {
+    "MessageIdentificationIndicator": {
+      "definition": "Indica si se solicita la identificación del mensaje de la operación de pago original.|Uso: es la antigua TransactionReference."
+    },
+    "RequestedExecutionDateIndicator": {
+      "definition": "Indica si se solicita la fecha de ejecución solicitada.|Uso: es la antigua TransferValueDate."
+    },
+    "InstructionIndicator": {
+      "definition": "Indica si se solicita la instrucción."
+    },
+    "InstructionStatusReturnCriteria": {
+      "definition": "Indica si se solicita el estado de la instrucción."
+    },
+    "InstructedAmountIndicator": {
+      "definition": "Indica si se solicita el importe ordenado."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si se solicita el indicador de abono o adeudo."
+    },
+    "InterbankSettlementAmountIndicator": {
+      "definition": "Indica si se solicita el importe de liquidación interbancaria."
+    },
+    "PriorityIndicator": {
+      "definition": "Indica si se solicita la prioridad del pago."
+    },
+    "ProcessingValidityTimeIndicator": {
+      "definition": "Indica si se solicita el plazo de validez del procesamiento."
+    },
+    "PurposeIndicator": {
+      "definition": "Indica si se solicita el motivo de la transferencia."
+    },
+    "InstructionCopyIndicator": {
+      "definition": "Indica si se solicita la copia de la instrucción."
+    },
+    "PaymentMessageTypeIndicator": {
+      "definition": "Indica si se solicita el tipo de mensaje de pago."
+    },
+    "PaymentTypeIndicator": {
+      "definition": "Indica si se solicita el tipo de pago."
+    },
+    "TransactionIdentificationIndicator": {
+      "definition": "Indica si se solicita la identificación de la operación.|Uso: es la antigua PaymentInstructionReference."
+    },
+    "InterbankSettlementDateIndicator": {
+      "definition": "Indica si se solicita la fecha de liquidación interbancaria.|Uso: es la antigua InterbankValueDate."
+    },
+    "EndToEndIdentificationIndicator": {
+      "definition": "Indica si se solicita la identificación de extremo a extremo.|Uso: es la antigua RelatedReference."
+    },
+    "PaymentMethodIndicator": {
+      "definition": "Indica si se solicita el método de pago."
+    },
+    "DebtorIndicator": {
+      "definition": "Indica si se solicita el ordenante."
+    },
+    "DebtorAgentIndicator": {
+      "definition": "Indica si se solicita la entidad del ordenante.|Uso: es la antigua FirstAgent."
+    },
+    "InstructingReimbursementAgentIndicator": {
+      "definition": "Indica si se solicita la entidad de reembolso instructora.|Uso: es la antigua InstructingAgentCorrespondent."
+    },
+    "InstructedReimbursementAgentIndicator": {
+      "definition": "Indica si se solicita la entidad de reembolso instruida.|Uso: es la antigua InstructedAgentCorrespondent."
+    },
+    "IntermediaryIndicator": {
+      "definition": "Indica si se solicita la entidad intermediaria."
+    },
+    "CreditorAgentIndicator": {
+      "definition": "Indica si se solicita la entidad del beneficiario.|Uso: es la antigua FinalAgent."
+    },
+    "CreditorIndicator": {
+      "definition": "Indica si se solicita el beneficiario."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "PowerOfAttorneyRequirements4",
+  "definition": "Condiciones para obtener el poder notarial.",
+  "isoElements": {
+    "LegalRequirement": {
+      "definition": "Autoridad que debe validar el poder notarial."
+    },
+    "OtherDocumentation": {
+      "definition": "Documentos necesarios para obtener un poder notarial válido."
+    },
+    "DocumentSubmissionDeadline": {
+      "definition": "Fecha límite para aportar los documentos solicitados."
+    }
+  },
+  "isoRules": {
+    "OtherDocumentation1Guideline": {
+      "definition": "Si se anuncian plazos específicos del poder notarial, se recomienda utilizar OtherDocumentation."
+    }
+  }
+}

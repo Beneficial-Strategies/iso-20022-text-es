@@ -1,0 +1,14 @@
+{
+  "isoType": "ShareRanking1Code",
+  "definition": "Especifica si las acciones tienen derecho a dividendo o son pari passu.",
+  "isoCodes": {
+    "DIVI": {
+      "name": "Dividendo",
+      "definition": "Pagadero en la fecha especificada."
+    },
+    "PARI": {
+      "name": "Pari passu",
+      "definition": "Pari passu. Con los mismos derechos que las demás acciones de la sociedad."
+    }
+  }
+}

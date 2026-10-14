@@ -1,0 +1,30 @@
+{
+  "isoType": "BeneficiaryCertificationType1Code",
+  "definition": "Especifica el tipo de certificación del beneficiario.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Inversor acreditado",
+      "definition": "El titular del valor debe certificar de forma irrevocable que es un Inversor Acreditado (Accredited Investor) según la definición de la Regulation D de la Comisión del Mercado de Valores de Estados Unidos (US Securities and Exchange Commission)."
+    },
+    "DOMI": {
+      "name": "País de domicilio",
+      "definition": "El titular del valor debe certificar su domicilio."
+    },
+    "FULL": {
+      "name": "Desglose completo de beneficiarios efectivos",
+      "definition": "El titular del valor debe facilitar los datos de su beneficiario efectivo a efectos de divulgación o instrucción."
+    },
+    "QIBB": {
+      "name": "Certificación QIB",
+      "definition": "El titular del valor debe certificar de forma irrevocable que es un Comprador Institucional Cualificado (Qualified Institutional Buyer) según la definición de la Rule 144A de la Comisión del Mercado de Valores de Estados Unidos (US Securities and Exchange Commission)."
+    },
+    "TRBD": {
+      "name": "Desglose por tipo impositivo",
+      "definition": "El titular del valor debe facilitar datos básicos sobre los nominales y el tipo impositivo asociado que ha de utilizar la entidad gestora de la cuenta."
+    },
+    "NCOM": {
+      "name": "No sociedad",
+      "definition": "El titular del valor debe certificar que es una persona no vinculada a la sociedad."
+    }
+  }
+}

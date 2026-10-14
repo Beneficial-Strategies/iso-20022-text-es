@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndIdentification18",
+  "definition": "Proporciona el tipo de operación y la información de identificación.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Proporciona información de identificación inequívoca de la operación."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    }
+  }
+}

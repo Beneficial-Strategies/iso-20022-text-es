@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionInstructionCancellationRequestV13",
+  "definition": "Ámbito|El titular de la cuenta envía el mensaje CorporateActionInstructionCancellationRequest al administrador de la cuenta para solicitar la cancelación de una instrucción de elección de operación corporativa enviada anteriormente.|Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es Duplicate),|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy),|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy Duplicate), utilizando los elementos pertinentes de la cabecera de aplicación empresarial (BAH).",
+  "isoElements": {
+    "ChangeInstructionIndicator": {
+      "definition": "Indica que la instrucción cancelada será sustituida por una nueva instrucción de operación corporativa que se enviará posteriormente."
+    }
+  },
+  "isoRules": {
+    "ChangeInstructionIndicatorGuideline": {
+      "definition": "ChangeInstructionIndicator solo puede utilizarse si CorporateActionOptionDetails/WithdrawalAllowedIndicator se estableció en 'false' o '0' (No) en la CorporateActionNotification recibida previamente y si CorporateActionOptionDetails/ChangeAllowedIndicator se estableció en 'true' o '1' (Yes) en la CorporateActionNotification recibida previamente."
+    },
+    "CorporateActionEventIdentificationRule": {
+      "definition": "Si el mensaje CorporateActionInstruction era no solicitado (es decir, esta instrucción no ha sido precedida por una CorporateActionNotification), entonces CorporateActionGeneralInformation/CorporateActionEventIdentification debe ser NONREF."
+    },
+    "BeneficialOwnerBreakdownRequestRule ": {
+      "definition": "Si el valor de CorporateActionInstruction/OptionType/Code es BOBD (BeneficialOwnerBreakdownRequest), el valor de CorporateActionGeneralInformation/EventType/Code debe ser WTRC (Withholding Tax Relief Certification).|(MT565 NVR C8)"
+    }
+  }
+}

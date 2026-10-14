@@ -1,0 +1,47 @@
+{
+  "isoType": "QuantityAndAccount113",
+  "definition": "Detalles sobre una cantidad, una cuenta y otra información relacionada.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "DenominationChoice": {
+      "definition": "Denominación del valor que se ha de recibir o entregar."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "QuantityBreakdown": {
+      "definition": "Desglose de una cantidad en lotes, como lotes fiscales o series de instrumentos."
+    }
+  },
+  "isoRules": {
+    "DenominationRule": {
+      "definition": "Salvo acuerdo bilateral entre el titular de la cuenta y el administrador de cuentas, si se utiliza DenominationChoice, no debe contener información que pueda proporcionarse en un campo estructurado."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "La funcionalidad SafekeepingPlace en las instrucciones de liquidación solo debe utilizarse para custodios globales que permiten a sus clientes especificar dónde se han de mantener los valores, por ejemplo, en una cuenta de un ICSD frente a una cuenta en el CSD local."
+    },
+    "SafekeepingPlaceGuideline": {
+      "definition": "Cuando se utilice (véase la regla de uso SafekeepingPlaceRule), salvo que existan acuerdos especiales entre la entidad gestora de la cuenta y el titular de la cuenta, se recomienda utilizar el campo del lugar de custodia conforme a la práctica de mercado descrita a continuación:|• SafekeepingPlaceType/SharesHeldAtNCSD: se utilizará el BIC de un NCSD para las instrucciones de liquidación nacionales y de NCSD a NCSD.|• SafekeepingPlaceType/SharesHeldAtICSD: se utilizará el BIC de un ICSD para las instrucciones de liquidación internas del ICSD, de ICSD/local y de ICSD a ICSD.|• SafekeepingPlaceType/SharesHeldAtLoaclCustodian: aplicable, por ejemplo, cuando la entidad gestora de la cuenta es un custodio global y proporciona al titular de la cuenta un informe de posiciones a nivel de los agentes del custodio global. Al dar instrucciones, el gestor del fondo indicaría por tanto, como lugar de custodia, el BIC del agente del custodio global en el mercado.|La ausencia de SafekeepingPlace significa que:|• La información de SafekeepingPlace la mantiene la entidad gestora de la cuenta (SLA, estructura de cuentas, ETC.) y no debe ser facilitada por el titular de la cuenta.|• El SafekeepingPlace es el depositario de la contraparte. Por lo tanto, la operación es nacional (con un NCSD) o interna a un ICSD.|Para más detalles, consulte el documento de práctica de mercado correspondiente en www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    }
+  }
+}

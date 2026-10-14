@@ -1,0 +1,36 @@
+{
+  "isoType": "Statement75",
+  "definition": "Características generales de un extracto que reporta información.",
+  "isoElements": {
+    "StatementType": {
+      "definition": "Indica si el extracto es una notificación de solo saldos o si incluye únicamente las instrucciones omitidas o todas las instrucciones."
+    },
+    "ReportingType": {
+      "definition": "Indica si el extracto de informe sobre posiciones de cuenta para eventos de operaciones societarias corresponde a una única cuenta y varios eventos, o a varias cuentas y un único evento."
+    },
+    "StatementIdentification": {
+      "definition": "Referencia del extracto."
+    },
+    "InstructionAggregationPeriod": {
+      "definition": "Indica el período del detalle de instrucciones dentro del extracto."
+    },
+    "ReportNumber": {
+      "definition": "Número secuencial del extracto."
+    },
+    "StatementDateTime": {
+      "definition": "Fecha del extracto."
+    },
+    "Frequency": {
+      "definition": "Frecuencia del extracto."
+    },
+    "UpdateType": {
+      "definition": "Indica si el informe está completo o contiene únicamente cambios."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si el extracto comunica actividad o actualización de información."
+    },
+    "NotificationDeadlinePeriod": {
+      "definition": "Período durante el cual se ha fijado el plazo de identificación."
+    }
+  }
+}

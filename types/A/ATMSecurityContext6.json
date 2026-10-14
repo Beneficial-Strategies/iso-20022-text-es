@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMSecurityContext6",
+  "definition": "Información relacionada con los comandos de seguridad.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "definition": "Esquema de seguridad de intercambio de claves activado en el cajero automático (ATM) para el gestor del host."
+    },
+    "SecuritySchemeCapabilities": {
+      "definition": "Esquemas de seguridad de intercambio de claves implementados en el módulo de seguridad de hardware del cajero automático (ATM)."
+    },
+    "SecurityDevice": {
+      "definition": "Módulo de seguridad de hardware del ATM."
+    },
+    "Key": {
+      "definition": "Claves criptográficas almacenadas en el módulo de seguridad de hardware del ATM."
+    },
+    "HostChallenge": {
+      "definition": "Valor aleatorio del host proporcionado durante un intercambio anterior."
+    }
+  }
+}

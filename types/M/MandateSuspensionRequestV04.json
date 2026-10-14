@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateSuspensionRequestV04",
+  "definition": "Ámbito|El mensaje MandateSuspensionRequest lo envía el iniciador de la solicitud a su entidad. El iniciador puede ser el ordenante, la entidad del ordenante, el beneficiario o la entidad del beneficiario.|El mensaje MandateSuspensionRequest se utiliza para solicitar la suspensión de un mandato existente hasta que se levante la suspensión.|Uso|El mensaje MandateSuspensionRequest puede contener una o varias solicitudes de suspensión.|Los mensajes pueden intercambiarse entre el beneficiario y la entidad del beneficiario, entre el ordenante y la entidad del ordenante, y entre la entidad del beneficiario y la entidad del ordenante.|El mensaje MandateSuspensionRequest puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

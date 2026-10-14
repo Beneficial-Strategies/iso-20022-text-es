@@ -1,0 +1,54 @@
+{
+  "isoType": "ExternalInvestigationType1Code",
+  "definition": "Especifica el tipo de investigación, tal como se publica en un conjunto externo de códigos de tipo de investigación.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "UTAP": {
+      "name": "Imposibilidad de aplicar por el beneficiario",
+      "definition": "El beneficiario no puede aplicar un apunte contabilizado."
+    },
+    "CCNR": {
+      "name": "Reclamación del beneficiario por no recepción",
+      "definition": "El beneficiario alega que no ha recibido el pago."
+    },
+    "CONR": {
+      "name": "Reclamación de la entidad del beneficiario por no recepción de la cobertura",
+      "definition": "La entidad del beneficiario alega que no ha recibido la cobertura o la liquidación."
+    },
+    "RQFI": {
+      "name": "Solicitud de información",
+      "definition": "Se requiere información adicional sobre un pago, apunte, mensaje o instrucción."
+    },
+    "PINC": {
+      "name": "Iniciación de pago no confirmada",
+      "definition": "La iniciación del pago no ha sido liquidada ni confirmada."
+    },
+    "RQVA": {
+      "name": "Solicitud de ajuste de fecha valor",
+      "definition": "Se solicita la revalorización de un apunte."
+    },
+    "RQUF": {
+      "name": "Solicitud de uso de los fondos",
+      "definition": "Se solicita el uso de fondos de un apunte."
+    },
+    "RQDA": {
+      "name": "Solicitud de autorización de adeudo",
+      "definition": "Se solicita la autorización de adeudo de un apunte."
+    },
+    "ACCT": {
+      "name": "Investigación relacionada con la cuenta",
+      "definition": "Investigación relativa a una cuenta."
+    },
+    "RQCH": {
+      "name": "Solicitud relacionada con los gastos",
+      "definition": "Investigación relativa a gastos que han sido cobrados o se solicitan."
+    },
+    "RIMF": {
+      "name": "Solicitud del IMF",
+      "definition": "Solicitud del Fondo Monetario Internacional."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro tipo de solicitud."
+    }
+  }
+}

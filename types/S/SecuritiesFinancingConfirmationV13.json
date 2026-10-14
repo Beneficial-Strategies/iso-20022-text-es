@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesFinancingConfirmationV13",
+  "definition": "Alcance|Un administrador de la cuenta de operaciones de financiación con valores envía una SecuritiesFinancingConfirmation a un titular de la cuenta para confirmar o notificar la liquidación parcial o total de la pata de apertura o de cierre de una operación de financiación con valores. ||La relación entre el administrador de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que gestione operaciones de financiación con valores en nombre de sus participantes|- un agente (subcustodio) que gestione operaciones de financiación con valores en nombre de su cliente custodio global, o |- un custodio que gestione operaciones de financiación con valores en nombre de una entidad de gestión de inversiones o de un intermediario/operador (broker/dealer).|||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoRules": {
+    "BuyerSSIRule": {
+      "definition": "Si se aplica una instrucción de liquidación permanente y la confirmación se refiere a una entrega, Buyer debe estar presente."
+    },
+    "SellerSSIRule": {
+      "definition": "Si se aplica una instrucción permanente de liquidación y la confirmación es de recepción, Seller debe estar presente."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si la confirmación es de recepción y no se aplica ninguna instrucción permanente de liquidación, DeliveringDepository y Party1 deben estar presentes."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si la confirmación es de entrega y no se aplica ninguna instrucción permanente de liquidación, ReceivingDepository y Party1 deben estar presentes."
+    },
+    "SettledAmountRule": {
+      "definition": "Si la instrucción es contra pago, entonces SettledAmount debe estar presente."
+    }
+  }
+}

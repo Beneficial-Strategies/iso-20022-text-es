@@ -1,0 +1,12 @@
+{
+  "isoType": "IncludedAccount1",
+  "definition": "Proporciona información sobre la cuenta afectada o no por la instrucción permanente.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificación de la cuenta de valores."
+    },
+    "IncludedIndicator": {
+      "definition": "Indica si la cuenta está afectada o no por la instrucción permanente.||Yes = La cuenta está afectada por la instrucción permanente.|No = La cuenta no está afectada por la instrucción permanente."
+    }
+  }
+}

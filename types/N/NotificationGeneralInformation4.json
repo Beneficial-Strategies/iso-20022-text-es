@@ -1,0 +1,21 @@
+{
+  "isoType": "NotificationGeneralInformation4",
+  "definition": "Tipo y estado de la notificación del evento.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Identificación única del grupo de mensajes de notificación de la junta cuando la notificación se divide en varios mensajes (paginados)."
+    },
+    "NotificationType": {
+      "definition": "Tipo de notificación."
+    },
+    "NotificationStatus": {
+      "definition": "Estado de los detalles del evento."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "definition": "Indica si el anuncio fue iniciado por el primer intermediario de la cadena de custodia de conformidad con SRD II."
+    },
+    "ConfirmationOfHoldingRequired": {
+      "definition": "Indica si el emisor exige una confirmación específica de la posición junto con una instrucción de participación y/o de voto (por ejemplo, según lo exigido en el párrafo 67c, apartado 3, de la ley alemana de sociedades anónimas)."
+    }
+  }
+}

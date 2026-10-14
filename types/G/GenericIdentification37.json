@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification37",
+  "definition": "Identificación expresada como un tipo propietario y una descripción narrativa.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Información propia, a menudo un código, emitida por el emisor del esquema de la fuente de datos."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    }
+  }
+}

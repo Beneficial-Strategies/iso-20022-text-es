@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseDetails1",
+  "definition": "Detalles adicionales para aclarar los códigos de respuesta.",
+  "isoElements": {
+    "ResponseCode": {
+      "definition": "Código para advertencias, rechazos, respuestas de pago/no pago y rechazos técnicos del administrador de la cuenta."
+    },
+    "AdditionalDetails": {
+      "definition": "Información adicional para ampliar los códigos de respuesta."
+    }
+  }
+}

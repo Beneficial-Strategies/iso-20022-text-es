@@ -1,0 +1,26 @@
+{
+  "isoType": "ContentType2Code",
+  "definition": "Identificación del tipo de una estructura de datos de sintaxis de mensajes criptográficos (CMS).",
+  "isoCodes": {
+    "DATA": {
+      "name": "Datos en claro",
+      "definition": "Contenido de datos genérico, no criptográfico o sin calificar - (identificador de objeto ASN.1: id-data)."
+    },
+    "SIGN": {
+      "name": "Datos firmados",
+      "definition": "Firma digital - (identificador de objeto ASN.1: id-signedData)."
+    },
+    "EVLP": {
+      "name": "Datos envueltos",
+      "definition": "Datos cifrados, con clave de cifrado - (identificador de objeto ASN.1: id-envelopedData)."
+    },
+    "DGST": {
+      "name": "Datos resumidos",
+      "definition": "Resumen del mensaje - (identificador de objeto ASN.1: id-digestedData)."
+    },
+    "AUTH": {
+      "name": "Datos autenticados",
+      "definition": "MAC (código de autenticación de mensaje), con clave de cifrado - (identificador de objeto ASN.1: id-ct-authData)."
+    }
+  }
+}

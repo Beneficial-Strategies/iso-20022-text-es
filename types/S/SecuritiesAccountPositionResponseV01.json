@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesAccountPositionResponseV01",
+  "definition": "SCOPE|El mensaje SecuritiesAccountPositionResponse es enviado por una infraestructura del mercado a una parte instructora para informar de las posiciones de valores correspondientes al período de fechas indicado en la consulta, para todos los valores de todas las cuentas que cumplan los criterios de la consulta.||USAGE|El mensaje SecuritiesAccountPositionResponse proporcionará a los CSD y a los participantes de T2S un informe correspondiente a la SecuritiesAccountPositionQuery, que devuelve los saldos mantenidos en la lista de cuentas de valores especificadas dentro del período especificado y que cumplan los criterios de selección definidos. El Securities Account Position Response proporcionará los siguientes atributos de negocio:|- CSD |- Titular de la cuenta|- Número de cuenta de valores|- Identificador del valor (p. ej., ISIN)|- Fecha|- La posición total|- La posición bloqueada|- La posición libre ||Salvo que el emisor especifique otra cosa en la Securities Balance Query, T2S solo devolverá las posiciones de valores distintas de cero de las cuentas.||El mensaje también puede utilizarse para: ||- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es Duplicate) ||- facilitar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy) ||- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy Duplicate).",
+  "isoRules": {
+    "BalancePresenceRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es TRUE (Sí), entonces Balances debe estar presente. Si ReportGeneralDetails/ActivityIndicator es FALSE (No), entonces Balances debe estar ausente."
+    },
+    "BalanceForAccountReportingRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es TRUE (Sí) y ReportGeneralDetails/SubAccountIndicator es FALSE (NO), entonces Balances/BalanceForAccount debe estar presente y Balances/SubAccountDetails debe estar ausente."
+    },
+    "SubAccountReportingRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es TRUE (Sí) y ReportGeneralDetails/SubAccountIndicator es TRUE (SÍ), entonces Balances/SubAccountDetails debe estar presente y Balances/BalanceForAccount debe estar ausente (YES)."
+    }
+  }
+}

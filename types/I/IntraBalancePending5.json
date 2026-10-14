@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraBalancePending5",
+  "definition": "Proporciona los datos de los movimientos entre saldos pendientes.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "Movement": {
+      "definition": "Detalles adicionales sobre la operación individual de movimiento entre saldos."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason debe estar presente o Movement(*)/StatusAndReason debe estar presente, pero no ambos."
+    }
+  }
+}

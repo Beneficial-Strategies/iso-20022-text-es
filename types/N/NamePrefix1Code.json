@@ -1,0 +1,22 @@
+{
+  "isoType": "NamePrefix1Code",
+  "definition": "Especifica los términos utilizados para dirigirse formalmente a una persona.",
+  "isoCodes": {
+    "DOCT": {
+      "name": "Doctor",
+      "definition": "El tratamiento de la persona es Doctor o Dr."
+    },
+    "MIST": {
+      "name": "Señor",
+      "definition": "El tratamiento de la persona es Señor o Sr."
+    },
+    "MISS": {
+      "name": "Señorita",
+      "definition": "El tratamiento de la persona es Señorita."
+    },
+    "MADM": {
+      "name": "Señora",
+      "definition": "El tratamiento de la persona es Señora."
+    }
+  }
+}

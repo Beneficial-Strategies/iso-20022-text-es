@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionStatusAdvice002V12",
+  "definition": "Ámbito|Una entidad gestora de la cuenta envía una SecuritiesSettlementTransactionStatusAdvice a un titular de cuenta para informar del estado de una instrucción de operación de liquidación de valores enviada previamente por el titular de la cuenta o del estado de una operación de liquidación existente en los libros de la entidad gestora por cuenta del titular. El estado puede ser de procesamiento, de procesamiento pendiente, de casación interna, de casación y/o de liquidación.|El aviso de estado puede enviarse como respuesta a una solicitud del titular de la cuenta o de forma independiente.|La relación entre la entidad gestora de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura de mercado de liquidación que actúa en nombre de sus participantes|- un agente (subcustodio) que actúa en nombre de su cliente custodio global, o|- un custodio que actúa en nombre de una entidad de gestión de inversiones o de un corredor/intermediario.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado anteriormente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "ProcessingStatusPresenceRule": {
+      "definition": "Si InferredMatchingStatus, MatchingStatus y SettlementStatus están ausentes, entonces ProcessingStatus debe estar presente."
+    },
+    "MatchingStatusPresenceRule": {
+      "definition": "Si ProcessingStatus, InferredMatchingStatus y SettlementStatus están ausentes, entonces MatchingStatus debe estar presente."
+    },
+    "SettlementStatusPresenceRule": {
+      "definition": "Si ProcessingStatus, InferredMatchingStatus y MatchingStatus están ausentes, entonces SettlementStatus debe estar presente."
+    },
+    "InferredMatchingStatusStatusPresenceRule": {
+      "definition": "Si ProcessingStatus, MatchingStatus y SettlementStatus están ausentes, entonces InferredMatchingStatus debe estar presente."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Si la situación/motivo de liquidación se utiliza por sí sola, significa que la operación está casada (si existe un proceso de casamiento en el mercado correspondiente o en el administrador de cuentas correspondiente)."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    }
+  }
+}

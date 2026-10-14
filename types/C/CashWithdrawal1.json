@@ -1,0 +1,21 @@
+{
+  "isoType": "CashWithdrawal1",
+  "definition": "Retirada de una suma de dinero expresada en billetes y/o monedas.",
+  "isoElements": {
+    "AmendmentIndicator": {
+      "definition": "Indica si se han modificado las denominaciones de la solicitud original de retirada de efectivo.||Uso: cuando no se utiliza este elemento, las denominaciones coinciden con las de la solicitud original de retirada de efectivo o no se incluyeron denominaciones en dicha solicitud."
+    },
+    "NoteDetails": {
+      "definition": "Especifica los detalles de la retirada solicitada en billetes."
+    },
+    "CoinDetails": {
+      "definition": "Especifica los detalles de la retirada solicitada en monedas."
+    },
+    "TotalAmount": {
+      "definition": "Importe total de todos los billetes y monedas que se retiran."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Identificación única de cualquier discrepancia."
+    }
+  }
+}

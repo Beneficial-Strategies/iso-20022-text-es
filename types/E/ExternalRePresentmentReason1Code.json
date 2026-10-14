@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalRePresentmentReason1Code",
+  "definition": "Especifica el código externo del motivo de nueva presentación, con formato de cadena de caracteres de un máximo de 4 caracteres. La lista de códigos válidos es una lista de códigos externa que se publica por separado.",
+  "isoCodes": {
+    "AMCR": {
+      "name": "Importe corregido",
+      "definition": "Importe corregido debido a la prueba de la operación."
+    },
+    "CLSD": {
+      "name": "Transferencia de responsabilidad por autenticación de tarjeta denegada",
+      "definition": "Traslado de responsabilidad al adquirente por denegación debida a la falta de método de autenticación de la tarjeta."
+    },
+    "CRPI": {
+      "name": "Abono emitido anteriormente",
+      "definition": "Abono emitido previamente."
+    },
+    "OTVA": {
+      "name": "Operación original válida",
+      "definition": "La operación original era válida."
+    },
+    "VLSD": {
+      "name": "Transferencia de responsabilidad por verificación denegada",
+      "definition": "Traslado de responsabilidad al adquirente por denegación debida a la falta de método de verificación del titular de la tarjeta."
+    }
+  }
+}

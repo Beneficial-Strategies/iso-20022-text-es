@@ -1,0 +1,12 @@
+{
+  "isoType": "LegalFramework4Choice",
+  "definition": "Elección del formato para el marco jurídico.",
+  "isoElements": {
+    "Code": {
+      "definition": "Marco jurídico expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Marco jurídico expresado como código propietario."
+    }
+  }
+}

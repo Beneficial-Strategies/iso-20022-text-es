@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionGenerationNotification002V11",
+  "definition": "Alcance|Un administrador de la cuenta envía un SecuritiesSettlementTransactionGenerationNotification a un titular de la cuenta para notificarle una operación de liquidación de valores que el administrador de la cuenta ha generado/creado para el titular de la cuenta. El motivo de la creación puede abarcar desde la transformación automática de instrucciones de liquidación pendientes tras un evento societario hasta la recuperación de la base de datos de operaciones de un titular de la cuenta iniciada por su administrador de la cuenta.|La relación entre el administrador de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que actúe en nombre de sus participantes|- un agente (subcustodio) que actúe en nombre de su cliente custodio global, o|- un custodio que actúe en nombre de una entidad de gestión de inversiones o de un intermediario/operador (broker/dealer)||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Si la instrucción es contra pago, SettlementAmount debe estar presente."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si la instrucción es una entrega y no se aplica ninguna instrucción de liquidación permanente, ReceivingDepository y Party1 deben estar presentes.|."
+    },
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "Si se utiliza AdditionalPhysicalOrRegistrationDetails, entonces la instrucción debe ser libre de pago."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si la instrucción es una recepción y no se aplica ninguna instrucción permanente de liquidación, entonces DeliveringDepository y Party1 deben estar presentes."
+    },
+    "CurrencyToSellRule": {
+      "definition": "Si se utiliza CurrencytoSell, entonces la instrucción debe ser una recepción."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "Si se utiliza CurrencytoBuy, entonces la instrucción debe ser una entrega."
+    }
+  }
+}

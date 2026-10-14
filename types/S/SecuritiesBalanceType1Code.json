@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesBalanceType1Code",
+  "definition": "Especifica la naturaleza del saldo de valores o de fondos de inversión.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de valores que están bloqueados o congelados. Un instrumento financiero puede no estar disponible debido a circunstancias externas como una orden judicial, el fallecimiento del beneficiario o del titular de la cuenta, o una quiebra."
+    },
+    "BORR": {
+      "name": "Tomado en préstamo",
+      "definition": "Saldo de valores que han sido tomados en préstamo de otra parte."
+    },
+    "COLI": {
+      "name": "Garantía recibida",
+      "definition": "Saldo de valores que pertenecen a un tercero y se mantienen con fines de colateralización."
+    },
+    "COLO": {
+      "name": "Garantía entregada",
+      "definition": "Saldo de valores que pertenecen a la cuenta de custodia indicada en este mensaje y están depositados en un tercero con fines de colateralización."
+    },
+    "LOAN": {
+      "name": "En préstamo",
+      "definition": "Saldo de valores que han sido prestados a un tercero."
+    },
+    "MARG": {
+      "name": "Margen de derivados",
+      "definition": "Saldo de valores que se utilizan como garantía de derivados."
+    },
+    "PDMT": {
+      "name": "Saldo casado de entrega pendiente",
+      "definition": "Saldo de valores pendientes de entrega que han sido casados. Solo es aplicable en la comunicación entre CSD y participantes."
+    },
+    "PRMT": {
+      "name": "Saldo casado de recepción pendiente",
+      "definition": "Saldo de valores pendientes de recepción que han sido casados. Solo es aplicable en la comunicación entre CSD y participantes."
+    },
+    "PRUM": {
+      "name": "Saldo no casado de recepción pendiente",
+      "definition": "Saldo de valores pendientes de recepción que no han sido casados. Solo es aplicable en la comunicación entre CSD y participantes."
+    },
+    "PECA": {
+      "name": "Operación societaria pendiente",
+      "definition": "Saldo de valores, antes de la fecha ex, que participan en una operación societaria (CA). Los valores bloqueados debido a una CA, por ejemplo, proxy, en depósito en garantía, deben identificarse en el subsaldo BLOK."
+    },
+    "PEND": {
+      "name": "Entrega pendiente",
+      "definition": "Saldo de valores pendientes de entrega."
+    },
+    "PENR": {
+      "name": "Recepción pendiente",
+      "definition": "Saldo de valores pendientes de recepción."
+    },
+    "PLED": {
+      "name": "Pignorado",
+      "definition": "Saldo de valores que están pignorados, por ejemplo, un instrumento financiero no está disponible porque se ha utilizado o entregado como garantía."
+    },
+    "PDUM": {
+      "name": "Saldo no casado de entrega pendiente",
+      "definition": "Saldo de valores pendientes de entrega que no han sido casados. Solo es aplicable en la comunicación entre CSD y participantes."
+    },
+    "REGO": {
+      "name": "Pendiente de registro",
+      "definition": "Saldo de valores que están siendo procesados actualmente por la institución responsable de registrar al nuevo titular real (o titular interpuesto) de los valores después de que se haya liquidado una operación."
+    },
+    "RSTR": {
+      "name": "Restringido",
+      "definition": "Saldo de valores que solo pueden venderse bajo determinadas condiciones o que requieren documentos legales."
+    },
+    "OTHR": {
+      "name": "Sin clasificar",
+      "definition": "Saldo de valores sin clasificar, es decir, que no se identifica con ninguno de los tipos de subsaldo existentes."
+    },
+    "TRAN": {
+      "name": "En transbordo",
+      "definition": "Saldo de valores físicos que están en tránsito, p. ej., en proceso de transferencia de un depositario o agente a otro."
+    },
+    "DRAW": {
+      "name": "Sorteado",
+      "definition": "Saldo de valores que han sido sorteados para su amortización."
+    },
+    "WDOC": {
+      "name": "A la espera de documentación",
+      "definition": "El instrumento financiero no está disponible debido a documentación faltante o incompleta relativa a la cuenta, o debido a una orden faltante o incompleta."
+    },
+    "BTRA": {
+      "name": "En proceso de traspaso",
+      "definition": "El instrumento financiero no está disponible como resultado de una orden de transferencia, pendiente de movimiento en el registro de accionistas."
+    }
+  }
+}

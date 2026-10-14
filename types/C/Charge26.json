@@ -1,0 +1,12 @@
+{
+  "isoType": "Charge26",
+  "definition": "Elección de formatos para el tipo de gasto.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de gasto."
+    },
+    "ChargeApplied": {
+      "definition": "Importe o tipo del gasto aplicado."
+    }
+  }
+}

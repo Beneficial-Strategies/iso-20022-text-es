@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledReason11Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el motivo por el que se cancela la instrucción o la solicitud de cancelación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo por el que se cancela la instrucción."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria que especifica el motivo por el que se cancela la instrucción."
+    }
+  }
+}

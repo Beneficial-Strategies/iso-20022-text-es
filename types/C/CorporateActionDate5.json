@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionDate5",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Fecha y hora en que se determinará un tipo de cambio."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que los activos quedan disponibles para el titular de la cuenta (en un asiento de abono) o dejan de estar disponibles para él (en un asiento de adeudo)."
+    },
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe realizarse la distribución (efectivo y/o valores)."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Fecha y hora en que puede efectuarse un pago, por ejemplo, si la fecha de pago es un día inhábil o para indicar la fecha del primer pago de una oferta."
+    }
+  }
+}

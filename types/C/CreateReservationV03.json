@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateReservationV03",
+  "definition": "Ámbito|El mensaje CreateReservation se utiliza para solicitar la creación de una reserva concreta por parte del miembro, gestionada por el administrador de operaciones.|Uso|Con arreglo a los criterios definidos en el mensaje CreateReservation, el administrador de operaciones ejecutará o rechazará la creación solicitada y responderá con un mensaje Receipt como respuesta a la solicitud."
+}

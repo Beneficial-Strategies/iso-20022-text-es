@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters17",
+  "definition": "Proporciona el tipo de operación y la información de identificación.",
+  "isoElements": {
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    },
+    "ReconciliationIndicator": {
+      "definition": "Indica si la operación de liquidación ya se envió al mercado y si el titular de la cuenta la envía a la entidad gestora de la cuenta únicamente con fines de conciliación."
+    }
+  }
+}

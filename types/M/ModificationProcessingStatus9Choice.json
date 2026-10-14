@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationProcessingStatus9Choice",
+  "definition": "Elección del estado de tramitación de la modificación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado de una solicitud de modificación."
+    },
+    "Proprietary": {
+      "definition": "Proporciona el estado de una solicitud de modificación."
+    }
+  }
+}

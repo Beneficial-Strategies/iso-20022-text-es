@@ -1,0 +1,15 @@
+{
+  "isoType": "IntraPositionStatusAndReason4",
+  "definition": "Elección de los tipos de estado del movimiento.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Proporciona detalles sobre el estado de tramitación de la operación."
+    },
+    "SettlementStatus": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "Settled": {
+      "definition": "Especifica el estado o la condición."
+    }
+  }
+}

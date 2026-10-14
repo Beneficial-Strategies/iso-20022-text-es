@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryDetails16",
+  "definition": "Identifica la(s) operación(es) subyacente(s) y/o los apuntes agrupados en lote.",
+  "isoElements": {
+    "Batch": {
+      "definition": "Proporciona detalles sobre las operaciones agrupadas en lote."
+    },
+    "TransactionDetails": {
+      "definition": "Proporciona información sobre la(s) operación(es) subyacente(s)."
+    }
+  }
+}

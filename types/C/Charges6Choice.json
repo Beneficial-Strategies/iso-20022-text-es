@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges6Choice",
+  "definition": "Proporciona información sobre los cargos que deben pagar los responsables de los gastos en relación con el procesamiento de la operación subyacente.",
+  "isoElements": {
+    "Single": {
+      "definition": "Cargos relacionados con una única operación de pago."
+    },
+    "PerTransaction": {
+      "definition": "Cargos desglosados por operación de pago."
+    },
+    "PerType": {
+      "definition": "Cargos desglosados por tipo de cargo."
+    }
+  }
+}

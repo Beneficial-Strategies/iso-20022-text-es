@@ -1,0 +1,30 @@
+{
+  "isoType": "TransactionDetails160",
+  "definition": "Identifica los detalles de la operación.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financiero que representa un conjunto de derechos del inversor frente al emisor."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "Investor": {
+      "definition": "Parte, ya sea una persona física u organización, cuyos activos se están invirtiendo."
+    }
+  }
+}

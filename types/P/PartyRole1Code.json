@@ -1,0 +1,14 @@
+{
+  "isoType": "PartyRole1Code",
+  "definition": "Especifica el rol de la parte en la operación.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Custodio",
+      "definition": "Parte que custodia y administra activos por cuenta del propietario."
+    },
+    "INVS": {
+      "name": "Inversor",
+      "definition": "Parte, ya sea una persona física u organización, cuyos activos se están invirtiendo."
+    }
+  }
+}

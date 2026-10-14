@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitIdentification9",
+  "definition": "Define los elementos utilizados para identificar de forma única un límite de gestión de riesgos definido en el sistema.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identificación de un sistema determinado de compensación de efectivo."
+    },
+    "Type": {
+      "definition": "Naturaleza del límite de gestión de riesgos."
+    },
+    "AccountOwner": {
+      "definition": "Titular de la cuenta que se consulta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad que la administra."
+    }
+  }
+}

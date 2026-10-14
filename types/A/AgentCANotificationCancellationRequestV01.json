@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCANotificationCancellationRequestV01",
+  "definition": "Ámbito|Este mensaje lo envía un emisor (o su agente) a un CSD para solicitar la cancelación de un mensaje de aviso de notificación.|Uso|Cuando este mensaje se utiliza para solicitar la cancelación de un mensaje de aviso de notificación, la función del mensaje debe ser cancelación.|Cuando este mensaje se utiliza para solicitar la retirada de un evento u opción de operación societaria, la función del mensaje debe ser retirada.|En ambos casos, el bloque de construcción de identificación del aviso de notificación debe estar presente para vincular esta solicitud de cancelación con el aviso de notificación enviado previamente."
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransferInstructionV12",
+  "definition": "Ámbito|La parte instructora envía el mensaje PortfolioTransferInstruction, por ejemplo un gestor de plan (nuevo) (receptor), a la parte ejecutora, por ejemplo un gestor de plan (antiguo) (cedente), en nombre de la parte iniciadora, por ejemplo un inversor (cliente), para instruir el traspaso de instrumentos financieros desde la cuenta del cliente en el gestor de plan antiguo (cedente) a la cuenta del cliente en el gestor de plan nuevo (receptor). |Uso|El mensaje PortfolioTransferInstruction se utiliza para instruir uno o varios traspasos de cartera de un cliente. Cada traspaso de cartera se entrega a la misma cuenta. La cuenta puede pertenecer a uno o varios inversores individuales o a uno o varios inversores corporativos.|Si la parte instructora no dispone de información suficiente para instruir el traspaso de cartera, primero debe enviar un mensaje AccountHoldingInformationRequest a la parte ejecutora para recibir un mensaje AccountHoldingInformation.",
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer debe estar presente cuando y solo cuando sea distinto de TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces SecondaryIndividualInvestor no está permitido.|Si PrimaryIndividualInvestor está presente, entonces SecondaryIndividualInvestor puede estar presente."
+    },
+    "Investor2Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces OtherIndividualInvestor no está permitido. |Si PrimaryIndividualInvestor está presente, entonces OtherIndividualInvestor puede estar presente."
+    },
+    "Corporate2Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces OtherCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces OtherCorporateInvestor puede estar presente."
+    },
+    "Corporate1Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces SecondaryCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces SecondaryCorporateInvestor puede estar presente."
+    }
+  }
+}

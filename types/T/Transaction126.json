@@ -1,0 +1,68 @@
+{
+  "isoType": "Transaction126",
+  "definition": "Especifica los detalles de la operación.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce el titular de la cuenta (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la entidad gestora de la cuenta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación de la contraparte asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador de la instrucción distinto del titular de la cuenta, la entidad depositaria y la infraestructura del mercado."
+    },
+    "TradeIdentification": {
+      "definition": "Referencia asignada a la operación comercial por el inversor o la parte negociadora. Esta referencia se utilizará durante todo el ciclo de vida de la operación comercial para acceder a sus detalles o actualizarlos."
+    },
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Identificación única que identifica la operación de gestión de garantías tripartita desde el punto de vista del agente tripartito/proveedor de servicios."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Referencia única que identifica la operación de gestión de garantías tripartita desde el punto de vista del cliente."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "definition": "Identificación única asignada a la instrucción por el cliente."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "definition": "Identificación única asignada a la instrucción por el agente tripartito/proveedor de servicios."
+    },
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de órdenes individuales, asignado por la parte instructora. Este identificador vincula entre sí las órdenes individuales."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de una orden por parte del inversor. Esta referencia puede utilizarse normalmente en un escenario de concentrador (hub) para indicar la referencia de la orden asignada por el cliente subyacente."
+    },
+    "AccountOwnerLegIdentification": {
+      "definition": "Identificador técnico único de la instancia del tramo dentro de un switch."
+    },
+    "AccountServicerLegIdentification": {
+      "definition": "Identificador único de la instancia de la ejecución del tramo dentro de una confirmación de switch."
+    },
+    "TransactionDetails": {
+      "definition": "Identifica los detalles de la operación."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Si no hay ninguna referencia disponible para AccountOwnerTransactionIdentification, por ejemplo, porque la operación se envió por fax, AccountOwnerTransactionIdentification debe ser NONREF."
+    }
+  }
+}

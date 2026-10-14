@@ -1,0 +1,42 @@
+{
+  "isoType": "PointOfInteractionCapabilities10",
+  "definition": "Capacidades del terminal del cajero automático (ATM).",
+  "isoElements": {
+    "CardReadData": {
+      "definition": "Capacidades de lectura de tarjeta del cajero automático (ATM) que realiza la operación."
+    },
+    "CardWriteData": {
+      "definition": "Capacidades de escritura de tarjeta del terminal que realiza la operación."
+    },
+    "Authentication": {
+      "definition": "Capacidades de autenticación del cliente y de la tarjeta disponibles en el cajero automático (ATM)."
+    },
+    "PINLengthCapabilities": {
+      "definition": "Número máximo de dígitos que el cajero automático (ATM) puede aceptar cuando el titular de la tarjeta introduce su PIN."
+    },
+    "ApprovalCodeLength": {
+      "definition": "Número máximo de caracteres del código de aprobación que el cajero automático (ATM) puede gestionar."
+    },
+    "MaxScriptLength": {
+      "definition": "Longitud máxima de datos, en bytes, que un emisor de tarjetas puede devolver a la tarjeta con chip (ICC) en el terminal."
+    },
+    "CardCaptureCapable": {
+      "definition": "Verdadero si el cajero automático (ATM) puede retener la tarjeta.|Uso: Si no se indica, el valor por defecto es True."
+    },
+    "WithdrawalMedia": {
+      "definition": "Tipo de soporte que el cajero automático (ATM) puede dispensar."
+    },
+    "DepositedMedia": {
+      "definition": "Tipo de soporte que el cliente puede depositar en el cajero automático (ATM)."
+    },
+    "MessageCapabilities": {
+      "definition": "Capacidades del terminal para mostrar capacidades de operaciones interactivas (Interactive Transaction Capabilities), como DCC, comisiones, cuentas, etc., que el terminal puede admitir, o imprimir mensajes al titular de la tarjeta y al comercio."
+    },
+    "InteractiveTransactions": {
+      "definition": "Capacidades de operaciones interactivas, como DCC, comisiones, cuentas, etc., que el terminal puede admitir."
+    },
+    "ReceiptPrinting": {
+      "definition": "Indica si el terminal puede imprimir un comprobante (es decir, el dispositivo es funcional y tiene papel).|Uso: Si no se indica, el valor por defecto es True."
+    }
+  }
+}

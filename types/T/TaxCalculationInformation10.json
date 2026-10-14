@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCalculationInformation10",
+  "definition": "Información utilizada para calcular el impuesto.",
+  "isoElements": {
+    "Basis": {
+      "definition": "Forma de la bonificación, por ejemplo, efectivo."
+    },
+    "TaxableAmount": {
+      "definition": "Importe de dinero sobre el que se aplica el impuesto."
+    }
+  }
+}

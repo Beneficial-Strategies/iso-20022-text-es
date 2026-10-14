@@ -1,0 +1,18 @@
+{
+  "isoType": "EUCapitalGain2Code",
+  "definition": "Especifica si la plusvalía está comprendida en el ámbito de la directiva europea sobre fiscalidad de los rendimientos del ahorro en forma de pago de intereses (Directiva 2003/48/CE del Consejo, de 3 de junio) para un ingreso obtenido por la venta, el reembolso o el rescate de acciones y participaciones, etc (EC).",
+  "isoCodes": {
+    "EUSI": {
+      "name": "Ganancia de capital incluida en el ámbito",
+      "definition": "La plusvalía está comprendida en el ámbito de la directiva."
+    },
+    "EUSO": {
+      "name": "Ganancia de capital excluida del ámbito",
+      "definition": "La plusvalía está excluida del ámbito de la directiva."
+    },
+    "UKWN": {
+      "name": "Ganancia de capital desconocida",
+      "definition": "Se desconoce si la plusvalía está comprendida o excluida del ámbito de la directiva."
+    }
+  }
+}

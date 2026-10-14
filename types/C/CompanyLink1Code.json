@@ -1,0 +1,30 @@
+{
+  "isoType": "CompanyLink1Code",
+  "definition": "Especifica el tipo de vínculos con una empresa.",
+  "isoCodes": {
+    "AGEN": {
+      "name": "Entidad",
+      "definition": "Agente autónomo acreditado por el corredor."
+    },
+    "BROK": {
+      "name": "Corredor",
+      "definition": "Empleado, operador o agente del corredor."
+    },
+    "PART": {
+      "name": "Socio de corretaje",
+      "definition": "Socio o accionista del corredor, persona física o entidad que ejerce una función de control directo o indirecto y titular de un cargo de dirección o administración."
+    },
+    "MEMB": {
+      "name": "Corredor miembro",
+      "definition": "Corredor miembro de un conglomerado financiero (la persona es miembro del consejo, director, directivo y empleado de una empresa miembro del conglomerado)."
+    },
+    "PCOM": {
+      "name": "Sociedad matriz",
+      "definition": "Empresa matriz del corredor."
+    },
+    "RELA": {
+      "name": "Pariente",
+      "definition": "Cónyuge o pareja e hijo de un empleado, operador o agente del corredor; agente del corredor; socios o accionistas del corredor; persona física o entidad que ejerce una función de control directo o indirecto y titular de un cargo de dirección o administración."
+    }
+  }
+}

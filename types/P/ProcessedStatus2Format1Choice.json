@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus2Format1Choice",
+  "definition": "Elección de formatos para expresar el estado de procesamiento de una solicitud de cancelación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el estado de procesamiento de una solicitud de cancelación."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el estado de procesamiento de una solicitud de cancelación."
+    }
+  }
+}

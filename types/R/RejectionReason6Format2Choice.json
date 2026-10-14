@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason6Format2Choice",
+  "definition": "Elección de formatos para expresar el motivo del rechazo del aviso de notificación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo del rechazo del aviso de notificación."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el motivo del rechazo del aviso de notificación."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateModification1",
+  "definition": "Especifica el tipo de cambio en una fecha.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica el tipo de cambio."
+    },
+    "Date": {
+      "definition": "Fecha."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason8Code",
+  "definition": "Especifica el motivo del rechazo de una solicitud de modificación de elección.",
+  "isoCodes": {
+    "NAMD": {
+      "name": "Modificación no permitida",
+      "definition": "No se permite la modificación."
+    },
+    "LATT": {
+      "name": "Tardío",
+      "definition": "La instrucción o solicitud llega demasiado tarde."
+    },
+    "ELEC": {
+      "name": "Elección ya cancelada",
+      "definition": "El aviso de elección ya está cancelado."
+    },
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    }
+  }
+}

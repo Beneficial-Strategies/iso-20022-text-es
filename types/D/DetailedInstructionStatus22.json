@@ -1,0 +1,44 @@
+{
+  "isoType": "DetailedInstructionStatus22",
+  "definition": "Información sobre un voto de instrucción de junta.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificación de la instrucción individual específica del mensaje original de instrucciones de junta para la cual se facilita la confirmación."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta de custodia."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identificación de la subcuenta dentro de la cuenta de custodia."
+    },
+    "RightsHolder": {
+      "definition": "Titular de los derechos de voto."
+    },
+    "Proxy": {
+      "definition": "Identificación de la persona designada por el titular de los valores como apoderado."
+    },
+    "StandingInstruction": {
+      "definition": "Indica si se han aplicado o no instrucciones permanentes."
+    },
+    "ModalityOfCounting": {
+      "definition": "Modalidad mediante la cual el emisor recibió los votos que han sido registrados y contabilizados, incluido si fue antes de la junta o en la junta."
+    },
+    "VoteReceiptDateTime": {
+      "definition": "Fecha, o fecha y hora, en que se recibieron los votos que han sido registrados y contabilizados."
+    },
+    "VotePerResolution": {
+      "definition": "Detalles del voto."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Se recomienda que RightsHolder solo esté presente más de una vez si existe copropiedad."
+    },
+    "SubAccount1Rule": {
+      "definition": "Si SubAccountIdentification está presente, entonces AccountIdentification debe estar presente."
+    }
+  }
+}

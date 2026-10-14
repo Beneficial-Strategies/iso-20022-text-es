@@ -1,0 +1,18 @@
+{
+  "isoType": "ProxyAppointmentInformation6",
+  "definition": "Información sobre el registro de un representante.",
+  "isoElements": {
+    "RegistrationMethod": {
+      "definition": "Especifica cómo registrar al representante."
+    },
+    "Deadline": {
+      "definition": "Fecha límite en que el intermediario debe recibir la información sobre la designación del representante."
+    },
+    "MarketDeadline": {
+      "definition": "Fecha límite en que el emisor debe recibir la información sobre la designación del representante."
+    },
+    "AuthorisedProxy": {
+      "definition": "Representante autorizado por el emisor."
+    }
+  }
+}

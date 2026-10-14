@@ -1,0 +1,50 @@
+{
+  "isoType": "FailingReason6Code",
+  "definition": "Especifica el motivo por el que la operación o instrucción incumple la liquidación. La liquidación en la fecha de liquidación instruida ya no es posible.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Cuenta bloqueada",
+      "definition": "Su cuenta está bloqueada; ninguna instrucción puede liquidarse a través de la cuenta."
+    },
+    "PART": {
+      "name": "Operación liquidada en parciales",
+      "definition": "La operación se liquidará de forma parcial."
+    },
+    "LINK": {
+      "name": "Instrucción vinculada pendiente",
+      "definition": "Su instrucción está pendiente de liquidación porque la instrucción vinculada a ella está pendiente."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "Instrumentos financieros insuficientes en su cuenta."
+    },
+    "CYCL": {
+      "name": "A la espera del siguiente ciclo de liquidación",
+      "definition": "Su instrucción está confirmada en el mercado local o lista para su liquidación, en espera del siguiente ciclo de liquidación."
+    },
+    "SBLO": {
+      "name": "Valores bloqueados",
+      "definition": "Los instrumentos financieros están bloqueados debido a un evento de operación societaria, una realineación, etc."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del mercado."
+    },
+    "CERT": {
+      "name": "Números de certificados incorrectos",
+      "definition": "Error en el número de certificado."
+    },
+    "PRSY": {
+      "name": "Sistema en espera",
+      "definition": "El sistema ha puesto la operación en espera o la ha congelado."
+    },
+    "INBC": {
+      "name": "Recuento de números incompleto",
+      "definition": "No se han recibido todas las instrucciones que forman parte de un conjunto."
+    }
+  }
+}

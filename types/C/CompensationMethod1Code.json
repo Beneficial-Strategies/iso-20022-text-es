@@ -1,0 +1,22 @@
+{
+  "isoType": "CompensationMethod1Code",
+  "definition": "Define si los gastos e impuestos adeudados se pagan a la entidad financiera y cómo.",
+  "isoCodes": {
+    "NOCP": {
+      "name": "No",
+      "definition": "La cuenta no paga gastos ni impuestos adeudados."
+    },
+    "DBTD": {
+      "name": "Adeudado",
+      "definition": "Se adeudan en la cuenta los gastos o impuestos adeudados."
+    },
+    "INVD": {
+      "name": "Facturado",
+      "definition": "Se factura a la cuenta o a la cuenta de resumen los gastos o impuestos adeudados."
+    },
+    "DDBT": {
+      "name": "Adeudo diferido",
+      "definition": "La cuenta se adeuda automáticamente en una fecha futura."
+    }
+  }
+}

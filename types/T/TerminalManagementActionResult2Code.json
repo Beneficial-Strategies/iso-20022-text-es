@@ -1,0 +1,42 @@
+{
+  "isoType": "TerminalManagementActionResult2Code",
+  "definition": "Resultado final del comando procesado en el cajero automático (ATM).",
+  "isoCodes": {
+    "CNTE": {
+      "name": "Error de conexión",
+      "definition": "Problema de conexión al realizar la acción."
+    },
+    "FMTE": {
+      "name": "Error de formato",
+      "definition": "Los datos transferidos tienen un formato incorrecto."
+    },
+    "HRDW": {
+      "name": "Hardware",
+      "definition": "Error de hardware."
+    },
+    "NSUP": {
+      "name": "No admitido",
+      "definition": "La acción no es compatible."
+    },
+    "SECR": {
+      "name": "Valor",
+      "definition": "Error de seguridad."
+    },
+    "SUCC": {
+      "name": "Correcto",
+      "definition": "La acción se realizó correctamente."
+    },
+    "SYNE": {
+      "name": "Error de sintaxis",
+      "definition": "Los datos transferidos tienen una sintaxis incorrecta."
+    },
+    "TIMO": {
+      "name": "Tiempo de espera agotado",
+      "definition": "Tiempo de espera agotado durante la transferencia de datos."
+    },
+    "UKRF": {
+      "name": "Referencia de clave desconocida",
+      "definition": "La referencia de la clave criptográfica utilizada para la firma de los datos no es válida."
+    }
+  }
+}

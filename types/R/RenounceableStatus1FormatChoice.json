@@ -1,0 +1,12 @@
+{
+  "isoType": "RenounceableStatus1FormatChoice",
+  "definition": "Elección de formatos para expresar el estado de renunciabilidad.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el estado de renunciabilidad."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el estado de renunciabilidad."
+    }
+  }
+}

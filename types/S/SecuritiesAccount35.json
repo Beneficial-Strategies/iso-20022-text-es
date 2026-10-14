@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesAccount35",
+  "definition": "Número asignado por un organismo gubernamental para identificar a ciudadanos extranjeros.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "Type": {
+      "definition": "Elección entre un código y un esquema de fuente de datos para identificar el tipo de cuenta."
+    },
+    "Name": {
+      "definition": "."
+    }
+  }
+}

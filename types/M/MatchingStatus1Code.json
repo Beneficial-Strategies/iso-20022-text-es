@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingStatus1Code",
+  "definition": "Proporciona el estado de coincidencia de la instrucción en el momento en que se envió la instrucción de liquidación.",
+  "isoCodes": {
+    "MACH": {
+      "name": "Conciliado",
+      "definition": "La instrucción ha coincidido."
+    },
+    "NMAT": {
+      "name": "No conciliado",
+      "definition": "La instrucción no ha coincidido."
+    }
+  }
+}

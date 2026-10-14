@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionStatus1Code",
+  "definition": "Especifica si una resolución del orden del día sigue activa o ha sido eliminada.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Activo",
+      "definition": "La resolución de la junta debe ser votada por los participantes en una junta general."
+    },
+    "WDRA": {
+      "name": "Retirado",
+      "definition": "La resolución de la junta ha sido retirada."
+    }
+  }
+}

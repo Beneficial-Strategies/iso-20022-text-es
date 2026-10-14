@@ -1,0 +1,12 @@
+{
+  "isoType": "UpdateType15Choice",
+  "definition": "Elección del formato de la información de actualización.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indica si el informe está completo o contiene únicamente cambios."
+    },
+    "Proprietary": {
+      "definition": "Indica si el informe está completo o contiene únicamente cambios."
+    }
+  }
+}

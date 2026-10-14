@@ -1,0 +1,12 @@
+{
+  "isoType": "ExtendedParty15",
+  "definition": "Otro tipo de parte.",
+  "isoElements": {
+    "ExtendedPartyRole": {
+      "definition": "Otro tipo de función de la parte."
+    },
+    "OtherPartyDetails": {
+      "definition": "Información detallada de titularidad sobre una parte."
+    }
+  }
+}

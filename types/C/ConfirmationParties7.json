@@ -1,0 +1,48 @@
+{
+  "isoType": "ConfirmationParties7",
+  "definition": "Partes utilizadas como partes actuantes que se aplican al mensaje completo o a lados individuales.",
+  "isoElements": {
+    "Buyer": {
+      "definition": "Parte que compra bienes o servicios, o un instrumento financiero."
+    },
+    "Borrower": {
+      "definition": "Parte que ha presentado una solicitud, cumplido requisitos específicos y recibido un préstamo de dinero o de valores de un prestamista. La parte que inicia la solicitud firma un pagaré por el que se compromete a devolver al titular del gravamen, en un plazo determinado, el importe total del préstamo más las comisiones adicionales. El prestatario es legalmente responsable de la devolución del préstamo y está sujeto a las sanciones por no devolverlo conforme a las condiciones de préstamo acordadas."
+    },
+    "Seller": {
+      "definition": "Parte que vende bienes o servicios, o un instrumento financiero."
+    },
+    "Lender": {
+      "definition": "Entidad privada, pública o institucional que pone fondos a disposición de otros para que los tomen en préstamo."
+    },
+    "BrokerOfCredit": {
+      "definition": "Sociedad de corretaje que es el corredor comisionista en una operación con varios corredores."
+    },
+    "IntroducingFirm": {
+      "definition": "Corredor u otro intermediario con la asociación más estrecha con el inversor."
+    },
+    "StepInFirm": {
+      "definition": "Sociedad de corretaje designada para acreditarse la operación procedente de la sociedad de corretaje que cede la operación (step-out)."
+    },
+    "StepOutFirm": {
+      "definition": "Sociedad de corretaje que ejecuta una orden, pero otorga a otras empresas el crédito y parte de la comisión de la operación."
+    },
+    "ClearingFirm": {
+      "definition": "Parte, también conocida como corredor receptor (take up broker), que liquida a cambio de una comisión las operaciones con valores de otro corredor."
+    },
+    "ExecutingBroker": {
+      "definition": "Parte responsable de ejecutar una orden (por ejemplo, un corredor ejecutor o cedente). Normalmente se cobra al cliente una comisión por ejecutar una orden."
+    },
+    "CMUParty": {
+      "definition": "Parte que envía el mensaje a la CMU (Central Matching Utility) para identificar la unidad de negocio real tal como la conoce la CMU (Central Matching Utility)."
+    },
+    "CMUCounterparty": {
+      "definition": "Unidad de negocio real de la contraparte del emisor del mensaje a la CMU (Central Matching Utility), tal como la conoce la CMU (Central Matching Utility)."
+    },
+    "AffirmingParty": {
+      "definition": "Parte (comprador o vendedor) que afirma positivamente los detalles de una confirmación de operación con valores previamente acordada."
+    },
+    "TradeBeneficiaryParty": {
+      "definition": "Parte implicada en un procedimiento judicial, acuerdo u otra operación."
+    }
+  }
+}

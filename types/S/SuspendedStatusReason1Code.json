@@ -1,0 +1,14 @@
+{
+  "isoType": "SuspendedStatusReason1Code",
+  "definition": "Especifica el motivo por el que la operación o instrucción está suspendida.",
+  "isoCodes": {
+    "SUBY": {
+      "name": "Suspendido por usted",
+      "definition": "La operación o instrucción está suspendida tras su instrucción de suspensión anterior."
+    },
+    "SUBS": {
+      "name": "Suspendido por el sistema",
+      "definition": "La operación o instrucción está suspendida tras una instrucción de suspensión del sistema."
+    }
+  }
+}

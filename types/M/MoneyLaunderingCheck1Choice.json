@@ -1,0 +1,12 @@
+{
+  "isoType": "MoneyLaunderingCheck1Choice",
+  "definition": "Elección de formatos para la especificación de la comprobación de blanqueo de capitales.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado de blanqueo de capitales expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Estado de blanqueo de capitales expresado como código propietario."
+    }
+  }
+}

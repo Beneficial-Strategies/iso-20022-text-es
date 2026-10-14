@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification47",
+  "definition": "Información relacionada con una identificación, por ejemplo, la identificación de una parte o de una cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Información propia, a menudo un código, emitida por el emisor del esquema de la fuente de datos."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    },
+    "SchemeName": {
+      "definition": "Descripción textual breve del esquema."
+    }
+  }
+}

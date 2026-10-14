@@ -1,0 +1,17 @@
+{
+  "isoType": "OwnershipBeneficiaryRate1",
+  "definition": "Porcentaje de titularidad o de titularidad real de las acciones/participaciones de la cuenta.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Titularidad o titularidad real expresada como porcentaje."
+    },
+    "Fraction": {
+      "definition": "Titularidad o titularidad real expresada como fracción u otra forma."
+    }
+  },
+  "isoRules": {
+    "OwnershipBeneficiaryRateRule": {
+      "definition": "Debe estar presente Rate o Fraction. Pueden estar presentes ambos."
+    }
+  }
+}

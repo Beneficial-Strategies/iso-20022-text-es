@@ -1,0 +1,63 @@
+{
+  "isoType": "PaymentTransaction177",
+  "definition": "Proporciona detalles adicionales sobre las operaciones originales a las que se refiere el mensaje de informe de estado.",
+  "isoElements": {
+    "StatusIdentification": {
+      "definition": "Identificación única, asignada por una parte instructora para una parte instruida, para identificar de forma inequívoca el estado notificado.|Uso: La parte instructora es la parte que envía el mensaje de estado y no la parte que envió la instrucción original sobre la que se informa."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora original, para identificar inequívocamente el mensaje original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original a la parte instruida original, para identificar inequívocamente la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar inequívocamente la operación original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificación única, asignada por la entidad instructora original inicial, para identificar inequívocamente la operación."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal que proporciona la referencia original de extremo a extremo de una operación de pago."
+    },
+    "TransactionStatus": {
+      "definition": "Especifica el estado de una operación, según se publica en una lista externa de códigos de estado de operaciones de pago."
+    },
+    "StatusReasonInformation": {
+      "definition": "Proporciona información detallada sobre el motivo del estado."
+    },
+    "ChargesInformation": {
+      "definition": "Proporciona información sobre los gastos relacionados con el tratamiento del rechazo de la instrucción.||Uso: Se transmite únicamente a título informativo. La liquidación de los gastos se efectuará por separado."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento en que la orden de pago de la parte iniciadora cumple las condiciones de procesamiento de la entidad gestora de la cuenta. Esto significa que la entidad gestora de la cuenta ha recibido la orden de pago y ha aplicado comprobaciones como la autorización y la disponibilidad de fondos."
+    },
+    "ProcessingDate": {
+      "definition": "Fecha y hora en que la parte indicada procesó la instrucción."
+    },
+    "EffectiveInterbankSettlementDate": {
+      "definition": "Fecha y hora en que una operación se completa y se compensa, es decir, se efectúa el pago."
+    },
+    "AccountServicerReference": {
+      "definition": "Referencia única, asignada por la entidad que gestiona la cuenta, para identificar de forma inequívoca la instrucción."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referencia única, asignada por un sistema de compensación, para identificar inequívocamente la instrucción."
+    },
+    "CreditSettlementKey": {
+      "definition": "Clave criptográfica proporcionada por CreditorAgent para confirmar que la liquidación en la cuenta del beneficiario está garantizada."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la instrucción (o el conjunto de instrucciones).||Uso: La entidad instructora es la parte que envía el mensaje de estado y no la parte que envió la instrucción original sobre la que se informa."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad instruida por la parte anterior de la cadena para ejecutar la instrucción o el conjunto de instrucciones.||Uso: La entidad instruida es la parte que recibe el mensaje de estado y no la parte que recibió la instrucción original sobre la que se informa."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos clave utilizados para identificar la operación original a la que se hace referencia."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede recogerse en los elementos estructurados y/o en ningún otro bloque específico."
+    }
+  }
+}

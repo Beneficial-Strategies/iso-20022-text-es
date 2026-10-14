@@ -1,0 +1,42 @@
+{
+  "isoType": "TransactionAgents6",
+  "definition": "Proporciona detalles adicionales sobre las entidades específicas de cada operación.",
+  "isoElements": {
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la(s) instrucción(es)."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute la(s) instrucción(es)."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que administra una cuenta del ordenante."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que administra una cuenta del beneficiario."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si hay más de una entidad intermediaria, IntermediaryAgent1 identifica la entidad situada entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si hay más de dos entidades intermediarias, IntermediaryAgent2 identifica la entidad situada entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si IntermediaryAgent3 está presente, identifica la entidad situada entre IntermediaryAgent 2 y CreditorAgent."
+    },
+    "ReceivingAgent": {
+      "definition": "Parte que recibe los valores de la entidad entregadora en el lugar de liquidación, como un depositario central de valores.|También puede utilizarse en el contexto de operaciones de tesorería."
+    },
+    "DeliveringAgent": {
+      "definition": "Parte que entrega los valores a la entidad receptora en el lugar de liquidación, como un depositario central de valores.|También puede utilizarse en el contexto de operaciones de tesorería."
+    },
+    "IssuingAgent": {
+      "definition": "Entidad jurídica con derecho a emitir valores."
+    },
+    "SettlementPlace": {
+      "definition": "Lugar en el que se realiza la liquidación de los valores.|Uso: se tipifica mediante una identificación de entidad financiera, ya que es la forma estándar de identificar a un agente de liquidación de valores o sistema central."
+    },
+    "Proprietary": {
+      "definition": "Entidad propia relacionada con la operación subyacente."
+    }
+  }
+}

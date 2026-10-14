@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason15FormatChoice",
+  "definition": "Elección entre formatos para expresar el motivo del rechazo de un aviso de información.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo del rechazo de un aviso de información."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el motivo del rechazo de un aviso de información."
+    }
+  }
+}

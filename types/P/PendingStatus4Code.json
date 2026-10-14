@@ -1,0 +1,74 @@
+{
+  "isoType": "PendingStatus4Code",
+  "definition": "Indica que el estado de un pago en la entidad de compensación es pendiente.",
+  "isoCodes": {
+    "ACPD": {
+      "name": "Aceptado",
+      "definition": "La operación ha sido aceptada por la entidad de compensación."
+    },
+    "VALD": {
+      "name": "Validado",
+      "definition": "La operación ha sido validada por la entidad de compensación."
+    },
+    "MATD": {
+      "name": "Casado",
+      "definition": "La operación ha sido casada con una operación correspondiente por la entidad de compensación."
+    },
+    "AUTD": {
+      "name": "Autorizado",
+      "definition": "La operación ha sido autorizada por el administrador de operaciones o por una parte autorizada."
+    },
+    "INVD": {
+      "name": "No válido",
+      "definition": "La operación no es válida."
+    },
+    "UMAC": {
+      "name": "No conciliado",
+      "definition": "La entidad de compensación intentó casar la operación con una operación correspondiente, pero no lo consiguió."
+    },
+    "STLE": {
+      "name": "Apto para liquidación",
+      "definition": "La operación es apta para una liquidación futura."
+    },
+    "STLM": {
+      "name": "Vencido para liquidación",
+      "definition": "La operación es apta para su liquidación inmediata."
+    },
+    "SSPD": {
+      "name": "Suspendido",
+      "definition": "La operación ha sido suspendida por la entidad de compensación."
+    },
+    "PCAN": {
+      "name": "Cancelación pendiente",
+      "definition": "La entidad de compensación ha recibido una solicitud de cancelación de la operación y necesita una solicitud de cancelación coincidente de la contraparte o una confirmación de una parte autorizada."
+    },
+    "PSTL": {
+      "name": "Liquidación pendiente",
+      "definition": "La operación es apta para su liquidación, pero está pendiente."
+    },
+    "PFST": {
+      "name": "Liquidación fallida pendiente",
+      "definition": "La operación, apta para su liquidación inmediata, no se ha liquidado."
+    },
+    "SMLR": {
+      "name": "Relacionado con el límite multilateral del emisor",
+      "definition": "La operación provoca que se supere el 'límite multilateral del ordenante' y no puede procesarse actualmente."
+    },
+    "RMLR": {
+      "name": "Relacionado con el límite multilateral del receptor",
+      "definition": "La operación provoca que se supere el 'límite multilateral del receptor' y no puede procesarse actualmente."
+    },
+    "SRBL": {
+      "name": "Relacionado con el límite bilateral del emisor y el receptor",
+      "definition": "La operación provoca que se supere el límite bilateral fijado entre el emisor y el receptor y no puede procesarse actualmente."
+    },
+    "AVLB": {
+      "name": "Retenido por disponibilidad del servicio",
+      "definition": "Especifica que el mensaje está en cola en el sistema de pagos receptor y a la espera de ser procesado, porque el sistema de pagos receptor no está operativo (abierto) en ese momento."
+    },
+    "SRML": {
+      "name": "Relacionado con el límite multilateral del emisor y el receptor",
+      "definition": "La operación provoca que los límites multilaterales fijados entre el emisor y el receptor se superen por el importe total de los pagos presentados al final del día y no puede procesarse actualmente."
+    }
+  }
+}

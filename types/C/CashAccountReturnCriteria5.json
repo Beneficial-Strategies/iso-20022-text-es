@@ -1,0 +1,36 @@
+{
+  "isoType": "CashAccountReturnCriteria5",
+  "definition": "Define los criterios utilizados para informar sobre una cuenta.",
+  "isoElements": {
+    "NameIndicator": {
+      "definition": "Indica si se solicita el nombre de la cuenta."
+    },
+    "CurrencyIndicator": {
+      "definition": "Indica si se solicita la divisa de la cuenta."
+    },
+    "TypeIndicator": {
+      "definition": "Indica si se solicita el tipo de cuenta."
+    },
+    "MultilateralLimitIndicator": {
+      "definition": "Indica si se solicita el límite multilateral."
+    },
+    "MultilateralBalanceReturnCriteria": {
+      "definition": "Define los criterios utilizados para informar sobre un saldo multilateral."
+    },
+    "BilateralLimitIndicator": {
+      "definition": "Indica si se solicita el límite bilateral."
+    },
+    "BilateralBalanceReturnCriteria": {
+      "definition": "Define los criterios utilizados para informar sobre un saldo bilateral."
+    },
+    "StandingOrderIndicator": {
+      "definition": "Indica si se solicita la orden permanente de la cuenta."
+    },
+    "AccountOwnerIndicator": {
+      "definition": "Indica si se solicita la información del titular de la cuenta."
+    },
+    "AccountServicerIndicator": {
+      "definition": "Indica si se solicita la información de la entidad que administra la cuenta."
+    }
+  }
+}

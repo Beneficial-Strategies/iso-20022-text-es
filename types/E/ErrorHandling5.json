@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling5",
+  "definition": "Especifica el error resultante del procesamiento de una solicitud.",
+  "isoElements": {
+    "Error": {
+      "definition": "Especificación del error, en forma codificada o propietaria."
+    },
+    "Description": {
+      "definition": "Especificación del error, en formato libre."
+    }
+  }
+}

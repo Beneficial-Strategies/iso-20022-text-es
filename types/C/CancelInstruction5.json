@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelInstruction5",
+  "definition": "Instrucción que se debe cancelar.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificación de la instrucción individual enviada previamente."
+    },
+    "InstructedPosition": {
+      "definition": "Cuenta y posiciones instruidas a las que se aplica la solicitud de cancelación de instrucción de junta."
+    }
+  }
+}

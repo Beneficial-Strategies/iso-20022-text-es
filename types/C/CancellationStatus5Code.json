@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationStatus5Code",
+  "definition": "Especifica el estado de cancelación.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recibido",
+      "definition": "La instrucción o solicitud de cancelación se ha recibido, es decir, la validación técnica del mensaje es correcta y el mensaje se encuentra ya en el lado receptor."
+    },
+    "PACK": {
+      "name": "Aceptado",
+      "definition": "La instrucción / solicitud de cancelación ha sido recibida y acusado recibo / aceptada para su tratamiento posterior."
+    },
+    "STNP": {
+      "name": "Enviado a la siguiente parte",
+      "definition": "La instrucción o solicitud de cancelación se ha enviado a la siguiente parte, es decir, al siguiente intermediario."
+    }
+  }
+}

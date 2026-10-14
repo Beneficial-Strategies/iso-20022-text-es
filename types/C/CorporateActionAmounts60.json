@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmounts60",
+  "definition": "Especifica importes en el marco de un evento de acción corporativa.",
+  "isoElements": {
+    "WithholdingTaxAmount": {
+      "definition": "Importe de una distribución en efectivo que será retenido por las autoridades fiscales de la jurisdicción del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Importe de dinero retenido por una jurisdicción distinta de la del país de constitución fiscal del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación. Se aplica como complemento o compensación del tipo de retención aplicado por la jurisdicción del domicilio fiscal del emisor."
+    }
+  }
+}

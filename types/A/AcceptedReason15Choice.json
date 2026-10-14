@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedReason15Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el motivo por el que la instrucción o la solicitud de cancelación tiene un estado aceptado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar información adicional sobre la instrucción procesada."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria de información adicional sobre la instrucción procesada."
+    }
+  }
+}

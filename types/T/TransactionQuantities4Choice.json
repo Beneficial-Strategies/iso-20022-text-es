@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionQuantities4Choice",
+  "definition": "Especifica las cantidades (como valores) de la operación subyacente.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Especifica la cantidad (como valores) de la operación subyacente."
+    },
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Importe nominal y valor amortizado del valor."
+    },
+    "Proprietary": {
+      "definition": "Especificación de cantidades propias definida en la operación subyacente."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "isoType": "SecuritiesTradeDetails154",
+  "definition": "Detalles de la operación de valores.",
+  "isoElements": {
+    "NotificationSenderTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce el receptor de la notificación."
+    },
+    "NotificationReceiverTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce el receptor de la notificación."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "Status": {
+      "definition": "Estado de la transferencia."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días en los que se devenga el tipo de interés (nota de devengo diario)."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elementos que caracterizan un instrumento financiero."
+    },
+    "Reporting": {
+      "definition": "Especifica que una operación debe notificarse a un tercero."
+    },
+    "QuantityDetails": {
+      "definition": "Detalles sobre la cantidad de instrumento financiero que interviene en la transferencia."
+    },
+    "SettlementParameters": {
+      "definition": "Parámetros aplicados a la liquidación de una transferencia de valores."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "OtherAmounts": {
+      "definition": "Importes distintos del importe de liquidación."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Cantidad total de activos digitales que debe pagarse o recibirse a cambio del token de valores; o la comisión de red."
+    },
+    "OtherBusinessParties": {
+      "definition": "Otras partes comerciales relevantes para la operación."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  },
+  "isoRules": {
+    "TradeDateRule": {
+      "definition": "Si Trade Date/Time se utiliza con una hora o una hora + indicador UTC, debe ser la hora local del lugar de la operación, por ejemplo, de la bolsa de valores, o del corredor vendedor en el caso de operaciones OTC."
+    },
+    "SettlementAmountRule": {
+      "definition": "Si la instrucción es contra pago, SettlementAmount debe estar presente."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Si la instrucción es una entrega, entonces ReceivingParty 1 debe estar presente."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Si la instrucción es una recepción, entonces DeliveringParty1 debe estar presente."
+    }
+  }
+}

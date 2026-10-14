@@ -1,0 +1,9 @@
+{
+  "isoType": "PartyIdentification3",
+  "definition": "Forma única e inequívoca de identificar a una organización.",
+  "isoElements": {
+    "BICOrBEI": {
+      "definition": "Código asignado a una institución financiera o no financiera por la Autoridad de Registro de ISO 9362, tal como se describe en ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    }
+  }
+}

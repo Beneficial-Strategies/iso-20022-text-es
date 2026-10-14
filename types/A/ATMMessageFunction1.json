@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMMessageFunction1",
+  "definition": "Identifica el tipo de proceso relacionado con un mensaje del cajero automático (ATM).",
+  "isoElements": {
+    "Function": {
+      "definition": "Tipo de función solicitada."
+    },
+    "ATMServiceCode": {
+      "definition": "Codificación del tipo de servicio del cajero automático (ATM)."
+    },
+    "HostServiceCode": {
+      "definition": "Codificación del tipo de servicio del host del gestor de cajeros automáticos (ATM)."
+    }
+  }
+}

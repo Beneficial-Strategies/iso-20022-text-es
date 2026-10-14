@@ -1,0 +1,22 @@
+{
+  "isoType": "RoundingDirection1Code",
+  "definition": "Especifica la dirección del redondeo.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Redondeo al alza",
+      "definition": "Redondear hacia arriba al número entero más próximo."
+    },
+    "RDWN": {
+      "name": "Redondeo a la baja",
+      "definition": "Redondear hacia abajo al número entero más próximo."
+    },
+    "STAN": {
+      "name": "Redondeo al más próximo",
+      "definition": "Redondear hacia arriba o hacia abajo al número entero más próximo."
+    },
+    "DIST": {
+      "name": "Emitir fracción",
+      "definition": "No redondear."
+    }
+  }
+}

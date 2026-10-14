@@ -1,0 +1,18 @@
+{
+  "isoType": "LinkageType1Code",
+  "definition": "Tipo de vinculación solicitada.",
+  "isoCodes": {
+    "LINK": {
+      "name": "Vincular",
+      "definition": "La solicitud consiste en vincular las operaciones referenciadas."
+    },
+    "UNLK": {
+      "name": "Desvincular",
+      "definition": "La solicitud consiste en desvincular las operaciones referenciadas."
+    },
+    "SOFT": {
+      "name": "Flexible",
+      "definition": "La solicitud consiste en vincular de forma flexible las operaciones referenciadas."
+    }
+  }
+}

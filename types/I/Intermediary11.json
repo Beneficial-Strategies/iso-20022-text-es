@@ -1,0 +1,23 @@
+{
+  "isoType": "Intermediary11",
+  "definition": "Parte que presta servicios a los inversores relacionados con productos financieros.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco del intermediario."
+    },
+    "Account": {
+      "definition": "Relación comercial entre dos entidades; una entidad es el titular de la cuenta y la otra es la entidad gestora de la cuenta."
+    },
+    "Role": {
+      "definition": "Función desempeñada por el intermediario."
+    },
+    "ExtendedRole": {
+      "definition": "Función desempeñada por el intermediario."
+    }
+  },
+  "isoRules": {
+    "RoleOrExtendedRoleRule": {
+      "definition": "Puede estar presente Role o ExtendedRole, pero no ambos."
+    }
+  }
+}

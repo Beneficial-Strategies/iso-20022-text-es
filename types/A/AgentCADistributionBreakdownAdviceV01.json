@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCADistributionBreakdownAdviceV01",
+  "definition": "Ámbito|Este mensaje lo envía un CSD a un emisor (o a su agente) para proporcionar el desglose de la distribución de los productos que se van a entregar fuera del CSD (por ejemplo, cuando los productos no son admisibles en el CSD).|Uso|Este mensaje se utiliza para proporcionar el desglose de la distribución (valores y/o efectivo) por cuenta para una opción específica de evento corporativo.|Nota: los datos de entrega se envían mediante el aviso de información de evento corporativo del agente."
+}

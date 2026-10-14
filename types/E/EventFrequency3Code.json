@@ -1,0 +1,26 @@
+{
+  "isoType": "EventFrequency3Code",
+  "definition": "Especifica la periodicidad de un evento.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Anual",
+      "definition": "El evento tiene lugar cada año o una vez al año."
+    },
+    "MNTH": {
+      "name": "Mensual",
+      "definition": "El evento tiene lugar cada mes o una vez al mes."
+    },
+    "QUTR": {
+      "name": "Trimestral",
+      "definition": "El evento tiene lugar cada tres meses o cuatro veces al año."
+    },
+    "SEMI": {
+      "name": "Semestral",
+      "definition": "El evento tiene lugar cada seis meses o dos veces al año."
+    },
+    "WEEK": {
+      "name": "Semanal",
+      "definition": "El evento tiene lugar una vez por semana."
+    }
+  }
+}

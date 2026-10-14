@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection21",
+  "definition": "Importe de dinero adeudado o abonado en los libros de una entidad gestora de cuentas.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del apunte de efectivo."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si un apunte es un abono o un adeudo."
+    }
+  }
+}

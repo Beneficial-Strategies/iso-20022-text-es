@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus29Choice",
+  "definition": "Elección entre un motivo propio o narrativo y la ausencia de motivo para el estado rechazado.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo no especificado."
+    },
+    "Reason": {
+      "definition": "Motivo del estado rechazado."
+    }
+  }
+}

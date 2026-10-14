@@ -1,0 +1,21 @@
+{
+  "isoType": "FundEstimatedCashForecastReportV04",
+  "definition": "Ámbito|Un proveedor de informes, como un agente de transferencias, envía el mensaje FundEstimatedCashForecastReport al usuario del informe, como un gestor de inversiones o un agente de valoración, para informar de los ingresos y salidas de efectivo estimados de una o varias clases de participaciones de un fondo de inversión en una o varias fechas de contratación.|Los movimientos de efectivo pueden derivarse, por ejemplo, de reembolsos, suscripciones, operaciones de traspaso o reinversión de dividendos.|Uso|El mensaje FundEstimatedCashForecastReport se utiliza para informar de movimientos de efectivo estimados, es decir, se envía antes de la hora límite y/o de la valoración del precio del fondo.|El mensaje contiene flujos de efectivo entrantes y salientes que son estimados, es decir, todavía no se ha aplicado el precio. Si el precio es definitivo, debe utilizarse el mensaje FundConfirmedCashForecastReport.|La estructura del mensaje permite los siguientes usos:|- facilitar los importes de entrada y salida de efectivo de un fondo o subfondo (se utiliza la secuencia FundOrSubFundDetails),|- facilitar los importes de entrada y salida de efectivo de un fondo o subfondo y de una o varias clases de participaciones (se utilizan una secuencia FundOrSubFundDetails y una o varias secuencias EstimatedFundCashForecastDetails),|- facilitar los importes de entrada y salida de efectivo de una o varias clases de participaciones (se utilizan una o varias secuencias EstimatedFundCashForecastDetails).|- facilitar los importes de entrada y salida de efectivo de más de un fondo o subfondo y de más de una clase de participaciones (se utilizan dos o más secuencias FundOrSubFundDetails y dos o más secuencias EstimatedFundCashForecastDetails); no obstante, debe tenerse en cuenta que, en este uso, no hay forma de determinar a partir del propio contenido del mensaje qué clase de participaciones pertenece a qué fondo o subfondo, lo cual puede no ser deseable, y el uso de este tipo de combinación debe acordarse bilateralmente.|Este mensaje permite al proveedor del informe comunicar los movimientos de efectivo estimados de entrada o salida de un fondo, pero no permite al emisor clasificar dichos movimientos, por ejemplo por país, ni detallar las órdenes, comisiones o gastos subyacentes. Si el proveedor del informe desea facilitar información detallada sobre los movimientos de efectivo estimados, debe utilizarse el mensaje FundDetailedEstimatedCashForecastReport.",
+  "isoRules": {
+    "TradeDate1Rule": {
+      "definition": "Si está presente alguna ocurrencia de EstimatedFundCashForecastDetails, no se permite ninguna ocurrencia de FundOrSubFundDetails/TradeDateTime."
+    },
+    "PreviousTradeDateRule": {
+      "definition": "Si está presente alguna ocurrencia de EstimatedFundCashForecastDetails, no se permite ninguna ocurrencia de FundOrSubFundDetails/PreviousDateTime."
+    },
+    "TradeDate2Rule": {
+      "definition": "Si EstimatedFundCashForecastDetails no está presente, debe estar presente al menos una ocurrencia de FundOrSubFundDetails/TradeDateTime."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "Si ConsolidatedNetCashForecast está presente, debe estar presente al menos una ocurrencia de FundOrSubFundDetails o de EstimatedFundCashForecastDetails. Pueden estar presentes ambos, FundOrSubFundDetails y EstimatedFundCashForecastDetails."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "Cuando se utiliza el mensaje para facilitar los importes de entrada y salida de efectivo de más de un fondo o subfondo y de más de una clase de participaciones (se utilizan dos o más secuencias FundOrSubFundDetails y dos o más secuencias EstimatedFundCashForecastDetails), en este uso no hay forma de determinar a partir del propio contenido del mensaje qué clase de participaciones pertenece a qué fondo o subfondo, lo cual puede no ser deseable, y este tipo de uso debe acordarse bilateralmente."
+    }
+  }
+}

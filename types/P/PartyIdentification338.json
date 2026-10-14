@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification338",
+  "definition": "Identificación de una parte.",
+  "isoElements": {
+    "LegalPerson": {
+      "definition": "Identificación de una persona jurídica."
+    },
+    "BlockingReference": {
+      "definition": "Referencia de bloqueo de instrucción asignada por el ICSD para su transmisión al emisor."
+    }
+  }
+}

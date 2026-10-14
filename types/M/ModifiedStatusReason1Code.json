@@ -1,0 +1,14 @@
+{
+  "isoType": "ModifiedStatusReason1Code",
+  "definition": "Especifica que la operación ha sido modificada.",
+  "isoCodes": {
+    "MDBY": {
+      "name": "Modificado por usted mismo",
+      "definition": "Modificación de una operación por parte del titular de la cuenta."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    }
+  }
+}

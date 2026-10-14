@@ -1,0 +1,15 @@
+{
+  "isoType": "BlockChainAddressWallet11",
+  "definition": "Cuenta digital en la que se pueden almacenar activos digitales o tokens digitales y en la que se realiza un apunte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación inequívoca de la cuenta entre el titular de la cuenta y el administrador de la cuenta."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de cuenta de valores."
+    },
+    "Name": {
+      "definition": "Descripción de la cuenta."
+    }
+  }
+}

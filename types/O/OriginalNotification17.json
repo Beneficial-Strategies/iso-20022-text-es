@@ -1,0 +1,24 @@
+{
+  "isoType": "OriginalNotification17",
+  "definition": "Identifica la notificación original y proporciona el estado.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el remitente original, para identificar inequívocamente el mensaje original de notificación de recepción."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje original."
+    },
+    "OriginalNotificationIdentification": {
+      "definition": "Identificación de la notificación original."
+    },
+    "NotificationStatus": {
+      "definition": "Especifica el estado de la notificación en forma codificada."
+    },
+    "AdditionalStatusInformation": {
+      "definition": "Detalles adicionales del estado de la notificación."
+    },
+    "OriginalNotificationReference": {
+      "definition": "Identifica la partida de notificación original y proporciona el estado."
+    }
+  }
+}

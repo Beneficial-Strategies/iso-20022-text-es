@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestigationRejection1Code",
+  "definition": "Especifica el motivo del rechazo de un caso de investigación.",
+  "isoCodes": {
+    "NFND": {
+      "name": "Pago subyacente no encontrado",
+      "definition": "No se encuentra la instrucción subyacente."
+    },
+    "NAUT": {
+      "name": "No autorizado para investigar",
+      "definition": "El destinatario del caso no está autorizado a investigar esta instrucción, o se ha omitido a una parte en la cadena de pago, o no se ha establecido un acuerdo bilateral para este tipo de consulta."
+    },
+    "UKNW": {
+      "name": "Caso desconocido",
+      "definition": "El caso no se ha asignado nunca antes."
+    },
+    "PCOR": {
+      "name": "Pago cancelado o rechazado previamente",
+      "definition": "Se utiliza cuando la instrucción de pago ha sido cancelada o rechazada previamente."
+    },
+    "WMSG": {
+      "name": "Mensaje incorrecto",
+      "definition": "Se ha utilizado un mensaje erróneo en el flujo de trabajo de la investigación."
+    },
+    "RNCR": {
+      "name": "Rechazo no relacionado con efectivo",
+      "definition": "Se utiliza para rechazar una consulta no relacionada con efectivo que no está cubierta en el flujo de trabajo."
+    },
+    "MROI": {
+      "name": "Falta resolución de la investigación",
+      "definition": "No se ha recibido la Resolution of Investigation en el caso reabierto."
+    }
+  }
+}

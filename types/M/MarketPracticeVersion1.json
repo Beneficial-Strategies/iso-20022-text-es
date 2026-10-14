@@ -1,0 +1,15 @@
+{
+  "isoType": "MarketPracticeVersion1",
+  "definition": "Identifica la implementación y la versión.",
+  "isoElements": {
+    "Name": {
+      "definition": "Práctica de mercado, por ejemplo, “UKTRANSFERS”, “FINDELSLT”."
+    },
+    "Date": {
+      "definition": "Año y mes, por ejemplo, 2013-06."
+    },
+    "Number": {
+      "definition": "Versión de la práctica de mercado."
+    }
+  }
+}

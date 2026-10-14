@@ -1,0 +1,44 @@
+{
+  "isoType": "IntraBalanceMovement7",
+  "definition": "Proporciona los datos de los movimientos entre saldos.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Cuenta a la que o desde la que se efectúa un apunte de efectivo."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gestiona la cuenta de efectivo por cuenta del titular de la cuenta, es decir, gestiona el registro y la contabilización de los apuntes en la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "StatusAndReason": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce el titular de la cuenta (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la entidad gestora de la cuenta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador."
+    },
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    },
+    "MovementDetails": {
+      "definition": "Identifica detalles adicionales de la operación."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Si no hay ninguna referencia disponible para AccountOwnerTransactionIdentification, por ejemplo, porque la operación se envió por fax, AccountOwnerTransactionIdentification debe ser NONREF."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TerminalHosting1",
+  "definition": "Entidad que aloja el terminal del cajero automático (ATM).",
+  "isoElements": {
+    "Category": {
+      "definition": "Tipo de alojamiento del terminal del cajero automático (ATM)."
+    },
+    "Identification": {
+      "definition": "Identifica la entidad que aloja el cajero automático (ATM)."
+    }
+  }
+}

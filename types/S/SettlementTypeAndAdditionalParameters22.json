@@ -1,0 +1,33 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters22",
+  "definition": "Proporciona el tipo de operación y la información de identificación.",
+  "isoElements": {
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    },
+    "ReconciliationIndicator": {
+      "definition": "Indica si la operación de liquidación ya se envió al mercado y si el titular de la cuenta la envía a la entidad gestora de la cuenta únicamente con fines de conciliación."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "definition": "Identificación única asignada a la instrucción por el cliente."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Identificación única de la operación de gestión de garantías tripartita desde el punto de vista del cliente."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Identificación única que identifica la operación de gestión de garantías tripartita desde el punto de vista del agente tripartito/proveedor de servicios."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "definition": "Identificación única asignada a la instrucción por el agente tripartito/proveedor de servicios."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ExtendedEventType8Code",
+  "definition": "Especifica el tipo de evento de acción corporativa definido por DTCC (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "CDRD": {
+      "name": "Amortización anticipada de certificado de depósito",
+      "definition": "Característica de un valor que permite al emisor efectuar un pago al titular del valor. Este evento se utilizará para valores sujetos a reembolsos distintos de los clasificados como amortizaciones totales y parciales (por ejemplo, reembolsos anticipados de certificados de depósito)."
+    },
+    "FPAY": {
+      "name": "Amortización final",
+      "definition": "Distribución final del principal adeudado de un valor, típicamente obligaciones hipotecarias garantizadas (Collateralised Mortgage Obligations)."
+    },
+    "REDW": {
+      "name": "Amortización de warrant",
+      "definition": "El evento es un reembolso de warrant."
+    },
+    "TMTN": {
+      "name": "Terminación",
+      "definition": "Valor, normalmente una forma de derivado, respecto del cual la entidad o el emisor ha decidido dar por terminado el derivado como consecuencia de un cambio en el o los valores subyacentes o de un cambio de estrategia. Se distingue de los tipos de evento Mandatory Exchange y Exchange Offer asignados al mismo código de tipo de evento ISO."
+    },
+    "FPRE": {
+      "name": "Prefinanciación total",
+      "definition": "Ejercicio de un privilegio por parte del emisor para reembolsar íntegramente cualquier valor de deuda antes de su vencimiento cuando el emisor deposita activos en fideicomiso. Esto restringe de forma irrevocable su uso a la satisfacción de la deuda."
+    }
+  }
+}

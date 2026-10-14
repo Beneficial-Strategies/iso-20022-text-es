@@ -1,0 +1,50 @@
+{
+  "isoType": "BeneficiaryCertificationType6Code",
+  "definition": "Especifica el tipo de certificación requerida.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Inversor acreditado",
+      "definition": "El titular del valor debe certificar de forma irrevocable que es un Inversor Acreditado (Accredited Investor) según la definición de la Regulation D de la Comisión del Mercado de Valores de Estados Unidos (US Securities and Exchange Commission)."
+    },
+    "DOMI": {
+      "name": "País de domicilio",
+      "definition": "El titular del valor debe certificar su domicilio."
+    },
+    "NDOM": {
+      "name": "País de no domicilio",
+      "definition": "El titular del valor debe certificar, de conformidad con las condiciones de la operación societaria, que no está domiciliado en el país indicado."
+    },
+    "FULL": {
+      "name": "Desglose completo de beneficiarios efectivos",
+      "definition": "El titular del valor debe facilitar los datos de su beneficiario efectivo a efectos de divulgación o instrucción."
+    },
+    "NCOM": {
+      "name": "No sociedad",
+      "definition": "El titular del valor debe certificar que es una persona no vinculada a la sociedad."
+    },
+    "QIBB": {
+      "name": "Certificación QIB",
+      "definition": "El titular del valor debe certificar de forma irrevocable que es un Comprador Institucional Cualificado (Qualified Institutional Buyer) según la definición de la Rule 144A de la Comisión del Mercado de Valores de Estados Unidos (US Securities and Exchange Commission)."
+    },
+    "TRBD": {
+      "name": "Desglose por tipo impositivo",
+      "definition": "El titular del valor debe facilitar datos básicos sobre los nominales y el tipo impositivo asociado que ha de utilizar la entidad gestora de la cuenta."
+    },
+    "PABD": {
+      "name": "Desglose por participante del ICSD",
+      "definition": "El (I)CSD debe facilitar los datos de sus participantes al emisor o al agente del emisor a efectos de divulgación."
+    },
+    "FRAC": {
+      "name": "Desglose por fracciones",
+      "definition": "Indica que la regla de redondeo del componente Fraction Disposition a nivel de opción puede ofrecerse a nivel del beneficiario efectivo."
+    },
+    "PAPW": {
+      "name": "Documentación del beneficiario efectivo",
+      "definition": "Indica si el beneficiario efectivo es responsable de cumplimentar la documentación."
+    },
+    "DIOR": {
+      "name": "Documentación del intermediario requerida",
+      "definition": "Documentación requerida en la fecha límite de documentación o antes de ella."
+    }
+  }
+}

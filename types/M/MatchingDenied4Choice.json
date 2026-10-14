@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingDenied4Choice",
+  "definition": "Especifica el cambio solicitado en el procesamiento de casamiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica la ejecución de un proceso de denegación de casamiento."
+    },
+    "Proprietary": {
+      "definition": "Especifica la ejecución de un proceso de denegación de casamiento."
+    }
+  }
+}

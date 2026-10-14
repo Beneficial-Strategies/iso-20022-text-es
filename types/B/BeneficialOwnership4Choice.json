@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficialOwnership4Choice",
+  "definition": "Elección del formato de la titularidad real.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si hay un cambio de titularidad real."
+    },
+    "Proprietary": {
+      "definition": "Información de titularidad real expresada como código propietario."
+    }
+  }
+}

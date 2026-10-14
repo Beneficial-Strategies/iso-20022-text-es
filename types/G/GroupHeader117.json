@@ -1,0 +1,15 @@
+{
+  "isoType": "GroupHeader117",
+  "definition": "Proporciona más detalles sobre el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el titular de la cuenta o por la parte autorizada a enviar el mensaje, y enviada a la entidad gestora de la cuenta, para identificar el mensaje de forma inequívoca.|Uso: el emisor debe asegurarse de que 'MessageIdentification' sea único por entidad gestora de la cuenta durante un periodo acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "MessageSender": {
+      "definition": "Identificación de la parte que envía el mensaje, cuando es distinta del titular de la cuenta."
+    }
+  }
+}

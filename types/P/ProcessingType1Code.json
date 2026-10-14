@@ -1,0 +1,42 @@
+{
+  "isoType": "ProcessingType1Code",
+  "definition": "Especifica el tipo de restricciones de procesamiento que debe aplicar el sistema central.",
+  "isoCodes": {
+    "RJCT": {
+      "name": "Rechazo",
+      "definition": "La restricción es el rechazo durante la validación de la instrucción de liquidación."
+    },
+    "CVHD": {
+      "name": "Retención por validación del DCV",
+      "definition": "La restricción consiste en establecer automáticamente en retención la validación del CSD al aceptar una instrucción de liquidación."
+    },
+    "RSVT": {
+      "name": "Reserva",
+      "definition": "La restricción es la creación de una reserva de un saldo de efectivo o de una posición de valores para un fin específico."
+    },
+    "BLCK": {
+      "name": "Bloqueo",
+      "definition": "La restricción es el bloqueo de una parte, una cuenta de valores, un valor o una cuenta de efectivo para la liquidación, o el bloqueo de una posición de valores o de un saldo de efectivo para un fin específico."
+    },
+    "EARM": {
+      "name": "Afectación",
+      "definition": "Restricción vinculada al tipo de saldo que define y gestiona los tipos de posición de las posiciones de valores."
+    },
+    "EFAC": {
+      "name": "Afectación para autocolateralización",
+      "definition": "Restricción vinculada al tipo de saldo que define y gestiona los tipos de posición de las posiciones de valores para la autocolateralización."
+    },
+    "DLVR": {
+      "name": "Entregable",
+      "definition": "No se ha definido ninguna restricción."
+    },
+    "COLD": {
+      "name": "Colateralizado",
+      "definition": "La restricción está vinculada a una operación de garantía subpignorada."
+    },
+    "CSDB": {
+      "name": "Bloqueo CoSD",
+      "definition": "La restricción no admite ninguna ejecución parcial."
+    }
+  }
+}

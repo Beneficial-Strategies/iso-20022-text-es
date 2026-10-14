@@ -1,0 +1,66 @@
+{
+  "isoType": "PendingReason41Code",
+  "definition": "Especifica un motivo por el que la instrucción está pendiente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del administrador de cuentas. Se gestionará conforme al acuerdo de servicio bilateral entre el administrador de cuentas y el titular de la cuenta."
+    },
+    "ADDM": {
+      "name": "Falta documentación adicional",
+      "definition": "Faltan los documentos adicionales solicitados."
+    },
+    "DREM": {
+      "name": "Plazo de inscripción vencido",
+      "definition": "Se ha incumplido el plazo de registro."
+    },
+    "IPED": {
+      "name": "Instrucción anterior a la fecha de derechos",
+      "definition": "La instrucción se recibió antes de la fecha de derecho."
+    },
+    "IPOS": {
+      "name": "Posición insuficiente para el umbral",
+      "definition": "La posición es inferior al umbral exigido."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "Instrumentos financieros insuficientes en su cuenta."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del mercado."
+    },
+    "IPOA": {
+      "name": "Poder notarial ausente o no válido",
+      "definition": "Poder notarial ausente o no válido."
+    },
+    "NPOS": {
+      "name": "Sin posición inscrita",
+      "definition": "Posición registrada insuficiente o inexistente."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "FULL": {
+      "name": "Pendiente de datos del titular real",
+      "definition": "Pendiente de recibir los datos del titular beneficiario."
+    },
+    "PENR": {
+      "name": "Recepción pendiente",
+      "definition": "La instrucción está pendiente de recepción de valores, por ejemplo, de una compra o un préstamo."
+    },
+    "PRXY": {
+      "name": "Discrepancia en la tarjeta de representación",
+      "definition": "Información de apoderado no válida."
+    },
+    "DQUA": {
+      "name": "Desacuerdo en la cantidad",
+      "definition": "La cantidad de instrumentos financieros no coincide."
+    },
+    "IREG": {
+      "name": "Discrepancia en la inscripción",
+      "definition": "Discrepancia de registro no válida."
+    }
+  }
+}

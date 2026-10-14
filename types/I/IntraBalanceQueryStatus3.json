@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceQueryStatus3",
+  "definition": "Define los criterios de consulta del estado de los movimientos entre saldos, incluido el período del estado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Define el tipo de estado de los criterios de consulta."
+    },
+    "DatePeriod": {
+      "definition": "Período de fechas especificado del estado."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "SubAccountIdentification75",
+  "definition": "Cuenta en la que, o desde la que, se realiza un apunte de valores.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si el extracto comunica actividad o actualización de información."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una subcuenta de valores."
+    }
+  },
+  "isoRules": {
+    "SubSafekeepingReportingRule": {
+      "definition": "El uso de informes consolidados en una cuenta de subcustodia debe acordarse bilateralmente entre el emisor y el receptor."
+    },
+    "ActivityAndBalanceForSubAccount1Rule": {
+      "definition": "Si ActivityIndicator es «true» (Sí), debe estar presente al menos una ocurrencia de BalanceForSubAccount."
+    },
+    "ActivityAndBalanceForSubAccount2Rule": {
+      "definition": "Si ActivityIndicator es «false» (No), BalanceForSubAccount debe estar ausente."
+    }
+  }
+}

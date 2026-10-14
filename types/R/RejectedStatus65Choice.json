@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus65Choice",
+  "definition": "Elección entre un motivo y la ausencia de motivo para el estado de rechazo del procesamiento de la instrucción de operación societaria.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo no especificado."
+    },
+    "Reason": {
+      "definition": "Motivo del estado rechazado."
+    }
+  }
+}

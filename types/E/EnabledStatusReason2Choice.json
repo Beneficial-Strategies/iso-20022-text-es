@@ -1,0 +1,12 @@
+{
+  "isoType": "EnabledStatusReason2Choice",
+  "definition": "Elección de formatos para un código de motivo de habilitación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado habilitado de la cuenta expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado habilitado de la cuenta expresado como código propietario."
+    }
+  }
+}

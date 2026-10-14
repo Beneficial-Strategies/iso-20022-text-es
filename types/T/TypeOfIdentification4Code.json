@@ -1,0 +1,42 @@
+{
+  "isoType": "TypeOfIdentification4Code",
+  "definition": "Especifica el tipo de identificación alternativa que puede utilizarse para dar una identificación alternativa de la parte identificada.",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Número de registro de extranjero",
+      "definition": "Número asignado por un organismo gubernamental para identificar a nacionales extranjeros."
+    },
+    "CUST": {
+      "name": "Concatenado",
+      "definition": "Número asignado por un emisor para identificar a un cliente mediante la concatenación de la fecha de nacimiento y de caracteres del nombre y de los apellidos."
+    },
+    "CORP": {
+      "name": "Identificación de la sociedad",
+      "definition": "Número asignado a una entidad corporativa."
+    },
+    "DRLC": {
+      "name": "Número de permiso de conducir",
+      "definition": "Número asignado a un permiso de conducir."
+    },
+    "IDCD": {
+      "name": "Número de documento de identidad",
+      "definition": "Número asignado por una autoridad nacional a un documento de identidad."
+    },
+    "NRIN": {
+      "name": "Número de identificación de registro nacional",
+      "definition": "Número de identificación del registro nacional. En Singapur se conoce como NRIC."
+    },
+    "CCPT": {
+      "name": "Número de pasaporte",
+      "definition": "Número asignado por una autoridad de pasaportes."
+    },
+    "SOCS": {
+      "name": "Número de la Seguridad Social",
+      "definition": "Número asignado por un organismo de seguridad social."
+    },
+    "TXID": {
+      "name": "Número de identificación fiscal",
+      "definition": "Número asignado por una autoridad tributaria a una entidad."
+    }
+  }
+}

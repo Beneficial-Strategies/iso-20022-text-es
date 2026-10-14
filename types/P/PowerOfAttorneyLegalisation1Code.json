@@ -1,0 +1,22 @@
+{
+  "isoType": "PowerOfAttorneyLegalisation1Code",
+  "definition": "Indica la restricción legal aplicable al poder notarial.",
+  "isoCodes": {
+    "NOTA": {
+      "name": "Notario",
+      "definition": "Indica que el poder notarial debe ser legalizado por un notario."
+    },
+    "LOCA": {
+      "name": "Autoridad local",
+      "definition": "Indica que el poder notarial debe ser legalizado por una autoridad local."
+    },
+    "APOS": {
+      "name": "Apostillado",
+      "definition": "Indica que el poder notarial debe ser legalizado por un funcionario judicial."
+    },
+    "COUN": {
+      "name": "Consularizado",
+      "definition": "Indica que el poder notarial debe ser legalizado por un funcionario consular."
+    }
+  }
+}

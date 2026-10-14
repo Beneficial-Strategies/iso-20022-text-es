@@ -1,0 +1,41 @@
+{
+  "isoType": "OriginalPaymentInstruction53",
+  "definition": "Proporciona información detallada sobre la operación original a la que se refiere el mensaje de informe de estado.",
+  "isoElements": {
+    "ReversalPaymentInformationIdentification": {
+      "definition": "Identificación única, asignada por una parte instructora a una parte instruida, para identificar de forma inequívoca el grupo de información del pago revertido.|Uso: La parte instructora es la parte que envía el mensaje de reversión y no la parte que envió la instrucción original que se revierte."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Identificación única, asignada por la parte emisora original, para identificar inequívocamente el grupo de información del pago original."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el grupo de información del pago original."
+    },
+    "OriginalControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el grupo de información del pago original, independientemente de las divisas."
+    },
+    "BatchBooking": {
+      "definition": "Indica si se solicita un apunte único por cada operación individual o un apunte en lote por la suma de los importes de todas las operaciones del grupo de un mensaje.|Uso: el apunte en lote se utiliza para solicitar, y no para ordenar, un posible apunte en lote."
+    },
+    "PaymentInformationReversal": {
+      "definition": "Indica si la reversión se aplica al grupo completo de información del pago original o a operaciones individuales dentro de ese grupo."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Proporciona información detallada sobre el motivo de la reversión."
+    },
+    "TransactionInformation": {
+      "definition": "Proporciona información sobre las operaciones originales a las que se refiere el mensaje de reversión."
+    }
+  },
+  "isoRules": {
+    "PaymentInformationReversalAndTransactionInformationNotPresentRule": {
+      "definition": "Si PaymentInformationReversal es true, TransactionInformation no está permitido."
+    },
+    "PaymentInformationReversalAndTransactionInformationPresentRule": {
+      "definition": "Si PaymentInformationReversal es false, debe estar presente al menos una ocurrencia de TransactionInformation."
+    },
+    "PaymentInformationReversalAndReasonRule": {
+      "definition": "Si PaymentInformationReversal es verdadero, ReversalReasonInformation/ReversalReason debe estar presente."
+    }
+  }
+}

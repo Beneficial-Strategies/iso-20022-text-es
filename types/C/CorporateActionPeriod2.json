@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPeriod2",
+  "definition": "Especifica períodos.",
+  "isoElements": {
+    "AssentedLinePeriod": {
+      "definition": "Período durante el cual está disponible la línea aceptada."
+    },
+    "ActionPeriod": {
+      "definition": "Período durante el cual la opción especificada, o todas las opciones del evento, siguen siendo válidas, por ejemplo, el período de la oferta."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "definition": "Período durante el cual el privilegio no está disponible, p. ej., esto puede ocurrir cuando se celebra una junta o cuando vence el pago de un cupón."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Período durante el cual pueden negociarse simultáneamente las acciones antiguas y las nuevas, p. ej., agrupación o división de acciones."
+    },
+    "SellThruIssuerPeriod": {
+      "definition": "Período (incluido el último día) durante el cual un titular de cuenta puede entregar o vender valores al emisor y recibir el producto de la venta."
+    },
+    "RevocabilityPeriod": {
+      "definition": "Periodo durante el cual el accionista puede revocar, modificar o retirar su instrucción."
+    },
+    "PriceCalculationPeriod": {
+      "definition": "Período durante el cual se determina el precio de un valor (para valores de liquidación)."
+    }
+  }
+}

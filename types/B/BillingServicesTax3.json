@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingServicesTax3",
+  "definition": "Contempla los impuestos regionales sobre el servicio.",
+  "isoElements": {
+    "Number": {
+      "definition": "Número de identificación del impuesto regional específico utilizado para calcular el impuesto."
+    },
+    "Description": {
+      "definition": "Nombre utilizado para describir el impuesto (por ejemplo, el impuesto nacional sobre el valor añadido)."
+    },
+    "Rate": {
+      "definition": "Tasa utilizada para calcular el impuesto."
+    },
+    "TotalTaxAmount": {
+      "definition": "Especifica la obligación fiscal de los servicios imponibles dentro de una región fiscal para un identificador fiscal específico (como el impuesto nacional sobre el valor añadido igual a 34,00), expresada en la divisa de la jurisdicción fiscal de la región fiscal."
+    }
+  }
+}

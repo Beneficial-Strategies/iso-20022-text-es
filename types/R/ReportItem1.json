@@ -1,0 +1,18 @@
+{
+  "isoType": "ReportItem1",
+  "definition": "Datos de la cuenta del elemento del informe.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "AccountLevel": {
+      "definition": "Nivel de la cuenta de valores en custodia o subcuenta del elemento del informe."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación del instrumento financiero del elemento del informe."
+    },
+    "ItemDate": {
+      "definition": "Fecha del elemento del informe."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "SequenceType3Code",
+  "definition": "Especifica el tipo de la operación actual que pertenece a una secuencia de operaciones.",
+  "isoCodes": {
+    "FRST": {
+      "name": "Primero",
+      "definition": "Primer cobro de una serie de instrucciones de adeudo directo."
+    },
+    "RCUR": {
+      "name": "Recurrente",
+      "definition": "Instrucción de adeudo directo en la que la autorización del ordenante se utiliza para operaciones de adeudo directo periódicas iniciadas por el beneficiario."
+    },
+    "FNAL": {
+      "name": "Final",
+      "definition": "Último cobro de una serie de instrucciones de adeudo directo."
+    },
+    "OOFF": {
+      "name": "Único",
+      "definition": "Instrucción de adeudo directo en la que la autorización del ordenante se utiliza para iniciar una única operación de adeudo directo."
+    },
+    "RPRE": {
+      "name": "Representado",
+      "definition": "Cobro utilizado para volver a presentar operaciones de adeudo directo previamente revertidas o devueltas."
+    }
+  }
+}

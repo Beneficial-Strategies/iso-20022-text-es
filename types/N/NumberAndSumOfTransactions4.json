@@ -1,0 +1,15 @@
+{
+  "isoType": "NumberAndSumOfTransactions4",
+  "definition": "Conjunto de elementos que proporcionan la suma total de los apuntes.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Número de apuntes individuales incluidos en el informe."
+    },
+    "Sum": {
+      "definition": "Total de todos los apuntes individuales incluidos en el informe."
+    },
+    "TotalNetEntry": {
+      "definition": "Importe resultante, de débito o de crédito, de los importes compensados de todos los apuntes de débito y de crédito."
+    }
+  }
+}

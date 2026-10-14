@@ -1,0 +1,56 @@
+{
+  "isoType": "FinancialInstrument87",
+  "definition": "Valor que es un subconjunto de un fondo de inversión y se rige por la misma política del fondo de inversión, por ejemplo, la opción de dividendos o la divisa de valoración.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación del valor mediante un ISIN."
+    },
+    "Name": {
+      "definition": "Nombre del instrumento financiero en texto de formato libre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) expresado conforme a la norma ISO 18774."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Información adicional sobre el instrumento financiero para ayudar a identificarlo."
+    },
+    "ClassType": {
+      "definition": "Características de las participaciones ofrecidas por el fondo. Por ejemplo, una participación puede tener una estructura de comisiones específica, por ejemplo, de entrada o de salida, una política de ingresos, por ejemplo, distribución o acumulación, o una política de comisión de seguimiento, por ejemplo, con o sin ella. Las clases de fondos suelen denotarse con un solo carácter, por ejemplo, \"Clase A\", \"Clase 2\"."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, es decir, titularidad, del valor, es decir, nominativo o al portador."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de ingresos relativa al tipo de clase, es decir, si los ingresos se distribuyen o se retienen en el fondo."
+    },
+    "ProductGroup": {
+      "definition": "Descripción específica de la empresa de un grupo de fondos."
+    },
+    "BlockedHoldingDetails": {
+      "definition": "Cuando una cuenta a nivel de fondo o de valor está bloqueada, especifica los detalles de cómo se bloquea la tenencia."
+    },
+    "Pledging": {
+      "definition": "Especifica si las tenencias de la cuenta son admisibles para su pignoración."
+    },
+    "Collateral": {
+      "definition": "Especifica si las tenencias de la cuenta se utilizan como garantía."
+    },
+    "ThirdPartyRights": {
+      "definition": "Detalles de los derechos de terceros."
+    },
+    "FundOwnership": {
+      "definition": "Especifica si todas las acciones son propiedad exclusiva de la sociedad del fondo."
+    },
+    "FundIntention": {
+      "definition": "Especifica si el fondo está destinado a inversores cualificados."
+    },
+    "OperationalStatus": {
+      "definition": "Estado operativo del fondo."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Se recomienda utilizar el ISIN en Identification.|Cuando existe un código ISIN, se recomienda encarecidamente utilizar el ISIN."
+    }
+  }
+}

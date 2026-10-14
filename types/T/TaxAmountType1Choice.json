@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxAmountType1Choice",
+  "definition": "Especifica el tipo de importe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el tipo de importe, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Especifica el tipo de importe, en forma de texto libre."
+    }
+  }
+}

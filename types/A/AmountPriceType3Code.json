@@ -1,0 +1,14 @@
+{
+  "isoType": "AmountPriceType3Code",
+  "definition": "Especifica el tipo de precio por importe.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Importe real",
+      "definition": "Precio expresado como divisa e importe por unidad o por acción."
+    },
+    "PLOT": {
+      "name": "Lote",
+      "definition": "Precio expresado como importe de dinero por lote."
+    }
+  }
+}

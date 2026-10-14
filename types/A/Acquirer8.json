@@ -1,0 +1,12 @@
+{
+  "isoType": "Acquirer8",
+  "definition": "Entidad encargada de gestionar el ATM.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación del gestor de cajeros automáticos (ATM)."
+    },
+    "ApplicationVersion": {
+      "definition": "Versión de software de la aplicación."
+    }
+  }
+}

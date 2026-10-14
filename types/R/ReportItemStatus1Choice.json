@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportItemStatus1Choice",
+  "definition": "Proporciona el estado de aceptación del elemento de tenencia.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "El extracto es aceptado."
+    },
+    "AcceptedWithException": {
+      "definition": "El extracto es aceptado con una o varias excepciones."
+    },
+    "Rejected": {
+      "definition": "El extracto es rechazado."
+    }
+  }
+}

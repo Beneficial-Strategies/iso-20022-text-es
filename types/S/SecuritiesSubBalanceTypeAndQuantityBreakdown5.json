@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesSubBalanceTypeAndQuantityBreakdown5",
+  "definition": "Información del desglose de cantidades para un saldo de valores específico.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el indicador del tipo de subsaldo de valores (por ejemplo, el tipo de restricción para una infraestructura de mercado)."
+    },
+    "QuantityBreakdown": {
+      "definition": "Desglose de una cantidad en lotes, como lotes fiscales o series de instrumentos."
+    }
+  }
+}

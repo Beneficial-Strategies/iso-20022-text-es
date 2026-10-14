@@ -1,0 +1,56 @@
+{
+  "isoType": "SecuritiesTradeDetails151",
+  "definition": "Detalles de la operación de valores.",
+  "isoElements": {
+    "TradeIdentification": {
+      "definition": "Referencia asignada a la operación comercial por el inversor o la parte negociadora. Esta referencia se utilizará durante todo el ciclo de vida de la operación comercial para acceder a sus detalles o actualizarlos."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identificador único de operación (UTI) acordado con la otra contraparte."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Identificación inequívoca de una operación de garantía asignada por la parte instructora."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación de una operación del titular de la cuenta que podría coincidir con la alegación notificada."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador de la instrucción distinto del titular de la cuenta, la entidad depositaria y la infraestructura del mercado."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado en el que se ha ejecutado una operación de negociación."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestructura que puede formar parte de una cámara de compensación y que facilita la compensación y liquidación para sus miembros interponiéndose entre el comprador y el vendedor. Puede compensar operaciones por saldos netos y se sustituye a sí misma como contraparte de liquidación de cada posición."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "DealPrice": {
+      "definition": "Especifica el precio del instrumento financiero negociado.|Es el precio de la operación individual.|Si solo hay una operación bursátil para la ejecución de la negociación, el precio pactado podría ser igual al precio de ejecución (salvo, por ejemplo, que el precio incluya comisiones o redondeos, o que se haya aplicado algún otro factor al precio pactado o al precio de ejecución, o a ambos)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días en los que se devenga el tipo de interés (nota de devengo diario)."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica las condiciones en las que se va a ejecutar o se ejecutó la orden/operación."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica el tipo de precio e información sobre el precio."
+    }
+  },
+  "isoRules": {
+    "PlaceOfTradeRule": {
+      "definition": "Si se utiliza PlaceOfTrade y existe un MIC de ISO 10383 para el mercado que se va a identificar, entonces debe utilizarse el Market Identifier Code (MIC) de ISO 10383."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Si Trade Date/Time se utiliza con una hora o una hora + indicador UTC, debe ser la hora local del lugar de la operación, por ejemplo, de la bolsa de valores, o del corredor vendedor en el caso de operaciones OTC."
+    },
+    "LateDeliveryDateRule": {
+      "definition": "Si se utiliza LateDeliveryDate, entonces la operación debe ser una operación de pool resultante del TBA (To Be Announced) original. El TBA original se compensaría con una operación opuesta y se sustituiría por compras o ventas de pools individuales. Es una fecha posterior a la fecha de liquidación indicada en la operación, para pools diseñados para liquidarse con retraso."
+    }
+  }
+}

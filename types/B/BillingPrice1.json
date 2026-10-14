@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingPrice1",
+  "definition": "Especifica el precio de facturación de un servicio.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Código de divisa en el que se expresan el precio unitario y el precio del cargo original."
+    },
+    "UnitPrice": {
+      "definition": "Precio por elemento o unidad utilizado para calcular el cargo, expresado en la divisa de tarificación."
+    },
+    "Method": {
+      "definition": "Identifica cómo se calculó el cargo. ||Uso: La ausencia de este código supone que el cargo se calcula como el producto de (volumen x precio unitario)."
+    },
+    "Rule": {
+      "definition": "Indica que el cálculo del cargo se basa en una regla determinada. Aquí se indica el nombre de la regla, que definen los socios comerciales."
+    }
+  }
+}

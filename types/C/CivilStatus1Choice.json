@@ -1,0 +1,12 @@
+{
+  "isoType": "CivilStatus1Choice",
+  "definition": "Elección de formatos para el estado civil.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado civil expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Estado civil expresado como código propietario."
+    }
+  }
+}

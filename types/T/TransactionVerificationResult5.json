@@ -1,0 +1,21 @@
+{
+  "isoType": "TransactionVerificationResult5",
+  "definition": "Resultado de las verificaciones realizadas para la operación.",
+  "isoElements": {
+    "Method": {
+      "definition": "Método de verificación que se ha realizado."
+    },
+    "VerificationEntity": {
+      "definition": "Entidad o dispositivo que ha realizado la verificación."
+    },
+    "Result": {
+      "definition": "Resultado de la verificación."
+    },
+    "AdditionalResult": {
+      "definition": "Resultado adicional de la verificación."
+    },
+    "AuthenticationToken": {
+      "definition": "Token proporcionado al cajero automático (ATM) como prueba adicional de autenticación."
+    }
+  }
+}

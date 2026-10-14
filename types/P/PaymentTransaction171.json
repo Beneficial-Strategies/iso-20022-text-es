@@ -1,0 +1,42 @@
+{
+  "isoType": "PaymentTransaction171",
+  "definition": "Proporciona más detalles sobre las operaciones originales a las que se refiere el mensaje de informe de estado.",
+  "isoElements": {
+    "StatusRequestIdentification": {
+      "definition": "Identificación única, asignada por una parte que instruye a una parte instruida, para identificar inequívocamente la solicitud de estado.|Uso: la parte que instruye es la parte que envía el mensaje de solicitud y no la parte que envió la instrucción original sobre la que se informa."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora original, para identificar inequívocamente el mensaje original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original para la parte instruida original, para identificar inequívocamente la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar inequívocamente la operación original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificación única, asignada por la primera entidad instructora original, para identificar inequívocamente la operación."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal para proporcionar la referencia extremo a extremo original de una operación de pago."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento en que la orden de pago de la parte iniciadora cumple las condiciones de tramitación de la entidad gestora de la cuenta. Esto significa que la entidad gestora de la cuenta ha recibido la orden de pago y ha aplicado comprobaciones como la autorización y la disponibilidad de fondos."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referencia única, asignada por un sistema de compensación, para identificar inequívocamente la instrucción."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la instrucción o el conjunto de instrucciones."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute la instrucción o el conjunto de instrucciones."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos clave utilizados para identificar la operación original a la que se hace referencia."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede recogerse en los elementos estructurados y/o en ningún otro bloque específico."
+    }
+  }
+}

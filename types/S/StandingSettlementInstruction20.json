@@ -1,0 +1,26 @@
+{
+  "isoType": "StandingSettlementInstruction20",
+  "definition": "Detalles de la instrucción permanente de liquidación que debe aplicarse.",
+  "isoElements": {
+    "SettlementStandingInstructionDatabase": {
+      "definition": "Especifica qué base de datos de instrucciones permanentes de liquidación debe utilizarse para determinar las partes de la liquidación que intervienen en la operación."
+    },
+    "Counterparty": {
+      "definition": "Identificación del comprador o del vendedor en una instrucción permanente de liquidación que permite determinar la instrucción permanente de liquidación."
+    },
+    "Vendor": {
+      "definition": "Proveedor de la base de datos de instrucciones permanentes de liquidación que debe consultarse."
+    },
+    "OtherDeliveringSettlementParties": {
+      "definition": "Partes entregadoras, distintas del vendedor, necesarias para determinar la instrucción permanente de liquidación (por ejemplo, el depositario) o facilitadas a título informativo (por ejemplo, la cadena de liquidación de la parte instructora)."
+    },
+    "OtherReceivingSettlementParties": {
+      "definition": "Partes receptoras, distintas del comprador, necesarias para determinar la instrucción permanente de liquidación (por ejemplo, el depositario) o facilitadas a título informativo (por ejemplo, la cadena de liquidación de la parte instructora)."
+    }
+  },
+  "isoRules": {
+    "VendorPresenceRule": {
+      "definition": "Si la base de datos de instrucciones permanentes de liquidación es la de un proveedor, entonces debe identificarse al proveedor."
+    }
+  }
+}

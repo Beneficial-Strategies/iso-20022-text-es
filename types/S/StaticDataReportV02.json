@@ -1,0 +1,12 @@
+{
+  "isoType": "StaticDataReportV02",
+  "definition": "El mensaje StaticDataReport lo envía un sistema central al participante para facilitarle los datos estáticos que obran en el sistema.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificador único e inequívoco del mensaje, asignado por el remitente."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Para indicar la sesión de liquidación de CLS solicitada de la que forma parte la operación comercial relacionada."
+    }
+  }
+}

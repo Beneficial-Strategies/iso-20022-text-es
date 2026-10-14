@@ -1,0 +1,15 @@
+{
+  "isoType": "NameAndAddress8",
+  "definition": "Información que localiza e identifica a una parte.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre por el que se conoce a una parte y que suele utilizarse para identificarla."
+    },
+    "Address": {
+      "definition": "Dirección postal de una parte."
+    },
+    "AlternativeIdentifier": {
+      "definition": "Identificador único e inequívoco, asignado a una entidad financiera mediante un esquema de identificación propietario."
+    }
+  }
+}

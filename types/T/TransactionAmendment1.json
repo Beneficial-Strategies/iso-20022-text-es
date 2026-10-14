@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionAmendment1",
+  "definition": "Especifica la ruta y los elementos de datos solicitados en la solicitud de investigación.",
+  "isoElements": {
+    "Path": {
+      "definition": "Ruta absoluta de un elemento."
+    },
+    "Record": {
+      "definition": "Proporciona el registro individual de los elementos de datos."
+    }
+  }
+}

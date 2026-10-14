@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMKeyDownloadRequestV05",
+  "definition": "El mensaje ATMKeyDownloadRequest lo envía un cajero automático (ATM) a un gestor de cajeros automáticos para iniciar la descarga de una o varias claves criptográficas."
+}

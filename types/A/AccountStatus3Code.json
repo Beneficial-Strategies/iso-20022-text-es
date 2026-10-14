@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountStatus3Code",
+  "definition": "Califica con mayor detalle el estado actual de una cuenta.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Habilitado",
+      "definition": "La cuenta puede utilizarse para su finalidad prevista."
+    },
+    "DISA": {
+      "name": "Deshabilitado",
+      "definition": "La cuenta no puede utilizarse para su finalidad prevista, de forma temporal o permanente."
+    },
+    "DELE": {
+      "name": "Eliminado",
+      "definition": "La cuenta ya no puede utilizarse."
+    },
+    "FORM": {
+      "name": "Pro forma",
+      "definition": "La cuenta es temporal y puede utilizarse parcialmente para su finalidad prevista. La cuenta estará plenamente disponible para su uso cuando el administrador de la cuenta haya recibido todos los documentos pertinentes."
+    }
+  }
+}

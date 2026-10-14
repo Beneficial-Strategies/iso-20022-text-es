@@ -1,0 +1,41 @@
+{
+  "isoType": "BusinessApplicationHeaderV04",
+  "definition": "La capa comercial trata los mensajes comerciales. El comportamiento de los mensajes comerciales queda plenamente descrito por la transacción comercial, y su estructura por las definiciones de mensaje y las reglas de mensaje, reglas y prácticas de mercado asociadas, todo ello registrado en el repositorio ISO 20022.|Para cada evento comercial, es decir, para cada interacción de una transacción comercial, el MessagingEndpoint emisor crea un único mensaje comercial nuevo (con su cabecera de aplicación comercial). Un mensaje comercial se rige por los siguientes principios:|\" Un mensaje comercial (y su cabecera de aplicación comercial) no debe contener información sobre el sistema de transporte de mensajes ni sobre la mecánica o el mecanismo de envío, transporte o recepción de mensajes. |\" Un mensaje comercial debe ser comprensible fuera del contexto del mensaje de transporte. Es decir, no debe requerir conocimientos del mensaje de transporte para entenderse.|\" Un mensaje comercial puede contener cabeceras, pies y sobres significativos para el negocio. Cuando existen, se tratan como cualquier otro contenido del mensaje, lo que significa que se consideran parte de la definición del mensaje comercial y, como tal, formarán parte del repositorio ISO 20022.|\" Un mensaje comercial se refiere a los actores comerciales por su nombre. Cada instancia de un actor comercial tiene un nombre. No debe hacerse referencia al actor comercial en la capa de transporte.|El SEG pertinente puede definir un uso específico de esta BusinessMessageHeader.",
+  "isoElements": {
+    "CharacterSet": {
+      "definition": "Contiene el juego de caracteres de los elementos de texto utilizados en el mensaje comercial."
+    },
+    "BusinessMessageIdentifier": {
+      "definition": "Identifica de forma inequívoca el mensaje comercial ante el MessagingEndpoint que lo ha creado."
+    },
+    "MessageDefinitionIdentifier": {
+      "definition": "El identificador de definición de mensaje de la instancia de mensaje comercial a la que está asociada esta instancia de cabecera de aplicación comercial."
+    },
+    "BusinessService": {
+      "definition": "Especifica el servicio comercial acordado entre los dos MessagingEndpoints, bajo cuyas reglas se intercambia este mensaje comercial.|Debe utilizarse cuando existe una elección entre servicios de procesamiento o niveles de servicio de procesamiento.||Ejemplo: |«marketx.hvps.01» y «marketx.xbdr.01» podrían utilizarse para indicar que los mensajes asociados están sujetos a distintos niveles de procesamiento para pagos nacionales de alto valor frente a pagos transfronterizos dentro de la misma práctica de mercado."
+    },
+    "CreationDate": {
+      "definition": "Fecha y hora en que se creó este mensaje comercial (cabecera)."
+    },
+    "BusinessProcessingDate": {
+      "definition": "Fecha y hora de procesamiento indicadas por el emisor para el receptor del mensaje comercial. Esta fecha puede ser distinta de la fecha y hora indicadas en CreationDate.||Uso: la práctica de mercado o un acuerdo bilateral deben especificar cómo se utiliza este elemento."
+    },
+    "CopyDuplicate": {
+      "definition": "Indica si el mensaje es una copia, un duplicado o una copia de un duplicado de un mensaje ISO 20022 enviado previamente."
+    },
+    "PossibleDuplicate": {
+      "definition": "Indicador de si el mensaje comercial intercambiado entre los MessagingEndpoints es posiblemente un duplicado. |Si el MessagingEndpoint receptor no recibió el original, este mensaje comercial debe procesarse como si fuera el original. ||Si el MessagingEndpoint receptor sí recibió el original, debe realizar las acciones necesarias para evitar procesar de nuevo este mensaje comercial.||Esto garantiza un comportamiento idempotente a nivel comercial.||NOTA (NOTE): en FIX se denomina «PossResend»; es un reenvío a nivel de aplicación, no una retransmisión a nivel de red."
+    },
+    "Priority": {
+      "definition": "Indicación relativa de la precedencia de procesamiento del mensaje frente a un (conjunto de) mensajes comerciales con prioridades asignadas."
+    },
+    "Signature": {
+      "definition": "Contiene la firma digital de la entidad comercial autorizada para firmar este mensaje comercial."
+    }
+  },
+  "isoRules": {
+    "RelatedPresentWhenCopyDupl": {
+      "definition": "Related DEBE (MUST) contener los elementos BusinessMessageHeader pertinentes del BusinessMessage con el que se relaciona este BusinessMessage.||Si CopyDuplicate está presente, Related DEBE (MUST) estar presente."
+    }
+  }
+}

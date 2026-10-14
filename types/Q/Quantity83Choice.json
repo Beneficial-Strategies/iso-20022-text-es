@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity83Choice",
+  "definition": "Elección entre la cantidad de liquidación del token de dinero electrónico y la cantidad de la comisión de red.",
+  "isoElements": {
+    "ElectronicMoneyTokenSettlementQuantity": {
+      "definition": "Cantidad de token de dinero electrónico para el pago de liquidación."
+    },
+    "NetworkFeeQuantity": {
+      "definition": "Cantidad de activos digitales correspondiente a la comisión de red asignada a una operación en una red DLT."
+    }
+  }
+}

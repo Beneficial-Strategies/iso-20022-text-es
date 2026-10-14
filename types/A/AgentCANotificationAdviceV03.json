@@ -1,0 +1,96 @@
+{
+  "isoType": "AgentCANotificationAdviceV03",
+  "definition": "Ámbito|Este mensaje lo envía un emisor (o su agente) a un CSD para:|- Facilitar al CSD los detalles de una operación societaria junto con las posibles opciones disponibles para los clientes de ese CSD; y|- actualizar una notificación de operación societaria. Un aviso de notificación puede enviarse inicialmente como aviso preliminar y posteriormente sustituirse por otro aviso de notificación con información actualizada.|Uso|Este mensaje se utiliza:|- para facilitar al CSD los detalles de una operación societaria junto con las posibles opciones disponibles para los clientes de ese CSD. La información puede ser completa o incompleta.|- para actualizar un aviso de notificación de operación societaria. Un aviso de notificación puede enviarse inicialmente como aviso preliminar y posteriormente sustituirse por otro aviso de notificación con información actualizada. Según la recomendación de SMPG, debe facilitarse toda la información en la actualización, no solo la información actualizada.|Un Agent Corporate Action Notification Status Advice se envía en respuesta al Agent Corporate Action Notification Advice.|Nota: La modificación de una notificación de operación societaria se realiza mediante un mecanismo de sustitución, en línea tanto con los mensajes ISO 15022 utilizados en el flujo entre el CSD y sus clientes como con los mensajes de voto por delegación de ISO 20022.",
+  "isoRules": {
+    "BeneficialOwnerBreakdownRequestRule ": {
+      "definition": "Si en al menos una aparición de CorporateActionOptionDetails el valor de OptionType/Code es BOBD (BeneficialOwnerBreakdownRequest), entonces el valor de CorporateActionGeneralInformation/EventType/Code/PlainCorporateEventType debe ser WTRC (Withholding Tax Relief Certification).|(MT 564 NVR C23)."
+    },
+    "BeneficialOwnerBreakdownRequestUGRule": {
+      "definition": "Si en al menos una aparición de CorporateActionOptionDetails el valor de OptionType/Code es BOBD (BeneficialOwnerBreakdownRequest), entonces el valor de CorporateActionGeneralInformation/EventType/Code/PlainCorporateEventType debe ser WTRC (Withholding Tax Relief Certification).|(MT 564 NVR C23)."
+    },
+    "BidInterval1Rule": {
+      "definition": "Si BidInterval está presente en CorporateActionDetails/RateAndAmountDetails, entonces BidInterval no se permite en ninguna aparición de CorporateActionOptionDetails/RateAndAmountDetails. |(MT 564 NVR C25)"
+    },
+    "BidInterval2Rule": {
+      "definition": "Si BidInterval está presente en cualquier aparición de CorporateActionOptionDetails/RateAndAmountDetails, entonces BidInterval no se permite en CorporateActionDetails/RateAndAmountDetails. |(MT 564 NVR C25)"
+    },
+    "DeclaredRateRule": {
+      "definition": "Si CorporateActionOptionDetails/RateAndAmountDetails/IssuerDeclaredExchangeRate está presente, entonces CorporateActionDetails/RateAndAmountDetails/DeclaredRate debe estar presente."
+    },
+    "FirstBidIncrementPrice1Rule": {
+      "definition": "Si FirstBidIncrementPrice está presente en CorporateActionDetails/PriceDetails, entonces FirstBidIncrementPrice no se permite en ninguna aparición de CorporateActionOptionDetails/PriceDetails. |(MT 564 NVR C24)"
+    },
+    "FirstBidIncrementPrice2Rule": {
+      "definition": "Si FirstBidIncrementPrice está presente en cualquier aparición de CorporateActionOptionDetails/PriceDetails, entonces FirstBidIncrementPrice no se permite en CorporateActionDetails/PriceDetails. |(MT 564 NVR C24)"
+    },
+    "FirstBidIncrementPriceEventType1Rule": {
+      "definition": "Si FirstBidIncrementPrice está presente en CorporateActionDetails/PriceDetails, el valor de CorporateActionGeneralInformation/EventType/Code debe ser BIDS (Repurchase Offer), DTCH (Dutch Auction) o TEND (Tender). |(MT 564 NVR C30)"
+    },
+    "FirstBidIncrementPriceEventType2Rule": {
+      "definition": "Si FirstBidIncrementPrice está presente en cualquier repetición de CorporateActionOptionDetails/PriceDetails, el valor de CorporateActionGeneralInformation/EventType/Code debe ser BIDS (Repurchase Offer), DTCH (Dutch Auction) o TEND (Tender). |(MT 564 NVR C30)"
+    },
+    "IncentivePremiumEventType1Rule": {
+      "definition": "Si el valor de Code es INCP (IncentivePremiumPayment) en cualquier repetición de CorporateActionDetails/AdditionalBusinessProcessIndicator, el valor de CorporateActionGeneralInformation/EventType/Code debe ser CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "IncentivePremiumEventTypeUG1Rule": {
+      "definition": "Si el valor de Code es INCP (IncentivePremiumPayment) en cualquier repetición de CorporateActionDetails/AdditionalBusinessProcessIndicator, el valor de CorporateActionGeneralInformation/EventType/Code/PlainCorporateEventType debe ser CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "InterestPaymentRule": {
+      "definition": "CorporateActionDetails/RateAndAmountDetails/InterestRate y CorporateActionOptionsDetails/RateAndAmountDetails/GrossInterestRateUsedforPayment no deben combinarse. InterestRate se utiliza para indicar el tipo anual del instrumento financiero. GrossInterestRateUsedforPayment se utiliza para indicar el tipo aplicable al pago en curso, una vez realizados todos los cálculos, es decir, tras aplicar el período y el método de cálculo de intereses."
+    },
+    "IntermediateSecuritiesDistribution1Rule": {
+      "definition": "Si CorporateActionGeneralInformation/EventType/Code es RHDI (IntermediateSecuritiesDistribution), CorporateActionDetails/|FollowingEventType debe estar presente.|(MT 564 NVR C11)."
+    },
+    "IssuerAgentGuideline": {
+      "definition": "AgentInformation/IssuerAgent debe utilizarse únicamente en la comunicación entre un CSD y custodios locales."
+    },
+    "LastBidIncrementPrice1Rule": {
+      "definition": "Si LastBidIncrementPrice está presente en CorporateActionDetails/PriceDetails, LastBidIncrementPrice no está permitido en ninguna repetición de CorporateActionOptionDetails/PriceDetails. |(MT 564 NVR C24)"
+    },
+    "LastBidIncrementPrice2Rule": {
+      "definition": "Si LastBidIncrementPrice está presente en cualquier repetición de CorporateActionOptionDetails/PriceDetails, LastBidIncrementPrice no está permitido en CorporateActionDetails/PriceDetails.|(MT 564 NVR C24)"
+    },
+    "LastBidIncrementPriceEventType1Rule": {
+      "definition": "Si LastBidIncrementPrice está presente en CorporateActionDetails/PriceDetails, el valor de CorporateActionGeneralInformation/EventType/Code debe ser BIDS (Repurchase Offer), DTCH (Dutch Auction) o TEND (Tender). |(MT 564 NVR C30)"
+    },
+    "LastBidIncrementPriceEventType2Rule": {
+      "definition": "Si LastBidIncrementPrice está presente en cualquier repetición de CorporateActionOptionDetails/PriceDetails, el valor de CorporateActionGeneralInformation/EventType/Code debe ser BIDS (Repurchase Offer), DTCH (Dutch Auction) o TEND (Tender). |(MT 564 NVR C30)"
+    },
+    "MaximumPrice1Rule": {
+      "definition": "Si MaximumPrice está presente en CorporateActionDetails/PriceDetails, MaximumPrice no está permitido en ninguna repetición de CorporateActionOptionDetails/PriceDetails. |(MT 564 NVR C24)"
+    },
+    "MaximumPrice2Rule": {
+      "definition": "Si MaximumPrice está presente en cualquier repetición de CorporateActionOptionDetails/PriceDetails, MaximumPrice no está permitido en CorporateActionDetails/PriceDetails. |(MT 564 NVR C24)"
+    },
+    "MinimumPrice1Rule": {
+      "definition": "Si MinimumPrice está presente en CorporateActionDetails/PriceDetails, MinimumPrice no está permitido en ninguna repetición de CorporateActionOptionDetails/PriceDetails. |(MT 564 NVR C24)"
+    },
+    "MinimumPrice2Rule": {
+      "definition": "Si MinimumPrice está presente en cualquier repetición de CorporateActionOptionDetails/PriceDetails, MinimumPrice no está permitido en CorporateActionDetails/PriceDetails. |(MT 564 NVR C24)"
+    },
+    "NameChangeRule": {
+      "definition": "Si CorporateActionDetails/AdditionalInformation/NewCompanyName/AdditionalInformation está presente, el valor CHAN (Change) de CorporateActionGeneralInformation/EventType/Code/PlainCorporateEventType debe estar presente y el valor NAME (Name) de CorporateActionDetails/ChangeType/Code debe estar presente en al menos una repetición de CorporateActionDetails/ChangeType.|(MT 564 NVR C10)."
+    },
+    "NewMaturityDateRule": {
+      "definition": "Si CorporateActionDetails/DateDetails/NewMaturityDate está presente, CorporateActionGeneralInformation/EventType/Code/PlainCorporateEventType debe ser EXTM (Maturity Extension)."
+    },
+    "NotificationIdentification1Rule": {
+      "definition": "Si NotificationGeneralInformation/NotificationType es REPL (Replacement) y Pagination/PageNumber es igual al valor 1, PreviousNotificationIdentification debe estar presente. |(MT 564 NVR C9)."
+    },
+    "NotificationIdentification2Rule": {
+      "definition": "Si NotificationGeneralInformation/NotificationType es RMDR (Reminder) y Pagination/PageNumber es igual al valor 1, PreviousNotificationIdentification debe estar presente. |(MT 564 NVR C9)."
+    },
+    "OtherEventRule": {
+      "definition": "Si CorporateActionGeneralInformation/EventType/Code es OTHR (Other), debe estar presente al menos una repetición de AdditionalInformation/AdditionalText/AdditionalInformation.|(MT564 NVR C4)."
+    },
+    "PaginationRule": {
+      "definition": "Si hay paginación, entonces NotificationGeneralInformation/NotificationIdentification debe estar presente."
+    },
+    "PaymentDateRule": {
+      "definition": "Si está presente al menos una repetición de CorporateActionOptionDetails/SecuritiesMovementDetails o al menos una repetición de CorporateActionOptionDetails/CashMovementDetails, CorporateActionDetails/DateDetails/PaymentDate debe estar ausente. (MT 564 NVR C16)."
+    },
+    "RateAndCorporateActionEventRule": {
+      "definition": "Si el valor de Code de CorporateActionOptionDetails/RateAndAmountDetails/GrossDistributionRate/NotSpecifiedRate o el valor de Code de CorporateActionOptionDetails/RateAndAmountDetails/GrossInterestRateUsedForPayment/NotSpecifiedRate es NILP (Nil Payment), CorporateActionGeneralInformation/EventType/Code/PlainCorporateEventType debe ser DVCA (CashDividend) o INTR (InterestPayment).|Si el valor de Code de CorporateActionOptionDetails/CashMovementDetails/RateAndAmountDetails/GrossDistributionRate/NotSpecifiedRate o el valor de Code de CorporateActionOptionDetails/CashMovementDetails/RateAndAmountDetails/GrossInterestRateUsedForPayment/NotSpecifiedRate es NILP (Nil Payment), CorporateActionGeneralInformation/EventType/Code/PlainCorporateEventType debe ser DVCA (CashDividend) o INTR (InterestPayment)."
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "isoType": "UnmatchedStatusReason1Code",
+  "definition": "Especifica el motivo por el que la operación o instrucción no está casada.",
+  "isoCodes": {
+    "CMIS": {
+      "name": "Instrucción de cotejo no encontrada",
+      "definition": "No se ha encontrado la instrucción coincidente de la contraparte."
+    },
+    "DDAT": {
+      "name": "Discrepancia en la fecha de liquidación",
+      "definition": "La contraparte no está de acuerdo con la fecha y hora de liquidación."
+    },
+    "DELN": {
+      "name": "Discrepancia en el sentido de la operación",
+      "definition": "La contraparte espera una entrega y no una recepción, o espera una recepción y no una entrega."
+    },
+    "DEPT": {
+      "name": "Discrepancia en el lugar de liquidación",
+      "definition": "La contraparte no está de acuerdo con el lugar de liquidación."
+    },
+    "DMON": {
+      "name": "Discrepancia en el importe de liquidación",
+      "definition": "La contraparte no está de acuerdo con el importe de liquidación."
+    },
+    "DDEA": {
+      "name": "Discrepancia en el precio de la operación",
+      "definition": "La contraparte no está de acuerdo con el precio de la operación."
+    },
+    "DQUA": {
+      "name": "Discrepancia en la cantidad",
+      "definition": "La contraparte no está de acuerdo con la cantidad del instrumento financiero."
+    },
+    "CADE": {
+      "name": "Discrepancia en el plazo de preaviso de recompra",
+      "definition": "El retraso de la llamada de recompra no coincide."
+    },
+    "SETR": {
+      "name": "Discrepancia en la operación de liquidación",
+      "definition": "El tipo de operación de liquidación no coincide."
+    },
+    "DSEC": {
+      "name": "Discrepancia en el valor",
+      "definition": "La contraparte no está de acuerdo con el valor o la emisión, por ejemplo, el ISIN o un atributo del instrumento financiero es diferente."
+    },
+    "VASU": {
+      "name": "Discrepancia en el soporte de tipo variable",
+      "definition": "El soporte de tipo variable no coincide."
+    },
+    "DTRA": {
+      "name": "No reconocido",
+      "definition": "La contraparte no reconoce la operación."
+    },
+    "RSPR": {
+      "name": "Discrepancia en el diferencial de recompra",
+      "definition": "El tipo de diferencial de recompra no coincide."
+    },
+    "REPO": {
+      "name": "Discrepancia en el tipo de recompra",
+      "definition": "El tipo de recompra no coincide."
+    },
+    "CLAT": {
+      "name": "Contraparte fuera de plazo para el cotejo",
+      "definition": "La instrucción de la contraparte llegó demasiado tarde."
+    },
+    "RERT": {
+      "name": "Discrepancia en el tipo de tasa de recompra",
+      "definition": "El tipo de tasa de recompra no coincide."
+    },
+    "REPA": {
+      "name": "Discrepancia en el importe de recompra",
+      "definition": "El importe de recompra no coincide."
+    },
+    "REPP": {
+      "name": "Discrepancia en el importe de la prima de recompra",
+      "definition": "El importe de la prima de recompra no coincide."
+    },
+    "PHYS": {
+      "name": "Discrepancia en la liquidación física",
+      "definition": "La instrucción de la contraparte es de liquidación física y la suya no lo es, o viceversa."
+    },
+    "IIND": {
+      "name": "Discrepancia en la referencia común",
+      "definition": "La contraparte no está de acuerdo con la referencia común."
+    },
+    "FRAP": {
+      "name": "Discrepancia en el código de pago",
+      "definition": "La instrucción de la contraparte es de liquidación libre de pago y la suya es de liquidación contra pago, o viceversa."
+    },
+    "PLCE": {
+      "name": "Discrepancia en el lugar de negociación",
+      "definition": "El lugar de negociación no coincide."
+    },
+    "PODU": {
+      "name": "Posible instrucción duplicada",
+      "definition": "La instrucción es un posible duplicado."
+    },
+    "FORF": {
+      "name": "Discrepancia en el importe de recompra con pérdida",
+      "definition": "El importe de pérdida de la recompra no coincide."
+    },
+    "REGD": {
+      "name": "Discrepancia en los datos de registro",
+      "definition": "Existen discrepancias en los detalles de registro vinculados a la operación."
+    },
+    "RTGS": {
+      "name": "Discrepancia en el sistema RTGS",
+      "definition": "La contraparte indica una liquidación mediante un sistema RTGS y usted indica una liquidación fuera de RTGS, o viceversa."
+    },
+    "ICAG": {
+      "name": "Agente incorrecto",
+      "definition": "La contraparte indicó un agente de entrega o de recepción incorrecto."
+    },
+    "CPCA": {
+      "name": "Instrucción cancelada por la contraparte",
+      "definition": "La contraparte ha cancelado la operación o instrucción."
+    },
+    "CHAR": {
+      "name": "Discrepancia en el importe de los gastos",
+      "definition": "La contraparte no está de acuerdo con el importe de los gastos."
+    },
+    "IEXE": {
+      "name": "Comprador o vendedor incorrecto",
+      "definition": "La instrucción indica un comprador (receptor) o un vendedor (entregador) incorrecto."
+    },
+    "NCRR": {
+      "name": "Discrepancia en la divisa del importe de liquidación",
+      "definition": "La contraparte no está de acuerdo con la moneda del importe de liquidación."
+    },
+    "NMAS": {
+      "name": "Cotejo no iniciado",
+      "definition": "El proceso de casamiento aún no ha comenzado."
+    },
+    "SAFE": {
+      "name": "Discrepancia en la cuenta de custodia",
+      "definition": "La cuenta de custodia utilizada como criterio de casamiento en el mercado correspondiente no coincide."
+    },
+    "DTRD": {
+      "name": "Discrepancia en la fecha de contratación",
+      "definition": "La contraparte no está de acuerdo con la fecha de la operación."
+    },
+    "LATE": {
+      "name": "Su instrucción fuera de plazo para el cotejo",
+      "definition": "La instrucción se recibió demasiado tarde para el casamiento."
+    },
+    "TERM": {
+      "name": "Discrepancia en la fecha y hora de cierre",
+      "definition": "La fecha y hora de cierre no coinciden."
+    },
+    "ICUS": {
+      "name": "Discrepancia en el custodio receptor o entregador",
+      "definition": "Custodio de entrega o de recepción incorrecto."
+    }
+  }
+}

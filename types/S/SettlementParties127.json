@@ -1,0 +1,47 @@
+{
+  "isoType": "SettlementParties127",
+  "definition": "Cadena de partes que intervienen en la liquidación de una operación, incluidas recepciones y entregas, traspasos contables, operaciones de tesorería u otras actividades, que dan lugar al movimiento de un valor o de un importe de dinero de una cuenta a otra.",
+  "isoElements": {
+    "Depository": {
+      "definition": "Primera parte de la cadena de liquidación. En una liquidación ordinaria, es el depositario central de valores en el que la contraparte solicita recibir el instrumento financiero o desde el que la contraparte entrega los instrumentos financieros."
+    },
+    "Party1": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con el depositario."
+    },
+    "Party2": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 1."
+    },
+    "Party3": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 2."
+    },
+    "Party4": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 3."
+    },
+    "Party5": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 4."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "Si Party2 está presente, Party1 debe estar presente."
+    },
+    "Party3PresenceRule": {
+      "definition": "Si Party3 está presente, Party2 debe estar presente."
+    },
+    "Party4PresenceRule": {
+      "definition": "Si Party4 está presente, Party3 debe estar presente."
+    },
+    "Party5PresenceRule": {
+      "definition": "Si Party5 está presente, Party4 debe estar presente."
+    },
+    "SettlementChainGuideline": {
+      "definition": "El SMPG recomienda que se instruyan al menos tres partes de liquidación en las instrucciones de liquidación de renta variable o renta fija, recepción|libre de pago o contra pago: el depositario, el participante del depositario (Party1) y el cliente de Party1 (Party2).|El formato de datos para la identificación de Party1 depende del mercado. Si no existe un requisito específico del país, se recomienda el BIC.|Para más detalles, consulte el documento de prácticas de mercado correspondiente en www.smpg.info."
+    },
+    "DepositoryGuideline": {
+      "definition": "En una entrega, se entiende por depositario receptor el depositario solicitado de la contraparte receptora. |En una recepción, se entiende por depositario entregador el depositario solicitado de la contraparte entregadora.|El campo debe completarse con el BIC de un CSD nacional o internacional. Cuando no exista ningún CSD en un mercado determinado, debe utilizarse el BIC de la bolsa de valores.|Debe utilizarse el código de país para la liquidación que tenga lugar fuera de una institución publicada en la lista de BIC del PSET. Esto incluye las entregas físicas y los fondos de inversión que no se liquidan en un CSD. |El formato y el contenido de las secuencias de partes de liquidación cumplirán las prácticas de mercado publicadas para el depositario de la contraparte incluido en el mensaje.|Para más detalles, consulte el documento de prácticas de mercado correspondiente en www.smpg.info."
+    },
+    "BookTransferGuideline": {
+      "definition": "En caso de traspaso interno entre cuentas propias, traspaso externo entre cuentas propias, traspaso de cartera y traspaso en especie (véase SecuritiesTransactionType), debe indicarse la cuenta de Party2 (entregador) en Party1 (entregador).|Para más detalles, consulte el documento de prácticas de mercado correspondiente en www.smpg.info."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DisabledStatusReason1",
+  "definition": "Motivo de un estado deshabilitado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado deshabilitado de la cuenta."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el motivo del estado deshabilitado de la cuenta."
+    }
+  }
+}

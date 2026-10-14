@@ -1,0 +1,62 @@
+{
+  "isoType": "SettlementInstructionReason1Code",
+  "definition": "Especifica el tipo de operación.",
+  "isoCodes": {
+    "CSHI": {
+      "name": "Todos los abonos",
+      "definition": "Liquidación de todos los importes de crédito."
+    },
+    "ALLL": {
+      "name": "Todos los abonos y adeudos",
+      "definition": "Liquidación de todos los importes de crédito y débito."
+    },
+    "CSHO": {
+      "name": "Todos los adeudos",
+      "definition": "Liquidación de todos los importes de débito."
+    },
+    "CHAR": {
+      "name": "Gastos",
+      "definition": "Liquidación de gastos."
+    },
+    "DIVI": {
+      "name": "Dividendo",
+      "definition": "Liquidación de dividendos."
+    },
+    "INTE": {
+      "name": "Intereses",
+      "definition": "Liquidación de intereses."
+    },
+    "SAVP": {
+      "name": "Plan de ahorro e inversión",
+      "definition": "Liquidación de inversiones en un plan de ahorro."
+    },
+    "REDM": {
+      "name": "Reembolso",
+      "definition": "Liquidación de reembolsos o de tramos de reembolso de una operación de traspaso."
+    },
+    "SAVE": {
+      "name": "Plan de ahorro",
+      "definition": "Liquidación de inversiones en un plan de ahorro y de retiros de un plan de ahorro."
+    },
+    "BUYI": {
+      "name": "Compra de valores",
+      "definition": "Liquidación de compras de valores."
+    },
+    "SELL": {
+      "name": "Venta de valores",
+      "definition": "Liquidación de ventas de valores."
+    },
+    "SUBS": {
+      "name": "Suscripción",
+      "definition": "Liquidación de suscripciones o de tramos de suscripción de una operación de traspaso."
+    },
+    "WTHP": {
+      "name": "Retirada del plan de ahorro",
+      "definition": "Liquidación de retiros de un plan de ahorro."
+    },
+    "CORP": {
+      "name": "Operación corporativa",
+      "definition": "Liquidación de operaciones societarias."
+    }
+  }
+}

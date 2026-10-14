@@ -1,0 +1,42 @@
+{
+  "isoType": "DataSetCategory7Code",
+  "definition": "Tipo de configuración de un cajero automático (ATM).",
+  "isoCodes": {
+    "ATMC": {
+      "name": "Configuración del ATM",
+      "definition": "Parámetros de configuración del cajero automático (ATM)."
+    },
+    "ATMP": {
+      "name": "Protocolo del ATM",
+      "definition": "Parámetros del protocolo del cajero automático (ATM), incluida la configuración de los servidores."
+    },
+    "APPR": {
+      "name": "Parámetros de aplicación",
+      "definition": "Parámetros de configuración específicos de la aplicación de pago para el sistema del punto de interacción (POI)."
+    },
+    "CRAP": {
+      "name": "Aplicación de tarjeta",
+      "definition": "Parámetros de configuración de la aplicación de tarjeta."
+    },
+    "CPRC": {
+      "name": "Configuración de tarjetas",
+      "definition": "Configuración de las tarjetas aceptadas por el terminal."
+    },
+    "OEXR": {
+      "name": "Tipo de cambio sin conexión",
+      "definition": "Tipos locales para el cambio de divisas."
+    },
+    "AMNT": {
+      "name": "Importe predefinido",
+      "definition": "Importes predefinidos que se presentarán al cliente."
+    },
+    "LOCC": {
+      "name": "Configuración de ubicación",
+      "definition": "Configuración de la ubicación."
+    },
+    "MNOC": {
+      "name": "Operador móvil",
+      "definition": "Configuración de las tarjetas de operadores móviles aceptadas por el terminal."
+    }
+  }
+}

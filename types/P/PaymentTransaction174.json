@@ -1,0 +1,36 @@
+{
+  "isoType": "PaymentTransaction174",
+  "definition": "Proporciona más detalles sobre la referencia y el estado de las operaciones originales, incluidas en la instrucción original, a las que se aplica el mensaje de reversión.",
+  "isoElements": {
+    "ReversalIdentification": {
+      "definition": "Identificación única, asignada por una parte instructora para una parte instruida, que identifica de forma inequívoca la operación revertida.|Uso: la parte instructora es la parte que envía el mensaje de reversión y no la que envió la instrucción original que se revierte."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original a la parte instruida original, para identificar inequívocamente la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar de forma inequívoca la operación original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal que proporciona la referencia de extremo a extremo original de una operación de pago."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Importe de dinero, tal como figura en la operación original, que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora original.|Uso: Este importe debe transportarse sin modificar a lo largo de la cadena de la operación."
+    },
+    "ReversedInstructedAmount": {
+      "definition": "Importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, en la operación anulada.|Uso: Este importe debe transportarse sin cambios a lo largo de la cadena de operaciones."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica si el beneficiario y/o el ordenante asumirán los gastos asociados al procesamiento de la operación de pago.||Uso: ChargeBearer se aplica al mensaje de reversión, no a la instrucción original."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Proporciona información detallada sobre el motivo de la reversión."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos clave utilizados para identificar la operación original a la que se hace referencia."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

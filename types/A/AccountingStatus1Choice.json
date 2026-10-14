@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountingStatus1Choice",
+  "definition": "Elección de formatos para el estado contable.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado contable expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Estado contable expresado como código propietario."
+    }
+  }
+}

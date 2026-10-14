@@ -1,0 +1,48 @@
+{
+  "isoType": "Identification29",
+  "definition": "Identificador único de un documento, mensaje u operación.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce el titular de la cuenta (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la entidad gestora de la cuenta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación de la contraparte asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador de la instrucción distinto del titular de la cuenta, la entidad depositaria y la infraestructura del mercado."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "TradeIdentification": {
+      "definition": "Referencia asignada a la operación comercial por el inversor o la parte negociadora. Esta referencia se utilizará durante todo el ciclo de vida de la operación comercial para acceder a sus detalles o actualizarlos."
+    },
+    "MasterIdentification": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    },
+    "BasketIdentification": {
+      "definition": "Identificación de una operación de cesta."
+    },
+    "IndexIdentification": {
+      "definition": "Referencia que identifica una operación de índice."
+    },
+    "ListIdentification": {
+      "definition": "Identificador único de una lista, asignado por la parte negociadora. El identificador debe ser único dentro de una misma jornada de negociación."
+    },
+    "ProgramIdentification": {
+      "definition": "Referencia de programa que identifica una operación de programa."
+    },
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "IntraPositionMovementInstructionV07",
+  "definition": "Alcance|Un titular de cuenta envía un IntraPositionMovementInstruction a un administrador de cuentas para instruir el movimiento de valores dentro de su posición de un subsaldo a otro, por ejemplo, el bloqueo de valores.||La relación titular/administrador de la cuenta puede ser:|- un custodio global que tiene una cuenta con su agente local (subcustodio), o|- una entidad de gestión de inversiones que gestiona una cuenta de fondo abierta en un custodio, o|- un intermediario (broker) que tiene una cuenta con un custodio, o|- un participante de un depositario central de valores que tiene una cuenta con un depositario central de valores, o|- un depositario central de valores que tiene una cuenta con un custodio, otro depositario central de valores u otra infraestructura del mercado de liquidación.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo.|mediante los elementos pertinentes del Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la parte instructora."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

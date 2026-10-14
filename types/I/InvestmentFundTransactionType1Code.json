@@ -1,0 +1,94 @@
+{
+  "isoType": "InvestmentFundTransactionType1Code",
+  "definition": "Especifica el tipo de operación.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Todos",
+      "definition": "Todos los tipos de operaciones."
+    },
+    "SELL": {
+      "name": "Venta de valores",
+      "definition": "Venta de valores."
+    },
+    "BUYI": {
+      "name": "Compra de valores",
+      "definition": "Compra de valores."
+    },
+    "SWIO": {
+      "name": "Traspaso de salida",
+      "definition": "La operación es el tramo de suscripción de la ejecución de una orden de traspaso."
+    },
+    "TRIN": {
+      "name": "Transferencia entrante",
+      "definition": "La operación es un abono entrante en una cuenta del registro de accionistas y no está vinculada a un cambio de inversión (suscripción o traspaso), sino a la gestión de la cuenta."
+    },
+    "TOUT": {
+      "name": "Transferencia saliente",
+      "definition": "La operación es un adeudo en una cuenta del registro de accionistas y no está vinculada a un cambio de inversión (reembolso o traspaso), sino a la gestión de la cuenta."
+    },
+    "SUBS": {
+      "name": "Suscripción",
+      "definition": "La operación es una suscripción a un fondo de inversión."
+    },
+    "REDM": {
+      "name": "Reembolso",
+      "definition": "La operación es un reembolso de un fondo de inversión."
+    },
+    "CDEP": {
+      "name": "Depósito en efectivo",
+      "definition": "La operación es un depósito en efectivo."
+    },
+    "CWIT": {
+      "name": "Retirada de efectivo",
+      "definition": "La operación es una retirada de efectivo."
+    },
+    "DIVP": {
+      "name": "Pago de dividendo",
+      "definition": "La operación es el pago de dividendos y otros ingresos."
+    },
+    "CAEV": {
+      "name": "Evento de operación corporativa",
+      "definition": "La operación es el resultado de una operación corporativa."
+    },
+    "CROI": {
+      "name": "Entrada cruzada",
+      "definition": "La operación es un cruce de entrada."
+    },
+    "CROO": {
+      "name": "Salida cruzada",
+      "definition": "La operación es un cruce de salida."
+    },
+    "DIVI": {
+      "name": "Dividendo",
+      "definition": "La operación es un dividendo."
+    },
+    "INSP": {
+      "name": "En especie",
+      "definition": "La operación es una entrega en especie (InSpecie)."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "La operación es de otro tipo."
+    },
+    "REAA": {
+      "name": "Reembolso por asignación de activos",
+      "definition": "La operación es un reembolso en un plan de asignación de activos que permite a los inversores retirar, por porcentaje, un determinado importe en efectivo de varios subfondos de una misma estructura paraguas."
+    },
+    "RWPL": {
+      "name": "Reembolso de plan de retiradas",
+      "definition": "La operación es una retirada realizada por particulares en el marco de un plan estructurado para inversiones efectuadas en el pasado."
+    },
+    "RDIV": {
+      "name": "Reinversión de dividendo",
+      "definition": "La operación es una reinversión de dividendos."
+    },
+    "SSPL": {
+      "name": "Suscripción de plan de ahorro",
+      "definition": "La operación es una suscripción a un plan de ahorro, es decir, dinero apartado por particulares en el marco de un plan estructurado con una finalidad específica, por ejemplo, la jubilación."
+    },
+    "SUAA": {
+      "name": "Suscripción por asignación de activos",
+      "definition": "La operación es una suscripción en un plan de asignación de activos que permite a los inversores asignar, por porcentaje, un determinado importe en efectivo a varios subfondos de una misma estructura paraguas."
+    }
+  }
+}

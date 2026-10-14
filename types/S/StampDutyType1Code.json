@@ -1,0 +1,22 @@
+{
+  "isoType": "StampDutyType1Code",
+  "definition": "Especifica si es aplicable el impuesto de timbre.",
+  "isoCodes": {
+    "SDRU": {
+      "name": "Fuera del CSD",
+      "definition": "SDRT pagado fuera del CSD en un evento corporativo."
+    },
+    "SDRT": {
+      "name": "Pagado",
+      "definition": "SDRT pagado en otra operación."
+    },
+    "SDRN": {
+      "name": "No aplicable",
+      "definition": "Impuesto de timbre no aplicable."
+    },
+    "SDRQ": {
+      "name": "Exención",
+      "definition": "Exento, por cualquier otro motivo."
+    }
+  }
+}

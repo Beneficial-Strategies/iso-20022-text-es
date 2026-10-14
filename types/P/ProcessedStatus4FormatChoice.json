@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus4FormatChoice",
+  "definition": "Elección entre formatos para expresar el estado de tramitación de la solicitud de cancelación de la instrucción permanente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el estado de tramitación de la solicitud de cancelación de la instrucción permanente."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el estado de tramitación de la solicitud de cancelación de la instrucción permanente."
+    }
+  }
+}

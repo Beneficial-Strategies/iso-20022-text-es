@@ -1,0 +1,12 @@
+{
+  "isoType": "Adjustment5",
+  "definition": "Modificación del valor de bienes o servicios. Por ejemplo: bonificación, descuento, recargo.",
+  "isoElements": {
+    "Direction": {
+      "definition": "Especifica si el ajuste debe restarse o sumarse al importe total."
+    },
+    "Amount": {
+      "definition": "Especifica el importe monetario del ajuste."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "TransferInConfirmationV10",
+  "definition": "Ámbito|El mensaje TransferInConfirmation lo envía una parte ejecutante, por ejemplo, un agente de transferencias, a la parte instructora, por ejemplo, un gestor de inversiones o su representante autorizado, para confirmar la recepción de un instrumento financiero, libre de pago, en una fecha determinada, desde una parte especificada.|Este mensaje también puede utilizarse para confirmar la recepción de un instrumento financiero, libre de pago, de otra de las cuentas propias de la parte instructora o de un tercero.|Este mensaje también puede utilizarse como aviso, es decir, el mensaje se utiliza para proporcionar información de cuenta.|Uso|El mensaje TransferInConfirmation se utiliza para confirmar la recepción de un instrumento financiero, ya sea de otra cuenta propiedad de la parte instructora o de un tercero. La referencia de la confirmación de la transferencia se identifica en TransferConfirmationReference.|La referencia de la instrucción de transferencia original se especifica en TransferReference. La identificación del mensaje TransferInInstruction en el que se comunicó la instrucción de transferencia también puede citarse en RelatedReference.",
+  "isoElements": {
+    "Function": {
+      "definition": "Función de la transferencia de entrada, es decir, si el mensaje de transferencia de entrada se utiliza como confirmación o como aviso. La ausencia de Function indica que el mensaje es una confirmación."
+    },
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Puede estar presente TransferDetails/RequestedSettlementDate en una o varias apariciones de TransferDetails, o bien SettlementDetails/RequestedSettlementDate, pero no ambos."
+    },
+    "EffectiveSettlementDateRule": {
+      "definition": "Puede estar presente TransferDetails/EffectiveSettlementDate en una o varias apariciones de TransferDetails, o bien SettlementDetails/Effective Settlement Date, pero no ambos."
+    }
+  }
+}

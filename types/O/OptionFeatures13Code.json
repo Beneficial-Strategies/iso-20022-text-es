@@ -1,0 +1,66 @@
+{
+  "isoType": "OptionFeatures13Code",
+  "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria.",
+  "isoCodes": {
+    "ASVO": {
+      "name": "Opción de la entidad gestora de la cuenta",
+      "definition": "La opción la ofrece únicamente la entidad gestora de la cuenta."
+    },
+    "BOIS": {
+      "name": "Instrucción del titular real",
+      "definition": "Indica que el titular solo debe instruir a nivel de propietario beneficiario."
+    },
+    "COND": {
+      "name": "Condicional",
+      "definition": "Característica por la que el titular puede condicionar la aceptación de la opción."
+    },
+    "MAXC": {
+      "name": "Efectivo máximo",
+      "definition": "Opción de efectivo máximo, que puede estar sujeta a escalonamiento, por lo que puede recibirse una combinación de efectivo y valores como resultado."
+    },
+    "MAXS": {
+      "name": "Valores máximos",
+      "definition": "Opción de acciones máxima, que puede estar sujeta a escalonamiento, por lo que puede recibirse una combinación de valores y efectivo como resultado."
+    },
+    "NOSE": {
+      "name": "Servicio no ofrecido",
+      "definition": "Característica por la que el titular debe elegir directamente ante el agente del emisor (opción admitida únicamente por el emisor)."
+    },
+    "OPLF": {
+      "name": "Preferencia de lote impar",
+      "definition": "Oferta o canje con preferencia para lotes irregulares."
+    },
+    "CAOS": {
+      "name": "Aplicabilidad de la opción",
+      "definition": "La aplicabilidad de la opción no depende de la decisión del titular de la cuenta, sino de las condiciones definidas por el emisor, por ejemplo, en el caso de pagarés vinculados a acciones o de warrants."
+    },
+    "PINS": {
+      "name": "Invalidez de la instrucción anterior",
+      "definition": "Indica que las instrucciones enviadas previamente dejan de ser válidas. Solo es aplicable tras una ampliación del plazo del mercado."
+    },
+    "PROR": {
+      "name": "Prorrateo",
+      "definition": "Característica por la que la opción puede estar sujeta a prorrateo en caso, por ejemplo, de exceso de suscripción."
+    },
+    "VVPR": {
+      "name": "Retención reducida",
+      "definition": "Se aplica a la opción una tasa reducida de retención fiscal."
+    },
+    "QCAS": {
+      "name": "Instruir importe en efectivo",
+      "definition": "Característica por la que el titular solo debe instruir un importe en efectivo."
+    },
+    "SHAR": {
+      "name": "Número de accionista",
+      "definition": "Indica el uso de un número de referencia para identificar a un inversor o accionista ante el emisor o el proveedor de registro (por ejemplo, un código de asignación)."
+    },
+    "RGRS": {
+      "name": "Reinversión del dividendo bruto",
+      "definition": "El dividendo bruto se reinvierte."
+    },
+    "RNET": {
+      "name": "Reinversión del dividendo neto",
+      "definition": "La reinversión del dividendo se procesa neta de retención fiscal."
+    }
+  }
+}

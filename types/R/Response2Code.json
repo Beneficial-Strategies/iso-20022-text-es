@@ -1,0 +1,14 @@
+{
+  "isoType": "Response2Code",
+  "definition": "Respuesta a una solicitud de servicio.",
+  "isoCodes": {
+    "APPR": {
+      "name": "Aprobado",
+      "definition": "El servicio se ha prestado correctamente."
+    },
+    "DECL": {
+      "name": "Denegado",
+      "definition": "El servicio es denegado."
+    }
+  }
+}

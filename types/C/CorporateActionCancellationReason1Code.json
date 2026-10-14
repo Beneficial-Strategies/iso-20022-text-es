@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionCancellationReason1Code",
+  "definition": "Especifica los motivos de cancelación de un evento de operación corporativa.",
+  "isoCodes": {
+    "WITH": {
+      "name": "Retirada",
+      "definition": "Cancelación debida a que el emisor ha cancelado el evento de operación corporativa."
+    },
+    "PROC": {
+      "name": "Tramitación",
+      "definition": "Cancelación debida a un error de tratamiento."
+    }
+  }
+}

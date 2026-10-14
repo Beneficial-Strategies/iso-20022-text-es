@@ -1,0 +1,4 @@
+{
+  "isoType": "ActiveOrHistoricCurrencyAnd13DecimalAmount",
+  "definition": "Número de unidades monetarias especificadas en una divisa activa o histórica, en la que la unidad de divisa es explícita y conforme a ISO 4217. El número de decimales (o unidad menor de la divisa) no se verifica según ISO 4217: debe ser menor o igual que 13.|Nota: el separador decimal es un punto."
+}

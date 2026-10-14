@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformationReturnCriteria1",
+  "definition": "Define los criterios utilizados para informar sobre la información comercial.",
+  "isoElements": {
+    "QualifierIndicator": {
+      "definition": "Indica si se solicita el calificador."
+    },
+    "SubjectIndicator": {
+      "definition": "Indica si se solicita el asunto."
+    },
+    "SubjectDetailsIndicator": {
+      "definition": "Indica si se solicitan los detalles del asunto."
+    }
+  }
+}

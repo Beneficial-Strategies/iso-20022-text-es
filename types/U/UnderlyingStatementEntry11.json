@@ -1,0 +1,32 @@
+{
+  "isoType": "UnderlyingStatementEntry11",
+  "definition": "Proporciona más detalles sobre el apunte de extracto subyacente al que se refiere el mensaje de investigación.",
+  "isoElements": {
+    "OriginalAccount": {
+      "definition": "Proporciona detalles de la cuenta para la cual se generó el extracto original."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Proporciona información sobre el mensaje original."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Identificación única, asignada por la entidad administradora de la cuenta, para identificar inequívocamente el extracto original."
+    },
+    "OriginalEntryReference": {
+      "definition": "Referencia única original, asignada por la entidad administradora de la cuenta, para identificar inequívocamente el apunte original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal que proporciona la referencia de extremo a extremo original de una operación de pago."
+    },
+    "OriginalEntryAmount": {
+      "definition": "Importe de dinero del apunte de efectivo."
+    },
+    "OriginalEntryValueDate": {
+      "definition": "Fecha y hora en que los fondos pasan a estar disponibles para el titular de la cuenta en el caso de un apunte de crédito, o dejan de estar disponibles para el titular de la cuenta en el caso de un apunte de débito.|Uso: Si el estado del apunte es pendiente y está presente la fecha valor, esta se refiere a una fecha valor esperada o solicitada.|En los apuntes sujetos a disponibilidad o flotante y para los que se proporciona información de disponibilidad, no debe utilizarse la fecha valor. En este caso, el componente de disponibilidad identifica el número de días de disponibilidad."
+    }
+  },
+  "isoRules": {
+    "OriginalStatementIdentificationOrEntryReferencePresenceRule": {
+      "definition": "Debe estar presente OriginalStatementIdentification u OriginalEntryReference; pueden estar presentes ambos."
+    }
+  }
+}

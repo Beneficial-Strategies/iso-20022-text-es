@@ -1,0 +1,14 @@
+{
+  "isoType": "InterestType1Code",
+  "definition": "Indica qué tipo de interés se aplica a un saldo que permanece en una cuenta.",
+  "isoCodes": {
+    "INDY": {
+      "name": "Intradía",
+      "definition": "Durante un día hábil o dentro de él."
+    },
+    "OVRN": {
+      "name": "Overnight",
+      "definition": "Período comprendido entre el final de un día hábil y el comienzo del siguiente día hábil (normalmente el día posterior)."
+    }
+  }
+}

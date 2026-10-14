@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateReportOrError4Choice",
+  "definition": "Informa sobre el cambio de divisas o sobre un error de negocio.",
+  "isoElements": {
+    "BusinessError": {
+      "definition": "Motivo por el que no se facilita la información de negocio solicitada."
+    },
+    "CurrencyExchange": {
+      "definition": "Información de negocio solicitada."
+    }
+  }
+}

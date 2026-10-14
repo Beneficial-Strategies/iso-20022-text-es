@@ -1,0 +1,18 @@
+{
+  "isoType": "CommunicationAddress8",
+  "definition": "Número del dispositivo de comunicación o dirección electrónica utilizados para la comunicación.",
+  "isoElements": {
+    "PostalAddress": {
+      "definition": "Información que localiza e identifica una dirección concreta, tal como la definen los servicios postales."
+    },
+    "PhoneNumber": {
+      "definition": "Conjunto de información que identifica un número de teléfono, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "FaxNumber": {
+      "definition": "Conjunto de información que identifica un número de FAX, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "EmailAddress": {
+      "definition": "Dirección de correo electrónico."
+    }
+  }
+}

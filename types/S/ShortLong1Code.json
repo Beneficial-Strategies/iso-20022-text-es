@@ -1,0 +1,14 @@
+{
+  "isoType": "ShortLong1Code",
+  "definition": "Especifica si la posición de valores es corta o larga, es decir, si el saldo es negativo o positivo.",
+  "isoCodes": {
+    "SHOR": {
+      "name": "Corta",
+      "definition": "La posición es corta, es decir, el saldo es negativo."
+    },
+    "LONG": {
+      "name": "Larga",
+      "definition": "La posición es larga, es decir, el saldo es positivo."
+    }
+  }
+}

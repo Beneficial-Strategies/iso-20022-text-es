@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReportOrError7Choice",
+  "definition": "Se utiliza para proporcionar información sobre las operaciones y los asientos contabilizados que mantiene el administrador de operaciones.",
+  "isoElements": {
+    "Report": {
+      "definition": "Proporciona los detalles del miembro solicitado."
+    },
+    "OperationalError": {
+      "definition": "Indica que se ha emitido un error operativo durante el procesamiento de la solicitud relacionada."
+    }
+  }
+}

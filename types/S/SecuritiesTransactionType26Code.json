@@ -1,0 +1,182 @@
+{
+  "isoType": "SecuritiesTransactionType26Code",
+  "definition": "Especifica información subyacente sobre el tipo de operación de liquidación.",
+  "isoCodes": {
+    "BSBK": {
+      "name": "Compra-reventa",
+      "definition": "Se refiere a una operación de compra con pacto de reventa (buy sell back)."
+    },
+    "COLI": {
+      "name": "Garantía recibida",
+      "definition": "Se refiere a una operación de garantía, desde el punto de vista del receptor de la garantía o de su entidad."
+    },
+    "COLO": {
+      "name": "Garantía entregada",
+      "definition": "Se refiere a una operación de garantía, desde el punto de vista del otorgante de la garantía o de su entidad."
+    },
+    "MKDW": {
+      "name": "Reducción de precio",
+      "definition": "Se refiere a la disminución de las posiciones mantenidas por un depositario central internacional de valores (ICSD) en el depositario común debido a operaciones de custodia (recompra, prelibración, productos de eventos societarios realineados)."
+    },
+    "MKUP": {
+      "name": "Aumento de precio",
+      "definition": "Se refiere al aumento de las posiciones mantenidas por un depositario central internacional de valores (ICSD) en el depositario común debido a operaciones de custodia (recompra, prelibración, productos de eventos societarios realineados)."
+    },
+    "NETT": {
+      "name": "Compensación por saldos netos",
+      "definition": "Se refiere a la compensación por neteo de instrucciones de liquidación."
+    },
+    "NSYN": {
+      "name": "No sindicado",
+      "definition": "Se refiere a la emisión de papel a medio y corto plazo (CP, CD, MTN, pagarés) en el marco de un programa y sin acuerdo de sindicación."
+    },
+    "PAIR": {
+      "name": "Cruce de posiciones",
+      "definition": "Se refiere a una compensación cruzada (pair-off): la operación se empareja y se netea contra una o más operaciones anteriores."
+    },
+    "PLAC": {
+      "name": "Colocación",
+      "definition": "Se refiere a la colocación o nueva emisión de un instrumento financiero."
+    },
+    "PORT": {
+      "name": "Traspaso de cartera",
+      "definition": "Se refiere al traspaso de una cartera de un gestor de inversiones a otro y/o de una entidad depositaria a otra. Generalmente se cobra de forma distinta a otra transferencia de cuenta, de ahí la necesidad de identificar este tipo de transferencia como tal."
+    },
+    "REAL": {
+      "name": "Realineación",
+      "definition": "Se refiere a un realineamiento de posiciones."
+    },
+    "REDM": {
+      "name": "Reembolso",
+      "definition": "Se refiere a un reembolso de fondos (solo en el sector de fondos)."
+    },
+    "REPU": {
+      "name": "Repo",
+      "definition": "Se refiere a una operación de pacto de recompra."
+    },
+    "RODE": {
+      "name": "Devolución de entrega sin casamiento",
+      "definition": "Se refiere a la devolución de instrumentos financieros resultante de una entrega rechazada sin una operación coincidente."
+    },
+    "RVPO": {
+      "name": "Acuerdo de recompra inversa",
+      "definition": "Se refiere a una operación de pacto de recompra inversa."
+    },
+    "SECB": {
+      "name": "Toma en préstamo de valores",
+      "definition": "Se refiere a una operación de toma de valores en préstamo."
+    },
+    "SECL": {
+      "name": "Préstamo de valores",
+      "definition": "Se refiere a una operación de préstamo de valores."
+    },
+    "SUBS": {
+      "name": "Suscripción",
+      "definition": "Se refiere a una suscripción de fondos (solo en el sector de fondos)."
+    },
+    "SYND": {
+      "name": "Aseguradores del sindicato",
+      "definition": "Se refiere a la emisión de instrumentos financieros mediante un sindicato de aseguradores y una entidad directora."
+    },
+    "TBAC": {
+      "name": "Cierre de TBA",
+      "definition": "Se refiere a una operación de cierre To Be Announced (TBA)."
+    },
+    "TRAD": {
+      "name": "Operación bursátil",
+      "definition": "Se refiere a la liquidación de una operación."
+    },
+    "TRPO": {
+      "name": "Repo tripartito",
+      "definition": "Se refiere a un pacto de recompra tripartito."
+    },
+    "TRVO": {
+      "name": "Repo inverso tripartito",
+      "definition": "Se refiere a un pacto de recompra inversa tripartito."
+    },
+    "TURN": {
+      "name": "Operación de ida y vuelta",
+      "definition": "Se refiere a una operación de turnaround: el mismo valor se compra y se vende para liquidarse el mismo día, a o de distintos brókeres."
+    },
+    "BYIY": {
+      "name": "Compra forzosa",
+      "definition": "Se refiere a una compra forzosa (buy-in) por el mercado tras un fallo en la entrega de una operación."
+    },
+    "CNCB": {
+      "name": "Operación de garantías del banco central",
+      "definition": "Se refiere a una entrega o recepción de garantías a un banco central nacional para operaciones de crédito del banco central."
+    },
+    "OWNE": {
+      "name": "Traspaso a cuenta externa",
+      "definition": "Se refiere a una transferencia de cuenta en la que intervienen más de una parte instructora (emisor del mensaje) y/o entidad depositaria (receptor de los mensajes)."
+    },
+    "FCTA": {
+      "name": "Actualización del factor",
+      "definition": "Se refiere a una actualización de factor."
+    },
+    "OWNI": {
+      "name": "Traspaso a cuenta interna",
+      "definition": "Se refiere a una transferencia de cuenta en la que interviene una parte instructora (emisor del mensaje) ante una entidad depositaria (receptor de los mensajes)."
+    },
+    "RELE": {
+      "name": "Liberación o cancelación de certificados de depósito",
+      "definition": "Se refiere a una operación de liberación (hacia o desde el mercado local) de certificados de depósito."
+    },
+    "SBRE": {
+      "name": "Reasignación de toma en préstamo",
+      "definition": "Reasignación interna de una posición tomada en préstamo de una cuenta de custodia a otra."
+    },
+    "CORP": {
+      "name": "Operación corporativa",
+      "definition": "Se refiere a una operación societaria."
+    },
+    "CLAI": {
+      "name": "Reclamación de mercado",
+      "definition": "Se refiere a una reclamación de mercado."
+    },
+    "AUTO": {
+      "name": "Autocolateralización",
+      "definition": "Se refiere a un movimiento de autocolateralización."
+    },
+    "SWIF": {
+      "name": "Traspaso desde",
+      "definition": "La operación es un cambio de una inversión de un subfondo a otro subfondo (tramo de reembolso)."
+    },
+    "SWIT": {
+      "name": "Traspaso hacia",
+      "definition": "La operación es un cambio de una inversión de un subfondo a otro subfondo (tramo de suscripción)."
+    },
+    "CONV": {
+      "name": "Conversión de certificados de depósito",
+      "definition": "Se refiere a una conversión de certificados de depósito."
+    },
+    "ETFT": {
+      "name": "Fondos cotizados en bolsa",
+      "definition": "Se refiere a una creación o reembolso de ETF."
+    },
+    "ISSU": {
+      "name": "Emisión",
+      "definition": "Se refiere a la emisión de un valor, como una acción o un certificado de depósito."
+    },
+    "SLRE": {
+      "name": "Reasignación de préstamo",
+      "definition": "Reasignación interna de una posición prestada de una cuenta de custodia a otra."
+    },
+    "INSP": {
+      "name": "Traspaso de valores",
+      "definition": "Se refiere a un movimiento de acciones hacia o desde una cuenta agrupada."
+    },
+    "SBBK": {
+      "name": "Venta-recompra",
+      "definition": "Se refiere a una operación de venta con pacto de recompra (sell buy back)."
+    },
+    "REDI": {
+      "name": "Retirada",
+      "definition": "Se refiere a la retirada de importes especificados de subcuentas especificadas."
+    },
+    "REBL": {
+      "name": "Reequilibrio",
+      "definition": "Se refiere a una operación reequilibrada."
+    }
+  }
+}

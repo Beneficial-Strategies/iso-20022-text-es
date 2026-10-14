@@ -1,0 +1,21 @@
+{
+  "isoType": "CreditorPaymentActivationRequestStatusReportV12",
+  "definition": "El mensaje CreditorPaymentActivationRequestStatusReport lo envía una parte a la siguiente parte de la cadena de solicitud de activación de pago del beneficiario. Se utiliza para informar a esta última del estado positivo o negativo de una solicitud de activación de pago del beneficiario (ya sea individual o de fichero).",
+  "isoRules": {
+    "GroupStatusAcceptedRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus está presente y es igual a ACTC (AcceptedTechnicalValidation), ACCP (AcceptedCustomerProfile), ACSP (AcceptedSettlementInProcess), ACSC (AcceptedSettlementCompleted) o ACWC (AcceptedWithChange), entonces OriginalPaymentInformationAndStatus/PaymentInformationStatus debe ser distinto de RJCT (Rejected)."
+    },
+    "GroupStatusPendingRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus está presente y es igual a PDNG (Pending), entonces OriginalPaymentInformationAndStatus/PaymentInformationStatus debe ser distinto de RJCT (Rejected)."
+    },
+    "GroupStatusRejectedRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus está presente y es igual a RJCT (Rejected), entonces OriginalPaymentInformationAndStatus/PaymentInformationStatus, si está presente, debe ser igual a RJCT (Rejected)."
+    },
+    "GroupStatusReceivedRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus está presente y es igual a RCVD (Received), entonces OriginalPaymentInformationAndStatus/PaymentInformationStatus no está permitido."
+    },
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

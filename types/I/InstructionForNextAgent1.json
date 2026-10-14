@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForNextAgent1",
+  "definition": "Información adicional relativa al tratamiento de la instrucción de pago sobre la que otra entidad puede tener que actuar. La instrucción puede referirse a un nivel de servicio, puede ser una instrucción que debe ejecutar la entidad del beneficiario o puede ser información que necesita la otra entidad.",
+  "isoElements": {
+    "Code": {
+      "definition": "Información codificada relativa al tratamiento de la instrucción de pago, facilitada por la parte iniciadora y destinada a la entidad siguiente de la cadena de pago."
+    },
+    "InstructionInformation": {
+      "definition": "Información adicional que complementa la instrucción codificada o la instrucción a la entidad siguiente, acordada bilateralmente o específica de una comunidad de usuarios."
+    }
+  }
+}

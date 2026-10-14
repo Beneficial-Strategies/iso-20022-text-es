@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMSecurityContext3",
+  "definition": "Contexto del cajero automático (ATM) para la descarga de claves.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "definition": "Esquema de seguridad de intercambio de claves activado en el cajero automático (ATM) para el gestor del host."
+    },
+    "DeviceProperty": {
+      "definition": "Información del módulo de seguridad de hardware, denominado EPP (Encrypted PIN Pad, teclado cifrado de PIN)."
+    },
+    "CurrentConfiguration": {
+      "definition": "Parámetros de configuración utilizados por el dispositivo de seguridad."
+    }
+  }
+}

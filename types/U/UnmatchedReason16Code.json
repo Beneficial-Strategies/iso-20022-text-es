@@ -1,0 +1,54 @@
+{
+  "isoType": "UnmatchedReason16Code",
+  "definition": "Especifica el motivo por el que la operación, transferencia o instrucción de liquidación no está casada.",
+  "isoCodes": {
+    "NCRR": {
+      "name": "Importe de liquidación en divisa",
+      "definition": "La divisa del importe de liquidación no coincide."
+    },
+    "DSEC": {
+      "name": "Instrumento financiero",
+      "definition": "La identificación del instrumento financiero no coincide, por ejemplo, el ISIN o los atributos del instrumento financiero difieren."
+    },
+    "DQUA": {
+      "name": "Cantidad de instrumento financiero",
+      "definition": "La cantidad de instrumentos financieros no coincide."
+    },
+    "CMIS": {
+      "name": "Sin coincidencia",
+      "definition": "No se ha encontrado una instrucción coincidente de su contraparte."
+    },
+    "DEPT": {
+      "name": "Depositario receptor o entregador",
+      "definition": "El depositario no coincide."
+    },
+    "ICAG": {
+      "name": "Parte receptora o entregadora 1",
+      "definition": "El participante del depositario que entrega o recibe no coincide."
+    },
+    "ICUS": {
+      "name": "Parte receptora o entregadora 2",
+      "definition": "El cliente de la parte que entrega o recibe 1 no coincide."
+    },
+    "IEXE": {
+      "name": "Parte receptora o entregadora 3",
+      "definition": "El cliente de la parte que entrega o recibe 2 no coincide."
+    },
+    "DMON": {
+      "name": "Importe de liquidación",
+      "definition": "El importe de liquidación no coincide."
+    },
+    "DDAT": {
+      "name": "Fecha de liquidación",
+      "definition": "La fecha/hora de liquidación no coincide."
+    },
+    "DTRD": {
+      "name": "Fecha de negociación",
+      "definition": "La fecha de contratación no coincide."
+    },
+    "DELN": {
+      "name": "Sentido de la operación",
+      "definition": "La dirección de la operación no coincide. La contraparte espera una entrega de su parte, no una recepción, o viceversa."
+    }
+  }
+}

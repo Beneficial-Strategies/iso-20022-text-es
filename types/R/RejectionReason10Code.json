@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason10Code",
+  "definition": "Especifica el motivo del rechazo de una solicitud de cancelación de instrucción permanente.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    }
+  }
+}

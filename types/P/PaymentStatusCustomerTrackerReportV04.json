@@ -1,0 +1,4 @@
+{
+  "isoType": "PaymentStatusCustomerTrackerReportV04",
+  "definition": "El mensaje PaymentStatusCustomerTrackerReport lo envía un servicio de seguimiento o cualquier parte autorizada a las partes pertinentes que intervienen en la operación comercial para informar sobre el avance de una o varias operaciones comerciales y obtener transparencia sobre el estado."
+}

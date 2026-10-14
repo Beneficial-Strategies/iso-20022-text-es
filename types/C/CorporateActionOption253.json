@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionOption253",
+  "definition": "Proporciona información sobre la opción de operación societaria.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo."
+    },
+    "CurrencyOption": {
+      "definition": "Divisa en la que se abonará o adeudará el producto en efectivo."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con una opción de operación societaria."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Proporciona información sobre los tipos e importes relacionados con una opción de operación societaria."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con una opción de operación societaria."
+    },
+    "PlaceOfTrade": {
+      "definition": "Lugar donde se ejecutó la operación."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de valores vinculado a la opción de operación societaria."
+    },
+    "CashMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de efectivo relacionado con una opción de operación corporativa."
+    }
+  }
+}

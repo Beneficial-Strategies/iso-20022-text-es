@@ -1,0 +1,66 @@
+{
+  "isoType": "LimitType3Code",
+  "definition": "Especifica el tipo de límite de gestión de riesgos.",
+  "isoCodes": {
+    "MULT": {
+      "name": "Multilateral",
+      "definition": "El límite es un importe máximo aplicado a un participante, o por este, respecto de un conjunto de contrapartes. El administrador de operaciones tiene en cuenta el límite multilateral para contener el riesgo en el sistema. Con ayuda del límite multilateral, el participante directo restringe el uso de liquidez al compensar pagos con todos los demás participantes directos para los que no se haya fijado un límite bilateral."
+    },
+    "BILI": {
+      "name": "Bilateral",
+      "definition": "El límite lo aplica una parte a una contraparte específica y corresponde al importe máximo de tráfico que la parte que fija el límite puede enviar a dicha contraparte. El límite puede expresarse como límite de adeudo o de abono. Con ayuda del límite bilateral, el participante directo restringe el uso de liquidez al compensar pagos con otro participante directo."
+    },
+    "MAND": {
+      "name": "Bilateral obligatorio",
+      "definition": "Parte obligatoria del límite bilateral aplicado por una parte a una contraparte específica, que corresponde al importe máximo de tráfico que la parte que fija el límite puede enviar a dicha contraparte. El límite puede expresarse como límite de adeudo o de abono. Con ayuda del límite bilateral, el participante directo restringe el uso de liquidez al compensar pagos con otro participante directo."
+    },
+    "DISC": {
+      "name": "Bilateral discrecional",
+      "definition": "Parte discrecional del límite bilateral aplicado por una parte a una contraparte específica, que corresponde al importe máximo de tráfico que la parte que fija el límite puede enviar a dicha contraparte. El límite puede expresarse como límite de adeudo o de abono. Con ayuda del límite bilateral, el participante directo restringe el uso de liquidez al compensar pagos con otro participante directo."
+    },
+    "NELI": {
+      "name": "Bilateral neto",
+      "definition": "El límite lo aplica una parte a una contraparte específica y corresponde al saldo neto máximo aceptable para la parte que fija el límite. El límite se calcula como la suma aritmética en valor de los flujos bilaterales intercambiados entre las dos partes. El límite bilateral neto puede expresarse como saldo deudor o acreedor."
+    },
+    "INBI": {
+      "name": "Bilateral indirecto",
+      "definition": "El límite es un valor máximo fijado por un participante directo respecto de su participante indirecto. Representa el importe máximo que el participante indirecto puede utilizar para liquidar sus operaciones."
+    },
+    "GLBL": {
+      "name": "Global",
+      "definition": "Valor máximo fijado por el administrador de operaciones o por un miembro para la participación de un miembro en el sistema. El límite global puede expresarse como valor máximo de abono o de adeudo y el administrador de operaciones lo tiene en cuenta al procesar operaciones dentro del sistema. Con ayuda del límite global, el participante directo puede limitar el uso de liquidez al compensar tipos específicos de pagos."
+    },
+    "DIDB": {
+      "name": "Adeudo directo",
+      "definition": "Límite que no debe superarse para las operaciones de adeudo directo."
+    },
+    "SPLC": {
+      "name": "Adeudo directo individual de cliente",
+      "definition": "Límite de pago individual por adeudo directo que no debe superar ninguna operación de adeudo directo de un cliente."
+    },
+    "SPLF": {
+      "name": "Adeudo directo individual de entidad financiera",
+      "definition": "Límite de pago individual por adeudo directo que no debe superar ninguna operación de adeudo directo iniciada por una entidad financiera."
+    },
+    "TDLC": {
+      "name": "Total diario de adeudos directos de clientes",
+      "definition": "Límite diario total de pagos por adeudos directos de clientes que no debe superar el total de todas las operaciones de adeudo directo iniciadas por clientes."
+    },
+    "TDLF": {
+      "name": "Total diario de adeudos directos de entidades financieras",
+      "definition": "Límite diario total de pagos por adeudos directos de entidades financieras que no debe superar el total de todas las operaciones de adeudo directo iniciadas por entidades financieras."
+    },
+    "UCDT": {
+      "name": "Crédito sin garantía",
+      "definition": "El límite está relacionado con un importe máximo concedido por un banco central nacional o un banco de liquidación, pero generalmente sin garantía fuera de la infraestructura del mercado."
+    },
+    "ACOL": {
+      "name": "Autocolateralización",
+      "definition": "El límite está relacionado con una operación de crédito que se activa, o puede activarse, cuando un comprador no dispone de fondos suficientes para liquidar una operación de valores, con el fin de mejorar su posición de efectivo para el siguiente ciclo de liquidación. El crédito concedido puede garantizarse con valores que el comprador ya posee (“garantías en cartera”) o con los valores que se están adquiriendo (“garantías de flujo”)."
+    },
+    "EXGT": {
+      "name": "Garantía externa",
+      "definition": "El límite está relacionado con un importe máximo concedido por un banco central nacional o un banco de liquidación."
+    }
+  }
+}

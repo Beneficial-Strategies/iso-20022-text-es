@@ -1,0 +1,18 @@
+{
+  "isoType": "AlternatePartyIdentification12",
+  "definition": "Identificación alternativa de una parte mediante un tipo de identificación, un código de país y un campo de texto.",
+  "isoElements": {
+    "IdentificationType": {
+      "definition": "Especifica el tipo de identificación alternativa de la parte identificada."
+    },
+    "Country": {
+      "definition": "País en el que reside una persona (el lugar de su domicilio). En el caso de una empresa, es el país desde el que se dirigen los asuntos de dicha empresa."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificación alternativa de una parte."
+    },
+    "LEI": {
+      "definition": "Identificación de entidad jurídica de la parte."
+    }
+  }
+}

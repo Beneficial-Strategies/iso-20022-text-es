@@ -1,0 +1,18 @@
+{
+  "isoType": "UserInterface5Code",
+  "definition": "Destino del mensaje.",
+  "isoCodes": {
+    "CDSP": {
+      "name": "Pantalla del titular",
+      "definition": "Pantalla o interfaz del titular de la tarjeta."
+    },
+    "CRCP": {
+      "name": "Recibo del titular",
+      "definition": "Recibo del titular de la tarjeta."
+    },
+    "CRDO": {
+      "name": "Otra interfaz del titular",
+      "definition": "Otra interfaz del titular, por ejemplo correo electrónico o mensaje al smartphone."
+    }
+  }
+}

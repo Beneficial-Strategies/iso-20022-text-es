@@ -1,0 +1,36 @@
+{
+  "isoType": "OriginalItemReference8",
+  "definition": "Proporciona medios adicionales de referencia de una operación de pago.",
+  "isoElements": {
+    "Account": {
+      "definition": "Identifica la cuenta que se va a abonar con el importe de dinero entrante."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta en nombre del titular de la cuenta, es decir, gestiona el registro y la contabilización de los apuntes en la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "RelatedAccount": {
+      "definition": "Identifica la cuenta principal de la cuenta que se va a abonar con el importe de dinero entrante."
+    },
+    "Debtor": {
+      "definition": "Parte que debe un importe de dinero al beneficiario (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "IntermediaryAgent": {
+      "definition": "Procesos de pago necesarios para transferir efectivo del ordenante al beneficiario."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Proporciona información relativa al tratamiento de la información de remesa por cualquiera de las entidades de la cadena de procesamiento de la operación."
+    },
+    "RemittanceInformation": {
+      "definition": "Información estructurada que permite la correspondencia, es decir, la conciliación, de un pago con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    }
+  }
+}

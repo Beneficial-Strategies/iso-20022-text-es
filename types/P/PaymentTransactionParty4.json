@@ -1,0 +1,45 @@
+{
+  "isoType": "PaymentTransactionParty4",
+  "definition": "Define los campos de las partes utilizados para buscar un pago.",
+  "isoElements": {
+    "InstructingAgent": {
+      "definition": "Entidad que da instrucciones a la siguiente parte de la cadena para que lleve a cabo la instrucción o el conjunto de instrucciones."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena da instrucciones para que lleve a cabo la instrucción o el conjunto de instrucciones."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe un importe de dinero al beneficiario (final)."
+    },
+    "Debtor": {
+      "definition": "Parte que debe activos al beneficiario, por ejemplo como resultado de la recepción de bienes o servicios, donaciones o pagos benéficos. El ordenante también puede ser el titular de la cuenta de adeudo."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que recibe la operación de pago del titular de la cuenta, u otra parte autorizada, y procesa la instrucción."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Especifica la entidad a través de la cual la entidad instructora reembolsará a la entidad instruida."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Entidad en la que se reembolsará a la entidad instruida."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si hay más de una entidad intermediaria, IntermediaryAgent1 identifica la entidad situada entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si hay más de dos entidades intermediarias, IntermediaryAgent2 identifica la entidad situada entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si IntermediaryAgent3 está presente, identifica la entidad situada entre IntermediaryAgent 2 y CreditorAgent."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que recibe la operación de pago en nombre de un titular de cuenta, u otra parte designada, y abona la cuenta."
+    },
+    "Creditor": {
+      "definition": "Parte que recibe un importe de dinero del ordenante. En el contexto del modelo de pagos, el beneficiario es también el titular de la cuenta de abono."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe de dinero."
+    }
+  }
+}

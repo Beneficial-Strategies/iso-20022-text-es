@@ -1,0 +1,12 @@
+{
+  "isoType": "DistributionTypeFormat7Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de distribución.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar si el producto del evento se distribuirá de forma continua en lugar de en una fecha específica."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de distribución."
+    }
+  }
+}

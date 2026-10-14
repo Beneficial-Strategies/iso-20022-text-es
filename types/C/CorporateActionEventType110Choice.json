@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionEventType110Choice",
+  "definition": "Elección del formato del motivo de reparación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de evento de operación societaria expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de evento de operación societaria expresado como código propietario."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "El uso de un código específico de tipo de evento de operación societaria solo se permite si dicho evento genera un movimiento de valores según la Event Interpretation Grid publicada por el Securities Market Practice Group (SMPG).|El código indicador de evento de operación societaria OTHR solo debe utilizarse si ningún otro código de evento de operación societaria resulta apropiado.|El código indicador de evento de operación societaria CHAN solo debe utilizarse si ningún otro código de evento de operación societaria resulta apropiado y únicamente para un evento relativo a un cambio.|El código indicador de evento de operación societaria REDM solo debe utilizarse cuando la amortización la decide el emisor y no los titulares."
+    }
+  }
+}

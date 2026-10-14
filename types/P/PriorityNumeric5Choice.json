@@ -1,0 +1,12 @@
+{
+  "isoType": "PriorityNumeric5Choice",
+  "definition": "Elección del formato de la prioridad.",
+  "isoElements": {
+    "Numeric": {
+      "definition": "Especifica la prioridad de ejecución de la instrucción mediante un número entre 0001 y 9999."
+    },
+    "Proprietary": {
+      "definition": "Especifica la prioridad de ejecución de la instrucción mediante un esquema propio."
+    }
+  }
+}

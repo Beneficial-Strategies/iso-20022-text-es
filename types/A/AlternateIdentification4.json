@@ -1,0 +1,24 @@
+{
+  "isoType": "AlternateIdentification4",
+  "definition": "Información relativa a la identificación de una persona física.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Nombre o número asignado por una entidad para permitir su reconocimiento, por ejemplo, un identificador de cuenta."
+    },
+    "Type": {
+      "definition": "Especifica la naturaleza de la identificación."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna el identificador."
+    },
+    "IssueDate": {
+      "definition": "Fecha en que se emitió la identificación."
+    },
+    "ExpiryDate": {
+      "definition": "Fecha en que vence la identificación."
+    },
+    "IssuerCountry": {
+      "definition": "País que emitió el documento de identificación."
+    }
+  }
+}

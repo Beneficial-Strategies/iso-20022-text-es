@@ -1,0 +1,14 @@
+{
+  "isoType": "ATMActionType1Code",
+  "definition": "Tipo de acción que puede ejecutarse sobre una configuración.",
+  "isoCodes": {
+    "APLY": {
+      "name": "Aplicar",
+      "definition": "Debe aplicarse la configuración recibida."
+    },
+    "NONE": {
+      "name": "Ninguna",
+      "definition": "No se requiere ninguna acción específica con la configuración recibida."
+    }
+  }
+}

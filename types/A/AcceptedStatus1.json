@@ -1,0 +1,9 @@
+{
+  "isoType": "AcceptedStatus1",
+  "definition": "Elección entre un motivo o ningún motivo para el estado aceptado del procesamiento de la instrucción de operación societaria.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo no especificado."
+    }
+  }
+}

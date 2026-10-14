@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMStatus3Code",
+  "definition": "Estado actual de la clave.",
+  "isoCodes": {
+    "OPER": {
+      "name": "En funcionamiento",
+      "definition": "El componente está activado y en funcionamiento."
+    },
+    "STOP": {
+      "name": "Detenido",
+      "definition": "El componente se ha detenido."
+    },
+    "WACT": {
+      "name": "En espera de activación",
+      "definition": "El componente se ha cargado, pero aún no se ha activado."
+    }
+  }
+}

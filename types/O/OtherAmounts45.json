@@ -1,0 +1,84 @@
+{
+  "isoType": "OtherAmounts45",
+  "definition": "Identifica otros importes relativos a la operación.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    },
+    "ChargesFees": {
+      "definition": "Importe de dinero pagado por la prestación de servicios financieros que no puede clasificarse con otro calificador."
+    },
+    "CountryNationalFederalTax": {
+      "definition": "Importe del impuesto nacional, estatal o federal aplicado por la jurisdicción en la que se encuentra la entidad gestora de la cuenta."
+    },
+    "TradeAmount": {
+      "definition": "Importe principal de una operación (precio multiplicado por cantidad)."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Importe de dinero pagado a un corredor ejecutor como comisión."
+    },
+    "IssueDiscountAllowance": {
+      "definition": "Importe de dinero definido como descuento sobre una nueva emisión o sobre un tramo de una emisión existente."
+    },
+    "PaymentLevyTax": {
+      "definition": "Importe del impuesto sobre el pago."
+    },
+    "LocalTax": {
+      "definition": "Impuesto aplicado por la jurisdicción en la que se liquida el instrumento financiero."
+    },
+    "LocalTaxCountrySpecific": {
+      "definition": "Impuesto local específico del país."
+    },
+    "LocalBrokerCommission": {
+      "definition": "Importe de la comisión pagada a un corredor local."
+    },
+    "Margin": {
+      "definition": "Importe de dinero depositado por la parte negociadora en una cuenta de margen."
+    },
+    "Other": {
+      "definition": "Importe que no se indica mediante una denominación comercial conocida."
+    },
+    "RegulatoryAmount": {
+      "definition": "Importe de dinero cobrado por una autoridad reguladora, por ejemplo, tasas de la Securities and Exchange."
+    },
+    "ShippingAmount": {
+      "definition": "Todos los costes relacionados con la entrega física de documentos, tales como timbres, franqueo, tarifas de transporte, seguros o servicios de mensajería."
+    },
+    "SpecialConcession": {
+      "definition": "Importe de disposición u otra reducción respecto del precio de la operación, o adicional a este."
+    },
+    "StampDuty": {
+      "definition": "Importe del impuesto de timbre."
+    },
+    "StockExchangeTax": {
+      "definition": "Importe del impuesto de bolsa."
+    },
+    "TransferTax": {
+      "definition": "Importe del impuesto aplicado a una transmisión de la propiedad de un instrumento financiero."
+    },
+    "TransactionTax": {
+      "definition": "Importe del impuesto sobre la operación."
+    },
+    "ValueAddedTax": {
+      "definition": "Importe del impuesto sobre el valor añadido."
+    },
+    "WithholdingTax": {
+      "definition": "Importe de dinero que será retenido por una autoridad tributaria."
+    },
+    "NetGainLoss": {
+      "definition": "Importe que representa la diferencia entre el coste y el precio actual de un valor. En el contexto de la liquidación de valores, es el importe pagado o recibido cuando las instrucciones se compensan o se cruzan."
+    },
+    "ConsumptionTax": {
+      "definition": "Importe del impuesto sobre el consumo."
+    },
+    "AccruedCapitalisationAmount": {
+      "definition": "Importe de los intereses impagados (de bonos que han incurrido en impago y posteriormente se han |reestructurado), que se capitaliza y se suma al importe principal original del bono."
+    },
+    "ResearchFee": {
+      "definition": "Cargo o comisión pagados por el inversor a un distribuidor/intermediario o a otro proveedor de servicios por la prestación de análisis financiero."
+    },
+    "NetworkFee": {
+      "definition": "Comisión de red asignada a una operación en una red DLT."
+    }
+  }
+}

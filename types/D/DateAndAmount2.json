@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndAmount2",
+  "definition": "Fecha e importe.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha en la que se declara o registra el importe."
+    },
+    "Amount": {
+      "definition": "Importe de dinero."
+    }
+  }
+}

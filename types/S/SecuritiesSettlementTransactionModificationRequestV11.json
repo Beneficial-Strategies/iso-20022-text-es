@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesSettlementTransactionModificationRequestV11",
+  "definition": "Ámbito|El SecuritiesSettlementTransactionModificationRequest lo envía un titular de cuenta a un administrador de cuentas. ||El titular de la cuenta será generalmente:|- un participante de un depositario central de valores que tiene una cuenta en un depositario central de valores o en una infraestructura de mercado|- un gestor de inversiones que tiene una cuenta en un custodio que actúa como agente contable y/o de liquidación.||Se utiliza para solicitar la modificación de datos comerciales no esenciales (de casamiento o no) de una instrucción pendiente o liquidada. También puede utilizarse para completar una operación incompleta.||Uso|La modificación solo debe contener los datos que se van a modificar.|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado por el titular de la cuenta al administrador de cuentas,|- facilitar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo,|- reenviar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoRules": {
+    "PhysicalInstructionDetailsUsageRule": {
+      "definition": "AdditionalPhysicalOrRegistrationDetails solo puede utilizarse con instrucciones libres de pago."
+    },
+    "SecuritiesFinancingSettlementUsageRule": {
+      "definition": "En el marco de la financiación de valores (repo, repo inverso, préstamo de valores, toma en préstamo de valores), la SettlementInstruction solo puede utilizarse para la liquidación simple del tramo de apertura y del tramo de cierre."
+    },
+    "LinkagesUsageRule": {
+      "definition": "Los vínculos solo pueden utilizarse al modificar la cantidad emparejada o invertida. Los cambios de vinculación y desvinculación de mensajes deben realizarse mediante el SecuritiesSettlementConditionsModificationRequest."
+    }
+  }
+}

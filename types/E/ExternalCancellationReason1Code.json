@@ -1,0 +1,138 @@
+{
+  "isoType": "ExternalCancellationReason1Code",
+  "definition": "Especifica el motivo de la cancelación, tal como se publica en un conjunto de códigos externo de motivos de cancelación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "AC02": {
+      "name": "Número de cuenta del ordenante no válido",
+      "definition": "Número de cuenta del ordenante no válido o ausente."
+    },
+    "AC03": {
+      "name": "Número de cuenta del beneficiario no válido",
+      "definition": "Número de cuenta erróneo en la transferencia."
+    },
+    "AGNT": {
+      "name": "Agente incorrecto",
+      "definition": "La entidad en el flujo de pago es incorrecta."
+    },
+    "AM09": {
+      "name": "Importe incorrecto",
+      "definition": "El importe no es el acordado o esperado."
+    },
+    "BE16": {
+      "name": "Código de identificación del ordenante no válido",
+      "definition": "Código de identificación del ordenante o del ordenante final ausente o no válido."
+    },
+    "COVR": {
+      "name": "Cobertura cancelada o devuelta",
+      "definition": "El pago de cobertura ha sido devuelto o cancelado."
+    },
+    "CURR": {
+      "name": "Divisa incorrecta",
+      "definition": "La divisa del pago es incorrecta."
+    },
+    "CUST": {
+      "name": "Solicitado por el cliente",
+      "definition": "Cancelación solicitada por el ordenante."
+    },
+    "CUTA": {
+      "name": "Cancelar si no se puede aplicar",
+      "definition": "Cancelación solicitada porque se ha recibido una solicitud de investigación y no es posible ninguna corrección."
+    },
+    "DS24": {
+      "name": "Tiempo de espera agotado",
+      "definition": "Cancelación solicitada porque la orden de pago original ha caducado por tiempo de espera agotado."
+    },
+    "DT01": {
+      "name": "Fecha no válida",
+      "definition": "Fecha no válida (por ejemplo, fecha de liquidación errónea o ausente)."
+    },
+    "DUPL": {
+      "name": "Pago duplicado",
+      "definition": "El pago es un duplicado de otro pago."
+    },
+    "FRAD": {
+      "name": "Origen fraudulento",
+      "definition": "Cancelación solicitada a raíz de una operación originada de forma fraudulenta. El uso del código FraudulentOrigin debe regirse por las jurisdicciones."
+    },
+    "FRNA": {
+      "name": "Reenviar a la siguiente entidad",
+      "definition": "Para complementar una respuesta de rechazo, sugiriendo que la solicitud de cancelación se reenvíe a la siguiente entidad de la cadena de la operación de pago."
+    },
+    "FRTR": {
+      "name": "Respuesta final",
+      "definition": "Seguimiento de adeudo directo retirado por mandato cancelado."
+    },
+    "INDM": {
+      "name": "Indemnización requerida",
+      "definition": "Para expresar el deseo de establecer un acuerdo bilateral de indemnización."
+    },
+    "MODT": {
+      "name": "Operación modificada",
+      "definition": "La operación subyacente en relación con una RTP fue modificada."
+    },
+    "PAID": {
+      "name": "Operación ya pagada",
+      "definition": "La operación subyacente en relación con una RTP ya fue pagada (por otros medios)."
+    },
+    "SVNR": {
+      "name": "Servicio no prestado",
+      "definition": "El pago se cancela porque el importe en efectivo entregado no era correcto o no se entregaron bienes o un servicio al cliente, por ejemplo, en una situación de comercio electrónico."
+    },
+    "SYAD": {
+      "name": "Solicitud al administrador del sistema de liquidación",
+      "definition": "Cancelación solicitada por un miembro del sistema al administrador del sistema de liquidación para indicar que la solicitud de cancelación no debe reenviarse más adelante en la cadena."
+    },
+    "TECH": {
+      "name": "Problema técnico",
+      "definition": "Cancelación solicitada a raíz de problemas técnicos que dieron lugar a una operación errónea."
+    },
+    "UPAY": {
+      "name": "Pago indebido",
+      "definition": "El pago no está justificado."
+    },
+    "ENUE": {
+      "name": "Error del usuario final",
+      "definition": "Cancelación o solicitud de devolución solicitada por el ordenante específicamente debido a uno o más errores del ordenante en la transferencia original. Uso: Este código puede utilizarse para cualquier error cometido por el ordenante en la transferencia original. También puede utilizarse si se cometieron varios errores en la transferencia original."
+    },
+    "UAPA": {
+      "name": "Pago no autorizado",
+      "definition": "El ordenante solicita la devolución del pago porque este no fue debidamente autorizado.|Uso: Este código puede utilizarse en el caso de que una transferencia se haya realizado sin la debida autorización del ordenante. Esto podría deberse a credenciales de usuario final comprometidas."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "El motivo se facilita como información narrativa en la información adicional del motivo."
+    },
+    "INCR": {
+      "name": "Solicitud de cancelación no válida",
+      "definition": "Procesar una solicitud de cancelación con referencia incorrecta al lote original."
+    },
+    "BIAS": {
+      "name": "Instrucción del lote ya liquidada",
+      "definition": "Procesar una solicitud de cancelación pero el lote ya está liquidado."
+    },
+    "DRTP": {
+      "name": "Duplicación de solicitud de pago",
+      "definition": "Duplicación de un mensaje de solicitud de pago."
+    },
+    "WNTB": {
+      "name": "Incumplimiento de garantía",
+      "definition": "Incumplimiento de la garantía otorgada en relación con una solicitud de pago."
+    },
+    "MD06": {
+      "name": "Solicitud de reembolso del cliente final",
+      "definition": "Devolución de fondos solicitada por el cliente final."
+    },
+    "PPRC": {
+      "name": "Cancelación de RTP por el participante beneficiario",
+      "definition": "Cancelación de la solicitud de pago iniciada porque el beneficiario no se encuentra en situación regular."
+    },
+    "ECAG": {
+      "name": "Error de la entidad del beneficiario",
+      "definition": "El beneficiario cancela la solicitud de pago (RTP) debido a un error o a un acuerdo de ajuste con el pagador/ordenante."
+    },
+    "NFNA": {
+      "name": "No reenviar nunca a la siguiente entidad",
+      "definition": "Para complementar una solicitud de cancelación, instruyendo a la infraestructura del mercado que la solicitud de cancelación no debe reenviarse a la siguiente entidad de la cadena de la operación de pago."
+    }
+  }
+}

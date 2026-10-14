@@ -1,0 +1,58 @@
+{
+  "isoType": "PendingReason39Code",
+  "definition": "Especifica el motivo por el que la instrucción tiene un estado pendiente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del administrador de cuentas. Se gestionará conforme al acuerdo de servicio bilateral entre el administrador de cuentas y el titular de la cuenta."
+    },
+    "CYCL": {
+      "name": "A la espera del siguiente ciclo de liquidación",
+      "definition": "Su instrucción está confirmada en el mercado local o lista para su liquidación, en espera del siguiente ciclo de liquidación."
+    },
+    "FUTU": {
+      "name": "A la espera de la fecha de liquidación",
+      "definition": "En espera de la fecha de liquidación. No hay problemas de liquidación que comunicar."
+    },
+    "BOTH": {
+      "name": "Ambas instrucciones retenidas",
+      "definition": "La instrucción de la contraparte y su instrucción están en espera, congeladas o en modo de preaviso."
+    },
+    "PRCY": {
+      "name": "Instrucción de la contraparte en espera",
+      "definition": "La instrucción de la contraparte es un preaviso, es decir, solo para casamiento."
+    },
+    "CMON": {
+      "name": "Fondos insuficientes de la contraparte",
+      "definition": "Fondos insuficientes en la cuenta de la contraparte."
+    },
+    "CLAC": {
+      "name": "Valores insuficientes de la contraparte",
+      "definition": "Instrumentos financieros entregables insuficientes en la cuenta de la contraparte, o la contraparte no tiene instrumentos financieros."
+    },
+    "MONY": {
+      "name": "Fondos insuficientes",
+      "definition": "Fondos insuficientes en su cuenta."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "Instrumentos financieros insuficientes en su cuenta."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del mercado."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "LINK": {
+      "name": "Instrucción vinculada pendiente",
+      "definition": "Su instrucción está pendiente de liquidación porque la instrucción vinculada a ella está pendiente."
+    },
+    "PREA": {
+      "name": "Su instrucción retenida",
+      "definition": "Su instrucción es un preaviso, es decir, solo para casamiento."
+    }
+  }
+}

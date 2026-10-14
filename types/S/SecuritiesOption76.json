@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesOption76",
+  "definition": "Proporciona información sobre la opción de valores de la operación societaria.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el valor es un débito o un crédito."
+    },
+    "EntitledQuantity": {
+      "definition": "Cantidad de valores basada en las condiciones del evento de operación societaria y el saldo de valores subyacentes al que tiene derecho el titular de la cuenta. (Esta cantidad puede ser positiva o negativa)."
+    },
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe tener lugar el movimiento (de efectivo y/o de valores)."
+    }
+  }
+}

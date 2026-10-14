@@ -1,0 +1,173 @@
+{
+  "isoType": "CreditTransferTransaction80",
+  "definition": "Proporciona más detalles específicos de las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Conjunto de elementos utilizados para referenciar una instrucción de pago."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Importe de dinero movido entre la entidad instructora y la entidad instruida."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en la que el importe deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se debe."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la parte instructora desea que la parte instruida aplique al procesamiento de la instrucción de liquidación."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Proporciona información sobre las horas de liquidación efectivas de la operación de pago."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Proporciona información sobre la(s) hora(s) de liquidación solicitada(s) de la instrucción de pago."
+    },
+    "ExpiryDateTime": {
+      "definition": "Fecha y hora en que debe caducar el pago si no se ha liquidado."
+    },
+    "PaymentSignature": {
+      "definition": "Clave criptográfica que identifica las condiciones acordadas por las entidades de la cadena de pago antes de la liquidación. Esta clave también puede utilizarse después de la liquidación para confirmar que el pago se ha abonado según lo previsto."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad instructora. ||Uso: Si hay más de una entidad instructora previa, PreviousInstructingAgent1 identifica a la entidad situada entre DebtorAgent y PreviousInstructingAgent2."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad instructora previa en su entidad de servicio de la cadena de pago."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad instructora. ||Uso: Si hay más de dos entidades instructoras previas, PreviousInstructingAgent2 identifica a la entidad situada entre PreviousInstructingAgent1 y PreviousInstructingAgent3."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad instructora previa en su entidad de servicio de la cadena de pago."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad instructora. ||Uso: Si PreviousInstructingAgent3 está presente, PreviousInstructingAgent3 identifica a la entidad situada entre PreviousInstructingAgent2 e InstructingAgent."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad instructora previa en su entidad de servicio de la cadena de pago."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la instrucción o el conjunto de instrucciones."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute la instrucción o el conjunto de instrucciones."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: Si hay más de una entidad intermediaria, IntermediaryAgent1 identifica a la entidad situada entre la DebtorAgent y la IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 1 en su entidad de servicio de la cadena de pago."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: Si hay más de dos entidades intermediarias, IntermediaryAgent2 identifica a la entidad situada entre la IntermediaryAgent1 y la IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 2 en su entidad de servicio de la cadena de pago."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: Si IntermediaryAgent3 está presente, identifica a la entidad situada entre la IntermediaryAgent 2 y la CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 3 en su entidad de servicio de la cadena de pago."
+    },
+    "UltimateDebtor": {
+      "definition": "Entidad financiera final que debe un importe de dinero al beneficiario (final) institucional."
+    },
+    "Debtor": {
+      "definition": "Entidad financiera que debe un importe de dinero al beneficiario (final) de tipo entidad financiera."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se registrará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que presta servicio a una cuenta del ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad de servicio de la cadena de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicio a una cuenta del beneficiario."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad de servicio en la que se registrará un abono como resultado de la operación de pago."
+    },
+    "Creditor": {
+      "definition": "Entidad financiera que recibe un importe de dinero del ordenante de tipo entidad financiera."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se registrará un abono como resultado de la operación de pago."
+    },
+    "UltimateCreditor": {
+      "definition": "Entidad financiera final a la que se debe un importe de dinero."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Información adicional relativa al tratamiento de la instrucción de pago, facilitada por la parte iniciadora y destinada a la entidad del beneficiario."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Información adicional relacionada con el procesamiento de la instrucción de pago sobre la que la siguiente entidad puede tener que actuar. ||Uso: La siguiente entidad puede no ser la entidad del beneficiario.|La instrucción puede referirse a un nivel de servicio, puede ser una instrucción que debe ejecutar la entidad o puede ser información que necesita la siguiente entidad."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago.|Uso: La finalidad la utilizan los clientes finales, es decir, la parte iniciadora, el ordenante (final) y el beneficiario (final), para facilitar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no utiliza ninguna de las entidades que intervienen en la cadena de pago para el tratamiento."
+    },
+    "RegulatoryReporting": {
+      "definition": "Información necesaria debido a requisitos normativos y legales."
+    },
+    "RemittanceInformation": {
+      "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Proporciona información sobre las asignaciones subyacentes que componen el pago.||Uso: Solo lo utiliza el sector de valores."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor solo puede estar presente si es distinto de Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor solo puede estar presente si es distinto de Creditor."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Si IntermediaryAgent2 está presente, IntermediaryAgent1 debe estar presente."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Si IntermediaryAgent3 está presente, IntermediaryAgent2 debe estar presente."
+    },
+    "IntermediaryAgent1Rule": {
+      "definition": "Si IntermediaryAgent1 está presente, CreditorAgent debe estar presente."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Si IntermediaryAgent1Account está presente, IntermediaryAgent1 debe estar presente."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Si IntermediaryAgent2Account está presente, IntermediaryAgent2 debe estar presente."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Si IntermediaryAgent3Account está presente, IntermediaryAgent3 debe estar presente."
+    },
+    "DebtorAgentAccountRule": {
+      "definition": "Si DebtorAgentAccount está presente, DebtorAgent debe estar presente."
+    },
+    "CreditorAgentAccountRule": {
+      "definition": "Si CreditorAgentAccount está presente, CreditorAgent debe estar presente."
+    },
+    "PreviousInstructingAgent1AccountRule": {
+      "definition": "Si PreviousInstructingAgent1Account está presente, PreviousInstructingAgent1 debe estar presente."
+    },
+    "PreviousInstructingAgent2AccountRule": {
+      "definition": "Si PreviousInstructingAgent2Account está presente, PreviousInstructingAgent2 debe estar presente."
+    },
+    "PreviousInstructingAgent3AccountRule": {
+      "definition": "Si PreviousInstructingAgent3Account está presente, PreviousInstructingAgent3 debe estar presente."
+    },
+    "PreviousInstructingAgent2Rule": {
+      "definition": "Si PreviousInstructingAgent2 está presente, PreviousInstructingAgent1 debe estar presente."
+    },
+    "PreviousInstructingAgent3Rule": {
+      "definition": "Si PreviousInstructingAgent3 está presente, PreviousInstructingAgent2 debe estar presente."
+    },
+    "PreviousInstructingAgent1Guideline": {
+      "definition": "Se recomienda que, cuando esté presente, PreviousInstructingAgent1 sea la más próxima a la DebtorAgent en la cadena de pago."
+    }
+  }
+}

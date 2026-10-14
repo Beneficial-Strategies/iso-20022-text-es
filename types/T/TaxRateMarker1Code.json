@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxRateMarker1Code",
+  "definition": "Especifica el tipo impositivo aplicado.",
+  "isoCodes": {
+    "ALPR": {
+      "name": "Importe cotizado menos seguro de vida",
+      "definition": "Especifica el importe cotizado una vez deducido el impuesto sobre la renta correspondiente al tipo aplicable a las primas de seguros de vida."
+    },
+    "ALIT": {
+      "name": "Importe cotizado menos tarifa estándar",
+      "definition": "Especifica el importe cotizado una vez deducido el impuesto sobre la renta al tipo estándar."
+    },
+    "GRSS": {
+      "name": "Importe bruto",
+      "definition": "Especifica un importe antes de la deducción de impuestos."
+    }
+  }
+}

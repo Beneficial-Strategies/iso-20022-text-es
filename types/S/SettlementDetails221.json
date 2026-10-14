@@ -1,0 +1,86 @@
+{
+  "isoType": "SettlementDetails221",
+  "definition": "Detalles de la liquidación de una operación.",
+  "isoElements": {
+    "Priority": {
+      "definition": "Especifica si la operación se ejecutó con alta prioridad."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifica el tipo de operación con valores."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condiciones en las que debía liquidarse la orden/operación."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica si se permitió la liquidación parcial."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica si hubo cambio de titularidad real."
+    },
+    "BlockTrade": {
+      "definition": "Especifica si la instrucción de liquidación era una instrucción de bloque principal o hija."
+    },
+    "CCPEligibility": {
+      "definition": "Especifica si la operación de liquidación era admisible para una CCP (Central Counterparty)."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica la categoría del sistema de compensación de efectivo, por ejemplo, la compensación de cheques."
+    },
+    "ExposureType": {
+      "definition": "Especifica el área de negocio/tipo de operación subyacente que originó el movimiento de garantía."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica si una instrucción correspondía a una operación del lado del mercado o del lado del cliente."
+    },
+    "NettingEligibility": {
+      "definition": "Especifica si la operación de liquidación era admisible para compensación por neteo."
+    },
+    "Registration": {
+      "definition": "Especifica si el registro debía producirse a la recepción."
+    },
+    "RepurchaseType": {
+      "definition": "Especifica el tipo de operación de recompra."
+    },
+    "LegalRestrictions": {
+      "definition": "Restricciones regulatorias aplicables a un valor."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica si la operación de liquidación debía liquidarse a través de un sistema RTGS o no RTGS."
+    },
+    "SettlingCapacity": {
+      "definition": "Función de una parte en la liquidación de la operación."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Especifica si la instrucción de liquidación debía liquidarse a través del sistema de liquidación predeterminado o del alternativo."
+    },
+    "TaxCapacity": {
+      "definition": "Función fiscal de la parte instructora."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica el tipo de impuesto de timbre o el motivo de exención aplicable a la operación de liquidación."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condición para el préstamo automático."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Especifica si la liquidación física se ejecutó mediante una carta de garantía o si se utilizaron los certificados físicos."
+    },
+    "EligibleForCollateral": {
+      "definition": "Especifica si se solicitó que los valores se incluyeran en el conjunto de valores admisibles como garantía."
+    },
+    "SecuritiesSubBalanceType": {
+      "definition": "Especifica el indicador del tipo de subsaldo de valores (por ejemplo, el tipo de restricción para una infraestructura de mercado)."
+    },
+    "CashSubBalanceType": {
+      "definition": "Especifica el indicador del tipo de subsaldo de efectivo, por ejemplo, el tipo de restricción para una infraestructura de mercado."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si se utilizan elementos SettlementDetails, sus condiciones de uso deben acordarse previamente entre el titular de la cuenta y el administrador de cuentas."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Los códigos de CashSettlementSystem solo deben ser utilizados por los agentes que intervienen directamente en el proceso de liquidación, como los agentes de liquidación locales, los CSDs y los bancos centrales."
+    }
+  }
+}

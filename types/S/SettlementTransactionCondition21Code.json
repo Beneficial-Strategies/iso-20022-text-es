@@ -1,0 +1,62 @@
+{
+  "isoType": "SettlementTransactionCondition21Code",
+  "definition": "Especifica las condiciones en las que se ha de liquidar la orden o la operación bursátil.",
+  "isoCodes": {
+    "ASGN": {
+      "name": "Asignación",
+      "definition": "Transmisión de la titularidad del activo a otra parte durante el cierre de una opción."
+    },
+    "CLEN": {
+      "name": "Limpio",
+      "definition": "Los instrumentos financieros exentos de impuestos deben liquidarse."
+    },
+    "DLWM": {
+      "name": "Entrega sin casamiento",
+      "definition": "No se requiere instrucción de recepción coincidente (solo para los depositarios centrales de valores internacionales o nacionales afectados)."
+    },
+    "DIRT": {
+      "name": "Sucio",
+      "definition": "Los instrumentos financieros sujetos a impuestos deben liquidarse."
+    },
+    "DRAW": {
+      "name": "Sorteado",
+      "definition": "Las operaciones de liquidación se refieren a valores sorteados."
+    },
+    "EXER": {
+      "name": "Ejercido",
+      "definition": "La operación de liquidación se refiere a opciones, futuros o derivados que se ejercen."
+    },
+    "GATE": {
+      "name": "Participación en evento de limitación de reembolsos",
+      "definition": "Participación en un evento de control de acceso (gating). Retener hasta la hora de inicio del evento."
+    },
+    "FRCL": {
+      "name": "Liquidación libre de pago",
+      "definition": "La entrega se efectuará libre de pago, pero se enviará una orden de pago limpia."
+    },
+    "KNOC": {
+      "name": "Desactivado (knock-out)",
+      "definition": "La operación de liquidación se refiere a opciones, futuros o derivados que vencen sin valor."
+    },
+    "PHYS": {
+      "name": "Física",
+      "definition": "Los valores se han de liquidar físicamente."
+    },
+    "RESI": {
+      "name": "Residual",
+      "definition": "Se refiere a una operación con un valor que no es admisible en el depositario central de valores (CSD), pero cuyo pago será efectuado por el depositario central de valores."
+    },
+    "SPDL": {
+      "name": "Entrega especial",
+      "definition": "Operaciones de liquidación que se han de liquidar con entrega especial."
+    },
+    "SPST": {
+      "name": "Liquidación fraccionada",
+      "definition": "El dinero y los instrumentos financieros se liquidan en lugares distintos."
+    },
+    "UNEX": {
+      "name": "Sin exposición",
+      "definition": "La entrega no puede efectuarse hasta que se reciba el dinero."
+    }
+  }
+}

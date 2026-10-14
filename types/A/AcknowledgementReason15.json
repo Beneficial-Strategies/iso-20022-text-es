@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason15",
+  "definition": "Especifica información adicional sobre la instrucción procesada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica información adicional sobre la instrucción procesada."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

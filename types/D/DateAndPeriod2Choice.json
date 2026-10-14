@@ -1,0 +1,18 @@
+{
+  "isoType": "DateAndPeriod2Choice",
+  "definition": "Elección entre una fecha y un período.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha concreta dentro de un período."
+    },
+    "Period": {
+      "definition": "Intervalo de tiempo definido por una fecha de inicio y una fecha de fin."
+    },
+    "FromDate": {
+      "definition": "Fecha en que comienza el intervalo."
+    },
+    "ToDate": {
+      "definition": "Fecha en que termina el intervalo."
+    }
+  }
+}

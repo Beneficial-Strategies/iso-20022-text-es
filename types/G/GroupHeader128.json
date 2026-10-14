@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader128",
+  "definition": "Proporciona las características compartidas por todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar de forma inequívoca el mensaje.|Uso: La parte instructora debe asegurarse de que 'MessageIdentification' sea único por parte instruida durante un período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia el mensaje de estado."
+    },
+    "ForwardingAgent": {
+      "definition": "Entidad financiera que recibe la instrucción de la parte iniciadora y la reenvía a la siguiente entidad de la cadena de pago."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del beneficiario."
+    }
+  }
+}

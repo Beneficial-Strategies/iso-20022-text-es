@@ -1,0 +1,14 @@
+{
+  "isoType": "ConsentType1Code",
+  "definition": "Especifica el tipo de consentimiento anunciado.",
+  "isoCodes": {
+    "CTRM": {
+      "name": "Cambio de condiciones",
+      "definition": "Cambio en los términos y condiciones del bono."
+    },
+    "DUPY": {
+      "name": "Vencido y pagadero",
+      "definition": "Cambio en las condiciones de vencimiento y pago."
+    }
+  }
+}

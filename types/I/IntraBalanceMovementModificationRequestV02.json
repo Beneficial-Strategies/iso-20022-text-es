@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementModificationRequestV02",
+  "definition": "El mensaje IntraBalanceMovementModificationRequest lo envía un titular de cuenta o solicitante a una infraestructura de liquidación para solicitar la modificación de un indicador de tratamiento en un mensaje IntraBalanceMovementInstruction enviado anteriormente.||Uso: |El mensaje puede utilizarse para:|- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es «Duplicate»)|- proporcionar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «Copy»)|- reenviar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «CopyDuplicate»)."
+}

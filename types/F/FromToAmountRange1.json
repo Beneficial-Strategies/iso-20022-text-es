@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToAmountRange1",
+  "definition": "Rango de valores de importe.",
+  "isoElements": {
+    "FromAmount": {
+      "definition": "Límite inferior de un rango de valores de importe."
+    },
+    "ToAmount": {
+      "definition": "Límite superior de un rango de valores de importe."
+    }
+  }
+}

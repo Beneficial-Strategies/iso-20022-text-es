@@ -1,0 +1,20 @@
+{
+  "isoType": "StatusReasonInformation12",
+  "definition": "Proporciona información sobre el motivo del estado de la operación.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite el estado."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo del informe de estado."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalles adicionales sobre el motivo del estado.||Uso: La información adicional puede utilizarse para varios fines, como la notificación de información reparada."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "Si Reason/Code es igual a NARR, entonces AddititionalInformation debe estar presente."
+    }
+  }
+}

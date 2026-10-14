@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusReason14",
+  "definition": "Motivo de un estado pendiente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado pendiente de la cuenta."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el motivo del estado pendiente de la cuenta."
+    }
+  }
+}

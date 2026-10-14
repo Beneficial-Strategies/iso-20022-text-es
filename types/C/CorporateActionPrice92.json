@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionPrice92",
+  "definition": "Especifica precios.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Desembolso en efectivo en lugar de acciones; normalmente en lugar de una cantidad fraccionaria."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Importe de dinero requerido por cada acción sobresuscrita, según lo defina el emisor."
+    }
+  },
+  "isoRules": {
+    "GenericCashPriceReceivedPerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct es el precio recibido en el curso de un evento. El significado específico (precio de reembolso, precio de suscripción, precio de reinversión, ETC.) se deriva del tipo de evento."
+    }
+  }
+}

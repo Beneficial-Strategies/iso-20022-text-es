@@ -1,0 +1,82 @@
+{
+  "isoType": "InvestmentFundFee3Code",
+  "definition": "Especifica el tipo de servicio por el que se solicita o se paga una comisión.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Comisión de salida",
+      "definition": "Comisión pagada por el inversor al fondo o a la gestora del fondo en el reembolso."
+    },
+    "BRKF": {
+      "name": "Comisión de corretaje",
+      "definition": "Comisión pagada a un corredor por los servicios prestados."
+    },
+    "CDSC": {
+      "name": "Cargo de venta diferido contingente",
+      "definition": "Comisión de venta diferida."
+    },
+    "CBCH": {
+      "name": "Gastos del banco corresponsal",
+      "definition": "En fondos de inversión, gasto de la entidad corresponsal por la transferencia de dinero."
+    },
+    "DLEV": {
+      "name": "Gravamen por dilución",
+      "definition": "En fondos de inversión, gasto a cargo del inversor que cubre los diferenciales entre precio de compra y venta y los gastos de negociación de las inversiones subyacentes. El gasto de dilución se abona al fondo en beneficio de los demás partícipes."
+    },
+    "FEND": {
+      "name": "Comisión de entrada",
+      "definition": "Comisión pagada por el inversor al fondo o a la gestora del fondo en la suscripción."
+    },
+    "INIT": {
+      "name": "Cargo inicial",
+      "definition": "Gasto pagado en el momento de la primera suscripción."
+    },
+    "PREM": {
+      "name": "Prima",
+      "definition": "En fondos de inversión, adición preestablecida al importe de la operación basada en el valor liquidativo publicado."
+    },
+    "CHAR": {
+      "name": "Comisión por prestación de servicios",
+      "definition": "Comisión pagada por el inversor a un distribuidor, intermediario u otro proveedor de servicios por la prestación de servicios financieros."
+    },
+    "SWIT": {
+      "name": "Traspaso",
+      "definition": "En fondos de inversión, gasto relacionado con una operación de traspaso."
+    },
+    "UCIC": {
+      "name": "Comisión UCITS",
+      "definition": "Gastos pagados por el inversor a la gestora del fondo por las órdenes de suscripción y reembolso."
+    },
+    "COMM": {
+      "name": "Comisión",
+      "definition": "Importe abonado por el fondo a un tercero."
+    },
+    "SHIP": {
+      "name": "Gastos de envío",
+      "definition": "Gastos de envío, incluido el seguro de los valores."
+    },
+    "POST": {
+      "name": "Gastos de franqueo",
+      "definition": "Gastos de franqueo."
+    },
+    "CDPL": {
+      "name": "Comisión de colocación",
+      "definition": "Importe de efectivo debido a un intermediario por la venta de un producto o servicio a un tercero."
+    },
+    "ADDF": {
+      "name": "Comisión adicional",
+      "definition": "Comisión adicional no cubierta por otro tipo de comisión."
+    },
+    "REGF": {
+      "name": "Tasa regulatoria",
+      "definition": "Comisión cobrada por una autoridad reguladora, por ejemplo, tasas de valores y bolsa."
+    },
+    "PENA": {
+      "name": "Penalización",
+      "definition": "Comisión cobrada al inversor por el reembolso anticipado del fondo."
+    },
+    "NTWK": {
+      "name": "Comisión de red",
+      "definition": "Comisión de red asignada a una operación en una red DLT."
+    }
+  }
+}

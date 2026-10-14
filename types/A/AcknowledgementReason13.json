@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason13",
+  "definition": "Especifica información adicional sobre la instrucción procesada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo facilitado para el estado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

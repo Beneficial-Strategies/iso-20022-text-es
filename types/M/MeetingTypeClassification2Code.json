@@ -1,0 +1,26 @@
+{
+  "isoType": "MeetingTypeClassification2Code",
+  "definition": "Clasifica el tipo de junta.",
+  "isoCodes": {
+    "AMET": {
+      "name": "Anual",
+      "definition": "Junta que se celebra periódicamente para aprobar los estados financieros y elegir a los miembros del consejo y a los auditores."
+    },
+    "CLAS": {
+      "name": "Clase",
+      "definition": "Junta para los titulares de un tipo específico de activo, por ejemplo, acciones preferentes o bonos."
+    },
+    "ISSU": {
+      "name": "Iniciada por el emisor",
+      "definition": "La junta es el resultado de una obligación o de una decisión del emisor, en contraposición a una junta convocada por los titulares de derechos de voto, por ejemplo, una junta impugnada."
+    },
+    "OMET": {
+      "name": "Ordinario",
+      "definition": "Junta prevista en los estatutos."
+    },
+    "VRHI": {
+      "name": "Iniciada por el titular de derechos de voto",
+      "definition": "La junta es el resultado de una solicitud o de una acción de uno o varios titulares de derechos de voto, por ejemplo, una junta impugnada."
+    }
+  }
+}

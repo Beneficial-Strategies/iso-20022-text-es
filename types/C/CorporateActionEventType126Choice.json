@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventType126Choice",
+  "definition": "Elección entre un tipo de evento corporativo o un tipo de evento corporativo ampliado.",
+  "isoElements": {
+    "PlainCorporateEventType": {
+      "definition": "Tipo de evento de operación societaria."
+    },
+    "ExtendedCorporateEventType": {
+      "definition": "Lista ampliada de tipos de evento de acción corporativa."
+    }
+  }
+}

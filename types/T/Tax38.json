@@ -1,0 +1,30 @@
+{
+  "isoType": "Tax38",
+  "definition": "Impuesto relacionado con una orden de fondo de inversión.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de impuesto."
+    },
+    "Basis": {
+      "definition": "Base utilizada para determinar la plusvalía o minusvalía."
+    },
+    "Amount": {
+      "definition": "Importe de dinero resultante del cálculo del impuesto."
+    },
+    "Country": {
+      "definition": "País en el que se debe el impuesto."
+    },
+    "ExemptionIndicator": {
+      "definition": "Indica si se aplica una exención fiscal."
+    },
+    "ExemptionReason": {
+      "definition": "Motivo de la exención de impuestos."
+    },
+    "RecipientIdentification": {
+      "definition": "Parte que recibe el impuesto. El destinatario del impuesto y la parte con derecho a él pueden ser dos partes distintas."
+    },
+    "TaxCalculationDetails": {
+      "definition": "Información utilizada para calcular el impuesto."
+    }
+  }
+}

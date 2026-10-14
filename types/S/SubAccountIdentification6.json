@@ -1,0 +1,20 @@
+{
+  "isoType": "SubAccountIdentification6",
+  "definition": "Cuenta en la que, o desde la que, se realiza un apunte de valores.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si hay actividad comunicada en el extracto."
+    },
+    "TransactionOnSubAccount": {
+      "definition": "Creación/cancelación de participaciones de inversión en los libros del fondo o de su agente designado, como resultado de la ejecución de una orden de fondo de inversión."
+    }
+  },
+  "isoRules": {
+    "TransactionOnSubAccountRule": {
+      "definition": "Si ActivityIndicator es \"true\" o \"1\" (Sí), entonces TransactionOnSubAccount debe estar presente. Si ActivityIndicator es \"false\" o \"0\" (No), entonces TransactionOnSubAccount no está permitido."
+    }
+  }
+}

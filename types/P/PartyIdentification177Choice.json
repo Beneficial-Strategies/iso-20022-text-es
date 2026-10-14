@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification177Choice",
+  "definition": "Elección de identificación de una parte. La parte puede identificarse mediante un BIC o un código propietario.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Código asignado a una institución financiera o no financiera por la Autoridad de Registro de ISO 9362, tal como se describe en ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identificador único e inequívoco, asignado a una entidad financiera mediante un esquema de identificación propietario."
+    }
+  }
+}

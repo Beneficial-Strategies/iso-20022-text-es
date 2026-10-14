@@ -1,0 +1,4 @@
+{
+  "isoType": "BuyerProtectionInstructionReportV01",
+  "definition": "Alcance|El mensaje BuyerProtectionInstructionReport es enviado por una entidad gestora de cuentas a un titular de cuenta o a su agente designado para comunicar el estado de todas las Buyer Protection Instructions en respuesta a una Buyer Protection Instruction Report Request.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente (la subfunción del mensaje es Duplicate),|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy),|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy Duplicate), utilizando los elementos correspondientes de la cabecera de aplicación comercial (BAH)."
+}

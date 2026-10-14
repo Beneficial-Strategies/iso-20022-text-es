@@ -1,0 +1,15 @@
+{
+  "isoType": "NetDividendRateFormat42Choice",
+  "definition": "Elección entre distintos formatos para expresar un dividendo neto.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Valor expresado como importe."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Especifica un importe y un estado del tipo."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Especifica los distintos formatos de la tasa de dividendo neto."
+    }
+  }
+}

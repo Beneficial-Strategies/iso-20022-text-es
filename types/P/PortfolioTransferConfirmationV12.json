@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransferConfirmationV12",
+  "definition": "Ámbito|La parte ejecutora envía el mensaje PortfolioTransferConfirmation, por ejemplo un gestor de plan (antiguo) (cedente), a la parte instructora, por ejemplo un gestor de plan (nuevo) (receptor), para confirmar el traspaso de instrumentos financieros desde la cuenta del cliente en el gestor de plan antiguo (cedente) a la cuenta del cliente en el gestor de plan nuevo (receptor). |Uso|El mensaje PortfolioTransferConfirmation se utiliza para confirmar uno o varios traspasos de cartera de un cliente.|La referencia de cada confirmación de traspaso de cartera se identifica en TransferConfirmationIdentification. La referencia del traspaso de cartera original, asignada por la parte instructora, se especifica en TransferInstructionReference. El identificador del mensaje PortfolioTransferInstruction en el que se transmitieron los traspasos de cartera también puede citarse en RelatedReference, aunque no se recomienda.",
+  "isoRules": {
+    "Investor1Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces SecondaryIndividualInvestor no está permitido.|Si PrimaryIndividualInvestor está presente, entonces SecondaryIndividualInvestor puede estar presente."
+    },
+    "Corporate1Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces SecondaryCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces SecondaryCorporateInvestor puede estar presente."
+    },
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer debe estar presente cuando y solo cuando sea distinto de TransferorAccount/Servicer."
+    },
+    "Investor2Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces OtherIndividualInvestor no está permitido. |Si PrimaryIndividualInvestor está presente, entonces OtherIndividualInvestor puede estar presente."
+    },
+    "Corporate2Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces OtherCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces OtherCorporateInvestor puede estar presente."
+    }
+  }
+}

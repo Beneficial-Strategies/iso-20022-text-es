@@ -1,0 +1,12 @@
+{
+  "isoType": "CentralCounterPartyEligibility5Choice",
+  "definition": "Elección del formato de la información sobre la admisibilidad para ECC (CCP).",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si la operación de liquidación es admisible para una ECC (entidad de contrapartida central) (CCP)."
+    },
+    "Proprietary": {
+      "definition": "Información de admisibilidad para la contrapartida central expresada como código propietario."
+    }
+  }
+}

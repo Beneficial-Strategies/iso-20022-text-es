@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason17Choice",
+  "definition": "Elección del formato del motivo de denegación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica información adicional sobre la instrucción procesada."
+    },
+    "Proprietary": {
+      "definition": "Especifica información adicional sobre la instrucción procesada."
+    }
+  }
+}

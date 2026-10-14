@@ -1,0 +1,30 @@
+{
+  "isoType": "MeetingType4Code",
+  "definition": "Especifica un tipo de junta de titulares de valores.",
+  "isoCodes": {
+    "XMET": {
+      "name": "Extraordinaria",
+      "definition": "Junta que se celebra cuando es necesario, además de las juntas generales, y que es extraordinaria conforme a los estatutos. Las resoluciones se refieren a asuntos no habituales de la sociedad, por ejemplo, la aprobación de adquisiciones, fusiones o escisiones. Estas juntas siempre son convocadas por el emisor."
+    },
+    "GMET": {
+      "name": "General",
+      "definition": "Incluye las juntas anuales y ordinarias. Junta(s) estatutaria(s) que suele(n) celebrarse al menos una vez al año. Las resoluciones se refieren a los asuntos habituales de la sociedad, por ejemplo, la aprobación de dividendos y de administradores. Estas juntas siempre son convocadas por el emisor."
+    },
+    "MIXD": {
+      "name": "Mixto",
+      "definition": "Junta que contiene tanto resoluciones ordinarias como extraordinarias."
+    },
+    "SPCL": {
+      "name": "Especial",
+      "definition": "Junta que se celebra cuando es necesario y que no es ni ordinaria ni extraordinaria."
+    },
+    "BMET": {
+      "name": "Junta de bonistas",
+      "definition": "Reunión presencial de los titulares de bonos."
+    },
+    "CMET": {
+      "name": "Junta judicial",
+      "definition": "La junta es el resultado de un procedimiento judicial."
+    }
+  }
+}

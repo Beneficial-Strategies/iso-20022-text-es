@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingEventReference1Choice",
+  "definition": "Elección entre una identificación del evento de junta o una identificación oficial del evento de junta.",
+  "isoElements": {
+    "LinkedIssuerMeetingIdentification": {
+      "definition": "Referencia oficial y única asignada por el organismo o entidad central oficial de cada mercado al inicio de un evento de junta."
+    },
+    "LinkedMeetingIdentification": {
+      "definition": "Referencia asignada por la entidad gestora de la cuenta para identificar inequívocamente un evento de junta relacionado."
+    }
+  }
+}

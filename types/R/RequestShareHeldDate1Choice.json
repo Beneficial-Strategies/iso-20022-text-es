@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestShareHeldDate1Choice",
+  "definition": "Elección entre diferentes formas de especificar el método para determinar desde cuándo un inversor ha mantenido las acciones.",
+  "isoElements": {
+    "DateCalculationMethod": {
+      "definition": "Indica cuál es el método lógico que se utilizará para determinar y comunicar la fecha desde la cual se han mantenido las acciones."
+    },
+    "DateCalculationDescription": {
+      "definition": "Proporciona la descripción de cómo se debe determinar y comunicar la fecha desde la cual se han mantenido las acciones."
+    }
+  }
+}

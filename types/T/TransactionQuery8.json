@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionQuery8",
+  "definition": "Define los criterios de la consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica el tipo de elementos coincidentes que deben devolverse en la respuesta a la consulta."
+    },
+    "TransactionCriteria": {
+      "definition": "Define los criterios de consulta de operaciones de pago."
+    }
+  }
+}

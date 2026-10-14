@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionReturnCriteria5",
+  "definition": "Define los criterios utilizados para informar sobre una operación de pago.",
+  "isoElements": {
+    "PaymentToReturnCriteria": {
+      "definition": "Destino del pago (ya sea un miembro, un sistema o ambos)."
+    },
+    "PaymentFromReturnCriteria": {
+      "definition": "Origen del pago (ya sea un miembro, un sistema o ambos)."
+    },
+    "AccountCashEntryReturnCriteria": {
+      "definition": "Define los criterios utilizados para informar sobre el apunte de efectivo."
+    },
+    "PaymentReturnCriteria": {
+      "definition": "Define los criterios utilizados para informar sobre el pago."
+    }
+  }
+}

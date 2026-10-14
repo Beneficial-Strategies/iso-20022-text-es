@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndRateStatus1",
+  "definition": "Especifica un importe y un estado del tipo.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Valor expresado como importe."
+    },
+    "RateStatus": {
+      "definition": "Valor expresado como estado del tipo."
+    }
+  }
+}

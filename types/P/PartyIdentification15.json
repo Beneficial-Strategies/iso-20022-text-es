@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification15",
+  "definition": "Estructura organizada constituida con un fin determinado, por ejemplo, una empresa, un organismo gubernamental, un departamento, una organización benéfica o una entidad financiera.",
+  "isoElements": {
+    "Country": {
+      "definition": "País en el que está registrada la organización."
+    },
+    "Identification": {
+      "definition": "Descripción de una organización."
+    }
+  }
+}

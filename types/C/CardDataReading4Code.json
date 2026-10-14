@@ -1,0 +1,22 @@
+{
+  "isoType": "CardDataReading4Code",
+  "definition": "Capacidades del terminal del cajero automático (ATM) que realiza la operación.",
+  "isoCodes": {
+    "ECTL": {
+      "name": "Lector de proximidad EMV",
+      "definition": "Lector de proximidad sin contacto, con aplicación conforme al estándar EMV (estándar iniciado por Europay, Mastercard y Visa)."
+    },
+    "CICC": {
+      "name": "ICC",
+      "definition": "ICC (tarjeta de circuito integrado) con contacto que contiene aplicaciones de software conformes con ISO 7816."
+    },
+    "MGST": {
+      "name": "Banda magnética",
+      "definition": "Banda magnética."
+    },
+    "CTLS": {
+      "name": "Lector de proximidad",
+      "definition": "Lector de proximidad sin contacto."
+    }
+  }
+}

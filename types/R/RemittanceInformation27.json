@@ -1,0 +1,18 @@
+{
+  "isoType": "RemittanceInformation27",
+  "definition": "Información proporcionada para permitir la correspondencia o conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Identificación única, asignada por el originador, para identificar de forma inequívoca la información de remesa dentro del mensaje."
+    },
+    "Unstructured": {
+      "definition": "Información proporcionada para permitir la correspondencia o conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar, en forma no estructurada."
+    },
+    "Structured": {
+      "definition": "Información proporcionada para permitir la correspondencia o conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar, en forma estructurada."
+    },
+    "OriginalPaymentInformation": {
+      "definition": "Conjunto de elementos utilizados para facilitar información sobre las operaciones originales a las que se refiere el mensaje de remesa."
+    }
+  }
+}

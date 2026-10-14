@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingOpeningStatusReason1Choice",
+  "definition": "Elección de formatos para el motivo de un estado de apertura de cuenta pendiente.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "No hay ningún motivo disponible ni que comunicar para el estado de apertura de cuenta pendiente."
+    },
+    "Reason": {
+      "definition": "Motivo del estado de apertura de cuenta pendiente."
+    }
+  }
+}

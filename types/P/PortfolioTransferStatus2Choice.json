@@ -1,0 +1,18 @@
+{
+  "isoType": "PortfolioTransferStatus2Choice",
+  "definition": "Elección de formato para un estado de alegación.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la instrucción."
+    },
+    "PendingProcessing": {
+      "definition": "El procesamiento de la instrucción/solicitud está pendiente."
+    },
+    "Rejected": {
+      "definition": "La instrucción/solicitud ha sido rechazada para su procesamiento posterior."
+    },
+    "Proprietary": {
+      "definition": "Estado que no puede notificarse mediante ninguno de los estados estándar disponibles."
+    }
+  }
+}

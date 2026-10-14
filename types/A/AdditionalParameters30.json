@@ -1,0 +1,18 @@
+{
+  "isoType": "AdditionalParameters30",
+  "definition": "Especifica parámetros adicionales del mensaje o de la operación.",
+  "isoElements": {
+    "PreConfirmation": {
+      "definition": "Especifica si existe una preconfirmación."
+    },
+    "PartialSettlement": {
+      "definition": "Especifica la información de liquidación parcial."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Identificación única que identifica la operación de gestión de garantías tripartita desde el punto de vista del agente tripartito/proveedor de servicios."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Referencia única que identifica la operación de gestión de garantías tripartita desde el punto de vista del cliente."
+    }
+  }
+}

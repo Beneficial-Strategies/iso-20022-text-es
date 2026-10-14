@@ -1,0 +1,42 @@
+{
+  "isoType": "CancellationProcessingStatus1Code",
+  "definition": "Especifica el estado de una solicitud de cancelación.",
+  "isoCodes": {
+    "CAND": {
+      "name": "Cancelación completada",
+      "definition": "La cancelación se ha completado."
+    },
+    "CANP": {
+      "name": "Cancelación pendiente",
+      "definition": "La cancelación está pendiente. En este momento no se sabe si la cancelación puede efectuarse."
+    },
+    "DEND": {
+      "name": "Denegado",
+      "definition": "La cancelación no se ejecutará."
+    },
+    "EXCH": {
+      "name": "Recibido en la bolsa de valores",
+      "definition": "La cancelación ha sido recibida en la bolsa de valores."
+    },
+    "INTE": {
+      "name": "Recibido en el intermediario",
+      "definition": "La cancelación ha sido recibida en el intermediario."
+    },
+    "PACK": {
+      "name": "Aceptado",
+      "definition": "La solicitud de cancelación ha sido reconocida para su posterior procesamiento por la entidad gestora de la cuenta."
+    },
+    "PARF": {
+      "name": "Parcialmente ejecutado",
+      "definition": "La orden está parcialmente ejecutada; se acepta el procesamiento de cancelación para el resto."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "La cancelación ha sido rechazada para su posterior procesamiento."
+    },
+    "REPR": {
+      "name": "En reparación",
+      "definition": "La solicitud de cancelación está en reparación."
+    }
+  }
+}

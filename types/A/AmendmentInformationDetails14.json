@@ -1,0 +1,42 @@
+{
+  "isoType": "AmendmentInformationDetails14",
+  "definition": "Proporciona más detalles sobre la lista de elementos del mandato de adeudo directo que han sido modificados cuando se ha activado el indicador de modificación.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Identificación única, asignada por el beneficiario, para identificar inequívocamente el mandato original."
+    },
+    "OriginalCreditorSchemeIdentification": {
+      "definition": "Identificación original del esquema del beneficiario que ha sido modificada."
+    },
+    "OriginalCreditorAgent": {
+      "definition": "Entidad original del beneficiario que ha sido modificada."
+    },
+    "OriginalCreditorAgentAccount": {
+      "definition": "Cuenta original de la entidad del beneficiario que ha sido modificada."
+    },
+    "OriginalDebtor": {
+      "definition": "Ordenante original que ha sido modificado."
+    },
+    "OriginalDebtorAccount": {
+      "definition": "Cuenta original del ordenante que ha sido modificada."
+    },
+    "OriginalDebtorAgent": {
+      "definition": "Entidad original del ordenante que ha sido modificada."
+    },
+    "OriginalDebtorAgentAccount": {
+      "definition": "Cuenta original de la entidad del ordenante que ha sido modificada."
+    },
+    "OriginalFinalCollectionDate": {
+      "definition": "Fecha original del último cobro que ha sido modificada."
+    },
+    "OriginalFrequency": {
+      "definition": "Frecuencia original que ha sido modificada."
+    },
+    "OriginalReason": {
+      "definition": "Motivo original del mandato que permite al usuario distinguir entre diferentes mandatos del mismo beneficiario."
+    },
+    "OriginalTrackingDays": {
+      "definition": "Número original de días de seguimiento que ha sido modificado."
+    }
+  }
+}

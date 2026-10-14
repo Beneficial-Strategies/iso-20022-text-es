@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy5Choice",
+  "definition": "Elección de la admisión de representante.",
+  "isoElements": {
+    "Proxy": {
+      "definition": "Información sobre la designación y el registro del representante."
+    },
+    "ProxyNotAllowed": {
+      "definition": "Indica que no se permite ningún representante para una junta."
+    }
+  }
+}

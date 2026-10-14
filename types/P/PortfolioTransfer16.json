@@ -1,0 +1,33 @@
+{
+  "isoType": "PortfolioTransfer16",
+  "definition": "Tipo de producto y de activos que se van a traspasar.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    },
+    "TransferIdentification": {
+      "definition": "Identificación asignada al traspaso de activos."
+    },
+    "TransferConfirmationIdentification": {
+      "definition": "Identificación de la confirmación asignada por el cedente al traspaso."
+    },
+    "Portfolio": {
+      "definition": "Elección de producto fiscalmente eficiente, inversión general o pensión."
+    },
+    "PartialDiscovery": {
+      "definition": "Indica que no se especifican todos los activos de la posición/cartera y que se requiere algún otro tipo de comunicación."
+    },
+    "ResidualCash": {
+      "definition": "Especifica si hay efectivo en la cuenta pendiente de inversión y la divisa."
+    },
+    "TaxDate": {
+      "definition": "Fecha fiscal aplicable a todos los activos."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Activo que se va a traspasar."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el traspaso del producto."
+    }
+  }
+}

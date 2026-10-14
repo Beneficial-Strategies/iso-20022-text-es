@@ -1,0 +1,38 @@
+{
+  "isoType": "SettlementTransactionCondition22Code",
+  "definition": "Especifica las condiciones en las que debe liquidarse la orden/operación.",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Limpio",
+      "definition": "Los instrumentos financieros exentos de impuestos deben liquidarse."
+    },
+    "DLWM": {
+      "name": "Entrega sin casamiento",
+      "definition": "No se requiere instrucción de recepción coincidente (solo para los depositarios centrales de valores internacionales o nacionales afectados)."
+    },
+    "DIRT": {
+      "name": "Sucio",
+      "definition": "Los instrumentos financieros sujetos a impuestos deben liquidarse."
+    },
+    "GATE": {
+      "name": "Participación en evento de limitación de reembolsos",
+      "definition": "Participación en un evento de control de acceso (gating). Retener hasta la hora de inicio del evento."
+    },
+    "NOMC": {
+      "name": "Sin reclamación de mercado automática",
+      "definition": "No debe generarse automáticamente ninguna reclamación de mercado."
+    },
+    "PHYS": {
+      "name": "Física",
+      "definition": "Los valores se han de liquidar físicamente."
+    },
+    "SPDL": {
+      "name": "Entrega especial",
+      "definition": "Operaciones de liquidación que se han de liquidar con entrega especial."
+    },
+    "SPST": {
+      "name": "Liquidación fraccionada",
+      "definition": "El dinero y los instrumentos financieros se liquidan en lugares distintos."
+    }
+  }
+}

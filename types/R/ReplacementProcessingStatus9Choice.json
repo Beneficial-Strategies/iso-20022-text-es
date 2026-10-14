@@ -1,0 +1,12 @@
+{
+  "isoType": "ReplacementProcessingStatus9Choice",
+  "definition": "Elección de formato para el estado de procesamiento de la sustitución.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado de procesamiento de la solicitud de sustitución."
+    },
+    "Proprietary": {
+      "definition": "Proporciona el estado de procesamiento de la solicitud de sustitución."
+    }
+  }
+}

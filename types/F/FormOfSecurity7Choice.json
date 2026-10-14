@@ -1,0 +1,12 @@
+{
+  "isoType": "FormOfSecurity7Choice",
+  "definition": "Elección del formato para la forma de los valores.",
+  "isoElements": {
+    "Code": {
+      "definition": "Forma del valor expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Forma del valor expresada como código propietario."
+    }
+  }
+}

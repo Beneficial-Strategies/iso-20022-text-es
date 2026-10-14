@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionReversalReason12Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el motivo de la reversión.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo de la reversión."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del motivo de la reversión."
+    }
+  }
+}

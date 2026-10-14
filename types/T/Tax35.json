@@ -1,0 +1,24 @@
+{
+  "isoType": "Tax35",
+  "definition": "Impuesto relacionado con una orden de fondo de inversión.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de impuesto."
+    },
+    "AppliedAmount": {
+      "definition": "Importe de dinero resultante del cálculo del impuesto."
+    },
+    "AppliedRate": {
+      "definition": "Tasa utilizada para calcular el impuesto."
+    },
+    "Country": {
+      "definition": "País en el que se debe el impuesto."
+    },
+    "RecipientIdentification": {
+      "definition": "Parte que recibe el impuesto. El destinatario del impuesto y la parte con derecho a él pueden ser dos partes distintas."
+    },
+    "TaxCalculationDetails": {
+      "definition": "Información utilizada para calcular el impuesto."
+    }
+  }
+}

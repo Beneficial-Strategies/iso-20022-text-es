@@ -1,0 +1,12 @@
+{
+  "isoType": "NetDividendRate2",
+  "definition": "Importe del dividendo en efectivo por acción después de deducciones o desgravaciones.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Tipo de valores subyacentes a los que está vinculada la tasa, p. ej., el valor subyacente por el que se paga un interés."
+    },
+    "Amount": {
+      "definition": "Valor expresado como importe."
+    }
+  }
+}

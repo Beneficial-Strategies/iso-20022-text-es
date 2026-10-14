@@ -1,0 +1,89 @@
+{
+  "isoType": "SecuritiesTradeDetails133",
+  "definition": "Detalles de la operación de valores.",
+  "isoElements": {
+    "TradeIdentification": {
+      "definition": "Referencia asignada a la operación comercial por el inversor o la parte negociadora. Esta referencia se utilizará durante todo el ciclo de vida de la operación comercial para acceder a sus detalles o actualizarlos."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Identificación inequívoca de una operación de garantía asignada por la parte instructora."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado en el que se ha ejecutado una operación de negociación."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestructura que puede formar parte de una cámara de compensación y que facilita la compensación y liquidación para sus miembros interponiéndose entre el comprador y el vendedor. Puede compensar operaciones por saldos netos y se sustituye a sí misma como contraparte de liquidación de cada posición."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "LateDeliveryDate": {
+      "definition": "Fecha y hora posteriores a la fecha de liquidación especificada en la operación, utilizadas para operaciones de pool resultantes de los valores originales por asignar (To Be Assigned, TBA)."
+    },
+    "DealPrice": {
+      "definition": "Especifica el precio del instrumento financiero negociado.|Es el precio de la operación individual.|Si solo hay una operación bursátil para la ejecución de la negociación, el precio pactado podría ser igual al precio de ejecución (salvo, por ejemplo, que el precio incluya comisiones o redondeos, o que se haya aplicado algún otro factor al precio pactado o al precio de ejecución, o a ambos)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días en los que se devenga el tipo de interés (nota de devengo diario)."
+    },
+    "OpeningClosing": {
+      "definition": "Especifica información adicional relativa al procesamiento de la operación."
+    },
+    "Reporting": {
+      "definition": "Especifica que una operación debe notificarse a un tercero."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica las condiciones en las que se va a ejecutar o se ejecutó la orden/operación."
+    },
+    "InvestorCapacity": {
+      "definition": "Especifica el papel del inversor en la operación."
+    },
+    "TradeOriginatorRole": {
+      "definition": "Especifica el papel de la parte negociadora en la operación."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica el tipo de precio e información sobre el precio."
+    },
+    "CurrencyToBuyOrSell": {
+      "definition": "Se instruye a la entidad gestora de la cuenta que compre la divisa indicada tras la recepción del producto en efectivo o que venda la divisa indicada para obtener la divisa necesaria para financiar la operación."
+    },
+    "MatchingStatus": {
+      "definition": "Proporciona la situación de casamiento de la instrucción."
+    },
+    "AffirmationStatus": {
+      "definition": "Estado de afirmación de una operación."
+    },
+    "FXAdditionalDetails": {
+      "definition": "Proporciona detalles adicionales relativos a las instrucciones de cambio de divisas."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre el tratamiento de la liquidación que no puede incluirse en los campos estructurados del mensaje."
+    }
+  },
+  "isoRules": {
+    "CurrencyToBuyOrSellRule": {
+      "definition": "CurrencyToBuy y CurrencyToSell en el componente de mensaje TradeDetails constituyen una instrucción a la entidad gestora de la cuenta para que ejecute una operación de cambio de divisas por cuenta del titular de la cuenta. La finalidad de la operación de cambio es financiar la compra de valores. Este campo no debe utilizarse cuando se hayan establecido instrucciones permanentes. ||Si se utiliza CurrencyToSell, ello implica lo siguiente:|- la instrucción es una recepción.|- la divisa necesaria para financiar una compra de valores, por ejemplo, la divisa que se va a comprar, es la divisa del importe de liquidación. La divisa que se va a vender para obtener la divisa de liquidación se indica mediante el elemento de mensaje de divisa a vender. Normalmente, es la divisa base de la cartera. |- el importe de divisa que se va a comprar es igual al importe de liquidación de la operación. Esto implica que la operación de cambio no se utilizará para otras operaciones y que una operación de cambio global debe instruirse por otros medios. |- una operación de cambio para financiar la compra de valores debe ejecutarse a tiempo para que la divisa esté disponible en la fecha de liquidación de la operación de valores. |- se ha establecido un acuerdo bilateral sobre el uso de este campo.||Si se utiliza CurrencyToBuy, ello implica lo siguiente:|- la instrucción es una entrega|- la divisa recibida como producto de la venta de valores, por ejemplo, la divisa que se va a vender, es la divisa del importe de liquidación. La divisa que se va a comprar se indica mediante el elemento de mensaje de divisa a comprar. Si el producto se repatría, es en la divisa base de la cartera. |- el importe de divisa que se va a vender es igual al importe de liquidación de la operación. Esto implica que una operación de cambio global debe instruirse por otros medios. |- una operación de cambio para repatriar el producto tras la venta de valores debe ejecutarse para la fecha valor más próxima posible tras la liquidación de los valores, según lo permita la convención del mercado. |- se ha establecido un acuerdo bilateral sobre el uso de este campo."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "Si se utiliza PlaceOfTrade y existe un MIC de ISO 10383 para el mercado que se va a identificar, entonces debe utilizarse el Market Identifier Code (MIC) de ISO 10383."
+    },
+    "LateDeliveryDateRule": {
+      "definition": "Si se utiliza LateDeliveryDate, entonces la operación debe ser una operación de pool resultante del TBA (To Be Announced) original. El TBA original se compensaría con una operación opuesta y se sustituiría por compras o ventas de pools individuales. Es una fecha posterior a la fecha de liquidación indicada en la operación, para pools diseñados para liquidarse con retraso."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Si Trade Date/Time se utiliza con una hora o una hora + indicador UTC, debe ser la hora local del lugar de la operación, por ejemplo, de la bolsa de valores, o del corredor vendedor en el caso de operaciones OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si FXAdditionalDetails y/o SettlementInstructionProcessingAdditionalDetails están presentes, entonces no deben contener información que pueda facilitarse en un campo estructurado."
+    },
+    "InvestorCapacityRule": {
+      "definition": "Si se utiliza InvestorCapacity, entonces el uso de los códigos debe acordarse bilateralmente."
+    },
+    "TradeDateGuideline": {
+      "definition": "Además de la fecha de liquidación (obligatoria en ISO 20022), la fecha de contratación es uno de los 10 elementos comunes recomendados por el SMPG para las instrucciones de liquidación de renta variable y renta fija.|Para más detalles, consulte el documento de práctica de mercado correspondiente en www.smpg.info."
+    }
+  }
+}

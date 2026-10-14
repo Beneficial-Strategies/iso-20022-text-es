@@ -1,0 +1,14 @@
+{
+  "isoType": "CRSSourceStatus1Code",
+  "definition": "Especifica la fuente del estatus del Estándar Común de Comunicación de Información (CRS).",
+  "isoCodes": {
+    "CALC": {
+      "name": "Calculado",
+      "definition": "La fuente del estatus del Estándar Común de Comunicación de Información (CRS) es calculada."
+    },
+    "DECL": {
+      "name": "Declarado",
+      "definition": "La fuente del estatus del Estándar Común de Comunicación de Información (CRS) es la declarada por el inversor."
+    }
+  }
+}

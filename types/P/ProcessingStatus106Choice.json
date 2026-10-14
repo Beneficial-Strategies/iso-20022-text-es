@@ -1,0 +1,24 @@
+{
+  "isoType": "ProcessingStatus106Choice",
+  "definition": "Elección del formato del estado de tratamiento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la solicitud."
+    },
+    "Rejected": {
+      "definition": "La solicitud de modificación ha sido rechazada para su posterior procesamiento."
+    },
+    "Completed": {
+      "definition": "La solicitud de modificación se ha completado."
+    },
+    "Denied": {
+      "definition": "La solicitud de modificación no se ejecutará."
+    },
+    "Pending": {
+      "definition": "La modificación está pendiente. Por el momento no se sabe si la modificación puede efectuarse."
+    },
+    "Proprietary": {
+      "definition": "Estado que no puede notificarse mediante ninguno de los estados estándar disponibles."
+    }
+  }
+}

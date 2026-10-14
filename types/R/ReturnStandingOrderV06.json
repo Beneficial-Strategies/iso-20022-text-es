@@ -1,0 +1,4 @@
+{
+  "isoType": "ReturnStandingOrderV06",
+  "definition": "Ámbito|El mensaje ReturnStandingOrder lo envía un administrador de operaciones a un miembro.|Se utiliza para facilitar información sobre los detalles de una o más órdenes permanentes, a partir de criterios específicos de solicitud y de devolución.|en respuesta a una solicitud de información sobre órdenes permanentes y predefinidas.|Uso|El mensaje ReturnStandingOrder enumera la orden permanente según los siguientes criterios de devolución posibles: |- Detalles genéricos de la orden permanente,|- Detalles de una orden de transferencia de liquidez predefinida o permanente específica,|- Detalles del conjunto al que pertenece la orden permanente,|- Lista de todas las órdenes de transferencia de liquidez predefinidas y permanentes y, o bien, por conjunto,|- Importe total de las órdenes de transferencia de liquidez predefinidas y permanentes definidas en el sistema."
+}

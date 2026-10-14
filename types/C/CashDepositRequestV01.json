@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositRequestV01",
+  "definition": "El mensaje CashDepositRequest lo envía un remitente del efectivo a un receptor del efectivo para solicitar que se pueda entregar efectivo para su ingreso en una cuenta."
+}

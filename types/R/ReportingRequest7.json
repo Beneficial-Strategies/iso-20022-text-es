@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportingRequest7",
+  "definition": "Proporciona información adicional sobre la solicitud de información.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única, asignada por el titular de la cuenta, para identificar de forma inequívoca la solicitud de información de la cuenta."
+    },
+    "RequestedMessageNameIdentification": {
+      "definition": "Especifica el tipo de mensaje de información solicitado."
+    },
+    "Account": {
+      "definition": "Identificación inequívoca de la cuenta a la que se refiere la solicitud de información."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular, es decir, gestiona el registro y la contabilización de los apuntes de la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "ReportingPeriod": {
+      "definition": "Especifica el periodo de informe solicitado."
+    },
+    "ReportingSequence": {
+      "definition": "Especifica el rango de números de secuencia de identificación que se solicitan."
+    },
+    "RequestedTransactionType": {
+      "definition": "Identifica las operaciones que se deben notificar."
+    },
+    "RequestedBalanceType": {
+      "definition": "Proporciona información sobre la notificación de saldos solicitada."
+    }
+  }
+}

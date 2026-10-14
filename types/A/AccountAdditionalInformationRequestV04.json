@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountAdditionalInformationRequestV04",
+  "definition": "El mensaje AccountAdditionalInformationRequest lo envía una entidad financiera a una organización como parte del proceso de mantenimiento. Este mensaje se envía en respuesta a un mensaje de solicitud de mantenimiento de la organización, si el contenido comercial es válido pero se requiere información adicional."
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "OriginatorRole2Code",
+  "definition": "Especifica el papel de la parte negociadora en la operación.",
+  "isoCodes": {
+    "SINT": {
+      "name": "Internalizador sistemático",
+      "definition": "Empresas que, de forma organizada, frecuente y sistemática, operan por cuenta propia ejecutando órdenes de clientes fuera de un mercado regulado o de un sistema multilateral de negociación (MTF). Los SI tendrán la obligación de proporcionar y hacer públicas cotizaciones firmes de compra y venta para valores líquidos. Actúan como \"mini\" bolsas."
+    },
+    "MLTF": {
+      "name": "Sistema multilateral de negociación",
+      "definition": "Sistema multilateral que reúne múltiples intereses de compra y venta de terceros en instrumentos financieros de manera que se celebre un contrato."
+    },
+    "RMKT": {
+      "name": "Mercado regulado",
+      "definition": "Mercado en el que pueden negociarse instrumentos financieros conforme a las reglas definidas por la bolsa de valores."
+    },
+    "MKTM": {
+      "name": "Creador de mercado",
+      "definition": "Intermediario o especialista que negocia por cuenta propia en el mercado extrabursátil (OTC). Se espera que los creadores de mercado mantengan un mercado ordenado estando disponibles para comprar o vender."
+    },
+    "INVE": {
+      "name": "Inversor",
+      "definition": "Parte, ya sea una persona física u organización, cuyos activos se están invirtiendo."
+    },
+    "TAGT": {
+      "name": "Agente de transferencias",
+      "definition": "Parte designada por la sociedad gestora del fondo. Actualiza los registros de las cuentas de los inversores para reflejar las suscripciones, reembolsos, traspasos, transferencias y nuevos registros diarios de los inversores. Garantiza la liquidación puntual de las operaciones y puede facilitar información fiscal al inversor y/o a sus intermediarios. Puede calcular, cobrar y reembolsar comisiones. Prepara y distribuye confirmaciones que reflejan las operaciones, de las que resultan movimientos de participaciones o de efectivo para el inversor o para el intermediario del inversor. Responde a las consultas sobre el estado de la cuenta y procesa la distribución de ingresos."
+    }
+  }
+}

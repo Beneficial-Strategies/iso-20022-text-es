@@ -1,0 +1,21 @@
+{
+  "isoType": "TaxCalculation1",
+  "definition": "Especifica los detalles del cálculo de impuestos.",
+  "isoElements": {
+    "HostCurrency": {
+      "definition": "Divisa a la que deben convertirse todos los totales de servicios imponibles para calcular los impuestos adeudados en esta región fiscal. Es también la divisa en la que normalmente se presenta el pago de las obligaciones fiscales a la autoridad fiscal."
+    },
+    "TaxableServiceChargeConversion": {
+      "definition": "Conversiones a la divisa de la jurisdicción fiscal del importe del cargo de servicio imponible. ||Uso: Debe estar presente una ocurrencia por cada divisa de tarificación de servicio distinta del extracto."
+    },
+    "TotalTaxableServiceChargeHostAmount": {
+      "definition": "Total de todos los servicios sujetos a impuestos de una región fiscal específica. ||Uso: |Este campo será igual a la suma de todos los totales equivalentes separados del cargo fiscal por servicio en la divisa de la jurisdicción fiscal de cada divisa individual. Se expresa en la divisa de la jurisdicción fiscal de la región fiscal. Este total se utiliza para determinar el impuesto adeudado calculando con la tarifa de cada identificación fiscal."
+    },
+    "TaxIdentification": {
+      "definition": "Contempla la identificación fiscal específica dentro de la misma región fiscal. ||Uso: Pueden facilitarse como máximo tres identificaciones fiscales específicas. Estos elementos utilizan el importe imponible total en la divisa de la jurisdicción fiscal como base del cálculo. |Este elemento solo es válido para el método C."
+    },
+    "TotalTax": {
+      "definition": "Importe total de todos los impuestos de un cliente específico dentro de la región fiscal. Es la suma de todos los importes totales de impuestos individuales por identificación fiscal, expresada en la divisa de la jurisdicción fiscal de la región fiscal."
+    }
+  }
+}

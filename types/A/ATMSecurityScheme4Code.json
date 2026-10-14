@@ -1,0 +1,42 @@
+{
+  "isoType": "ATMSecurityScheme4Code",
+  "definition": "Esquemas de seguridad de intercambio de claves implementados en el módulo de seguridad de hardware del cajero automático (ATM).",
+  "isoCodes": {
+    "APPK": {
+      "name": "Carga remota de claves de aplicación",
+      "definition": "Descarga de claves de aplicación protegida por una clave simétrica compartida."
+    },
+    "CERT": {
+      "name": "Carga remota de claves por certificado",
+      "definition": "Descarga de claves protegida por claves asimétricas autenticadas mediante un certificado."
+    },
+    "FRAN": {
+      "name": "Carga remota de claves (esquema francés)",
+      "definition": "Descarga de claves conforme al esquema de seguridad francés de descarga de claves de cajeros automáticos (ATM)."
+    },
+    "DTCH": {
+      "name": "Carga remota de claves (esquema alemán)",
+      "definition": "Descarga de claves conforme al esquema de seguridad alemán de descarga de claves de cajeros automáticos (ATM)."
+    },
+    "LUXG": {
+      "name": "Carga remota de claves (esquema luxemburgués)",
+      "definition": "Descarga de claves conforme al esquema de seguridad luxemburgués de descarga de claves de cajeros automáticos (ATM)."
+    },
+    "MANU": {
+      "name": "Introducción manual de claves",
+      "definition": "Introducción manual de claves en el cajero automático (ATM)."
+    },
+    "PKIP": {
+      "name": "Descarga de claves por PKI",
+      "definition": "Descarga de claves protegida por claves asimétricas autenticadas mediante una PKI (infraestructura de clave pública)."
+    },
+    "SIGN": {
+      "name": "Carga remota de claves por firma",
+      "definition": "Descarga de claves protegida por claves asimétricas autenticadas mediante una firma digital."
+    },
+    "TR34": {
+      "name": "TR34",
+      "definition": "Esquema ANSI X9 TR34 2012 para la distribución de las claves públicas simétricas y de la clave maestra inicial."
+    }
+  }
+}

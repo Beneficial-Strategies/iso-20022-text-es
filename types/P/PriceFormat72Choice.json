@@ -1,0 +1,24 @@
+{
+  "isoType": "PriceFormat72Choice",
+  "definition": "Elección entre un precio porcentual, un precio en importe, un precio no especificado, un precio en importe por importe o un precio en importe por cantidad de instrumento financiero.",
+  "isoElements": {
+    "PercentagePrice": {
+      "definition": "Precio expresado como porcentaje."
+    },
+    "AmountPrice": {
+      "definition": "Precio expresado como divisa e importe."
+    },
+    "NotSpecifiedPrice": {
+      "definition": "Valor del precio no especificado."
+    },
+    "AmountPricePerFinancialInstrumentQuantity": {
+      "definition": "Precio expresado como una proporción: precio en importe por cantidad de instrumento financiero."
+    },
+    "AmountPricePerAmount": {
+      "definition": "Precio expresado como una proporción: precio en importe por importe."
+    },
+    "IndexPoints": {
+      "definition": "Precio expresado en puntos de índice."
+    }
+  }
+}

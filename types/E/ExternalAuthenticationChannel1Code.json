@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalAuthenticationChannel1Code",
+  "definition": "Especifica el canal de autenticación de la operación, tal como se publica en un conjunto de códigos externo de canales de autenticación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "ATMA": {
+      "name": "ATM",
+      "definition": "Autenticación facilitada a través de cajero automático (ATM)"
+    },
+    "CARD": {
+      "name": "Tarjeta",
+      "definition": "Autenticación facilitada a través de tarjeta"
+    },
+    "INBA": {
+      "name": "Banca por internet",
+      "definition": "Autenticación facilitada a través de banca por Internet"
+    },
+    "MOBI": {
+      "name": "Móvil",
+      "definition": "Autenticación facilitada a través de móvil"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "GetStandingOrderV05",
+  "definition": "Ámbito|El mensaje GetStandingOrder es enviado por un miembro al administrador de operaciones.|Se utiliza para solicitar información sobre los detalles de una o varias órdenes permanentes, a partir de criterios de solicitud específicos, en especial para consultar el importe de la liquidez total disponible. Permitirá consultar tanto la liquidez reservada como la liquidez disponible para operaciones normales.|Uso|El miembro puede solicitar información basada en los siguientes elementos: |- órdenes permanentes individuales (órdenes permanentes predefinidas o de transferencia de liquidez)|- importe|- cuenta que se va a abonar|- cuenta que se va a adeudar|- titular de la cuenta (para el escenario por cuenta de terceros)|- frecuencia de pago|- procesamiento diurno o nocturno|- fechas de inicio y de fin de la vigencia de la orden permanente|Este mensaje será respondido con un mensaje ReturnStandingOrder."
+}

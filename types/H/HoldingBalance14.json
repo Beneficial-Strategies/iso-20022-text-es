@@ -1,0 +1,18 @@
+{
+  "isoType": "HoldingBalance14",
+  "definition": "Posición neta de una tenencia segregada de un único valor dentro de la posición global mantenida en la cuenta de valores, por ejemplo, subsaldo por estado.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Cantidad total de instrumento financiero de la posición referenciada."
+    },
+    "BalanceType": {
+      "definition": "Motivo por el que un valor no está disponible o información adicional sobre el instrumento financiero para el que se indica el saldo, por ejemplo, no registrado, registrado a nombre de un nominatario."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "Date": {
+      "definition": "Fecha del derecho."
+    }
+  }
+}

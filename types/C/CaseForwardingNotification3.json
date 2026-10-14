@@ -1,0 +1,9 @@
+{
+  "isoType": "CaseForwardingNotification3",
+  "definition": "Estado de un caso resultante de una asignación de caso.",
+  "isoElements": {
+    "Justification": {
+      "definition": "Justificación de la acción de reenvío."
+    }
+  }
+}

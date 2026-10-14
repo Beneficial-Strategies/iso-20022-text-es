@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentTypeInformation28",
+  "definition": "Proporciona más detalles sobre el tipo de pago.",
+  "isoElements": {
+    "InstructionPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la parte instructora desea que la parte instruida aplique al tratamiento de la instrucción."
+    },
+    "ClearingChannel": {
+      "definition": "Especifica el canal de compensación que se utilizará para tramitar la instrucción de pago."
+    },
+    "ServiceLevel": {
+      "definition": "Acuerdo o normas con arreglo a los cuales debe tramitarse la operación."
+    },
+    "LocalInstrument": {
+      "definition": "Instrumento específico de la comunidad de usuarios.||Uso: Este elemento se utiliza para especificar un instrumento local, una opción de compensación local y/o para calificar más el servicio o el nivel de servicio."
+    },
+    "CategoryPurpose": {
+      "definition": "Especifica la finalidad general de la instrucción a partir de un conjunto de categorías predefinidas.|Uso: Lo utiliza la parte iniciadora para facilitar información relativa al tratamiento del pago. Es probable que desencadene un tratamiento especial por parte de cualquiera de las entidades que intervienen en la cadena de pago."
+    }
+  }
+}

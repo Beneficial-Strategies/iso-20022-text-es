@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementParties120",
+  "definition": "Proporciona una parte de liquidación mediante una elección entre un BIC, un nombre y dirección o una identificación de parte.",
+  "isoElements": {
+    "DeliveryAgent": {
+      "definition": "Entidad financiera desde la que se transferirá el efectivo."
+    },
+    "Intermediary": {
+      "definition": "Parte, dentro de la cadena de liquidación, situada entre las entidades entregadora y receptora."
+    },
+    "ReceivingAgent": {
+      "definition": "Entidad financiera en la que el beneficiario recibirá los fondos."
+    },
+    "BeneficiaryInstitution": {
+      "definition": "Entidad final que recibirá los fondos cuando sea distinta de la parte negociadora o de la contraparte."
+    }
+  }
+}

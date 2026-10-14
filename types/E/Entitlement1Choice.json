@@ -1,0 +1,12 @@
+{
+  "isoType": "Entitlement1Choice",
+  "definition": "Elección del método de cálculo del derecho.",
+  "isoElements": {
+    "EntitlementRatio": {
+      "definition": "Número de votos asignados a un valor."
+    },
+    "EntitlementDescription": {
+      "definition": "Especifica el método de cálculo del número de votos asignados a un valor. Este elemento debe utilizarse cuando la regla de cálculo del derecho es compleja."
+    }
+  }
+}

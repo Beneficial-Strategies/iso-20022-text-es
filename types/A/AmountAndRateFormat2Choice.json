@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndRateFormat2Choice",
+  "definition": "Elección de formatos de tasa.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Número de unidades monetarias especificadas en una divisa."
+    },
+    "NotSpecifiedRate": {
+      "definition": "La tasa no está especificada."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountReportingRequestV07",
+  "definition": "Ámbito|El mensaje AccountReportingRequest es enviado por el titular de la cuenta, directamente o a través de una entidad de reenvío, a una de sus entidades gestoras de cuentas. Se utiliza para solicitar a la entidad gestora de la cuenta que envíe un informe sobre la cuenta del titular en un BankToCustomerAccountReport (camt.052), un BankToCustomerStatement (camt.053) o un BankToCustomerDebitCreditNotification (camt.054)."
+}

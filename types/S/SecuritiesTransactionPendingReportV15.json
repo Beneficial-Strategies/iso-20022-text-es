@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesTransactionPendingReportV15",
+  "definition": "Alcance|SecuritiesTransactionPendingReport  es enviado por un administrador de cuentas a un titular de cuenta para proporcionar, a una hora determinada, el detalle de los aumentos y disminuciones de posiciones pendientes, para todos los valores o para valores seleccionados de una cuenta de custodia especificada, para todos los motivos o para motivos seleccionados por los que la operación está pendiente. |La relación entre administrador de cuentas y titular puede ser:|- un depositario central de valores u otra infraestructura de mercado de liquidación que actúa en nombre de sus participantes|- un agente (subcustodio) que actúa en nombre de su cliente custodio global, o |- un custodio que actúa en nombre de una institución de gestión de inversiones o de un corredor/intermediario.||Uso|El estado también puede incluir operaciones de liquidación futura o a plazo que han pasado a ser vinculantes para el titular de la cuenta.|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

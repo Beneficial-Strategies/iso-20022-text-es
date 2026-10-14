@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxationBasis5Code",
+  "definition": "Especifica la base del impuesto o del gasto.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Importe fijo",
+      "definition": "La base del gasto o impuesto es una cantidad global."
+    },
+    "GRAM": {
+      "name": "Importe bruto",
+      "definition": "La base del gasto, comisión o impuesto es el importe bruto."
+    },
+    "NEAM": {
+      "name": "Importe neto",
+      "definition": "La base del gasto, comisión o impuesto es el importe neto."
+    },
+    "NAVP": {
+      "name": "Precio del valor liquidativo",
+      "definition": "La base del gasto o impuesto es el precio."
+    },
+    "PERU": {
+      "name": "Por unidad",
+      "definition": "La base del gasto o impuesto es por unidad de instrumento financiero."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PlaceOfTradeIdentification2",
+  "definition": "Identificación del mercado en el que se ha ejecutado una operación bursátil.",
+  "isoElements": {
+    "MarketTypeAndIdentification": {
+      "definition": "Identificación y tipo del lugar de negociación."
+    },
+    "LEI": {
+      "definition": "Identificación de entidad jurídica como identificación alternativa de un lugar de negociación."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "SenderBusinessRole1Code",
+  "definition": "Especifica si el mensaje lo envía un titular de cuenta o una entidad gestora de la cuenta.",
+  "isoCodes": {
+    "AOWN": {
+      "name": "Titular de la cuenta",
+      "definition": "El emisor es el titular de la cuenta de valores en custodia. El emisor revela al receptor el desglose de los titulares subyacentes de las posiciones del emisor."
+    },
+    "ASER": {
+      "name": "Entidad gestora de la cuenta",
+      "definition": "El emisor es la entidad gestora de una cuenta cuyo titular es el receptor."
+    }
+  }
+}

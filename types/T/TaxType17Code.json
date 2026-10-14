@@ -1,0 +1,78 @@
+{
+  "isoType": "TaxType17Code",
+  "definition": "Especifica el tipo de impuesto.",
+  "isoCodes": {
+    "PROV": {
+      "name": "Provincial",
+      "definition": "El impuesto es un impuesto provincial."
+    },
+    "NATI": {
+      "name": "Impuesto nacional",
+      "definition": "El impuesto es un impuesto nacional."
+    },
+    "STAT": {
+      "name": "Impuesto estatal",
+      "definition": "El impuesto es un impuesto estatal."
+    },
+    "WITH": {
+      "name": "Retención fiscal",
+      "definition": "El impuesto grava la renta retenida en origen, que el agente pagador está legalmente obligado a retener de sus pagos de intereses de depósitos y otros rendimientos de un instrumento financiero."
+    },
+    "KAPA": {
+      "name": "Impuesto sobre plusvalías",
+      "definition": "El impuesto grava una plusvalía (realizada y no realizada), es decir, el beneficio obtenido de la venta de un instrumento financiero."
+    },
+    "NKAP": {
+      "name": "Crédito por minusvalías",
+      "definition": "La recuperación del impuesto se debe a una minusvalía."
+    },
+    "INPO": {
+      "name": "Impuesto sobre beneficios intermedios",
+      "definition": "El impuesto grava la suma de todos los ingresos o rendimientos devengados desde la última distribución de dividendos."
+    },
+    "STAM": {
+      "name": "Impuesto de timbre",
+      "definition": "El impuesto grava determinados documentos y operaciones."
+    },
+    "WTAX": {
+      "name": "Impuesto sobre el patrimonio",
+      "definition": "Impuesto especial aplicable únicamente cuando el valor de los activos o de categorías de activos que posee una entidad supera un límite determinado por la autoridad fiscal. El impuesto sobre el patrimonio no está vinculado a la renta."
+    },
+    "INHT": {
+      "name": "Impuesto sobre sucesiones",
+      "definition": "Impuesto pagadero en el momento del fallecimiento sobre cualquier bien (dinero u otro), cuando la titularidad cambia con el fallecimiento o dentro de un número de años legalmente especificado antes del fallecimiento."
+    },
+    "SOSU": {
+      "name": "Recargo de solidaridad",
+      "definition": "Impuesto que las autoridades legales aplican con fines de solidaridad."
+    },
+    "CTAX": {
+      "name": "Crédito fiscal",
+      "definition": "Reducción directa de la carga fiscal de una persona."
+    },
+    "GIFT": {
+      "name": "Impuesto sobre donaciones",
+      "definition": "Impuesto que grava los activos entregados a personas antes del fallecimiento del donante. El impuesto sobre donaciones está concebido para garantizar la integridad del impuesto sobre sucesiones, evitando la transferencia de patrimonio antes del fallecimiento."
+    },
+    "COAX": {
+      "name": "Impuesto sobre el consumo",
+      "definition": "Impuesto que grava los bienes y servicios adquiridos por los clientes y que se añade al precio de venta al público."
+    },
+    "EUTR": {
+      "name": "Retención fiscal de la EU",
+      "definition": "Impuesto retenido en origen en el marco de la Directiva europea sobre fiscalidad de los rendimientos del ahorro en forma de pago de intereses."
+    },
+    "AKT1": {
+      "name": "Aktiengewinn1",
+      "definition": "Beneficio vinculado a las acciones. Es un impuesto específico del mercado alemán. El beneficio vinculado a las acciones da al fondo la posibilidad de transferir al inversor institucional que reembolsa participaciones del fondo determinados ingresos exentos de impuestos procedentes de renta variable. El método de cálculo se basa en la antigua Ley del Impuesto sobre las Inversiones (Investmentsteuergesetz)."
+    },
+    "AKT2": {
+      "name": "Aktiengewinn2",
+      "definition": "Beneficio vinculado a las acciones. Es un impuesto específico del mercado alemán. El beneficio vinculado a las acciones da al fondo la posibilidad de transferir al inversor institucional que reembolsa participaciones del fondo determinados ingresos exentos de impuestos procedentes de renta variable. El método de cálculo se basa en la nueva Ley del Impuesto sobre las Inversiones (Investmentsteuergesetz)."
+    },
+    "ZWIS": {
+      "name": "Zwischengewinn",
+      "definition": "Zwischengewinn."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesTransactionStatusQuery002V06",
+  "definition": "Ámbito|Un titular de cuenta envía un SecuritiesTransactionStatusQuery a una entidad gestora de cuentas para solicitar el estado de una operación con valores.|La relación entre titular de la cuenta y entidad gestora puede ser:|- un custodio global que tiene una cuenta en un custodio local, o|- una entidad de gestión de inversiones que gestiona una cuenta de fondo abierta en un custodio, o|- un corredor que tiene una cuenta en un custodio, o|- un participante de un depositario central de valores que tiene una cuenta en un depositario central de valores, o|- un depositario central de valores que tiene una cuenta en un custodio, en otro depositario central de valores o en otra infraestructura de mercado de liquidación, o|- una contraparte central, una bolsa de valores o un servicio de cotejo de operaciones que necesita dar instrucciones a un depositario central de valores o a otra infraestructura de mercado de liquidación.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

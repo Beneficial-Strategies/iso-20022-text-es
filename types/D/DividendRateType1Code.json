@@ -1,0 +1,10 @@
+{
+  "isoType": "DividendRateType1Code",
+  "definition": "Especifica el tipo de tasa de dividendo.",
+  "isoCodes": {
+    "TXBL": {
+      "name": "Parte sujeta a impuestos",
+      "definition": "Tasa relativa al valor subyacente por el que se cobra impuesto."
+    }
+  }
+}

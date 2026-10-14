@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingTransaction8Choice",
+  "definition": "Proporciona detalles de la operación subyacente sobre la que se tramita la investigación.",
+  "isoElements": {
+    "Initiation": {
+      "definition": "Conjunto de elementos utilizados para hacer referencia a los detalles de la iniciación de pago original."
+    },
+    "Interbank": {
+      "definition": "Conjunto de elementos utilizados para hacer referencia a los detalles de la operación de pago interbancario original."
+    },
+    "StatementEntry": {
+      "definition": "Detalles de referencia del apunte de efectivo subyacente del extracto."
+    }
+  }
+}

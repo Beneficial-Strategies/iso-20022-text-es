@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemEventType4Choice",
+  "definition": "Especifica el tipo de evento del sistema.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de evento del sistema que se ha producido, expresado en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de evento del sistema que se ha producido, expresado como texto libre o como código acordado bilateralmente.|."
+    }
+  }
+}

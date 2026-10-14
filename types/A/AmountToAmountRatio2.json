@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountToAmountRatio2",
+  "definition": "Proporción expresada como cociente de importes.",
+  "isoElements": {
+    "Amount1": {
+      "definition": "Numerador del cociente de importes."
+    },
+    "Amount2": {
+      "definition": "Denominador del cociente de importes."
+    }
+  }
+}

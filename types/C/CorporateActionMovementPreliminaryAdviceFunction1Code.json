@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionMovementPreliminaryAdviceFunction1Code",
+  "definition": "Especifica si el mensaje es un mensaje de saldo admisible final y derechos, o un mensaje de preaviso de pago.",
+  "isoCodes": {
+    "ENTL": {
+      "name": "Derecho",
+      "definition": "El mensaje es un derecho."
+    },
+    "CAPA": {
+      "name": "Preaviso de movimiento",
+      "definition": "El mensaje es un preaviso de movimiento."
+    }
+  }
+}

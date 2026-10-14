@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1",
+  "definition": "Instrucción de cambio del estado de una cuenta y motivo del cambio.",
+  "isoElements": {
+    "UpdateInstruction": {
+      "definition": "Tipo de cambio de estado instruido para el estado de la cuenta."
+    },
+    "UpdateInstructionReason": {
+      "definition": "Motivo de la instrucción de cambio del estado de la cuenta."
+    }
+  }
+}

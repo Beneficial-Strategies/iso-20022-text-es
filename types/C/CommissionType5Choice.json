@@ -1,0 +1,12 @@
+{
+  "isoType": "CommissionType5Choice",
+  "definition": "Elección de formatos para el tipo de comisión.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de comisión expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de comisión expresado como código propio."
+    }
+  }
+}

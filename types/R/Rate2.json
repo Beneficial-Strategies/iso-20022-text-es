@@ -1,0 +1,17 @@
+{
+  "isoType": "Rate2",
+  "definition": "Conjunto de elementos que califican el tipo de interés.",
+  "isoElements": {
+    "Sign": {
+      "definition": "Indica el signo del tipo."
+    },
+    "Rate": {
+      "definition": "Porcentaje cobrado por el uso de un importe de dinero, normalmente expresado como tasa anual. El tipo de interés es la relación entre el importe de intereses pagados durante un cierto período de tiempo y el importe principal del instrumento financiero que devenga intereses."
+    }
+  },
+  "isoRules": {
+    "SignRule": {
+      "definition": "Cuando Sign está presente, el tipo no debe ser cero."
+    }
+  }
+}

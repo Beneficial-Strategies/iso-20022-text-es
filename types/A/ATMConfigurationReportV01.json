@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMConfigurationReportV01",
+  "definition": "El ATMConfigurationReport lo envía un cajero automático a un host de mantenimiento para informar de la versión de la configuración que está activa."
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountUsageType2Code",
+  "definition": "Especifica el tipo de uso de la cuenta.",
+  "isoCodes": {
+    "INVE": {
+      "name": "Inversor",
+      "definition": "Inversor."
+    },
+    "ISSP": {
+      "name": "Participante emisor",
+      "definition": "Participante emisor."
+    },
+    "SETP": {
+      "name": "Participante en la liquidación",
+      "definition": "Participante de liquidación."
+    },
+    "TRDP": {
+      "name": "Participante en la negociación",
+      "definition": "Participante de negociación."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionEventProcessingType2Code",
+  "definition": "Especifica el tipo de tratamiento del evento.",
+  "isoCodes": {
+    "DISN": {
+      "name": "Distribución",
+      "definition": "El titular del valor correspondiente en una fecha determinada, por ejemplo, la fecha de registro, recibirá un beneficio sin renunciar al valor subyacente."
+    },
+    "GENL": {
+      "name": "General",
+      "definition": "Sin adeudo ni abono de recursos."
+    },
+    "REDM": {
+      "name": "Reembolso",
+      "definition": "Indica que el anuncio corresponde a un reembolso de valores, incluidos eventos de amortización total y parcial, vencimientos, prefinanciación parcial y defeasance parcial."
+    },
+    "REOR": {
+      "name": "Reorganización",
+      "definition": "El valor subyacente será adeudado y podrá ser sustituido por otro recurso (u otros recursos)."
+    }
+  }
+}

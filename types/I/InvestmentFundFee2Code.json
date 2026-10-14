@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestmentFundFee2Code",
+  "definition": "Tipo de servicio por el que se solicita o se paga una comisión.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Comisión de salida",
+      "definition": "Comisión pagada por el inversor al fondo o a la gestora del fondo en el reembolso."
+    },
+    "FEND": {
+      "name": "Comisión de entrada",
+      "definition": "Comisión pagada por el inversor al fondo o a la gestora del fondo en la suscripción."
+    },
+    "TRAN": {
+      "name": "Comisión de traspaso",
+      "definition": "En fondos de inversión, comisión cobrada por la transmisión de la titularidad de un fondo de inversión."
+    },
+    "POST": {
+      "name": "Gastos de franqueo",
+      "definition": "Gastos de franqueo."
+    },
+    "REGF": {
+      "name": "Tasa regulatoria",
+      "definition": "Comisión cobrada por una autoridad reguladora, por ejemplo, tasas de valores y bolsa."
+    },
+    "SHIP": {
+      "name": "Gastos de envío",
+      "definition": "Gastos de envío, incluido el seguro de los valores."
+    },
+    "SPCN": {
+      "name": "Concesiones especiales",
+      "definition": "Comisiones, retirada de fondos u otra reducción o adición respecto al precio de la operación."
+    }
+  }
+}

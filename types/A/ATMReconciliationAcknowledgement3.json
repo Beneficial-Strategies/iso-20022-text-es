@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMReconciliationAcknowledgement3",
+  "definition": "Información relativa al acuse de recibo de una conciliación de cajero automático (ATM) por parte del gestor de cajeros automáticos.",
+  "isoElements": {
+    "ATM": {
+      "definition": "Información del cajero automático (ATM)."
+    },
+    "Transaction": {
+      "definition": "Información sobre la respuesta de conciliación."
+    }
+  }
+}

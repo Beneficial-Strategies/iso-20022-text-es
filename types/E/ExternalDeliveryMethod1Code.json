@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalDeliveryMethod1Code",
+  "definition": "Especifica el código externo del método de entrega, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa que se publica por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "CITC": {
+      "name": "Efectivo en tránsito",
+      "definition": "El efectivo es entregado por un transportista seguro."
+    },
+    "AUPE": {
+      "name": "Persona autorizada",
+      "definition": "El efectivo es entregado por una persona autorizada."
+    }
+  }
+}

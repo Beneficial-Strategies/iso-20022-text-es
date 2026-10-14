@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationStatusReason1Choice",
+  "definition": "Especifica el motivo del estado de modificación de la operación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado de modificación, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado, en forma propietaria."
+    }
+  }
+}

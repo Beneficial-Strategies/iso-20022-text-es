@@ -1,0 +1,41 @@
+{
+  "isoType": "SecuritiesFinancingInstruction002V11",
+  "definition": "Alcance|Un titular de la cuenta envía una SecuritiesFinancingInstruction a un administrador de la cuenta de operaciones de financiación con valores para notificarle los detalles de un acuerdo de recompra, un acuerdo de recompra inverso, un préstamo de valores o una toma en préstamo de valores, a fin de que el administrador de la cuenta pueda gestionar la liquidación y el seguimiento de la pata de apertura y de la pata de cierre de la operación.|La relación entre el titular de la cuenta y el administrador puede ser:|- un custodio global que tiene una cuenta en un custodio local, o|- una entidad de gestión de inversiones que gestiona una cuenta de fondo abierta en un custodio, o|- un intermediario (broker) que tiene una cuenta en un custodio, o|- un participante de un depositario central de valores que tiene una cuenta en un depositario central de valores, o|- un depositario central de valores que tiene una cuenta en un custodio, en otro depositario central de valores o en otra infraestructura del mercado de liquidación, o|- una contraparte central, una bolsa de valores o un servicio de casación de operaciones que necesita instruir la liquidación de operaciones de financiación con valores a un depositario central de valores o a otra infraestructura del mercado de liquidación.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la parte instructora."
+    }
+  },
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Si la operación es contra pago, OpeningSettlementAmount debe estar presente."
+    },
+    "SellerSSI2Rule": {
+      "definition": "Si se aplica una instrucción de liquidación permanente y la operación es una toma en préstamo de valores, Seller debe estar presente."
+    },
+    "BuyerSSI2Rule": {
+      "definition": "Si se aplica una instrucción de liquidación permanente y la operación es un préstamo de valores, Buyer debe estar presente."
+    },
+    "DeliveringDepositoryAndParty1Part1Rule": {
+      "definition": "Si la operación es un repo inverso y no se aplica ninguna instrucción de liquidación permanente, DeliveringDepository y Party1 deben estar presentes."
+    },
+    "ReceivingDepositoryAndParty1Part1Rule": {
+      "definition": "Si la operación es un repo y no se aplica ninguna instrucción de liquidación permanente, ReceivingDepository y Party1 deben estar presentes."
+    },
+    "DeliveringDepositoryAndParty1Part2Rule": {
+      "definition": "Si la operación es una toma en préstamo de valores y no se aplica ninguna instrucción de liquidación permanente, DeliveringDepository y Party1 deben estar presentes."
+    },
+    "ReceivingDepositoryAndParty1Part2Rule": {
+      "definition": "Si la operación es un préstamo de valores y no se aplica ninguna instrucción de liquidación permanente, ReceivingDepository y Party1 deben estar presentes."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    },
+    "SellerSSI1Rule": {
+      "definition": "Si se aplica una instrucción de liquidación permanente y la operación es un repo inverso, Seller debe estar presente."
+    },
+    "BuyerSSI1Rule": {
+      "definition": "Si se aplica una instrucción de liquidación permanente y la operación es un repo, Buyer debe estar presente."
+    }
+  }
+}

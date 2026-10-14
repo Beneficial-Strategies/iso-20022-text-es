@@ -1,0 +1,74 @@
+{
+  "isoType": "CorporateActionOption18Code",
+  "definition": "Especifica el tipo de opciones de la operación societaria.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Abstención",
+      "definition": "Voto expresado como abstención. En este caso, la sociedad emisora añadirá el número de acciones al quórum de la junta.|Si no se ejerce el derecho de voto, no se añadirá al quórum. En este caso, debe utilizarse el código NOAC."
+    },
+    "BSPL": {
+      "name": "Plan de acciones gratuitas",
+      "definition": "Recibir acciones de la reserva de prima de emisión de la sociedad, consideradas una distribución de capital y no un desembolso de ingresos, con distintas implicaciones fiscales (típico de Australia)."
+    },
+    "CASE": {
+      "name": "Efectivo y valores",
+      "definition": "Opción de elegir entre distintas opciones de valores y de efectivo."
+    },
+    "CASH": {
+      "name": "Efectivo",
+      "definition": "Opción de elegir efectivo."
+    },
+    "CEXC": {
+      "name": "Consentimiento y canje",
+      "definition": "Voto para consentir el cambio de las condiciones del contrato de valores y el canje de valores."
+    },
+    "CONN": {
+      "name": "Consentimiento denegado",
+      "definition": "Voto de no aprobación del evento o de la propuesta."
+    },
+    "CONY": {
+      "name": "Consentimiento otorgado",
+      "definition": "Voto de aprobación del evento o de la propuesta."
+    },
+    "CTEN": {
+      "name": "Consentimiento y oferta",
+      "definition": "Voto para consentir el cambio de las condiciones del contrato de valores y la oferta de valores a cambio de efectivo."
+    },
+    "EXER": {
+      "name": "Ejercicio",
+      "definition": "Ejercer valores intermedios o warrants."
+    },
+    "LAPS": {
+      "name": "Caducidad",
+      "definition": "Permitir que el evento o el valor con derecho expire."
+    },
+    "MPUT": {
+      "name": "Conservar",
+      "definition": "Opción que permite al titular elegir conservar su posición, por ejemplo, un bono con opción de venta."
+    },
+    "NOAC": {
+      "name": "Sin acción",
+      "definition": "Opción para que el titular de la cuenta no participe en el evento. Incluye la exclusión voluntaria en acciones colectivas y la presentación de derechos de los disidentes."
+    },
+    "OFFR": {
+      "name": "Tasa propuesta",
+      "definition": "En una recolocación de pagarés a tipo variable, el margen que los accionistas pueden proponer respecto del siguiente periodo de intereses."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Opción genérica de operación societaria que se utilizará cuando ningún otro código específico sea apropiado."
+    },
+    "OVER": {
+      "name": "Sobresuscripción",
+      "definition": "Suscribir más acciones de las que permite la posición en valores subyacentes."
+    },
+    "SECU": {
+      "name": "Seguridad",
+      "definition": "Distribución de valores a los titulares."
+    },
+    "PRUN": {
+      "name": "Producto desconocido",
+      "definition": "Se desconoce el producto durante el periodo de elección. La opción puede dar lugar a efectivo y/o valores."
+    }
+  }
+}

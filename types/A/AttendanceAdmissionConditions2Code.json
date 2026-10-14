@@ -1,0 +1,42 @@
+{
+  "isoType": "AttendanceAdmissionConditions2Code",
+  "definition": "Especifica las condiciones de admisión presencial a una junta general.",
+  "isoCodes": {
+    "MASH": {
+      "name": "Permitido para el accionista",
+      "definition": "Todo asistente debe ser él mismo accionista."
+    },
+    "MASL": {
+      "name": "Permitido si está inscrito en el libro registro de acciones",
+      "definition": "El asistente debe ser un accionista inscrito en el libro registro de acciones de la sociedad."
+    },
+    "MAPO": {
+      "name": "Permitido por cuenta de otro",
+      "definition": "Los asistentes que actúen en nombre del titular inscrito deben contar con un poder notarial (POA) válido y/o un justificante de la posición."
+    },
+    "MAAL": {
+      "name": "Permitido con lista de asistentes",
+      "definition": "Los asistentes se incluirán en una lista de asistentes y deberán llevar consigo una identificación con fotografía."
+    },
+    "MALR": {
+      "name": "Permitido con carta de representación",
+      "definition": "Los asistentes se incluirán en una lista de asistentes o recibirán una carta de representación, y deberán llevar consigo una identificación con fotografía."
+    },
+    "MAHI": {
+      "name": "Permitido con justificante",
+      "definition": "Los asistentes deben solicitar un justificante de la posición e inscribirse para asistir directamente ante el emisor."
+    },
+    "MATK": {
+      "name": "Permitido con tarjeta de entrada",
+      "definition": "A los asistentes se les expedirá una entrada y deberán llevar consigo una identificación con fotografía."
+    },
+    "MADS": {
+      "name": "Delegado permitido si está inscrito en el libro registro de acciones",
+      "definition": "El asistente debe ser un delegado del accionista inscrito en el libro registro de acciones de la sociedad."
+    },
+    "MANP": {
+      "name": "No es posible",
+      "definition": "No es posible asistir a la junta."
+    }
+  }
+}

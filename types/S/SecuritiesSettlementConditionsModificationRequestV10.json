@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesSettlementConditionsModificationRequestV10",
+  "definition": "Alcance|Un titular de la cuenta envía un SecuritiesSettlementConditionsModificationRequest a un administrador de la cuenta para solicitar la modificación de un indicador de procesamiento o de otra información que no interviene en la casación.||La relación entre el titular de la cuenta y el administrador puede ser:|- un participante de un depositario central de valores que tiene una cuenta en un depositario central de valores.|También podría ser, si así se acuerda en un acuerdo de nivel de servicio:|- un custodio global que tiene una cuenta en su agente local (subcustodio), o|- una entidad de gestión de inversiones que gestiona una cuenta de fondo abierta en un custodio, o|- un intermediario (broker) que tiene una cuenta en un custodio, o|- un depositario central de valores que tiene una cuenta en un custodio, en otro depositario central de valores o en otra infraestructura del mercado de liquidación.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.||En los mercados en que esto sea aplicable (por ejemplo, infraestructuras del mercado de valores sin proceso de casación previo a la liquidación), una parte lo utiliza para aprobar, cancelar o rechazar una operación instruida por la contraparte.||Este mensaje no puede utilizarse para solicitar la modificación de los detalles de la operación o del evento.|El uso de AdditionalInformation y de sus campos debe acordarse previamente entre el administrador de la cuenta y el titular de la cuenta. Los campos de esa secuencia no pueden utilizarse para modificar un detalle de la operación o del evento, salvo que lo autorice la práctica del mercado del país.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

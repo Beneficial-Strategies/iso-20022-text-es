@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchTechnicalRejectionV02",
+  "definition": "El mensaje AccountSwitchTechnicalRejection es enviado por la entidad de gestión del cambio de cuenta a la entidad gestora de la cuenta nueva cuando no ha podido validar un mensaje enviado previamente."
+}

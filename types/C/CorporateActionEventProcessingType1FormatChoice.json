@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingType1FormatChoice",
+  "definition": "Elección de formatos para expresar el tipo de procesamiento del evento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de procesamiento del evento."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el tipo de procesamiento del evento."
+    }
+  }
+}

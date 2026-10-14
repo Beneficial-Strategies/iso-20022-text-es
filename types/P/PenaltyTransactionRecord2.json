@@ -1,0 +1,48 @@
+{
+  "isoType": "PenaltyTransactionRecord2",
+  "definition": "Especifica información adicional de la operación a la que se aplican las penalizaciones.",
+  "isoElements": {
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Elección del tipo para la operación notificada."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "CorporateActionRelatedDate": {
+      "definition": "Fecha relacionada con un evento de operación societaria."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte que adeuda un importe de dinero al beneficiario (final)."
+    },
+    "PostingAmount": {
+      "definition": "Importe de dinero que se ha de contabilizar (o se contabilizó) en la cuenta."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se acusa recibo de la operación."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se casa la operación."
+    },
+    "SettlementStatusFailing": {
+      "definition": "La instrucción está fallida. La liquidación en la fecha de liquidación instruida ya no es posible."
+    },
+    "BusinessDayEvent": {
+      "definition": "Evento del sistema relevante para el cálculo de la penalización."
+    }
+  }
+}

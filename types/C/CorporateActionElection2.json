@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionElection2",
+  "definition": "Proporciona información sobre una solicitud de modificación de elección de evento corporativo.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "NewInstructedQuantity": {
+      "definition": "Nueva cantidad de valores instruidos tras la modificación."
+    },
+    "Reason": {
+      "definition": "El motivo de la solicitud de modificación."
+    }
+  }
+}

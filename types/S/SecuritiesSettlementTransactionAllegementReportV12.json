@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionAllegementReportV12",
+  "definition": "Alcance|Una entidad gestora de cuentas envía un SecuritiesSettlementTransactionAllegementReport a un titular de cuenta para proporcionar, en un momento determinado, el estado y los detalles de las alegaciones de liquidación pendientes, para la totalidad o una selección de los valores de una cuenta de custodia especificada.|La relación entre la entidad gestora y el titular de la cuenta puede ser:|- un depositario central de valores u otra infraestructura de mercado de liquidación que actúa en nombre de sus participantes|- un agente (subcustodio) que actúa en nombre de su cliente custodio global, o|- un custodio que actúa en nombre de una institución de gestión de inversiones o de un corredor/operador.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "AllegementDetailsActivityRule1": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es FALSE (NO), AllegementDetails no está permitido."
+    },
+    "AllegementDetailsActivityRule2": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es TRUE (YES), debe estar presente al menos una ocurrencia de AllegementDetails."
+    },
+    "AllegementStatusRule": {
+      "definition": "Salvo acuerdo bilateral entre el Emisor y el Receptor, si AllegementDetails/Status está presente, el extracto debe ser un extracto delta (StatementGeneralDetails/UpdateType: Delta). En un extracto completo (StatementGeneralDetails/UpdateType: Complete), no debe informarse un estado eliminado o cancelado (AllegementDetails/Status)."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportItemStatus1",
+  "definition": "Información de estado del elemento del informe.",
+  "isoElements": {
+    "Exception": {
+      "definition": "Motivo del estado de excepción."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Información adicional sobre el motivo del estado que no puede facilitarse en un campo estructurado."
+    },
+    "ReportItem": {
+      "definition": "Detalles del elemento del informe."
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalBillingRateIdentification1Code",
+  "definition": "Especifica el tipo de tarifa o factor de facturación, tal como se publica en una lista externa de códigos de identificación de tarifas de facturación.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "AEAR": {
+      "name": "Tasa de bonificación por rendimientos ajustada",
+      "definition": "Tasa de rendimiento anual, ajustada por reservas, aplicada al saldo invertible del periodo de análisis actual para calcular el abono por bonificación de rendimientos. La ECR, neta de reservas, se calcula como:    ECR, neta de reservas  =  ECR, no neta (00 01 22) * (1 – Tasa de reserva)"
+    },
+    "ANXE": {
+      "name": "Tasa de rendimientos ajustada del mes siguiente",
+      "definition": "Tasa de bonificación de rendimientos prevista, una vez ajustada, que se utilizará el mes siguiente en el cálculo de la bonificación de rendimientos. Véase AEAR AdjustedEarningsAllowance Rate"
+    },
+    "CDRA": {
+      "name": "Tasa de CD",
+      "definition": "Tasa vigente de CD (certificado de depósito) publicada por la entidad."
+    },
+    "DINR": {
+      "name": "Tipo de interés por déficit",
+      "definition": "Tasa anual utilizada para calcular el importe de los intereses por déficit que deben pagarse a la entidad."
+    },
+    "DSCR": {
+      "name": "Tasa de recargo por déficit",
+      "definition": "Tasa anual utilizada para calcular un recargo basado en el importe de los intereses por déficit que deben pagarse a la entidad."
+    },
+    "EALR": {
+      "name": "Tasa de bonificación por rendimientos",
+      "definition": "Tasa de rendimiento anual aplicada al saldo invertible del periodo de extracto actual para calcular el abono por bonificación de rendimientos. El abono por bonificación de rendimientos se utiliza para compensar los cargos de los servicios compensables con saldo. Esta tasa NO se ha ajustado por reservas. La ECR, no neta de reservas, se calcula como:    ECR, no neta  =  ECR, neta de reservas (00 01 20)  /  (1 – Tasa de reserva)"
+    },
+    "FDIC": {
+      "name": "Tasa FDIC",
+      "definition": "Tasa vigente de la FDIC utilizada en US para calcular la prima del seguro federal de depósitos que las entidades pagan a la FDIC."
+    },
+    "ICDR": {
+      "name": "Tipo de interés abonado",
+      "definition": "Tipo de interés anual utilizado para calcular el importe de intereses abonado en una cuenta designada. El importe de intereses abonado, en su caso, se informa en una sección de compensación con un identificador de compensación TtlInterestCredited"
+    },
+    "MULT": {
+      "name": "Multiplicador",
+      "definition": "Saldo cobrado necesario para compensar 1,00 $ de cargos por servicios compensables con saldo. Este factor puede utilizarse para calcular el saldo equivalente de los cargos por servicios compensables con saldo. El multiplicador se calcula de una de tres maneras distintas según si la tasa de bonificación de rendimientos (ECR) está ajustada por reservas o no (neta de reservas o no) y, en el caso de que la ECR no esté ajustada por reservas, según si el multiplicador está ajustado por reservas o no (1.00)."
+    },
+    "NCBO": {
+      "name": "Tipo de descubierto sobre saldo neto cobrado",
+      "definition": "Tipo de interés anual utilizado para calcular la compensación por descubierto sobre un saldo cobrado neto medio que es negativo (saldo AFP 00 00 10). Un saldo NETO medio es negativo cuando la suma de los saldos diarios finales POSITIVOS y NEGATIVOS es negativa (POSITIVE) (NEGATIVE)."
+    },
+    "NGCO": {
+      "name": "Tipo de descubierto sobre saldo cobrado negativo",
+      "definition": "Tipo de interés anual aplicado a los saldos cobrados NEGATIVOS (saldo AFP 00 00 13) para calcular la compensación por descubierto (NEGATIVE)."
+    },
+    "NGLO": {
+      "name": "Tipo de descubierto sobre saldo contable negativo",
+      "definition": "Tipo de interés anual aplicado a los saldos contables NEGATIVOS (saldo AFP 00 00 03) para calcular la compensación por descubierto (NEGATIVE)."
+    },
+    "NLBO": {
+      "name": "Tipo de descubierto sobre saldo contable neto",
+      "definition": "Tipo de interés anual utilizado para calcular la compensación por descubierto sobre un saldo contable neto medio que es negativo (saldo AFP 00 00 00). Un saldo NETO medio es negativo cuando la suma de los saldos diarios finales POSITIVOS y NEGATIVOS es negativa (POSITIVE) (NEGATIVE)."
+    },
+    "NXME": {
+      "name": "Tasa de bonificación por rendimientos del mes siguiente",
+      "definition": "Tasa de bonificación de rendimientos prevista que se utilizará el mes siguiente en el cálculo de la bonificación de rendimientos. Véase EALR EarningsAllowance Rate"
+    },
+    "NXMU": {
+      "name": "Multiplicador del mes siguiente",
+      "definition": "Multiplicador previsto que se utilizará el mes siguiente. Véase MULT Multiplier."
+    },
+    "PRIR": {
+      "name": "Tipo preferencial",
+      "definition": "Tasa Prime anual vigente publicada por la entidad."
+    },
+    "RRQR": {
+      "name": "Tasa de reservas obligatorias (no DDA)",
+      "definition": "Tasa de reserva anual aplicada a las cuentas de depósito que no son a la vista, como las cuentas de depósito a plazo o de CD."
+    },
+    "RSRV": {
+      "name": "Tasa de reservas obligatorias",
+      "definition": "Tipo de interés anual utilizado para calcular la parte del CollectedBal-AvgPositive que las entidades de US deben mantener en depósito en la Reserva Federal de US."
+    },
+    "UFUR": {
+      "name": "Tasa de uso de fondos no cobrados",
+      "definition": "Tipo de interés anual aplicado a la parte del saldo de la cuenta que es la diferencia entre el saldo contable negativo medio y el saldo cobrado negativo medio (saldo AFP 00 00 15). Este tipo se utiliza para calcular la compensación sobre la parte del saldo cobrado negativo que representa el uso de fondos no cobrados."
+    }
+  }
+}

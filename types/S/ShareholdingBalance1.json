@@ -1,0 +1,21 @@
+{
+  "isoType": "ShareholdingBalance1",
+  "definition": "Proporciona información detallada del saldo de tenencia de acciones de una cuenta.",
+  "isoElements": {
+    "ShareholdingType": {
+      "definition": "Identifica la categoría de tenencia de acciones."
+    },
+    "Quantity": {
+      "definition": "Número de acciones de este tipo de tenencia, o con esta fecha de tenencia, mantenidas por el titular de la cuenta."
+    },
+    "InitialDateOfShareholding": {
+      "definition": "Fecha desde la cual el accionista ha mantenido las acciones en su cuenta."
+    },
+    "ThirdParty": {
+      "definition": "Tercero autorizado para realizar acciones específicas en nombre del accionista."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede recogerse en los campos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

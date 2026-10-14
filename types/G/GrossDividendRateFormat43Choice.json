@@ -1,0 +1,18 @@
+{
+  "isoType": "GrossDividendRateFormat43Choice",
+  "definition": "Elección entre un importe o una tasa no especificada.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Número de unidades monetarias especificadas en una divisa."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Especifica un importe y un estado del tipo."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Especifica diferentes formatos para el tipo de dividendo bruto."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor de la tasa no especificado."
+    }
+  }
+}

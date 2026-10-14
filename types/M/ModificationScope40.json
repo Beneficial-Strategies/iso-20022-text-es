@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope40",
+  "definition": "Alcance de la modificación que se aplicará a un conjunto de información identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Tipo de modificación que se aplicará."
+    },
+    "Intermediary": {
+      "definition": "Intermediario u otra parte relacionada con la gestión de la cuenta."
+    }
+  }
+}

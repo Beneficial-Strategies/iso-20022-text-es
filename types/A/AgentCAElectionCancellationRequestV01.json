@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionCancellationRequestV01",
+  "definition": "Ámbito|Este mensaje lo envía un CSD al emisor (o a su agente) para solicitar la cancelación de un mensaje de aviso de elección de evento corporativo del agente enviado previamente.|Uso|Este mensaje solo puede utilizarse para cancelar un mensaje completo de aviso de elección de evento corporativo del agente enviado previamente por el CSD. No se permite la cancelación parcial.|Este mensaje debe contener la identificación del aviso de elección de evento corporativo del agente que se va a cancelar, la identificación del agente y las referencias del evento corporativo. Este mensaje también puede contener detalles del aviso de elección que se va a cancelar, pero no se recomienda."
+}

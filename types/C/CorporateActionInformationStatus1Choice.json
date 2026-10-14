@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationStatus1Choice",
+  "definition": "Elección entre los distintos estados de un aviso de información de operación societaria.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Proporciona información sobre el estado de tramitación del aviso."
+    },
+    "RejectedStatus": {
+      "definition": "Proporciona información sobre el estado de rechazo."
+    }
+  }
+}

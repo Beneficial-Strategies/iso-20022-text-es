@@ -1,0 +1,178 @@
+{
+  "isoType": "TaxExemptReason3Code",
+  "definition": "Especifica el motivo por el que no se ha aplicado o deducido un impuesto determinado en una operación dada.",
+  "isoCodes": {
+    "NONE": {
+      "name": "Ninguno",
+      "definition": "La cuenta no está exenta de impuestos."
+    },
+    "MASA": {
+      "name": "ISA máxima",
+      "definition": "Maxi Individual Savings Account (ISA). La cuenta es una ISA con un único gestor de ISA que puede contener efectivo, acciones y participaciones, fondos de inversión y seguros de vida hasta el límite anual de suscripción prescrito (obligatorio para el UK). La Maxi ISA permite a un inversor ahorrar en los tres elementos distintos de inversión de ISA permitidos, con una sola entidad de ahorro en una única cuenta."
+    },
+    "MISA": {
+      "name": "ISA mínima en efectivo",
+      "definition": "Mini Cash Individual Savings Account (ISA). La cuenta es una ISA con un único gestor de ISA que puede contener efectivo, acciones y participaciones, fondos de inversión y seguros de vida hasta el límite anual de suscripción prescrito (obligatorio para el UK). Un inversor puede tener más de una Mini ISA para utilizar el límite global de inversión de las Mini ISA, y puede invertir con más de una entidad de ahorro; sin embargo, solo se permite uno de los tres elementos de inversión de ISA en una misma cuenta."
+    },
+    "SISA": {
+      "name": "ISA mínima en acciones y participaciones",
+      "definition": "Mini Stocks and Shares Individual Savings Account (ISA). La cuenta es una ISA con un gestor de ISA que solo puede contener acciones, participaciones e inversiones colectivas hasta el límite anual de suscripción prescrito (obligatorio para el UK)."
+    },
+    "IISA": {
+      "name": "ISA mínima de seguros",
+      "definition": "Mini Insurance Individual Savings Account (ISA). La cuenta es una ISA con un gestor de ISA que solo puede contener inversiones en seguros de vida hasta el límite anual de suscripción prescrito (obligatorio para el UK)."
+    },
+    "CUYP": {
+      "name": "Pago del año en curso",
+      "definition": "La cuenta corresponde a pagos del año en curso a una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "PRYP": {
+      "name": "Pago del año anterior",
+      "definition": "La cuenta corresponde a un pago de un año anterior a una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "ASTR": {
+      "name": "Transferencia de activos",
+      "definition": "La cuenta corresponde a una transferencia de activos a una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "EMPY": {
+      "name": "Aportación del empleado, año anterior",
+      "definition": "La cuenta corresponde a aportaciones del empleado de un año anterior a una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "EMCY": {
+      "name": "Aportación del empleado, año en curso",
+      "definition": "La cuenta corresponde a aportaciones del empleado del año en curso a una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "EPRY": {
+      "name": "Aportación del empleador, año anterior",
+      "definition": "La cuenta corresponde a aportaciones del empleador de un año anterior a una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "ECYE": {
+      "name": "Aportación del empleador, año en curso",
+      "definition": "La cuenta corresponde a aportaciones del empleador del año en curso a una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "NFPI": {
+      "name": "IRA prototipo sin fondo",
+      "definition": "La cuenta corresponde a una Individual Retirement Account (IRA) prototipo ajena a fondos, en una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "NFQP": {
+      "name": "Plan cualificado sin fondo",
+      "definition": "La cuenta corresponde a un plan cualificado ajeno a fondos, en una cuenta de jubilación de inversión (obligatorio para US)."
+    },
+    "DECP": {
+      "name": "Plan de aportación definida",
+      "definition": "La cuenta corresponde a un plan de aportación definida (obligatorio para US)."
+    },
+    "IRAC": {
+      "name": "Cuenta individual de jubilación",
+      "definition": "La cuenta es una Individual Retirement Account (IRA) (obligatorio para US)."
+    },
+    "IRAR": {
+      "name": "Traspaso de cuenta individual de jubilación",
+      "definition": "La cuenta corresponde a una Individual Retirement Account (IRA) - Rollover (obligatorio para US)."
+    },
+    "KEOG": {
+      "name": "KEOGH",
+      "definition": "KEOGH. La cuenta es un plan de jubilación con impuestos diferidos diseñado para ayudar a los trabajadores autónomos o a las personas con ingresos por cuenta propia a establecer un programa de ahorro para la jubilación (obligatorio para US)."
+    },
+    "PFSP": {
+      "name": "Plan de participación en beneficios",
+      "definition": "La cuenta es un plan de participación en beneficios (obligatorio para US)."
+    },
+    "401K": {
+      "name": "401(k)",
+      "definition": "401k. La cuenta es un plan de jubilación opcional ofrecido por muchas empresas, en el que los ingresos se invierten antes de tributar (obligatorio para US)."
+    },
+    "SIRA": {
+      "name": "IRA autogestionada",
+      "definition": "Individual Retirement Account (IRA) autogestionada (obligatorio para US)."
+    },
+    "403B": {
+      "name": "403(b)",
+      "definition": "403(b). La cuenta es un programa de inversión y ahorro con impuestos diferidos para empleados de hospitales, instituciones educativas y otras organizaciones sin ánimo de lucro, para ahorrar e invertir en su propia jubilación. El nombre se refiere a la sección correspondiente del Código de Rentas Internas de US (obligatorio para US)."
+    },
+    "457X": {
+      "name": "457",
+      "definition": "457. La cuenta es un programa de compensación diferida no cualificado disponible para gobiernos estatales y locales y empleadores sin ánimo de lucro (obligatorio para US)."
+    },
+    "RIRA": {
+      "name": "Roth IRA prototipo de fondo",
+      "definition": "Roth Individual Retirement Account (IRA) Fund Prototype. La cuenta es una cuenta de jubilación con impuestos diferidos basada en el principio inverso al de una IRA tradicional. Las aportaciones para la jubilación tributan de antemano, pero los retiros pueden realizarse libres de impuestos al alcanzar una determinada edad, siempre que la Roth IRA se haya constituido durante un cierto período de tiempo (obligatorio para US)."
+    },
+    "RIAN": {
+      "name": "Roth IRA no prototipo",
+      "definition": "Roth Individual Retirement Account (IRA) Non-Prototype. La cuenta es una cuenta de jubilación con impuestos diferidos basada en el principio inverso al de una IRA tradicional. Las aportaciones para la jubilación tributan de antemano, pero los retiros pueden realizarse libres de impuestos al alcanzar una determinada edad, siempre que la Roth IRA se haya constituido durante un cierto período de tiempo (obligatorio para US)."
+    },
+    "RCRF": {
+      "name": "IRA de conversión Roth prototipo de fondo",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Fund Prototype. La cuenta es una cuenta de jubilación constituida cuando una parte cambia desde una IRA ordinaria ( obligatorio para US)."
+    },
+    "RCIP": {
+      "name": "IRA de conversión Roth no prototipo",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Non-Prototype. La cuenta es una cuenta de jubilación constituida cuando una parte cambia desde una IRA ordinaria (obligatorio para US)."
+    },
+    "EIFP": {
+      "name": "IRA educativa prototipo de fondo",
+      "definition": "Education Individual Retirement Account Fund Prototype (también conocida como Education Savings Account). La cuenta es un plan de ahorro abierto a cualquier persona menor de 18 años. Cuando el titular de la cuenta retira dinero para pagar gastos de educación superior cualificados, los retiros suelen estar libres de impuestos (obligatorio para US)."
+    },
+    "EIOP": {
+      "name": "IRA educativa no prototipo",
+      "definition": "Education Individual Retirement Account Non-Prototype (también conocida como Education Savings Account). La cuenta es un plan de ahorro abierto a cualquier persona menor de 18 años. Cuando el titular de la cuenta retira dinero para pagar gastos de educación superior cualificados, los retiros suelen estar libres de impuestos (obligatorio en US)."
+    },
+    "FORE": {
+      "name": "Extranjero",
+      "definition": "La cuenta corresponde a un extranjero para quien se permite una exención fiscal."
+    },
+    "INCA": {
+      "name": "Incapacidad",
+      "definition": "Exención por incapacidad."
+    },
+    "MINO": {
+      "name": "Menor de edad",
+      "definition": "La cuenta corresponde a un menor para quien se permite una exención fiscal."
+    },
+    "ASSO": {
+      "name": "Asociación",
+      "definition": "La cuenta corresponde a una asociación, por ejemplo, un club deportivo, para la que se permite una exención fiscal."
+    },
+    "DIPL": {
+      "name": "Diplomático",
+      "definition": "La cuenta corresponde a un diplomático para quien se permite una exención fiscal."
+    },
+    "DOME": {
+      "name": "Nacional",
+      "definition": "La cuenta corresponde a dos titulares, ambos nacionales."
+    },
+    "FORP": {
+      "name": "Uno o ambos extranjeros",
+      "definition": "La cuenta corresponde a dos titulares, de los cuales uno o ambos son extranjeros."
+    },
+    "ORDR": {
+      "name": "Ordinario",
+      "definition": "Declaración ordinaria."
+    },
+    "PENF": {
+      "name": "Fondo de pensiones",
+      "definition": "La cuenta corresponde a un fondo de pensiones para el que se permite una exención fiscal."
+    },
+    "REFU": {
+      "name": "Refugiado",
+      "definition": "La cuenta corresponde a un refugiado o a una persona sin número asignado por un organismo gubernamental, por ejemplo, sin un Danish Central Securities Number."
+    },
+    "RIHO": {
+      "name": "Titular de derechos",
+      "definition": "La cuenta corresponde a un titular de derechos."
+    },
+    "ADMI": {
+      "name": "Administrador",
+      "definition": "El administrador de la cuenta no es el titular."
+    },
+    "TANR": {
+      "name": "Dos no residentes",
+      "definition": "Dos o más de los titulares de la cuenta son residentes en el extranjero."
+    },
+    "OANR": {
+      "name": "Un no residente",
+      "definition": "Uno de los titulares de la cuenta es residente en el extranjero."
+    }
+  }
+}

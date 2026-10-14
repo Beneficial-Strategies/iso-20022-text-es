@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalTransactions6",
+  "definition": "Conjunto de elementos utilizados para proporcionar información resumida sobre los apuntes.",
+  "isoElements": {
+    "TotalEntries": {
+      "definition": "Especifica el número total y la suma de los apuntes de débito y de crédito."
+    },
+    "TotalCreditEntries": {
+      "definition": "Especifica el número total y la suma de los apuntes de crédito."
+    },
+    "TotalDebitEntries": {
+      "definition": "Especifica el número total y la suma de los apuntes de débito."
+    },
+    "TotalEntriesPerBankTransactionCode": {
+      "definition": "Especifica el número total y la suma de los apuntes por código de operación bancaria."
+    }
+  }
+}

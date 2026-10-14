@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesBalanceType2Code",
+  "definition": "Especifica la naturaleza del saldo de valores o de fondos de inversión.",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Exento de impuestos",
+      "definition": "Saldo de valores exentos de impuestos."
+    },
+    "DIRT": {
+      "name": "No exento de impuestos",
+      "definition": "Saldo de valores sujetos a impuestos."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de valores que están registrados (a nombre de un titular interpuesto o del titular real)."
+    },
+    "OTHR": {
+      "name": "Sin clasificar",
+      "definition": "Saldo de valores sin clasificar, es decir, que no se identifica con ninguno de los tipos de subsaldo existentes."
+    },
+    "SPOS": {
+      "name": "Posición a nombre de intermediario",
+      "definition": "Saldo de valores que permanecen registrados a nombre del anterior titular real de los valores."
+    },
+    "UNRG": {
+      "name": "No registrado",
+      "definition": "Saldo de valores que no pudieron registrarse debido a una limitación de propiedad extranjera."
+    }
+  }
+}

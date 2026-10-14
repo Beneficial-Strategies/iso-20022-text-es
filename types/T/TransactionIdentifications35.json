@@ -1,0 +1,20 @@
+{
+  "isoType": "TransactionIdentifications35",
+  "definition": "Proporciona el tipo de operación y la información de identificación.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce el titular de la cuenta (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la entidad gestora de la cuenta."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Si no hay ninguna referencia disponible para AccountOwnerTransactionIdentification, por ejemplo, porque la operación se envió por fax, AccountOwnerTransactionIdentification debe ser NONREF."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingServiceIdentification2",
+  "definition": "Identificación del servicio que se debe facturar.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Código de identificación de servicio interno propio de la entidad financiera, distinto del código común.|Uso: El código propio de la entidad financiera se utiliza para identificar de forma única el servicio dentro de la entidad financiera."
+    },
+    "SubService": {
+      "definition": "Define la identificación del subservicio de la entidad financiera si el código de identificación del servicio de la entidad financiera se utiliza para más de un servicio."
+    },
+    "Description": {
+      "definition": "Especifica detalles adicionales para describir el servicio de la entidad financiera, que no es la descripción estándar relacionada con el código común."
+    }
+  }
+}

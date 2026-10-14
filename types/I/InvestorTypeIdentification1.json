@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorTypeIdentification1",
+  "definition": "Información sobre el tipo de inversores en relación con una operación societaria.",
+  "isoElements": {
+    "InvestorTypeIdentification": {
+      "definition": "Tipos de inversor en relación con un evento societario."
+    },
+    "InvestorTypeIdentificationNarrative": {
+      "definition": "Información sobre la identificación del tipo de inversor."
+    }
+  }
+}

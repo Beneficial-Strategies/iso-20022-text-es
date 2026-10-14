@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalPaymentMethode1Code",
+  "definition": "Especifica el método de pago para la remesa del emisor de la factura al receptor de la factura.|La lista de códigos válidos es una lista de códigos externa que se publica por separado.|Los conjuntos de códigos externos se pueden descargar de www.iso20022.org."
+}

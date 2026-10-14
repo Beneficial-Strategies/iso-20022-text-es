@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMCommand8",
+  "definition": "Resultado del comando de reinicialización de los contadores de operaciones.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando que debe ejecutar el cajero automático (ATM)."
+    },
+    "RequiredDateTime": {
+      "definition": "Fecha y hora en que se ha solicitado la ejecución del comando."
+    },
+    "ProcessedDateTime": {
+      "definition": "Fecha y hora en que se ha ejecutado el comando."
+    },
+    "CommandIdentification": {
+      "definition": "Identificación de la entidad que emite el comando."
+    },
+    "Result": {
+      "definition": "Resultado final del comando procesado en el cajero automático (ATM)."
+    },
+    "AdditionalErrorInformation": {
+      "definition": "Información adicional sobre el fallo que debe registrarse para su posterior análisis."
+    }
+  }
+}

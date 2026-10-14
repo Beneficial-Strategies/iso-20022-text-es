@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingCancellationReason8Code",
+  "definition": "Especifica el motivo por el que la solicitud de cancelación tiene un estado pendiente.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "PCAT": {
+      "name": "Pendiente de aceptación de la contraparte",
+      "definition": "Pendiente de aceptación por la contraparte."
+    },
+    "ECRD": {
+      "name": "Plazo de respuesta para la elección ante la contraparte incumplido",
+      "definition": "Recibida después del plazo de mercado para la respuesta a la elección ante la contraparte."
+    }
+  }
+}

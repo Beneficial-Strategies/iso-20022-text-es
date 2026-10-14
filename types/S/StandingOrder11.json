@@ -1,0 +1,66 @@
+{
+  "isoType": "StandingOrder11",
+  "definition": "Define los atributos detallados de una orden permanente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero y moneda que se transferirán cuando se cree una instrucción de pago como resultado de una orden permanente."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si la orden permanente adeuda o abona la cuenta."
+    },
+    "Currency": {
+      "definition": "Identificación única e inequívoca de una orden permanente, asignada por la entidad gestora de la cuenta o por el titular de la cuenta."
+    },
+    "Type": {
+      "definition": "Tipo de orden permanente."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Cuenta de origen o de destino de la transferencia de liquidez dentro del conjunto de cuentas gestionadas por el solicitante."
+    },
+    "Reference": {
+      "definition": "Identificación única e inequívoca de una orden permanente, asignada por la entidad gestora de la cuenta o por el titular de la cuenta."
+    },
+    "Frequency": {
+      "definition": "Periodicidad con la que se crean y se procesan las instrucciones de pago como resultado de la orden permanente, por ejemplo, diaria, semanal o mensual."
+    },
+    "ValidityPeriod": {
+      "definition": "Fechas durante las cuales la orden permanente está en vigor."
+    },
+    "SystemMember": {
+      "definition": "Especifica si la orden permanente adeuda o abona la cuenta."
+    },
+    "ResponsibleParty": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "LinkSetIdentification": {
+      "definition": "Identificación única para identificar inequívocamente el conjunto vinculado en el que se define la orden permanente. El conjunto vinculado es una colección de órdenes permanentes definidas en una secuencia específica."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Identificación única para identificar inequívocamente la orden permanente de transferencia de liquidez dentro del conjunto vinculado."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Especifica la secuencia en la que el sistema ejecutará las órdenes permanentes de transferencia de liquidez dentro del conjunto vinculado cuando se requiera liquidez adicional."
+    },
+    "ExecutionType": {
+      "definition": "Define si la orden permanente se ejecuta mediante un desencadenante basado en el tiempo o en un evento."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAccount": {
+      "definition": "Cuenta de efectivo abonada por un mecanismo de orden permanente."
+    },
+    "Debtor": {
+      "definition": "Parte que debe un importe de dinero al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Cuenta de efectivo adeudada por un mecanismo de orden permanente."
+    },
+    "TotalsPerStandingOrder": {
+      "definition": "Importe global de las órdenes de transferencia de liquidez predefinidas «aún no ejecutadas» o «definidas» por un participante del sistema en su ámbito de responsabilidad dentro del sistema."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indica si la orden permanente de transferencia de liquidez está definida como una orden de barrido a cero. Si es verdadero, la orden permanente de transferencia de liquidez transferirá todo el importe de dinero fuera de la cuenta, de modo que el saldo resultante sea cero."
+    }
+  }
+}

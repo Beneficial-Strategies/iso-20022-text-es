@@ -1,0 +1,23 @@
+{
+  "isoType": "SubscriptionInformation2",
+  "definition": "Información sobre suscripciones acumuladas.",
+  "isoElements": {
+    "DateOfFirstSubscription": {
+      "definition": "Fecha de la primera suscripción en el año en curso."
+    },
+    "EquityComponent": {
+      "definition": "Importe suscrito en el ejercicio fiscal en curso en renta variable (sin incluir dividendos)."
+    },
+    "CashComponent": {
+      "definition": "Importe suscrito en el ejercicio fiscal en curso en efectivo."
+    },
+    "TotalAmountYearToDate": {
+      "definition": "Importe total suscrito en el ejercicio fiscal en curso."
+    }
+  },
+  "isoRules": {
+    "TotalAmountYearToDateRule": {
+      "definition": "TotalAmountYearToDate debe ser igual a la suma de EquityComponent y CashComponent si están presentes."
+    }
+  }
+}

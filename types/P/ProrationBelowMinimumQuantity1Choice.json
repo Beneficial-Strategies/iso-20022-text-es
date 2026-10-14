@@ -1,0 +1,12 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity1Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de prorrateo por debajo de la cantidad mínima.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de prorrateo por debajo de la cantidad mínima."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de prorrateo por debajo de la cantidad mínima."
+    }
+  }
+}

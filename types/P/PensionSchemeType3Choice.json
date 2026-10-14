@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionSchemeType3Choice",
+  "definition": "Elección de formatos para un tipo de plan de pensiones.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de póliza, plan o esquema de pensiones expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de póliza, plan o esquema de pensiones expresado como código propietario."
+    }
+  }
+}

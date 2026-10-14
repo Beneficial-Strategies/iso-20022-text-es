@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountHoldingInformationV10",
+  "definition": "Ámbito|La parte ejecutora envía el mensaje AccountHoldingInformation, por ejemplo un gestor de plan (antiguo) (cedente), a la parte instructora, por ejemplo un gestor de plan (nuevo) (receptor), para proporcionar información sobre los instrumentos financieros mantenidos por cuenta de un cliente.|Uso|El mensaje AccountHoldingInformation se utiliza para proporcionar información sobre los activos individuales mantenidos en la cuenta de un cliente. Los activos pueden formar parte de un producto fiscalmente eficiente, de una pensión o de un producto de inversión general.",
+  "isoElements": {
+    "BusinessFlowDirectionType": {
+      "definition": "Dirección del flujo de negocio (activos que se van a entregar o recibir)."
+    }
+  },
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer debe estar presente cuando y solo cuando sea distinto de TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces SecondaryIndividualInvestor no está permitido.|Si PrimaryIndividualInvestor está presente, entonces SecondaryIndividualInvestor puede estar presente."
+    },
+    "Investor2Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces OtherIndividualInvestor no está permitido. |Si PrimaryIndividualInvestor está presente, entonces OtherIndividualInvestor puede estar presente."
+    },
+    "Corporate2Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces OtherCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces OtherCorporateInvestor puede estar presente."
+    },
+    "Corporate1Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces SecondaryCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces SecondaryCorporateInvestor puede estar presente."
+    }
+  }
+}

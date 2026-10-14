@@ -1,0 +1,93 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails56",
+  "definition": "Detalles del cierre de la operación de financiación de valores.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Identificación inequívoca de la operación de financiación de valores subyacente, asignada por la parte instructora. La identificación es común a todas las garantías (una o varias)."
+    },
+    "SecuritiesFinancingUniqueTransactionIdentifier": {
+      "definition": "Identificador único de operación (UTI) acordado con la otra contraparte."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Identificación inequívoca del segundo tramo de la operación, tal como la conoce el titular de la cuenta (o la parte instructora que actúa en su nombre)."
+    },
+    "TerminationDate": {
+      "definition": "Fecha y hora de cierre o de vencimiento de la operación."
+    },
+    "RateChangeDate": {
+      "definition": "Fecha/hora en que se ha producido el cambio de tipo."
+    },
+    "EarliestCallBackDate": {
+      "definition": "Fecha/hora más temprana en que puede tener lugar la devolución anticipada (call back)."
+    },
+    "CommissionCalculationDate": {
+      "definition": "Fecha/hora en que se calcula la comisión."
+    },
+    "RateType": {
+      "definition": "Especifica si la tasa es fija o variable."
+    },
+    "Revaluation": {
+      "definition": "Especifica si la posición de garantía debe estar sujeta a revalorización automática por parte del administrador de la cuenta."
+    },
+    "LegalFramework": {
+      "definition": "Marco jurídico de la operación."
+    },
+    "InterestComputationMethod": {
+      "definition": "Identifica el método de cálculo del interés devengado del instrumento financiero correspondiente."
+    },
+    "MaturityDateModification": {
+      "definition": "Indica si la fecha de vencimiento de la operación de financiación de valores puede modificarse."
+    },
+    "InterestPayment": {
+      "definition": "Indica si los intereses deben abonarse al receptor de la garantía. Si se establece en no, los intereses se abonan al otorgante de la garantía."
+    },
+    "VariableRateSupport": {
+      "definition": "Índice o tasa de apoyo utilizada junto con el diferencial para calcular la tasa de recompra."
+    },
+    "RepurchaseRate": {
+      "definition": "Tasa que se utilizará para recalcular el importe de recompra."
+    },
+    "StockLoanMargin": {
+      "definition": "Margen porcentual sobre la contraprestación de un préstamo, utilizado para reflejar el riesgo del prestamista."
+    },
+    "SecuritiesHaircut": {
+      "definition": "Recorte (haircut) o factor de valoración del valor, expresado como porcentaje."
+    },
+    "ChargesRate": {
+      "definition": "Tipo de interés pagado en el contexto de una operación de financiación con valores."
+    },
+    "PricingRate": {
+      "definition": "Tipo de interés que debe pagarse sobre el importe de la operación, según lo acordado entre las contrapartes."
+    },
+    "Spread": {
+      "definition": "Diferencial de recompra expresado como un tipo; margen por encima o por debajo de un índice que determina el tipo de recompra."
+    },
+    "TransactionCallDelay": {
+      "definition": "Número mínimo de días de preaviso que necesita una contraparte para dar por terminada la operación."
+    },
+    "TotalNumberOfCollateralInstructions": {
+      "definition": "Número total de instrucciones de garantía implicadas en la operación."
+    },
+    "DealAmount": {
+      "definition": "Importe principal de una operación (para la segunda pata)."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    },
+    "ForfeitAmount": {
+      "definition": "Importe fijo de dinero que debe pagarse (en lugar de intereses) en caso de devolución anticipada o en la fecha de cierre."
+    },
+    "PremiumAmount": {
+      "definition": "Diferencia entre el importe de dinero de la primera pata y el importe de la segunda pata de la operación."
+    },
+    "TerminationAmountPerPieceOfCollateral": {
+      "definition": "Importe de dinero que debe liquidarse por cada pieza de garantía para dar por terminada la operación."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Importe total de dinero que debe liquidarse para dar por terminada la operación."
+    },
+    "SecondLegNarrative": {
+      "definition": "Proporciona información adicional sobre el segundo tramo en forma narrativa."
+    }
+  }
+}

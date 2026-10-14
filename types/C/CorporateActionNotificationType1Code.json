@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNotificationType1Code",
+  "definition": "Tipo de aviso de notificación.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Nuevo",
+      "definition": "Notificación nueva."
+    },
+    "REPL": {
+      "name": "Sustitución",
+      "definition": "Notificación que sustituye a una notificación enviada previamente."
+    },
+    "RMDR": {
+      "name": "Recordatorio",
+      "definition": "Notificación enviada como recordatorio de un evento que va a tener lugar."
+    }
+  }
+}

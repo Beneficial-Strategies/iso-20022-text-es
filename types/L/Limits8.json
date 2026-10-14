@@ -1,0 +1,12 @@
+{
+  "isoType": "Limits8",
+  "definition": "Informa sobre límites.",
+  "isoElements": {
+    "CurrentLimit": {
+      "definition": "El informe se facilita para un límite vigente de tipo gestión de riesgos."
+    },
+    "DefaultLimit": {
+      "definition": "El informe se facilita para un límite por defecto de tipo gestión de riesgos."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesBalanceAccountingReportV12",
+  "definition": "Alcance |Un gestor de cuenta envía un SecuritiesBalanceAccountingReport a un titular de cuenta para proporcionar, en un momento dado, valoraciones de la cartera junto con los detalles de cada posición en instrumentos financieros.|La relación entre gestor y titular de la cuenta puede ser:|- un agente contable que actúa por cuenta de un titular de cuenta, o|- un agente de transferencias que actúa por cuenta de un gestor de fondos o del agente designado de un titular de cuenta.||Uso|El mensaje debe enviarse con la frecuencia acordada bilateralmente entre el gestor de la cuenta y el titular de la cuenta.|El mensaje puede enviarse auditado o sin auditar y puede proporcionarse en base a la fecha de contratación, contractual o de liquidación. |Este mensaje solo puede utilizarse para enumerar las posiciones de una única cuenta (principal). No obstante, es posible desglosar estas posiciones en una o varias subcuentas. Por lo tanto, el mensaje puede utilizarse para especificar las posiciones a nivel de|- cuenta principal, o, |- subcuenta.|Este mensaje puede utilizarse para comunicar dónde se custodian los instrumentos financieros, física o nocionalmente. Si un valor se mantiene en más de un lugar de custodia, también puede indicarse.|El mensaje SecuritiesBalanceAccountingReport no debe utilizarse con fines de negociación.|Puede haber una o varias partes intermediarias, por ejemplo, un intermediario o un concentrador entre el titular de la cuenta y el gestor de la cuenta.|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es TRUE (Sí), debe estar presente BalanceForAccount o SubAccountDetails. Si StatementGeneralDetails/ActivityIndicator es FALSE (No), BalanceForAccount y SubAccountDetails deben estar ausentes."
+    },
+    "BalanceForAccountReportingRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es TRUE (Sí) y SubAccountIndicator es FALSE (NO), BalanceForAccount debe estar presente y Sub Account Details debe estar ausente."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    },
+    "SubAccountDetailsBalanceForAccountPresenceRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es TRUE (Sí) y SubAccountIndicator es TRUE (YES), SubAccountDetails debe estar presente y BalanceForAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

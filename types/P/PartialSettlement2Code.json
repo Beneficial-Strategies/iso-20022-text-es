@@ -1,0 +1,14 @@
+{
+  "isoType": "PartialSettlement2Code",
+  "definition": "Información sobre la liquidación parcial.",
+  "isoCodes": {
+    "PAIN": {
+      "name": "Liquidación parcial",
+      "definition": "La confirmación es de liquidación parcial. Una parte de la operación queda sin liquidar."
+    },
+    "PARC": {
+      "name": "Confirmada parcialmente",
+      "definition": "La confirmación es de liquidación parcial. No se producirá ninguna liquidación adicional."
+    }
+  }
+}

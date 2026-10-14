@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalTaxAmountType1Code",
+  "definition": "Especifica la naturaleza, o el uso, del importe en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa publicada por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "CITY": {
+      "name": "Impuesto municipal",
+      "definition": "Impuesto recaudado por las jurisdicciones municipales de un país."
+    },
+    "CNTY": {
+      "name": "Impuesto de condado",
+      "definition": "Impuesto recaudado por las jurisdicciones de condado de un país."
+    },
+    "LOCL": {
+      "name": "Impuesto local",
+      "definition": "Impuesto recaudado por las jurisdicciones locales de un país."
+    },
+    "PROV": {
+      "name": "Impuesto provincial",
+      "definition": "Impuesto recaudado por las jurisdicciones provinciales de un país."
+    },
+    "STAT": {
+      "name": "Impuesto estatal",
+      "definition": "Impuesto recaudado por las jurisdicciones estatales de un país."
+    }
+  }
+}

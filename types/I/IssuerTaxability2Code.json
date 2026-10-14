@@ -1,0 +1,10 @@
+{
+  "isoType": "IssuerTaxability2Code",
+  "definition": "Especifica si los fondos de la operación societaria tributan a nivel del emisor.",
+  "isoCodes": {
+    "TXBL": {
+      "name": "Imponible",
+      "definition": "Los fondos correspondientes tributan."
+    }
+  }
+}

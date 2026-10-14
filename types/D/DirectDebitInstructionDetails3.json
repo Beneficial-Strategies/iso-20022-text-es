@@ -1,0 +1,27 @@
+{
+  "isoType": "DirectDebitInstructionDetails3",
+  "definition": "Instrucciones, iniciadas por el beneficiario, para adeudar la cuenta de un ordenante a favor del beneficiario.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificación del mandato de una instrucción de adeudo directo."
+    },
+    "AutomatedDirectDebitInstructionIndicator": {
+      "definition": "Indica si la instrucción es una instrucción de adeudo directo automatizada.||Uso: El valor por defecto de AutomatedDirectDebitInstructionIndicator es false."
+    },
+    "DirectDebitTransferableIndicator": {
+      "definition": "Indica si la instrucción de adeudo directo es transferible.||Uso: El valor por defecto de DirectDebitTransferableIndicator es false."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "LastCollectionCurrencyAmount": {
+      "definition": "Importe del último adeudo realizado en virtud del mandato de adeudo directo."
+    },
+    "LastCollectionDate": {
+      "definition": "Fecha en la que puede efectuarse el último adeudo del mandato de adeudo directo.||Uso: No se incluye si ya se han especificado todos los límites de validez del mandato de adeudo directo o si el adeudo directo no tiene límites de tiempo de validez."
+    },
+    "OtherDetails": {
+      "definition": "Proporciona información adicional sobre el estado de la transferencia del calendario de operaciones solicitado."
+    }
+  }
+}

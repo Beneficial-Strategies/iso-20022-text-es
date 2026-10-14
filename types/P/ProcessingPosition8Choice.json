@@ -1,0 +1,17 @@
+{
+  "isoType": "ProcessingPosition8Choice",
+  "definition": "Elección del formato de la posición de tratamiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Posición de tratamiento expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Posición de tratamiento expresada como código propietario."
+    }
+  },
+  "isoRules": {
+    "WithLinkageRule": {
+      "definition": "Si se utiliza el código WITH, las instrucciones vinculadas pasan a estar ligadas y deben ejecutarse conjuntamente. Aunque una sola operación, instrucción o notificación no pueda ejecutarse, todas las demás operaciones, instrucciones o notificaciones deben permanecer también pendientes. Por lo tanto, el uso del código WITH debe limitarse a combinar un máximo de 2 o 3 operaciones, instrucciones o notificaciones."
+    }
+  }
+}

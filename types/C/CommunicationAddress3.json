@@ -1,0 +1,24 @@
+{
+  "isoType": "CommunicationAddress3",
+  "definition": "Número de dispositivo de comunicación o dirección electrónica utilizados para la comunicación.",
+  "isoElements": {
+    "Email": {
+      "definition": "Dirección de correo electrónico (e-mail)."
+    },
+    "Phone": {
+      "definition": "Conjunto de información que identifica un número de teléfono, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "Mobile": {
+      "definition": "Conjunto de información que identifica un número de teléfono móvil, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "FaxNumber": {
+      "definition": "Conjunto de información que identifica un número de FAX, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "TelexAddress": {
+      "definition": "Dirección de un aparato de télex."
+    },
+    "URLAddress": {
+      "definition": "Dirección del localizador universal de recursos (URL), por ejemplo, una dirección utilizada a través del servicio www (HTTP)."
+    }
+  }
+}

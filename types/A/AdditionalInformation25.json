@@ -1,0 +1,18 @@
+{
+  "isoType": "AdditionalInformation25",
+  "definition": "Información adicional.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Tipo de consulta."
+    },
+    "Query": {
+      "definition": "Descripción de la consulta."
+    },
+    "QueryReason": {
+      "definition": "Motivo de la consulta."
+    },
+    "RejectionReason": {
+      "definition": "Motivo por el que se rechazó la instrucción."
+    }
+  }
+}

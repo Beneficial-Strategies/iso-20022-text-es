@@ -1,0 +1,4 @@
+{
+  "isoType": "HostToATMRequestV01",
+  "definition": "El mensaje HostToATMRequest lo envía un host a un cajero automático (ATM) para solicitarle que contacte con un host mediante el envío de mensajes de mantenimiento."
+}

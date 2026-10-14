@@ -1,0 +1,47 @@
+{
+  "isoType": "LimitSearchCriteria7",
+  "definition": "Define los criterios utilizados para buscar un límite.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identificación de un sistema determinado de compensación de efectivo."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identificación única e inequívoca de un miembro dentro de un sistema, asignada mediante el esquema de identificación de miembros del sistema."
+    },
+    "DefaultLimitType": {
+      "definition": "Tipo de límite establecido por defecto en el sistema. El límite por defecto es aplicable por el sistema salvo que se indique lo contrario."
+    },
+    "CurrentLimitType": {
+      "definition": "Tipo de límite aplicado por el sistema en el momento actual."
+    },
+    "AccountOwner": {
+      "definition": "Titular de la cuenta que se consulta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad que la administra."
+    },
+    "UsedAmount": {
+      "definition": "Utilización real del límite expresada como importe."
+    },
+    "UsedPercentage": {
+      "definition": "Utilización real del límite expresada como porcentaje."
+    },
+    "LimitCurrency": {
+      "definition": "Unidad monetaria utilizada para especificar el importe del límite."
+    },
+    "LimitAmount": {
+      "definition": "Importe de dinero del límite, expresado en una divisa admisible."
+    },
+    "LimitValidAsOfDate": {
+      "definition": "Intervalo de fechas en que el límite pasa a ser válido."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty3Rule": {
+      "definition": "Si está presente al menos una ocurrencia de CurrentLimitType y es MULT, entonces no se permite ninguna ocurrencia de BilateralLimitCounterpartyIdentification.|Si ninguna ocurrencia de CurrentLimitType es MULT, entonces cualquier ocurrencia de BilateralLimitCounterpartyIdentification es opcional.|Si CurrentLimitType no está presente, entonces cualquier ocurrencia de BilateralLimitCounterpartyIdentification es opcional."
+    },
+    "BilateralLimitCounterparty4Rule": {
+      "definition": "Si está presente al menos una ocurrencia de DefaultLimitType y es MULT, entonces no se permite ninguna ocurrencia de BilateralLimitCounterpartyIdentification.|Si ninguna ocurrencia de DefaultLimitType es MULT, entonces cualquier ocurrencia de BilateralLimitCounterpartyIdentification es opcional.|Si DefaultLimitType no está presente, entonces cualquier ocurrencia de BilateralLimitCounterpartyIdentification es opcional."
+    }
+  }
+}

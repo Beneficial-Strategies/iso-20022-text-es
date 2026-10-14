@@ -1,0 +1,24 @@
+{
+  "isoType": "SafekeepingAccount17",
+  "definition": "Información detallada sobre la cuenta de valores en custodia, sus posiciones y las cuentas de subnivel.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Cuenta en la que se mantienen instrumentos financieros. Cuenta mantenida por el intermediario que responde con su entidad administradora de cuentas."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular de la cuenta, es decir, gestiona el registro y la contabilización de los apuntes en la cuenta, calcula los saldos de la cuenta y proporciona información sobre la cuenta."
+    },
+    "ShareholdingBalanceOnOwnAccount": {
+      "definition": "Número de acciones mantenidas por el intermediario que responde por cuenta propia."
+    },
+    "ShareholdingBalanceOnClientAccount": {
+      "definition": "Número de acciones mantenidas por el intermediario que responde por cuenta de terceros."
+    },
+    "TotalShareholdingBalance": {
+      "definition": "Número total de acciones mantenidas por el intermediario que responde."
+    },
+    "AccountSubLevel": {
+      "definition": "Información de tenencia de acciones a nivel de subcuenta."
+    }
+  }
+}

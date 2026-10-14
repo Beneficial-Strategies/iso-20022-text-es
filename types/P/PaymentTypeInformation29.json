@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentTypeInformation29",
+  "definition": "Proporciona más detalles sobre el tipo de pago.",
+  "isoElements": {
+    "InstructionPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la parte instructora desea que la parte instruida aplique al procesamiento de la instrucción."
+    },
+    "ServiceLevel": {
+      "definition": "Acuerdo o normas conforme a los cuales debe procesarse la operación."
+    },
+    "LocalInstrument": {
+      "definition": "Instrumento específico de la comunidad de usuarios.||Uso: Este elemento se utiliza para especificar un instrumento local, una opción de compensación local y/o para calificar con mayor detalle el servicio o el nivel de servicio."
+    },
+    "SequenceType": {
+      "definition": "Identifica la secuencia del adeudo directo, como primero, recurrente, final o único."
+    },
+    "CategoryPurpose": {
+      "definition": "Especifica la finalidad general de la instrucción a partir de un conjunto de categorías predefinidas.|Uso: Lo utiliza la parte iniciadora para facilitar información sobre el procesamiento del pago. Es probable que active un procesamiento especial por parte de cualquiera de las entidades que intervienen en la cadena de pago."
+    }
+  }
+}

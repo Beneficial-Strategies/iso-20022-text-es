@@ -1,0 +1,18 @@
+{
+  "isoType": "Linkages60",
+  "definition": "Información relativa a una operación vinculada.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Momento en que debe ejecutarse la operación en relación con una operación vinculada."
+    },
+    "MessageNumber": {
+      "definition": "Número del tipo de mensaje o identificador del mensaje referenciado en la secuencia de vinculación."
+    },
+    "Reference": {
+      "definition": "Referencia a la operación vinculada."
+    },
+    "ReferenceOwner": {
+      "definition": "Parte que genera la referencia."
+    }
+  }
+}

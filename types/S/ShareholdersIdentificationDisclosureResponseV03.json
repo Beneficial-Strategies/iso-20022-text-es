@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureResponseV03",
+  "definition": "El mensaje ShareholdersIdentificationDisclosureResponse es enviado en respuesta a un mensaje de solicitud de divulgación de la identificación de accionistas por cualquier intermediario al destinatario designado por el emisor (como un agente del emisor) en el mensaje de solicitud de divulgación, con el fin de proporcionar la información solicitada sobre la identidad de los accionistas y las posiciones de sus cuentas administradas por el intermediario para el instrumento financiero solicitado.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "definition": "Identificación única de la respuesta de divulgación. Se utilizará el mismo número de identificación de respuesta de divulgación cuando la respuesta se divida en varios mensajes (paginados)."
+    }
+  }
+}

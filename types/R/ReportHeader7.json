@@ -1,0 +1,18 @@
+{
+  "isoType": "ReportHeader7",
+  "definition": "Especifica información genérica sobre un informe de investigación.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Referencia punto a punto asignada por el asignador del caso para identificar de forma inequívoca el informe de estado del caso."
+    },
+    "From": {
+      "definition": "Parte que informa del estado del caso de investigación."
+    },
+    "To": {
+      "definition": "Parte a la que se informa del estado del caso."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    }
+  }
+}

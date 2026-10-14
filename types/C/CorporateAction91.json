@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateAction91",
+  "definition": "Proporciona información sobre el evento de operación societaria.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con un evento de operación societaria."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Proporciona información sobre la cantidad de valores vinculada a una operación societaria."
+    },
+    "EventStage": {
+      "definition": "Etapa en el ciclo de vida del evento de acciones corporativas."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Indica si el mensaje está relacionado con una reclamación sobre el evento de operación corporativa asociado."
+    },
+    "FollowingEventTypeIndicator": {
+      "definition": "Especifica el tipo de evento del evento siguiente."
+    },
+    "LotteryType": {
+      "definition": "Especifica el tipo de sorteo anunciado."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "BalanceFormat12Choice",
+  "definition": "Elección entre los formatos de saldo, saldo admisible y saldo no admisible.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Proporciona información sobre el saldo relacionado con una operación societaria."
+    },
+    "EligibleBalance": {
+      "definition": "Proporciona información sobre el saldo admisible en distintos formatos."
+    },
+    "NotEligibleBalance": {
+      "definition": "Proporciona información sobre el saldo no admisible en distintos formatos."
+    },
+    "FullPeriodUnits": {
+      "definition": "Número de participaciones de un fondo que se adquirieron en un periodo de distribución anterior y/o se mantenían al comienzo de un periodo de distribución, por ejemplo, las participaciones del Grupo I en el UK."
+    },
+    "PartWayPeriodUnits": {
+      "definition": "Número de participaciones de un fondo que se adquirieron durante un periodo de distribución, por ejemplo, las participaciones del Grupo II en el U.K."
+    }
+  }
+}

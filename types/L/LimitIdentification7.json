@@ -1,0 +1,21 @@
+{
+  "isoType": "LimitIdentification7",
+  "definition": "Función de gestión de efectivo que limita el riesgo máximo que una parte acepta asumir respecto de una contraparte o de un conjunto de contrapartes. Un límite de gestión de riesgos es bilateral, es decir, para una contraparte, o multilateral, es decir, para un conjunto de contrapartes o para todos los demás miembros de un sistema. El límite también puede aplicarse a miembros patrocinados, es decir, miembros indirectos. En principio, un límite de gestión de riesgos se calcula sobre la posición neta entre dos miembros y se expresa como límite de crédito o de débito, desde el punto de vista de la parte que establece el límite.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única asignada por la entidad gestora de la cuenta para identificar de forma inequívoca la cuenta."
+    },
+    "Type": {
+      "definition": "Naturaleza del límite de gestión de riesgos."
+    },
+    "LimitCurrency": {
+      "definition": "Unidad monetaria utilizada para especificar el importe del límite."
+    },
+    "AccountOwner": {
+      "definition": "Titular de la cuenta que se consulta."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identificación del miembro del sistema para el que se establece el límite."
+    }
+  }
+}

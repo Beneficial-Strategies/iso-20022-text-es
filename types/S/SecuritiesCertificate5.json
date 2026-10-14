@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesCertificate5",
+  "definition": "Representación física de un valor.",
+  "isoElements": {
+    "Number": {
+      "definition": "Identificador único e inequívoco de un certificado asignado por el emisor."
+    },
+    "Issuer": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    },
+    "SchemeName": {
+      "definition": "Descripción textual breve del esquema."
+    }
+  },
+  "isoRules": {
+    "ISO8532AndIssuerSchemeNameRule": {
+      "definition": "Si Number es ISO 8532 (Format for transmission of certificate numbers), entonces no deben utilizarse Issuer ni SchemeName."
+    }
+  }
+}

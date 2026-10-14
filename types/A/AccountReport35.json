@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountReport35",
+  "definition": "Informa de la información de la cuenta o de un error de negocio.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "AccountOrError": {
+      "definition": "Información solicitada sobre la cuenta o error de negocio cuando no se ha encontrado la información."
+    }
+  }
+}

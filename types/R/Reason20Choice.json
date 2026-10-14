@@ -1,0 +1,50 @@
+{
+  "isoType": "Reason20Choice",
+  "definition": "Elección de motivo.",
+  "isoElements": {
+    "RepoCallAcknowledgementReason": {
+      "definition": "Especifica información adicional sobre el acuse de recibo de la solicitud de ejercicio de amortización anticipada del acuerdo de recompra."
+    },
+    "CancellationReason": {
+      "definition": "Especifica el motivo por el que se cancela la instrucción relacionada, o por el que se ejecuta la solicitud de cancelación relacionada."
+    },
+    "PendingCancellationReason": {
+      "definition": "Especifica el motivo por el que la solicitud de cancelación está pendiente."
+    },
+    "GeneratedReason": {
+      "definition": "Especifica el motivo por el que se generó la operación."
+    },
+    "DeniedReason": {
+      "definition": "Especifica el motivo por el que se denegó la solicitud."
+    },
+    "AcknowledgedAcceptedReason": {
+      "definition": "Especifica información adicional sobre la instrucción procesada."
+    },
+    "PendingReason": {
+      "definition": "Especifica el motivo por el que la instrucción tiene un estado pendiente."
+    },
+    "FailingReason": {
+      "definition": "Especifica el motivo por el que la instrucción tiene estado de liquidación fallida."
+    },
+    "PendingProcessingReason": {
+      "definition": "Especifica el motivo por el que la instrucción tiene situación de procesamiento pendiente."
+    },
+    "RejectionReason": {
+      "definition": "Especifica el motivo por el que la instrucción o solicitud tiene estado de rechazada."
+    },
+    "RepairReason": {
+      "definition": "Especifica el motivo por el que la instrucción está en reparación."
+    },
+    "PendingModificationReason": {
+      "definition": "Especifica el motivo por el que la solicitud de modificación está pendiente."
+    },
+    "UnmatchedReason": {
+      "definition": "Especifica el motivo por el que la instrucción tiene situación de no casada."
+    }
+  },
+  "isoRules": {
+    "ReasonRule": {
+      "definition": "Si se solicita el motivo, debe ser coherente con los motivos disponibles para el tipo de mensaje solicitado."
+    }
+  }
+}

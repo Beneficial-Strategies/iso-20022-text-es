@@ -1,0 +1,122 @@
+{
+  "isoType": "TransactionDetails161",
+  "definition": "Especifica los detalles de la operación.",
+  "isoElements": {
+    "TradeIdentification": {
+      "definition": "Referencia asignada a la operación comercial por el inversor o la parte negociadora. Esta referencia se utilizará durante todo el ciclo de vida de la operación comercial para acceder a sus detalles o actualizarlos."
+    },
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Identificación única que identifica la operación de gestión de garantías tripartita desde el punto de vista del agente tripartito/proveedor de servicios."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Referencia única que identifica la operación de gestión de garantías tripartita desde el punto de vista del cliente."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "definition": "Identificación única asignada a la instrucción por el cliente."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "definition": "Identificación única asignada a la instrucción por el agente tripartito/proveedor de servicios."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado en el que se ha ejecutado una operación de negociación."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestructura que puede formar parte de una cámara de compensación y que facilita la compensación y liquidación para sus miembros interponiéndose entre el comprador y el vendedor. Puede compensar operaciones por saldos netos y se sustituye a sí misma como contraparte de liquidación de cada posición."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financiero que representa un conjunto de derechos del inversor frente al emisor."
+    },
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "PartiallyReleasedQuantity": {
+      "definition": "Cantidad de instrumento financiero que se ha de liberar."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "LateDeliveryDate": {
+      "definition": "Fecha y hora posteriores a la fecha de liquidación especificada en la operación, utilizadas para operaciones de pool resultantes de los valores originales por asignar (To Be Assigned, TBA)."
+    },
+    "ExpectedSettlementDate": {
+      "definition": "Fecha/hora en que el emisor espera la liquidación."
+    },
+    "ExpectedValueDate": {
+      "definition": "Para operaciones contra pago, fecha/hora valor en que el emisor espera que se abone o se adeude el importe de liquidación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se acusa recibo de la operación."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se casa la operación."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "SettlementParameters": {
+      "definition": "Parámetros aplicados a la liquidación de una transferencia de valores."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "Investor": {
+      "definition": "Parte, ya sea una persona física u organización, cuyos activos se están invirtiendo."
+    },
+    "QualifiedForeignIntermediary": {
+      "definition": "Entidad financiera extranjera que ha sido autorizada por las autoridades locales para actuar como entidad gestora de cuentas en el país."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre el tratamiento de la liquidación que no puede incluirse en los campos estructurados del mensaje."
+    }
+  },
+  "isoRules": {
+    "InvestorCountryCodeRule": {
+      "definition": "Si se utiliza Investor con un código de país, entonces el código de país especifica la nacionalidad del inversor, por ejemplo, para la liquidación de determinados valores (es decir, aerolíneas, fabricantes de defensa) con arreglo a la legislación de la EU."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Para la liquidación de operaciones de dos tramos (financiación de valores), la apertura/inicio y el cierre/devolución de la operación se confirman enviando la siguiente combinación de códigos TransactionIdentificationDetails/SecuritiesMovementType y códigos SettlementParameters/SecuritiesTransactionType:||Apertura de repo|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Cierre de repo|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Apertura de repo inverso|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Cierre de repo inverso|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Apertura de repo tripartito|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Cierre de repo tripartito|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Apertura de repo inverso tripartito|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Cierre de repo inverso tripartito|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Inicio de préstamo de valores|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Devolución de préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Inicio de toma en préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Devolución de toma en préstamo de valores|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Para la liquidación de operaciones de dos tramos (compra con reventa, venta con recompra, entrada y salida de garantías), la apertura/inicio y el cierre/devolución de la operación se identifican mediante la indicación de la siguiente combinación de códigos SecuritiesMovementType y códigos SettlementParameters/SecuritiesTransactionType:|||Venta con recompra: venta|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Venta con recompra: recompra|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Compra con reventa: compra|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Compra con reventa: reventa|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Inicio de salida de garantía (otorgante)|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Devolución de salida de garantía (otorgante)|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Inicio de entrada de garantía (receptor)|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Devolución de entrada de garantía (receptor)|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "isoType": "CorporateActionOption241",
+  "definition": "Proporciona información sobre la opción de operación societaria.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria."
+    },
+    "AccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta en la que se mantienen los instrumentos financieros."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "CashAccount": {
+      "definition": "Cuenta en la que se realiza una anotación de valores."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde los instrumentos financieros están o estarán en custodia."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica el instrumento financiero."
+    },
+    "TotalEligibleBalance": {
+      "definition": "Saldo total de valores admisibles para este evento de operación societaria. El cálculo del derecho se basa en este saldo."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo de la posición con instrucciones."
+    },
+    "UninstructedBalance": {
+      "definition": "Saldo de la posición sin instrucciones."
+    },
+    "ProtectBalance": {
+      "definition": "Saldo de valores que se encuentran en estado de protección en un CSD que opera un servicio de cobertura de protección."
+    },
+    "StatusQuantity": {
+      "definition": "Cantidad de valores a los que se ha asignado el estado indicado."
+    },
+    "StatusCashAmount": {
+      "definition": "Importe en efectivo suscrito al que se ha asignado el estado indicado."
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "Para diferenciar entre opciones, debe utilizarse OptionNumber en lugar de OptionType, por ejemplo, en el caso de que dos o más ofertas puedan describirse con el mismo código de opción de operación societaria. Por lo tanto, el valor de OptionNumber debe ser distinto para cada opción."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "SafekeepingPlace solo debe ser utilizado por custodios globales que permitan a sus clientes especificar dónde se han de mantener los valores, por ejemplo, en una cuenta de un ICSD frente a una cuenta en el CSD local."
+    },
+    "StatusQuantityOrStatusCashAmount1Rule": {
+      "definition": "Si StatusQuantity está presente, StatusCashAmount no está permitido. (MT 567 C5)."
+    },
+    "StatusQuantityOrStatusCashAmount2Rule": {
+      "definition": "Si StatusCashAmount está presente, StatusQuantity no está permitido. (MT 567 C5)."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

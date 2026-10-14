@@ -1,0 +1,15 @@
+{
+  "isoType": "PriceFormat2Choice",
+  "definition": "Elección de formatos para expresar un precio.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Precio expresado como divisa e importe."
+    },
+    "Rate": {
+      "definition": "Precio expresado como una tasa, es decir, un porcentaje."
+    },
+    "NotSpecified": {
+      "definition": "El valor del precio no está especificado."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RegisteredShareholderName1Choice",
+  "definition": "Elección entre nombre y dirección de persona física u organización.",
+  "isoElements": {
+    "IndividualPerson": {
+      "definition": "Entidad humana, por oposición a una entidad corporativa (a la que a veces se denomina «persona jurídica»)."
+    },
+    "Organisation": {
+      "definition": "Estructura organizada constituida con un fin determinado, por ejemplo, una empresa, un organismo gubernamental, un departamento, una organización benéfica o una entidad financiera."
+    }
+  }
+}

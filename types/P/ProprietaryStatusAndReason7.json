@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryStatusAndReason7",
+  "definition": "Proporciona el estado y el motivo propietarios de una instrucción o de una cancelación de instrucción.",
+  "isoElements": {
+    "ProprietaryStatus": {
+      "definition": "Identificación propietaria del estado relacionado con una instrucción."
+    },
+    "ProprietaryReason": {
+      "definition": "Identificación propietaria del motivo relacionado con un estado propietario."
+    }
+  }
+}

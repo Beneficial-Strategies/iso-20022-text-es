@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMCommandParameters3Choice",
+  "definition": "Parámetros específicos asociados a un comando del ATM.",
+  "isoElements": {
+    "ATMRequiredGlobalStatus": {
+      "definition": "Estado requerido del ATM, parámetros del comando de actualización de estado."
+    },
+    "ExpectedMessageFunction": {
+      "definition": "Mensaje que se debe enviar para el comando de envío de mensaje."
+    },
+    "RequiredConfigurationParameter": {
+      "definition": "Parámetros que debe utilizar el comando de actualización de la configuración."
+    },
+    "RequiredSecurityScheme": {
+      "definition": "Parámetros que debe utilizar el comando de actualización del esquema de seguridad."
+    },
+    "SecurityDevice": {
+      "definition": "Parámetros que se utilizan para actualizar la configuración o el estado del dispositivo de seguridad."
+    },
+    "Key": {
+      "definition": "Parámetros que utilizan los distintos comandos de claves criptográficas."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalPaymentControlRequestType1Code",
+  "definition": "Especifica el código externo del tipo de solicitud de una orden de control de pagos, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es un conjunto de códigos externo publicado por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "RT01": {
+      "name": "Liberación pendiente",
+      "definition": "El tipo es una solicitud de liberación de las operaciones pendientes."
+    },
+    "RT02": {
+      "name": "Retención normal",
+      "definition": "El tipo es una solicitud de retención de las operaciones normales."
+    },
+    "RT03": {
+      "name": "Cancelación",
+      "definition": "El tipo es una solicitud de cancelación de una operación."
+    },
+    "RT04": {
+      "name": "Reordenación",
+      "definition": "El tipo es una solicitud de cambio de la secuencia de las operaciones."
+    },
+    "RT05": {
+      "name": "Liberación sospechosa",
+      "definition": "El tipo es una solicitud de liberación de las operaciones sospechosas."
+    }
+  }
+}

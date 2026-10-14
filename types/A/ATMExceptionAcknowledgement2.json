@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMExceptionAcknowledgement2",
+  "definition": "Información relativa al acuse de recibo de una excepción del cajero automático (ATM).",
+  "isoElements": {
+    "ATM": {
+      "definition": "Información del cajero automático (ATM)."
+    },
+    "Context": {
+      "definition": "Contexto en el que se realiza la operación, si lo hay."
+    },
+    "Transaction": {
+      "definition": "Acuse de recibo del aviso de excepción."
+    }
+  }
+}

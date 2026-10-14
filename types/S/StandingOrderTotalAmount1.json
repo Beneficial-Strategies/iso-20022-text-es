@@ -1,0 +1,18 @@
+{
+  "isoType": "StandingOrderTotalAmount1",
+  "definition": "Proporciona detalles sobre el importe global de las órdenes de transferencia de liquidez predefinidas «aún no ejecutadas» o «definidas» por un participante del sistema en su ámbito de responsabilidad dentro del sistema.",
+  "isoElements": {
+    "SetPredefinedOrder": {
+      "definition": "Importe total definido de las órdenes de transferencia de liquidez predefinidas."
+    },
+    "PendingPredefinedOrder": {
+      "definition": "Importe total de las órdenes de transferencia de liquidez predefinidas aún no ejecutadas."
+    },
+    "SetStandingOrder": {
+      "definition": "Importe total definido de las órdenes permanentes de transferencia de liquidez."
+    },
+    "PendingStandingOrder": {
+      "definition": "Importe total de las órdenes permanentes de transferencia de liquidez aún no ejecutadas."
+    }
+  }
+}

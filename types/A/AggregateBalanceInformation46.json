@@ -1,0 +1,80 @@
+{
+  "isoType": "AggregateBalanceInformation46",
+  "definition": "Posición global, en un único valor, mantenida en una cuenta de valores en un lugar de custodia especificado.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financiero que representa un conjunto de derechos del inversor frente al emisor."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elementos que caracterizan un instrumento financiero distinto de un fondo de inversión."
+    },
+    "InvestmentFundsFinancialInstrumentAttributes": {
+      "definition": "Elementos que caracterizan un instrumento financiero de tipo fondo de inversión."
+    },
+    "ValuationHaircutDetails": {
+      "definition": "Elementos utilizados para calcular el recorte de valoración."
+    },
+    "AggregateBalance": {
+      "definition": "Cantidad total de instrumentos financieros del saldo."
+    },
+    "AvailableBalance": {
+      "definition": "Cantidad total de instrumentos financieros del saldo que está disponible."
+    },
+    "NotAvailableBalance": {
+      "definition": "Cantidad total de instrumentos financieros del saldo que no está disponible."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "CorporateActionOptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "PriceDetails": {
+      "definition": "Precio del instrumento financiero en una o varias divisas."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Información necesaria para procesar un cambio o una conversión de divisas."
+    },
+    "DaysAccrued": {
+      "definition": "Especifica el número de días utilizado para calcular el importe de los intereses devengados."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Importes de valoración proporcionados en la divisa base de la cuenta."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Importes de valoración proporcionados en la divisa del instrumento financiero."
+    },
+    "QuantityBreakdown": {
+      "definition": "Desglose de la cantidad agregada comunicada en lotes significativos, por ejemplo, lotes fiscales."
+    },
+    "BalanceBreakdown": {
+      "definition": "Desglose del saldo agregado por subsaldos significativos y disponibilidad."
+    },
+    "AdditionalBalanceBreakdown": {
+      "definition": "Proporciona información adicional del subsaldo del instrumento sobre la totalidad o parte del instrumento financiero comunicado (no registrado, exento de impuestos, etc.)."
+    },
+    "BalanceAtSafekeepingPlace": {
+      "definition": "Desglose de posiciones por lugar de custodia (y, opcionalmente, por lugar de cotización)."
+    },
+    "HoldingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre la posición."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  },
+  "isoRules": {
+    "BalanceAtSafekeepingPlaceRule": {
+      "definition": "Si SafekeepingPlace está presente, BalanceAtSafekeepingPlace no está permitido."
+    },
+    "AggregateBalanceGuideline": {
+      "definition": "Si AvailableQuantity y NotAvailableQuantity están ambos presentes, AggregateQuantity debe ser la suma de AvailableQuantity y NotAvailableQuantity."
+    },
+    "HoldingAdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si SubBalanceAdditionnalDetails está presente, no debe contener información que pueda proporcionarse en un campo estructurado."
+    },
+    "FinancialInstrumentAttributesRule": {
+      "definition": "Si InvestmentFundsFinancialInstrumentAttributes está presente, FinancialInstrumentAttributes no está permitido."
+    }
+  }
+}

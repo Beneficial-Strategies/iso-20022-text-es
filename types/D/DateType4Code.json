@@ -1,0 +1,14 @@
+{
+  "isoType": "DateType4Code",
+  "definition": "Especifica un tipo de fecha.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Abierto",
+      "definition": "Con fecha abierta, lo que indica que la fecha no se ha establecido."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "La fecha es desconocida para el emisor o no se ha establecido."
+    }
+  }
+}

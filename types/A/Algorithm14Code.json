@@ -1,0 +1,18 @@
+{
+  "isoType": "Algorithm14Code",
+  "definition": "Algoritmos criptográficos para firmas digitales.",
+  "isoCodes": {
+    "ERS2": {
+      "name": "SHA256WithRSA",
+      "definition": "Algoritmos de firma con RSA, que utilizan el algoritmo de resumen SHA-256 - (ASN.1 Object Identifier: sha256WithRSAEncryption)."
+    },
+    "ERS1": {
+      "name": "SHA1WithRSA",
+      "definition": "Algoritmos de firma DEPRECATED (obsoletos) con RSA (PKCS #1 versión 2.1), que utilizan el algoritmo de resumen SHA-1 - (ASN.1 Object Identifier: sha1WithRSAEncryption)."
+    },
+    "RPSS": {
+      "name": "RSASSA-PSS",
+      "definition": "Algoritmo de firma con apéndice, esquema de firma probabilístico (PKCS #1 versión 2.1) - (ASN.1 Object Identifier: id-RSASSA-PSS)."
+    }
+  }
+}

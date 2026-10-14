@@ -1,0 +1,18 @@
+{
+  "isoType": "BidRangeType1Code",
+  "definition": "Tipos de valores aceptables del rango de ofertas.",
+  "isoCodes": {
+    "DIVI": {
+      "name": "Divisible",
+      "definition": "Todos los valores (incluidos los precios mínimo y máximo) son divisibles por el intervalo de oferta."
+    },
+    "INCR": {
+      "name": "Incremental",
+      "definition": "Ningún valor dentro del rango de ofertas es divisible por el intervalo de oferta, incluidos los precios mínimo y máximo.  Cada valor entre los precios mínimo y máximo se incrementa en el intervalo de oferta."
+    },
+    "MULT": {
+      "name": "En múltiplos",
+      "definition": "Los precios mínimo y máximo no son divisibles por el intervalo de oferta.  Todos los valores sucesivos entre los precios mínimo y máximo son múltiplos del intervalo de oferta."
+    }
+  }
+}

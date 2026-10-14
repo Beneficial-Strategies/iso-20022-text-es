@@ -1,0 +1,30 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity2Code",
+  "definition": "Especifica el tipo de prorrateo cuando se está por debajo de la cantidad mínima a instruir.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Aceptado en su totalidad",
+      "definition": "Las instrucciones se aceptarán en su totalidad (con su cantidad original de valores instruida)."
+    },
+    "MIEX": {
+      "name": "Cantidad mínima",
+      "definition": "Las instrucciones se aceptarán, pero prorrateadas a la cantidad mínima a instruir."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "Las instrucciones serán rechazadas."
+    },
+    "MILD": {
+      "name": "Redondeo a la baja",
+      "definition": "Las instrucciones se aceptarán, pero redondeadas a la baja a la cantidad múltiplo mínima especificada a instruir."
+    },
+    "MILU": {
+      "name": "Redondeo al alza",
+      "definition": "Las instrucciones se aceptarán, pero redondeadas al alza a la cantidad múltiplo mínima especificada a instruir."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "Se desconoce el procesamiento de las instrucciones prorrateadas por debajo de la cantidad mínima a instruir."
+    }
+  }
+}

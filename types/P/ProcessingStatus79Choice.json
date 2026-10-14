@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus79Choice",
+  "definition": "Elección de formato para un estado de procesamiento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "El aviso de recompra forzosa (buy-in) ha sido acusado de recibo por el administrador de cuentas."
+    },
+    "Rejected": {
+      "definition": "El aviso de recompra forzosa (buy-in) se rechaza para su posterior procesamiento."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ServiceCategoryTotals8",
+  "definition": "Especifica los totales relacionados con la factura.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única de una cuenta de valores o de una cuenta de efectivo perteneciente al cliente facturado."
+    },
+    "ParentAccountIdentification": {
+      "definition": "Identificación única de una cuenta de valores principal o de una cuenta de efectivo principal perteneciente al cliente facturado, cuando se informa sobre subcuentas."
+    },
+    "BilledCustomerIdentification": {
+      "definition": "Identificación del cliente al que se factura."
+    },
+    "Tax": {
+      "definition": "Información detallada sobre el impuesto aplicado."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Importe total de la factura, que es la suma de los importes totales de las líneas de factura, el importe total de ajustes de la factura (descuentos, bonificaciones y gastos) y los importes totales de impuestos."
+    },
+    "ServiceCategory": {
+      "definition": "Acuerdo o normas conforme a los cuales debe procesarse la operación."
+    },
+    "ServiceItemTotals": {
+      "definition": "Totales relacionados con la factura."
+    },
+    "ServiceItemCorrection": {
+      "definition": "Corrección aplicada a la factura."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "ProprietaryReason4",
+  "definition": "Identificación propietaria del motivo relacionado con un estado.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Identificación propietaria del motivo relacionado con un estado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre la instrucción procesada."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "El elemento AdditionalReasonInformation no debe contener información que pueda facilitarse en un campo estructurado, salvo acuerdo bilateral."
+    }
+  }
+}

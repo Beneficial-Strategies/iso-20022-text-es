@@ -1,0 +1,36 @@
+{
+  "isoType": "BeneficialOwner1",
+  "definition": "Proporciona información sobre el beneficiario efectivo de los valores.",
+  "isoElements": {
+    "BeneficialOwnerIdentification": {
+      "definition": "Identificación de la parte que es el titular real de los valores especificados."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identificación adicional de la parte que es el titular real de los valores especificados."
+    },
+    "Nationality": {
+      "definition": "Nacionalidad del beneficiario efectivo."
+    },
+    "DomicileCountry": {
+      "definition": "País en el que una persona está domiciliada de forma permanente (el lugar de residencia permanente de una persona)."
+    },
+    "NonDomicileCountry": {
+      "definition": "El titular del valor debe certificar, de conformidad con las condiciones del evento corporativo, que no está domiciliado en el país indicado."
+    },
+    "CertificationIndicator": {
+      "definition": "Indica si se requiere o no certificación al titular de la cuenta. |Sí: se requiere certificación |No: no se requiere certificación."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificación que se requiere."
+    },
+    "DeclarationDetails": {
+      "definition": "Proporciona una narrativa de los detalles de declaración relativa al instrumento financiero, p. ej., titularidad real."
+    },
+    "SecurityIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "ElectedSecuritiesQuantity": {
+      "definition": "Cantidad de valores elegida por el titular real."
+    }
+  }
+}

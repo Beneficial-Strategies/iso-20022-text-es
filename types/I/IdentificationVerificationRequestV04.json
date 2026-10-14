@@ -1,0 +1,4 @@
+{
+  "isoType": "IdentificationVerificationRequestV04",
+  "definition": "Ámbito|El mensaje IdentificationVerificationRequest lo envía un asignador a un asignatario. Se utiliza para solicitar la verificación de la información de identificación de la parte y/o de la cuenta.|Uso|El mensaje IdentificationVerificationRequest se envía antes del envío de uno o varios mensajes de operaciones.|El mensaje IdentificationVerificationRequest puede contener una o varias solicitudes de verificación."
+}

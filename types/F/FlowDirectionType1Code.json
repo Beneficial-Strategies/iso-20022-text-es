@@ -1,0 +1,14 @@
+{
+  "isoType": "FlowDirectionType1Code",
+  "definition": "Especifica la dirección de un flujo de efectivo.",
+  "isoCodes": {
+    "INCG": {
+      "name": "Entrante",
+      "definition": "Importe de dinero recibido."
+    },
+    "OUTG": {
+      "name": "Saliente",
+      "definition": "Importe de dinero pagado."
+    }
+  }
+}

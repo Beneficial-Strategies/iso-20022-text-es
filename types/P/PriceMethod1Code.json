@@ -1,0 +1,14 @@
+{
+  "isoType": "PriceMethod1Code",
+  "definition": "Especifica el tipo de método de cálculo del precio.",
+  "isoCodes": {
+    "FORW": {
+      "name": "Precio a plazo",
+      "definition": "El precio se calculará después del cierre del período de contratación. Por lo tanto, el inversor no conoce el precio exacto de compra o venta."
+    },
+    "HIST": {
+      "name": "Precio histórico",
+      "definition": "El precio se calcula en un momento de valoración anterior al período de contratación. Por lo tanto, el inversor conoce el precio exacto de compra o venta."
+    }
+  }
+}

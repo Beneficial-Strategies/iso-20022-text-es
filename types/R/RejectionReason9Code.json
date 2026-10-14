@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason9Code",
+  "definition": "Especifica el motivo del rechazo de una solicitud de cancelación de elección.",
+  "isoCodes": {
+    "NCAN": {
+      "name": "Cancelación no permitida",
+      "definition": "No se permite la cancelación."
+    },
+    "LATT": {
+      "name": "Tardío",
+      "definition": "La instrucción o solicitud llega demasiado tarde."
+    },
+    "ELEC": {
+      "name": "Elección ya cancelada",
+      "definition": "El aviso de elección ya está cancelado."
+    },
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    }
+  }
+}

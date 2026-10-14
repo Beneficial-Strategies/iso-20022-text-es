@@ -1,0 +1,12 @@
+{
+  "isoType": "Amount2Choice",
+  "definition": "Elección entre un importe con o sin divisa.",
+  "isoElements": {
+    "AmountWithoutCurrency": {
+      "definition": "Número de unidades monetarias especificadas en una divisa cuya unidad se deduce del contexto."
+    },
+    "AmountWithCurrency": {
+      "definition": "Número de unidades monetarias especificadas en una divisa cuya unidad es explícita."
+    }
+  }
+}

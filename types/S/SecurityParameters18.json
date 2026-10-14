@@ -1,0 +1,21 @@
+{
+  "isoType": "SecurityParameters18",
+  "definition": "Parámetros de seguridad del cajero automático (ATM) para la descarga de claves iniciada.",
+  "isoElements": {
+    "Key": {
+      "definition": "Clave criptográfica utilizada para proteger la descarga de claves."
+    },
+    "SignatureChoice": {
+      "definition": "Elemento que contiene la firma."
+    },
+    "Certificate": {
+      "definition": "Cadena ordenada de certificados de la clave de cifrado de claves asimétrica, empezando por el certificado del cajero automático (ATM)."
+    },
+    "ATMChallenge": {
+      "definition": "Valor aleatorio del cajero automático (ATM) para evitar la repetición de mensajes."
+    },
+    "RequestedKey": {
+      "definition": "Clave solicitada para la descarga, según la jerarquía de claves utilizada por el host."
+    }
+  }
+}

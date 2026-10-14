@@ -1,0 +1,15 @@
+{
+  "isoType": "CashProceeds1",
+  "definition": "Proporciona información sobre los productos en efectivo.",
+  "isoElements": {
+    "PostingAmount": {
+      "definition": "Importe en efectivo que se contabiliza."
+    },
+    "ReconciliationDetails": {
+      "definition": "Información de conciliación."
+    },
+    "AccountDetails": {
+      "definition": "Proporciona información sobre la cuenta de valores adeudada."
+    }
+  }
+}

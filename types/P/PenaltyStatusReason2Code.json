@@ -1,0 +1,58 @@
+{
+  "isoType": "PenaltyStatusReason2Code",
+  "definition": "Especifica el motivo del estado de la penalización.",
+  "isoCodes": {
+    "UPDT": {
+      "name": "Actualizado",
+      "definition": "La penalización se ha actualizado."
+    },
+    "SUSP": {
+      "name": "Negociación suspendida",
+      "definition": "La penalización se ha eliminado debido a la suspensión de la negociación del ISIN."
+    },
+    "TECH": {
+      "name": "Imposibilidades técnicas",
+      "definition": "La penalización se ha eliminado porque existían imposibilidades técnicas a nivel del CSD que impedían la liquidación, tales como: un fallo de los componentes de la infraestructura, un ciberataque o problemas de red."
+    },
+    "SWIC": {
+      "name": "Conmutado",
+      "definition": "La penalización se ha traspasado entre la parte incumplidora y la parte no incumplidora."
+    },
+    "SESU": {
+      "name": "Liquidación suspendida",
+      "definition": "La penalización se ha eliminado debido a la suspensión de la liquidación del ISIN por un problema de conciliación conforme al artículo 65, apartados 2 y 6, de las RTS sobre los requisitos aplicables a los CSD."
+    },
+    "SEMP": {
+      "name": "Liquidación en varias plataformas",
+      "definition": "Liquidación en varias plataformas en la que una de ellas está cerrada a la liquidación (de efectivo o de valores)."
+    },
+    "RALO": {
+      "name": "Reasignado",
+      "definition": "Reasignación de una penalización por fallo de casación tardía de la parte instructora a la parte entregadora/receptora."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Véase el texto descriptivo."
+    },
+    "NEWP": {
+      "name": "Nueva penalización",
+      "definition": "La penalización es nueva."
+    },
+    "INTS": {
+      "name": "Liquidación internalizada",
+      "definition": "La penalización no se calcula porque la liquidación se ha internalizado."
+    },
+    "INSO": {
+      "name": "Insolvencia",
+      "definition": "La penalización se ha eliminado porque se han abierto procedimientos de insolvencia contra el participante incumplidor."
+    },
+    "CORP": {
+      "name": "Operación corporativa",
+      "definition": "Especifica que, debido a una operación societaria concreta, el valor ya no existe."
+    },
+    "NOSU": {
+      "name": "No sujeto",
+      "definition": "La penalización no se calcula o se elimina porque el valor no está sujeto a penalizaciones."
+    }
+  }
+}

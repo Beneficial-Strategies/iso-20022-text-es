@@ -1,0 +1,22 @@
+{
+  "isoType": "PensionTransferScope1Code",
+  "definition": "Especifica el alcance de una transferencia de pensiones.",
+  "isoCodes": {
+    "CRYS": {
+      "name": "Parte cristalizada",
+      "definition": "La transferencia corresponde a la parte cristalizada."
+    },
+    "SDDT": {
+      "name": "Tramo de disposición",
+      "definition": "La transferencia corresponde a un tramo de disposición específico."
+    },
+    "FULP": {
+      "name": "Pensión completa",
+      "definition": "La transferencia corresponde a la pensión completa."
+    },
+    "UCRY": {
+      "name": "Parte no cristalizada",
+      "definition": "La transferencia corresponde a la parte no cristalizada."
+    }
+  }
+}

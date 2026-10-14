@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentReason5",
+  "definition": "Especifica el motivo subyacente del estado de un objeto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo facilitado para el estado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

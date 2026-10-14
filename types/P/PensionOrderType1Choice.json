@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionOrderType1Choice",
+  "definition": "Elección de formatos para un tipo de orden de pensión.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de orden asociada a la póliza, el plan o el régimen de pensiones expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de orden asociada a la póliza, el plan o el régimen de pensiones expresado como código propietario."
+    }
+  }
+}

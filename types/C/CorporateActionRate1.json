@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionRate1",
+  "definition": "Especifica tasas.",
+  "isoElements": {
+    "Interest": {
+      "definition": "Tipo anual de un instrumento financiero."
+    },
+    "RelatedIndex": {
+      "definition": "Tasa de índice relacionada con el tipo de interés del próximo pago de intereses."
+    },
+    "PercentageSought": {
+      "definition": "Porcentaje de valores que el oferente o emisor comprará o amortizará con arreglo a las condiciones del evento. Puede ser un número o la expresión \"any and all\"."
+    },
+    "ReinvestmentDiscountToMarket": {
+      "definition": "Tasa de descuento de los valores adquiridos mediante un plan de reinversión en comparación con el precio de mercado actual del valor."
+    },
+    "Spread": {
+      "definition": "Margen permitido por encima o por debajo de una tasa determinada."
+    },
+    "BidInterval": {
+      "definition": "Incremento de precio aceptable utilizado para presentar una oferta."
+    },
+    "Charges": {
+      "definition": "Tipo utilizado para calcular el importe de los cargos o comisiones que no pueden clasificarse."
+    }
+  }
+}

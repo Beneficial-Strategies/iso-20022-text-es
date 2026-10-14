@@ -1,0 +1,21 @@
+{
+  "isoType": "AdditionalRights4",
+  "definition": "Información sobre los derechos adicionales que pueden concederse para una junta.",
+  "isoElements": {
+    "AdditionalRight": {
+      "definition": "Derechos específicos concedidos a los accionistas que pueden ejercerse en las juntas de accionistas, por ejemplo, el derecho a formular preguntas, a añadir puntos al orden del día o a presentar propuestas de resolución."
+    },
+    "AdditionalRightInformationURLAddress": {
+      "definition": "Dirección que debe utilizarse en el servicio www (HTTP) donde puede encontrarse información adicional sobre los derechos específicos concedidos a los accionistas."
+    },
+    "AdditionalRightDeadline": {
+      "definition": "Derecho adicional concedido para determinar la fecha y hora límite en que los titulares de valores pueden proponer modificaciones o nuevas resoluciones. Este plazo lo fija un intermediario."
+    },
+    "AdditionalRightMarketDeadline": {
+      "definition": "Derecho adicional concedido para determinar la fecha y hora límite en que los titulares de valores pueden proponer modificaciones o nuevas resoluciones. Este plazo lo fija el emisor."
+    },
+    "AdditionalRightThreshold": {
+      "definition": "Derecho adicional concedido para especificar la participación mínima en el capital social, el valor en efectivo o el número de titulares de valores necesarios para presentar resoluciones."
+    }
+  }
+}

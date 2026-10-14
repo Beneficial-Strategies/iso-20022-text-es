@@ -1,0 +1,17 @@
+{
+  "isoType": "Proxy12",
+  "definition": "Identificación de un apoderado designado para representar a una parte autorizada a votar en una junta de accionistas y voto por poder.",
+  "isoElements": {
+    "ProxyType": {
+      "definition": "Tipo de representante."
+    },
+    "PersonDetails": {
+      "definition": "Persona, distinta del presidente de la junta, designada por el titular de valores como representante."
+    }
+  },
+  "isoRules": {
+    "ProxyAppointment1Rule": {
+      "definition": "Si ProxyType es DISC (Discretionary) o HLDR (SecurityHolder), entonces PersonDetails debe estar presente."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "Unit15",
+  "definition": "Información sobre las participaciones que se van a transferir.",
+  "isoElements": {
+    "Units": {
+      "definition": "Cantidad de participaciones o de tokens digitales."
+    },
+    "OrderDate": {
+      "definition": "Fecha en que el inversor o su agente cursó la orden original."
+    },
+    "AcquisitionDate": {
+      "definition": "Fecha en que el inversor adquirió el instrumento financiero."
+    },
+    "CertificateNumber": {
+      "definition": "Certificado que representa el valor."
+    },
+    "Group1Or2Units": {
+      "definition": "Grupo fiscal al que pertenecen las participaciones del fondo de inversión adquiridas. El inversor indica al intermediario que gestiona cuentas de nominatarios agrupadas qué tipo de participación se debe vender."
+    },
+    "Reference": {
+      "definition": "Referencia al número de participaciones. Puede ser la referencia de la orden de adquisición original, la identificación de un lote, una referencia de cliente, una referencia de subposición u otra referencia relacionada."
+    }
+  }
+}

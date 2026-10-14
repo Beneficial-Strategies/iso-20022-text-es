@@ -1,0 +1,27 @@
+{
+  "isoType": "ReportData5",
+  "definition": "Representación numérica de los aumentos y disminuciones netos de una cuenta en un momento determinado. El saldo de efectivo se calcula como la suma de los abonos en efectivo menos la suma de los adeudos en efectivo.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificación del informe asignada por el sistema central."
+    },
+    "ValueDate": {
+      "definition": "Fecha límite en la que debe liquidarse el importe o los importes solicitados."
+    },
+    "DateAndTimeStamp": {
+      "definition": "Fecha y hora en que se genera el informe. También puede especificarse el desfase con respecto a UTC."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de la llamada de pay-in."
+    },
+    "PayInCallAmount": {
+      "definition": "Especifica el importe solicitado."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Para indicar la sesión de liquidación de CLS solicitada de la que forma parte la operación comercial relacionada."
+    },
+    "AccountValue": {
+      "definition": "Especifica el importe solicitado en varias divisas."
+    }
+  }
+}

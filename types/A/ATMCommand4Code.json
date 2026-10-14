@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMCommand4Code",
+  "definition": "Tipo de comando que debe ejecutar un cajero automático (ATM).",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Balance del ATM",
+      "definition": "Proporcionar los contadores del cajero automático (ATM), reiniciando los que correspondan."
+    },
+    "ASTS": {
+      "name": "Actualización de estado del ATM",
+      "definition": "Estado del cajero automático (ATM) solicitado por el gestor de ATM."
+    },
+    "CFGT": {
+      "name": "Actualización de configuración",
+      "definition": "Actualizar los parámetros de configuración del cajero automático (ATM)."
+    },
+    "CCNT": {
+      "name": "Consulta de contadores",
+      "definition": "Solicitar el valor de los contadores del cajero automático (ATM)."
+    },
+    "DISC": {
+      "name": "Desconexión",
+      "definition": "Realizar una desconexión seguida de una reconexión."
+    },
+    "SNDM": {
+      "name": "Envío de mensaje",
+      "definition": "Enviar un mensaje específico para iniciar un proceso."
+    },
+    "RPTC": {
+      "name": "Informe de contadores",
+      "definition": "Proporciona el valor de los contadores del ATM, sin reinicializarlos."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCADeactivationCancellationRequestV01",
+  "definition": "Ámbito|Este mensaje lo envía un emisor (o su agente) al CSD para solicitar la cancelación de una instrucción de desactivación de operación societaria enviada previamente.|Uso|Este mensaje se utiliza para solicitar la cancelación de una instrucción de desactivación pendiente. La cancelación debe aplicarse exactamente al mismo nivel que la instrucción original, es decir, a todo el evento de operación societaria o a una opción, según la instrucción original.|Este mensaje debe enviarse antes de la fecha de ejecución de la desactivación.|En caso de que una operación societaria o una opción ya estén desactivadas, este mensaje no puede utilizarse para reactivar el evento completo de la operación societaria ni la opción; para reactivar una operación societaria o una opción debe utilizarse el mensaje de aviso de notificación (CA)."
+}

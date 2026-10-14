@@ -1,0 +1,156 @@
+{
+  "isoType": "CorporateActionAmounts1",
+  "definition": "Especifica importes en el marco de un evento de acción corporativa.",
+  "isoElements": {
+    "GrossCashAmount": {
+      "definition": "Importe de dinero antes de efectuar cualquier deducción o desgravación."
+    },
+    "NetCashAmount": {
+      "definition": "Importe de dinero después de efectuar las deducciones y desgravaciones, si las hubiera, es decir, el importe total +/- cargos/comisiones."
+    },
+    "IssueDiscountAmount": {
+      "definition": "Importe de dinero definido como descuento sobre una nueva emisión o sobre un tramo de una emisión existente."
+    },
+    "SolicitationFees": {
+      "definition": "Importe de la prima en efectivo puesta a disposición con el fin de fomentar la participación en la oferta. El pago se efectúa a un tercero que ha solicitado a una entidad que participe en la oferta."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Desembolso en efectivo en sustitución de una cantidad fraccionaria de, p. ej., acciones."
+    },
+    "OriginalAmount": {
+      "definition": "Importe en su divisa original cuando se ha producido una conversión desde o hacia otra divisa."
+    },
+    "CapitalGain": {
+      "definition": "Importe de dinero distribuido como resultado de una plusvalía."
+    },
+    "InterestAmount": {
+      "definition": "Importe de dinero que representa el pago de un cupón."
+    },
+    "IndemnityAmount": {
+      "definition": "(Exclusivo de Francia) Importe debido a un comprador de valores negociados antes de la fecha ex, que puede estar sujeto a una tasa impositiva diferente."
+    },
+    "RedemptionPremiumAmount": {
+      "definition": "Importe de dinero (que no son intereses) adicional al principal en el momento del reembolso de un bono."
+    },
+    "ManufacturedDividendAmount": {
+      "definition": "Importe de dinero que el prestatario paga al prestamista como compensación. No da derecho al prestamista a reclamar ningún crédito fiscal y a veces recibe un tratamiento diferente por parte de las autoridades tributarias locales del prestamista."
+    },
+    "PrincipalOrCorpus": {
+      "definition": "Importe de dinero que representa una distribución del principal de un bono, p. ej., el reembolso de la deuda pendiente."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Importe de dinero reinvertido en valores adicionales."
+    },
+    "MarketClaimAmount": {
+      "definition": "Importe de dinero resultante de una reclamación de mercado."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Importe resultante de un dividendo plenamente acreditado (fully franked) pagado por una sociedad; el importe incluye el crédito fiscal para las sociedades que han efectuado pagos de impuestos suficientes durante el período fiscal."
+    },
+    "UnfrankedAmount": {
+      "definition": "Importe resultante de un dividendo no acreditado (unfranked) pagado por una sociedad; el importe no incluye crédito fiscal y está sujeto a retención fiscal."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Importe de dinero relacionado con rentas imponibles que no pueden clasificarse."
+    },
+    "SpecialConcessionAmount": {
+      "definition": "Importe de disposición u otra reducción respecto del precio de la operación, o adicional a este."
+    },
+    "EntitledAmount": {
+      "definition": "Importe en efectivo basado en las condiciones del evento de la operación societaria y el saldo de valores subyacentes, que corresponde al titular de la cuenta o a cargo de este (y puede ser positivo o negativo)."
+    },
+    "CashIncentive": {
+      "definition": "Tasa de la prima en efectivo puesta a disposición si el titular de los valores consiente o participa en un evento, p. ej., comisiones de consentimiento."
+    },
+    "AdditionalSubscriptionCost": {
+      "definition": "Costes adicionales, además de los costes de suscripción, que el suscriptor debe pagar conforme al proceso de suscripción. No debe utilizarse para el coste de suscripción propiamente dicho."
+    },
+    "TaxFreeAmount": {
+      "definition": "Importe de dinero que no ha estado sujeto a tributación."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Importe de rentas susceptibles de tributación diferida."
+    },
+    "GermanLocalTax1Amount": {
+      "definition": "Impuesto local (ZAS Anrechnungsbetrag) sujeto al impuesto sobre pagos anticipados de intereses (proporción de los intereses sujetos a dicho impuesto o del beneficio provisional que no está cubierta por el importe exento de impuestos)."
+    },
+    "GermanLocalTax2Amount": {
+      "definition": "Impuesto local (ZAS Pflichtige Zinsen): intereses sujetos al impuesto sobre pagos anticipados de intereses (proporción de los intereses brutos por unidad o de los beneficios provisionales que no está cubierta por el crédito en el fondo de intereses)."
+    },
+    "GermanLocalTax3Amount": {
+      "definition": "Impuesto local (Zinstopf): compensación de intereses por unidad con el importe exento de impuestos (variación para compensar los intereses por unidad en relación con el importe exento de impuestos)."
+    },
+    "GermanLocalTax4Amount": {
+      "definition": "Impuesto local (Ertrag Besitzanteilig): rendimiento sujeto al impuesto sobre pagos anticipados de intereses."
+    },
+    "StockExchangeTaxAmount": {
+      "definition": "Importe del impuesto de bolsa."
+    },
+    "TransferTaxAmount": {
+      "definition": "Impuesto aplicado a una transmisión de la titularidad de un instrumento financiero."
+    },
+    "TransactionTaxAmount": {
+      "definition": "Importe del impuesto sobre la operación."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Impuesto sobre el valor añadido."
+    },
+    "EURetentionTaxAmount": {
+      "definition": "Importe total del impuesto retenido en origen de conformidad con la Directiva sobre el ahorro de la EU."
+    },
+    "LocalTaxAmount": {
+      "definition": "Importe del impuesto aplicado por la jurisdicción en la que se liquida el instrumento financiero."
+    },
+    "PaymentLevyTaxAmount": {
+      "definition": "Impuesto sobre pagos."
+    },
+    "CountryNationalFederalTaxAmount": {
+      "definition": "Importe del impuesto nacional, estatal o federal aplicado por la jurisdicción en la que se encuentra la entidad gestora de la cuenta."
+    },
+    "StampDutyAmount": {
+      "definition": "Importe del impuesto de timbre."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Importe que se pagó en exceso de la obligación tributaria real y que fue reclamado."
+    },
+    "TaxCreditAmount": {
+      "definition": "Importe de impuestos que se han pagado previamente en relación con el hecho imponible."
+    },
+    "WithholdingOfForeignTaxAmount": {
+      "definition": "Importe de dinero retenido por la jurisdicción en la que se pagó originalmente el ingreso, y para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "WithholdingOfLocalTaxAmount": {
+      "definition": "Importe de dinero retenido por la jurisdicción en la que se encuentra el titular de la cuenta, y para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Importe de impuestos adicionales que no pueden clasificarse."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Importe de una distribución en efectivo que será retenido por una autoridad tributaria."
+    },
+    "FiscalStampAmount": {
+      "definition": "Importe del impuesto fiscal que debe aplicarse."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Importe de dinero pagado a un corredor ejecutor como comisión."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Importe de la comisión del agente pagador o subagente pagador."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Comisión del corredor local."
+    },
+    "PostageFeeAmount": {
+      "definition": "Importe de dinero pagado por la entrega por correo postal ordinario."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Importe de dinero cobrado por una autoridad reguladora, p. ej., las comisiones de Securities and Exchange."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Importe de dinero (incluido el seguro) pagado por la entrega mediante transportista."
+    },
+    "ChargesAmount": {
+      "definition": "Importe de dinero pagado por la prestación de servicios financieros que no puede clasificarse con otro calificador."
+    }
+  }
+}

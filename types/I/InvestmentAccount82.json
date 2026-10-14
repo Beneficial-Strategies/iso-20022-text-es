@@ -1,0 +1,48 @@
+{
+  "isoType": "InvestmentAccount82",
+  "definition": "Cuenta entre uno o varios inversores y una gestora de fondos o un fondo. La cuenta puede contener posiciones en cualquier fondo de inversión o clase de fondo de inversión gestionado (o distribuido) por la gestora, dentro de la misma familia de fondos.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "AccountName": {
+      "definition": "Nombre de la cuenta. Proporciona un medio adicional de identificación y lo designa la entidad gestora de la cuenta de acuerdo con el titular de la cuenta."
+    },
+    "AccountDesignation": {
+      "definition": "Información de registro complementaria que se aplica a un bloque específico de participaciones a efectos de negociación y de reporte. La información de registro complementaria puede utilizarse cuando todas las participaciones están registradas, por ejemplo, a nombre de un supermercado de fondos, pero las posiciones de cada inversor deben conciliarse individualmente."
+    },
+    "AccountServicer": {
+      "definition": "Entidad que mantiene los registros en los que se encuentra la cuenta."
+    },
+    "SubAccountDetails": {
+      "definition": "Subcuenta de la cuenta principal u ómnibus."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Cuenta digital en la que se pueden almacenar activos digitales o tokens digitales y en la que se realiza un apunte."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identificación de una parte relacionada o de un intermediario."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, es decir, titularidad, del valor, es decir, nominativo o al portador."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Indica si un valor existe únicamente como registro electrónico, es decir, si no hay ningún documento físico que represente el valor."
+    },
+    "IncomePreference": {
+      "definition": "Opción de dividendo elegida por el titular de la cuenta entre las opciones ofrecidas en el folleto."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "definition": "El titular real o su agente designado certifica que cumple las restricciones o requisitos de tenencia o inversión del fondo."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar solicitado como lugar de custodia."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Cadena de partes que intervienen en la liquidación de la operación."
+    }
+  }
+}

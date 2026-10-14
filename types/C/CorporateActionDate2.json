@@ -1,0 +1,81 @@
+{
+  "isoType": "CorporateActionDate2",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "RecordDate": {
+      "definition": "Fecha en la que se fijan las posiciones al cierre del día para determinar qué partes recibirán el importe correspondiente del derecho que se distribuirá en la fecha de pago."
+    },
+    "EffectiveDate": {
+      "definition": "Fecha en la que un proceso debe completarse o entra en vigor."
+    },
+    "CoverExpirationDate": {
+      "definition": "Último día en que un titular puede entregar los valores que había protegido previamente."
+    },
+    "EqualisationDate": {
+      "definition": "Fecha en la que la totalidad o parte de cualquier posición adquirida en un fondo de inversión pasa a tratarse como capital y no como ingreso. Normalmente es un día después de la fecha ex de la distribución anterior."
+    },
+    "MarginFixingDate": {
+      "definition": "Fecha y hora en que se determinará la tasa del margen."
+    },
+    "LotteryDate": {
+      "definition": "Fecha en la que se realiza el sorteo y se aplica a las posiciones del titular. También es aplicable a las amortizaciones parciales anticipadas (partial calls)."
+    },
+    "ProtectDate": {
+      "definition": "Última fecha en la que un titular puede solicitar el aplazamiento de la entrega de valores en virtud de un aviso de entrega garantizada u otra documentación exigida."
+    },
+    "UnconditionalDate": {
+      "definition": "Fecha en la que las condiciones de la oferta pública de adquisición pasan a ser incondicionales en cuanto a las aceptaciones."
+    },
+    "WhollyUnconditionalDate": {
+      "definition": "Fecha en la que se han cumplido todas las condiciones, incluidas las regulatorias, jurídicas, etc., relativas a la oferta pública de adquisición."
+    },
+    "ResultsPublicationDate": {
+      "definition": "Fecha en la que se publican los resultados, por ejemplo, los resultados de una oferta."
+    },
+    "CourtApprovalDate": {
+      "definition": "Fecha y hora en que el Tribunal Superior (High Court) otorgó su aprobación."
+    },
+    "EarlyClosingDate": {
+      "definition": "Primera fecha posible de cierre anticipado de una oferta, si es distinta de la fecha de vencimiento."
+    },
+    "ExDividendDate": {
+      "definition": "Fecha y hora a partir de la cual la negociación (incluida la negociación en bolsa y OTC) del valor subyacente se realiza sin el beneficio."
+    },
+    "IndexFixingDate": {
+      "definition": "Fecha y hora en que se determinará un tipo de índice."
+    },
+    "MaturityDate": {
+      "definition": "Fecha en la que un instrumento financiero que devenga intereses vence y el emisor reembolsa el principal al inversor."
+    },
+    "TradingSuspendedDate": {
+      "definition": "Fecha en la que se suspende la negociación de un valor como consecuencia de un evento."
+    },
+    "CertificationDeadline": {
+      "definition": "Plazo límite para declarar la titularidad real de los valores."
+    },
+    "RedemptionDate": {
+      "definition": "Fecha y hora en que los valores se amortizarán (anticipadamente) para el pago del principal."
+    },
+    "RegistrationDeadline": {
+      "definition": "Fecha en la que se aceptarán las instrucciones de registro o los datos de registro."
+    },
+    "ProrationDate": {
+      "definition": "Fecha (y hora) en que un emisor determinará el importe o la cantidad de prorrateo de una oferta."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "definition": "Fecha hasta la cual se aceptarán las instrucciones de desglose fiscal."
+    },
+    "LapsedDate": {
+      "definition": "Fecha y hora en que un evento/oferta finaliza o caduca."
+    },
+    "GuaranteedParticipationDate": {
+      "definition": "Última fecha y hora hasta la que una contraparte compradora de una operación puede estar segura de que tendrá derecho a participar en un evento."
+    },
+    "ElectionToCounterpartyDeadline": {
+      "definition": "Plazo límite en el que un titular con derecho debe comunicar a su contraparte en una operación su elección respecto de un evento de operación societaria."
+    },
+    "SpecialExDate": {
+      "definition": "Fecha y hora a partir de la cual los participantes pueden empezar a utilizar el 'tratamiento especial' (special processing) para ese evento. El tratamiento especial es un medio de marcar una operación que normalmente se negociaría ex o cum como negociada cum o ex, respectivamente, por ejemplo, una operación cerrada como 'especial' después de la fecha ex daría lugar a que el comprador tuviera derecho a la asignación. Se utiliza típicamente en los mercados del UK e Irlanda."
+    }
+  }
+}

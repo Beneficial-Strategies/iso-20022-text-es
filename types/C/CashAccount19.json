@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAccount19",
+  "definition": "Proporciona información sobre la cuenta de efectivo.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el valor es un débito o un crédito."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificación de la parte titular de la cuenta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta de efectivo o de la cuenta de valores de la que se deriva la cuenta de efectivo."
+    }
+  }
+}

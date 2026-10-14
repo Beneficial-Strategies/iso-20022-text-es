@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCustomerProfile1Code",
+  "definition": "Describe la forma principal en que se recopiló la información del cliente para construir el menú del cliente y la solicitud de retirada.",
+  "isoCodes": {
+    "CRDF": {
+      "name": "Información de la tarjeta",
+      "definition": "El perfil del cliente se deduce de los datos de la tarjeta y de la configuración local."
+    },
+    "OREQ": {
+      "name": "Otra solicitud",
+      "definition": "El perfil del cliente se envía mediante una consulta de cuenta en la que se selecciona una cuenta."
+    },
+    "PREQ": {
+      "name": "Solicitud de perfil",
+      "definition": "El perfil del cliente se construye mediante un intercambio de mensajes de perfil específico."
+    }
+  }
+}

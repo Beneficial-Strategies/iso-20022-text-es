@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessOrError8Choice",
+  "definition": "Informa sobre la información de negocio o sobre un error de negocio.",
+  "isoElements": {
+    "BusinessError": {
+      "definition": "Motivo por el que no se facilita la información de negocio solicitada."
+    },
+    "GeneralBusiness": {
+      "definition": "Información de negocio solicitada."
+    }
+  }
+}

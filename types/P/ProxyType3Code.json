@@ -1,0 +1,22 @@
+{
+  "isoType": "ProxyType3Code",
+  "definition": "Especifica el tipo de representante.",
+  "isoCodes": {
+    "CHRM": {
+      "name": "Presidente",
+      "definition": "El presidente de la junta es el representante."
+    },
+    "DISC": {
+      "name": "Discrecional",
+      "definition": "Se permite cualquier tipo de representante."
+    },
+    "NEPR": {
+      "name": "Representante neutral",
+      "definition": "Representante neutral designado por el emisor para ejercer los votos en nombre de los inversores en la junta."
+    },
+    "HLDR": {
+      "name": "Titular de valores",
+      "definition": "El representante solo puede ser un titular de valores."
+    }
+  }
+}

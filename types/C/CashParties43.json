@@ -1,0 +1,15 @@
+{
+  "isoType": "CashParties43",
+  "definition": "Especifica las partes de efectivo en el marco de un evento de operación corporativa.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicios sobre una cuenta del beneficiario."
+    },
+    "MarketClaimCounterparty": {
+      "definition": "Parte que ha reembolsado al titular de la cuenta con fondos a los que tenía legalmente derecho."
+    }
+  }
+}

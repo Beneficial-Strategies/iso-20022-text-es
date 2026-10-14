@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesModificationQueryCriteria1",
+  "definition": "Define los criterios en función de los cuales se incluye la información.",
+  "isoElements": {
+    "ModificationRequestIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "InstructionQueryType": {
+      "definition": "Tipo de operación subyacente que debe modificarse, como una instrucción de liquidación o un movimiento intraposición."
+    },
+    "ProcessingStatus": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "AccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originó el mensaje, si es distinta del emisor."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica la fecha y hora de creación del movimiento intraposición."
+    }
+  }
+}

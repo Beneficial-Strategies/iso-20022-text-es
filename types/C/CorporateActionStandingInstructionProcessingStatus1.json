@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionStandingInstructionProcessingStatus1",
+  "definition": "Proporciona la información sobre el estado de tramitación de una solicitud de instrucción permanente.",
+  "isoElements": {
+    "Status": {
+      "definition": "El estado de procesamiento."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

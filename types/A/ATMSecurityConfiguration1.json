@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMSecurityConfiguration1",
+  "definition": "Parámetros de configuración utilizados por el dispositivo de seguridad.",
+  "isoElements": {
+    "Keys": {
+      "definition": "Configuración de las claves criptográficas."
+    },
+    "Encryption": {
+      "definition": "Configuración del cifrado o del sobre digital, si el módulo de seguridad puede realizar cifrado."
+    },
+    "MACAlgorithm": {
+      "definition": "Algoritmo MAC (código de autenticación de mensajes) que el módulo de seguridad puede gestionar."
+    },
+    "DigestAlgorithm": {
+      "definition": "Algoritmo de resumen que el módulo de seguridad puede gestionar."
+    },
+    "DigitalSignature": {
+      "definition": "Configuración de las firmas digitales si el módulo de seguridad puede realizar firmas digitales con una clave asimétrica."
+    },
+    "PIN": {
+      "definition": "Configuración de la verificación en línea del PIN."
+    },
+    "MessageProtection": {
+      "definition": "Mecanismo utilizado para proteger el mensaje del protocolo del cajero automático (ATM)."
+    }
+  }
+}

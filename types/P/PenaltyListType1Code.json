@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyListType1Code",
+  "definition": "Especifica el tipo de informe de las penalizaciones.",
+  "isoCodes": {
+    "CURR": {
+      "name": "Actual",
+      "definition": "Para informar de las penalizaciones nuevas y las penalizaciones modificadas en un único mensaje o informe (/report)."
+    },
+    "FWAM": {
+      "name": "Reenviar modificación",
+      "definition": "Para informar de una lista de penalizaciones que ha sido modificada (es decir, la lista de penalizaciones contiene únicamente penalizaciones actualizadas o eliminadas que ya se habían notificado previamente en una FWIS Penalty List)."
+    },
+    "FWIS": {
+      "name": "Reenviar envío inicial",
+      "definition": "Para informar de una lista diaria de penalizaciones creada por primera vez (es decir, la lista de penalizaciones contiene únicamente penalizaciones recién calculadas)"
+    }
+  }
+}

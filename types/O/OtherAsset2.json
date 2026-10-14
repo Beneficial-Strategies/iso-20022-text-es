@@ -1,0 +1,24 @@
+{
+  "isoType": "OtherAsset2",
+  "definition": "Identificación de un activo.",
+  "isoElements": {
+    "OtherAssetType": {
+      "definition": "Tipo de activo."
+    },
+    "Identification": {
+      "definition": "Identificación técnica del activo."
+    },
+    "Name": {
+      "definition": "Nombre del activo."
+    },
+    "Description": {
+      "definition": "Descripción del activo."
+    },
+    "OtherIdentification": {
+      "definition": "Identificación adicional del activo."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el otro activo."
+    }
+  }
+}

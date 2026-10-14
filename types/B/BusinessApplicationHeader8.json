@@ -1,0 +1,45 @@
+{
+  "isoType": "BusinessApplicationHeader8",
+  "definition": "Especifica la cabecera de aplicación comercial (Business Application Header) del mensaje comercial.|Puede utilizarse al responder a una consulta; también al cancelar o modificar.",
+  "isoElements": {
+    "CharacterSet": {
+      "definition": "Contiene el juego de caracteres de los elementos de texto utilizados en el mensaje comercial."
+    },
+    "From": {
+      "definition": "El MessagingEndpoint emisor que ha creado este mensaje comercial para el MessagingEndpoint receptor que lo procesará.||Nótese que el MessagingEndpoint emisor puede ser distinto de la dirección de envío que pueda figurar en la cabecera de transporte (según se define en la capa de transporte)."
+    },
+    "To": {
+      "definition": "El MessagingEndpoint designado por el MessagingEndpoint emisor como destinatario que procesará en última instancia este mensaje comercial.||Nótese que el MessagingEndpoint receptor puede ser distinto de la dirección de recepción que pueda figurar en la cabecera de transporte (según se define en la capa de transporte)."
+    },
+    "BusinessMessageIdentifier": {
+      "definition": "Identifica de forma inequívoca el mensaje comercial ante el MessagingEndpoint que lo ha creado."
+    },
+    "MessageDefinitionIdentifier": {
+      "definition": "El identificador de definición de mensaje de la instancia de mensaje comercial a la que está asociada esta instancia de cabecera de aplicación comercial."
+    },
+    "BusinessService": {
+      "definition": "Especifica el servicio comercial acordado entre los dos MessagingEndpoints, bajo cuyas reglas se intercambia este mensaje comercial.|Debe utilizarse cuando existe una elección entre servicios de procesamiento o niveles de servicio de procesamiento.||Ejemplo: |«marketx.hvps.01» y «marketx.xbdr.01» podrían utilizarse para indicar que los mensajes asociados están sujetos a distintos niveles de procesamiento para pagos nacionales de alto valor frente a pagos transfronterizos dentro de la misma práctica de mercado."
+    },
+    "MarketPractice": {
+      "definition": "Especifica la práctica de mercado a la que se ajusta el mensaje. Las prácticas de mercado son un conjunto de reglas acordadas entre las partes que restringen el uso de los mensajes para lograr mejores tasas de STP (Straight Through Processing).|Una especificación de práctica de mercado también puede ampliar la especificación del mensaje subyacente mediante extensiones o datos suplementarios de dicho mensaje."
+    },
+    "CreationDate": {
+      "definition": "Fecha y hora en que se creó este mensaje comercial (cabecera).|Nota: las horas deben normalizarse con la anotación «Z»."
+    },
+    "BusinessProcessingDate": {
+      "definition": "Fecha y hora de procesamiento indicadas por el emisor para el receptor del mensaje comercial. Esta fecha puede ser distinta de la fecha y hora indicadas en CreationDate.||Uso: la práctica de mercado o un acuerdo bilateral deben especificar cómo se utiliza este elemento."
+    },
+    "CopyDuplicate": {
+      "definition": "Indica si el mensaje es una copia, un duplicado o una copia de un duplicado de un mensaje ISO 20022 enviado previamente."
+    },
+    "PossibleDuplicate": {
+      "definition": "Indicador de si el mensaje comercial intercambiado entre los MessagingEndpoints es posiblemente un duplicado. |Si el MessagingEndpoint receptor no recibió el original, este mensaje comercial debe procesarse como si fuera el original. ||Si el MessagingEndpoint receptor sí recibió el original, debe realizar las acciones necesarias para evitar procesar de nuevo este mensaje comercial.||Esto garantiza un comportamiento idempotente a nivel comercial.||NOTA (NOTE): en FIX se denomina «PossResend»; es un reenvío a nivel de aplicación, no una retransmisión a nivel de red."
+    },
+    "Priority": {
+      "definition": "Indicación relativa de la precedencia de procesamiento del mensaje frente a un (conjunto de) mensajes comerciales con prioridades asignadas."
+    },
+    "Signature": {
+      "definition": "Contiene la firma digital de la entidad comercial autorizada para firmar este mensaje comercial."
+    }
+  }
+}

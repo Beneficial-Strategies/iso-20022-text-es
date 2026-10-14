@@ -1,0 +1,23 @@
+{
+  "isoType": "ShortPaymentIdentification4",
+  "definition": "Identifica una instrucción de pago mediante un conjunto sencillo de características que permite identificarla de forma inequívoca.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificación única, asignada por la primera entidad instructora, que identifica de forma inequívoca la operación y se transmite sin modificar a lo largo de toda la cadena interbancaria.|Uso: la identificación de la operación puede utilizarse para la conciliación, el seguimiento o para vincular tareas relativas a la operación en el nivel interbancario. La entidad instructora debe asegurarse de que la identificación de la operación sea única durante un período acordado previamente.|Uso: este es el antiguo elemento PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Identificador único universal que proporciona una referencia de extremo a extremo de una operación de pago."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en que el importe de dinero deja de estar disponible para la entidad que lo debe y en que pasa a estar disponible para la entidad a la que se le debe."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que da instrucciones a la siguiente parte de la cadena para que lleve a cabo la instrucción o el conjunto de instrucciones."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "Debe estar presente TransactionIdentification o UETR. Pueden estar presentes ambos"
+    }
+  }
+}

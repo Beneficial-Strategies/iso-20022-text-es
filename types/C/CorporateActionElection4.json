@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionElection4",
+  "definition": "Proporciona información sobre una elección de evento corporativo.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "CurrencyOption": {
+      "definition": "Divisa en la que se abonará o adeudará el producto en efectivo."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con una opción de operación societaria."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica el instrumento financiero."
+    }
+  }
+}

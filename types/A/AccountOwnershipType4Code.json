@@ -1,0 +1,78 @@
+{
+  "isoType": "AccountOwnershipType4Code",
+  "definition": "Especifica el tipo de titularidad de la cuenta.",
+  "isoCodes": {
+    "UNCO": {
+      "name": "Sin personalidad jurídica",
+      "definition": "El titular de la cuenta es una sociedad de personas sin personalidad jurídica o un empresario individual."
+    },
+    "LIPA": {
+      "name": "Sociedad comanditaria",
+      "definition": "El titular de la cuenta es una sociedad comanditaria o un empresario individual."
+    },
+    "ENTR": {
+      "name": "Empresarial",
+      "definition": "Cuenta de empresario."
+    },
+    "CORP": {
+      "name": "Sociedad anónima",
+      "definition": "El titular de la cuenta es una sociedad mercantil."
+    },
+    "CUST": {
+      "name": "Cuenta de custodia",
+      "definition": "Cuenta de menor, registrada a nombre del menor. Dado que el menor no puede poseer bienes legalmente, el custodio de la cuenta mantiene el control de la misma."
+    },
+    "EURE": {
+      "name": "Entidad residual de la UE",
+      "definition": "El titular de la cuenta es una entidad radicada en la Unión Europea que no puede considerarse ni una persona jurídica (por ejemplo, empresa, sociedad), ni una persona física, ni un fondo UCITS (Organismos de Inversión Colectiva en Valores Mobiliarios)."
+    },
+    "PART": {
+      "name": "Sociedad colectiva formal",
+      "definition": "El titular de la cuenta es una organización empresarial contractual en la que dos o más personas acuerdan aportar sus fondos en común para gestionar y operar un negocio."
+    },
+    "TRUS": {
+      "name": "Fideicomiso formal",
+      "definition": "El titular de la cuenta es una organización que actúa como fiduciario de personas o empresas en la administración de servicios como la transferencia de acciones, el registro o los fondos fiduciarios."
+    },
+    "GOVO": {
+      "name": "Organismo gubernamental",
+      "definition": "El titular de la cuenta es una organización gubernamental."
+    },
+    "JOIT": {
+      "name": "Cuenta conjunta",
+      "definition": "Dos o más personas con capacidad legal son copropietarias de la misma cuenta."
+    },
+    "COMO": {
+      "name": "Cuenta conjunta en común",
+      "definition": "Dos o más personas con capacidad legal son copropietarias de la misma cuenta. Al fallecer uno de los titulares, el porcentaje de titularidad correspondiente se transfiere a la herencia del fallecido."
+    },
+    "JOIN": {
+      "name": "Cuenta conjunta con derecho de supervivencia",
+      "definition": "Dos o más personas son copropietarias de la misma cuenta. Al fallecer uno de los titulares, la titularidad completa de la cuenta pasa a los titulares supervivientes."
+    },
+    "LLCO": {
+      "name": "Sociedad de responsabilidad limitada",
+      "definition": "La cuenta corresponde a una sociedad de responsabilidad limitada."
+    },
+    "NOMI": {
+      "name": "Titular fiduciario",
+      "definition": "El titular de la cuenta es una persona o empresa a cuyo nombre se transfieren valores u otros bienes para facilitar operaciones, siendo el cliente el verdadero propietario."
+    },
+    "NFPO": {
+      "name": "Organización sin ánimo de lucro",
+      "definition": "El titular de la cuenta es una asociación a la que se concede la condición de exenta de impuestos debido a la naturaleza de sus actividades, como una organización benéfica."
+    },
+    "ONIS": {
+      "name": "Otra persona no física",
+      "definition": "El titular de la cuenta es otro tipo de organización que no es una persona física."
+    },
+    "RGIC": {
+      "name": "Sociedad de inversión registrada",
+      "definition": "La cuenta corresponde a una sociedad de inversión registrada."
+    },
+    "SIGL": {
+      "name": "Cuenta de titular único",
+      "definition": "La cuenta tiene un único titular individual."
+    }
+  }
+}

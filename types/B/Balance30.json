@@ -1,0 +1,23 @@
+{
+  "isoType": "Balance30",
+  "definition": "Informe sobre la posición neta de un valor, en una única cuenta de valores, para una fecha determinada.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BalanceForAccount": {
+      "definition": "Informe sobre la posición neta de un valor, en una única cuenta de valores, para una fecha determinada."
+    },
+    "SubAccountDetails": {
+      "definition": "Subcuenta de la cuenta de valores o de inversión."
+    },
+    "AccountBaseCurrencyTotalAmounts": {
+      "definition": "Importes totales de valoración expresados en la divisa base de la cuenta."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountRule": {
+      "definition": "BalanceForAccount debe estar presente o SubAccountDetails debe estar presente; ambos pueden estar presentes."
+    }
+  }
+}

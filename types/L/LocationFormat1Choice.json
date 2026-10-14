@@ -1,0 +1,12 @@
+{
+  "isoType": "LocationFormat1Choice",
+  "definition": "Elección entre los formatos para indicar el lugar de celebración de la junta.",
+  "isoElements": {
+    "Address": {
+      "definition": "Especifica la dirección física de la junta."
+    },
+    "LocationCode": {
+      "definition": "Indica que el lugar es desconocido."
+    }
+  }
+}

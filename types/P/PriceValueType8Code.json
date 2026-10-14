@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceValueType8Code",
+  "definition": "Especifica un tipo de valor de precio.",
+  "isoCodes": {
+    "TBSP": {
+      "name": "Por especificar",
+      "definition": "Precio que debe especificar el titular de la cuenta."
+    },
+    "UNSP": {
+      "name": "No especificado",
+      "definition": "El titular de la cuenta no está obligado a especificar el precio."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "El precio es desconocido para el remitente o no se ha establecido."
+    },
+    "NILP": {
+      "name": "Pago nulo",
+      "definition": "El precio no se pagará."
+    }
+  }
+}

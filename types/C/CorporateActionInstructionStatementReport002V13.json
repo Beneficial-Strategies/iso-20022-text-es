@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionInstructionStatementReport002V13",
+  "definition": "Alcance|El mensaje CorporateActionInstructionStatementReport es enviado por una entidad administradora de cuentas a un titular de cuenta o a su agente designado para informar de los saldos a nivel de cuenta de valores en custodia para uno o varios eventos de operaciones societarias, o a nivel de evento de operación societaria para una o varias cuentas de valores en custodia.|Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente (la subfunción del mensaje es Duplicate),|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy),|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy Duplicate), utilizando los elementos pertinentes de la cabecera de aplicación empresarial (BAH).",
+  "isoRules": {
+    "MultipleAccountAndStatementDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ReportingType es MASE (Multiple Accounts), AccountAndStatementDetails puede repetirse y AccountAndStatementDetails/CorporateActionEventAndBalance no debe repetirse en ninguna ocurrencia de AccountAndStatementDetails.|Si StatementGeneralDetails/ReportingType es SAME (Multiple Events), AccountAndStatementDetails no debe repetirse y AccountAndStatementDetails/CorporateActionEventAndBalance puede repetirse."
+    },
+    "CorporateActionEventAndBalanceRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es 'true' o '1' (Yes), debe estar presente al menos una ocurrencia de AccountAndStatementDetails/CorporateActionEventAndBalance.|Si StatementGeneralDetails/ActivityIndicator es 'false' o '0' (No), AccountAndStatementDetails/CorporateActionEventAndBalance no debe estar presente en ninguna ocurrencia de AccountAndStatementDetails."
+    },
+    "PaginationRule": {
+      "definition": "Si la paginación está presente, StatementGeneralDetails/StatementIdentification debe estar presente."
+    }
+  }
+}

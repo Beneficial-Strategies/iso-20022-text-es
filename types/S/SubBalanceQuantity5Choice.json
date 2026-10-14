@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceQuantity5Choice",
+  "definition": "Elección entre formatos para la información del saldo.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Cantidad de instrumento financiero en el subsaldo."
+    },
+    "Proprietary": {
+      "definition": "Cantidad de instrumento financiero en el subsaldo expresada en formato propietario."
+    }
+  }
+}

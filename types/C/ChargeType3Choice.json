@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType3Choice",
+  "definition": "Especifica el tipo de gasto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de gastos, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de gastos en forma propietaria, según lo defina el emisor."
+    }
+  }
+}

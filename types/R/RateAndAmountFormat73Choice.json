@@ -1,0 +1,18 @@
+{
+  "isoType": "RateAndAmountFormat73Choice",
+  "definition": "Elección de formato entre una tasa, un importe, puntos de índice o una tasa no especificada.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Valor expresado como una tasa."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor de la tasa no especificado."
+    },
+    "Amount": {
+      "definition": "El valor se expresa como una divisa y un importe."
+    },
+    "IndexPoints": {
+      "definition": "Precio expresado en puntos de índice."
+    }
+  }
+}

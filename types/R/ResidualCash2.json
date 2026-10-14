@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash2",
+  "definition": "Especifica cómo debe tratarse el efectivo de la cuenta pendiente de inversión.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indica si el efectivo de la cuenta pendiente de inversión debe transferirse."
+    },
+    "Currency": {
+      "definition": "Divisa del efectivo."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyPerCounterparty4",
+  "definition": "Especifica las penalizaciones de una parte determinada.",
+  "isoElements": {
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta de subnivel en nombre del titular de la cuenta, es decir, gestiona el registro y la contabilización de los asientos en la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "PartyIdentification": {
+      "definition": "Identificación única de la parte dentro del sistema."
+    },
+    "AggregatedNetAmount": {
+      "definition": "Importe neto bilateral por parte y contraparte."
+    },
+    "PenaltyDetails": {
+      "definition": "Información adicional sobre la penalización."
+    }
+  }
+}

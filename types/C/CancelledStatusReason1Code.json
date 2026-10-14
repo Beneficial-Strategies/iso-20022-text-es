@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatusReason1Code",
+  "definition": "Especifica el motivo subyacente de la cancelación de la operación asociada.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Cancelado por usted",
+      "definition": "La operación ha sido cancelada por usted."
+    },
+    "CANS": {
+      "name": "Cancelado por el sistema",
+      "definition": "La operación ha sido cancelada por el sistema."
+    },
+    "CSUB": {
+      "name": "Cancelado por el agente",
+      "definition": "La operación ha sido cancelada por el agente."
+    }
+  }
+}

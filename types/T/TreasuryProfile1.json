@@ -1,0 +1,15 @@
+{
+  "isoType": "TreasuryProfile1",
+  "definition": "Perfil de negociación de tesorería.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha de ejecución de la operación de bonos del Tesoro."
+    },
+    "TraderType": {
+      "definition": "Tipo de parte que realiza operaciones de negociación, por ejemplo, inversor o custodio."
+    },
+    "Rate": {
+      "definition": "Tipo impositivo."
+    }
+  }
+}

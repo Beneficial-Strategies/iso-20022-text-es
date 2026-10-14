@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMEnvironment9",
+  "definition": "Entorno del cajero automático (ATM).",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Adquirente de la operación del cajero automático (ATM), encargado de la liquidación de fondos con el emisor."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identificación del gestor de cajeros automáticos (ATM)."
+    },
+    "ATM": {
+      "definition": "Información del cajero automático (ATM)."
+    }
+  }
+}

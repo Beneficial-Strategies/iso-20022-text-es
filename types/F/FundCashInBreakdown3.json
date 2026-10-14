@@ -1,0 +1,30 @@
+{
+  "isoType": "FundCashInBreakdown3",
+  "definition": "Desglose de los movimientos de efectivo hacia un fondo como resultado de operaciones con fondos de inversión, por ejemplo, suscripciones o traspasos de entrada.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe del flujo de efectivo de entrada, expresado como importe de dinero."
+    },
+    "UnitsNumber": {
+      "definition": "Importe del flujo de efectivo de entrada, expresado como número de participaciones."
+    },
+    "NewAmountIndicator": {
+      "definition": "Indica si el flujo de efectivo es una partida que no figuraba en el informe enviado anteriormente, por ejemplo, porque se recibió cerca de la hora límite."
+    },
+    "InvestmentFundTransactionInType": {
+      "definition": "Tipo de operación que dio lugar al movimiento de efectivo de entrada, por ejemplo, suscripción o traspaso de entrada."
+    },
+    "OriginalOrderQuantityType": {
+      "definition": "Especifica cómo se expresó la orden original que dio lugar al movimiento de efectivo de entrada, es decir, en efectivo o en participaciones."
+    },
+    "ChargeDetails": {
+      "definition": "Gastos por la colocación de una orden."
+    },
+    "CommissionDetails": {
+      "definition": "Información relativa a la comisión aplicada a una orden, por ejemplo, comisión de salida o de entrada."
+    },
+    "SettlementCurrency": {
+      "definition": "Divisa de liquidación de la operación."
+    }
+  }
+}

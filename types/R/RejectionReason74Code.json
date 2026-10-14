@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason74Code",
+  "definition": "Depositario no reconocido o no válido.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "NRGN": {
+      "name": "Rechazo por no encontrado",
+      "definition": "No se pudo encontrar la instrucción."
+    },
+    "REFE": {
+      "name": "Rechazo por referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida previamente."
+    },
+    "NRGM": {
+      "name": "Sin coincidencia",
+      "definition": "Más de una instrucción cumple los criterios."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    }
+  }
+}

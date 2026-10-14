@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyInRegulatoryAdviceV02",
+  "definition": "Ámbito||Un titular de cuenta envía un BuyInRegulatoryAdvice a un administrador de cuentas para notificarle los resultados de las operaciones de recompra forzosa (buy-in) ejecutadas conforme al régimen normativo del CSDR.|||La relación entre titular de cuenta y administrador puede ser:|- un participante de un depositario central de valores que tiene una cuenta en un depositario central de valores.|También podría ser, si así se acuerda en un acuerdo de nivel de servicio:|- un custodio global que tiene una cuenta en su agente local (subcustodio), o|- una entidad de gestión de inversiones que gestiona una cuenta de fondo abierta en un custodio, o|- un intermediario que tiene una cuenta en un custodio, o|- un depositario central de valores que tiene una cuenta en un custodio, en otro depositario central de valores o en otra infraestructura del mercado de liquidación.|La parte receptora final al término de la cadena de liquidación es un depositario central de valores o un depositario central de valores internacional.||||Uso||El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    }
+  }
+}

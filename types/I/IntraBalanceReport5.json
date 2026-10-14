@@ -1,0 +1,38 @@
+{
+  "isoType": "IntraBalanceReport5",
+  "definition": "Características del informe.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Número secuencial del informe."
+    },
+    "QueryReference": {
+      "definition": "Identificación del mensaje de consulta enviado para solicitar este extracto."
+    },
+    "ReportIdentification": {
+      "definition": "Referencia común a todas las páginas de un extracto."
+    },
+    "ReportDateTime": {
+      "definition": "Fecha y hora en que se creó el informe."
+    },
+    "ReportPeriod": {
+      "definition": "Periodo del extracto."
+    },
+    "QueryType": {
+      "definition": "Define el tipo de consulta."
+    },
+    "Frequency": {
+      "definition": "Frecuencia del extracto."
+    },
+    "UpdateType": {
+      "definition": "Indica si el extracto está completo o contiene únicamente cambios."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si en el extracto se notifica actividad o actualización de información."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Si se utiliza el número largo (Exact5NumericTest), el informe debe ser un informe delta (UpdateType: DELT).|Si el informe tiene varias páginas, el ReportNumber debe permanecer igual en todas las páginas. Es un número único del informe.|Dos informes del mismo tipo enviados uno a continuación del otro al mismo receptor en relación con la misma cuenta de custodia deben tener ReportNumbers diferentes. Por ejemplo, un informe diario enviado el día 1 tendría el ReportNumber 001, el día 2, 002, etc."
+    }
+  }
+}

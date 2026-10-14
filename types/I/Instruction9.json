@@ -1,0 +1,38 @@
+{
+  "isoType": "Instruction9",
+  "definition": "Información sobre una instrucción de voto de junta.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificación de la instrucción individual."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha en la que debe ejecutarse la instrucción."
+    },
+    "VoteExecutionConfirmation": {
+      "definition": "Indica que se solicita una confirmación de ejecución del voto."
+    },
+    "AccountDetails": {
+      "definition": "Identificación de la cuenta de valores."
+    },
+    "Proxy": {
+      "definition": "Identificación de la persona designada por el titular de los valores como apoderado."
+    },
+    "VoteDetails": {
+      "definition": "Instrucciones de voto detalladas."
+    },
+    "MeetingAttendee": {
+      "definition": "Identificación del titular de los valores que asistirá y votará en la junta en persona y/o de la persona designada por el titular de los valores para asistir a la junta sin tener derechos de voto ni realizar ninguna acción."
+    },
+    "SpecificInstructionRequest": {
+      "definition": "Solicitud de ejecución de instrucciones específicas, como el registro de participación, el registro de valores o el bloqueo de valores."
+    },
+    "AdditionalDisclosureInformation": {
+      "definition": "Información que el emisor exige divulgar como parte de una instrucción presentada, que no sea la información relativa al titular beneficiario, al participante votante, al apoderado designado por el emisor ni a los asistentes que participan en la junta (sin voto)."
+    }
+  },
+  "isoRules": {
+    "MeetingAttendeeRule": {
+      "definition": "Si está presente al menos una ocurrencia de MeetingAttendee, entonces SpecificInstructionRequest/ParticipationMethod/Code debe ser PHYS (InPerson)."
+    }
+  }
+}

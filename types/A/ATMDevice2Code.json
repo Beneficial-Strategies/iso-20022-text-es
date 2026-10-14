@@ -1,0 +1,94 @@
+{
+  "isoType": "ATMDevice2Code",
+  "definition": "Lista de dispositivos del cajero automático (ATM).",
+  "isoCodes": {
+    "ALRM": {
+      "name": "Sensores de alarma",
+      "definition": "Sensores de alarma, como los de manipulación, sísmicos o de calor."
+    },
+    "BRCD": {
+      "name": "Lector de códigos de barras",
+      "definition": "Dispositivo que lee códigos de barras con cualquier tecnología de lectura."
+    },
+    "CAMR": {
+      "name": "Cámara",
+      "definition": "Cámara, grabadora, mezclador de vídeo."
+    },
+    "CRDD": {
+      "name": "Dispensador de tarjetas",
+      "definition": "Dispositivo que entrega una tarjeta a un consumidor."
+    },
+    "CRDR": {
+      "name": "Unidad de tarjetas",
+      "definition": "Dispositivo para leer y, opcionalmente, escribir tarjetas con varios modos de entrada."
+    },
+    "CSHD": {
+      "name": "Dispensador de efectivo",
+      "definition": "Dispositivo que dispensa efectivo en un entorno automatizado o con un operador presente."
+    },
+    "CSHI": {
+      "name": "Módulo de ingreso de efectivo",
+      "definition": "Dispositivo que admite la entrada y salida de elementos como cupones, documentos, billetes y monedas."
+    },
+    "CSHR": {
+      "name": "Reciclador de efectivo",
+      "definition": "Dispositivo compuesto con módulo de ingreso de efectivo, dispensador de efectivo y cambio de efectivo."
+    },
+    "CHCK": {
+      "name": "Lector de cheques",
+      "definition": "Lector de cheques y escáner de imágenes de cheques."
+    },
+    "CDIS": {
+      "name": "Consola del cliente",
+      "definition": "Pantalla y teclado del cliente."
+    },
+    "DPST": {
+      "name": "Depósito",
+      "definition": "Dispositivo para el depósito de soportes en sobres o de bolsas con soportes a granel."
+    },
+    "DPRN": {
+      "name": "Impresora de documentos",
+      "definition": "Impresora para documentos y formularios de tamaño completo, que admite la impresión de texto y gráficos."
+    },
+    "DOOR": {
+      "name": "Sensores de puertas",
+      "definition": "Sensores de puertas, como las del armario, la caja fuerte o la protección antivandálica."
+    },
+    "INPM": {
+      "name": "Módulo de procesamiento de entradas",
+      "definition": "Dispositivo de autoservicio que procesa elementos."
+    },
+    "JRNL": {
+      "name": "Diario",
+      "definition": "Registro de eventos."
+    },
+    "JPRN": {
+      "name": "Impresora de diario",
+      "definition": "Dispositivo de papel continuo que se usa para registrar en papel una pista de auditoría de las operaciones y para determinados informes impresos."
+    },
+    "SNSR": {
+      "name": "Otro sensor",
+      "definition": "Unidad de otros sensores e indicadores."
+    },
+    "PSBK": {
+      "name": "Impresora de libretas",
+      "definition": "Dispositivo de libretas que permite el posicionamiento automático de la libreta."
+    },
+    "PINR": {
+      "name": "Teclado PIN",
+      "definition": "Módulo de seguridad de hardware que permite la introducción del PIN (número de identificación personal), el almacenamiento seguro de claves criptográficas y otras funciones criptográficas."
+    },
+    "RPRN": {
+      "name": "Impresora de recibos",
+      "definition": "Impresora de recibos que se utiliza para imprimir documentos en hojas sueltas."
+    },
+    "SCAN": {
+      "name": "Escáner impresora",
+      "definition": "Dispositivo que incorpora la capacidad de escanear documentos insertados y, opcionalmente, de imprimir sobre ellos."
+    },
+    "RWDR": {
+      "name": "Justificante de retirada",
+      "definition": "Justificante de las operaciones de retirada de efectivo."
+    }
+  }
+}

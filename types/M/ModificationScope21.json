@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope21",
+  "definition": "Alcance de la modificación que se aplicará a un conjunto de información identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Especifica el tipo de modificación que se aplicará a un conjunto de información."
+    },
+    "IssueAllocation": {
+      "definition": "Información sobre la titularidad de la cuenta de inversión con respecto a la asignación de nuevas emisiones para un fondo de inversión libre."
+    }
+  }
+}

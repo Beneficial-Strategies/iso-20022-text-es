@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingInstructionStatus1Choice",
+  "definition": "Elección entre varios estados.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Proporciona información sobre el estado de procesamiento de la solicitud."
+    },
+    "RejectedStatus": {
+      "definition": "Proporciona información sobre el estado de rechazo."
+    }
+  }
+}

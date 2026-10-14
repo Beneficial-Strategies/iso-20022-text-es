@@ -1,0 +1,15 @@
+{
+  "isoType": "IdentificationInformation5",
+  "definition": "Proporciona los detalles de la información de identificación.",
+  "isoElements": {
+    "Party": {
+      "definition": "Titular de la cuenta que debe un importe o a quien se le debe un importe."
+    },
+    "Account": {
+      "definition": "Identificación inequívoca de la cuenta de una parte."
+    },
+    "Agent": {
+      "definition": "Entidad financiera que administra una cuenta de una parte."
+    }
+  }
+}

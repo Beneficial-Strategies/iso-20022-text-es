@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayReportOrError9Choice",
+  "definition": "Opción entre los detalles de la información del día hábil o un error operativo cuando no es posible recuperar los datos solicitados.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Informa sobre la información del día hábil o sobre un error de negocio."
+    },
+    "OperationalError": {
+      "definition": "Indica que se ha emitido un error operativo durante el procesamiento de la solicitud relacionada."
+    }
+  }
+}

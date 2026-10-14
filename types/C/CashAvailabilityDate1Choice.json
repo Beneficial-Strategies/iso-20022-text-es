@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAvailabilityDate1Choice",
+  "definition": "Indica cuándo estará disponible el importe.",
+  "isoElements": {
+    "NumberOfDays": {
+      "definition": "Indica el número de días de flotación asociados al saldo."
+    },
+    "ActualDate": {
+      "definition": "Identifica la fecha de disponibilidad efectiva."
+    }
+  }
+}

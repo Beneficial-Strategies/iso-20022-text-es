@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionStatus23",
+  "definition": "Estado de una instrucción individual de una instrucción de junta.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificación de la instrucción individual específica, del elemento InstructionIdentification del mensaje de instrucción de junta original, para la que se facilita el estado."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta de valores."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identificación de la subcuenta dentro de la cuenta de custodia."
+    },
+    "InstructionStatus": {
+      "definition": "Estado de la instrucción de junta individual."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Si SubAccountIdentification está presente, entonces AccountIdentification debe estar presente."
+    }
+  }
+}

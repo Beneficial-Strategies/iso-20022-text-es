@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesBalanceType9FormatChoice",
+  "definition": "Elección de formatos para expresar el tipo de saldo de valores.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de saldo de valores."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el tipo de saldo de valores."
+    }
+  }
+}

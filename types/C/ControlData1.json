@@ -1,0 +1,12 @@
+{
+  "isoType": "ControlData1",
+  "definition": "Proporciona detalles del número de operaciones y de la suma de control del mensaje.",
+  "isoElements": {
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, con independencia de las divisas."
+    }
+  }
+}

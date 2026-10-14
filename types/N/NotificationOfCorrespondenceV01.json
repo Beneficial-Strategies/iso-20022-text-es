@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationOfCorrespondenceV01",
+  "definition": "Alcance|El mensaje NotificationOfCorrespondence lo envía el emisor al receptor para notificarle un evento o una información que afecta a ambas partes.||Uso|El mensaje NotificationOfCorrespondence solo debe utilizarse para comunicar eventos o información cuando el emisor no espera ninguna respuesta del receptor."
+}

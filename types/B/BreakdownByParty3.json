@@ -1,0 +1,21 @@
+{
+  "isoType": "BreakdownByParty3",
+  "definition": "Especifica los flujos de entrada y salida de efectivo por parte.",
+  "isoElements": {
+    "Party": {
+      "definition": "Parte, por ejemplo, la sociedad gestora del fondo, a la que se refiere el flujo de efectivo comunicado."
+    },
+    "AdditionalParameters": {
+      "definition": "Parámetros adicionales aplicados al flujo de efectivo por parte."
+    },
+    "CashInForecast": {
+      "definition": "Movimiento de efectivo hacia el fondo como resultado de operaciones con participaciones de un fondo de inversión, por ejemplo, suscripciones o traspasos de entrada."
+    },
+    "CashOutForecast": {
+      "definition": "Movimiento de efectivo desde el fondo como resultado de operaciones con participaciones de un fondo de inversión, por ejemplo, reembolsos o traspasos de salida."
+    },
+    "NetCashForecast": {
+      "definition": "Efectivo neto resultante de los flujos de entrada y salida de efectivo especificados para la parte."
+    }
+  }
+}

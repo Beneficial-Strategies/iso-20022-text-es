@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionNumber1Code",
+  "definition": "Código que identifica números especiales de opción de operación societaria.",
+  "isoCodes": {
+    "UNSO": {
+      "name": "No solicitado",
+      "definition": "La instrucción de operación societaria no ha sido solicitada, es decir, la instrucción no ha sido precedida por una notificación de operación societaria."
+    }
+  }
+}

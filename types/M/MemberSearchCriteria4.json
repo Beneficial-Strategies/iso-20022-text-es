@@ -1,0 +1,15 @@
+{
+  "isoType": "MemberSearchCriteria4",
+  "definition": "Define los criterios utilizados para buscar un miembro.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de un miembro dentro de un sistema, asignada mediante el esquema de identificación de miembros del sistema."
+    },
+    "Type": {
+      "definition": "Naturaleza de la relación que un miembro mantiene con un sistema."
+    },
+    "Status": {
+      "definition": "Estado de un miembro en un sistema, por ejemplo habilitado o eliminado."
+    }
+  }
+}

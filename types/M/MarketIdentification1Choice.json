@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketIdentification1Choice",
+  "definition": "Elección de la identificación del mercado.",
+  "isoElements": {
+    "MarketIdentifierCode": {
+      "definition": "Código de identificación de mercado (MIC) ISO 10383."
+    },
+    "Description": {
+      "definition": "Descripción del mercado cuando no se dispone de un código de identificación de mercado (MIC)."
+    }
+  }
+}

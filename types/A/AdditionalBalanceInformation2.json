@@ -1,0 +1,23 @@
+{
+  "isoType": "AdditionalBalanceInformation2",
+  "definition": "Posición neta de una tenencia segregada de un único valor dentro de la posición global mantenida en la cuenta de valores, p. ej., subsaldo por estado.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Cantidad de valores en el subsaldo."
+    },
+    "SubBalanceType": {
+      "definition": "Motivo por el que un valor no está disponible o información adicional sobre el instrumento financiero para el que se indica el saldo, por ejemplo, no registrado, registrado a nombre de un nominatario."
+    },
+    "ExtendedSubBalanceType": {
+      "definition": "Motivo por el que un valor no está disponible o información adicional sobre el instrumento financiero para el que se indica el saldo, por ejemplo, no registrado, registrado a nombre de un nominatario."
+    }
+  },
+  "isoRules": {
+    "SubBalanceTypeOrExtendedSubBalanceTypeRule": {
+      "definition": "Debe estar presente SubBalanceType o ExtendedSubBalanceType, pero no ambos."
+    },
+    "SubBalanceTypeOrExtendedSubBalanceTypeRuleNotBoth": {
+      "definition": "Debe estar presente SubBalanceType o ExtendedSubBalanceType, pero no ambos."
+    }
+  }
+}

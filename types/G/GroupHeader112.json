@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader112",
+  "definition": "Conjunto de características compartidas por todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar el mensaje de forma inequívoca.||Uso: la parte instructora debe asegurarse de que 'MessageIdentification' sea único por parte instruida durante un período acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, independientemente de las monedas."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia la solicitud de activación de pago del beneficiario. Puede ser el propio beneficiario o la parte que inicia la solicitud en su nombre."
+    },
+    "ForwardingAgent": {
+      "definition": "Entidad financiera que recibe la instrucción de la parte iniciadora y la reenvía a la siguiente entidad de la cadena de pago para su ejecución."
+    }
+  }
+}

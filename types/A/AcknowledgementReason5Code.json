@@ -1,0 +1,42 @@
+{
+  "isoType": "AcknowledgementReason5Code",
+  "definition": "Especifica información adicional sobre la instrucción tratada.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Recibida después del plazo límite de la entidad gestora de la cuenta. Tratada en la medida de lo posible."
+    },
+    "SMPG": {
+      "name": "Discrepancia con la regla de práctica de mercado",
+      "definition": "La instrucción se acepta, pero no cumple la regla de práctica de mercado publicada para el mercado o el proceso en cuestión."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "CDCY": {
+      "name": "Divisa condicional",
+      "definition": "La ejecución está condicionada a la ejecución de un proceso vinculado a la divisa de la operación."
+    },
+    "CDRG": {
+      "name": "Registrador condicional",
+      "definition": "La ejecución está condicionada a la ejecución de un proceso en el registro."
+    },
+    "CDRE": {
+      "name": "Realineación condicional",
+      "definition": "La ejecución está condicionada a la ejecución de un proceso de realineación en el depositario central de valores (CSD) emisor."
+    },
+    "NSTP": {
+      "name": "Sin procesamiento automático de extremo a extremo",
+      "definition": "La instrucción no se trató de forma totalmente automatizada y hubo que tratarla manualmente."
+    },
+    "RQWV": {
+      "name": "Aceptado sin derechos de voto",
+      "definition": "Se acepta el registro de la instrucción, pero el registro no es completo, es decir, no incluye derechos de voto."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del mercado."
+    }
+  }
+}

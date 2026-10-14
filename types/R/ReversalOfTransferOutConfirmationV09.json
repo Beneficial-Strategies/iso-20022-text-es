@@ -1,0 +1,9 @@
+{
+  "isoType": "ReversalOfTransferOutConfirmationV09",
+  "definition": "Ámbito|El mensaje ReversalOfTransferOutConfirmation lo envía una parte ejecutante, por ejemplo, un agente de transferencias, a la parte instructora, por ejemplo, un gestor de inversiones o su representante autorizado, para anular una confirmación de transferencia de salida enviada previamente.|Uso|El mensaje ReversalOfTransferOutConfirmation se utiliza para revertir una confirmación de transferencia de salida enviada previamente.|Para solicitar la reversión de una confirmación de transferencia de salida, la referencia de la transferencia de la instrucción de transferencia de salida, tal como se especificó en el mensaje TransferOutInstruction original, se indica en el elemento de referencia de la transferencia. La referencia de la parte ejecutante para la ejecución de la transferencia también puede indicarse en el elemento TransferConfirmationReference.|La identificación del mensaje TransferOutConfirmation original también puede citarse en PreviousReference, aunque no se recomienda.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus6FormatChoice",
+  "definition": "Elección entre formatos para expresar el estado de tramitación de una instrucción de desactivación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el estado de tramitación de una instrucción de desactivación."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el estado de tramitación de una instrucción de desactivación."
+    }
+  }
+}

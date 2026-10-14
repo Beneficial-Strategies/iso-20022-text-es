@@ -1,0 +1,70 @@
+{
+  "isoType": "IntermediateSecurityDistributionType6Code",
+  "definition": "Especifica el tipo de distribución de valores intermedios.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Derechos inversos",
+      "definition": "Oferta de la sociedad emisora a los titulares existentes para recomprar sus propios valores. El objetivo de la oferta es reducir el número de valores en circulación."
+    },
+    "DRIP": {
+      "name": "Reinversión de dividendos",
+      "definition": "Pago de dividendo en el que los tenedores pueden quedarse con el efectivo o hacer que el emisor lo reinvierta en el mercado en acciones adicionales de la sociedad emisora. Debe distinguirse de DVOP, ya que la sociedad invierte el dividendo en el mercado en lugar de crear nuevo capital social a cambio del dividendo."
+    },
+    "DVCA": {
+      "name": "Dividendo en efectivo",
+      "definition": "Distribución de efectivo a los accionistas, en proporción a su participación en el capital. Los dividendos ordinarios son recurrentes y regulares. El accionista debe recibir efectivo y se le puede ofrecer la elección de la divisa."
+    },
+    "DVOP": {
+      "name": "Opción de dividendo",
+      "definition": "Distribución de la opción de dividendo."
+    },
+    "EXRI": {
+      "name": "Derechos de suscripción",
+      "definition": "Llamada o ejercicio sobre valores no desembolsados o valores intermedios resultantes de una distribución de valores intermedios (RHDI). Este código se utiliza para el segundo evento, cuando la emisión de valores intermedios (derechos/cupones) se compone de dos eventos, siendo el primero la distribución de valores intermedios."
+    },
+    "PRIO": {
+      "name": "Derechos de oferta abierta",
+      "definition": "Forma de oferta abierta o pública en la que, debido a la cantidad limitada de valores disponibles, se da prioridad a los accionistas existentes."
+    },
+    "DVSC": {
+      "name": "Dividendo o pago en acciones (scrip)",
+      "definition": "Dividendo o interés pagado en forma de scrip."
+    },
+    "DVSE": {
+      "name": "Dividendo en acciones",
+      "definition": "Dividendo pagado a los accionistas en forma de acciones de la sociedad emisora."
+    },
+    "INTR": {
+      "name": "Pago de intereses",
+      "definition": "Pago de intereses distribuido a los tenedores de un activo que devenga intereses."
+    },
+    "LIQU": {
+      "name": "Dividendo o pago de liquidación",
+      "definition": "Distribución de efectivo, activos o ambos. La deuda puede pagarse por orden de prioridad según los derechos preferentes sobre los activos que especifique el valor."
+    },
+    "SOFF": {
+      "name": "Escisión",
+      "definition": "Distribución de acciones de una filial a los accionistas."
+    },
+    "SPLF": {
+      "name": "División de acciones",
+      "definition": "También conocido como cambio de valor nominal o subdivisión.|Aumento del número de acciones en circulación de una sociedad sin que varíen el patrimonio neto del accionista ni el valor de mercado agregado en el momento del desdoblamiento. El precio y el valor nominal de las acciones se reducen en consecuencia."
+    },
+    "BONU": {
+      "name": "Derechos de asignación gratuita",
+      "definition": "Emisión gratuita o por capitalización. Los tenedores de valores reciben del emisor activos adicionales sin pago, en proporción a su participación."
+    },
+    "EXOF": {
+      "name": "Canje",
+      "definition": "Canje de participaciones por otros valores y/o efectivo. El canje puede ser obligatorio o voluntario e implica el canje de valores en circulación por valores diferentes y/o efectivo. Por ejemplo, \"oferta de canje\", \"reorganización de capital\" o \"separación de fondos\"."
+    },
+    "MRGR": {
+      "name": "Fusión",
+      "definition": "Canje de valores en circulación, iniciado por el emisor, que puede incluir opciones, como resultado de la combinación de los activos de dos o más sociedades, es decir, una sociedad tercera externa. El canje de acciones puede ir acompañado de pagos en efectivo."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "Los valores intermedios se distribuyen antes de que se haya establecido su utilización."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "CorporateActionPendingStatus1Code",
+  "definition": "Estado pendiente del aviso de notificación de la operación societaria procedente del agente del emisor.",
+  "isoCodes": {
+    "CNFC": {
+      "name": "Amortización total concurrente",
+      "definition": "Existe un evento de amortización total simultáneo."
+    },
+    "PUBF": {
+      "name": "Fecha de publicación futura",
+      "definition": "Pendiente debido a una fecha de publicación futura."
+    },
+    "REOR": {
+      "name": "Reorganización concurrente",
+      "definition": "Existe un anuncio de reorganización simultáneo."
+    },
+    "ACCR": {
+      "name": "Intereses incalculables",
+      "definition": "No se pueden calcular los intereses devengados. Faltan los detalles del pago."
+    },
+    "SCAL": {
+      "name": "Importe amortizado del valor no válido",
+      "definition": "Importe amortizado del valor no válido."
+    },
+    "LATE": {
+      "name": "Anuncio tardío",
+      "definition": "Anuncio tardío. La fecha de pago declarada está fuera del rango aceptable en el pasado."
+    },
+    "MATU": {
+      "name": "Emisión a vencer",
+      "definition": "Emisión próxima a vencer. La fecha de reembolso es igual o posterior a la fecha de vencimiento."
+    },
+    "PAYD": {
+      "name": "Fecha de pago fuera de rango",
+      "definition": "Fecha de pago fuera del rango de fechas aplicable."
+    },
+    "POSD": {
+      "name": "Discrepancia de posición",
+      "definition": "Discrepancia de posición. Posible amortización parcial."
+    },
+    "CNPC": {
+      "name": "Posible amortización parcial",
+      "definition": "Verificar el evento. Existe una posible amortización parcial en conflicto."
+    },
+    "CNRD": {
+      "name": "Verificar amortización concurrente",
+      "definition": "Verificar el evento. Existe un evento de reembolso simultáneo."
+    },
+    "CNRE": {
+      "name": "Verificar reorganización concurrente",
+      "definition": "Verificar el evento. Existe un evento de reorganización simultáneo."
+    },
+    "VRON": {
+      "name": "Verificar tasa de amortización",
+      "definition": "Verificar la tasa. Reembolso dentro del ciclo."
+    },
+    "VRZC": {
+      "name": "Verificar tasa del bono cupón cero",
+      "definition": "Verificar la tasa. Bono cupón cero."
+    }
+  }
+}

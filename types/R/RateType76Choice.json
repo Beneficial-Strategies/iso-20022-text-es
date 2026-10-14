@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType76Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar un tipo de tasa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de tasa de dividendo bruto."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de tasa de dividendo bruto."
+    }
+  }
+}

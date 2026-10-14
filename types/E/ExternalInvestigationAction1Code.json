@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalInvestigationAction1Code",
+  "definition": "Especifica la acción solicitada, tal como se publica en un conjunto de códigos externo de acciones de investigación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "RQCL": {
+      "name": "Solicitud de cierre de investigación",
+      "definition": "Se solicita al respondedor que cierre la investigación. Todas las solicitudes de investigación relacionadas con la investigación pueden ser ignoradas."
+    },
+    "RQST": {
+      "name": "Solicitud de estado de investigación",
+      "definition": "Se solicita al respondedor que facilite el estado de la investigación."
+    },
+    "RQOB": {
+      "name": "Solicitud de objeción",
+      "definition": "Se solicita al respondedor que revise una respuesta anterior, ya que el solicitante se opone a ella."
+    },
+    "RQRO": {
+      "name": "Solicitud de reapertura de investigación",
+      "definition": "Se solicita al respondedor que reabra la investigación."
+    }
+  }
+}

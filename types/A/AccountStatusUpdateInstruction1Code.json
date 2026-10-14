@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1Code",
+  "definition": "Especifica el tipo de actualización del estado de la cuenta que se instruye.",
+  "isoCodes": {
+    "CLOS": {
+      "name": "Cierre",
+      "definition": "La cuenta debe cerrarse."
+    },
+    "REAC": {
+      "name": "Reactivación",
+      "definition": "La cuenta debe reactivarse; se revoca cualquier instrucción anterior de cerrar la cuenta."
+    }
+  }
+}

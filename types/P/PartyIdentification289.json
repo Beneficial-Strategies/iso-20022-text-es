@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification289",
+  "definition": "Identificación de una parte.",
+  "isoElements": {
+    "PartyIdentification": {
+      "definition": "Proporciona información sobre el titular real de los valores."
+    },
+    "ContactPerson": {
+      "definition": "Información de contacto detallada del cliente."
+    },
+    "ContactPersonAddress": {
+      "definition": "Dirección del cliente."
+    }
+  }
+}

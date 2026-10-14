@@ -1,0 +1,12 @@
+{
+  "isoType": "ProceedsQuantityBreakdown1",
+  "definition": "Proporciona información sobre el desglose de cantidades.",
+  "isoElements": {
+    "TransferOfReceivedProceedsQuantity": {
+      "definition": "Cantidad de valores recibidos como importes transferidos a raíz de la reclamación de mercado."
+    },
+    "CashCompensationQuantity": {
+      "definition": "Cantidad de valores recibidos como importes compensados en efectivo a raíz de la reclamación de mercado."
+    }
+  }
+}

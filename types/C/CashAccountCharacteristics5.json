@@ -1,0 +1,45 @@
+{
+  "isoType": "CashAccountCharacteristics5",
+  "definition": "Especifica las características de la cuenta de efectivo.",
+  "isoElements": {
+    "AccountLevel": {
+      "definition": "Define el nivel de la cuenta dentro de una jerarquía de cuentas."
+    },
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "AccountServicer": {
+      "definition": "Uso: la entidad gestora de la cuenta es el agente de domicilio que gestiona la cuenta local."
+    },
+    "ParentAccount": {
+      "definition": "Define una cuenta principal con la que está relacionada la cuenta de efectivo."
+    },
+    "CompensationMethod": {
+      "definition": "Define si los gastos e impuestos adeudados se pagan a la entidad financiera y cómo."
+    },
+    "DebitAccount": {
+      "definition": "Define la cuenta que se adeuda por los gastos e impuestos adeudados de la cuenta de efectivo, si es distinta de la cuenta de efectivo."
+    },
+    "DelayedDebitDate": {
+      "definition": "Fecha futura en la que se adeudarán automáticamente en la cuenta los gastos e impuestos adeudados."
+    },
+    "SettlementAdvice": {
+      "definition": "Mensaje de texto libre que informa al cliente sobre la liquidación de los gastos e impuestos adeudados."
+    },
+    "AccountBalanceCurrencyCode": {
+      "definition": "Divisa utilizada para especificar la divisa del saldo de la cuenta."
+    },
+    "SettlementCurrencyCode": {
+      "definition": "Divisa utilizada para especificar la divisa de liquidación de la cuenta."
+    },
+    "HostCurrencyCode": {
+      "definition": "Divisa utilizada para especificar la divisa de la jurisdicción fiscal de la cuenta."
+    },
+    "Tax": {
+      "definition": "Describe los parámetros fiscales de la cuenta."
+    },
+    "AccountServicerContact": {
+      "definition": "Persona de contacto en la sede de la entidad financiera para asuntos de carácter comercial."
+    }
+  }
+}

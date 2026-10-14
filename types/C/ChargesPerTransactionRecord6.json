@@ -1,0 +1,51 @@
+{
+  "isoType": "ChargesPerTransactionRecord6",
+  "definition": "Proporciona un desglose detallado de los cargos por operación de pago.",
+  "isoElements": {
+    "RecordIdentification": {
+      "definition": "Identificación única e inequívoca del registro de cargos a efectos de conciliación."
+    },
+    "ChargesRequestor": {
+      "definition": "Entidad que solicita los cargos, si es distinta del remitente."
+    },
+    "SettlementInstruction": {
+      "definition": "Especifica los detalles de cómo se completa la liquidación de las operaciones posteriores.||Uso: estos datos de entidad y parte deben trasladarse tal cual al mensaje resultante para el pago de los cargos."
+    },
+    "UnderlyingTransaction": {
+      "definition": "Identifica la(s) operación(es) subyacente(s) a las que se aplican los cargos."
+    },
+    "TotalChargesPerRecord": {
+      "definition": "Total de cargos reclamados por el registro de la operación."
+    },
+    "ChargesBreakdown": {
+      "definition": "Proporciona el desglose detallado de los cargos por tipo."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que los cargos están o estarán disponibles."
+    },
+    "Debtor": {
+      "definition": "Especifica el ordenante de la operación de pago inicial."
+    },
+    "DebtorAccount": {
+      "definition": "Especifica la cuenta del ordenante de la operación de pago inicial."
+    },
+    "DebtorAgent": {
+      "definition": "Especifica la entidad del ordenante de la operación de pago inicial, si es distinta de la entidad de la cuenta de cargos."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Especifica la cuenta de la entidad del ordenante de la operación de pago inicial, cuando la entidad instructora es distinta del titular de la cuenta de cargos."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Entidad que gestiona la cuenta de cargos.||Uso: este elemento debe utilizarse cuando el cargo reclamado no esté relacionado con el procesamiento de una operación de pago, por ejemplo, cuando se refiera a una investigación u otro proceso. Identifica la entidad que gestiona la cuenta con cargo a la cual se liquidarán los cargos."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Cuenta de la entidad que gestiona la cuenta de cargos.||Uso: este elemento debe utilizarse cuando el cargo reclamado no esté relacionado con el procesamiento de una operación de pago, por ejemplo, cuando se refiera a una investigación u otro proceso. Identifica la cuenta con cargo a la cual se liquidarán los cargos."
+    },
+    "InstructionForInstructedAgent": {
+      "definition": "Información adicional relativa al procesamiento de la instrucción de ajuste del pago sobre la que puede ser necesario actuar por parte de la siguiente entidad."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalles adicionales sobre el motivo de los cargos."
+    }
+  }
+}

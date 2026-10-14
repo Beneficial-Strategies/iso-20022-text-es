@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMConfigurationParameter2",
+  "definition": "Parámetros que utilizan los distintos comandos de claves criptográficas.",
+  "isoElements": {
+    "KeyCategory": {
+      "definition": "Categoría de la clave criptográfica."
+    },
+    "HostChallenge": {
+      "definition": "Valor aleatorio del host proporcionado durante un intercambio anterior."
+    },
+    "Certificate": {
+      "definition": "Cadena ordenada de certificados de la clave de cifrado de claves asimétrica, que comienza con el certificado del host."
+    },
+    "KeyProperties": {
+      "definition": "Clave criptográfica implicada en el comando de seguridad."
+    }
+  }
+}

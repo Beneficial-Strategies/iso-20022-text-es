@@ -1,0 +1,39 @@
+{
+  "isoType": "OtherAmounts36",
+  "definition": "Identifica otros importes relativos a la operación.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    },
+    "ChargesFees": {
+      "definition": "Importe de dinero pagado por la prestación de servicios financieros que no puede clasificarse con otro calificador."
+    },
+    "TradeAmount": {
+      "definition": "Importe principal de una operación (precio multiplicado por cantidad)."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Importe de dinero pagado a un corredor ejecutor como comisión."
+    },
+    "LocalTax": {
+      "definition": "Impuesto aplicado por la jurisdicción en la que se liquida el instrumento financiero."
+    },
+    "LocalBrokerCommission": {
+      "definition": "Importe de la comisión pagada a un corredor local."
+    },
+    "Other": {
+      "definition": "Importe que no se indica mediante una denominación comercial conocida."
+    },
+    "StampDuty": {
+      "definition": "Importe del impuesto de timbre."
+    },
+    "TransactionTax": {
+      "definition": "Importe del impuesto sobre la operación."
+    },
+    "WithholdingTax": {
+      "definition": "Importe de dinero que será retenido por una autoridad tributaria."
+    },
+    "ConsumptionTax": {
+      "definition": "Importe del impuesto sobre el consumo."
+    }
+  }
+}

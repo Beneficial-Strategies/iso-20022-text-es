@@ -1,0 +1,18 @@
+{
+  "isoType": "ResolutionStatus2Code",
+  "definition": "Especifica el estado de una resolución en el orden del día de una junta.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Aceptado",
+      "definition": "La resolución de la junta ha sido aceptada."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "La resolución de la junta ha sido rechazada."
+    },
+    "WDRA": {
+      "name": "Retirado",
+      "definition": "La resolución de la junta ha sido retirada."
+    }
+  }
+}

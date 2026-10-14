@@ -1,0 +1,42 @@
+{
+  "isoType": "ExternalCashType1Code",
+  "definition": "Especifica el código externo del tipo de efectivo, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa que se publica por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "MUTI": {
+      "name": "Mutilado",
+      "definition": "El efectivo está mutilado."
+    },
+    "STAD": {
+      "name": "Manchado",
+      "definition": "El efectivo está manchado."
+    },
+    "CONT": {
+      "name": "Contaminado",
+      "definition": "El efectivo está contaminado."
+    },
+    "FITC": {
+      "name": "Apto",
+      "definition": "El efectivo es apto."
+    },
+    "COUN": {
+      "name": "Falso",
+      "definition": "El efectivo es falso."
+    },
+    "SOIL": {
+      "name": "Sucio",
+      "definition": "El efectivo está sucio."
+    },
+    "NEWC": {
+      "name": "Nuevo",
+      "definition": "El efectivo es nuevo."
+    },
+    "OBSO": {
+      "name": "Obsoleto",
+      "definition": "El efectivo está obsoleto."
+    },
+    "SURP": {
+      "name": "Excedente",
+      "definition": "El efectivo es excedente."
+    }
+  }
+}

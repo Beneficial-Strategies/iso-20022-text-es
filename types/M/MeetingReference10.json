@@ -1,0 +1,27 @@
+{
+  "isoType": "MeetingReference10",
+  "definition": "Identificación de una junta.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identificación asignada a la junta general por la parte que facilita la notificación de la junta. Debe ser única para la parte que facilita la notificación."
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identificación asignada a la junta por el emisor. Debe ser única para el emisor."
+    },
+    "MeetingDateAndTime": {
+      "definition": "Fecha y hora en que tendrá lugar la junta."
+    },
+    "Type": {
+      "definition": "Tipo de junta para la que se envían las instrucciones."
+    },
+    "Classification": {
+      "definition": "Tipo de clasificación de la junta."
+    },
+    "Location": {
+      "definition": "Lugar de celebración de la junta de la sociedad en la fecha programada."
+    },
+    "Issuer": {
+      "definition": "Institución que es la emisora de los valores a los que se aplica la junta."
+    }
+  }
+}

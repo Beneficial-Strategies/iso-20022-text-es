@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForInstructedAgent1",
+  "definition": "Información adicional relativa al procesamiento de la instrucción de cargos sobre la que puede ser necesario actuar por parte de la entidad instruida. La instrucción puede referirse a una instrucción que debe ejecutar la entidad instruida, o puede ser información que esta necesita.",
+  "isoElements": {
+    "Code": {
+      "definition": "Información codificada relativa al procesamiento de la instrucción de pago, facilitada por la parte iniciadora y destinada a la entidad instruida."
+    },
+    "InstructionInformation": {
+      "definition": "Información adicional que complementa la instrucción codificada o la instrucción a la entidad instruida, acordada bilateralmente o específica de una comunidad de usuarios."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus2",
+  "definition": "Información de estado y cantidad relativa a una solicitud de instrucción pendiente.",
+  "isoElements": {
+    "PendingQuantity": {
+      "definition": "Cantidad de valores instruidos cuyo procesamiento está pendiente."
+    },
+    "PendingReason": {
+      "definition": "Motivo del estado de pendiente."
+    }
+  }
+}

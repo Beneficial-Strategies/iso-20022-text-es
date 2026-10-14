@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionInterest4",
+  "definition": "Proporciona detalles adicionales sobre la información de intereses específicos de la operación que se aplican a la operación subyacente.",
+  "isoElements": {
+    "TotalInterestAndTaxAmount": {
+      "definition": "Importe total de intereses e impuestos incluido en el importe del apunte."
+    },
+    "Record": {
+      "definition": "Registro individual de intereses."
+    }
+  }
+}

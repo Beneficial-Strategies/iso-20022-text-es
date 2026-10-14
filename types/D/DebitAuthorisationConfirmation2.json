@@ -1,0 +1,18 @@
+{
+  "isoType": "DebitAuthorisationConfirmation2",
+  "definition": "Especifica si se concede o no la autorización de adeudo.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Código que expresa la decisión adoptada por el titular de la cuenta en relación con la solicitud de autorización de adeudo."
+    },
+    "AmountToDebit": {
+      "definition": "Importe de dinero autorizado para el adeudo. |Uso: La parte que aprueba el adeudo puede querer autorizar el importe menos los gastos y estar dispuesta a aprobar el adeudo únicamente con fecha valor de hoy en lugar de la fecha valor original."
+    },
+    "ValueDateToDebit": {
+      "definition": "Fecha valor del adeudo del importe."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la solicitud de autorización de adeudo."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "OrderQuantityType2Code",
+  "definition": "Especifica cómo se cursa la orden, por ejemplo, por número de participaciones o por importe de dinero.",
+  "isoCodes": {
+    "UNIT": {
+      "name": "Unidad",
+      "definition": "La orden se cursa por participaciones."
+    },
+    "CASH": {
+      "name": "Importe",
+      "definition": "La orden se cursa por importe de dinero."
+    }
+  }
+}

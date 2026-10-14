@@ -1,0 +1,20 @@
+{
+  "isoType": "AdditionalParameters24",
+  "definition": "Especifica parámetros adicionales del mensaje o de la operación.",
+  "isoElements": {
+    "PreConfirmation": {
+      "definition": "Especifica si existe una preconfirmación."
+    },
+    "PartialSettlement": {
+      "definition": "Especifica la información de liquidación parcial."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "definition": "Identificación de la confirmación enviada anteriormente para confirmar la liquidación parcial de una operación."
+    }
+  },
+  "isoRules": {
+    "PartialSettlementGuideline": {
+      "definition": "La información de liquidación parcial solo se aplica a los mercados en los que se permite la liquidación parcial.|El campo PartialSettlement debe utilizarse del siguiente modo:|- con el código PAIN en el primer o primeros mensajes (puede haber más de uno) que confirman la liquidación parcial de una instrucción.|- con el código PARC en el último mensaje enviado para confirmar la liquidación de la parte restante.|Para más detalles, consulte el documento de práctica de mercado correspondiente en www.smpg.info."
+    }
+  }
+}

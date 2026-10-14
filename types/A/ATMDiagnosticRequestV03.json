@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDiagnosticRequestV03",
+  "definition": "El mensaje ATMDiagnosticRequest lo envía un cajero automático (ATM) a un adquirente para verificar la disponibilidad de este. El adquirente validará además que dicho cajero automático es válido para su red concreta."
+}

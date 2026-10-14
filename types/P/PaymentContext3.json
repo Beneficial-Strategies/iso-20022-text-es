@@ -1,0 +1,39 @@
+{
+  "isoType": "PaymentContext3",
+  "definition": "Contexto de pago en el que se realiza la operación.",
+  "isoElements": {
+    "CardPresent": {
+      "definition": "Indica si la operación ha sido iniciada con una tarjeta físicamente presente o no."
+    },
+    "CardholderPresent": {
+      "definition": "Indica si la operación ha sido iniciada en presencia del titular de la tarjeta o no."
+    },
+    "OnLineContext": {
+      "definition": "Contexto en línea o sin conexión de la operación."
+    },
+    "AttendanceContext": {
+      "definition": "Presencia de personal en el lugar del POI durante la operación."
+    },
+    "TransactionEnvironment": {
+      "definition": "Indica el entorno de la operación."
+    },
+    "TransactionChannel": {
+      "definition": "Identifica el tipo de canales de comunicación utilizados por el titular de la tarjeta hacia el sistema del aceptante."
+    },
+    "AttendantMessageCapable": {
+      "definition": "Indica si se puede enviar o no un mensaje a la pantalla del empleado (pantalla del empleado presente o no)."
+    },
+    "AttendantLanguage": {
+      "definition": "Idioma utilizado para mostrar mensajes al empleado."
+    },
+    "CardDataEntryMode": {
+      "definition": "Modo de introducción de los datos de la tarjeta."
+    },
+    "FallbackIndicator": {
+      "definition": "Indicador de un retroceso del modo de introducción de la tarjeta."
+    },
+    "AuthenticationMethod": {
+      "definition": "Método utilizado para autenticar a un titular de tarjeta."
+    }
+  }
+}

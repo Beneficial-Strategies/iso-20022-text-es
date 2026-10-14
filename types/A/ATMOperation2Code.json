@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMOperation2Code",
+  "definition": "Tipo de operación lógica o física en un cajero automático (ATM).",
+  "isoCodes": {
+    "ADJU": {
+      "name": "Ajuste",
+      "definition": "Ajustar los contadores lógicos del cartucho."
+    },
+    "INSR": {
+      "name": "Insertar soportes",
+      "definition": "Añadir físicamente soportes al cartucho."
+    },
+    "LOAD": {
+      "name": "Carga",
+      "definition": "Carga del cartucho."
+    },
+    "REMV": {
+      "name": "Retirar soportes",
+      "definition": "Retirar físicamente soportes del cartucho."
+    },
+    "UNLD": {
+      "name": "Descarga",
+      "definition": "Descarga del cartucho."
+    },
+    "RCUP": {
+      "name": "Actualización remota de contador",
+      "definition": "Actualización remota de un contador del cajero automático (ATM)."
+    },
+    "SWAP": {
+      "name": "Sustitución",
+      "definition": "Descargar todos los cartuchos y cargar un nuevo conjunto de cartuchos que los sustituya. Las estructuras de cartucho determinan qué se ha retirado y qué se ha añadido."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "LimitJournalEntry3",
+  "definition": "Las anotaciones del diario registran los cambios en la utilización del límite. Existen anotaciones para toda la actividad que afecta al límite.",
+  "isoElements": {
+    "JournalDate": {
+      "definition": "Fecha y hora a las que se aplica la anotación del diario del límite."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si la anotación es de crédito o de débito."
+    },
+    "Amount": {
+      "definition": "Importe de dinero de la anotación individual que afecta al límite."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "TransactionIdentification": {
+      "definition": "Referencia única asignada por la entidad titular de la cuenta para identificar de forma inequívoca la anotación."
+    },
+    "AccountServicerReference": {
+      "definition": "Referencia única asignada por la entidad gestora de la cuenta para identificar de forma inequívoca la anotación."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Detalles adicionales del apunte."
+    }
+  }
+}

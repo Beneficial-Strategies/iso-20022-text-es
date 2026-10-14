@@ -1,0 +1,12 @@
+{
+  "isoType": "ImpliedCurrencyAndAmountRange1",
+  "definition": "Expresa un importe o un rango de importes con un indicador explícito de adeudo/abono y con la divisa implícita.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Un importe o rango de importes especificado."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe es un importe abonado o adeudado."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesTradeDetails103",
+  "definition": "Detalles de la operación de valores.",
+  "isoElements": {
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "OpeningSettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días en los que se devenga el tipo de interés (nota de devengo diario)."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre el tratamiento de la liquidación que no puede incluirse en los campos estructurados del mensaje."
+    }
+  },
+  "isoRules": {
+    "TradeDateTimeUTCRule": {
+      "definition": "Si Trade Date/Time se utiliza con una hora o una hora + indicador UTC, debe ser la hora local del lugar de la operación, por ejemplo, de la bolsa de valores, o del corredor vendedor en el caso de operaciones OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si InstructionProcessingAdditionalDetails está presente, no debe contener información que pueda facilitarse en un campo estructurado."
+    }
+  }
+}

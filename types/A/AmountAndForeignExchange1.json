@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndForeignExchange1",
+  "definition": "Proporciona información sobre el importe de la factura y las condiciones de la operación de cambio de divisas.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del apunte de efectivo."
+    },
+    "ForeignExchange": {
+      "definition": "Información necesaria para procesar un cambio o una conversión de divisas."
+    }
+  }
+}

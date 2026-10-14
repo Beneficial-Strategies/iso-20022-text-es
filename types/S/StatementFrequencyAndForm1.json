@@ -1,0 +1,18 @@
+{
+  "isoType": "StatementFrequencyAndForm1",
+  "definition": "Especifica una frecuencia, un formato y una dirección de entrega para los extractos.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Especifica la frecuencia de envío de los extractos."
+    },
+    "CommunicationMethod": {
+      "definition": "Especifica el método de comunicación de los extractos."
+    },
+    "DeliveryAddress": {
+      "definition": "Especifica la dirección de entrega de los extractos."
+    },
+    "Format": {
+      "definition": "Especifica el formato de los extractos."
+    }
+  }
+}

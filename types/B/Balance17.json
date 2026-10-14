@@ -1,0 +1,12 @@
+{
+  "isoType": "Balance17",
+  "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una cuenta de valores. Un saldo de valores se calcula a partir de la suma de las recepciones de valores menos la suma de las entregas de valores.",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Indicación de que la posición es corta o larga."
+    },
+    "Quantity": {
+      "definition": "Cantidad total de instrumentos financieros del saldo."
+    }
+  }
+}

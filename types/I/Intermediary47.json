@@ -1,0 +1,15 @@
+{
+  "isoType": "Intermediary47",
+  "definition": "Identificación de una parte y de su función.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de una organización asignado por una institución."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identificación de la parte con un identificador de entidad jurídica (LEI). Se trata de un código asignado a una parte según lo descrito en ISO 17442 “Financial Services - Legal Entity Identifier (LEI)”."
+    },
+    "Account": {
+      "definition": "Relación comercial entre dos entidades; una entidad es el titular de la cuenta y la otra es la entidad gestora de la cuenta."
+    }
+  }
+}

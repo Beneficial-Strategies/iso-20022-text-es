@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportQuerySearchCriteria3",
+  "definition": "Define los criterios utilizados para buscar un informe.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "Balance": {
+      "definition": "Representación numérica de los aumentos y disminuciones netos en una cuenta en un momento determinado. Un saldo de efectivo se calcula como la suma de los abonos en efectivo menos la suma de los adeudos en efectivo."
+    },
+    "ReportName": {
+      "definition": "Valores de los posibles informes."
+    },
+    "MessageNameIdentification": {
+      "definition": "Especifica el identificador del nombre del mensaje de consulta al que se refiere el mensaje."
+    },
+    "PartyIdentification": {
+      "definition": "Parte propietaria del informe."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Parte responsable de la parte propietaria del informe."
+    },
+    "DateSearch": {
+      "definition": "Fecha y hora de creación del informe."
+    },
+    "ScheduledTime": {
+      "definition": "Momento en que estaba programado el evento (comercial) que desencadenó el informe."
+    },
+    "Event": {
+      "definition": "El tipo de ejecución se ejecuta en función de un desencadenante basado en eventos."
+    }
+  }
+}

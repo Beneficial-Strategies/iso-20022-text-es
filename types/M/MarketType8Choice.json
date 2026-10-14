@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketType8Choice",
+  "definition": "Elección del formato para el tipo de mercado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de mercado expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de mercado expresado como código propietario."
+    }
+  }
+}

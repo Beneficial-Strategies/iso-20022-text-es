@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentCard37",
+  "definition": "Tarjeta que realiza la operación de retirada de efectivo.",
+  "isoElements": {
+    "CardDataEntryMode": {
+      "definition": "Modo de entrada utilizado para obtener los datos de la tarjeta."
+    },
+    "FallbackIndicator": {
+      "definition": "Indica que se ha producido un retroceso (fall-back) en el modo de entrada de la tarjeta.|Uso: Si no figura, el valor por defecto es False."
+    },
+    "ProtectedCardData": {
+      "definition": "Sustitución del elemento de mensaje PlainCardData por un sobre digital que utiliza una clave criptográfica."
+    },
+    "PlainCardData": {
+      "definition": "Datos sensibles asociados a la tarjeta que realiza la operación."
+    },
+    "CardCountryCode": {
+      "definition": "Código de país asignado a la tarjeta por el emisor de la tarjeta."
+    },
+    "CardCurrencyCode": {
+      "definition": "Código de divisa del emisor de la tarjeta (código numérico ISO 4217)."
+    },
+    "ElectronicPurseBalance": {
+      "definition": "Saldo de la tarjeta retenida o del monedero electrónico, si está disponible."
+    }
+  }
+}

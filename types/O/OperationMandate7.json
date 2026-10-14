@@ -1,0 +1,30 @@
+{
+  "isoType": "OperationMandate7",
+  "definition": "Información que especifica el mandato.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca del mandato."
+    },
+    "ApplicableChannel": {
+      "definition": "Canal para el cual es válido el mandato de operación. Si ApplicableChannel es igual a Fax, esto significa que una instrucción de operación bancaria enviada por fax se procesará de acuerdo con los mandatos intercambiados en este mensaje."
+    },
+    "RequiredSignatureNumber": {
+      "definition": "Número de firmas requeridas y necesarias según el mandato."
+    },
+    "SignatureOrderIndicator": {
+      "definition": "Indicador de si debe respetarse o no un orden determinado de firmas."
+    },
+    "MandateHolder": {
+      "definition": "Titular del mandato."
+    },
+    "BankOperation": {
+      "definition": "Operación bancaria permitida por un mandato."
+    },
+    "StartDate": {
+      "definition": "Especifica la fecha en que el mandato pasa a ser válido."
+    },
+    "EndDate": {
+      "definition": "Especifica la fecha en que el mandato deja de ser válido."
+    }
+  }
+}

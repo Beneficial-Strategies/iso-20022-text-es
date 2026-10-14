@@ -1,0 +1,10 @@
+{
+  "isoType": "Quantity1Code",
+  "definition": "Especifica la cantidad de un instrumento financiero.",
+  "isoCodes": {
+    "QALL": {
+      "name": "Todos los valores",
+      "definition": "La instrucción se aplica a todo el saldo admisible de los valores subyacentes."
+    }
+  }
+}

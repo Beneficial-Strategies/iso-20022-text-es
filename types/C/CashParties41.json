@@ -1,0 +1,21 @@
+{
+  "isoType": "CashParties41",
+  "definition": "Procesos de pago necesarios para transferir efectivo del ordenante al beneficiario.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Parte que adeuda un importe de dinero al beneficiario (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicios sobre una cuenta del beneficiario."
+    },
+    "Intermediary": {
+      "definition": "Entidad financiera por la que debe pasar la operación para llegar a la entidad de la cuenta."
+    }
+  }
+}

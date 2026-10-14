@@ -1,0 +1,18 @@
+{
+  "isoType": "EventProcessingStatus8Choice",
+  "definition": "Proporciona información sobre el estado de una operación societaria o el estado de un pago.",
+  "isoElements": {
+    "Complete": {
+      "definition": "Especifica que el procesamiento de un evento de operación societaria se ha completado."
+    },
+    "Reconciled": {
+      "definition": "Procesamiento de un evento de operación societaria que especifica que los fondos pagados se han conciliado con los fondos recibidos del agente (es decir, que ya no existe riesgo de que se revierta el pago)."
+    },
+    "Pending": {
+      "definition": "Especifica que el procesamiento de un evento de operación societaria no se ha completado totalmente y, por tanto, está pendiente."
+    },
+    "ProprietaryStatus": {
+      "definition": "Estado propietario relacionado con el procesamiento del evento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateCode32Choice",
+  "definition": "Elección del formato para la fecha.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fecha expresada como un código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Fecha expresada como un código propio (propietario)."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "OpeningClosing1Code",
+  "definition": "Especifica información adicional relativa al procesamiento de la operación.",
+  "isoCodes": {
+    "CLOP": {
+      "name": "Cerrar posición",
+      "definition": "Indica que la operación sirve para cerrar una posición."
+    },
+    "OPEP": {
+      "name": "Abrir posición",
+      "definition": "Indica que la operación sirve para abrir una posición."
+    }
+  }
+}

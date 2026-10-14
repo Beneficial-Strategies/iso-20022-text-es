@@ -1,0 +1,50 @@
+{
+  "isoType": "ExtendedOptionFeature2Code",
+  "definition": "Especifica las opciones específicas de DTCC (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "FORU": {
+      "name": "Impuesto extranjero desfavorable",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para el servicio de Foreign Tax Relief en DTC. Opción para seleccionar el tipo impositivo desfavorable. La opción Foreign Tax Unfavourable es la opción por defecto."
+    },
+    "FORF": {
+      "name": "Impuesto extranjero favorable",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para el servicio de Foreign Tax Relief en DTC. La elección de esta opción garantiza que el participante reciba su pago con un tipo de retención fiscal favorable."
+    },
+    "FORX": {
+      "name": "Impuesto extranjero exento",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para el servicio de Foreign Tax Relief en DTC. La elección de esta opción garantiza que el participante esté exento de cualquier retención fiscal."
+    },
+    "DRPU": {
+      "name": "DRIP desfavorable",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para los servicios de Dividend Reinvestment y Foreign Tax en DTC. Los participantes que elijan esta opción recibirán acciones adicionales y la retención fiscal sobre dichas acciones se aplicará al tipo impositivo desfavorable."
+    },
+    "DRPF": {
+      "name": "DRIP favorable",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para los servicios de Dividend Reinvestment y Foreign Tax Relief en DTC. Los participantes que elijan esta opción recibirán acciones adicionales y la retención fiscal sobre dichas acciones se aplicará al tipo impositivo favorable."
+    },
+    "DRPX": {
+      "name": "DRIP exento",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para los servicios de Dividend Reinvestment y Foreign Tax Relief en DTC. Los participantes que elijan esta opción recibirán acciones adicionales y estarán exentos de cualquier retención fiscal."
+    },
+    "FCPP": {
+      "name": "Pago en divisa extranjera",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para el servicio de Foreign Currency Payment en DTC. Los participantes que elijan esta opción recibirán su distribución en la moneda extranjera instruida."
+    },
+    "FCPU": {
+      "name": "Pago en divisa extranjera desfavorable",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para los servicios de Foreign Currency y Foreign Tax en DTC. Los participantes que elijan esta opción recibirán su distribución en una moneda extranjera y la retención fiscal sobre dicha distribución estará sujeta a una retención fiscal desfavorable."
+    },
+    "FCPF": {
+      "name": "Pago en divisa extranjera favorable",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para los servicios de Foreign Currency y Foreign Tax en DTC. Los participantes que elijan la opción recibirán su distribución en moneda extranjera y la retención fiscal sobre dicha distribución estará sujeta a una retención fiscal favorable."
+    },
+    "FCPX": {
+      "name": "Pago en divisa extranjera exento",
+      "definition": "Opción exclusiva de DTC (The Depository Trust Company). El evento y el valor son elegibles para los servicios de Foreign Currency y Foreign Tax en DTC. Los participantes que elijan esta opción recibirán su distribución en una moneda extranjera y estarán exentos de cualquier retención fiscal."
+    },
+    "NSHR": {
+      "name": "Número de accionista no permitido",
+      "definition": "Indica la opción en la que los titulares no deben facilitar un número de accionista; si se facilita, será rechazado."
+    }
+  }
+}

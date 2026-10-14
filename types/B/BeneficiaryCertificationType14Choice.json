@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryCertificationType14Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de certificación del beneficiario requerida.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de certificación del beneficiario efectivo expresado en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de certificación del beneficiario efectivo expresado en forma propietaria."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalPaymentRole1Code",
+  "definition": "Especifica el rol asociado a una parte concreta en una instrucción de pago, según se publica en un conjunto de códigos externo de roles de pago.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "BKMG": {
+      "name": "Gestor de respaldo",
+      "definition": "Parte responsable de gestionar las funciones de recuperación relacionadas con un sistema."
+    },
+    "LMMG": {
+      "name": "Gestor de límites",
+      "definition": "Parte de una entidad financiera responsable de la gestión de los límites. Esta parte se encarga de fijar, modificar o suspender los límites según corresponda para la gestión del riesgo de contraparte o la contención del riesgo sistémico."
+    },
+    "LQMG": {
+      "name": "Gestor de liquidez",
+      "definition": "Parte de una entidad financiera responsable de la gestión de la liquidez de dicha entidad. Esta parte tiene acceso a algunas funciones disponibles en el sistema, como las transferencias de liquidez o la gestión de instrucciones permanentes de control de liquidez."
+    },
+    "PYMG": {
+      "name": "Gestor de pagos",
+      "definition": "Parte de una entidad financiera responsable de la gestión del procesamiento de pagos de la entidad financiera. Incluye la autorización, el reciclaje y la modificación de las operaciones de pago."
+    },
+    "REDR": {
+      "name": "Lector",
+      "definition": "Parte de una entidad financiera con derecho a obtener información del sistema, pero no a actuar sobre ella ni a modificarla."
+    },
+    "STMG": {
+      "name": "Gestor de liquidación",
+      "definition": "Parte de una entidad financiera responsable de la gestión del procesamiento de la liquidación."
+    }
+  }
+}

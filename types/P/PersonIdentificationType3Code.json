@@ -1,0 +1,30 @@
+{
+  "isoType": "PersonIdentificationType3Code",
+  "definition": "Especifica el tipo de identificación de la persona.",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Número de registro de extranjero",
+      "definition": "Número asignado por un organismo gubernamental para identificar a nacionales extranjeros."
+    },
+    "CCPT": {
+      "name": "Número de pasaporte",
+      "definition": "Número asignado por una autoridad de pasaportes a un pasaporte."
+    },
+    "EMID": {
+      "name": "Número de identificación del empleador",
+      "definition": "Número asignado a un empleador por una autoridad de registro."
+    },
+    "DRLC": {
+      "name": "Número de permiso de conducir",
+      "definition": "Número asignado por una autoridad de licencias a un permiso de conducir."
+    },
+    "FINN": {
+      "name": "Número de identidad de inversión extranjera",
+      "definition": "Número asignado a un inversor extranjero (distinto del número de extranjero)."
+    },
+    "TXID": {
+      "name": "Número de identificación fiscal",
+      "definition": "Número asignado por una autoridad tributaria a una entidad."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "AutomatedTellerMachine6",
+  "definition": "Información del cajero automático (ATM).",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación del dispositivo terminal del cajero automático (ATM) para el adquirente y el emisor."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identificación del dispositivo terminal del cajero automático (ATM) para el gestor de cajeros automáticos (ATM)."
+    },
+    "SequenceNumber": {
+      "definition": "Identificación del dispositivo terminal del cajero automático (ATM) para la sucursal."
+    },
+    "Location": {
+      "definition": "Ubicación del cajero automático (ATM)."
+    },
+    "LocationCategory": {
+      "definition": "Indica el entorno de la operación."
+    },
+    "Equipment": {
+      "definition": "Equipo terminal del cajero automático (ATM)."
+    }
+  }
+}

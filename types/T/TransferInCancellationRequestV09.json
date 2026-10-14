@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferInCancellationRequestV09",
+  "definition": "Ámbito|El mensaje TransferInCancellationRequest lo envía una parte instructora, por ejemplo, un gestor de inversiones o su representante autorizado, a la parte ejecutante, por ejemplo, un agente de transferencias, para solicitar la cancelación de una instrucción de transferencia de entrada enviada previamente.|Uso|El mensaje TransferInCancellationRequest se utiliza para solicitar la cancelación de una o varias instrucciones de transferencia de entrada.|No existe la modificación, sino una política de cancelación y nueva instrucción.|Para solicitar la cancelación de una o varias instrucciones de transferencia de entrada, la referencia de la transferencia, tal como se especificó en el mensaje TransferInInstruction original, se indica en el elemento de referencia de la transferencia.|La identificación del mensaje TransferOutInstruction original también puede citarse en PreviousReference, aunque no se recomienda.|El plazo y la aceptación de una solicitud de cancelación están sujetos a un acuerdo de nivel de servicio (SLA). Este mensaje de cancelación es una solicitud de cancelación. No existe aceptación automática de la cancelación.|El rechazo o la aceptación de un TransferInCancellationRequest se comunica mediante un mensaje TransferCancellationStatusReport.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    },
+    "Function": {
+      "definition": "Función de la transferencia de entrada, es decir, si el mensaje se utiliza como solicitud de cancelación de una instrucción enviada previamente o como cancelación de un aviso y solicitud de información enviados previamente. La ausencia de Function indica que el mensaje es una solicitud de cancelación de una instrucción enviada previamente."
+    }
+  }
+}

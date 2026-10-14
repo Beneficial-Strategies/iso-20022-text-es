@@ -1,0 +1,56 @@
+{
+  "isoType": "RequestDetails29",
+  "definition": "Detalles de la solicitud de modificación de la condición de liquidación.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referencias de la operación para la que se solicita la modificación de la condición de liquidación de valores."
+    },
+    "RestrictionReference": {
+      "definition": "Referencias de restricción aplicadas a la operación para la que se solicita la modificación de la condición de liquidación de valores."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condición para el préstamo automático."
+    },
+    "RetainIndicator": {
+      "definition": "Indica si la instrucción próxima a vencer está confirmada para su liquidación."
+    },
+    "Linkage": {
+      "definition": "Especifica el tipo de vinculación solicitada."
+    },
+    "Priority": {
+      "definition": "Especifica si la operación debe ejecutarse con prioridad alta."
+    },
+    "OtherProcessing": {
+      "definition": "Especifica otro tipo de solicitud de cambio de tratamiento."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica si se permite la liquidación parcial."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica si la operación de liquidación se ha de liquidar a través de un sistema RTGS o de un sistema no RTGS."
+    },
+    "HoldIndicator": {
+      "definition": "Especifica si la operación está retenida/bloqueada/inmovilizada."
+    },
+    "MatchingDenial": {
+      "definition": "Especifica el cambio solicitado en el procesamiento de casamiento."
+    },
+    "UnilateralSplit": {
+      "definition": "Especifica que se solicita la división unilateral de la operación."
+    },
+    "Linkages": {
+      "definition": "Información relativa a la vinculación solicitada."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "Debe estar presente al menos un tipo de solicitud de modificación de las condiciones de liquidación de valores."
+    },
+    "OtherProcessingRule": {
+      "definition": "Si se utiliza OtherProcessing, su uso debe haberse acordado previamente entre el emisor y el receptor."
+    },
+    "SettlementConditionModificationApplicabilityRule": {
+      "definition": "No todos los tipos de solicitud de modificación de condiciones de liquidación son aplicables a todas las entidades gestoras de cuentas."
+    }
+  }
+}

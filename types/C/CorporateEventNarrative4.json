@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateEventNarrative4",
+  "definition": "Proporciona información narrativa de exención de responsabilidad sobre el evento.",
+  "isoElements": {
+    "Disclaimer": {
+      "definition": "Aviso de exención de responsabilidad del emisor relativo a la información del anuncio de la junta facilitada. Puede ignorarse en el tratamiento automatizado."
+    },
+    "ProcessingTextForNextIntermediary": {
+      "definition": "Proporciona información adicional del administrador de la cuenta o de un proveedor de servicios, destinada únicamente al siguiente titular de cuenta inmediato, para permitir o facilitar el tratamiento del evento entre las partes."
+    }
+  }
+}

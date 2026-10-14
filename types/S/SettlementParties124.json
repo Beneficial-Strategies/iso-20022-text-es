@@ -1,0 +1,23 @@
+{
+  "isoType": "SettlementParties124",
+  "definition": "Especifica las partes de la liquidación (entregadora/receptora).",
+  "isoElements": {
+    "Depository": {
+      "definition": "Primera parte receptora en la cadena de liquidación. En una liquidación estándar, es el depositario central de valores donde el lado receptor de la operación solicita recibir el instrumento financiero."
+    },
+    "Party1": {
+      "definition": "Parte que interactúa con el depositario."
+    },
+    "Party2": {
+      "definition": "Parte que interactúa con la parte 1."
+    },
+    "Party3": {
+      "definition": "Parte que interactúa con la parte 2."
+    }
+  },
+  "isoRules": {
+    "Party3PresenceRule": {
+      "definition": "Si Party 3 está presente, entonces Party 2 debe estar presente."
+    }
+  }
+}

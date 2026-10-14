@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesOption86",
+  "definition": "Proporciona información sobre la opción de valores de la operación societaria.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el valor es un débito o un crédito."
+    },
+    "PostingQuantity": {
+      "definition": "Cantidad de valores que se han contabilizado (abono o adeudo) en la cuenta de custodia."
+    },
+    "PostingDate": {
+      "definition": "Fecha del asiento (abono o adeudo) en la cuenta."
+    },
+    "OriginalPostingDate": {
+      "definition": "Fecha y hora de la contabilización (abono o adeudo) en la cuenta que se comunicó inicialmente en la confirmación."
+    }
+  }
+}

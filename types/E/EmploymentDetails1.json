@@ -1,0 +1,30 @@
+{
+  "isoType": "EmploymentDetails1",
+  "definition": "Información sobre el empleo anterior.",
+  "isoElements": {
+    "TaxCode": {
+      "definition": "Código fiscal actual."
+    },
+    "OtherTaxCodeIndicator": {
+      "definition": "Indica si existe o no otro código fiscal."
+    },
+    "CumulativeTaxIndicator": {
+      "definition": "Indica si el impuesto es acumulativo o no acumulativo. En el UK, esto se conoce como indicador W1M1."
+    },
+    "PreviousPay": {
+      "definition": "Importe del salario anterior."
+    },
+    "PreviousTax": {
+      "definition": "Importe del impuesto anterior."
+    },
+    "StartDate": {
+      "definition": "Fecha de inicio del periodo de empleo."
+    },
+    "EndDate": {
+      "definition": "Fecha de fin del periodo de empleo."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el empleo."
+    }
+  }
+}

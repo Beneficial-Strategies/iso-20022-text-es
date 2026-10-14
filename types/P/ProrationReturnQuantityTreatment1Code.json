@@ -1,0 +1,18 @@
+{
+  "isoType": "ProrationReturnQuantityTreatment1Code",
+  "definition": "Indica cómo se tratarán las instrucciones prorrateadas cuando el derecho prorrateado resulte inferior a la denominación mínima.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Aceptar",
+      "definition": "Las instrucciones prorrateadas que resulten inferiores a las denominaciones mínimas se aceptarán íntegramente."
+    },
+    "ADJT": {
+      "name": "Ajuste",
+      "definition": "Las instrucciones prorrateadas que resulten inferiores a las denominaciones mínimas se ajustarán al alza."
+    },
+    "REJT": {
+      "name": "Rechazo",
+      "definition": "Las instrucciones prorrateadas que resulten inferiores a las denominaciones mínimas se rechazarán íntegramente."
+    }
+  }
+}

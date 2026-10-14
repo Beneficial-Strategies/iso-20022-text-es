@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementTransactionStatusType2",
+  "definition": "Elección del tipo de estado de la instrucción de liquidación de valores.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Proporciona detalles sobre el estado de tramitación de la operación."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Proporciona la situación de casamiento de una instrucción tal como la conoce el administrador de cuentas a partir de una alegación. En este momento no se ha realizado ningún casamiento en el mercado (en el CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Proporciona la situación de casamiento de la instrucción."
+    },
+    "SettlementStatus": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "Settled": {
+      "definition": "Define que la operación ha sido liquidada."
+    }
+  }
+}

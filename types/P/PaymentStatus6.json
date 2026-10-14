@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatus6",
+  "definition": "Detalles del estado del pago.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado de una transferencia, en forma codificada, según lo asigna el administrador de operaciones."
+    },
+    "DateTime": {
+      "definition": "Fecha y hora en que se asignó el estado a la transferencia."
+    },
+    "Reason": {
+      "definition": "Motivo indicado para el estado de una transferencia."
+    }
+  }
+}

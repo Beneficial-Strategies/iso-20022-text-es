@@ -1,0 +1,24 @@
+{
+  "isoType": "Crystallisation2",
+  "definition": "Número de participaciones cristalizadas.",
+  "isoElements": {
+    "TrancheIdentification": {
+      "definition": "Identificación del tramo."
+    },
+    "CrystallisedUnitsNumber": {
+      "definition": "Número de participaciones cristalizadas."
+    },
+    "UncrystallisedUnitsNumber": {
+      "definition": "Número de participaciones no cristalizadas."
+    },
+    "CrystallisedAmount": {
+      "definition": "Suma que representa el importe cristalizado."
+    },
+    "UncrystallisedAmount": {
+      "definition": "Suma que representa el importe no cristalizado."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la cristalización."
+    }
+  }
+}

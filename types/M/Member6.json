@@ -1,0 +1,15 @@
+{
+  "isoType": "Member6",
+  "definition": "Información sobre los miembros de un sistema.",
+  "isoElements": {
+    "MemberReturnAddress": {
+      "definition": "Dirección física/lógica perteneciente a un miembro, separada de su dirección principal utilizada para las operaciones normales. La dirección de devolución de fondos se utiliza para encaminar los mensajes que requieren atención específica o tratamiento de excepciones, por ejemplo, devoluciones o rechazos."
+    },
+    "ContactReference": {
+      "definition": "Persona de contacto en una organización determinada."
+    },
+    "CommunicationAddress": {
+      "definition": "Número o dirección virtual utilizados para la comunicación."
+    }
+  }
+}

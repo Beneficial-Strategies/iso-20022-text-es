@@ -1,0 +1,17 @@
+{
+  "isoType": "ReferredAgent3",
+  "definition": "Proporciona la identificación del agente colocador de un fondo de inversión libre si el inversor fue recomendado por uno.",
+  "isoElements": {
+    "Referred": {
+      "definition": "Indica si el inversor fue recomendado por un agente colocador."
+    },
+    "ReferredPlacementAgent": {
+      "definition": "Agente colocador que recomendó al inversor."
+    }
+  },
+  "isoRules": {
+    "ReferredPlacementAgentRule": {
+      "definition": "ReferredPlacementAgent solo puede estar presente si Referred es REFR (Referred)."
+    }
+  }
+}

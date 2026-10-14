@@ -1,0 +1,18 @@
+{
+  "isoType": "InvoiceLegalIssue5",
+  "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales de un sistema de cuentas por cobrar, en forma estructurada.",
+  "isoElements": {
+    "Invoicer": {
+      "definition": "Identificación de la organización que emite la factura, cuando es distinta del beneficiario o del beneficiario final."
+    },
+    "Invoicee": {
+      "definition": "Identificación de la parte a la que se emite una factura, cuando es distinta del ordenante o del ordenante final."
+    },
+    "InvoiceLegalStatement": {
+      "definition": "Información adicional, en texto libre, para complementar la información de remesa estructurada."
+    },
+    "PaymentMethod": {
+      "definition": "Método de pago para la remesa del CSD o del NCB a la parte que emite la factura."
+    }
+  }
+}

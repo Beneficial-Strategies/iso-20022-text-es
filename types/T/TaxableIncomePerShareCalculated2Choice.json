@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Choice",
+  "definition": "Elección de formatos para la renta imponible por participación calculada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Renta imponible por participación (TIS) calculada, expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Renta imponible por participación calculada (TIS), expresada como código propietario."
+    }
+  }
+}

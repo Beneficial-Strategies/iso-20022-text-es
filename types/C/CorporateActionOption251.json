@@ -1,0 +1,104 @@
+{
+  "isoType": "CorporateActionOption251",
+  "definition": "Proporciona información sobre la opción de operación societaria.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Especifica el estado de la opción."
+    },
+    "CertificationBreakdownType": {
+      "definition": "Tipo de certificación o desglose."
+    },
+    "BidRangeType": {
+      "definition": "Especifica el tipo de valores aceptables del rango de ofertas."
+    },
+    "ProrationBelowMinimumQuantity": {
+      "definition": "Especifica cómo se procesarán las instrucciones prorrateadas por debajo de la cantidad mínima para instruir."
+    },
+    "NonDomicileCountry": {
+      "definition": "El titular del valor debe certificar, de conformidad con los términos de la operación societaria, que no está domiciliado en el país indicado."
+    },
+    "ValidDomicileCountry": {
+      "definition": "País de domicilio en el que es válida la opción de operación societaria. El titular del valor debe certificar que está domiciliado en el país indicado."
+    },
+    "CurrencyOption": {
+      "definition": "Moneda en la que se abonarán o adeudarán los fondos en efectivo."
+    },
+    "DefaultProcessingOrStandingInstruction": {
+      "definition": "Indica si el movimiento de la operación societaria es un tratamiento por defecto o una instrucción permanente."
+    },
+    "ChargesAppliedIndicator": {
+      "definition": "Indica si se aplican cargos al titular, por ejemplo, cargos de reembolso."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Indica si se requiere certificación o desglose del titular de la cuenta. |Yes: se requiere certificación |No: no se requiere certificación."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Indica si se permite la retirada de la instrucción."
+    },
+    "ChangeAllowedIndicator": {
+      "definition": "Indica si se permite el cambio de instrucción."
+    },
+    "AppliedOptionIndicator": {
+      "definition": "Indica si el titular de la cuenta debe aplicar la opción distinta de la opción por defecto."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica el instrumento financiero."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con una opción de operación societaria."
+    },
+    "PeriodDetails": {
+      "definition": "Proporciona información sobre los períodos relacionados con una opción de operación societaria."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Proporciona información sobre los tipos e importes relacionados con una opción de operación societaria."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con una opción de operación societaria."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Proporciona información sobre la cantidad de valores vinculada a una opción de operación societaria."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de valores vinculado a la opción de operación societaria."
+    },
+    "CashMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de efectivo vinculado a la opción de operación societaria."
+    },
+    "AdditionalInformation": {
+      "definition": "Proporciona información adicional."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "Si OptionType/Code es OTHR (Other), entonces debe estar presente al menos una aparición de AdditionalInformation/AdditionalText/AdditionalInformation.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "Para diferenciar entre opciones, se recomienda utilizar OptionNumber en lugar de OptionType, por ejemplo, en el caso de que dos o más ofertas puedan describirse con el mismo código de opción de operación societaria."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "Si WithdrawalAllowedIndicator o ChangeAllowedIndicator está presente y es 'true' o '1' (Yes), entonces PeriodDetails/RevocabilityPeriod debe estar presente para indicar el periodo durante el cual se permite el cambio o la retirada de la instrucción."
+    },
+    "OptionTypeUnknownProceedsUsageRule": {
+      "definition": "Cuando se utilice, el código de opción de operación societaria PRUN (Unknown Proceeds) debe mantenerse durante todo el ciclo de vida del evento."
+    },
+    "AppliedOptionRule": {
+      "definition": "Si DefaultProcessingOrStandingInstruction/DefaultOptionIndicator está presente y su valor es '1' o 'true' (Yes), entonces el valor de AppliedOptionIndicator no debe ser '1' ni 'true' (Yes)."
+    },
+    "InstructCashAmountRule": {
+      "definition": "Si OptionFeatures/Code QCAS (InstructCashAmount) no está presente, entonces ninguno de los elementos de mensaje de la lista (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) debe estar presente.|(MT564 NVR C20)."
+    }
+  }
+}

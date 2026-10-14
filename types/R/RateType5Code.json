@@ -1,0 +1,10 @@
+{
+  "isoType": "RateType5Code",
+  "definition": "Especifica el tipo de tasa.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "La tasa es desconocida para el remitente o no se ha establecido."
+    }
+  }
+}

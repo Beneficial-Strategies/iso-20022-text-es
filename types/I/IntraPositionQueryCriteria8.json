@@ -1,0 +1,51 @@
+{
+  "isoType": "IntraPositionQueryCriteria8",
+  "definition": "Define los criterios en función de los cuales se incluye la información.",
+  "isoElements": {
+    "References": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "Status": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    },
+    "SafekeepingAccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BalanceType": {
+      "definition": "Saldo al que se mueve el importe de dinero."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica un lote que forma parte del subsaldo."
+    },
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "SettledQuantity": {
+      "definition": "Cantidad de instrumento financiero efectivamente liquidada."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Fecha y hora en las que está previsto mover los valores."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Fecha y hora en las que se mueven los valores."
+    },
+    "Priority": {
+      "definition": "Especifica si la operación debe ejecutarse con prioridad alta."
+    },
+    "CountryOfIssue": {
+      "definition": "Mercado primario o país en el que el emisor o su agente emite un valor."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originó el mensaje, si es distinta del emisor."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica la fecha y hora de creación del movimiento intraposición."
+    }
+  }
+}

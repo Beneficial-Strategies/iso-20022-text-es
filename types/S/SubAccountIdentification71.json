@@ -1,0 +1,41 @@
+{
+  "isoType": "SubAccountIdentification71",
+  "definition": "Cuenta en la que, o desde la que, se realiza un apunte de valores.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si el extracto comunica actividad o actualización de información."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una subcuenta de valores."
+    }
+  },
+  "isoRules": {
+    "SubSafekeepingReportingRule": {
+      "definition": "El uso de informes consolidados en una cuenta de subcustodia debe acordarse bilateralmente entre el emisor y el receptor."
+    },
+    "ActivityAndBalanceForSubAccount1Rule": {
+      "definition": "Si ActivityIndicator es TRUE (Sí), debe estar presente al menos una ocurrencia de BalanceForSubAccount."
+    },
+    "ActivityAndBalanceForSubAccount2Rule": {
+      "definition": "Si ActivityIndicator es FALSE (No), BalanceForSubAccount no debe estar presente."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

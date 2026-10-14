@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesAccountPositionQueryV01",
+  "definition": "El mensaje SecuritiesAccountPositionQuery lo envía un titular de cuenta a una entidad gestora de la cuenta o a una parte prestadora de servicios para solicitar una vista de cuenta de la posición en un momento determinado, o durante un período determinado, en la que todas las posiciones se resumen en la estructura de cuenta compatible con la consulta.||Uso: |El mensaje también puede utilizarse para:| - reenviar un mensaje enviado previamente (la subfunción del mensaje es Duplicate),|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy),|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es CopyDuplicate)."
+}

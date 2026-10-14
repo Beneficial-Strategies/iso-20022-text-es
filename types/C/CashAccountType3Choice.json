@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountType3Choice",
+  "definition": "Elección de formatos para el tipo de cuenta de efectivo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de cuenta de efectivo expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de cuenta de efectivo expresado como código propietario."
+    }
+  }
+}

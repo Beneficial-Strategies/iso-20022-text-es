@@ -1,0 +1,12 @@
+{
+  "isoType": "FullLegalNameModification1",
+  "definition": "Especifica el tipo de cambio en la denominación legal completa.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica el tipo de cambio."
+    },
+    "FullLegalName": {
+      "definition": "Nombre por el que se conoce a una parte y que suele utilizarse para identificarla."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PayInFactors1",
+  "definition": "Factores utilizados en el cálculo del calendario de pay-in.",
+  "isoElements": {
+    "AggregateShortPositionLimit": {
+      "definition": "Suma máxima permitida de posiciones cortas en todas las divisas, convertidas a la divisa base, durante la liquidación."
+    },
+    "CurrencyFactors": {
+      "definition": "Factores de pay-in específicos de la divisa."
+    }
+  }
+}

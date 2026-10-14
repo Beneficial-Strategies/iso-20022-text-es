@@ -1,0 +1,4 @@
+{
+  "isoType": "CorporateActionEventProcessingStatusAdviceV09",
+  "definition": "Alcance|Un administrador de cuentas envía el mensaje CorporateActionEventProcessingStatusAdvice a un titular de cuenta o a su agente designado para informar del estado de procesamiento de un evento de operación societaria.||El administrador de cuentas utiliza este mensaje para indicar el motivo por el que un evento de operación societaria no se ha completado en las fechas de pago anunciadas.|Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es Duplicate),|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy),|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy Duplicate), |utilizando los elementos pertinentes de la cabecera de aplicación empresarial (BAH)."
+}

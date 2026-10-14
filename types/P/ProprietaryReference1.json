@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryReference1",
+  "definition": "Conjunto de elementos para identificar una referencia propia.",
+  "isoElements": {
+    "Type": {
+      "definition": "Identifica el tipo de referencia notificada."
+    },
+    "Reference": {
+      "definition": "Especificación de la referencia propia relacionada con la operación subyacente."
+    }
+  }
+}

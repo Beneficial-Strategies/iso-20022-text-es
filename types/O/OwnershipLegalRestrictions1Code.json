@@ -1,0 +1,18 @@
+{
+  "isoType": "OwnershipLegalRestrictions1Code",
+  "definition": "Especifica las restricciones regulatorias aplicables a un instrumento financiero.",
+  "isoCodes": {
+    "A144": {
+      "name": "Legal estadounidense 144A",
+      "definition": "Titularidad o transmisión de un valor no registrado emitido conforme a las restricciones legales US de la norma 144A."
+    },
+    "NRST": {
+      "name": "Sin restricciones",
+      "definition": "Titularidad o transmisión de un valor que no está sujeto a restricciones."
+    },
+    "RSTR": {
+      "name": "Restricciones",
+      "definition": "Titularidad o transmisión de un valor que está sujeto a restricciones y no conforme a la norma 144A."
+    }
+  }
+}

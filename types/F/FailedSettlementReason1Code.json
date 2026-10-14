@@ -1,0 +1,34 @@
+{
+  "isoType": "FailedSettlementReason1Code",
+  "definition": "Especifica el motivo de un fallo de liquidación.",
+  "isoCodes": {
+    "CANE": {
+      "name": "Cuenta de abono no admisible",
+      "definition": "La cuenta de abono no es admisible."
+    },
+    "CADI": {
+      "name": "Cuenta de abono deshabilitada",
+      "definition": "La cuenta de abono está inhabilitada."
+    },
+    "DANE": {
+      "name": "Cuenta de adeudo no admisible",
+      "definition": "La cuenta de adeudo no es admisible."
+    },
+    "AADI": {
+      "name": "Cuenta de adeudo deshabilitada",
+      "definition": "La cuenta de adeudo está inhabilitada."
+    },
+    "INSE": {
+      "name": "Valores insuficientes",
+      "definition": "Valores insuficientes en la cuenta para liquidar."
+    },
+    "INDI": {
+      "name": "Distribución incompleta",
+      "definition": "La distribución está incompleta."
+    },
+    "INCA": {
+      "name": "Efectivo insuficiente",
+      "definition": "Efectivo insuficiente en la cuenta para liquidar."
+    }
+  }
+}

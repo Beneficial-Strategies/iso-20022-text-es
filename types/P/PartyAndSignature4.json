@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyAndSignature4",
+  "definition": "Entidad que interviene en una actividad.",
+  "isoElements": {
+    "Party": {
+      "definition": "Entidad que interviene en una actividad."
+    },
+    "Signature": {
+      "definition": "Firma de una parte."
+    }
+  }
+}

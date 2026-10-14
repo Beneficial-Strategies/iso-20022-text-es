@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementDetails236",
+  "definition": "Detalles de la liquidación de una operación.",
+  "isoElements": {
+    "SettlementTransactionCondition": {
+      "definition": "Condiciones en las que se ha de liquidar la orden o la operación bursátil."
+    },
+    "Registration": {
+      "definition": "Especifica si el registro debe efectuarse a la recepción."
+    },
+    "LegalRestrictions": {
+      "definition": "Restricciones regulatorias aplicables a un valor."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica si la operación de liquidación se ha de liquidar a través de un sistema RTGS o de un sistema no RTGS."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Especifica si la instrucción de liquidación se ha de liquidar a través del sistema de liquidación por defecto o del alternativo."
+    },
+    "TaxCapacity": {
+      "definition": "Función fiscal de la parte instructora."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica el tipo de impuesto de timbre o el motivo de exención aplicable a la operación de liquidación."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si se utilizan elementos SettlementDetails, sus condiciones de uso deben acordarse previamente entre el titular de la cuenta y el administrador de cuentas."
+    }
+  }
+}

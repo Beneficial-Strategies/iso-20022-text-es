@@ -1,0 +1,10 @@
+{
+  "isoType": "PendingFailingReason1Code",
+  "definition": "Especifica el motivo por el que la operación/instrucción está pendiente o en fallo de liquidación. La liquidación en la fecha de liquidación instruida sigue siendo posible, la situación es pendiente. La liquidación en la fecha de liquidación instruida ya no es posible, la situación es en fallo.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    }
+  }
+}

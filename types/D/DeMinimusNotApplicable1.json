@@ -1,0 +1,9 @@
+{
+  "isoType": "DeMinimusNotApplicable1",
+  "definition": "Condiciones aplicables cuando el inversor no está cubierto por la exención “de minimis”.",
+  "isoElements": {
+    "RestrictedPersonReason": {
+      "definition": "Motivo de la persona restringida."
+    }
+  }
+}

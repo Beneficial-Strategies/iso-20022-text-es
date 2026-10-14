@@ -1,0 +1,12 @@
+{
+  "isoType": "UpdatedURLlnformation6",
+  "definition": "Información adicional con la descripción de la actualización y la fecha.",
+  "isoElements": {
+    "Language": {
+      "definition": "Idioma utilizado para facilitar información adicional, conforme al estándar de códigos de idioma ISO 639-1."
+    },
+    "URLAddress": {
+      "definition": "Proporciona la dirección web, es decir, la dirección del Localizador Uniforme de Recursos (URL), que se utilizará a través del servicio www (HTTP) donde puede encontrarse información adicional."
+    }
+  }
+}

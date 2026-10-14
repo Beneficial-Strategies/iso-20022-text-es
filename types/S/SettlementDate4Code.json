@@ -1,0 +1,10 @@
+{
+  "isoType": "SettlementDate4Code",
+  "definition": "Especifica la fecha de liquidación, en forma codificada.",
+  "isoCodes": {
+    "WISS": {
+      "name": "Cuando se emita",
+      "definition": "La liquidación se efectuará cuando se emita el valor."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSSource1Choice",
+  "definition": "Elección de formatos para la fuente del Estándar Común de Comunicación de Información (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Fuente del estatus del Estándar Común de Comunicación de Información (CRS) expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Fuente del estatus del Estándar Común de Comunicación de Información (CRS) expresada como código propietario."
+    }
+  }
+}

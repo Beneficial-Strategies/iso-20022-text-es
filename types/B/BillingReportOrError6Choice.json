@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingReportOrError6Choice",
+  "definition": "Elección entre un informe sobre datos de facturación, los detalles de una solicitud de cancelación de facturación o un error operativo.",
+  "isoElements": {
+    "BillingReport": {
+      "definition": "Informe sobre datos de facturación."
+    },
+    "CancellationReport": {
+      "definition": "Informe sobre datos de facturación cancelados."
+    },
+    "OperationalError": {
+      "definition": "Indica que se ha emitido un error operativo durante el procesamiento de la solicitud relacionada."
+    }
+  }
+}

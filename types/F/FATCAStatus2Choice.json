@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCAStatus2Choice",
+  "definition": "Elección de formatos para el estado conforme a la Ley de Cumplimiento Tributario de Cuentas en el Extranjero (FATCA).",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado conforme a la Ley de Cumplimiento Tributario de Cuentas en el Extranjero (FATCA) expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Estado conforme a la Ley de Cumplimiento Tributario de Cuentas en el Extranjero (FATCA) expresado como código propietario."
+    }
+  }
+}

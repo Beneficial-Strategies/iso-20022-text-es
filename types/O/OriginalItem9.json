@@ -1,0 +1,24 @@
+{
+  "isoType": "OriginalItem9",
+  "definition": "Identifica la partida de notificación original a la que se refiere el aviso de cancelación.",
+  "isoElements": {
+    "OriginalItemIdentification": {
+      "definition": "Identificación de la partida de notificación original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única asignada por el ordenante para identificar inequívocamente ante el beneficiario la operación subyacente original."
+    },
+    "UETR": {
+      "definition": "Identificador único universal que proporciona una referencia de extremo a extremo de una operación de pago."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que se esperaba abonar en la cuenta, según la notificación de recepción original."
+    },
+    "ExpectedValueDate": {
+      "definition": "Fecha valor en la que se esperaba que se abonara la cuenta."
+    },
+    "OriginalItemReference": {
+      "definition": "Proporciona información adicional para identificar una notificación de pago anterior."
+    }
+  }
+}

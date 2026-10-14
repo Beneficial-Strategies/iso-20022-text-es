@@ -1,0 +1,18 @@
+{
+  "isoType": "PersonName3",
+  "definition": "Identifica a una persona mediante su nombre y apellidos.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Prefijo, como un título antepuesto al nombre de una persona."
+    },
+    "FirstName": {
+      "definition": "Nombre(s) por el que se conoce a una persona física."
+    },
+    "Surname": {
+      "definition": "Nombre(s) por el que se conoce a una persona física y que se utiliza habitualmente para identificar a dicha parte."
+    },
+    "Address": {
+      "definition": "Dirección postal de la parte."
+    }
+  }
+}

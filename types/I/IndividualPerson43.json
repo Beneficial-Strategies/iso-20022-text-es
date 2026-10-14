@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPerson43",
+  "definition": "Entidad humana, por oposición a una entidad corporativa (a la que a veces se denomina «persona jurídica»).",
+  "isoElements": {
+    "PreassignedProxy": {
+      "definition": "Identificación única e inequívoca del representante."
+    },
+    "EmployingParty": {
+      "definition": "Organización representada por la persona o para la que trabaja la persona."
+    }
+  }
+}

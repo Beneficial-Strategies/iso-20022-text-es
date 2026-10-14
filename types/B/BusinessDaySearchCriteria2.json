@@ -1,0 +1,21 @@
+{
+  "isoType": "BusinessDaySearchCriteria2",
+  "definition": "Define los criterios utilizados para buscar información sobre el día hábil del sistema.",
+  "isoElements": {
+    "SystemDate": {
+      "definition": "Fecha para la que se facilita la información de disponibilidad."
+    },
+    "SystemIdentification": {
+      "definition": "Identificación única e inequívoca del sistema, asignada por el administrador del sistema."
+    },
+    "SystemCurrency": {
+      "definition": "Divisa que puede procesar el sistema. Un sistema puede procesar operaciones en una sola divisa o en varias."
+    },
+    "EventType": {
+      "definition": "Naturaleza del evento que se ha producido."
+    },
+    "ClosurePeriod": {
+      "definition": "Período durante el cual el sistema está cerrado o no opera."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "Pledgee4",
+  "definition": "Identifica la entidad a cuyo favor están pignorados los instrumentos financieros.",
+  "isoElements": {
+    "PledgeeTypeAndIdentification": {
+      "definition": "Identificación única de la parte."
+    },
+    "LEI": {
+      "definition": "Identificación de entidad jurídica como identificación alternativa de una parte."
+    }
+  },
+  "isoRules": {
+    "PledgeeTypeAndIdentificationOrLEIRule": {
+      "definition": "PledgeeTypeAndIdentification debe estar presente o LEI debe estar presente."
+    }
+  }
+}

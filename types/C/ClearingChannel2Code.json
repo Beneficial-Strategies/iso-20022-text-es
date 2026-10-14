@@ -1,0 +1,22 @@
+{
+  "isoType": "ClearingChannel2Code",
+  "definition": "Especifica el canal de compensación para el encaminamiento de la operación, como parte de la identificación del tipo de pago.",
+  "isoCodes": {
+    "RTGS": {
+      "name": "Sistema de liquidación bruta en tiempo real",
+      "definition": "El canal de compensación es un sistema de liquidación bruta en tiempo real."
+    },
+    "RTNS": {
+      "name": "Sistema de liquidación neta en tiempo real",
+      "definition": "El canal de compensación es un sistema de liquidación neta en tiempo real."
+    },
+    "MPNS": {
+      "name": "Sistema de liquidación neta de pagos masivos",
+      "definition": "El canal de compensación es un sistema de liquidación neta de pagos masivos."
+    },
+    "BOOK": {
+      "name": "Transferencia contable",
+      "definition": "Pago mediante transferencia contable interna."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Entitlement1",
+  "definition": "Proporciona información sobre el derecho.",
+  "isoElements": {
+    "AccountOwnerIdentification": {
+      "definition": "Identificación de la parte titular de la cuenta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta."
+    },
+    "SecuritiesDistributionDetails": {
+      "definition": "Proporciona información sobre la distribución de valores."
+    },
+    "CashDistributionDetails": {
+      "definition": "Proporciona información sobre la distribución de efectivo."
+    }
+  }
+}

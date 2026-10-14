@@ -1,0 +1,74 @@
+{
+  "isoType": "SecuritiesTradeDetails128",
+  "definition": "Detalles de la operación de valores.",
+  "isoElements": {
+    "TradeIdentification": {
+      "definition": "Referencia asignada a la operación comercial por el inversor o la parte negociadora. Esta referencia se utilizará durante todo el ciclo de vida de la operación comercial para acceder a sus detalles o actualizarlos."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Identificación inequívoca de una operación de garantía asignada por la parte instructora."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado en el que se ha ejecutado una operación de negociación."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestructura que puede formar parte de una cámara de compensación y que facilita la compensación y liquidación para sus miembros interponiéndose entre el comprador y el vendedor. Puede compensar operaciones por saldos netos y se sustituye a sí misma como contraparte de liquidación de cada posición."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Fecha y hora en que se completa y compensa una operación, por ejemplo, se efectúa el pago y se entregan los valores."
+    },
+    "DealPrice": {
+      "definition": "Especifica el precio del instrumento financiero negociado.|Es el precio de la operación individual.|Si solo hay una operación bursátil para la ejecución de la negociación, el precio pactado podría ser igual al precio de ejecución (salvo, por ejemplo, que el precio incluya comisiones o redondeos, o que se haya aplicado algún otro factor al precio pactado o al precio de ejecución, o a ambos)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días en los que se devenga el tipo de interés (nota de devengo diario)."
+    },
+    "OpeningClosing": {
+      "definition": "Especifica información adicional relativa al procesamiento de la operación."
+    },
+    "Reporting": {
+      "definition": "Especifica que una operación debe notificarse a un tercero."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica las condiciones en las que se va a ejecutar o se ejecutó la orden/operación."
+    },
+    "InvestorCapacity": {
+      "definition": "Especifica el papel del inversor en la operación."
+    },
+    "TradeOriginatorRole": {
+      "definition": "Especifica el papel de la parte negociadora en la operación."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica el tipo de precio e información sobre el precio."
+    },
+    "FXAdditionalDetails": {
+      "definition": "Proporciona detalles adicionales relativos a las instrucciones de cambio de divisas."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Proporciona información adicional de procesamiento de la liquidación que no puede incluirse en los campos estructurados del mensaje."
+    }
+  },
+  "isoRules": {
+    "InvestorCapacityRule": {
+      "definition": "Si se utiliza InvestorCapacity, entonces el uso de los códigos debe acordarse bilateralmente."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "Si se utiliza PlaceOfTrade y existe un MIC de ISO 10383 para el mercado que se va a identificar, entonces debe utilizarse el Market Identifier Code (MIC) de ISO 10383."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Si Trade Date/Time se utiliza con una hora o una hora + indicador UTC, debe ser la hora local del lugar de la operación, por ejemplo, de la bolsa de valores, o del corredor vendedor en el caso de operaciones OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si FXAdditionalDetails y/o SettlementInstructionProcessingAdditionalDetails están presentes, entonces no deben contener información que pueda facilitarse en un campo estructurado."
+    },
+    "TradeDateGuideline": {
+      "definition": "Además de la fecha de liquidación (obligatoria en ISO 20022), la fecha de contratación es uno de los 10 elementos comunes recomendados por el SMPG para las instrucciones de liquidación de renta variable y renta fija.|Para más detalles, consulte el documento de práctica de mercado correspondiente en www.smpg.info."
+    }
+  }
+}

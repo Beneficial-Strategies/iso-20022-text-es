@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingMethod4",
+  "definition": "Proporciona los detalles del método C de cálculo de impuestos.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Especifica los detalles de los servicios imponibles mediante el método C de cálculo de impuestos."
+    },
+    "TaxCalculation": {
+      "definition": "Importe total del cargo por servicio que se debe gravar en la divisa de la jurisdicción fiscal de la región fiscal, junto con los cálculos de impuestos de respaldo. ||Uso: Se utiliza solo para el método C de cálculo de impuestos, y solo se puede especificar uno por región fiscal."
+    }
+  }
+}

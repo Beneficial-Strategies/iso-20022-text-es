@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalDiscountAmountType1Code",
+  "definition": "Especifica la naturaleza, o el uso, del importe en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa publicada por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "APDS": {
+      "name": "Descuento promocional adicional",
+      "definition": "Descuento adicional basado en una actividad promocional comercial acordada con un tercero, es decir, un descuento extra del 10 por ciento durante 15 días)"
+    },
+    "STDS": {
+      "name": "Descuento permanente",
+      "definition": "Descuento basado en el volumen de compra."
+    },
+    "TMDS": {
+      "name": "Descuento por condiciones de pago",
+      "definition": "Descuento basado en las condiciones negociadas para el pago dentro de un plazo determinado, es decir, 2/10 Net 30 (2 por ciento de descuento si se paga en 10 días; en caso contrario, el importe neto vence a los 30 días)."
+    },
+    "DISC": {
+      "name": "Descuento aplicado",
+      "definition": "Descuento aplicado. Uso genérico si no puede especificarse mediante ningún otro código de descuento."
+    }
+  }
+}

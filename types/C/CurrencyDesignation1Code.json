@@ -1,0 +1,14 @@
+{
+  "isoType": "CurrencyDesignation1Code",
+  "definition": "Especifica si una divisa se liquida en el mercado extraterritorial (offshore) o en el nacional (onshore).",
+  "isoCodes": {
+    "ONSH": {
+      "name": "Onshore",
+      "definition": "Nacional (onshore)."
+    },
+    "OFFS": {
+      "name": "Offshore",
+      "definition": "Extraterritorial (offshore)."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "BusinessDayConvention2Code",
+  "definition": "Especifica cómo se ajusta una fecha cuando coincide con un día no hábil.",
+  "isoCodes": {
+    "FWNG": {
+      "name": "Siguiente",
+      "definition": "La fecha será el primer día posterior que sea día hábil."
+    },
+    "FRNC": {
+      "name": "Convención de bonos de tasa flotante",
+      "definition": "Convención de los bonos de tipo variable."
+    },
+    "MODF": {
+      "name": "Siguiente modificado",
+      "definition": "La fecha será el primer día posterior que sea día hábil, salvo que dicho día corresponda al mes natural siguiente, en cuyo caso la fecha será el primer día anterior que sea día hábil."
+    },
+    "NEAR": {
+      "name": "Más próximo",
+      "definition": "La fecha será el primer día anterior que sea día hábil, salvo que dicho día no sea domingo ni lunes, y será el primer día posterior que sea día hábil si la fecha correspondiente cae en domingo o lunes."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otra convención de día hábil."
+    },
+    "PREC": {
+      "name": "Anterior",
+      "definition": "El día no hábil se ajustará al primer día anterior que sea día hábil."
+    }
+  }
+}

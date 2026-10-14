@@ -1,0 +1,15 @@
+{
+  "isoType": "UnitOrFaceAmountOrCode1Choice",
+  "definition": "Elección entre una unidad en número decimal, un importe nominal en divisa e importe o una unidad expresada como código.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Cantidad expresada como un número, por ejemplo, un número de acciones."
+    },
+    "FaceAmount": {
+      "definition": "Cantidad expresada como un importe que representa el importe nominal, es decir, el principal, de un instrumento de deuda."
+    },
+    "Code": {
+      "definition": "Cantidad expresada como un código."
+    }
+  }
+}

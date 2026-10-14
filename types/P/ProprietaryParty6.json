@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryParty6",
+  "definition": "Identifica a una parte propia.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de parte propia."
+    },
+    "Party": {
+      "definition": "Parte propia."
+    }
+  }
+}

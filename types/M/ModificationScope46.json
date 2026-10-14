@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope46",
+  "definition": "Alcance de la modificación que se aplicará a un conjunto de información identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Especifica el tipo de modificación que se aplicará."
+    },
+    "InvestorProfile": {
+      "definition": "Información utilizada para determinar las comisiones y los tipos de operaciones que pueden realizarse en la cuenta."
+    }
+  }
+}

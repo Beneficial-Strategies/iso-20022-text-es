@@ -1,0 +1,12 @@
+{
+  "isoType": "DrawdownType2Choice",
+  "definition": "Elección de formatos para un tipo de disposición.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de disposición expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de disposición expresado como código propietario."
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalBalanceSubType1Code",
+  "definition": "Especifica el subtipo de saldo, tal como se publica en una lista de códigos externa de subtipos de saldo.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "ADJT": {
+      "name": "Ajuste",
+      "definition": "Saldo que debe mantenerse en la cuenta de liquidación para cumplir con la reserva media exigible, en caso de que el saldo de la entidad sea igual a la reserva exigible durante los días restantes del periodo de mantenimiento."
+    },
+    "BCUR": {
+      "name": "Divisa base",
+      "definition": "Saldo que representa el importe en la moneda contable nacional o base."
+    },
+    "BLCK": {
+      "name": "Bloqueado",
+      "definition": "Saldo que representa la reserva regulatoria que una entidad financiera debe mantener en la entidad gestora de la cuenta, p. ej., el saldo acreedor mínimo que una entidad financiera debe mantener en su banco central a efectos de reservas obligatorias. En algunos países, un saldo bloqueado se conoce como saldo de «reserva»."
+    },
+    "BLKD": {
+      "name": "Fondos bloqueados",
+      "definition": "Saldo que representa fondos de los que el titular de la cuenta no puede disponer."
+    },
+    "DLOD": {
+      "name": "Descubierto intradía",
+      "definition": "Saldo que representa el descubierto intradía concedido por el banco central a las entidades financieras que participan en un sistema RTGS. Este saldo puede variar con el tiempo y se compensará al final del día."
+    },
+    "EAST": {
+      "name": "Activos admisibles",
+      "definition": "Saldo que representa el posible préstamo en efectivo que un banco central concedería si se pignora la garantía, p. ej., valores disponibles y admisibles como garantía en el banco central."
+    },
+    "FCOL": {
+      "name": "Colateralización firme",
+      "definition": "Saldo que representa la previsión del equivalente en efectivo resultante de la valoración de las posiciones existentes en el CSD que reúnen los requisitos para servir de garantía."
+    },
+    "FCOU": {
+      "name": "Importes utilizados como garantía firme",
+      "definition": "Saldo que representa el equivalente en efectivo resultante de la valoración de las posiciones existentes en el CSD que son aptas para servir como garantía y que se han utilizado como garantía."
+    },
+    "FORC": {
+      "name": "Previsión de valores",
+      "definition": "Saldo que representa el total de todos los tipos de saldo que representan la previsión de operaciones pendientes de liquidar, partidas bloqueadas, operaciones de custodia y desembolsos de efectivo por operaciones societarias."
+    },
+    "FUND": {
+      "name": "Financiación neta",
+      "definition": "Saldo que representa el importe neto que debe financiarse, resultante de la diferencia entre el total de todas las operaciones con impacto en efectivo y la cobertura de efectivo existente."
+    },
+    "INTM": {
+      "name": "Intermedio",
+      "definition": "Saldo que representa un importe intermedio, como el saldo inicial o final trasladado de forma incremental de una página a la siguiente en un extracto o informe de varias páginas."
+    },
+    "LCUR": {
+      "name": "Moneda local",
+      "definition": "Saldo que representa el importe en la moneda del mercado local en el que se mantiene el activo."
+    },
+    "LRLD": {
+      "name": "Relacionado con límite",
+      "definition": "Saldo de un valor límite específico, p. ej., un saldo bilateral se calcula en relación con un límite bilateral determinado."
+    },
+    "NOTE": {
+      "name": "Liquidez reservada",
+      "definition": "Saldo que representa el importe que una entidad financiera ha reservado por un motivo específico y que, por tanto, no está disponible. En el contexto de los CSD, reserva de liquidez realizada para cumplir obligaciones de liquidación."
+    },
+    "PDNG": {
+      "name": "Valores pendientes",
+      "definition": "Saldo de valores pendientes de entrega, por ejemplo, cuando se han ejecutado órdenes de venta de valores pero no se ha confirmado la liquidación de las operaciones abiertas."
+    },
+    "PIPO": {
+      "name": "Entrada y salida de fondos",
+      "definition": "Saldo que representa el importe ficticio de adeudos directos o pagos automatizados basados en acuerdos permanentes entre el CSD y el usuario. Uso: los ingresos (Pay-Ins) y los pagos (Pay-Outs) pueden diferir según las instrucciones de pago individuales o los fondos disponibles."
+    },
+    "PRAV": {
+      "name": "Promedio progresivo",
+      "definition": "Media de los saldos diarios de la cuenta utilizada para cumplir los requisitos de reservas, calculada desde el comienzo del período de mantenimiento."
+    },
+    "RESV": {
+      "name": "Reserva",
+      "definition": "Saldo que representa la reserva regulatoria que una entidad financiera debe mantener en la entidad gestora de la cuenta, p. ej., el saldo acreedor mínimo que una entidad financiera debe mantener en su banco central a efectos de reservas obligatorias."
+    },
+    "SCOL": {
+      "name": "Autocolateralización",
+      "definition": "Saldo que representa la previsión del equivalente en efectivo resultante de la valoración del saldo neto entrante de valores aptos para servir como garantía cuyas instrucciones de liquidación están retenidas en."
+    },
+    "SCOU": {
+      "name": "Importes utilizados como autogarantía",
+      "definition": "Saldo que representa el equivalente en efectivo resultante de la valoración de los valores entrantes, aptos para servir como garantía y efectivamente utilizados como garantía, que se han liquidado durante el proceso de liquidación."
+    },
+    "THRE": {
+      "name": "Umbral",
+      "definition": "Saldo que representa el importe que se destinará a inversión. Diferencia entre el saldo disponible y el umbral del límite de inversión."
+    },
+    "UNBL": {
+      "name": "Fondos desbloqueados",
+      "definition": "Saldo que representa fondos de los que el titular de la cuenta puede disponer."
+    }
+  }
+}

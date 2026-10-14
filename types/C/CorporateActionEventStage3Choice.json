@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStage3Choice",
+  "definition": "Elección de la fase de la acción corporativa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fase del evento de acción corporativa expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Fase del evento de acción corporativa expresada como código propietario."
+    }
+  }
+}

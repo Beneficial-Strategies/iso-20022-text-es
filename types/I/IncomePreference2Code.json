@@ -1,0 +1,14 @@
+{
+  "isoType": "IncomePreference2Code",
+  "definition": "Especifica las opciones de distribución de los ingresos por dividendos.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Efectivo",
+      "definition": "Distribución en efectivo."
+    },
+    "SECU": {
+      "name": "Valores",
+      "definition": "Distribución en valores."
+    }
+  }
+}

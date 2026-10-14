@@ -1,0 +1,14 @@
+{
+  "isoType": "DateCalculationMethod1Code",
+  "definition": "Indica el método de cálculo que se utilizará para determinar en qué fechas se han adquirido las acciones.",
+  "isoCodes": {
+    "FIFO": {
+      "name": "FIFO",
+      "definition": "Primero en entrar, primero en salir."
+    },
+    "LIFO": {
+      "name": "LIFO",
+      "definition": "Último en entrar, primero en salir."
+    }
+  }
+}

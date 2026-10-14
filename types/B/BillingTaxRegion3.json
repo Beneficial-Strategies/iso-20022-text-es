@@ -1,0 +1,33 @@
+{
+  "isoType": "BillingTaxRegion3",
+  "definition": "Región fiscal que grava con un impuesto los servicios de un extracto.",
+  "isoElements": {
+    "RegionNumber": {
+      "definition": "Especifica una zona única de impuestos asignada por las autoridades fiscales. El número de región fiscal es único. Se considera que toda cuenta reside en una región fiscal, aunque algunas regiones fiscales pueden no gravar los servicios."
+    },
+    "RegionName": {
+      "definition": "Nombre asociado a un número de región fiscal específico."
+    },
+    "CustomerTaxIdentification": {
+      "definition": "Especifica el número de identificación fiscal del cliente de la entidad financiera. ||Uso: |Es el número que la entidad financiera transmite a la autoridad fiscal para indicar el cliente específico vinculado a los impuestos calculados para esta región fiscal y grupo de servicios prestados. Suele ser la identificación fiscal vinculada a la cuenta de un cliente."
+    },
+    "PointDate": {
+      "definition": "Fecha en la que se realizó el cálculo de impuestos. ||Uso: |Esta fecha puede utilizarse para verificar el valor del tipo impositivo en la fecha del cálculo."
+    },
+    "SendingFinancialInstitution": {
+      "definition": "Información fiscal relativa a la entidad financiera emisora."
+    },
+    "InvoiceNumber": {
+      "definition": "Número único que el cliente debe utilizar para establecer una referencia cruzada entre la información de la región fiscal y una factura o aviso fiscal."
+    },
+    "MethodC": {
+      "definition": "Los valores de los impuestos se basan en el método C de cálculo de impuestos."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de impuestos expresado en la divisa de liquidación (o de cargo) de la cuenta. ||Uso: Este total suma los impuestos individuales a nivel de servicio calculados para cada servicio mediante los métodos A, B y D. La suma de estos importes en todas las regiones fiscales del extracto se muestra como la suma total de impuestos en la sección de compensación."
+    },
+    "TaxDueToRegion": {
+      "definition": "Importe total de todos los impuestos de un cliente específico dentro de la región fiscal, expresado en la divisa de la jurisdicción fiscal de la región fiscal. ||Uso: Es el mismo valor que el importe total de impuestos y se incluye para el uso específico de los métodos A, B y D de cálculo de impuestos."
+    }
+  }
+}

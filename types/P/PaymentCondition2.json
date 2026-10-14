@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentCondition2",
+  "definition": "Especifica las condiciones para la ejecución del pago.",
+  "isoElements": {
+    "AmountModificationAllowed": {
+      "definition": "Indica si se permite al ordenante pagar un importe distinto del importe solicitado.||Uso: cuando el elemento no está presente, el valor por defecto es \"No aplicable\"."
+    },
+    "EarlyPaymentAllowed": {
+      "definition": "Indica si el ordenante puede pagar antes de la fecha de ejecución solicitada.||Uso: Cuando el elemento no está presente, el valor por defecto es \"No aplicable\"."
+    },
+    "DelayPenalty": {
+      "definition": "Penalización que se aplicará por un pago retrasado, es decir, cuando el pago se realiza después de la fecha de ejecución solicitada."
+    },
+    "ImmediatePaymentRebate": {
+      "definition": "Tasa de descuento aplicada por el pago inmediato al recibir la solicitud."
+    },
+    "GuaranteedPaymentRequested": {
+      "definition": "Indica si se solicita una garantía de pago, suponiendo que existe un contrato de garantía de pago entre los distintos participantes.||Uso: cuando el elemento no está presente, el valor por defecto es \"No aplicable\"."
+    }
+  }
+}

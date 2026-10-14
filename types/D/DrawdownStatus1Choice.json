@@ -1,0 +1,12 @@
+{
+  "isoType": "DrawdownStatus1Choice",
+  "definition": "Elección de formatos para un estado de disposición.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Estado expresado como código propietario."
+    }
+  }
+}

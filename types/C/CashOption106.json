@@ -1,0 +1,33 @@
+{
+  "isoType": "CashOption106",
+  "definition": "Proporciona información sobre la opción en efectivo.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indica si el valor es un débito o un crédito."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identificación de la cuenta en la que se mantiene el efectivo."
+    },
+    "GrossCashAmount": {
+      "definition": "Importe de dinero antes de efectuar cualquier deducción o desgravación."
+    },
+    "NetCashAmount": {
+      "definition": "Importe de dinero tras haberse realizado las deducciones y bonificaciones, si las hubiera, es decir, el importe total +/- comisiones/cargos."
+    },
+    "EntitledAmount": {
+      "definition": "Importe en efectivo basado en las condiciones del evento de acción corporativa y en el saldo de los valores subyacentes, que corresponde al titular de la cuenta o a cargo de este (y que puede ser positivo o negativo)."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Porcentaje de una distribución en efectivo que será retenido por las autoridades fiscales de la jurisdicción del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Importe de una distribución en efectivo que será retenido por las autoridades fiscales de la jurisdicción del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Fecha y hora en que puede efectuarse un pago, por ejemplo, si la fecha de pago es un día no hábil o para indicar la primera fecha de pago de una oferta."
+    },
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe tener lugar el movimiento (efectivo y/o valores)."
+    }
+  }
+}

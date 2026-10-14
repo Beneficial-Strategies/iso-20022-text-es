@@ -1,0 +1,18 @@
+{
+  "isoType": "RatioFormat19Choice",
+  "definition": "Elección del formato para expresar una proporción.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "Proporción expresada como cociente de cantidades."
+    },
+    "AmountToAmount": {
+      "definition": "Proporción expresada como cociente de importes."
+    },
+    "AmountToQuantity": {
+      "definition": "Proporción expresada como una relación de importe a cantidad."
+    },
+    "QuantityToAmount": {
+      "definition": "Proporción expresada como una relación de cantidad a importe."
+    }
+  }
+}

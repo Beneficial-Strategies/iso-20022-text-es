@@ -1,0 +1,4 @@
+{
+  "isoType": "ProprietaryFormatInvestigationV06",
+  "definition": "Alcance|El tipo de mensaje ProprietaryFormatInvestigation lo utilizan las entidades financieras, con sus propias oficinas y/o con otras entidades financieras con las que hayan establecido acuerdos bilaterales.|Uso|El usuario debe asegurarse de que no se pueda utilizar un mensaje estándar existente antes de recurrir al mensaje propietario.|Según se define en el alcance, este mensaje ProprietaryFormatInvestigation solo puede utilizarse cuando se haya acordado bilateralmente.|Se utiliza como envoltorio de un mensaje no estándar y ofrece un medio para gestionar una excepción o una investigación que queda fuera del alcance o de la capacidad de cualquier otro mensaje con formato.|El elemento ProprietaryData debe contener un documento XML bien formado. Esto significa que los caracteres especiales de XML, como '<', deben utilizarse de forma coherente con los criterios de buena formación de XML."
+}

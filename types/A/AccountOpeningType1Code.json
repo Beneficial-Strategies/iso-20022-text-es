@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountOpeningType1Code",
+  "definition": "Especifica el tipo de cuenta al que se refiere una solicitud de apertura de cuenta, por ejemplo, una cuenta nueva.",
+  "isoCodes": {
+    "NEWA": {
+      "name": "Apertura de cuenta nueva",
+      "definition": "La solicitud de cuenta es para abrir una cuenta nueva."
+    },
+    "SUPA": {
+      "name": "Apertura de cuenta suplementaria",
+      "definition": "La solicitud de cuenta es para abrir una cuenta suplementaria, es decir, basada en una cuenta existente."
+    }
+  }
+}

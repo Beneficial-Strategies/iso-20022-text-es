@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionInformation2",
+  "definition": "Proporciona información sobre el evento de operación societaria.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identificación del agente del emisor o del emisor."
+    },
+    "IssuerCorporateActionIdentification": {
+      "definition": "Referencia asignada al evento por el emisor (agente) del evento de CA."
+    },
+    "CorporateActionProcessingIdentification": {
+      "definition": "Referencia asignada por el (I)CSD para identificar sin ambigüedad un evento societario."
+    },
+    "EventType": {
+      "definition": "Especifica el tipo de evento societario."
+    },
+    "EventProcessingType": {
+      "definition": "Tipo de procesamiento que implica una operación societaria."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Especifica si el evento es obligatorio, obligatorio con opciones o voluntario."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identificación del instrumento financiero subyacente, es decir, el instrumento financiero afectado por el evento de operación societaria."
+    },
+    "OtherUnderlyingSecurity": {
+      "definition": "Identificación del instrumento financiero subyacente secundario, es decir, el instrumento financiero no principal afectado por el evento de operación societaria."
+    }
+  }
+}

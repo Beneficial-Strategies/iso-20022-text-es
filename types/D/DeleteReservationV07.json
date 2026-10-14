@@ -1,0 +1,4 @@
+{
+  "isoType": "DeleteReservationV07",
+  "definition": "Ámbito|El mensaje DeleteReservation se utiliza para solicitar la eliminación de una reserva concreta por parte del miembro y gestionada por el administrador de operaciones.|Uso|La eliminación de una reserva en el sistema no solo restablece a cero la liquidez reservada, sino que también elimina la propia reserva del sistema: solo permanece en el sistema la reserva por defecto del día hábil en curso."
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "CardType1Code",
+  "definition": "Especifica el tipo de tarjeta de pago.",
+  "isoCodes": {
+    "CRDT": {
+      "name": "Tarjeta de crédito",
+      "definition": "Tarjeta cuyo titular dispone de una línea de crédito. La tarjeta permite al titular realizar compras y retirar efectivo hasta un límite preestablecido."
+    },
+    "DBIT": {
+      "name": "Tarjeta de débito",
+      "definition": "Tarjeta que permite al titular que sus compras se carguen directamente en su cuenta. La tarjeta también puede combinar otras funciones, por ejemplo, tarjeta de efectivo o tarjeta de garantía de cheques."
+    }
+  }
+}

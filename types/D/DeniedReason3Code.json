@@ -1,0 +1,26 @@
+{
+  "isoType": "DeniedReason3Code",
+  "definition": "Especifica el motivo de la denegación.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Recibida después del plazo límite de la entidad gestora de la cuenta."
+    },
+    "DCAL": {
+      "name": "Llamada denegada por estar ya aplicada",
+      "definition": "La solicitud de requerimiento del repo fue denegada porque ya se aplica otro requerimiento."
+    },
+    "DFOR": {
+      "name": "Denegado por no estar permitido",
+      "definition": "La solicitud de requerimiento del repo fue denegada. El requerimiento no está permitido en el repo en cuestión, por ejemplo, por exceder el plazo."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMSignature3Choice",
+  "definition": "Elemento que contiene la firma.",
+  "isoElements": {
+    "DigitalSignature": {
+      "definition": "Firma digital de datos implícitos, según el procedimiento de descarga del esquema de seguridad."
+    },
+    "TRRelatedData": {
+      "definition": "Bloque de datos de un bloque TR31 o TR34 que no contiene ninguna clave (por ejemplo, el desenlace TR34, que contiene los datos de autorización firmados)."
+    }
+  }
+}

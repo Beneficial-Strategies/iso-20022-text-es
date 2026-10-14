@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteTypeAndQuantity1",
+  "definition": "Tipo de voto que puede emitirse para una resolución en una junta general.",
+  "isoElements": {
+    "VoteInstructionType": {
+      "definition": "Tipos de instrucción de voto permitidos para las resoluciones que se votarán en la junta general."
+    },
+    "VoteQuantity": {
+      "definition": "Cantidad de votos expresada para el tipo de instrucción de voto especificado."
+    }
+  }
+}

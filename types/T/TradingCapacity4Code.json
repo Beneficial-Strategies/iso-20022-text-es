@@ -1,0 +1,66 @@
+{
+  "isoType": "TradingCapacity4Code",
+  "definition": "Especifica el papel de una parte negociadora en una operación.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Principal",
+      "definition": "Negociación por cuenta propia como principal."
+    },
+    "CPRN": {
+      "name": "Principal en cruce",
+      "definition": "Cruce como principal."
+    },
+    "RISP": {
+      "name": "Principal sin riesgo",
+      "definition": "Negociación como principal sin riesgo, es decir, la orden de compra (venta) se ha compensado simultáneamente con una orden de venta (compra) con otra parte."
+    },
+    "PROP": {
+      "name": "Propietario",
+      "definition": "Negociación por cuenta de su empresa. La operación afecta a la cuenta propia de la empresa, no a la de sus clientes."
+    },
+    "AGEN": {
+      "name": "Entidad",
+      "definition": "Negociación como agente en nombre de un cliente."
+    },
+    "CAGN": {
+      "name": "Agente en cruce",
+      "definition": "Cruce como agente."
+    },
+    "OAGN": {
+      "name": "Otro agente",
+      "definition": "Actuación como agente de una parte distinta de un cliente."
+    },
+    "PRAG": {
+      "name": "Agente principal",
+      "definition": "Actuación como agente en algunas ejecuciones y como principal en otras dentro de la misma operación."
+    },
+    "BAGN": {
+      "name": "Agente actuante",
+      "definition": "Parte que actúa como agente tanto de un cliente como de otra persona."
+    },
+    "INFI": {
+      "name": "Empresa de inversión",
+      "definition": "Cualquier persona jurídica cuya ocupación o actividad habitual consista en la prestación de uno o más servicios de inversión a terceros y/o en el desempeño de una o más actividades de inversión con carácter profesional."
+    },
+    "MKTM": {
+      "name": "Creador de mercado",
+      "definition": "Intermediario o especialista que negocia por cuenta propia en el mercado extrabursátil (OTC). Se espera que los creadores de mercado mantengan un mercado ordenado estando disponibles para comprar o vender."
+    },
+    "MLTF": {
+      "name": "Sistema multilateral de negociación",
+      "definition": "Un sistema multilateral de negociación (SMN) es un sistema multilateral que reúne los intereses de compra y venta de múltiples terceros en instrumentos financieros de forma que dé lugar a un contrato (MTF)."
+    },
+    "RMKT": {
+      "name": "Mercado regulado",
+      "definition": "Mercado regulado en el que pueden negociarse instrumentos financieros conforme a las normas definidas por la bolsa de valores."
+    },
+    "SINT": {
+      "name": "Internalizador sistemático",
+      "definition": "Empresas que, de manera organizada, frecuente y sistemática, negocian por cuenta propia ejecutando órdenes de clientes fuera de un mercado regulado o de un SMN. Los internalizadores sistemáticos tienen la obligación de proporcionar, y hacer públicas, cotizaciones firmes de compra y venta para los valores líquidos (MTF)."
+    },
+    "TAGT": {
+      "name": "Agente de transferencias",
+      "definition": "Parte designada por la sociedad gestora del fondo. Actualiza los registros de las cuentas de los inversores para reflejar las compras, reembolsos, traspasos, transferencias y cambios de registro diarios de los inversores. Garantiza la liquidación oportuna de las operaciones y puede proporcionar información fiscal al inversor y/o a sus intermediarios. Puede calcular, cobrar y reembolsar comisiones. Prepara y distribuye las confirmaciones que reflejan las operaciones, que dan lugar a movimientos de participaciones o de la cuenta de efectivo del inversor o del intermediario del inversor. Responde a las consultas sobre el estado de la cuenta y procesa la distribución de ingresos."
+    }
+  }
+}

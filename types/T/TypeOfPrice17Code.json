@@ -1,0 +1,62 @@
+{
+  "isoType": "TypeOfPrice17Code",
+  "definition": "Especifica el tipo de precio e información sobre el precio.",
+  "isoCodes": {
+    "BIDE": {
+      "name": "Comprador",
+      "definition": "El precio es el precio comprador calculado de un fondo de doble precio (precios de oferta-demanda), es decir, el precio de venta de las participaciones para el inversor."
+    },
+    "OFFR": {
+      "name": "Vendedor",
+      "definition": "El precio es el precio vendedor calculado de un fondo de inversión de doble precio (precios de oferta-demanda), es decir, el precio de compra de las participaciones para un inversor."
+    },
+    "NAVL": {
+      "name": "Valor liquidativo",
+      "definition": "El precio es el valor liquidativo por participación que se utiliza como precio de negociación de una clase de fondo de inversión de precio único o como precio nocional para el cálculo de otros precios."
+    },
+    "CREA": {
+      "name": "Creación",
+      "definition": "El precio es el precio de creación calculado de un fondo de inversión de doble precio (precios de creación-cancelación) y el precio de compra máximo posible de las participaciones antes de la comisión inicial. El precio de compra o de oferta real, que incluye comisiones, será superior."
+    },
+    "CANC": {
+      "name": "Cancelación",
+      "definition": "El precio es el precio de cancelación calculado de un fondo de inversión de doble precio (precio de creación-cancelación) y la valoración mínima posible de las participaciones en cualquier día. El precio de venta o comprador real suele ser superior."
+    },
+    "INTE": {
+      "name": "Intermedio",
+      "definition": "El precio es el precio provisional no oficial que se da a un inversor antes del precio ejecutado."
+    },
+    "SWNG": {
+      "name": "Swing",
+      "definition": "El precio es el valor liquidativo calculado de un fondo de inversión de precio único. El precio se ajusta para tener en cuenta los costes de negociación debidos a operaciones individuales de gran volumen, o a un desequilibrio significativo entre los volúmenes de suscripciones y reembolsos, como alternativa a la comisión de dilución."
+    },
+    "MIDD": {
+      "name": "Medio",
+      "definition": "El precio es el precio medio entre los precios comprador y vendedor."
+    },
+    "RINV": {
+      "name": "Reinversión",
+      "definition": "El precio es el precio utilizado al reinvertir participaciones tras una distribución."
+    },
+    "SWIC": {
+      "name": "Traspaso",
+      "definition": "El precio es el precio utilizado al traspasar participaciones entre productos."
+    },
+    "MRKT": {
+      "name": "Mercado",
+      "definition": "El precio es el precio de mercado actual."
+    },
+    "INDC": {
+      "name": "Indicativo",
+      "definition": "El precio es el precio indicativo estimado."
+    },
+    "DDVR": {
+      "name": "Tasa de dividendo diaria",
+      "definition": "El precio es el rendimiento neto de un instrumento financiero, calculado en cada día de contratación y dividido entre todas las participaciones en circulación en ese día."
+    },
+    "ACTU": {
+      "name": "Real",
+      "definition": "Precio de oferta real."
+    }
+  }
+}

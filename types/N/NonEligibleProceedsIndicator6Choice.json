@@ -1,0 +1,12 @@
+{
+  "isoType": "NonEligibleProceedsIndicator6Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar la admisibilidad de los recursos resultantes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar información sobre la no admisibilidad de los recursos resultantes."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria para especificar información sobre la no admisibilidad de los recursos resultantes."
+    }
+  }
+}

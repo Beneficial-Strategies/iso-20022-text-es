@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingMethod3",
+  "definition": "Proporciona los detalles del método D de cálculo de impuestos.",
+  "isoElements": {
+    "ServiceTaxPriceAmount": {
+      "definition": "Importe equivalente al importe del impuesto del servicio en la divisa de la jurisdicción fiscal, pero que permite al emisor expresar opcionalmente el valor en la divisa de tarificación."
+    },
+    "TaxIdentification": {
+      "definition": "Contempla la identificación fiscal específica dentro de la misma región fiscal. ||Uso: Este elemento admite un máximo de tres impuestos regionales sobre el mismo servicio."
+    }
+  }
+}

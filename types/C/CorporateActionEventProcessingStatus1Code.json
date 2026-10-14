@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus1Code",
+  "definition": "Especifica la fase del ciclo de vida del evento de acción corporativa.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Completo",
+      "definition": "Especifica que el procesamiento de un evento de operación societaria se ha completado."
+    },
+    "PEND": {
+      "name": "Pendiente",
+      "definition": "Especifica que el procesamiento del evento de acción corporativa no se ha completado."
+    },
+    "RECD": {
+      "name": "Conciliado",
+      "definition": "Procesamiento de un evento de operación societaria que especifica que los fondos pagados se han conciliado con los fondos recibidos del agente (es decir, que ya no existe riesgo de que se revierta el pago)."
+    }
+  }
+}

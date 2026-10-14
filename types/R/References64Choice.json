@@ -1,0 +1,12 @@
+{
+  "isoType": "References64Choice",
+  "definition": "Elección de referencias utilizadas para hacer referencia a una operación anterior.",
+  "isoElements": {
+    "RelatedReference": {
+      "definition": "Referencia a un mensaje vinculado recibido previamente."
+    },
+    "OtherReference": {
+      "definition": "Referencia a un mensaje propietario vinculado o referencia de un sistema recibidos previamente."
+    }
+  }
+}

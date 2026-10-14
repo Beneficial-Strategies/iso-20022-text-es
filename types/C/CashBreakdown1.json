@@ -1,0 +1,15 @@
+{
+  "isoType": "CashBreakdown1",
+  "definition": "Suma de dinero expresada en billetes y/o monedas.",
+  "isoElements": {
+    "NoteDetails": {
+      "definition": "Especifica los detalles de los billetes."
+    },
+    "CoinDetails": {
+      "definition": "Especifica los detalles de las monedas."
+    },
+    "TotalAmount": {
+      "definition": "Importe total de todos los billetes y monedas."
+    }
+  }
+}

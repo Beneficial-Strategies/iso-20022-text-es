@@ -1,0 +1,33 @@
+{
+  "isoType": "AgentCAElectionStatusAdviceV01",
+  "definition": "Ámbito|Este mensaje lo envía un emisor (o su agente) al CSD para informar del estado, o de un cambio de estado, de:|- un aviso de elección de evento corporativo;|- una solicitud de cancelación de elección; o|- una solicitud de modificación de elección.|Uso|Este mensaje debe enviarse en respuesta a:|- un aviso de elección de evento corporativo del agente, para proporcionar el estado de un aviso de elección en caso de rechazo. No obstante, también puede utilizarse en todas las demás situaciones, en cuyo caso deben estar presentes los bloques de construcción Election Advice Identification y Election Advice Status.|- una solicitud de cancelación de elección de evento corporativo del agente, para proporcionar el estado de la solicitud de cancelación, en cuyo caso deben estar presentes los bloques de construcción Election Cancellation Request Identification y Election Cancellation Request Status.|- una solicitud de modificación de elección de evento corporativo del agente, para proporcionar el estado de la solicitud de modificación, en cuyo caso deben estar presentes los bloques de construcción Election Amendment Request Identification y Election Amendment Request Status.",
+  "isoRules": {
+    "ElectionAdviceIDOrElectionCancellationRequestIDOrElectionAmendmentRequestIDRule": {
+      "definition": "Debe estar presente AgentCAElectionAdviceIdentification o AgentCAElectionCancellationRequestIdentification o AgentCAElectionAmendmentRequestIdentification."
+    },
+    "ElectionAdviceIDOrElectionCancellationRequestIDOrElectionAmendmentRequestIDRuleNotBoth": {
+      "definition": "Debe estar presente AgentCAElectionAdviceIdentification o AgentCAElectionCancellationRequestIdentification o AgentCAElectionAmendmentRequestIdentification."
+    },
+    "ElectionAdviceIDOrElectionCancellationRequestIDOrElectionAmendmentRequestIDRuleNotBoth2": {
+      "definition": "Debe estar presente AgentCAElectionAdviceIdentification o AgentCAElectionCancellationRequestIdentification o AgentCAElectionAmendmentRequestIdentification."
+    },
+    "ElectionAdviceStatusOrCancellationRequestStatusOrAmendmentRequestStatusRule": {
+      "definition": "Debe estar presente ElectionAdviceStatus o ElectionCancellationRequestStatus o ElectionAmendmentRequestStatus."
+    },
+    "ElectionAdviceStatusOrCancellationRequestStatusOrAmendmentRequestStatusRuleNotBoth": {
+      "definition": "Debe estar presente ElectionAdviceStatus o ElectionCancellationRequestStatus o ElectionAmendmentRequestStatus."
+    },
+    "ElectionAdviceStatusOrCancellationRequestStatusOrAmendmentRequestStatusRuleNotBoth2": {
+      "definition": "Debe estar presente ElectionAdviceStatus o ElectionCancellationRequestStatus o ElectionAmendmentRequestStatus."
+    },
+    "ElectionAdviceStatusRule": {
+      "definition": "Si AgentCAElectionAdviceIdentification está presente, ElectionAdviceStatus debe estar presente."
+    },
+    "ElectionAmendmentRequestStatusRule": {
+      "definition": "Si AgentCAElectionAmendmentRequestIdentification está presente, ElectionAmendmentRequestStatus debe estar presente."
+    },
+    "ElectionCancellationRequestStatusRule": {
+      "definition": "Si AgentCAElectionCancellationRequestIdentification está presente, ElectionCancellationRequestStatus debe estar presente."
+    }
+  }
+}

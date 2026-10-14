@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalMessageAndIssuer1",
+  "definition": "Referencia(s) de negocio a uno o varios mensajes pertinentes enviados previamente por otras partes o por la misma parte que emite este mensaje.||.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificación inequívoca del mensaje original al que se refiere el mensaje."
+    },
+    "MessageNameIdentification": {
+      "definition": "Especifica el identificador del nombre del mensaje original al que se refiere el mensaje."
+    },
+    "OriginatorName": {
+      "definition": "Nombre de la parte original que asignó la identificación del mensaje original."
+    }
+  }
+}

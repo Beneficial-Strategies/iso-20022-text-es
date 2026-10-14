@@ -1,0 +1,66 @@
+{
+  "isoType": "InterestComputationMethod2Code",
+  "definition": "Especifica el método utilizado para calcular el interés devengado de un instrumento financiero.",
+  "isoCodes": {
+    "A001": {
+      "name": "30/360 ISDA o regla básica estadounidense 30/360",
+      "definition": "Método por el cual el interés se calcula sobre la base de un mes de 30 días y un año de 360 días. El interés devengado hasta una fecha valor que sea el último día de un mes será el mismo que hasta el día natural 30 del mismo mes, excepto en febrero, y siempre que el período de interés haya comenzado un día 30 o 31. Esto significa que se asume que un día 31 es un día 30 si el período comenzó un día 30 o 31, y que el 28 de febrero (o el 29 de febrero en un año bisiesto) se asume que es el día 28 (o 29). Es el método 30/360 más utilizado para bonos US simples y convertibles."
+    },
+    "A002": {
+      "name": "30/365",
+      "definition": "Método por el cual el interés se calcula sobre la base de un mes de 30 días de forma similar al 30/360 (regla básica) y un año de 365 días. El interés devengado hasta una fecha valor que sea el último día de un mes será el mismo que hasta el día natural 30 del mismo mes, excepto en febrero. Esto significa que se asume que un día 31 es un día 30 y que el 28 de febrero (o el 29 de febrero en un año bisiesto) se asume que es el día 28 (o 29)."
+    },
+    "A003": {
+      "name": "30/Real",
+      "definition": "Método por el cual el interés se calcula sobre la base de un mes de 30 días de forma similar al 30/360 (regla básica) y el número de días asumido en un año de forma similar al Actual/Actual (ICMA). El interés devengado hasta una fecha valor que sea el último día de un mes será el mismo que hasta el día natural 30 del mismo mes, excepto en febrero. Esto significa que se asume que el día 31 es el día 30 y que el 28 de febrero (o el 29 de febrero en un año bisiesto) se asume que es el día 28 (o 29). El número de días asumido en un año se calcula como el número real de días del período del cupón multiplicado por el número de pagos de intereses en el año."
+    },
+    "A004": {
+      "name": "Real/360",
+      "definition": "Método por el cual el interés se calcula sobre la base del número real de días devengados en el período de interés y un año de 360 días."
+    },
+    "A005": {
+      "name": "Real/365 fijo",
+      "definition": "Método por el cual el interés se calcula sobre la base del número real de días devengados en el período de interés y un año de 365 días."
+    },
+    "A006": {
+      "name": "Real/Real ICMA",
+      "definition": "Método por el cual el interés se calcula sobre la base del número real de días devengados y el número de días asumido en un año, es decir, el número real de días del período del cupón multiplicado por el número de pagos de intereses en el año. Si el período del cupón es irregular (primer o último cupón), se amplía o se divide en cuasi-períodos de interés que tienen la duración de un período de cupón regular, y el cálculo se realiza por separado en cada cuasi-período de interés y los resultados intermedios se suman."
+    },
+    "A007": {
+      "name": "30E/360 o base eurobono, modelo 1",
+      "definition": "Método por el cual el interés se calcula sobre la base de un mes de 30 días y un año de 360 días. El interés devengado hasta una fecha valor que sea el último día de un mes será el mismo que hasta el día natural 30 del mismo mes. Esto significa que se asume que el día 31 es el día 30 y que el 28 de febrero (o el 29 de febrero en un año bisiesto) se asume que equivale al 30 de febrero. No obstante, si el último día del período del cupón de vencimiento es el último día de febrero, no se asumirá que es el día 30. Es una variante del método 30/360 (ICMA) utilizada habitualmente para eurobonos. El uso de esta variante solo es pertinente cuando los períodos de cupón están programados para terminar el último día del mes."
+    },
+    "A008": {
+      "name": "Real/Real ISDA",
+      "definition": "Método por el cual el interés se calcula sobre la base del número real de días devengados del período de interés que caen (en un año normal) dividido entre 365, sumado al número real de días del período de interés que caen (en un año bisiesto) dividido entre 366."
+    },
+    "A009": {
+      "name": "Real/365L o regla de base Real/Real",
+      "definition": "Método por el cual el interés se calcula sobre la base del número real de días devengados y un año de 365 días (si la fecha de pago del cupón NO está en un año bisiesto) o un año de 366 días (si la fecha de pago del cupón está en un año bisiesto)."
+    },
+    "A010": {
+      "name": "Real/Real AFB",
+      "definition": "Método por el cual el interés se calcula sobre la base del número real de días devengados y un año de 366 días (si el 29 de febrero cae en el período del cupón) o un año de 365 días (si el 29 de febrero no cae en el período del cupón). Si un período de cupón es superior a un año, se divide separando repetidamente subperíodos de año completo contando hacia atrás desde el final del período del cupón (un año hacia atrás desde el 28 de febrero es el 29 de febrero, si existe). El primero de los subperíodos comienza en la fecha de inicio del período de interés devengado y, por tanto, puede ser más corto que un año. A continuación, el cálculo del interés se realiza por separado en cada subperíodo y los resultados intermedios se suman."
+    },
+    "A011": {
+      "name": "30/360 ICMA o regla básica 30/360",
+      "definition": "Método por el cual el interés se calcula sobre la base de un mes de 30 días y un año de 360 días. El interés devengado hasta una fecha valor que sea el último día de un mes será el mismo que hasta el día natural 30 del mismo mes, excepto en febrero. Esto significa que se asume que el día 31 es el día 30 y que el 28 de febrero (o el 29 de febrero en un año bisiesto) se asume que es el día 28 (o 29). Es el método 30/360 más utilizado para bonos simples y convertibles no US emitidos antes del 1 de enero de 1999."
+    },
+    "A012": {
+      "name": "30E2/360 o base eurobono, modelo 2",
+      "definition": "Método por el cual el interés se calcula sobre la base de un mes de 30 días y un año de 360 días. El interés devengado hasta una fecha valor que sea el último día de un mes será el mismo que hasta el día natural 30 del mismo mes, excepto en el último día de febrero, cuyo valor de día del mes se adaptará al valor del primer día del período de interés si este es superior y si el período forma parte de un calendario regular. Esto significa que se asume que el día 31 es el día 30 y que el 28 de febrero de un año no bisiesto equivale al 29 de febrero cuando el primer día del período de interés es el día 29, o al 30 de febrero cuando el primer día del período de interés es el día 30 o 31. Se asume que el día 29 de febrero de un año bisiesto equivale al 30 de febrero cuando el primer día del período de interés es el día 30 o 31. Del mismo modo, si el período del cupón comienza el último día de febrero, se asume que produce un solo día de interés en febrero, como si comenzara el 30 de febrero, cuando el final del período es el día 30 o 31, o dos días de interés en febrero cuando el final del período es el día 29, o tres días de interés en febrero cuando es el 28 de febrero de un año no bisiesto y el final del período es anterior al día 29."
+    },
+    "A013": {
+      "name": "30E3/360 o base eurobono, modelo 3",
+      "definition": "Método por el cual el interés se calcula sobre la base de un mes de 30 días y un año de 360 días. El interés devengado hasta una fecha valor que sea el último día de un mes será el mismo que hasta el día natural 30 del mismo mes. Esto significa que se asume que el día 31 es el día 30 y que el 28 de febrero (o el 29 de febrero en un año bisiesto) se asume que equivale al 30 de febrero. Es una variante del método 30E/360 (o base eurobono) en la que se asume siempre que el último día de febrero es el día 30, incluso si es el último día del período del cupón de vencimiento."
+    },
+    "A014": {
+      "name": "Real/365 NL",
+      "definition": "Método por el cual el interés se calcula sobre la base del número real de días devengados en el período de interés, excluyendo del recuento cualquier día bisiesto, y un año de 365 días."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "Método distinto de A001-A020. Véase Narrative."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingTypeClassification2Choice",
+  "definition": "Elección de la clasificación del tipo de junta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de junta expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de junta expresado como código propio."
+    }
+  }
+}

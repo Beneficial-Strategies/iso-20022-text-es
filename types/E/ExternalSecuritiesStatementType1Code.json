@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalSecuritiesStatementType1Code",
+  "definition": "Especifica si el extracto es un extracto contable o de custodia.|La lista de códigos válidos es un conjunto de códigos externo que se publica por separado.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "RGAD": {
+      "name": "Nombres y dirección del titular registrado",
+      "definition": "El extracto es un extracto de nombre(s) y dirección del titular registrado."
+    },
+    "SRNR": {
+      "name": "Número de referencia del titular de valores y registro",
+      "definition": "El extracto es un extracto de número de referencia del titular de valores y registro."
+    }
+  }
+}

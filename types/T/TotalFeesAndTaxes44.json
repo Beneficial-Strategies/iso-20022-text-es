@@ -1,0 +1,35 @@
+{
+  "isoType": "TotalFeesAndTaxes44",
+  "definition": "Importe de dinero asociado a un servicio.",
+  "isoElements": {
+    "TotalOverheadApplied": {
+      "definition": "Importe total de costes generales aplicados a la operación que afecta al importe de liquidación."
+    },
+    "TotalFees": {
+      "definition": "Importe total de comisiones (gastos/comisiones) aplicadas a la operación que afecta al importe de liquidación."
+    },
+    "TotalTaxes": {
+      "definition": "Importe total de impuestos aplicados a la operación que afecta al importe de liquidación."
+    },
+    "CommercialAgreementReference": {
+      "definition": "Referencia al acuerdo establecido entre el fondo y otra parte. Este elemento define, entre otras cosas, las condiciones de las comisiones."
+    },
+    "IndividualFee": {
+      "definition": "Comisión (gasto/comisión) individual."
+    },
+    "IndividualTax": {
+      "definition": "Impuesto individual."
+    },
+    "DigitalNetworkFee": {
+      "definition": "Comisión de red digital asignada a una operación."
+    }
+  },
+  "isoRules": {
+    "NonStandardSLAReferenceRule": {
+      "definition": "Para cada valor de IndividualFee/Type, NonStandardSLAReference solo puede estar presente una vez."
+    },
+    "TransactionOverheadElementRule": {
+      "definition": "Debe estar presente uno de los elementos (TotalOverheadApplied, TotalFees, TotalTaxes, CommercialAgreementReference, IndividualFee, IndividualTax)."
+    }
+  }
+}

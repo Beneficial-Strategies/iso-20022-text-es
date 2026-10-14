@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredMandateDocument2",
+  "definition": "Identifica los documentos a los que se hace referencia en la información de remesa.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de documento referenciado."
+    },
+    "Number": {
+      "definition": "Identificación única e inequívoca del documento referenciado."
+    },
+    "CreditorReference": {
+      "definition": "Identificación única e inequívoca asignada por el beneficiario al documento referido compartido con el ordenante, para su propia referencia."
+    },
+    "RelatedDate": {
+      "definition": "Fecha y tipo asociados al documento referenciado."
+    }
+  }
+}

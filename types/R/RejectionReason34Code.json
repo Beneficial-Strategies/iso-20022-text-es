@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason34Code",
+  "definition": "Especifica el motivo por el que la instrucción o solicitud de cancelación tiene un estado rechazado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "CASH": {
+      "name": "Cuenta de efectivo",
+      "definition": "Cuenta de efectivo no reconocida o no válida."
+    },
+    "NRGM": {
+      "name": "Sin coincidencia",
+      "definition": "Más de una instrucción cumple los criterios."
+    },
+    "NRGN": {
+      "name": "Rechazo por no encontrado",
+      "definition": "No se pudo encontrar la instrucción."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "REFE": {
+      "name": "Rechazo por referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida previamente."
+    }
+  }
+}

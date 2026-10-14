@@ -1,0 +1,42 @@
+{
+  "isoType": "SecuritiesBalanceType7Code",
+  "definition": "Especifica la naturaleza del saldo de valores o de fondos de inversión.",
+  "isoCodes": {
+    "COLA": {
+      "name": "Admisible como garantía",
+      "definition": "Saldo de valores admisibles para su uso como garantía."
+    },
+    "OTHR": {
+      "name": "Sin clasificar",
+      "definition": "Otro. Véase Narrative."
+    },
+    "CLEN": {
+      "name": "Exento de impuestos",
+      "definition": "Los instrumentos financieros exentos de impuestos deben liquidarse."
+    },
+    "DIRT": {
+      "name": "No exento de impuestos",
+      "definition": "Los instrumentos financieros sujetos a impuestos deben liquidarse."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de instrumentos financieros que están registrados (a nombre de un titular interpuesto o del titular real)."
+    },
+    "SPOS": {
+      "name": "Posición a nombre de intermediario",
+      "definition": "Saldo de instrumentos financieros que siguen registrados a nombre del titular real anterior."
+    },
+    "UNRG": {
+      "name": "No registrado",
+      "definition": "Saldo de valores que no pudieron registrarse debido a una limitación de propiedad extranjera."
+    },
+    "ISSU": {
+      "name": "Emitido",
+      "definition": "En la comunicación entre agente emisor y depositario, saldo de instrumentos financieros emitidos para los que se ha recibido la documentación legal."
+    },
+    "QUAS": {
+      "name": "Cuasiemitido",
+      "definition": "En la comunicación entre agente emisor y depositario, saldo de instrumentos financieros emitidos para los que aún no se ha recibido la documentación legal."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestmentFundTransactionInType1Code",
+  "definition": "Especifica el tipo de operación de fondo de inversión que da lugar a un movimiento de efectivo hacia un fondo.",
+  "isoCodes": {
+    "SUBS": {
+      "name": "Suscripción",
+      "definition": "La operación es una suscripción a un fondo de inversión."
+    },
+    "SWII": {
+      "name": "Traspaso de entrada",
+      "definition": "La operación es el tramo de suscripción de la ejecución de una orden de traspaso."
+    },
+    "INSP": {
+      "name": "En especie",
+      "definition": "La operación es una entrega en especie (InSpecie)."
+    },
+    "CROI": {
+      "name": "Entrada cruzada",
+      "definition": "La operación es un cruce de entrada."
+    },
+    "RDIV": {
+      "name": "Reinversión de dividendo",
+      "definition": "La operación es una reinversión de dividendos."
+    }
+  }
+}

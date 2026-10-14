@@ -1,0 +1,9 @@
+{
+  "isoType": "IntraBalanceMovementInstructionV02",
+  "definition": "El mensaje IntraBalanceMovementInstruction lo envía un titular de cuenta o solicitante a una infraestructura de liquidación para ordenar el movimiento de un importe de dinero, dentro de sus posiciones, de un subsaldo a otro.||Uso: |El mensaje puede utilizarse para:|- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es «Duplicate»)|- proporcionar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «Copy»)|- reenviar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «CopyDuplicate»).",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    }
+  }
+}

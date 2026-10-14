@@ -1,0 +1,38 @@
+{
+  "isoType": "AccountReport36",
+  "definition": "Informa a una empresa de la configuración real de la cuenta, los servicios relacionados y los mandatos.",
+  "isoElements": {
+    "Account": {
+      "definition": "Características de la cuenta."
+    },
+    "UnderlyingMasterAgreement": {
+      "definition": "Contrato de cuenta establecido entre la organización, o el grupo al que pertenece la organización, y el administrador de la cuenta. Este contrato debe solicitarse para que la nueva cuenta pueda abrirse y mantenerse."
+    },
+    "ContractDates": {
+      "definition": "Especifica las fechas objetivo y reales."
+    },
+    "Mandate": {
+      "definition": "Información que especifica el mandato de la cuenta."
+    },
+    "Group": {
+      "definition": "Definición de un grupo de partes."
+    },
+    "ReferenceAccount": {
+      "definition": "Identificación única e inequívoca de la cuenta utilizada como referencia para la apertura de otra cuenta."
+    },
+    "BalanceTransferAccount": {
+      "definition": "Identificación única e inequívoca de la cuenta a la que debe transferirse el saldo."
+    },
+    "TransferAccountServicerIdentification": {
+      "definition": "Identificación del administrador de la cuenta de transferencia."
+    }
+  },
+  "isoRules": {
+    "ContractDates1Rule": {
+      "definition": "ContractDates/TargetGoLiveDate y ContractDates/GoLiveDate no deberían utilizarse como parte de un proceso de cierre de cuenta."
+    },
+    "ContractDates2Rule": {
+      "definition": "ContractDates/ClosingDate no debería utilizarse como parte de un proceso de apertura y mantenimiento de cuenta."
+    }
+  }
+}

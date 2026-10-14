@@ -1,0 +1,12 @@
+{
+  "isoType": "Reporting7Choice",
+  "definition": "Elección de formato para el tipo de notificación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Información de notificación a terceros expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Información de notificación a terceros expresada como código propietario."
+    }
+  }
+}

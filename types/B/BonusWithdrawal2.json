@@ -1,0 +1,27 @@
+{
+  "isoType": "BonusWithdrawal2",
+  "definition": "Información sobre una bonificación abonada o una retirada.",
+  "isoElements": {
+    "TypeOfAmount": {
+      "definition": "Especifica si el importe es el resultado de una bonificación abonada, una retirada u otro tipo de importe."
+    },
+    "Amount": {
+      "definition": "Importe de la bonificación abonada o del importe reclamado. Por ejemplo, un importe reclamado para una cuenta de ahorro individual de por vida (LISA) o una bonificación del Estado abonada."
+    },
+    "Reason": {
+      "definition": "Motivo del importe de la bonificación abonada al producto de inversión o del importe retirado de este."
+    },
+    "UnclaimedAmount": {
+      "definition": "Importe de una bonificación no reclamada o de una retirada no reclamada."
+    },
+    "Outstanding": {
+      "definition": "Indica si existe un importe pendiente de bonificación o de retirada."
+    },
+    "Reference": {
+      "definition": "Identificación de la retirada o de la bonificación."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre los fondos abonados o retirados."
+    }
+  }
+}

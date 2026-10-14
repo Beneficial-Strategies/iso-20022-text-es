@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType35Choice",
+  "definition": "Elección entre un código y/o un esquema de fuente de datos para determinar el tipo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo expresado como un código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo expresado como un código propio (propietario)."
+    }
+  }
+}

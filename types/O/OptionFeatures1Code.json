@@ -1,0 +1,38 @@
+{
+  "isoType": "OptionFeatures1Code",
+  "definition": "Especifica la característica de una opción.",
+  "isoCodes": {
+    "COND": {
+      "name": "Condicional",
+      "definition": "Característica por la que el titular puede condicionar la aceptación de la opción."
+    },
+    "MAXC": {
+      "name": "Efectivo máximo",
+      "definition": "Opción de efectivo máximo, que puede estar sujeta a escalonamiento, por lo que puede recibirse una combinación de efectivo y valores como resultado."
+    },
+    "MAXS": {
+      "name": "Valores máximos",
+      "definition": "Opción de acciones máxima, que puede estar sujeta a escalonamiento, por lo que puede recibirse una combinación de valores y efectivo como resultado."
+    },
+    "OPLF": {
+      "name": "Preferencia de lote impar",
+      "definition": "Oferta o canje con preferencia para lotes irregulares."
+    },
+    "PROR": {
+      "name": "Prorrateo",
+      "definition": "Característica por la que la opción puede estar sujeta a prorrateo en caso, por ejemplo, de exceso de suscripción."
+    },
+    "QOVE": {
+      "name": "Por encima",
+      "definition": "Característica por la que el titular puede elegir una cantidad a recibir por encima del derecho normal garantizado."
+    },
+    "QREC": {
+      "name": "Cantidad a recibir",
+      "definition": "Característica por la que el titular puede elegir una cantidad a recibir."
+    },
+    "VVPR": {
+      "name": "Retención reducida",
+      "definition": "Se aplica a la opción una tasa reducida de retención fiscal."
+    }
+  }
+}

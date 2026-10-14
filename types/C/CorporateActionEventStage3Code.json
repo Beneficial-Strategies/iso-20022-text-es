@@ -1,0 +1,46 @@
+{
+  "isoType": "CorporateActionEventStage3Code",
+  "definition": "Especifica la fase del evento de CA.",
+  "isoCodes": {
+    "APPD": {
+      "name": "Aprobado",
+      "definition": "Aprobado en la junta correspondiente, por ejemplo, dividendo."
+    },
+    "CLDE": {
+      "name": "Desactivado",
+      "definition": "La oferta está cerrada a la aceptación."
+    },
+    "FULL": {
+      "name": "Cancelación y reejecución",
+      "definition": "Cancelación y repetición de un sorteo original o de un sorteo original y complementario. Un sorteo posterior se realizará en un nuevo evento."
+    },
+    "LAPS": {
+      "name": "Caducado",
+      "definition": "Las condiciones del evento/oferta no se han cumplido y el evento/oferta finaliza o caduca."
+    },
+    "PART": {
+      "name": "Cancelación y reejecución complementarias",
+      "definition": "Cancelación y repetición únicamente de un sorteo suplementario. Se realizará un nuevo sorteo suplementario posterior en el marco del evento original."
+    },
+    "PWAL": {
+      "name": "Período de actuación",
+      "definition": "Abierto a aceptación hasta el siguiente plazo especificado en el anuncio (si lo hay)."
+    },
+    "RESC": {
+      "name": "Cancelación complementaria",
+      "definition": "El emisor cancela un sorteo suplementario. No se realizará ningún sorteo posterior."
+    },
+    "SUAP": {
+      "name": "Sujeto a aprobación",
+      "definition": "Sujeto a la aprobación en la junta correspondiente, por ejemplo, dividendo."
+    },
+    "UNAC": {
+      "name": "Incondicional en cuanto a la aceptación",
+      "definition": "Se ha alcanzado el nivel de aceptaciones requerido especificado en los términos de la oferta, pero aún quedan condiciones pendientes de cumplir."
+    },
+    "WHOU": {
+      "name": "Totalmente incondicional",
+      "definition": "Totalmente incondicional; se han cumplido todas las condiciones especificadas en el documento de la oferta."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestBalanceTransferV06",
+  "definition": "El mensaje AccountSwitchRequestBalanceTransfer es enviado por la entidad gestora de la cuenta nueva a la entidad gestora que mantenía previamente la cuenta para solicitar la transferencia del saldo final. Puede dirigirse a la cuenta nueva o a una cuenta alternativa designada por la entidad gestora de la cuenta nueva."
+}

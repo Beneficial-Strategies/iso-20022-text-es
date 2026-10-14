@@ -1,0 +1,9 @@
+{
+  "isoType": "SecuritiesFinancingStatusAdviceV11",
+  "definition": "Alcance|Un administrador de la cuenta de operaciones de financiación con valores envía un SecuritiesFinancingStatusAdvice a un titular de la cuenta para notificar el estado de una operación de financiación con valores instruida previamente por el titular de la cuenta.|El aviso de estado puede enviarse como respuesta a una solicitud del titular de la cuenta o sin ella.|La relación entre el administrador de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que gestione operaciones de financiación con valores en nombre de sus participantes|- un agente (subcustodio) que gestione operaciones de financiación con valores en nombre de su cliente custodio global, o|- un custodio que gestione operaciones de financiación con valores en nombre de una entidad de gestión de inversiones o de un intermediario/operador (broker/dealer).||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoRules": {
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Si SettlementStatus está presente por sí solo, significa que la operación está casada (si existe un proceso de casación en el mercado correspondiente o en el administrador de la cuenta correspondiente)."
+    }
+  }
+}

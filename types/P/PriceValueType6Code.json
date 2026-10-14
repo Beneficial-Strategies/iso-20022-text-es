@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceValueType6Code",
+  "definition": "Especifica el valor de un precio.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "El precio es desconocido para el remitente o no se ha establecido."
+    },
+    "OPEN": {
+      "name": "Sin fecha de vencimiento",
+      "definition": "El precio no se ha establecido."
+    },
+    "UNSP": {
+      "name": "No especificado",
+      "definition": "El titular de la cuenta no está obligado a especificar el precio."
+    },
+    "TBSP": {
+      "name": "Por especificar",
+      "definition": "Precio que debe especificar el titular de la cuenta."
+    }
+  }
+}

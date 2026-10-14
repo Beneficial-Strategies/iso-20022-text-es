@@ -1,0 +1,15 @@
+{
+  "isoType": "MatchingStatus26Choice",
+  "definition": "Elección del formato para la situación de casamiento.",
+  "isoElements": {
+    "Matched": {
+      "definition": "La situación es casada."
+    },
+    "Unmatched": {
+      "definition": "La situación es no casada."
+    },
+    "Proprietary": {
+      "definition": "Estado propietario."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "TypeOfIdentification1Code",
+  "definition": "Especifica el tipo de identificación alternativa que puede utilizarse para dar una identificación alternativa de la parte identificada.",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Número de registro de extranjero",
+      "definition": "Número asignado por un organismo gubernamental para identificar a nacionales extranjeros."
+    },
+    "CCPT": {
+      "name": "Número de pasaporte",
+      "definition": "Número asignado por una autoridad de pasaportes."
+    },
+    "CHTY": {
+      "name": "Número de identificación de exención fiscal",
+      "definition": "Número asignado a una entidad exenta de impuestos."
+    },
+    "CORP": {
+      "name": "Identificación de la sociedad",
+      "definition": "Número asignado a una entidad corporativa."
+    },
+    "DRLC": {
+      "name": "Número de permiso de conducir",
+      "definition": "Número asignado a un permiso de conducir."
+    },
+    "FIIN": {
+      "name": "Número de identidad de inversión extranjera",
+      "definition": "Número asignado a un inversor extranjero (distinto del número de extranjero)."
+    },
+    "TXID": {
+      "name": "Número de identificación fiscal",
+      "definition": "Número asignado por una autoridad tributaria a una entidad."
+    }
+  }
+}

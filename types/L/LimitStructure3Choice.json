@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitStructure3Choice",
+  "definition": "Detalles de uno o varios límites fijados por el miembro y gestionados por el administrador de operaciones.",
+  "isoElements": {
+    "CurrentLimitIdentification": {
+      "definition": "Identificación del límite vigente."
+    },
+    "AllCurrentLimits": {
+      "definition": "Identificación del límite vigente."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "NumberAndSumOfTransactions2",
+  "definition": "Conjunto de elementos que proporcionan la suma total de los apuntes.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Número de apuntes individuales incluidos en el informe."
+    },
+    "Sum": {
+      "definition": "Total de todos los apuntes individuales incluidos en el informe."
+    },
+    "TotalNetEntryAmount": {
+      "definition": "Importe resultante de la compensación de los importes de todos los apuntes de débito y de crédito."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe neto total de los apuntes es un importe de crédito o de débito."
+    }
+  },
+  "isoRules": {
+    "DebitCreditIndicatorGuideline": {
+      "definition": "DebitCreditIndicator debe estar presente cuando TotalNetEntryAmount está presente."
+    }
+  }
+}

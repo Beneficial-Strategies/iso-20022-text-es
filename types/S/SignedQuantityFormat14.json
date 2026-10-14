@@ -1,0 +1,12 @@
+{
+  "isoType": "SignedQuantityFormat14",
+  "definition": "Cantidad con signo de un valor para diversos formatos de cantidad.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Signo de la cantidad de valores."
+    },
+    "Quantity": {
+      "definition": "Cantidad de valores."
+    }
+  }
+}

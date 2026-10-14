@@ -1,0 +1,77 @@
+{
+  "isoType": "TaxVoucher1",
+  "definition": "Proporciona información sobre el comprobante fiscal.",
+  "isoElements": {
+    "TaxVoucherRate": {
+      "definition": "Tasa de distribución por acción."
+    },
+    "TaxCredit": {
+      "definition": "Importe del impuesto que se ha pagado previamente."
+    },
+    "TaxDeduction": {
+      "definition": "Importe del impuesto que se ha deducido previamente."
+    },
+    "GrossAmount": {
+      "definition": "Importe en efectivo antes de efectuar cualquier deducción y desgravación."
+    },
+    "NetAmount": {
+      "definition": "Importe en efectivo después de efectuar cualquier deducción y desgravación."
+    },
+    "RecordDateHolding": {
+      "definition": "Tenencia de valores en la fecha de registro."
+    },
+    "TaxCreditRate": {
+      "definition": "Tipo impositivo aplicable al importe del crédito fiscal."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Importe en efectivo que retendrá una autoridad fiscal."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Tasa de una distribución en efectivo que retendrá una autoridad fiscal."
+    },
+    "ScripDividendReinvestmentPricePerShare": {
+      "definition": "Costo por acción de las nuevas acciones asignadas."
+    },
+    "CashAmountBroughtForward": {
+      "definition": "Importe en efectivo retenido de un pago anterior de dividendos o intereses."
+    },
+    "AllotedSharesCost": {
+      "definition": "Importe total en efectivo necesario para comprar las acciones asignadas."
+    },
+    "CashAmountCarriedForward": {
+      "definition": "Importe en efectivo trasladado al siguiente pago de dividendos o intereses."
+    },
+    "NotionalTax": {
+      "definition": "Cuando se emiten nuevos valores en lugar de un dividendo en efectivo, el impuesto nocional es el impuesto sobre el importe en efectivo que se habría pagado. Solo para scrips."
+    },
+    "NotionalDividendPayable": {
+      "definition": "Importe en efectivo que habría sido pagadero si el dividendo se hubiera percibido en efectivo en lugar de en acciones. Solo para scrip."
+    },
+    "BargainDate": {
+      "definition": "Fecha en la que se completó la compra DRIP."
+    },
+    "BargainSettlementDate": {
+      "definition": "Fecha de liquidación de la operación de compra DRIP."
+    },
+    "StampDutyAmount": {
+      "definition": "Importe del impuesto de timbre."
+    },
+    "ChargeAmount": {
+      "definition": "Importe de las comisiones/cargos aplicados al cliente."
+    },
+    "CommissionAmount": {
+      "definition": "Importe adeudado al agente pagador."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Proporciona información sobre la operación de cambio de divisas."
+    }
+  },
+  "isoRules": {
+    "TaxCreditOrTaxDeductionRule": {
+      "definition": "Debe estar presente TaxCredit o TaxDeduction."
+    },
+    "TaxCreditOrTaxDeductionRuleNotBoth": {
+      "definition": "Debe estar presente TaxCredit o TaxDeduction."
+    }
+  }
+}

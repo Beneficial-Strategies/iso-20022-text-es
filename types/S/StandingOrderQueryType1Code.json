@@ -1,0 +1,26 @@
+{
+  "isoType": "StandingOrderQueryType1Code",
+  "definition": "Define el tipo de consulta para las consultas de órdenes permanentes, que identifica los atributos clave predefinidos esperados en la respuesta a la consulta.",
+  "isoCodes": {
+    "SLST": {
+      "name": "Lista de órdenes permanentes",
+      "definition": "Se utiliza para consultar la lista de órdenes permanentes de transferencia de liquidez definidas en el sistema."
+    },
+    "SDTL": {
+      "name": "Detalle de órdenes permanentes",
+      "definition": "Se utiliza para consultar una orden permanente de transferencia de liquidez concreta a partir de un conjunto de criterios de búsqueda."
+    },
+    "TAPS": {
+      "name": "Importe total por orden permanente",
+      "definition": "Se utiliza para consultar los importes totales de las órdenes permanentes de transferencia de liquidez predefinidas y definidas por el usuario, tanto definidas como aún no ejecutadas."
+    },
+    "SLSL": {
+      "name": "Lista de conjuntos de vínculos de órdenes permanentes",
+      "definition": "Se utiliza para consultar la lista de órdenes permanentes de transferencia de liquidez definidas en un conjunto vinculado específico de órdenes permanentes secuenciadas. El conjunto vinculado es una colección de órdenes permanentes definidas en una secuencia determinada."
+    },
+    "SWLS": {
+      "name": "Detalle de órdenes permanentes dentro del conjunto de vínculos",
+      "definition": "Se utiliza para consultar una orden permanente concreta dentro de un conjunto vinculado de órdenes permanentes de transferencia de liquidez secuenciadas. El conjunto vinculado es una colección de órdenes permanentes definidas en una secuencia determinada."
+    }
+  }
+}

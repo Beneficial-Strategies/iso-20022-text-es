@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason14Choice",
+  "definition": "Elección del formato del motivo de denegación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que se denegó la solicitud."
+    },
+    "Proprietary": {
+      "definition": "Especifica el motivo por el que se denegó la solicitud."
+    }
+  }
+}

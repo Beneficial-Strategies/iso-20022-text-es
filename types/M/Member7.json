@@ -1,0 +1,27 @@
+{
+  "isoType": "Member7",
+  "definition": "Información sobre los miembros de un sistema.",
+  "isoElements": {
+    "Name": {
+      "definition": "Palabra por la que se llama o se conoce algo, o el apellido de una persona."
+    },
+    "ReturnAddress": {
+      "definition": "Dirección física o lógica perteneciente a un miembro, separada de su dirección principal utilizada para las operaciones normales. La dirección de devolución de fondos se utiliza para encaminar mensajes que requieren atención específica o tratamiento de excepciones, por ejemplo, devoluciones o rechazos."
+    },
+    "Account": {
+      "definition": "Cuenta a la que o desde la que se efectúa un apunte de efectivo."
+    },
+    "Type": {
+      "definition": "Naturaleza de la relación que un miembro mantiene con un sistema."
+    },
+    "Status": {
+      "definition": "Estado de un miembro en un sistema, por ejemplo habilitado o eliminado."
+    },
+    "ContactReference": {
+      "definition": "Persona de contacto en una organización determinada."
+    },
+    "CommunicationAddress": {
+      "definition": "Número o dirección virtual utilizados para la comunicación."
+    }
+  }
+}

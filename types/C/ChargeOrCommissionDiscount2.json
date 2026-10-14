@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount2",
+  "definition": "Descuentos o renuncias a gastos y comisiones.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe del descuento o renuncia."
+    },
+    "Rate": {
+      "definition": "Tipo del descuento o renuncia."
+    },
+    "Basis": {
+      "definition": "Forma del descuento o bonificación."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis debe estar presente."
+    }
+  }
+}

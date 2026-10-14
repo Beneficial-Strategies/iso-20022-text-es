@@ -1,0 +1,10 @@
+{
+  "isoType": "PaymentMethod2Code",
+  "definition": "Especifica el método de transferencia que se utilizará para transferir el efectivo.",
+  "isoCodes": {
+    "DD": {
+      "name": "Adeudo directo",
+      "definition": "Cobro de un importe de dinero de la cuenta bancaria del ordenante por parte del beneficiario. El importe y las fechas de los cobros pueden variar."
+    }
+  }
+}

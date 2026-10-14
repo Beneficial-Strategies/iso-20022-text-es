@@ -1,0 +1,9 @@
+{
+  "isoType": "SimpleIdentificationInformation1",
+  "definition": "Información relacionada con una identificación, por ejemplo, la identificación de una parte o de una cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Nombre o número asignado por una entidad para permitir su reconocimiento, por ejemplo, un identificador de cuenta."
+    }
+  }
+}

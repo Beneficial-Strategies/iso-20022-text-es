@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateCancellation8",
+  "definition": "Identifica el mandato que se va a cancelar.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "definition": "Proporciona información sobre el mensaje original."
+    },
+    "CancellationReason": {
+      "definition": "Proporciona información detallada sobre el motivo de cancelación."
+    },
+    "OriginalMandate": {
+      "definition": "Proporciona los datos del mandato original."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

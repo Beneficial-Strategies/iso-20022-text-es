@@ -1,0 +1,20 @@
+{
+  "isoType": "AttendanceCard3",
+  "definition": "Especifica los detalles relativos a la tarjeta de asistencia.",
+  "isoElements": {
+    "AttendanceCardLabelling": {
+      "definition": "Información que debe indicarse en la tarjeta de asistencia."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica dónde debe entregarse la tarjeta de asistencia."
+    },
+    "OtherAddress": {
+      "definition": "Nombre y dirección de la parte."
+    }
+  },
+  "isoRules": {
+    "OtherAddressCode1Rule": {
+      "definition": "Si DeliveryMethod es OtherAddress \"OADR\", entonces OtherAddress debe estar presente."
+    }
+  }
+}

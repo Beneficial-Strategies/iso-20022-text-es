@@ -1,0 +1,14 @@
+{
+  "isoType": "ReversalCode",
+  "definition": "Especifica si una operación es el resultado de una operación de reversión.",
+  "isoCodes": {
+    "RVCD": {
+      "name": "Reversión de crédito",
+      "definition": "Apunte de débito utilizado para revertir un apunte de crédito contabilizado previamente."
+    },
+    "RVDB": {
+      "name": "Reversión de débito",
+      "definition": "Apunte de crédito utilizado para revertir un apunte de débito contabilizado previamente."
+    }
+  }
+}

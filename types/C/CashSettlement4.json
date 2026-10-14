@@ -1,0 +1,15 @@
+{
+  "isoType": "CashSettlement4",
+  "definition": "Partes y cuentas de liquidación en efectivo.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Especifica el tipo de modificación que se aplicará."
+    },
+    "CashAccountDetails": {
+      "definition": "Cuenta que se abonará o adeudará. Cuando se trata de una cuenta que se adeudará, es para el pago de una suscripción a un fondo de inversión, el pago de un plan de ahorro, la compra de valores o el pago de gastos. Cuando se trata de una cuenta que se abonará, es para el pago de un importe como resultado de un reembolso de participaciones de un fondo de inversión, la venta de valores, o el pago de intereses y dividendos. Puede especificarse una única cuenta para todos los movimientos de efectivo de la cuenta, o pueden especificarse cuentas de efectivo para tipos concretos de operaciones de la cuenta."
+    },
+    "OtherCashSettlementDetails": {
+      "definition": "Método de pago distinto de una cuenta de efectivo."
+    }
+  }
+}

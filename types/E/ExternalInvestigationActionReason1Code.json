@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationActionReason1Code",
+  "definition": "Especifica la acción solicitada, tal como se publica en un conjunto de códigos externo de acciones de investigación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "IRSI": {
+      "name": "Solicitud de investigación enviada por error",
+      "definition": "Se solicita el cierre porque la solicitud de investigación se envió por error."
+    },
+    "IRRR": {
+      "name": "Solicitud de investigación resuelta",
+      "definition": "Se solicita el cierre porque la solicitud de investigación ha sido resuelta por el solicitante."
+    },
+    "IRCD": {
+      "name": "Respuesta de investigación con compensación disputada",
+      "definition": "Se formula objeción porque el importe de compensación indicado en la respuesta de investigación parece incorrecto."
+    },
+    "IRIC": {
+      "name": "Respuesta de investigación incompleta",
+      "definition": "Se formula objeción porque los datos facilitados en la respuesta de investigación son insuficientes para atender la solicitud original."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "Véase el elemento AdditionalInformation para conocer el motivo de la acción."
+    }
+  }
+}

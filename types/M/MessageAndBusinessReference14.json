@@ -1,0 +1,50 @@
+{
+  "isoType": "MessageAndBusinessReference14",
+  "definition": "Información sobre la referencia del mensaje cuyo estado se solicita y la referencia comercial de la instrucción de transferencia.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referencia al mensaje o comunicación enviados previamente."
+    },
+    "TypeOfRequest": {
+      "definition": "Tipo de solicitud requerida."
+    },
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    },
+    "TransferReference": {
+      "definition": "Identificación única e inequívoca de la transferencia, asignada por la parte instructora."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de la transferencia por parte del inversor. Esta referencia suele poder utilizarse en un escenario de concentrador (hub) para indicar la referencia de la transferencia asignada por el cliente subyacente."
+    },
+    "CancellationReference": {
+      "definition": "Identificador único e inequívoco de una cancelación de transferencia, asignado por la parte instructora."
+    },
+    "Instrument": {
+      "definition": "Identificación del activo."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Información de la cuenta de inversión de la transferencia cuyo estado o información se solicita."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identificación de una parte relacionada o de un intermediario."
+    },
+    "QueryInformation": {
+      "definition": "Información sobre la consulta."
+    },
+    "RequestIssuer": {
+      "definition": "Parte que emite el mensaje de solicitud."
+    },
+    "RequestRecipient": {
+      "definition": "Parte que recibe el mensaje de solicitud."
+    }
+  },
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference debe utilizarse para hacer referencia a un «mensaje» de instrucción de transferencia o de solicitud de cancelación de transferencia enviado de forma propietaria o utilizado como referencia de un sistema. Si Reference/OtherReference está presente, Reference/OtherReference/MessageName debe contener «fax», «phone» o «email», etc."
+    },
+    "PreviousReferenceRule": {
+      "definition": "Si Reference/PreviousReference/MessageName está presente, debe comenzar por sese.001, sese.002, sese.005, sese.006, sese.012 o sese.014."
+    }
+  }
+}

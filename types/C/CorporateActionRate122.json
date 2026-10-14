@@ -1,0 +1,47 @@
+{
+  "isoType": "CorporateActionRate122",
+  "definition": "Especifica las tasas de una operación societaria.",
+  "isoElements": {
+    "InterestRate": {
+      "definition": "Tipo de interés anualizado de un instrumento financiero, utilizado para calcular el tipo de interés real del cupón o del interés devengado."
+    },
+    "PercentageSought": {
+      "definition": "Porcentaje de valores que el oferente/emisor comprará o reembolsará según las condiciones del evento."
+    },
+    "RelatedIndex": {
+      "definition": "Tasa de índice relacionada con el tipo de interés del próximo pago de intereses."
+    },
+    "Spread": {
+      "definition": "Margen permitido por encima o por debajo de una tasa determinada."
+    },
+    "BidInterval": {
+      "definition": "Incremento de precio aceptable utilizado para presentar una oferta."
+    },
+    "PreviousFactor": {
+      "definition": "Factor utilizado para calcular el valor del principal pendiente del instrumento financiero (para valores con factor) hasta la siguiente fecha de reembolso (factor)."
+    },
+    "NextFactor": {
+      "definition": "Factor utilizado para calcular el valor del principal pendiente del instrumento financiero (para valores con factor) que será aplicable después de la fecha de reembolso (factor)."
+    },
+    "ReinvestmentDiscountRateToMarket": {
+      "definition": "Tasa de descuento de los valores adquiridos mediante un plan de reinversión en comparación con el precio de mercado actual del valor."
+    },
+    "InterestShortfall": {
+      "definition": "Para emisiones de valores estructurados con un calendario fijo de pagos de principal e intereses durante la vida de la emisión, es la diferencia entre la tasa real del pago de intereses y la tasa esperada o programada del pago de intereses."
+    },
+    "RealisedLoss": {
+      "definition": "Para emisiones de valores estructurados con un calendario fijo de pagos de principal e intereses durante la vida de la emisión, es la diferencia entre la tasa real del reembolso de capital o principal y el reembolso de capital programado."
+    },
+    "DeclaredRate": {
+      "definition": "Tasa de dividendo o de interés declarada por el emisor."
+    },
+    "IndexFactor": {
+      "definition": "Tasa de índice público aplicada al importe pagado para ajustarlo a la inflación."
+    }
+  },
+  "isoRules": {
+    "DeclaredRateRule": {
+      "definition": "DeclaredRate solo puede utilizarse si el dividendo o el interés declarado por el emisor se paga realmente en una divisa distinta de la declarada, o si el evento de dividendo o de interés permite elegir entre varias opciones de divisa."
+    }
+  }
+}

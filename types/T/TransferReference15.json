@@ -1,0 +1,21 @@
+{
+  "isoType": "TransferReference15",
+  "definition": "Referencia de una transferencia y de una cancelación de transferencia.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Identificador único e inequívoco de la instrucción de transferencia para la que se envía la solicitud de cancelación, asignado por la parte instructora."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de la transferencia por parte del inversor. Esta referencia suele poder utilizarse en un escenario de concentrador (hub) para indicar la referencia de la transferencia asignada por el cliente subyacente."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificación inequívoca de la transferencia asignada por la contraparte."
+    },
+    "CancellationReference": {
+      "definition": "Identificador único e inequívoco de la cancelación de la transferencia, asignado por la parte instructora."
+    },
+    "CancellationReason": {
+      "definition": "Motivo de la cancelación."
+    }
+  }
+}

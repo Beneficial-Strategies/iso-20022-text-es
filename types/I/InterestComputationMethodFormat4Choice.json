@@ -1,0 +1,12 @@
+{
+  "isoType": "InterestComputationMethodFormat4Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de método de cálculo del interés.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el método utilizado para calcular el interés devengado de un instrumento financiero."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del formato del método de cálculo del interés."
+    }
+  }
+}

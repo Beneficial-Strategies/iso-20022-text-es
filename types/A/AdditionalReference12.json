@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalReference12",
+  "definition": "Referencia y emisor de la referencia.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referencia emitida por una parte para identificar una instrucción, una operación o un mensaje."
+    },
+    "ReferenceIssuer": {
+      "definition": "Emisor de la referencia."
+    },
+    "MessageName": {
+      "definition": "Nombre del mensaje."
+    }
+  }
+}

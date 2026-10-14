@@ -1,0 +1,15 @@
+{
+  "isoType": "SecurityParameters19",
+  "definition": "Parámetros de seguridad del host que descarga la clave.",
+  "isoElements": {
+    "HostChallenge": {
+      "definition": "Valor aleatorio del host."
+    },
+    "Key": {
+      "definition": "Clave criptográfica que se almacenará en el cajero automático (ATM)."
+    },
+    "SignatureChoice": {
+      "definition": "Elemento que contiene la firma."
+    }
+  }
+}

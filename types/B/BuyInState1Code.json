@@ -1,0 +1,18 @@
+{
+  "isoType": "BuyInState1Code",
+  "definition": "Especifica el estado de la operación de recompra forzosa (buy-in).",
+  "isoCodes": {
+    "BSSP": {
+      "name": "Parcialmente satisfactorio",
+      "definition": "La recompra forzosa (buy-in) se realizó con éxito parcial."
+    },
+    "BSSY": {
+      "name": "Correcta",
+      "definition": "La recompra forzosa (buy-in) se realizó con éxito."
+    },
+    "BSSN": {
+      "name": "No satisfactorio",
+      "definition": "La recompra forzosa (buy-in) no tuvo éxito."
+    }
+  }
+}

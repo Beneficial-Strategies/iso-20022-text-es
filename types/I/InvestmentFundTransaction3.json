@@ -1,0 +1,95 @@
+{
+  "isoType": "InvestmentFundTransaction3",
+  "definition": "Creación/cancelación de participaciones de inversión en los libros del fondo o de su agente designado, como resultado de la ejecución de una orden de fondo de inversión.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Tipo de operación de fondo de inversión."
+    },
+    "ExtendedTransactionType": {
+      "definition": "Tipo de operación de fondo de inversión."
+    },
+    "CorporateActionEventType": {
+      "definition": "Tipo de evento de operación societaria."
+    },
+    "ExtendedCorporateActionEventType": {
+      "definition": "Tipo de evento de operación societaria."
+    },
+    "BookingStatus": {
+      "definition": "Estado de una operación de fondo de inversión."
+    },
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de órdenes individuales, asignado por la parte instructora. Este identificador vincula entre sí las órdenes individuales."
+    },
+    "OrderReference": {
+      "definition": "Identificador único de una orden, asignado por la parte vendedora. El identificador debe ser único dentro de una misma jornada de negociación."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de una orden por parte del inversor. Esta referencia puede utilizarse normalmente en un escenario de concentrador (hub) para indicar la referencia de la orden asignada por el cliente subyacente."
+    },
+    "DealReference": {
+      "definition": "Identificador único e inequívoco de la ejecución de una orden, asignado por una parte confirmante."
+    },
+    "LegIdentification": {
+      "definition": "Identificador técnico único de una instancia de un tramo dentro de un canje (switch)."
+    },
+    "LegExecutionIdentification": {
+      "definition": "Identificador único de una instancia de la ejecución de un tramo dentro de una confirmación de canje (switch)."
+    },
+    "OrderDateTime": {
+      "definition": "Fecha y hora en que el inversor cursó la orden."
+    },
+    "SettledTransactionIndicator": {
+      "definition": "Indica si el pago en efectivo correspondiente a la orden ejecutada está liquidado."
+    },
+    "RegisteredTransactionIndicator": {
+      "definition": "Indica si la orden ejecutada tiene estado de registrada en los libros del agente de transferencias."
+    },
+    "UnitsQuantity": {
+      "definition": "Número de participaciones de fondos de inversión."
+    },
+    "CreditDebit": {
+      "definition": "Dirección de la operación comunicada, es decir, si se reciben valores (abono) o se entregan (adeudo)."
+    },
+    "Reversal": {
+      "definition": "La operación comunicada es una reversión de una operación comunicada previamente."
+    },
+    "SettlementAmount": {
+      "definition": "Importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la moneda indicada por la parte iniciadora."
+    },
+    "SettlementDate": {
+      "definition": "Fecha en la que el ordenante espera que el importe esté disponible para el beneficiario."
+    },
+    "TradeDateTime": {
+      "definition": "Fecha y hora en que se aplica un precio, de acuerdo con los términos indicados en el folleto."
+    },
+    "CumDividendIndicator": {
+      "definition": "Indica si el dividendo está incluido en el precio ejecutado, es decir, cum-dividendo. Cuando el dividendo no está incluido, el precio será ex-dividendo."
+    },
+    "PartiallyExecutedIndicator": {
+      "definition": "Indica si la orden se ha ejecutado parcialmente, es decir, si la cantidad confirmada no coincide con la cantidad ordenada para un instrumento financiero determinado."
+    },
+    "PriceDetails": {
+      "definition": "Precio al que se ejecutó la orden."
+    }
+  },
+  "isoRules": {
+    "TransactionTypeLegIdentificationRule": {
+      "definition": "Si TransactionType es SWII o SWIO, entonces LegIdentification es opcional. Si TransactionType no es ni SWII ni SWIO, entonces LegIdentification no está permitido."
+    },
+    "TransactionTypeLegExecutionIdentificationRule": {
+      "definition": "Si TransactionType es SWII o SWIO, entonces LegExecutionIdentification es opcional. Si TransactionType no es ni SWII ni SWIO, entonces LegExecutionIdentification no está permitido."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRule": {
+      "definition": "Debe estar presente TransactionType, ExtendedTransactionType, CorporateActionEventType o ExtendedCorporateActionEventType, pero no más de uno."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth": {
+      "definition": "Debe estar presente TransactionType, ExtendedTransactionType, CorporateActionEventType o ExtendedCorporateActionEventType, pero no más de uno."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth2": {
+      "definition": "Debe estar presente TransactionType, ExtendedTransactionType, CorporateActionEventType o ExtendedCorporateActionEventType, pero no más de uno."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth3": {
+      "definition": "Debe estar presente TransactionType, ExtendedTransactionType, CorporateActionEventType o ExtendedCorporateActionEventType, pero no más de uno."
+    }
+  }
+}

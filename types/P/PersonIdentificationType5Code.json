@@ -1,0 +1,54 @@
+{
+  "isoType": "PersonIdentificationType5Code",
+  "definition": "Especifica una identificación alternativa de una persona física, por ejemplo, número de identificación del registro nacional, número de pasaporte.",
+  "isoCodes": {
+    "AREG": {
+      "name": "Número de registro de extranjero",
+      "definition": "Número asignado por un organismo gubernamental para identificar a ciudadanos extranjeros."
+    },
+    "CPFA": {
+      "name": "Número de cuenta CPF",
+      "definition": "Cuenta emitida por el Central Provident Fund Board (Singapur)."
+    },
+    "DRLC": {
+      "name": "Número de permiso de conducir",
+      "definition": "Número asignado por una autoridad de licencias a un permiso de conducir."
+    },
+    "EMID": {
+      "name": "Número de identificación del empleador",
+      "definition": "Número asignado a un empleador por una autoridad de registro."
+    },
+    "IDCD": {
+      "name": "Número de documento de identidad",
+      "definition": "Número asignado por una autoridad nacional a un documento de identidad."
+    },
+    "NRIN": {
+      "name": "Número de identificación de registro nacional",
+      "definition": "Número de identificación del registro nacional. En Singapur se conoce como NRIC."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro tipo de identificación."
+    },
+    "PASS": {
+      "name": "Número de pasaporte",
+      "definition": "Número asignado por una autoridad de pasaportes a un pasaporte."
+    },
+    "POCD": {
+      "name": "Número de tarjeta de correos",
+      "definition": "Número de tarjeta de oficina de correos asignado por una oficina de correos nacional."
+    },
+    "SOCS": {
+      "name": "Número de la Seguridad Social",
+      "definition": "Número asignado por un organismo de seguridad social."
+    },
+    "SRSA": {
+      "name": "Número de cuenta SRS",
+      "definition": "Número de cuenta del plan complementario de jubilación (Supplementary Retirement Scheme)."
+    },
+    "GUNL": {
+      "name": "Número de licencia de armas",
+      "definition": "Número de licencia de armas asignado por una autoridad de licencias de armas."
+    }
+  }
+}

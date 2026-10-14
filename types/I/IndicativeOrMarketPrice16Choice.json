@@ -1,0 +1,12 @@
+{
+  "isoType": "IndicativeOrMarketPrice16Choice",
+  "definition": "Elección entre un precio indicativo o un precio de mercado.",
+  "isoElements": {
+    "IndicativePrice": {
+      "definition": "Precio estimado, por ejemplo, a efectos de valoración."
+    },
+    "MarketPrice": {
+      "definition": "Último precio comunicado o conocido de un instrumento financiero en un mercado."
+    }
+  }
+}

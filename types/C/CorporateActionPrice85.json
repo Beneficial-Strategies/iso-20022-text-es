@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionPrice85",
+  "definition": "Especifica diversos precios de una operación societaria.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Precio máximo o tope al que un titular puede pujar, por ejemplo, en una oferta de subasta holandesa."
+    },
+    "MinimumPrice": {
+      "definition": "Precio mínimo o suelo al que un titular puede pujar, por ejemplo, en una oferta de subasta holandesa."
+    },
+    "FirstBidIncrementPrice": {
+      "definition": "Primer precio aceptable tras el precio mínimo al que un titular puede pujar, por ejemplo, en una oferta de subasta holandesa."
+    },
+    "LastBidIncrementPrice": {
+      "definition": "Último precio aceptable antes del precio máximo al que un titular puede pujar, por ejemplo, en una oferta de subasta holandesa."
+    }
+  }
+}

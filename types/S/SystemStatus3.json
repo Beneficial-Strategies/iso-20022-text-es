@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemStatus3",
+  "definition": "Estado de un sistema y período de tiempo durante el cual el estado es válido.",
+  "isoElements": {
+    "Status": {
+      "definition": "Estado actual de un sistema."
+    },
+    "ValidityTime": {
+      "definition": "Período de tiempo durante el cual es válido el estado del sistema."
+    }
+  }
+}

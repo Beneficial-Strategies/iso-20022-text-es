@@ -1,0 +1,30 @@
+{
+  "isoType": "BalanceAdjustment1",
+  "definition": "Especifica los ajustes de saldo correspondientes a un servicio determinado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Identifica el tipo de ajuste."
+    },
+    "Description": {
+      "definition": "Descripción y aclaración de texto libre del ajuste."
+    },
+    "BalanceAmount": {
+      "definition": "Importe del ajuste. Si el importe redujera el saldo subyacente, debe indicarse con signo negativo. Expresado en la divisa de la cuenta."
+    },
+    "AverageAmount": {
+      "definition": "Importe neto del ajuste, ponderado por días, sobre el saldo medio cobrado durante el periodo del extracto."
+    },
+    "ErrorDate": {
+      "definition": "Fecha en que se produjo el error en la cuenta de efectivo subyacente."
+    },
+    "PostingDate": {
+      "definition": "Fecha en que se corrigió el error en la cuenta de efectivo. Si se desconoce la fecha, se utilizará el último día del mes en que se corrigió el error."
+    },
+    "Days": {
+      "definition": "Número de días del periodo a los que se aplica el ajuste."
+    },
+    "EarningsAdjustmentAmount": {
+      "definition": "Ajuste del crédito por rentabilidad (abono o cargo) resultante del efecto de este ajuste sobre el saldo medio cobrado. Si el importe redujera el crédito debido, debe indicarse con signo negativo."
+    }
+  }
+}

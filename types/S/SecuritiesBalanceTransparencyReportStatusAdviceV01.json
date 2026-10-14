@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesBalanceTransparencyReportStatusAdviceV01",
+  "definition": "SCOPE||Un titular de cuenta, como un custodio, un depositario central de valores, un depositario de valores internacional o un agente de transferencias, envía el mensaje SecuritiesBalanceTransparencyReportStatusAdvice en respuesta a un SecuritiesBalanceTransparencyReport, para aceptar o rechazar el extracto de tenencias enviado en un SecuritiesBalanceTransparencyReport.||USAGE|El SecuritiesBalanceTransparencyReportStatusAdvice se utiliza para aceptar (Accepted), aceptar parcialmente (Accepted With Exception) o rechazar (Rejected) un SecuritiesBalanceTransparencyReport recibido previamente."
+}

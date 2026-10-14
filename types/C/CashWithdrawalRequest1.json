@@ -1,0 +1,48 @@
+{
+  "isoType": "CashWithdrawalRequest1",
+  "definition": "Especifica los detalles de una solicitud de retirada de efectivo.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Identificación única de la orden."
+    },
+    "CashReceiverReference": {
+      "definition": "Identificación única, asignada por el receptor del efectivo para la retirada de efectivo."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indica si este mensaje modifica un mensaje de solicitud anterior.||Cuando se indica el valor Yes, OrderReference y CashReceiverReference deben permanecer iguales a los del mensaje original.||Cuando no se utiliza este elemento, el mensaje no se considera una modificación."
+    },
+    "RequestedValueDate": {
+      "definition": "Fecha en la que el receptor del efectivo solicita que se retire el efectivo de la cuenta."
+    },
+    "Account": {
+      "definition": "Identificación inequívoca de la cuenta de la que se retirará el efectivo."
+    },
+    "CashWithdrawal": {
+      "definition": "Proporciona los detalles de una retirada de efectivo por una suma de dinero en billetes y/o monedas."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica el método de entrega de la retirada de efectivo."
+    },
+    "DeliveryAddress": {
+      "definition": "Especifica la dirección a la que se entrega la retirada de efectivo."
+    },
+    "WithdrawalContact": {
+      "definition": "Parte que recoge el efectivo retirado."
+    },
+    "SecureCarrierName": {
+      "definition": "Identificación del transportista de seguridad."
+    },
+    "SecureCarrierReference": {
+      "definition": "Identificación única, asignada por el transportista de seguridad para la retirada."
+    },
+    "InsuranceIndicator": {
+      "definition": "Indica si la retirada en tránsito está asegurada.||Cuando no se utiliza este elemento, la retirada no está asegurada."
+    },
+    "WithdrawalAddress": {
+      "definition": "Especifica la dirección desde la que se envía la retirada de efectivo."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la retirada de efectivo."
+    }
+  }
+}

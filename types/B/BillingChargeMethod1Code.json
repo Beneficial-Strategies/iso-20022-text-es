@@ -1,0 +1,86 @@
+{
+  "isoType": "BillingChargeMethod1Code",
+  "definition": "Define cómo se calcula el cargo de facturación.",
+  "isoCodes": {
+    "UPRC": {
+      "name": "Precio unitario",
+      "definition": "El cargo se calcula como el producto del volumen por el precio unitario. Es el valor por defecto."
+    },
+    "STAM": {
+      "name": "Impuesto de timbre",
+      "definition": "El servicio se identifica específicamente como impuesto de timbre a efectos contables. El cargo se calcula como el producto del volumen por el precio unitario."
+    },
+    "BCHG": {
+      "name": "Cargo base",
+      "definition": "Comisión cobrada adicionalmente al volumen por el precio unitario cuando se presta una o más unidades del servicio."
+    },
+    "DPRC": {
+      "name": "Precio con descuento",
+      "definition": "El cargo se calcula utilizando un precio inferior al precio bancario cotizado."
+    },
+    "FCHG": {
+      "name": "Cargo fijo",
+      "definition": "Cargo fijo no vinculado al volumen ni al precio unitario. Las comisiones de cargo fijo no requieren volumen ni precio unitario."
+    },
+    "LPRC": {
+      "name": "Precio de lista",
+      "definition": "Un único servicio en el que el volumen, el cargo original y el saldo requerido son los totales de dos o más niveles de precios."
+    },
+    "MCHG": {
+      "name": "Cargo mínimo",
+      "definition": "Cargo mínimo posible para el servicio."
+    },
+    "MXRD": {
+      "name": "Reducción máxima",
+      "definition": "Cargo máximo posible para el servicio aunque el volumen por el precio unitario supere el valor máximo de reducción."
+    },
+    "TIR1": {
+      "name": "Nivel 1",
+      "definition": "La línea representa un cargo del nivel 1 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 1 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR2": {
+      "name": "Nivel 2",
+      "definition": "La línea representa un cargo del nivel 2 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 2 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR3": {
+      "name": "Nivel 3",
+      "definition": "La línea representa un cargo del nivel 3 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 3 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR4": {
+      "name": "Nivel 4",
+      "definition": "La línea representa un cargo del nivel 4 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 4 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR5": {
+      "name": "Nivel 5",
+      "definition": "La línea representa un cargo del nivel 5 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 5 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR6": {
+      "name": "Nivel 6",
+      "definition": "La línea representa un cargo del nivel 6 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 6 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR7": {
+      "name": "Nivel 7",
+      "definition": "La línea representa un cargo del nivel 7 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 7 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR8": {
+      "name": "Nivel 8",
+      "definition": "La línea representa un cargo del nivel 8 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 8 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TIR9": {
+      "name": "Nivel 9",
+      "definition": "La línea representa un cargo del nivel 9 en una estructura de cargos de varios niveles con descuento por volumen. Designa el nivel 9 utilizado para cobrar el volumen que corresponde a ese nivel."
+    },
+    "TPRC": {
+      "name": "Precio por umbral",
+      "definition": "El precio unitario se determina por el volumen total."
+    },
+    "ZPRC": {
+      "name": "Precio por zona",
+      "definition": "Indica precios diferentes para el mismo servicio. Se utiliza normalmente en un extracto resumen de relación en el que el mismo servicio tiene un precio distinto para distintas cuentas de la relación."
+    },
+    "BBSE": {
+      "name": "Basado en el saldo",
+      "definition": "El cargo se calcula como un saldo por una tarifa anual multiplicada por un factor de tiempo."
+    }
+  }
+}

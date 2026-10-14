@@ -1,0 +1,24 @@
+{
+  "isoType": "Fee7",
+  "definition": "Importe de dinero asociado a un servicio.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comisión."
+    },
+    "Basis": {
+      "definition": "Método utilizado para calcular la comisión."
+    },
+    "Amount": {
+      "definition": "Importe de la comisión."
+    },
+    "DiscountDetails": {
+      "definition": "Descuento o renuncia aplicado a la comisión."
+    },
+    "ChargeBearer": {
+      "definition": "Parte que soporta la comisión."
+    },
+    "RecipientIdentification": {
+      "definition": "Parte con derecho al importe de dinero resultante de la comisión."
+    }
+  }
+}

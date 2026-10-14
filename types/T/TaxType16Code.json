@@ -1,0 +1,70 @@
+{
+  "isoType": "TaxType16Code",
+  "definition": "Especifica el tipo de impuesto.",
+  "isoCodes": {
+    "COAX": {
+      "name": "Impuesto sobre el consumo",
+      "definition": "Impuesto que grava los bienes y servicios adquiridos por los clientes y que se añade al precio de venta al público."
+    },
+    "CTAX": {
+      "name": "Crédito fiscal",
+      "definition": "Reducción directa de la carga fiscal de una persona."
+    },
+    "EUTR": {
+      "name": "Retención fiscal de la EU",
+      "definition": "Impuesto retenido en origen en el marco de la Directiva europea sobre fiscalidad de los rendimientos del ahorro en forma de pago de intereses."
+    },
+    "LEVY": {
+      "name": "Impuesto o gravamen sobre pagos",
+      "definition": "Impuesto que grava un pago."
+    },
+    "LOCL": {
+      "name": "Impuesto local",
+      "definition": "Impuesto cobrado por un sistema de liquidación local o una jurisdicción local."
+    },
+    "NATI": {
+      "name": "Impuesto nacional",
+      "definition": "El impuesto es un impuesto nacional."
+    },
+    "PROV": {
+      "name": "Provincial",
+      "definition": "El impuesto es un impuesto provincial."
+    },
+    "STAM": {
+      "name": "Impuesto de timbre",
+      "definition": "El impuesto grava determinados documentos y operaciones."
+    },
+    "STAT": {
+      "name": "Impuesto estatal",
+      "definition": "El impuesto es un impuesto estatal."
+    },
+    "STEX": {
+      "name": "Impuesto bursátil",
+      "definition": "Impuesto recaudado por una bolsa."
+    },
+    "TRAN": {
+      "name": "Impuesto sobre transferencias",
+      "definition": "Impuesto que grava una transferencia."
+    },
+    "TRAX": {
+      "name": "Impuesto sobre operaciones",
+      "definition": "Impuesto que grava una operación."
+    },
+    "VATA": {
+      "name": "Impuesto sobre el valor añadido",
+      "definition": "El impuesto es un impuesto sobre el valor añadido."
+    },
+    "WITH": {
+      "name": "Retención fiscal",
+      "definition": "El impuesto grava la renta retenida en origen, que el agente pagador está legalmente obligado a retener de sus pagos de intereses de depósitos y otros rendimientos de un instrumento financiero."
+    },
+    "NKAP": {
+      "name": "Crédito por minusvalías",
+      "definition": "La recuperación del impuesto se debe a una minusvalía."
+    },
+    "KAPA": {
+      "name": "Impuesto sobre plusvalías",
+      "definition": "El impuesto grava una plusvalía (realizada y no realizada), es decir, el beneficio obtenido de la venta de un instrumento financiero."
+    }
+  }
+}

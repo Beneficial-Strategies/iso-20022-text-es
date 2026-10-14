@@ -1,0 +1,12 @@
+{
+  "isoType": "IssuerInformation3",
+  "definition": "Identificación de una organización.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Forma única e inequívoca de identificar la organización."
+    },
+    "URLAddress": {
+      "definition": "Dirección del Localizador Uniforme de Recursos (URL), por ejemplo, utilizado en el servicio www (HTTP)."
+    }
+  }
+}

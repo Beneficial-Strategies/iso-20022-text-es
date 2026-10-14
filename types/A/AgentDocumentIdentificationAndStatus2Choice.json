@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentDocumentIdentificationAndStatus2Choice",
+  "definition": "Elección entre la identificación y el estado del aviso de notificación de la operación societaria o de la solicitud de cancelación de la notificación enviados por la entidad.",
+  "isoElements": {
+    "AgentCANotificationAdviceIdentificationAndStatus": {
+      "definition": "Identificación del aviso de notificación de la CA de la entidad vinculado para el que se indica un estado."
+    },
+    "AgentCANotificationCancellationRequestIdentificationAndStatus": {
+      "definition": "Identificación de la solicitud de cancelación de la notificación de la CA de la entidad vinculada para la que se indica un estado."
+    }
+  }
+}

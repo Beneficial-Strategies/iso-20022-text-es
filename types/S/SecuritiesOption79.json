@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesOption79",
+  "definition": "Especifica las cantidades de valores para la instrucción de operación societaria.",
+  "isoElements": {
+    "ConditionalQuantity": {
+      "definition": "Cantidad mínima de valores que se aceptará (utilizada en el marco del privilegio condicional en la elección). En caso de prorrateo, si no se alcanza esta cantidad mínima, la instrucción queda anulada."
+    },
+    "InstructedQuantity": {
+      "definition": "Cantidad de valores a la que se aplica esta instrucción."
+    },
+    "AdditionalRoundUpQuantity": {
+      "definition": "Cantidad de acciones adicionales solicitadas debido a la diferencia en la práctica de «redondeo al alza contra pago» entre el administrador de cuentas y el titular de la cuenta (por ejemplo, para la opción de dividendo francesa)."
+    }
+  }
+}

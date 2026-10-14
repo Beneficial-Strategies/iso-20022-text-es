@@ -1,0 +1,72 @@
+{
+  "isoType": "OriginalTransactionReference42",
+  "definition": "Especifica los elementos clave definidos en la operación original.",
+  "isoElements": {
+    "InterbankSettlementAmount": {
+      "definition": "Importe de dinero movido entre la entidad instructora y la entidad instruida."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que se va a transferir entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en que el importe de dinero deja de estar disponible para la entidad que lo debe y en que pasa a estar disponible para la entidad a la que se le debe."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Fecha y hora en que el beneficiario solicita que se cobre el importe de dinero al ordenante."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha en la que la parte iniciadora solicita a la entidad compensadora que procese el pago. |Uso: es la fecha en la que debe adeudarse la cuenta del ordenante. Si el pago es mediante cheque, la fecha en la que el banco debe emitir el cheque."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Parte acreedora que firma el mandato."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica los detalles sobre cómo se completó la liquidación de la(s) operación(es) original(es) entre la entidad instructora y la entidad instruida."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con mayor detalle el tipo de operación."
+    },
+    "PaymentMethod": {
+      "definition": "Especifica el medio de pago que se utilizará para mover el importe de dinero."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Proporciona más detalles sobre el mandato firmado entre el beneficiario y el ordenante."
+    },
+    "RemittanceInformation": {
+      "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales de un sistema de cuentas por cobrar."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe un importe de dinero al beneficiario (final)."
+    },
+    "Debtor": {
+      "definition": "Parte que debe un importe de dinero al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se efectuará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que administra una cuenta para el ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad administradora de la cadena de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que administra una cuenta para el beneficiario."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad administradora a la que se efectuará un abono como resultado de la operación de pago."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se contabilizará un abono como resultado de la operación de pago."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe de dinero."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago.||Uso: |La finalidad es utilizada por los clientes finales, es decir, la parte iniciadora, el ordenante (final) y el beneficiario (final), para facilitar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no es utilizado para el procesamiento por ninguna de las entidades que intervienen en la cadena de pago."
+    }
+  }
+}

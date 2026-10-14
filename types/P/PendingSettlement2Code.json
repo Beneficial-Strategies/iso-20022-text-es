@@ -1,0 +1,162 @@
+{
+  "isoType": "PendingSettlement2Code",
+  "definition": "Especifica el motivo por el que la operación o instrucción está pendiente de liquidación, es decir, pendiente de entrega o recepción del instrumento financiero. Todavía es posible la liquidación en la fecha de liquidación instruida.",
+  "isoCodes": {
+    "AWMO": {
+      "name": "A la espera de fondos",
+      "definition": "Los valores se han entregado, pero no se ha recibido de la contraparte el importe de la liquidación."
+    },
+    "CAIS": {
+      "name": "A la espera de valores",
+      "definition": "A la espera de valores procedentes de una emisión por operación societaria u otros procedimientos, por ejemplo, conversión, desmaterialización, canje, registro, estampillado, desdoblamiento, etc."
+    },
+    "REFU": {
+      "name": "Instrucción rechazada o no reconocida",
+      "definition": "Instrucción que ha sido rechazada o no reconocida y se vuelve a presentar automáticamente."
+    },
+    "AWSH": {
+      "name": "A la espera de acciones de la contraparte",
+      "definition": "Los valores aún no se han recibido de la contraparte."
+    },
+    "PHSE": {
+      "name": "Retraso en la entrega física",
+      "definition": "La liquidación es física y los valores están siendo entregados."
+    },
+    "TAMM": {
+      "name": "Operación modificada en el mercado",
+      "definition": "La operación está siendo modificada en el mercado."
+    },
+    "DOCY": {
+      "name": "A la espera de documentos o endosos de su parte",
+      "definition": "A la espera de documentos o endosos de su parte."
+    },
+    "DOCC": {
+      "name": "A la espera de documentos o endosos de la contraparte",
+      "definition": "A la espera de documentos o endosos de la contraparte."
+    },
+    "BLOC": {
+      "name": "Cuenta bloqueada",
+      "definition": "Su cuenta está bloqueada; ninguna instrucción puede liquidarse a través de la cuenta."
+    },
+    "CHAS": {
+      "name": "Consulta enviada",
+      "definition": "Recordatorio o consulta enviado al agente o al depositario."
+    },
+    "NEWI": {
+      "name": "Nuevas emisiones",
+      "definition": "Los valores son nuevas emisiones y aún no están disponibles ni son negociables."
+    },
+    "CLAC": {
+      "name": "Valores insuficientes de la contraparte",
+      "definition": "Valores entregables insuficientes en la cuenta de la contraparte, o la contraparte no posee los valores."
+    },
+    "MUNO": {
+      "name": "Importe de liquidación múltiple",
+      "definition": "La cantidad de valores no es múltiplo de un lote de importe de liquidación existente para el instrumento financiero instruido."
+    },
+    "GLOB": {
+      "name": "Valores en forma global",
+      "definition": "La liquidación no puede ejecutarse porque los valores están en forma global."
+    },
+    "PREA": {
+      "name": "Preaviso instruido",
+      "definition": "Su instrucción es un preaviso, es decir, solo para casamiento."
+    },
+    "GUAD": {
+      "name": "Diferencia en el indicador de entrega garantizada",
+      "definition": "El indicador de entrega garantizada difiere del de la instrucción de la contraparte."
+    },
+    "PART": {
+      "name": "Operación liquidada en parciales",
+      "definition": "La operación se liquidará de forma parcial."
+    },
+    "NMAS": {
+      "name": "Cotejo no requerido",
+      "definition": "La instrucción no se ha casado porque no se requiere el proceso de casamiento."
+    },
+    "CMON": {
+      "name": "Fondos insuficientes de la contraparte",
+      "definition": "Fondos insuficientes en la cuenta de la contraparte."
+    },
+    "YCOL": {
+      "name": "Insuficiencia de garantías",
+      "definition": "Garantías insuficientes en su cuenta para ejecutar la operación."
+    },
+    "COLL": {
+      "name": "Valores pignorados como garantía",
+      "definition": "Los valores no son entregables porque están pignorados como garantía."
+    },
+    "DEPO": {
+      "name": "Depósito rechazado para la emisión de certificados de depósito",
+      "definition": "Se ha rechazado el depósito de acciones para la emisión de certificados de depósito. La operación supera el cupo de certificados de depósito concedido por el emisor."
+    },
+    "FLIM": {
+      "name": "Límite máximo de extranjeros alcanzado",
+      "definition": "Valores entregables insuficientes en su cuenta porque se ha alcanzado el límite máximo para extranjeros."
+    },
+    "NOFX": {
+      "name": "Sin instrucción de cambio de divisas",
+      "definition": "Falta la instrucción de cambio de divisas."
+    },
+    "INCA": {
+      "name": "Se requiere ajuste de rendimientos",
+      "definition": "Los valores requieren un ajuste de rendimientos, por ejemplo, dividendos o intereses."
+    },
+    "LINK": {
+      "name": "Instrucción vinculada pendiente",
+      "definition": "Su instrucción está pendiente de liquidación porque la instrucción vinculada a ella está pendiente."
+    },
+    "FUTU": {
+      "name": "A la espera de la fecha de liquidación",
+      "definition": "La instrucción está a la espera de la fecha de liquidación y no se ha comunicado ningún problema de liquidación."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "Valores entregables insuficientes en su cuenta."
+    },
+    "LALO": {
+      "name": "Valores prestados",
+      "definition": "Valores entregables insuficientes en su cuenta porque los valores están prestados."
+    },
+    "MONY": {
+      "name": "Fondos insuficientes",
+      "definition": "Fondos insuficientes en su cuenta."
+    },
+    "NCON": {
+      "name": "Confirmación no recibida",
+      "definition": "No se ha recibido la confirmación de la liquidación."
+    },
+    "REFS": {
+      "name": "No está en buen orden",
+      "definition": "La entrega o recepción se ha rechazado porque los valores físicos no están en buen estado."
+    },
+    "SDUT": {
+      "name": "Falta de información sobre el timbre fiscal",
+      "definition": "La instrucción está pendiente porque falta la información del impuesto de timbre."
+    },
+    "BATC": {
+      "name": "Diferencia en el lote de procesamiento",
+      "definition": "El lote de procesamiento difiere del de la instrucción de la contraparte, por ejemplo, horario diurno o tiempo real frente a horario nocturno."
+    },
+    "CYCL": {
+      "name": "A la espera del siguiente ciclo de liquidación",
+      "definition": "La instrucción está confirmada en el mercado local o lista para su liquidación, a la espera del siguiente ciclo de liquidación."
+    },
+    "SBLO": {
+      "name": "Valores bloqueados",
+      "definition": "La liquidación está pendiente. Los valores están bloqueados debido, por ejemplo, a un evento de operación societaria o a un reajuste de posiciones."
+    },
+    "CPEC": {
+      "name": "Contraparte en administración judicial",
+      "definition": "La contraparte está en suspensión de pagos o quiebra, es decir, la forma de insolvencia en la que una persona designada por un tribunal, el administrador judicial, gestiona los asuntos de la empresa."
+    },
+    "MINO": {
+      "name": "Importe mínimo de liquidación",
+      "definition": "El importe de valores es inferior al importe mínimo de liquidación existente para el instrumento financiero instruido."
+    },
+    "PCAP": {
+      "name": "CAP pendiente",
+      "definition": "El pago está pendiente y no se liquida porque el uso real del límite de gestión de riesgos sobre la contraparte (límite bilateral) impide la liquidación."
+    }
+  }
+}

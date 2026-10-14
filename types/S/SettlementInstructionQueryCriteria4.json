@@ -1,0 +1,93 @@
+{
+  "isoType": "SettlementInstructionQueryCriteria4",
+  "definition": "Define los criterios en función de los cuales se incluye la información.",
+  "isoElements": {
+    "References": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "Status": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifica el tipo de operación con valores."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    },
+    "Priority": {
+      "definition": "Especifica si la operación debe ejecutarse con prioridad alta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta en la que se mantienen los instrumentos financieros."
+    },
+    "CashAccount": {
+      "definition": "Cuenta en la que se mantiene efectivo."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "SettledQuantity": {
+      "definition": "Cantidad total de valores liquidados."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "SettledAmount": {
+      "definition": "Importe total de dinero pagado o recibido a cambio de los valores."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Fecha en la que se espera que se liquide una operación, es decir, el día previsto en el que se completa la transferencia de efectivo o activos."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Fecha y hora en la que se completa y compensa una operación, es decir, se efectúa un pago y se entregan los valores."
+    },
+    "SettlementCurrency": {
+      "definition": "Divisa en la que se expresa el importe instruido."
+    },
+    "SafekeepingAccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originó el mensaje, si es distinta del emisor."
+    },
+    "CounterpartSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación de la contraparte."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Proporciona las condiciones en las que la orden o la operación debe ejecutarse o fue ejecutada."
+    },
+    "SecuritiesTransactionCondition": {
+      "definition": "Indica las condiciones en las que se va a ejecutar o se ejecutó la orden/operación."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica si se permite la liquidación parcial."
+    },
+    "ConditionalSecuritiesDelivery": {
+      "definition": "Especifica si la operación está sujeta a la Entrega Condicional de Valores (CoSD)."
+    },
+    "CountryOfIssue": {
+      "definition": "Mercado primario o país en el que el emisor o su agente emite un valor."
+    },
+    "IssuerCSD": {
+      "definition": "Depositario central de valores (CSD) en el que se emiten (o se inmovilizan) los instrumentos financieros. El CSD emisor abre cuentas que permiten a los inversores (en un sistema de tenencia directa) y/o a los intermediarios (incluidos los CSD de inversores) mantener estos instrumentos financieros."
+    },
+    "HoldIndicator": {
+      "definition": "Especifica si la operación está retenida, bloqueada o congelada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "GeographicCoordinates1",
+  "definition": "Ubicación en la Tierra especificada mediante dos números que representan la posición vertical y horizontal.",
+  "isoElements": {
+    "Latitude": {
+      "definition": "Latitud medida en grados, minutos y segundos, seguida de 'N' para el norte y 'S' para el sur del ecuador (por ejemplo, 48°51'29\" N para la latitud de la Torre Eiffel)."
+    },
+    "Longitude": {
+      "definition": "Medida angular de la distancia de un lugar de la Tierra al este o al oeste del observatorio de Greenwich.|La longitud se mide en grados, minutos y segundos, seguida de 'E' para el este y 'W' para el oeste (por ejemplo, 2°17'40\" E para la longitud de la Torre Eiffel)."
+    }
+  }
+}

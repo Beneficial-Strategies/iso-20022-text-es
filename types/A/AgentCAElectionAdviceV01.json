@@ -1,0 +1,15 @@
+{
+  "isoType": "AgentCAElectionAdviceV01",
+  "definition": "Ámbito|Este mensaje lo envía un CSD al emisor (o a su agente) para proporcionar información sobre la instrucción de elección de los clientes, los datos de registro, los datos de entrega, etc. En caso de una elección con movimientos de recursos subyacentes, también confirma que estos se han completado. Este mensaje también puede enviarse en caso de modificación de una elección, una vez que el CSD haya completado los movimientos de recursos requeridos.|Uso|Este mensaje puede utilizarse para un nuevo aviso de elección o para un aviso de elección modificado.|Si este mensaje se utiliza para un nuevo aviso de elección, la función del mensaje debe ser 'nueva elección'.|Si este mensaje se utiliza para un aviso de elección modificado, la función del mensaje debe ser 'cambio de opción' y debe estar presente la identificación del aviso de elección enviado previamente.|Este mensaje puede incluir los movimientos de efectivo y/o los movimientos de valores en el caso de una elección con movimientos de recursos subyacentes. Además, este mensaje puede incluir datos de entrega, de certificación y del titular real.|Nota: esta información también puede enviarse por separado en el mensaje de aviso de información de evento corporativo del agente.",
+  "isoRules": {
+    "OptionTypeRule": {
+      "definition": "Si ElectionDetails/OptionType está presente, OptionType no está permitido en ninguna ocurrencia de ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails y/o ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails.||Si ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionType está presente al menos una vez y/o ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionType está presente al menos una vez, ElectionDetails/CorporateActionOptionType no está permitido."
+    },
+    "OptionNumberRule": {
+      "definition": "Si ElectionDetails/OptionNumber está presente, OptionNumber no está permitido en ninguna ocurrencia de ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails y/o ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails.||Si ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionNumber está presente al menos una vez y/o ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionNumber está presente al menos una vez, ElectionDetails/CorporateActionOptionNumber no está permitido."
+    },
+    "ElectionType2Rule": {
+      "definition": "Si ElectionAdviceTypeAndLinkages/ElectionType es CHAN, ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionNumber, ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionType, ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionNumber y ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionType deben estar presentes."
+    }
+  }
+}

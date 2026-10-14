@@ -1,0 +1,21 @@
+{
+  "isoType": "CardAggregated2",
+  "definition": "Información detallada del apunte de operaciones con tarjeta globalizadas.",
+  "isoElements": {
+    "AdditionalService": {
+      "definition": "Servicio adicional al servicio principal."
+    },
+    "TransactionCategory": {
+      "definition": "Código de categoría conforme a ISO 18245, relacionado con el tipo de servicios o bienes que el comercio proporciona en la operación."
+    },
+    "SaleReconciliationIdentification": {
+      "definition": "Identificación única del período de conciliación de ventas entre el aceptante y el adquirente. Esta identificación puede estar vinculada a la identificación de la liquidación para su posterior verificación por el comercio."
+    },
+    "SequenceNumberRange": {
+      "definition": "Rango de números de secuencia al que se aplica la globalización."
+    },
+    "TransactionDateRange": {
+      "definition": "Rango de fechas al que se aplica la globalización."
+    }
+  }
+}

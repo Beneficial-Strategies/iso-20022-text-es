@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountForAction1",
+  "definition": "Cuenta a la que o desde la que se efectúa un apunte de efectivo.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "Currency": {
+      "definition": "Medio de intercambio de valor."
+    }
+  }
+}

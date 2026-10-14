@@ -1,0 +1,12 @@
+{
+  "isoType": "RateOrName1Choice",
+  "definition": "Elección entre un tipo porcentual o un nombre de tipo.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Precio expresado como un tipo."
+    },
+    "RateName": {
+      "definition": "Precio expresado como un nombre de tipo."
+    }
+  }
+}

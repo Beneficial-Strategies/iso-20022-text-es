@@ -1,0 +1,36 @@
+{
+  "isoType": "FIToFICustomerCreditTransferV14",
+  "definition": "Ámbito|El mensaje FinancialInstitutionToFinancialInstitutionCustomerCreditTransfer lo envía la entidad del ordenante a la entidad del beneficiario, directamente o a través de otras entidades y/o de un sistema de compensación y liquidación de pagos. Se utiliza para mover fondos de una cuenta del ordenante a un beneficiario.|Uso|El mensaje FIToFICustomerCreditTransfer se intercambia entre entidades y puede contener una o más instrucciones de transferencia de clientes.|El mensaje FIToFICustomerCreditTransfer no permite agrupación: debe estar presente un bloque CreditTransferTransactionInformation por cada operación de transferencia.|El mensaje FIToFICustomerCreditTransfer puede utilizarse de distintas maneras:|- Si la entidad que instruye y la entidad instruida desean utilizar su relación de cuenta directa en la divisa de la transferencia, el mensaje contiene tanto los fondos de la o las transferencias de clientes como los detalles del pago;|- Si la entidad que instruye y la entidad instruida no tienen una relación de cuenta directa en la divisa de la transferencia, o no desean utilizar su relación de cuenta, intervendrán otras entidades (de reembolso) para cubrir la o las transferencias de clientes. El FIToFICustomerCreditTransfer contiene únicamente los detalles del pago y la entidad que instruye debe cubrir la transferencia de clientes enviando un FinancialInstitutionCreditTransfer a una entidad de reembolso. Este método de pago se denomina método de cobertura (Cover);|- Si intervienen más de dos entidades financieras en la cadena de pago y el FIToFICustomerCreditTransfer se envía de una entidad financiera a la siguiente de la cadena de pago, el método de pago se denomina método en serie (Serial).|El mensaje FIToFICustomerCreditTransfer puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "InstructedAgentRule": {
+      "definition": "Si GroupHeader/InstructedAgent está presente, no se permite CreditTransferTransactionInformation/InstructedAgent."
+    },
+    "InstructingAgentRule": {
+      "definition": "Si GroupHeader/InstructingAgent está presente, no se permite CreditTransferTransactionInformation/InstructingAgent."
+    },
+    "TotalInterbankSettlementAmountRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount está presente, todas las repeticiones de CreditTransferTransactionInformation/InterbankSettlementAmount deben tener la misma divisa que GroupHeader/TotalInterbankSettlementAmount."
+    },
+    "TotalInterbankSettlementAmountAndSumRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount está presente, debe ser igual a la suma de todas las repeticiones de CreditTransferTransactionInformation/InterbankSettlementAmount."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate está presente, no se permite CreditTransferTransactionInformation/InterbankSettlementDate."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate no está presente, debe estar presente CreditTransferTransactionInformation/InterbankSettlementDate."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Si GroupHeader/PaymentTypeInformation está presente, no se permite CreditTransferTransactionInformation/PaymentTypeInformation."
+    },
+    "NumberOfTransactionsAndCreditTransfersRule": {
+      "definition": "GroupHeader/NumberOfTransactions debe ser igual al número de repeticiones de CreditTransferTransactionInformation."
+    },
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    },
+    "GroupHeaderExpiryDateTimeRule": {
+      "definition": "Si GroupHeader/ExpiryDateTime está presente, no se permite CreditTransferTransactionInformation/AdditionalDateTime/ExpiryDateTime."
+    }
+  }
+}

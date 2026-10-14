@@ -1,0 +1,24 @@
+{
+  "isoType": "PenaltyCalculationRecord1",
+  "definition": "Especifica los detalles del cálculo de la penalización.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha a la que se aplica la penalización."
+    },
+    "MissingReferenceData": {
+      "definition": "Información proporcionada para las penalizaciones cuando faltan datos de referencia en este día hábil.||Uso: Cuando no está presente, no faltan datos de referencia."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Información adicional sobre el instrumento financiero notificado."
+    },
+    "DiscountRate": {
+      "definition": "Tasa de descuento de la divisa de la penalización, proporcionada si el valor está sujeto a penalizaciones y si el código del método de cálculo es efectivo, mixto o ambos."
+    },
+    "ForeignExchangeData": {
+      "definition": "Información adicional sobre el tipo de cambio."
+    },
+    "SubAmountPenaltyBreakdown": {
+      "definition": "Desglose en los subimportes que componen el importe total de la penalización."
+    }
+  }
+}

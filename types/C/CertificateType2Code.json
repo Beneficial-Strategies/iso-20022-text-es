@@ -1,0 +1,46 @@
+{
+  "isoType": "CertificateType2Code",
+  "definition": "Especifica el tipo de certificado.",
+  "isoCodes": {
+    "AMLC": {
+      "name": "Prevención del blanqueo de capitales",
+      "definition": "Formulario de certificación contra el blanqueo de capitales."
+    },
+    "DVLC": {
+      "name": "Permiso de conducir",
+      "definition": "Documento de identificación con fotografía emitido por el gobierno: permiso de conducir."
+    },
+    "DFOR": {
+      "name": "Constitución y organización debidas",
+      "definition": "Certificación de debida constitución y organización."
+    },
+    "GOST": {
+      "name": "Buena situación",
+      "definition": "Certificado de buena reputación."
+    },
+    "IDEN": {
+      "name": "Documento de identidad",
+      "definition": "Documento de identificación con fotografía emitido por el gobierno: documento de identidad."
+    },
+    "INCU": {
+      "name": "Vigencia de cargos",
+      "definition": "Certificación de cargo en ejercicio."
+    },
+    "LREF": {
+      "name": "Carta de referencia",
+      "definition": "Carta de referencia."
+    },
+    "PASS": {
+      "name": "Pasaporte",
+      "definition": "Documento de identificación con fotografía emitido por el gobierno: pasaporte."
+    },
+    "PRAD": {
+      "name": "Justificante de domicilio",
+      "definition": "Prueba del domicilio, como una factura de servicios públicos."
+    },
+    "PKIC": {
+      "name": "Certificado de infraestructura de clave pública",
+      "definition": "Certificado de infraestructura de clave pública."
+    }
+  }
+}

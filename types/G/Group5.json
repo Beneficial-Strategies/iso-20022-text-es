@@ -1,0 +1,15 @@
+{
+  "isoType": "Group5",
+  "definition": "Grupo de partes con su certificado de seguridad relacionado.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica el tipo de cambio."
+    },
+    "GroupIdentification": {
+      "definition": "Especifica la identificación del grupo."
+    },
+    "Party": {
+      "definition": "Especifica una parte y el certificado relacionado."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentification257Choice",
+  "definition": "Elección de formatos para la identificación de una parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Forma única e inequívoca de identificar a una organización."
+    },
+    "NameAndAddress": {
+      "definition": "Forma única e inequívoca de identificar a una organización."
+    },
+    "Country": {
+      "definition": "Forma única e inequívoca de identificar a una organización."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Lugar de liquidación expresado mediante un identificador de libro mayor digital. Identifica un libro mayor digital o un sistema de libro mayor distribuido (por ejemplo, blockchain o plataformas similares)."
+    }
+  }
+}

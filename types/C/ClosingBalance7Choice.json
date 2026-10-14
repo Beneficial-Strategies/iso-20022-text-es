@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosingBalance7Choice",
+  "definition": "Elección del saldo de cierre.",
+  "isoElements": {
+    "Final": {
+      "definition": "Suma del saldo de apertura y de todos los apuntes contabilizados en la cuenta al cierre del periodo del extracto."
+    },
+    "Intermediary": {
+      "definition": "Saldo de cierre de esta página únicamente. Este saldo debe ser el saldo de apertura intermedio de la página siguiente del mismo extracto."
+    }
+  }
+}

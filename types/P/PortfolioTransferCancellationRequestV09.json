@@ -1,0 +1,9 @@
+{
+  "isoType": "PortfolioTransferCancellationRequestV09",
+  "definition": "Ámbito|Un gestor de inversiones o su representante autorizado, por ejemplo, envía el mensaje PortfolioTransferCancellationRequest a la parte ejecutora, por ejemplo un agente de traspasos, para solicitar la cancelación de un mensaje PortfolioTransferInstruction enviado previamente.|Uso|El mensaje PortfolioTransferCancellationRequest se utiliza para solicitar la cancelación de una instrucción de traspaso de cartera.|No existe modificación, sino una política de cancelación y nueva instrucción.|Para solicitar la cancelación de una instrucción de traspaso de cartera, la referencia de traspaso de la cartera, tal como se especificó en el mensaje PortfolioTransferInstruction original, se indica en el elemento de referencia de traspaso.|El identificador del mensaje PortfolioTransferInstruction original también puede citarse en PreviousReference, aunque no se recomienda.|El plazo y la aceptación de una solicitud de cancelación están sujetos a un acuerdo de nivel de servicio (SLA). Este mensaje de cancelación es una solicitud de cancelación. No existe aceptación automática de la cancelación.|El rechazo o la aceptación de un PortfolioTransferCancellationRequest se realiza mediante un mensaje TransferCancellationStatusReport.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    }
+  }
+}

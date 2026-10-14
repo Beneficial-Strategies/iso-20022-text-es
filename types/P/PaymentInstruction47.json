@@ -1,0 +1,54 @@
+{
+  "isoType": "PaymentInstruction47",
+  "definition": "Proporciona detalles sobre la instrucción de pago.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte iniciadora original, para identificar sin ambigüedad el mensaje de la operación de pago original|Uso: es la antigua TransactionReference."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha y hora en que el efectivo queda a disposición del titular de la cuenta acreedora, o deja de estar a disposición del titular de la cuenta deudora."
+    },
+    "Status": {
+      "definition": "Información detallada sobre el estado de una transferencia.||."
+    },
+    "InstructedAmount": {
+      "definition": "Importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Importe de dinero transferido entre la entidad instructora y la entidad instruida."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago."
+    },
+    "PaymentMethod": {
+      "definition": "Indica el mensaje o evento a partir del cual se ha iniciado una instrucción."
+    },
+    "Priority": {
+      "definition": "Urgencia u orden de importancia que el originante desea que el destinatario de la instrucción de pago aplique al procesamiento de la instrucción de pago.|."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Intervalo de fecha y hora dentro del cual debe procesarse la instrucción de pago.|."
+    },
+    "InstructionCopy": {
+      "definition": "Copia de la instrucción original, en texto libre."
+    },
+    "Type": {
+      "definition": "Tipo o naturaleza del pago, como un pago urgente.|."
+    },
+    "GeneratedOrder": {
+      "definition": "El pago es una orden de transferencia de liquidez que se ha ejecutado automáticamente en virtud de una orden predefinida o permanente."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificación única, asignada por la primera entidad instructora, para identificar sin ambigüedad la operación que se transmite, sin cambios, a lo largo de toda la cadena interbancaria.|Uso: la identificación de la operación puede utilizarse para la conciliación, el seguimiento o para vincular tareas relacionadas con la operación en el nivel interbancario. La entidad instructora debe asegurarse de que la identificación de la operación sea única durante un período acordado previamente.|Uso: es la antigua PaymentInstructionReference."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en la que el importe de dinero deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se debe."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora, para identificar sin ambigüedad la operación. Esta identificación se transmite, sin cambios, a lo largo de toda la cadena de extremo a extremo.|Uso: la identificación de extremo a extremo puede utilizarse para la conciliación o para vincular tareas relacionadas con la operación.|Puede incluirse en varios mensajes relacionados con la operación.|Uso: es la antigua referencia relacionada."
+    },
+    "Parties": {
+      "definition": "Define los campos de parte utilizados para buscar un pago."
+    }
+  }
+}

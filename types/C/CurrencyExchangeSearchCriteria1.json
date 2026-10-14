@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeSearchCriteria1",
+  "definition": "Define los criterios utilizados para buscar información sobre el cambio de divisas.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Divisa del importe que se va a convertir en una conversión de divisas."
+    },
+    "TargetCurrency": {
+      "definition": "Divisa en la que se va a convertir un importe en una conversión de divisas."
+    }
+  }
+}

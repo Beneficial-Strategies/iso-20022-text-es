@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationReason1Choice",
+  "definition": "Especifica el motivo de la solicitud de cancelación de una notificación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de la solicitud de cancelación, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Motivo de la solicitud de cancelación, en forma propietaria."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferOfProceedsType1Code",
+  "definition": "Especifica el tipo de transferencia de los importes de la reclamación de mercado.",
+  "isoCodes": {
+    "CLFT": {
+      "name": "Transferencia total de los ingresos recibidos",
+      "definition": "La reclamación de mercado consiste en transferir al beneficiario con derecho los fondos recibidos del emisor."
+    },
+    "CLPT": {
+      "name": "Sin transferencia de los ingresos recibidos",
+      "definition": "La reclamación de mercado consiste en compensar en efectivo al beneficiario con derecho por parte de la parte que incumplió su obligación. No se han recibido fondos del emisor."
+    },
+    "CLNT": {
+      "name": "Transferencia parcial de los ingresos recibidos",
+      "definition": "La reclamación de mercado consiste en transferir al beneficiario con derecho los fondos recibidos parcialmente del emisor. Una parte es compensada en efectivo por la parte que incumplió su obligación."
+    }
+  }
+}

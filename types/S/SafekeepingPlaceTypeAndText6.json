@@ -1,0 +1,12 @@
+{
+  "isoType": "SafekeepingPlaceTypeAndText6",
+  "definition": "Identificación del lugar de custodia expresada como un código y una descripción narrativa.",
+  "isoElements": {
+    "SafekeepingPlaceType": {
+      "definition": "Lugar de custodia como código."
+    },
+    "Identification": {
+      "definition": "Información adicional sobre el lugar de custodia."
+    }
+  }
+}

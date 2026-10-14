@@ -1,0 +1,12 @@
+{
+  "isoType": "ProformaStatusReason1",
+  "definition": "Motivo de un estado pro forma.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado pro forma de la cuenta."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el motivo del estado pro forma de la cuenta."
+    }
+  }
+}

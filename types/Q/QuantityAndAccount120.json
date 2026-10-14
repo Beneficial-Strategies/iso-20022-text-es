@@ -1,0 +1,47 @@
+{
+  "isoType": "QuantityAndAccount120",
+  "definition": "Detalles sobre una cantidad, una cuenta y otra información relacionada.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Cantidad de instrumento financiero efectivamente liquidada."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Cantidad de instrumento financiero liquidada previamente."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Cantidad de instrumento financiero pendiente de liquidar."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Importe de dinero liquidado anteriormente."
+    },
+    "RemainingToBeSettledAmount": {
+      "definition": "Importe de dinero pendiente de liquidar."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

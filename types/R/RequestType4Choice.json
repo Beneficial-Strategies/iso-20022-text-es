@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestType4Choice",
+  "definition": "Define el tipo de acción que debe realizarse en la solicitud.",
+  "isoElements": {
+    "PaymentControl": {
+      "definition": "El tipo de solicitud es una orden de control sobre un conjunto de operaciones."
+    },
+    "Enquiry": {
+      "definition": "El tipo de solicitud es una consulta sobre una posición o una operación."
+    },
+    "Proprietary": {
+      "definition": "El tipo de solicitud está en formato propietario."
+    }
+  }
+}

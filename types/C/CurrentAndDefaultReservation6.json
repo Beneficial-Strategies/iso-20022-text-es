@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentAndDefaultReservation6",
+  "definition": "Informa sobre reservas.",
+  "isoElements": {
+    "CurrentReservation": {
+      "definition": "El informe se emite para una reserva vigente."
+    },
+    "DefaultReservation": {
+      "definition": "El informe se emite para una reserva por defecto."
+    }
+  }
+}

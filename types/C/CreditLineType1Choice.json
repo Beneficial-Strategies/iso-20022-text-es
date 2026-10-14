@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditLineType1Choice",
+  "definition": "Especifica el tipo de línea de crédito facilitada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de línea de crédito, tal como se publica en una lista de códigos de finalidad externa."
+    },
+    "Proprietary": {
+      "definition": "Tipo de línea de crédito, en forma propietaria."
+    }
+  }
+}

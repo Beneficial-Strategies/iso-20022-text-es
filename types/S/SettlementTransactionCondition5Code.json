@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlementTransactionCondition5Code",
+  "definition": "Especifica las condiciones en las que debe liquidarse la orden/operación.",
+  "isoCodes": {
+    "PART": {
+      "name": "Parcial permitido",
+      "definition": "Se permite la liquidación parcial."
+    },
+    "NPAR": {
+      "name": "Parcial no permitido",
+      "definition": "No se permite la liquidación parcial."
+    },
+    "PARC": {
+      "name": "Liquidación parcial permitida con umbral de efectivo",
+      "definition": "Se permite la liquidación parcial, pero debe cumplir un valor mínimo en efectivo (valor definido en los datos estáticos)."
+    },
+    "PARQ": {
+      "name": "Liquidación parcial permitida con umbral de cantidad",
+      "definition": "Se permite la liquidación parcial, pero debe cumplir una cantidad mínima de valores (cantidad definida en los datos estáticos)."
+    }
+  }
+}

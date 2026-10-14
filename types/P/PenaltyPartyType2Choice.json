@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyPartyType2Choice",
+  "definition": "Especifica el tipo de parte de las penalizaciones.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de parte de penalización, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de parte de penalización, en forma propietaria."
+    }
+  }
+}

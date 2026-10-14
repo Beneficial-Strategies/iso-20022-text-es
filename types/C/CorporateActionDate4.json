@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionDate4",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "CouponClippingDate": {
+      "definition": "Fecha y hora en que los cupones deben presentarse o se presentaron para el pago de intereses."
+    },
+    "ConsentExpirationDate": {
+      "definition": "Última fecha y hora en que un titular puede dar su consentimiento a los cambios solicitados por la sociedad."
+    },
+    "ConsentRecordDate": {
+      "definition": "Fecha y hora que utiliza el oferente para determinar el beneficiario con derecho a participar en un consentimiento sobre la base del titular registrado de los valores, por ejemplo, el titular real del registro de consentimiento. El calificador de fecha de registro del consentimiento se utiliza para indicar que una fecha de registro solo se aplica a una parte determinada de la oferta, y no a toda la oferta."
+    },
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe realizarse la distribución (efectivo y/o valores)."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Fecha y hora en que puede efectuarse un pago, por ejemplo, si la fecha de pago es un día inhábil o para indicar la fecha del primer pago de una oferta."
+    },
+    "MarketDeadline": {
+      "definition": "Plazo límite del emisor o de su agente para responder, con una instrucción, a una oferta o privilegio pendiente."
+    },
+    "ResponseDeadline": {
+      "definition": "Fecha y hora fijada por la entidad gestora de la cuenta (account servicer) como plazo límite para responder, con instrucciones, a un evento pendiente. Este momento depende de la zona horaria de referencia de la entidad gestora de la cuenta, tal como se especifica en un SLA."
+    },
+    "DeadlineToSplit": {
+      "definition": "Plazo límite en el que deben recibirse las instrucciones para dividir valores, p. ej., de certificados físicos."
+    },
+    "ExpiryDate": {
+      "definition": "Fecha y hora en que vence una orden o en que finaliza un privilegio o una oferta."
+    },
+    "QuotationSettingDate": {
+      "definition": "Fecha y hora en que se determina el precio de un valor."
+    },
+    "SubscriptionCostDebitDate": {
+      "definition": "Fecha y hora en que el efectivo debe estar disponible para participar en el evento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason37Choice",
+  "definition": "Elección del formato del motivo de cancelación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que se cancela la instrucción relacionada, o por el que se ejecuta la solicitud de cancelación relacionada."
+    },
+    "Proprietary": {
+      "definition": "Especifica el motivo por el que se cancela la instrucción relacionada, o por el que se ejecuta la solicitud de cancelación relacionada."
+    }
+  }
+}

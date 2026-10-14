@@ -1,0 +1,30 @@
+{
+  "isoType": "CaseForwardingNotification3Code",
+  "definition": "Especifica la acción solicitada al reenviar un caso.",
+  "isoCodes": {
+    "FTHI": {
+      "name": "Investigación adicional",
+      "definition": "El caso se ha reenviado a la siguiente parte para su posterior investigación."
+    },
+    "CANC": {
+      "name": "Solicitud de cancelación",
+      "definition": "El caso se ha reenviado a la siguiente parte para su cancelación."
+    },
+    "MODI": {
+      "name": "Solicitud de modificación",
+      "definition": "El caso se ha reenviado a la siguiente parte para su modificación."
+    },
+    "DTAU": {
+      "name": "Solicitud de autorización de adeudo",
+      "definition": "El caso se ha reenviado para obtener la autorización de adeudo."
+    },
+    "SAIN": {
+      "name": "Información adicional enviada",
+      "definition": "Se ha reenviado información adicional al beneficiario."
+    },
+    "MINE": {
+      "name": "Caso de investigación propio",
+      "definition": "El caso está siendo tratado por la parte asignada."
+    }
+  }
+}

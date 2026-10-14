@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason17",
+  "definition": "El estado de una instrucción, aviso o solicitud.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la solicitud tiene un estado denegado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "Linkages40",
+  "definition": "Información relativa a una operación vinculada.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referencia a la operación vinculada."
+    }
+  }
+}

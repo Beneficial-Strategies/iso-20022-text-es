@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosurePendingStatusReason1",
+  "definition": "Motivo de un estado de cierre pendiente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado de cierre pendiente."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el motivo del estado de cierre pendiente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AggregateHoldingBalance3",
+  "definition": "Posición global de tenencia, en un único instrumento financiero, mantenida en una cuenta de valores en un lugar de custodia especificado.",
+  "isoElements": {
+    "BalanceForAccount": {
+      "definition": "Informe sobre la posición neta de un instrumento financiero en la subcuenta, para una fecha determinada."
+    },
+    "Agent": {
+      "definition": "Agente del instrumento financiero, por ejemplo, un intermediario de la operación."
+    }
+  }
+}

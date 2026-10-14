@@ -1,0 +1,32 @@
+{
+  "isoType": "LiquidityCreditTransfer4",
+  "definition": "Proporciona detalles específicos de la transferencia de crédito de liquidez, utilizada para transferir un importe de dinero del ordenante al beneficiario, siendo ambos entidades financieras.",
+  "isoElements": {
+    "LiquidityTransferIdentification": {
+      "definition": "Se utiliza para identificar de forma única la transferencia de liquidez."
+    },
+    "Creditor": {
+      "definition": "Titular de la cuenta que se va a abonar."
+    },
+    "CreditorAccount": {
+      "definition": "Cuenta que se va a abonar como resultado de una transferencia de liquidez."
+    },
+    "TransferredAmount": {
+      "definition": "Importe de dinero que el administrador de operaciones transfiere de una cuenta a otra."
+    },
+    "Debtor": {
+      "definition": "Titular de la cuenta que se va a adeudar."
+    },
+    "DebtorAccount": {
+      "definition": "Cuenta que se va a adeudar como resultado de una transferencia de liquidez."
+    },
+    "SettlementDate": {
+      "definition": "Fecha en la que el importe de dinero deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se debe."
+    }
+  },
+  "isoRules": {
+    "CreditAccountRule": {
+      "definition": "Debe estar presente al menos CreditAccount o Creditor, o ambos."
+    }
+  }
+}

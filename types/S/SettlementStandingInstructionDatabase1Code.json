@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementStandingInstructionDatabase1Code",
+  "definition": "Indica qué base de datos de instrucciones permanentes de liquidación debe utilizarse para determinar las partes de la liquidación que intervienen en la operación.",
+  "isoCodes": {
+    "INTE": {
+      "name": "Base de datos interna",
+      "definition": "La base de datos de instrucciones permanentes de liquidación que debe utilizarse es la base de datos interna del receptor."
+    },
+    "BRKR": {
+      "name": "Base de datos del corredor",
+      "definition": "La base de datos de instrucciones permanentes de liquidación que debe utilizarse es la base de datos del corredor."
+    },
+    "VEND": {
+      "name": "Base de datos del proveedor",
+      "definition": "La base de datos de instrucciones permanentes de liquidación que debe utilizarse es la base de datos del proveedor."
+    }
+  }
+}

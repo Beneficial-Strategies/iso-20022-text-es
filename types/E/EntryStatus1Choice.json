@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryStatus1Choice",
+  "definition": "Especifica el estado de un apunte en los libros de la entidad que administra la cuenta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado del apunte, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Estado del apunte, en forma propia."
+    }
+  }
+}

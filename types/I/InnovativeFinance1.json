@@ -1,0 +1,12 @@
+{
+  "isoType": "InnovativeFinance1",
+  "definition": "Información sobre un producto de financiación innovadora.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de producto de financiación innovadora."
+    },
+    "Information": {
+      "definition": "Detalles de un producto de financiación innovadora."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "PendingCancellationReason5Code",
+  "definition": "Especifica el motivo por el que la solicitud de cancelación tiene un estado pendiente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "DQCS": {
+      "name": "Rechazo por importe",
+      "definition": "Importe en efectivo instruido no reconocido o no válido."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    }
+  }
+}

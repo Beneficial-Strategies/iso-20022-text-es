@@ -1,0 +1,46 @@
+{
+  "isoType": "TransactionType2Code",
+  "definition": "Especifica el tipo de operación.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Reembolso",
+      "definition": "La operación es un reembolso de un fondo de inversión."
+    },
+    "SUBS": {
+      "name": "Suscripción",
+      "definition": "La operación es una suscripción a un fondo de inversión."
+    },
+    "SSPL": {
+      "name": "Suscripción de plan de ahorro",
+      "definition": "La operación es una suscripción a un plan de ahorro, es decir, dinero apartado por particulares en el marco de un plan estructurado con una finalidad específica, por ejemplo, la jubilación."
+    },
+    "RWPL": {
+      "name": "Reembolso de plan de retiradas",
+      "definition": "La operación es una retirada realizada por particulares en el marco de un plan estructurado para inversiones efectuadas en el pasado."
+    },
+    "TRIN": {
+      "name": "Transferencia entrante",
+      "definition": "La operación es un abono entrante en una cuenta del registro de accionistas y no está vinculada a un cambio de inversión (suscripción o traspaso), sino a la gestión de la cuenta."
+    },
+    "TOUT": {
+      "name": "Transferencia saliente",
+      "definition": "La operación es un adeudo en una cuenta del registro de accionistas y no está vinculada a un cambio de inversión (reembolso o traspaso), sino a la gestión de la cuenta."
+    },
+    "SWII": {
+      "name": "Traspaso de entrada",
+      "definition": "La operación es el tramo de suscripción de la ejecución de una orden de traspaso."
+    },
+    "SWIO": {
+      "name": "Traspaso de salida",
+      "definition": "La operación es el tramo de suscripción de la ejecución de una orden de traspaso."
+    },
+    "SUAA": {
+      "name": "Suscripción por asignación de activos",
+      "definition": "La operación es una suscripción en un plan de asignación de activos que permite a los inversores asignar, por porcentaje, un determinado importe en efectivo a varios subfondos de una misma estructura paraguas."
+    },
+    "REAA": {
+      "name": "Reembolso por asignación de activos",
+      "definition": "La operación es un reembolso en un plan de asignación de activos que permite a los inversores retirar, por porcentaje, un determinado importe en efectivo de varios subfondos de una misma estructura paraguas."
+    }
+  }
+}

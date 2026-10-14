@@ -1,0 +1,10 @@
+{
+  "isoType": "Quantity5Code",
+  "definition": "Especifica la cantidad de un instrumento financiero.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Cantidad desconocida",
+      "definition": "La cantidad es desconocida para el remitente o no se ha establecido."
+    }
+  }
+}

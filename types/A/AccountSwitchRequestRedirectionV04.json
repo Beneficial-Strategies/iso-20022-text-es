@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestRedirectionV04",
+  "definition": "El mensaje AccountSwitchRequestRedirection es enviado por la entidad gestora de la cuenta nueva a una entidad central de gestión del cambio de cuenta para configurar la redirección de las operaciones de pago y cobro que se procesen tras la finalización del cambio de cuenta. Se encamina a la entidad gestora de la cuenta anterior para indicarle que debe programar la cancelación de todos los acuerdos de pago de la cuenta anterior. Este mensaje también puede ser utilizado por el banco nuevo para modificar los detalles de la cuenta nueva, si los detalles facilitados previamente eran incorrectos."
+}

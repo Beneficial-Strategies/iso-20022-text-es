@@ -1,0 +1,21 @@
+{
+  "isoType": "IndividualPerson29",
+  "definition": "Entidad humana, a diferencia de una entidad corporativa (que a veces se denomina «persona jurídica»).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Término utilizado para dirigirse a la persona."
+    },
+    "GivenName": {
+      "definition": "Nombre de pila de la persona."
+    },
+    "MiddleName": {
+      "definition": "Segundo nombre de la persona."
+    },
+    "Name": {
+      "definition": "Nombre por el que se conoce a la parte y que se utiliza habitualmente para identificar a esa persona."
+    },
+    "PostalAddress": {
+      "definition": "Dirección de la persona."
+    }
+  }
+}

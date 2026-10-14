@@ -1,0 +1,18 @@
+{
+  "isoType": "ConductClassification1Code",
+  "definition": "Especifica la clasificación de la conducta.",
+  "isoCodes": {
+    "NSTA": {
+      "name": "No estándar",
+      "definition": "No estándar o inusual."
+    },
+    "RCLT": {
+      "name": "Reticente",
+      "definition": "Reticente."
+    },
+    "STAN": {
+      "name": "Estándar",
+      "definition": "Estándar."
+    }
+  }
+}

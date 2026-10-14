@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryVote1",
+  "definition": "Tipo de voto propietario y cantidad votada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Otro tipo de voto expresado como un código propietario."
+    },
+    "Quantity": {
+      "definition": "Cantidad de valores votados."
+    }
+  }
+}

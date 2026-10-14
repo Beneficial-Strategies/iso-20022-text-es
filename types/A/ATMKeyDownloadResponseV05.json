@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMKeyDownloadResponseV05",
+  "definition": "El mensaje ATMKeyDownloadResponse lo envía un adquirente a un cajero automático (ATM) en respuesta a un mensaje ATMKeyDownloadRequest, para descargar una o varias claves criptográficas."
+}

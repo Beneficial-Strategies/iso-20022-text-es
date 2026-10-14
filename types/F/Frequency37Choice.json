@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency37Choice",
+  "definition": "Elección del formato de una frecuencia, por ejemplo, la frecuencia del pago.",
+  "isoElements": {
+    "Code": {
+      "definition": "Frecuencia expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Frecuencia expresada mediante un código propietario."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason68Choice",
+  "definition": "Elección entre un código estándar y un código propietario para especificar el motivo por el que la instrucción o la solicitud de cancelación tiene un estado de rechazada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del rechazo especificado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo del rechazo especificado como código propietario."
+    }
+  }
+}

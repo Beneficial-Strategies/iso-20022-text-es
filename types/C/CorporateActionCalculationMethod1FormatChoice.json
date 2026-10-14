@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionCalculationMethod1FormatChoice",
+  "definition": "Elección de formatos para expresar el método de cálculo de los sorteos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el método de cálculo de los sorteos."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el método de cálculo de los sorteos."
+    }
+  }
+}

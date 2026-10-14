@@ -1,0 +1,18 @@
+{
+  "isoType": "CaseAssignment6",
+  "definition": "Representa la asignación de un caso a una parte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifica de forma inequívoca la asignación del caso."
+    },
+    "Assigner": {
+      "definition": "Parte que asigna el caso.|Uso: también es el emisor del mensaje."
+    },
+    "Assignee": {
+      "definition": "Parte a la que se asigna el caso.|Uso: también es el receptor del mensaje."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó la asignación."
+    }
+  }
+}

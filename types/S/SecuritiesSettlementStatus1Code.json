@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesSettlementStatus1Code",
+  "definition": "Proporciona el estado de liquidación de una instrucción.",
+  "isoCodes": {
+    "PEND": {
+      "name": "Pendiente",
+      "definition": "La instrucción está pendiente. La liquidación en la fecha de liquidación instruida sigue siendo posible."
+    },
+    "PENF": {
+      "name": "Fallida",
+      "definition": "La instrucción está fallida. La liquidación en la fecha de liquidación instruida ya no es posible."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "BillingTaxCalculationMethod1Code",
+  "definition": "Define el método de cálculo de impuestos.",
+  "isoCodes": {
+    "NTAX": {
+      "name": "Sin impuestos",
+      "definition": "No se calculan ni se adeudan impuestos en esta cuenta."
+    },
+    "MTDA": {
+      "name": "Método A",
+      "definition": "Cálculo línea por línea por servicio y conversión a la divisa de liquidación."
+    },
+    "MTDB": {
+      "name": "Método B",
+      "definition": "Cálculo línea por línea por servicio con conversión a la divisa de liquidación efectuada sobre el total de impuestos del extracto."
+    },
+    "MTDC": {
+      "name": "Método C",
+      "definition": "Cálculo de impuestos por grupo con conversión grupal a la divisa de liquidación."
+    },
+    "MTDD": {
+      "name": "Método D",
+      "definition": "Cálculo línea por línea por servicio con todos los gastos e impuestos adeudados en la divisa de tarificación."
+    },
+    "UDFD": {
+      "name": "Sin definir",
+      "definition": "El método de cálculo de impuestos no está definido o es desconocido."
+    }
+  }
+}

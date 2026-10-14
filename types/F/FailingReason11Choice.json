@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason11Choice",
+  "definition": "Elección del formato del motivo de incumplimiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción tiene estado de liquidación fallida."
+    },
+    "Proprietary": {
+      "definition": "Especifica el motivo por el que la instrucción tiene estado de liquidación fallida."
+    }
+  }
+}

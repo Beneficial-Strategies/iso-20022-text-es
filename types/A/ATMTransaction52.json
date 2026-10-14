@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMTransaction52",
+  "definition": "Información sobre la respuesta de conciliación.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Tipo de operación lógica o física en el cajero automático (ATM) para la que se calculan los contadores."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificación de la operación de conciliación."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identificación del periodo de conciliación asignada por el cajero automático (ATM)."
+    },
+    "TransactionResponse": {
+      "definition": "Resultado de la conciliación."
+    },
+    "ATMTotals": {
+      "definition": "Totales actuales del cajero automático (ATM)."
+    },
+    "Cassette": {
+      "definition": "Información sobre los cartuchos del cajero automático (ATM)."
+    },
+    "Command": {
+      "definition": "Comando de mantenimiento que debe ejecutarse en el cajero automático (ATM)."
+    }
+  }
+}

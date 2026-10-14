@@ -1,0 +1,20 @@
+{
+  "isoType": "IntraPositionDetails63",
+  "definition": "Detalles del movimiento intraposición.",
+  "isoElements": {
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo desde el que se movieron los valores."
+    },
+    "IntraPositionMovement": {
+      "definition": "Movimiento(s) intraposición realizado(s)."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule2": {
+      "definition": "El SecuritiesBalanceType de BalanceFrom debe ser distinto del SecuritiesBalanceType de BalanceTo."
+    }
+  }
+}

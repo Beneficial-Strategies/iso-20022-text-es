@@ -1,0 +1,18 @@
+{
+  "isoType": "FundDetailedConfirmedCashForecastReport3",
+  "definition": "Información sobre un informe de previsión de efectivo.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "definition": "Información sobre el fondo o subfondo cuando el informe especifica el flujo de efectivo del fondo o subfondo o de una clase de participaciones del fondo o subfondo."
+    },
+    "FundCashForecastDetails": {
+      "definition": "Información relativa a los flujos de entrada y salida de efectivo de una fecha de contratación determinada como resultado de operaciones con participaciones de un fondo de inversión, por ejemplo, suscripciones, reembolsos o traspasos. La información facilitada se ordena según criterios predefinidos, como país, institución, divisa o criterios definidos por el usuario."
+    },
+    "ConsolidatedNetCashForecast": {
+      "definition": "Efectivo neto estimado resultante de los flujos de entrada y salida de efectivo."
+    },
+    "Extension": {
+      "definition": "Información adicional que no puede recogerse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

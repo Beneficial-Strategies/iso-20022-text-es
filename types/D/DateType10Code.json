@@ -1,0 +1,26 @@
+{
+  "isoType": "DateType10Code",
+  "definition": "La fecha se especifica como un valor de código fijo.",
+  "isoCodes": {
+    "MEET": {
+      "name": "Bloqueo hasta la fecha de la junta",
+      "definition": "El bloqueo se mantiene hasta la fecha de la junta, inclusive."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "La fecha es desconocida para el emisor o no se ha establecido."
+    },
+    "NARR": {
+      "name": "Fecha de desbloqueo descrita en texto",
+      "definition": "Consúltese el elemento de información adicional para la fecha hasta la cual los valores permanecen bloqueados."
+    },
+    "RDTE": {
+      "name": "Bloqueo hasta la fecha de registro",
+      "definition": "El bloqueo se mantiene hasta la fecha de registro del evento, inclusive."
+    },
+    "PPYD": {
+      "name": "Bloqueo hasta la fecha de pago de la prima",
+      "definition": "El desbloqueo se producirá en la fecha de pago de la prima."
+    }
+  }
+}

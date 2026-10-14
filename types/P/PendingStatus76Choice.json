@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus76Choice",
+  "definition": "Elección entre un motivo o ningún motivo para el estado pendiente del procesamiento de la instrucción de operación societaria.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo no especificado."
+    },
+    "Reason": {
+      "definition": "Motivo del estado de pendiente."
+    }
+  }
+}

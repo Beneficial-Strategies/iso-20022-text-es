@@ -1,0 +1,18 @@
+{
+  "isoType": "PoliticallyExposedPersonStatus1Code",
+  "definition": "Condición de una persona con responsabilidad pública.",
+  "isoCodes": {
+    "PE03": {
+      "name": "Allegado",
+      "definition": "Persona conocida como allegado cercano de la persona con responsabilidad pública. Se considera allegado cercano conocido: |a) una persona física de la que se sabe que comparte la titularidad real de entidades jurídicas o de estructuras jurídicas, o cualquier otra relación empresarial estrecha, con la persona con responsabilidad pública,|b) una persona física que sea titular real exclusivo de una entidad jurídica o de una estructura jurídica que se sabe que ha sido creada de facto en beneficio de una persona con responsabilidad pública."
+    },
+    "PE01": {
+      "name": "Persona física con cargo encomendado",
+      "definition": "Persona física que desempeña o ha desempeñado funciones públicas importantes."
+    },
+    "PE02": {
+      "name": "Familiar",
+      "definition": "Familiar de la persona con responsabilidad pública. Se consideran familiares: |a) el cónyuge, o una persona considerada equivalente a un cónyuge, de la persona con responsabilidad pública,|b) los hijos y sus cónyuges, o personas consideradas equivalentes a un cónyuge, de la persona con responsabilidad pública,|c) los padres de la persona con responsabilidad pública."
+    }
+  }
+}

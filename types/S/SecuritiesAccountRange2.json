@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccountRange2",
+  "definition": "Especifica un rango de cuentas de valores.",
+  "isoElements": {
+    "From": {
+      "definition": "Número o código de cuenta de valores en el que comienza el rango."
+    },
+    "To": {
+      "definition": "Número o código de cuenta de valores en el que termina el rango."
+    }
+  }
+}

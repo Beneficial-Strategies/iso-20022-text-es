@@ -1,0 +1,122 @@
+{
+  "isoType": "SecuritiesTradeDetails140",
+  "definition": "Detalles de la operación de valores.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación de una operación del titular de la cuenta que podría coincidir con la alegación notificada."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación de la operación tal como la conoce la entidad gestora de la cuenta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación de la contraparte asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador de la instrucción distinto del titular de la cuenta, la entidad depositaria y la infraestructura del mercado."
+    },
+    "TradeIdentification": {
+      "definition": "Referencia asignada a la operación comercial por el inversor o la parte negociadora. Esta referencia se utilizará durante todo el ciclo de vida de la operación comercial para acceder a sus detalles o actualizarlos."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Identificación inequívoca de una operación de garantía asignada por la parte instructora."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "Status": {
+      "definition": "Estado de la alegación."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado en el que se ha ejecutado una operación de negociación."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestructura que puede formar parte de una cámara de compensación y que facilita la compensación y liquidación para sus miembros interponiéndose entre el comprador y el vendedor. Puede compensar operaciones por saldos netos y se sustituye a sí misma como contraparte de liquidación de cada posición."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "DealPrice": {
+      "definition": "Especifica el precio del instrumento financiero negociado.|Es el precio de la operación individual.|Si solo hay una operación bursátil para la ejecución de la negociación, el precio pactado podría ser igual al precio de ejecución (salvo, por ejemplo, que el precio incluya comisiones o redondeos, o que se haya aplicado algún otro factor al precio pactado o al precio de ejecución, o a ambos)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días en los que se devenga el tipo de interés (nota de devengo diario)."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financiero que representa un conjunto de derechos del inversor frente al emisor."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elementos que caracterizan un instrumento financiero."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica las condiciones en las que se va a ejecutar o se ejecutó la orden/operación."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica el tipo de precio e información sobre el precio."
+    },
+    "QuantityAndAccountDetails": {
+      "definition": "Detalles sobre la cantidad del instrumento financiero y la cuenta implicada en la operación."
+    },
+    "SecuritiesFinancingDetails": {
+      "definition": "Detalles del cierre de la operación de financiación de valores."
+    },
+    "SettlementParameters": {
+      "definition": "Parámetros aplicados a la liquidación de una transferencia de valores."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "OtherAmounts": {
+      "definition": "Importes distintos del importe de liquidación."
+    },
+    "OtherBusinessParties": {
+      "definition": "Otras partes comerciales relevantes para la operación."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  },
+  "isoRules": {
+    "LateDeliveryDateRule": {
+      "definition": "Si se utiliza LateDeliveryDate, entonces la operación debe ser una operación de pool resultante del TBA (To Be Announced) original. El TBA original sería compensado por una operación opuesta y sustituido por compras o ventas de pools individuales. Es una fecha posterior a la fecha de liquidación indicada en la operación, para pools diseñados para liquidarse tarde."
+    },
+    "TradeDateRule": {
+      "definition": "Si Trade Date/Time se utiliza con una hora o una hora + indicador UTC, debe ser la hora local del lugar de la operación, por ejemplo, de la bolsa de valores, o del corredor vendedor en el caso de operaciones OTC."
+    },
+    "SettlementAmountRule": {
+      "definition": "Si la instrucción es contra pago, SettlementAmount debe estar presente."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Si la instrucción es una entrega, entonces ReceivingParty 1 debe estar presente."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Si la instrucción es una recepción, entonces DeliveringParty1 debe estar presente."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Para la liquidación de operaciones de dos tramos (financiación de valores), la apertura/inicio y el cierre/devolución de la operación se confirman enviando la siguiente combinación de códigos TransactionIdentificationDetails/SecuritiesMovementType y códigos SettlementParameters/SecuritiesTransactionType:||Apertura de repo|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Cierre de repo|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Apertura de repo inverso|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Cierre de repo inverso|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Apertura de repo tripartito|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Cierre de repo tripartito|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Apertura de repo inverso tripartito|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Cierre de repo inverso tripartito|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Inicio de préstamo de valores|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Devolución de préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Inicio de toma en préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Devolución de toma en préstamo de valores|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Para la liquidación de operaciones de dos partes (compra-venta con pacto de recompra, venta-compra con pacto de recompra, garantía entrante y saliente), la apertura/iniciación y el cierre/devolución de la operación se alegan enviando la siguiente combinación de códigos SecuritiesMovementType y códigos SettlementParameters/SecuritiesTransactionType:||Sell-Buy Back: Sell|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: Buy Back|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: Buy|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back: Sell Back|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Collateral (giver) Out Initiation|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Collateral (giver) Out Return|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Collateral (taker) In Initiation|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Collateral (taker) In Return|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "TransactionChannel1Code",
+  "definition": "Identifica el tipo de canales de comunicación utilizados por el titular de la tarjeta hacia el sistema del aceptante.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "Pedido por correo",
+      "definition": "Pedido por correo."
+    },
+    "TLPH": {
+      "name": "Pedido por teléfono",
+      "definition": "Pedido telefónico."
+    },
+    "ECOM": {
+      "name": "Comercio electrónico",
+      "definition": "Comercio electrónico."
+    },
+    "TVPY": {
+      "name": "Pago por televisión",
+      "definition": "Pago por televisión."
+    }
+  }
+}

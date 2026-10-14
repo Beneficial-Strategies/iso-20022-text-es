@@ -1,0 +1,17 @@
+{
+  "isoType": "SafeKeepingPlace4",
+  "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD).",
+  "isoElements": {
+    "SafekeepingPlaceFormat": {
+      "definition": "Identificación única de la parte."
+    },
+    "LEI": {
+      "definition": "Identificación de la entidad jurídica como identificación alternativa de un lugar de custodia."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceFormatOrLEIRule": {
+      "definition": "Debe estar presente SafekeepingPlaceFormat o debe estar presente LEI."
+    }
+  }
+}

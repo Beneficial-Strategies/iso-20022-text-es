@@ -1,0 +1,18 @@
+{
+  "isoType": "ResidentialStatus1Code",
+  "definition": "Especifica la condición de residencia de una persona física.",
+  "isoCodes": {
+    "RESI": {
+      "name": "Residente",
+      "definition": "Residente."
+    },
+    "PRES": {
+      "name": "Residente permanente",
+      "definition": "Residente permanente."
+    },
+    "NRES": {
+      "name": "No residente",
+      "definition": "No residente."
+    }
+  }
+}

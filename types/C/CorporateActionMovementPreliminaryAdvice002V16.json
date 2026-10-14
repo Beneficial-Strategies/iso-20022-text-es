@@ -1,0 +1,45 @@
+{
+  "isoType": "CorporateActionMovementPreliminaryAdvice002V16",
+  "definition": "Ámbito|El administrador de la cuenta envía el mensaje CorporateActionMovementPreliminaryAdvice al titular de la cuenta o a su agente designado:|- para informar sobre el saldo admisible y los derechos y,|- para preavisar una próxima contabilización o reversión de apuntes de valores y/o efectivo.|Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es Duplicate),|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy),|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es Copy Duplicate), utilizando los elementos pertinentes de la cabecera de aplicación empresarial (BAH).",
+  "isoRules": {
+    "RateAndCorporateActionEventRule": {
+      "definition": "Si el valor de código de CorporateActionMovementDetails/RateAndAmountDetails/GrossDistributionRate/NotSpecifiedRate o el valor de código de CorporateActionMovementDetails/RateAndAmountDetails/GrossInterestRateUsedForPayment/NotSpecifiedRate es NILP (Nil Payment), entonces CorporateActionGeneralInformation/EventType/Code debe ser DVCA (CashDividend) o INTR (InterestPayment).|Si el valor de código de CorporateActionMovementDetails/CashMovementDetails/RateAndAmountDetails/GrossDistributionRate/NotSpecifiedRate o el valor de código de CorporateActionMovementDetails/CashMovementDetails/RateAndAmountDetails/GrossInterestRateUsedForPayment/NotSpecifiedRate es NILP (Nil Payment), entonces CorporateActionGeneralInformation/EventType/Code debe ser DVCA (CashDividend) o INTR (InterestPayment)."
+    },
+    "SafekeepingAccount1Rule": {
+      "definition": "Si el valor de AccountDetails/ForAllAccounts/IdentificationCode es GENR (General), entonces ningún elemento de la lista (MinimumNominalQuantity, MinimumExercisableQuantity,MinimumExercisableMultipleQuantity, ContractSize) debe estar presente en ninguna ocurrencia de CorporateActionMovementDetails/SecuritiesMovementDetails/SecurityDetails;|(MT564 Rule C2 - part 1)."
+    },
+    "SafekeepingAccount2Rule": {
+      "definition": "Si el valor de AccountDetails/ForAllAccounts/IdentificationCode es GENR (General), entonces AmountDetails no debe estar presente en ninguna ocurrencia de CorporateActionMovementDetails/CashMovementDetails.|(MT564 Rule C2 - part 2)."
+    },
+    "OtherEventRule": {
+      "definition": "Si CorporateActionGeneralInformation/EventType/Code es OTHR (Other), entonces al menos una ocurrencia de AdditionalInformation/AdditionalText/AdditionalInformation debe estar presente.|(MT564 NVR C4)."
+    },
+    "IntermediateSecuritiesDistributionRule": {
+      "definition": "Si CorporateActionGeneralInformation/EventType/Code es RHDI (IntermediateSecuritiesDistribution), entonces CorporateActionDetails/IntermediateSecuritiesDistributionType debe estar presente.|(MT 564 NVR C11)."
+    },
+    "AppliedOptionRule": {
+      "definition": "Si el valor de CorporateActionMovementDetails/AppliedOptionIndicator es 'true' o '1' (Yes) en una o más ocurrencias de CorporateActionMovementDetails, entonces el valor de CorporateActionGeneralInformation/MandatoryVoluntaryEventType/Code debe ser CHOS (MandatoryWithOptions) y al menos uno de los valores de CorporateActionDetails/AdditionalBusinessProcessIndicator/Code debe ser REAC (RequiredAction)."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "Si en al menos una ocurrencia de CorporateActionMovementDetails el valor de OptionType/Code es BOBD (BeneficialOwnerBreakdownRequest), entonces el valor de CorporateActionGeneralInformation/EventType/Code debe ser WTRC (Withholding Tax Relief Certification).|(MT 564 NVR C23)."
+    },
+    "IncentivePremiumEventType1Rule": {
+      "definition": "Si el valor de Code es igual a INCP (IncentivePremiumPayment) en CorporateActionDetails/AdditionalBusinessProcessIndicator, entonces el valor de CorporateActionGeneralInformation/EventType/Code debe ser igual a CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "BeneficialOwnerBreakdownRequestUGRule": {
+      "definition": "Si en al menos una repetición de CorporateActionOptionDetails el valor de OptionType/Code es BOBD (BeneficialOwnerBreakdownRequest), el valor de CorporateActionGeneralInformation/EventType/Code debe ser WTRC (Withholding Tax Relief Certification).|(MT 564 NVR C23)."
+    },
+    "IncentivePremiumEventTypeUG1Rule": {
+      "definition": "Si el valor de Code es INCP (IncentivePremiumPayment) en cualquier repetición de CorporateActionDetails/AdditionalBusinessProcessIndicator, el valor de CorporateActionGeneralInformation/EventType/Code debe ser CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "ReversalReasonRule": {
+      "definition": "Si el valor de CorporateActionDetails/AdditionalBusinessProcessIndicator/Code es igual a REVR (ReversalReason), entonces |ReversalReason debe estar presente y el valor de código de MovementPreliminaryAdviceGeneralInformation/Function es igual a CAPA (PreadviceOfMovement)."
+    },
+    "PreviousMovementPreliminaryAdviceIdentification1Rule": {
+      "definition": "Si MovementPreliminaryAdiceGeneralInformation/Type es REPL (Replace) y Pagination/PageNumber es igual al valor 1, entonces PreviousMovementPreliminaryAdviceIdentification debe estar presente.|(MT 564 NVR C9)."
+    },
+    "PaginationRule": {
+      "definition": "Si pagination está presente, entonces MovementPreliminaryAdviceGeneralInformation/MovementPreliminaryAdviceIdentification debe estar presente."
+    }
+  }
+}

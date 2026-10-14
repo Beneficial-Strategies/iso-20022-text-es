@@ -1,0 +1,27 @@
+{
+  "isoType": "TrackerData8",
+  "definition": "Especifica la información detallada proporcionada por un sistema de seguimiento de pagos.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "definition": "Momento en que se ha abonado en la cuenta del beneficiario los fondos de un pago."
+    },
+    "ConfirmedAmount": {
+      "definition": "Importe de dinero efectivamente abonado al beneficiario y confirmado al sistema de seguimiento por el agente."
+    },
+    "ReturnedConfirmedDate": {
+      "definition": "Momento en que se ha abonado en la cuenta del beneficiario los fondos de una devolución de pago."
+    },
+    "ReturnedConfirmedAmount": {
+      "definition": "Importe de dinero efectivamente abonado al beneficiario por una devolución de pago y confirmado al sistema de seguimiento por el agente."
+    },
+    "RemainingToBeConfirmedAmount": {
+      "definition": "Importe de dinero que queda por confirmar."
+    },
+    "PreviouslyConfirmedAmount": {
+      "definition": "Importe de dinero abonado previamente al beneficiario y confirmado al sistema de seguimiento por el agente."
+    },
+    "PreviouslyConfirmedDate": {
+      "definition": "Momento en que se confirmó el importe anterior.||Uso:|Esta fecha indica el momento en que se facilitó al rastreador el último importe confirmado anteriormente, en caso de confirmación parcial."
+    }
+  }
+}

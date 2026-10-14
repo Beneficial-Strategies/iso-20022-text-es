@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceMovementPendingReportV02",
+  "definition": "Este mensaje IntraBalanceMovementPendingReport lo envía una infraestructura de liquidación a un titular de cuenta/solicitante para informar de las instrucciones de movimiento entre saldos, enviadas previamente por el titular de la cuenta, que tienen estado pendiente.||El mensaje también puede utilizarse para: |- reenviar un mensaje enviado por el titular de la cuenta a la entidad gestora de la cuenta (la subfunción del mensaje es \"Duplicate\") |- proporcionar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy\") |- reenviar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es igual a Yes (true o 1), entonces Movements debe estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es igual a No (false o 0), entonces Movements debe estar ausente."
+    }
+  }
+}

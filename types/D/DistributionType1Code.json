@@ -1,0 +1,10 @@
+{
+  "isoType": "DistributionType1Code",
+  "definition": "Especifica si el producto del evento se distribuirá de forma continua en lugar de en una fecha específica.",
+  "isoCodes": {
+    "ROLL": {
+      "name": "Base renovable",
+      "definition": "El evento tendrá una serie de fechas de aceptación y de pago hasta nuevo anuncio del emisor o de su agente."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Participation6",
+  "definition": "Facilita información sobre el nivel de participación en una junta de accionistas.",
+  "isoElements": {
+    "TotalNumberOfVotingRights": {
+      "definition": "Número de derechos admitidos a la votación."
+    },
+    "PercentageOfVotingRights": {
+      "definition": "Porcentaje de derechos que participan en la votación respecto del total de derechos de voto."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "definition": "Número de valores admitidos a la votación, expresado como número de unidades o como importe nominal."
+    },
+    "CalculationDate": {
+      "definition": "Fecha de cálculo del número total de valores en circulación."
+    }
+  }
+}

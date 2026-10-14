@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationMethod2Choice",
+  "definition": "Especifica una elección para el método de comunicación de documentos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identificación única e inequívoca del método de comunicación mediante una lista de códigos."
+    },
+    "Proprietary": {
+      "definition": "Identificación única e inequívoca del método de comunicación mediante una descripción acordada bilateral o multilateralmente."
+    }
+  }
+}

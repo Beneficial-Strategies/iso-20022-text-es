@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementParties119",
+  "definition": "Cadena de partes que intervienen en la liquidación de una operación, incluidas recepciones y entregas, traspasos contables, operaciones de tesorería u otras actividades, que dan lugar al movimiento de un valor o de un importe de dinero de una cuenta a otra.",
+  "isoElements": {
+    "Party2": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 1."
+    },
+    "Party3": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 2."
+    },
+    "Party4": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 3."
+    },
+    "Party5": {
+      "definition": "Parte que, en una cadena de liquidación, interactúa con la parte 4."
+    }
+  },
+  "isoRules": {
+    "Party3PresenceRule": {
+      "definition": "Si Party3 está presente, Party2 debe estar presente."
+    },
+    "Party4PresenceRule": {
+      "definition": "Si Party4 está presente, Party3 debe estar presente."
+    },
+    "Party5PresenceRule": {
+      "definition": "Si Party5 está presente, Party4 debe estar presente."
+    },
+    "BookTransferGuideline": {
+      "definition": "En caso de traspaso interno entre cuentas propias, traspaso externo entre cuentas propias, traspaso de cartera y traspaso en especie (véase SecuritiesTransactionType), debe indicarse la cuenta de Party2 (entregador) en Party1 (entregador).|Para más detalles, consulte el documento de prácticas de mercado correspondiente en www.smpg.info."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrument101Choice",
+  "definition": "Elección de instrumento financiero.",
+  "isoElements": {
+    "Security": {
+      "definition": "Identificación del valor."
+    },
+    "CashAsset": {
+      "definition": "Identificación del activo en efectivo."
+    },
+    "OtherAsset": {
+      "definition": "Identificación de otro tipo de activo de la posición que no sea un valor ni efectivo."
+    }
+  }
+}

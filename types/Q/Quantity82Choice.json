@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity82Choice",
+  "definition": "Cantidad total de valores que se van a transferir, expresada en un número de participaciones o en un porcentaje.",
+  "isoElements": {
+    "TotalUnitsNumber": {
+      "definition": "Cantidad total de valores que se van a transferir."
+    },
+    "TransferRate": {
+      "definition": "Cantidad de valores que se van a transferir como porcentaje de la posición."
+    }
+  }
+}

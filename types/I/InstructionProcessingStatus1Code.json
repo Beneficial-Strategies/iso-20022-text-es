@@ -1,0 +1,134 @@
+{
+  "isoType": "InstructionProcessingStatus1Code",
+  "definition": "Especifica el estado de una instrucción.",
+  "isoCodes": {
+    "CAN1": {
+      "name": "Cancelación 1",
+      "definition": "Cancelación pendiente; solo se ha introducido uno de los lados y se ha enviado una solicitud de cancelación."
+    },
+    "CAN2": {
+      "name": "Cancelación 2",
+      "definition": "Cancelación pendiente; se han introducido ambos lados, la operación aún no ha coincidido y uno de los lados ha enviado una solicitud de cancelación."
+    },
+    "CAN3": {
+      "name": "Cancelación 3",
+      "definition": "Cancelación pendiente; se han introducido ambos lados, la operación ha coincidido y uno de los lados ha enviado una solicitud de cancelación."
+    },
+    "CAND": {
+      "name": "Cancelado",
+      "definition": "La instrucción ha sido cancelada."
+    },
+    "CANO": {
+      "name": "Cancelado por otra parte",
+      "definition": "La instrucción ha sido cancelada por una parte distinta de la parte instructora, por ejemplo, una infraestructura de mercado como una bolsa de valores."
+    },
+    "CANP": {
+      "name": "Cancelación pendiente",
+      "definition": "Su solicitud de cancelación de esta instrucción está pendiente a la espera de su posterior procesamiento."
+    },
+    "CGEN": {
+      "name": "Generado",
+      "definition": "La entidad gestora de la cuenta o un tercero creó la operación. No fue instruida directamente por el titular de la cuenta."
+    },
+    "COSE": {
+      "name": "Totalmente ejecutado, confirmación enviada",
+      "definition": "La orden está totalmente ejecutada y se envió la confirmación."
+    },
+    "CPRC": {
+      "name": "Cancelación solicitada",
+      "definition": "La solicitud de cancelación de la contraparte está a la espera de su solicitud de cancelación o de su consentimiento."
+    },
+    "DFLA": {
+      "name": "Acción por defecto",
+      "definition": "Se adopta la acción por defecto."
+    },
+    "DONE": {
+      "name": "Realizado",
+      "definition": "La orden está parcialmente ejecutada y no se esperan más ejecuciones durante la jornada de negociación."
+    },
+    "DONF": {
+      "name": "Orden parcialmente ejecutada",
+      "definition": "La orden está parcialmente ejecutada y no se realizarán más ejecuciones."
+    },
+    "EXCH": {
+      "name": "Recibido en la bolsa de valores",
+      "definition": "La orden ha sido recibida en la bolsa de valores."
+    },
+    "EXSE": {
+      "name": "Totalmente ejecutado, ejecución enviada",
+      "definition": "La orden fue totalmente ejecutada y se envió la ejecución."
+    },
+    "FORC": {
+      "name": "Rechazo forzado",
+      "definition": "El proveedor de servicios ha enviado automáticamente el mensaje para notificar que la liquidación no tendrá lugar."
+    },
+    "FUTU": {
+      "name": "Futuro",
+      "definition": "Todas las comprobaciones relativas a la instrucción (excepto las de garantía) han sido satisfactorias."
+    },
+    "INTE": {
+      "name": "Recibido en el intermediario",
+      "definition": "La orden ha sido recibida en el intermediario."
+    },
+    "NOTC": {
+      "name": "Ya casado y afirmado",
+      "definition": "La instrucción no puede cancelarse porque ya ha coincidido y ha sido afirmada."
+    },
+    "OPOD": {
+      "name": "Orden abierta",
+      "definition": "La orden está abierta."
+    },
+    "OVER": {
+      "name": "Sobreasignado",
+      "definition": "La cantidad de instrumento financiero de la operación en bloque ha sido sobreasignada."
+    },
+    "PACK": {
+      "name": "Acuse de recibo aceptado",
+      "definition": "La instrucción ha sido recibida/aceptada por la entidad gestora de la cuenta para su posterior tramitación."
+    },
+    "PAFI": {
+      "name": "Ejecución parcial",
+      "definition": "La orden ha sido parcialmente ejecutada y la cantidad restante está en almacén."
+    },
+    "PART": {
+      "name": "Cancelación parcial",
+      "definition": "La orden ha sido parcialmente cancelada según lo solicitado."
+    },
+    "PPRC": {
+      "name": "Pendiente de procesamiento",
+      "definition": "El procesamiento de la instrucción está pendiente."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "La instrucción ha sido rechazada para su posterior tramitación."
+    },
+    "REPR": {
+      "name": "En reparación",
+      "definition": "La instrucción ha sido aceptada, pero está en reparación."
+    },
+    "SESE": {
+      "name": "Instrucción de liquidación enviada",
+      "definition": "La instrucción de liquidación ha sido enviada a su custodio."
+    },
+    "STIN": {
+      "name": "Instrucción permanente",
+      "definition": "Se ha aplicado la instrucción permanente."
+    },
+    "SUSP": {
+      "name": "Negociación suspendida por la bolsa de valores",
+      "definition": "La negociación ha sido suspendida por la bolsa de valores."
+    },
+    "TREA": {
+      "name": "Tratado",
+      "definition": "La operación ha sido tratada (estado de garantía tripartita)."
+    },
+    "UNDE": {
+      "name": "Infraasignado",
+      "definition": "La cantidad de instrumento financiero de la operación en bloque ha sido infraasignada."
+    },
+    "MPRC": {
+      "name": "Modificación solicitada",
+      "definition": "La solicitud de modificación de la contraparte está a la espera de su solicitud de modificación o de su consentimiento."
+    }
+  }
+}

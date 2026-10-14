@@ -1,0 +1,69 @@
+{
+  "isoType": "IndividualPerson37",
+  "definition": "Entidad humana, a diferencia de una entidad corporativa (que a veces se denomina «persona jurídica»).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Término utilizado para dirigirse a la persona."
+    },
+    "GivenName": {
+      "definition": "Nombre de pila de la persona."
+    },
+    "MiddleName": {
+      "definition": "Segundo nombre de la persona."
+    },
+    "Name": {
+      "definition": "Nombre por el que se conoce a la parte y que se utiliza habitualmente para identificar a esa persona."
+    },
+    "NameSuffix": {
+      "definition": "Información adicional sobre la persona que sigue al nombre de la persona, por ejemplo, una titulación como Doctor en Filosofía (PhD)."
+    },
+    "Gender": {
+      "definition": "Sexo de la persona."
+    },
+    "BirthDate": {
+      "definition": "Fecha de nacimiento de la persona."
+    },
+    "CountryOfBirth": {
+      "definition": "País de nacimiento de la persona."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Provincia de nacimiento de la persona."
+    },
+    "CityOfBirth": {
+      "definition": "Ciudad de nacimiento de la persona."
+    },
+    "Profession": {
+      "definition": "Nombre de la ocupación o profesión de la persona."
+    },
+    "PostalAddress": {
+      "definition": "Dirección de la persona."
+    },
+    "Citizenship": {
+      "definition": "Nacionalidad y condición jurídica (menor o mayor de edad)."
+    },
+    "EmployingCompany": {
+      "definition": "Organización representada por una persona, o para la que trabaja una persona."
+    },
+    "BusinessFunction": {
+      "definition": "Título del cargo."
+    },
+    "PoliticallyExposedPerson": {
+      "definition": "Comprobaciones de personas con responsabilidad pública."
+    },
+    "DeathDate": {
+      "definition": "Fecha de fallecimiento."
+    },
+    "CivilStatus": {
+      "definition": "Estado civil de la persona física."
+    },
+    "EducationLevel": {
+      "definition": "Nivel máximo de estudios alcanzado por la persona física."
+    },
+    "FamilyInformation": {
+      "definition": "Información relativa a la persona."
+    },
+    "GDPRData": {
+      "definition": "Información sobre el consentimiento de la persona para el uso de datos personales conforme al Reglamento General de Protección de Datos (GDPR) 2016/679."
+    }
+  }
+}

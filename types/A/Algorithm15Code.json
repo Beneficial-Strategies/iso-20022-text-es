@@ -1,0 +1,22 @@
+{
+  "isoType": "Algorithm15Code",
+  "definition": "Algoritmos criptográficos para cifrados con una clave criptográfica simétrica.",
+  "isoCodes": {
+    "EA2C": {
+      "name": "AES128CBC",
+      "definition": "Cifrado AES (Advanced Encryption Standard) CBC (Chaining Block Cypher) con una clave criptográfica de 128 bits, según los Estándares Federales de Procesamiento de la Información (FIPS 197 - 6 de noviembre de 2001 - Advanced Encryption Standard)."
+    },
+    "E3DC": {
+      "name": "DES112CBC",
+      "definition": "Cifrado Triple DES (Data Encryption Standard) CBC (Chaining Block Cypher) con clave de doble longitud (112 bits), según FIPS PUB 46-3 - (ASN.1 Object Identifier: des-ede3-cbc)."
+    },
+    "EA9C": {
+      "name": "AES192CBC",
+      "definition": "Cifrado AES (Advanced Encryption Standard) CBC (Chaining Block Cypher) con una clave criptográfica de 192 bits, según los Estándares Federales de Procesamiento de la Información (FIPS 197 - 6 de noviembre de 2001 - Advanced Encryption Standard)."
+    },
+    "EA5C": {
+      "name": "AES256CBC",
+      "definition": "Cifrado AES (Advanced Encryption Standard) CBC (Chaining Block Cypher) con una clave criptográfica de 256 bits, según los Estándares Federales de Procesamiento de la Información (FIPS 197 - 6 de noviembre de 2001 - Advanced Encryption Standard)."
+    }
+  }
+}

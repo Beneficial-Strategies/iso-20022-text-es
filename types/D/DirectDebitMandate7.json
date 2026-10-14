@@ -1,0 +1,39 @@
+{
+  "isoType": "DirectDebitMandate7",
+  "definition": "Partes y cuentas del mandato de adeudo directo.",
+  "isoElements": {
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se realizará un adeudo como resultado de la operación."
+    },
+    "Debtor": {
+      "definition": "Parte que debe el efectivo al beneficiario/parte final. El ordenante es también el titular de la cuenta de adeudo."
+    },
+    "DebtorTaxIdentificationNumber": {
+      "definition": "Número asignado por una autoridad tributaria a una entidad."
+    },
+    "DebtorNationalRegistrationNumber": {
+      "definition": "Número asignado por una autoridad nacional de registro a una entidad."
+    },
+    "Creditor": {
+      "definition": "Parte que recibe un importe de dinero del ordenante. En el contexto del modelo de pagos, el beneficiario es también el titular de la cuenta de abono."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que recibe la instrucción de adeudo directo del beneficiario u otra parte autorizada."
+    },
+    "DebtorAgentBranch": {
+      "definition": "Información que identifica una sucursal específica de una entidad financiera.||Uso: este componente debe utilizarse en caso de que la información de identificación del componente de entidad financiera no permita identificar hasta el nivel de sucursal."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que recibe la operación de pago en nombre del beneficiario, u otra parte designada, y abona la cuenta."
+    },
+    "CreditorAgentBranch": {
+      "definition": "Información que identifica una sucursal específica de una entidad financiera.||Uso: este componente debe utilizarse en caso de que la información de identificación del componente de entidad financiera no permita identificar hasta el nivel de sucursal."
+    },
+    "RegistrationIdentification": {
+      "definition": "Referencia asignada a un beneficiario por su entidad financiera, o la autoridad competente, que autoriza al beneficiario a participar en un esquema de adeudo directo."
+    },
+    "MandateIdentification": {
+      "definition": "Referencia del mandato de adeudo directo acordado entre el ordenante y el beneficiario."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMPropertyType1Code",
+  "definition": "Tipo de codificación de la propiedad.",
+  "isoCodes": {
+    "STRG": {
+      "name": "Cadena",
+      "definition": "La propiedad está codificada como cadena."
+    },
+    "NMBR": {
+      "name": "Número",
+      "definition": "La propiedad está codificada como número."
+    },
+    "BOOL": {
+      "name": "Booleano",
+      "definition": "La propiedad está codificada como booleano."
+    },
+    "JSON": {
+      "name": "JSON",
+      "definition": "La propiedad está codificada en JSON."
+    },
+    "CSVF": {
+      "name": "CSV",
+      "definition": "La propiedad es una cadena CSV que representa una tabla de datos."
+    }
+  }
+}

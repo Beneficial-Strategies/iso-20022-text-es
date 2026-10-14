@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionTransferScope1Choice",
+  "definition": "Elección de formatos para el alcance de una transferencia de pensiones.",
+  "isoElements": {
+    "Code": {
+      "definition": "Alcance de la transferencia de la póliza, plan o esquema de pensiones expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Alcance de la transferencia de la póliza, plan o esquema de pensiones expresado como código propietario."
+    }
+  }
+}

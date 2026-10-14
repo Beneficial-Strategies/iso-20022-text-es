@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentReversalReason10",
+  "definition": "Proporciona más detalles sobre el motivo de la reversión de la operación.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite la reversión."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la reversión."
+    },
+    "AdditionalInformation": {
+      "definition": "Identificación de la información del pago original"
+    }
+  }
+}

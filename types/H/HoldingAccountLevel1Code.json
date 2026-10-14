@@ -1,0 +1,46 @@
+{
+  "isoType": "HoldingAccountLevel1Code",
+  "definition": "Especifica el nivel en el que se ha definido la cuenta de tenencia de valores en custodia.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Cuenta de custodia",
+      "definition": "La cuenta de tenencia se define como la cuenta de valores en custodia (nivel 0)."
+    },
+    "LVL1": {
+      "name": "Nivel 1",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 1."
+    },
+    "LVL2": {
+      "name": "Nivel 2",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 2."
+    },
+    "LVL3": {
+      "name": "Nivel 3",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 3."
+    },
+    "LVL4": {
+      "name": "Nivel 4",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 4."
+    },
+    "LVL5": {
+      "name": "Nivel 5",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 5."
+    },
+    "LVL6": {
+      "name": "Nivel 6",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 6."
+    },
+    "LVL7": {
+      "name": "Nivel 7",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 7."
+    },
+    "LVL8": {
+      "name": "Nivel 8",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 8."
+    },
+    "LVL9": {
+      "name": "Nivel 9",
+      "definition": "La cuenta de tenencia se define como la cuenta del subnivel 9."
+    }
+  }
+}

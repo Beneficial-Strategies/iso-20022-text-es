@@ -1,0 +1,38 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureRequestV04",
+  "definition": "El mensaje ShareholdersIdentificationDisclosureRequest es enviado por un emisor o por un tercero designado por el emisor (como un agente del emisor) a los primeros intermediarios de una cadena de custodia, o es enviado por cualquier intermediario de una cadena de custodia al siguiente intermediario de la cadena (hacia el lado del inversor), con el fin de solicitar la divulgación de la identidad de los accionistas, y proporciona información sobre la parte receptora a la que se deben enviar las respuestas, sobre el instrumento financiero en cuestión y sobre el plazo para responder.",
+  "isoElements": {
+    "IssuerDisclosureRequestIdentification": {
+      "definition": "Identificación oficial y única asignada a un proceso de solicitud de divulgación de la identificación de accionistas por el emisor o por el tercero designado por este."
+    },
+    "DisclosureRequestType": {
+      "definition": "Especifica el tipo de solicitud de divulgación."
+    },
+    "PreviousDisclosureRequestIdentification": {
+      "definition": "Identificación de un mensaje de solicitud de divulgación de la identificación de accionistas enviado previamente."
+    },
+    "ForwardRequestIndicator": {
+      "definition": "Indica si la solicitud debe reenviarse a los demás intermediarios de la cadena y ser respondida por ellos, o no. Si la solicitud no debe reenviarse, el indicador puede no estar presente."
+    },
+    "ResponseThroughChainIndicator": {
+      "definition": "Indica si la respuesta de divulgación de la identificación de accionistas debe enviarse de vuelta a través de la cadena de intermediarios o directamente al destinatario de respuesta identificado. |Si es \"true\" o \"1\", la respuesta debe enviarse de vuelta a través de la cadena de intermediarios.|Si es \"false\" o \"0\", o si el indicador no está presente, la respuesta debe enviarse directamente al destinatario de respuesta identificado."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "definition": "Indica si la solicitud fue iniciada por el primer intermediario de la cadena de custodia de conformidad con la SRD II."
+    },
+    "PlaceOfJurisdiction": {
+      "definition": "Legislación aplicable o lugar de jurisdicción al que se refiere la solicitud de divulgación."
+    },
+    "ApplicableLaw": {
+      "definition": "Identificación de la ley a la que se refiere la solicitud de divulgación."
+    },
+    "SharesQuantityThreshold": {
+      "definition": "Número mínimo de acciones mantenidas por un accionista por encima del cual debe divulgarse la identificación."
+    }
+  },
+  "isoRules": {
+    "PreviousDisclosureRequestIdentificationRule": {
+      "definition": "Si DisclosureRequestType es REPL (Replacement), PreviousDisclosureRequestIdentification debe estar presente."
+    }
+  }
+}

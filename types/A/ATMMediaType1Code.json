@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMMediaType1Code",
+  "definition": "Tipo de soporte dentro de un cartucho del cajero automático (ATM).",
+  "isoCodes": {
+    "CARD": {
+      "name": "Tarjetas",
+      "definition": "Soporte de tarjetas."
+    },
+    "COIN": {
+      "name": "Monedas",
+      "definition": "Soporte de monedas."
+    },
+    "CMDT": {
+      "name": "Mercancía",
+      "definition": "Valor no fijo del soporte, por ejemplo oro o plata."
+    },
+    "CPNS": {
+      "name": "Cupones",
+      "definition": "Soporte de cupones."
+    },
+    "NOTE": {
+      "name": "Billetes",
+      "definition": "Soporte de billetes."
+    },
+    "STMP": {
+      "name": "Sellos",
+      "definition": "Soporte de sellos."
+    },
+    "UDTM": {
+      "name": "Sin determinar",
+      "definition": "Soportes sin determinar."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "RateAndAmountFormat62Choice",
+  "definition": "Elección de formato entre un tipo, o un tipo de tipo presunto y un tipo, o un importe, o un tipo no especificado.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Valor expresado como una tasa."
+    },
+    "Amount": {
+      "definition": "El valor se expresa como una divisa y un importe."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "El valor se expresa como un tipo de tipo y un importe."
+    },
+    "RateTypeAndRate": {
+      "definition": "El valor se expresa como un tipo de tasa y una tasa porcentual."
+    }
+  }
+}
