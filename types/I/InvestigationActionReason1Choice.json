@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationActionReason1Choice",
+  "definition": "Especifica el motivo de la acción solicitada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de la acción, tal como se publica en una lista externa de códigos de motivo de acción de investigación."
+    },
+    "Proprietary": {
+      "definition": "Motivo de la acción, en forma propietaria."
+    }
+  }
+}

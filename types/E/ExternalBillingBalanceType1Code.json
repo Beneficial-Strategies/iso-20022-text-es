@@ -1,0 +1,98 @@
+{
+  "isoType": "ExternalBillingBalanceType1Code",
+  "definition": "Especifica el saldo del servicio de facturación, tal como se publica en un conjunto de códigos externo de saldos de facturación.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "ABRR": {
+      "name": "Reserva obligatoria adicional sobre saldo",
+      "definition": "Diferencia entre el saldo invertible excedente/(deficitario) y el saldo cobrado excedente/(deficitario) debida al requisito de reservas. Este saldo no se utiliza si la tasa de abono por rendimientos de la cuenta es neta de reservas. Puede utilizarse cuando la tasa de bonificación de rendimientos no está ajustada por reservas. Es posible que las reservas se hayan restado del saldo cobrado para determinar el saldo invertible. Por tanto, deben volver a sumarse al saldo invertible excedente/(deficitario) para determinar la posición del saldo cobrado. La presentación de este cálculo es opcional. Código AFP=00 04 21"
+    },
+    "BEQU": {
+      "name": "Saldo equivalente",
+      "definition": "Saldo necesario para compensar los cargos por servicios compensables con saldo del periodo de análisis actual. El saldo equivalente puede calcularse de dos maneras distintas. La primera consiste simplemente en multiplicar el total de cargos por servicios compensables con saldo por el multiplicador. El segundo cálculo incorpora todos los elementos del cálculo del multiplicador. Obsérvese que este cálculo puede dar un valor ligeramente diferente debido a la precisión decimal y al redondeo utilizados en el cálculo: código AFP=00 04 00"
+    },
+    "CBAM": {
+      "name": "Saldo cobrado medio negativo",
+      "definition": "Suma únicamente de los saldos cobrados diarios finales NEGATIVOS dividida por el número de días del periodo del extracto. El saldo negativo medio, si existe, siempre lleva signo positivo. Los saldos son netos de los ajustes del periodo actual. Obsérvese que un saldo NEGATIVO es igual al saldo POSITIVO menos el saldo NETO. Obsérvese que puede aplicarse a este saldo un tipo de interés sobre saldo cobrado NEGATIVO para determinar un cargo por intereses de descubierto. Código AFP=00 00 13 (NEGATIVE) (POSITIVE) (OD)"
+    },
+    "CBAN": {
+      "name": "Saldo cobrado medio neto",
+      "definition": "Suma de los saldos cobrados diarios finales (tanto positivos como negativos) dividida por el número de días del periodo del extracto. Un valor con signo negativo indica un saldo NETO medio negativo. Si se utiliza una tasa de bonificación/abono de rendimientos ajustada por reservas, este saldo puede ser igual al saldo invertible (00 00 40). Los saldos son netos de los ajustes del periodo actual. Los saldos cobrados representan dinero depositado que ha sido cobrado y excluye el dinero en flotación. Obsérvese que un saldo NETO es igual al saldo POSITIVO menos el saldo NEGATIVO. Obsérvese que puede aplicarse a este saldo, si es negativo, un tipo de interés de descubierto sobre saldo cobrado NETO (00 01 43) para determinar un cargo por intereses de descubierto. Código AFP=00 00 10 (POSITIVE) (NEGATIVE) (OD)"
+    },
+    "CBAP": {
+      "name": "Saldo cobrado medio positivo",
+      "definition": "Suma únicamente de los saldos cobrados diarios finales POSITIVOS dividida por el número de días del periodo del extracto. Los saldos son netos de los ajustes del periodo actual. Los saldos cobrados representan dinero depositado que ha sido cobrado y excluye el dinero en flotación. Obsérvese que un saldo POSITIVO es igual al saldo NETO más el saldo NEGATIVO. Código AFP=00 00 11 (POSITIVE) (NEGATIVE)"
+    },
+    "DABR": {
+      "name": "Reserva obligatoria sobre el saldo de cuentas de depósito a la vista",
+      "definition": "Parte del saldo de la cuenta de depósito a la vista que la entidad debe reservar para cumplir los requisitos de reservas. Código AFP=00 04 20"
+    },
+    "EDCB": {
+      "name": "Exceso o déficit del saldo cobrado",
+      "definition": "Saldo cobrado restante una vez deducido el saldo necesario para compensar los cargos por servicios compensables con saldo del periodo de análisis actual. Si es negativo (déficit), representa el saldo cobrado adicional necesario para compensar íntegramente los cargos por servicios compensables con saldo del periodo actual. Si es positivo (excedente), representa el superávit de saldo cobrado tras compensar los cargos por servicios compensables con saldo del periodo actual. Código AFP=00 04 12"
+    },
+    "EDIB": {
+      "name": "Exceso o déficit del saldo invertible",
+      "definition": "Saldo invertible restante una vez deducido el saldo necesario para compensar los cargos por servicios compensables con saldo del periodo de análisis actual. Si es negativo (déficit), representa el saldo invertible adicional necesario para compensar íntegramente los cargos por servicios compensables con saldo del periodo actual. Si es positivo (excedente), representa el superávit de saldo invertible tras compensar los cargos por servicios compensables con saldo del periodo actual. Según el tipo de cuenta subyacente, puede aplicarse un tipo de interés firme a un excedente de saldo, lo que da lugar a un abono de intereses firmes en la cuenta subyacente. Código AFP=00 04 10"
+    },
+    "FDIC": {
+      "name": "Saldo base de la evaluación FDIC",
+      "definition": "Saldo de la cuenta utilizado para calcular el cargo de evaluación de la FDIC. Código AFP=00 00 50"
+    },
+    "FLBA": {
+      "name": "Saldo flotante medio",
+      "definition": "Suma del importe diario en dólares de las partidas en proceso de cobro dividida por el número de días del periodo del extracto. Código AFP=00 00 30"
+    },
+    "FLPP": {
+      "name": "Ajuste de saldo por flotante medio del período anterior",
+      "definition": "Suma de los ajustes de la flotación media en uno o varios periodos anteriores. Un valor con signo negativo indica una reducción del saldo. Este saldo también puede utilizarse para ajustar los saldos cobrados medios, ya que el dinero en flotación tiene un efecto directo sobre los saldos cobrados. Código AFP=00 00 61"
+    },
+    "IBAL": {
+      "name": "Saldo invertible",
+      "definition": "Saldo sobre el que se aplica la tasa de bonificación/abono de rendimientos. Este valor puede tener signo positivo o negativo. Un saldo con signo negativo indica una escasez de fondos invertibles y puede dar lugar a un cargo. Código AFP=00 00 40"
+    },
+    "IBIB": {
+      "name": "Saldo invertible con devengo de intereses",
+      "definition": "Saldo invertible medio que puede utilizarse para mostrar el saldo base para el cálculo de un abono de intereses firmes. Se trata de un abono de intereses firmes, a diferencia de un abono por rendimientos. Código AFP=00 00 75"
+    },
+    "IBLB": {
+      "name": "Saldo contable con devengo de intereses",
+      "definition": "Saldo contable medio que puede utilizarse para mostrar el saldo base para el cálculo de un abono de intereses firmes. Se trata de un abono de intereses firmes, a diferencia de un abono por rendimientos. Código AFP=00 00 70"
+    },
+    "IBNC": {
+      "name": "Saldo neto cobrado con devengo de intereses",
+      "definition": "Saldo cobrado neto medio que puede utilizarse para mostrar el saldo base para el cálculo de un abono de intereses firmes. Se trata de un abono de intereses firmes, a diferencia de un abono por rendimientos. Código AFP=00 00 71"
+    },
+    "IBNG": {
+      "name": "Saldo cobrado negativo con devengo de intereses",
+      "definition": "Saldo cobrado negativo medio que puede utilizarse para mostrar el saldo base para el cálculo de un adeudo de intereses firmes. Se trata de un adeudo de intereses firmes, a diferencia de un adeudo de abono por rendimientos. Código AFP=00 00 73"
+    },
+    "IBPC": {
+      "name": "Saldo cobrado positivo con devengo de intereses",
+      "definition": "Saldo cobrado positivo medio que puede utilizarse para mostrar el saldo base para el cálculo de un abono de intereses firmes. Se trata de un abono de intereses firmes, a diferencia de un abono por rendimientos. Código AFP=00 00 72"
+    },
+    "IBRR": {
+      "name": "Saldo de reservas obligatorias con devengo de intereses",
+      "definition": "Saldo medio del requisito de reservas que puede utilizarse para mostrar el saldo base para el cálculo de un abono de intereses firmes. Se trata de un abono de intereses firmes, a diferencia de un abono por rendimientos. Código AFP=00 00 74"
+    },
+    "LBAN": {
+      "name": "Saldo contable medio neto",
+      "definition": "Suma de los saldos contables diarios finales (tanto positivos como negativos) dividida por el número de días del periodo del extracto. Un valor con signo negativo indica un saldo NETO medio negativo. Los saldos son netos de los ajustes del periodo actual. El saldo contable incluye todo el dinero depositado que no ha sido cobrado, es decir, el dinero en flotación. Obsérvese que un saldo NETO es igual al saldo POSITIVO menos el saldo NEGATIVO. Obsérvese que puede aplicarse a este saldo, si es negativo, un tipo de interés de descubierto sobre saldo contable NETO para determinar un cargo por intereses de descubierto. Código AFP=00 00 00 (POSITIVE) (NEGATIVE) (OD)"
+    },
+    "LBAP": {
+      "name": "Saldo contable medio positivo",
+      "definition": "Suma únicamente de los saldos contables diarios finales POSITIVOS dividida por el número de días del periodo del extracto. Los saldos son netos de los ajustes del periodo actual. El saldo contable incluye todo el dinero depositado que no ha sido cobrado, es decir, el dinero en flotación. Obsérvese que un saldo POSITIVO es igual al saldo NETO más el saldo NEGATIVO. Código AFP=00 00 01 (POSITIVE) (NEGATIVE)"
+    },
+    "LBME": {
+      "name": "Saldo contable a fin de mes",
+      "definition": "Valor del saldo contable al final del mes natural. Código AFP=00 00 05"
+    },
+    "LBNM": {
+      "name": "Saldo contable medio negativo",
+      "definition": "Suma únicamente de los saldos contables diarios finales NEGATIVOS dividida por el número de días del periodo del extracto. El saldo negativo medio, si existe, siempre lleva signo positivo. Los saldos son netos de los ajustes del periodo actual. Obsérvese que un saldo NEGATIVO es igual al saldo POSITIVO menos el saldo NETO. Obsérvese que puede aplicarse a este saldo un tipo de interés sobre saldo contable NEGATIVO para determinar un cargo por intereses de descubierto. Código AFP=00 00 03 (NEGATIVE) (POSITIVE) (OD)"
+    },
+    "UCFU": {
+      "name": "Fondos no cobrados utilizados",
+      "definition": "Parte del saldo que es la diferencia entre el saldo cobrado negativo medio y el saldo contable negativo medio. Se utiliza para aislar la parte del saldo cobrado negativo que representa el uso de fondos no cobrados. Los saldos son netos de los ajustes del periodo actual. Obsérvese que puede aplicarse a este saldo la tasa de uso de fondos no cobrados para determinar un cargo por intereses de descubierto sobre fondos no cobrados. Código AFP=00 00 15 (OD)"
+    }
+  }
+}

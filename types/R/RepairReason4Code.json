@@ -1,0 +1,122 @@
+{
+  "isoType": "RepairReason4Code",
+  "definition": "Especifica el motivo por el que la instrucción de liquidación tiene situación de reparación.",
+  "isoCodes": {
+    "BATC": {
+      "name": "Lote en proceso",
+      "definition": "Lote de procesamiento no reconocido o no válido, es decir, diurno/en tiempo real cuando solo es posible liquidar en el lote nocturno."
+    },
+    "CAEV": {
+      "name": "Operación corporativa",
+      "definition": "Operación societaria pendiente sobre el instrumento financiero instruido."
+    },
+    "CASH": {
+      "name": "Cuenta de efectivo",
+      "definition": "Cuenta de efectivo no reconocida o no válida."
+    },
+    "CASY": {
+      "name": "Sistema de liquidación de efectivo imposible",
+      "definition": "Acuerdos permanentes imposibles anulan la instrucción para el sistema de liquidación de efectivo."
+    },
+    "DDAT": {
+      "name": "Fecha de liquidación",
+      "definition": "Fecha de liquidación no reconocida o no válida."
+    },
+    "DDEA": {
+      "name": "Precio de la transacción",
+      "definition": "Precio de la operación no reconocido o no válido."
+    },
+    "DMON": {
+      "name": "Importe de liquidación",
+      "definition": "Importe de liquidación no reconocido o no válido."
+    },
+    "DQUA": {
+      "name": "Cantidad",
+      "definition": "Cantidad de liquidación no reconocida o no válida."
+    },
+    "DSEC": {
+      "name": "Valor",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "DTRD": {
+      "name": "Fecha de negociación",
+      "definition": "Fecha de contratación no reconocida o no válida."
+    },
+    "IIND": {
+      "name": "Referencia común",
+      "definition": "Referencia común no reconocida, no válida o ausente."
+    },
+    "MINO": {
+      "name": "Cantidad mínima de liquidación",
+      "definition": "La cantidad instruida es inferior a la cantidad mínima de liquidación existente para el instrumento financiero."
+    },
+    "MUNO": {
+      "name": "Cantidad de liquidación múltiple",
+      "definition": "La cantidad instruida no es múltiplo de un lote de liquidación existente para el instrumento financiero."
+    },
+    "NCRR": {
+      "name": "Divisa del importe de liquidación",
+      "definition": "Divisa del importe de liquidación no reconocida o no válida."
+    },
+    "PHYS": {
+      "name": "Liquidación física imposible",
+      "definition": "La liquidación física es imposible para el instrumento financiero instruido."
+    },
+    "PLCE": {
+      "name": "Lugar de negociación",
+      "definition": "Lugar de negociación no reconocido o no válido."
+    },
+    "REFE": {
+      "name": "Referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida previamente."
+    },
+    "RTGS": {
+      "name": "Imposible utilizar el sistema RTGS indicado",
+      "definition": "Imposible utilizar el sistema RTGS instruido (NRTG o YRTG)."
+    },
+    "SAFE": {
+      "name": "Cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "SETR": {
+      "name": "Operación de liquidación",
+      "definition": "Tipo de operación de liquidación no reconocido o no válido."
+    },
+    "SETS": {
+      "name": "Método del sistema de liquidación",
+      "definition": "Sistema/método de liquidación instruido no reconocido o no válido."
+    },
+    "TXST": {
+      "name": "Situación fiscal",
+      "definition": "Régimen fiscal de los valores instruidos no reconocido o no válido."
+    },
+    "INPS": {
+      "name": "Lugar de custodia",
+      "definition": "Lugar de custodia no reconocido, no válido o ausente."
+    },
+    "SDUT": {
+      "name": "Impuesto de timbre",
+      "definition": "Falta la información requerida sobre el impuesto de timbre."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "IEXE": {
+      "name": "Parte receptora o entregadora 3",
+      "definition": "Discrepancia en el cliente de la parte que entrega o recibe 2."
+    },
+    "ICAG": {
+      "name": "Parte receptora o entregadora 1",
+      "definition": "Discrepancia en el participante del depositario que entrega o recibe."
+    },
+    "DEPT": {
+      "name": "Depositario receptor o entregador",
+      "definition": "Discrepancia en el depositario."
+    },
+    "ICUS": {
+      "name": "Parte receptora o entregadora 2",
+      "definition": "Discrepancia en el cliente de la parte que entrega o recibe 1."
+    }
+  }
+}

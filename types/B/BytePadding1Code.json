@@ -1,0 +1,26 @@
+{
+  "isoType": "BytePadding1Code",
+  "definition": "Relleno de bytes para un cifrado en modo de encadenamiento de bloques, si el relleno no es implícito.",
+  "isoCodes": {
+    "LNGT": {
+      "name": "Relleno con longitud",
+      "definition": "El mensaje que se va a cifrar se completa con un byte cuyo valor es el número total de bytes añadidos."
+    },
+    "NUL8": {
+      "name": "Relleno 80 con nulos",
+      "definition": "El mensaje que se va a cifrar se completa con un bit de valor 1, seguido de bits nulos hasta alcanzar la longitud del bloque de cifrado."
+    },
+    "NULG": {
+      "name": "Relleno nulo con longitud",
+      "definition": "El mensaje que se va a cifrar se completa con bytes de valor nulo, y el último byte contiene el número total de bytes añadidos."
+    },
+    "NULL": {
+      "name": "Relleno nulo",
+      "definition": "El mensaje que se va a cifrar se completa con bytes nulos."
+    },
+    "RAND": {
+      "name": "Relleno aleatorio",
+      "definition": "El mensaje que se va a cifrar se completa con un valor aleatorio, y el último byte contiene el número total de bytes añadidos."
+    }
+  }
+}

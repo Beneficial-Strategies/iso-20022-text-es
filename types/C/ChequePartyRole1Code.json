@@ -1,0 +1,22 @@
+{
+  "isoType": "ChequePartyRole1Code",
+  "definition": "Especifica los roles de las partes vinculadas a un cheque.",
+  "isoCodes": {
+    "DWEA": {
+      "name": "Entidad del librado",
+      "definition": "Especifica la entidad contra la que se libra un cheque, es decir, la entidad financiera que gestiona la cuenta del librador que emitió el cheque."
+    },
+    "DWRA": {
+      "name": "Entidad del librador",
+      "definition": "Especifica la entidad que gestiona la cuenta del librador del cheque."
+    },
+    "PAYE": {
+      "name": "Tomador",
+      "definition": "Parte que recibe una suma de dinero según lo especificado en el cheque."
+    },
+    "PAYR": {
+      "name": "Pagador",
+      "definition": "Parte que emite un cheque ordenando a la entidad librada que pague un importe determinado, a la vista, al beneficiario."
+    }
+  }
+}

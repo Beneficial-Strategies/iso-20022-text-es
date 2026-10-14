@@ -1,0 +1,15 @@
+{
+  "isoType": "IncentivePremiumType2Choice",
+  "definition": "Elección de la prima en efectivo pagada al titular de valores al votar.",
+  "isoElements": {
+    "PerSecurity": {
+      "definition": "Número de valores que dan derecho a una prima."
+    },
+    "PerVote": {
+      "definition": "Cantidad de votos por tipo de voto que dan derecho a una prima."
+    },
+    "PerAttendee": {
+      "definition": "Indica que la prima se concede por asistente."
+    }
+  }
+}

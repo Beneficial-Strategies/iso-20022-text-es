@@ -1,0 +1,54 @@
+{
+  "isoType": "CardholderVerificationCapability1Code",
+  "definition": "Capacidades de verificación del titular de la tarjeta del POI (Personal Identification Number) que realiza la operación.",
+  "isoCodes": {
+    "MNSG": {
+      "name": "Firma manuscrita",
+      "definition": "Verificación manual de la firma."
+    },
+    "NPIN": {
+      "name": "PIN en línea",
+      "definition": "PIN en línea (número de identificación personal)."
+    },
+    "FCPN": {
+      "name": "PIN en claro sin conexión",
+      "definition": "PIN sin conexión en claro (número de identificación personal)."
+    },
+    "FEPN": {
+      "name": "PIN cifrado sin conexión",
+      "definition": "PIN sin conexión cifrado (número de identificación personal)."
+    },
+    "FDSG": {
+      "name": "Firma digital sin conexión",
+      "definition": "Análisis de firma digital sin conexión."
+    },
+    "FBIO": {
+      "name": "Datos biométricos sin conexión",
+      "definition": "Datos biométricos sin conexión."
+    },
+    "MNVR": {
+      "name": "Verificación manual",
+      "definition": "Otra verificación manual, por ejemplo pasaporte o permiso de conducir."
+    },
+    "FBIG": {
+      "name": "Datos biográficos sin conexión",
+      "definition": "Datos biográficos sin conexión."
+    },
+    "APKI": {
+      "name": "Firma digital de la cuenta",
+      "definition": "Firma digital basada en la cuenta."
+    },
+    "PKIS": {
+      "name": "Firma PKI",
+      "definition": "Firma digital basada en PKI (infraestructura de clave pública)."
+    },
+    "CHDT": {
+      "name": "Datos del titular de la tarjeta",
+      "definition": "Datos de autenticación del titular de la tarjeta."
+    },
+    "SCEC": {
+      "name": "Comercio electrónico seguro",
+      "definition": "Three domain secure (autenticación del titular de la tarjeta mediante three domain secure)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitsOrAmount1Choice",
+  "definition": "Elección entre un importe o un número de participaciones.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Divisa e importe de los pagos periódicos."
+    },
+    "Unit": {
+      "definition": "Número de participaciones que se suscribirán o retirarán."
+    }
+  }
+}

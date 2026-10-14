@@ -1,0 +1,18 @@
+{
+  "isoType": "FloorLimitType1Code",
+  "definition": "Indica si el límite mínimo se aplica a los apuntes de crédito, a los de débito o a ambos.",
+  "isoCodes": {
+    "CRED": {
+      "name": "Crédito",
+      "definition": "El límite mínimo se aplica a los apuntes de crédito."
+    },
+    "DEBT": {
+      "name": "Débito",
+      "definition": "El límite mínimo se aplica a los apuntes de débito."
+    },
+    "BOTH": {
+      "name": "Ambos",
+      "definition": "El límite mínimo se aplica tanto a los apuntes de crédito como a los de débito."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalAgentInstruction1Code",
+  "definition": "Especifica instrucciones adicionales para la entidad relativas al procesamiento de una instrucción.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Pagar al beneficiario mediante cheque",
+      "definition": "El beneficiario (final) debe ser pagado mediante cheque."
+    },
+    "HOLD": {
+      "name": "Retener efectivo para el beneficiario",
+      "definition": "Debe retenerse el importe a disposición del beneficiario (final), que lo reclamará. Pagar previa identificación."
+    },
+    "INQR": {
+      "name": "Motivo de la consulta",
+      "definition": "Debe proporcionarse información adicional sobre el motivo de la consulta."
+    },
+    "PBEN": {
+      "name": "Pagar al beneficiario",
+      "definition": "Beneficiario (final) que debe cobrar únicamente tras la verificación de su identidad."
+    },
+    "PHOA": {
+      "name": "Teléfono a la entidad siguiente",
+      "definition": "Informar a la entidad siguiente o contactar con ella por teléfono."
+    },
+    "PHOB": {
+      "name": "Llamar al beneficiario",
+      "definition": "Se ruega avisar o contactar con el beneficiario (final) o reclamante por teléfono."
+    },
+    "TELA": {
+      "name": "Telecomunicación a la entidad siguiente",
+      "definition": "Informar a la entidad siguiente o contactar con ella por el medio de telecomunicación más eficaz."
+    },
+    "TELB": {
+      "name": "Telecomunicaciones",
+      "definition": "Se ruega avisar o contactar con el beneficiario (final) o reclamante por el medio de telecomunicación más eficaz."
+    },
+    "TFRO": {
+      "name": "Desde la hora",
+      "definition": "La instrucción de pago será válida y apta para su ejecución a partir de la fecha y hora estipuladas."
+    },
+    "TTIL": {
+      "name": "Hasta la hora",
+      "definition": "La instrucción de pago es válida y apta para su ejecución hasta la fecha y hora estipuladas. En caso contrario, la instrucción de pago será rechazada."
+    }
+  }
+}

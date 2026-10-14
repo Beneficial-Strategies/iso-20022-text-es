@@ -1,0 +1,71 @@
+{
+  "isoType": "EstimatedFundCashForecast5",
+  "definition": "Movimientos de efectivo desde o hacia un fondo como resultado de operaciones de fondos de inversión, por ejemplo, suscripciones o reembolsos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador técnico único de una instancia de previsión de flujos de efectivo del fondo dentro de un informe de previsión, asignado por el emisor del informe."
+    },
+    "TradeDateTime": {
+      "definition": "Fecha y, si es necesario, hora a la que se aplicará el precio."
+    },
+    "PreviousTradeDateTime": {
+      "definition": "Fecha y hora anteriores en las que se aplicó el precio."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Clase de fondo de inversión a la que se refiere el flujo de efectivo."
+    },
+    "EstimatedTotalNAV": {
+      "definition": "Valor total estimado de todas las posiciones, menos los pasivos del fondo, atribuible a una clase específica de fondo de inversión."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Valor anterior de todas las posiciones, menos los pasivos del fondo, atribuible a una clase específica de fondo de inversión."
+    },
+    "EstimatedTotalUnitsNumber": {
+      "definition": "Número total estimado de participaciones de la clase del fondo de inversión que se han emitido."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Valor anterior de todas las posiciones, menos los pasivos del fondo, atribuible a una clase específica de fondo de inversión."
+    },
+    "EstimatedTotalNAVChangeRate": {
+      "definition": "Tasa de variación del valor liquidativo (NAV)."
+    },
+    "InvestmentCurrency": {
+      "definition": "Divisa de la clase del fondo de inversión."
+    },
+    "CurrencyStatus": {
+      "definition": "Información sobre la designación de la divisa de la clase de participaciones, es decir, si es para fines onshore u offshore, y otra información que pueda ser necesaria. Normalmente solo se requiere para fondos en CNY."
+    },
+    "ExceptionalNetCashFlowIndicator": {
+      "definition": "Indica si el flujo neto de efectivo estimado es excepcional."
+    },
+    "Price": {
+      "definition": "Precio por participación de la fecha de contratación anterior."
+    },
+    "ForeignExchangeRate": {
+      "definition": "Tipo de cambio."
+    },
+    "EstimatedPercentageOfShareClassTotalNAV": {
+      "definition": "Flujo neto de efectivo estimado expresado como porcentaje del valor liquidativo (NAV) total anterior de la clase de participaciones."
+    },
+    "BreakdownByParty": {
+      "definition": "Flujo de efectivo estimado por parte."
+    },
+    "BreakdownByCountry": {
+      "definition": "Flujo de efectivo estimado por país."
+    },
+    "BreakdownByCurrency": {
+      "definition": "Flujo de efectivo estimado por divisa."
+    },
+    "BreakdownByUserDefinedParameter": {
+      "definition": "Flujo de efectivo estimado por uno o varios parámetros definidos por el usuario."
+    },
+    "EstimatedNetCashForecastDetails": {
+      "definition": "Movimientos netos de efectivo estimados por instrumento financiero."
+    }
+  },
+  "isoRules": {
+    "ExceptionalCashFlowIndicatorRule": {
+      "definition": "Si ExceptionalNetCashFlowIndicator es \"true\" o \"1\" (Sí), debe estar presente al menos uno de los siguientes:|BreakdownByParty/CashInForecast/ExceptionalCashFlowIndicator, o|BreakdownByParty/CashOutForecast/ExceptionalCashFlowIndicator, o|BreakdownByCountry/CashInForecast/ExceptionalCashFlowIndicator, o|BreakdownByCountry/CashOutForecast/ExceptionalCashFlowIndicator, o|BreakdownByCurrency/CashInForecast/ExceptionalCashFlowIndicator, o|BreakdownByCurrency/CashOutForecast/ExceptionalCashFlowIndicator, o|BreakdownByUserDefinedParameter/CashInForecast/ExceptionalCashFlowIndicator, o|BreakdownByUserDefinedParameter/CashOutForecast/ExceptionalCashFlowIndicator."
+    }
+  }
+}

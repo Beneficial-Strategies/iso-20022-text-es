@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash1",
+  "definition": "Especifica si hay efectivo en la cuenta pendiente de inversión.",
+  "isoElements": {
+    "ResidualCashIndicator": {
+      "definition": "Indica si hay efectivo en la cuenta pendiente de inversión."
+    },
+    "Currency": {
+      "definition": "Divisa del efectivo."
+    }
+  }
+}

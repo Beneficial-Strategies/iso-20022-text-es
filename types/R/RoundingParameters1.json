@@ -1,0 +1,12 @@
+{
+  "isoType": "RoundingParameters1",
+  "definition": "Parámetros aplicados a un número fraccionario.",
+  "isoElements": {
+    "RoundingModulus": {
+      "definition": "Valor decimal que especifica el valor al que se requiere el redondeo, p. ej., 10 significa redondear a un múltiplo de 10 participaciones/acciones, 0.5 significa redondear a un múltiplo de 0.5 participaciones/acciones."
+    },
+    "RoundingDirection": {
+      "definition": "Dirección de redondeo aplicada a números fraccionarios, p. ej., redondear hacia arriba."
+    }
+  }
+}

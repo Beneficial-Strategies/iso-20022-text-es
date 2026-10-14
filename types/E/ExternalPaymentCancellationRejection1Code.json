@@ -1,0 +1,114 @@
+{
+  "isoType": "ExternalPaymentCancellationRejection1Code",
+  "definition": "Especifica el motivo del rechazo de una anulación, tal como se publica en un conjunto de códigos externo de rechazo de anulaciones de pagos.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "AC04": {
+      "name": "Número de cuenta cerrada",
+      "definition": "El número de cuenta especificado se ha cerrado en los libros del receptor."
+    },
+    "ADAC": {
+      "name": "A la espera de la autorización de adeudo del cliente",
+      "definition": "Se comunica cuando la solicitud de cancelación no se puede procesar porque el cliente aún no ha proporcionado la autorización de adeudo en su cuenta."
+    },
+    "AGNT": {
+      "name": "Decisión de la entidad",
+      "definition": "Se comunica cuando la cancelación no se puede aceptar porque una entidad se niega a cancelar."
+    },
+    "AM04": {
+      "name": "Fondos insuficientes",
+      "definition": "El importe de fondos disponible para cubrir el importe del mensaje especificado es insuficiente."
+    },
+    "ARDT": {
+      "name": "Ya devuelto",
+      "definition": "Cancelación no aceptada porque la operación ya ha sido devuelta."
+    },
+    "ARPL": {
+      "name": "A la espera de respuesta",
+      "definition": "Se comunica cuando la solicitud de cancelación no se puede procesar porque aún no se ha recibido respuesta del receptor del mensaje de solicitud."
+    },
+    "CUST": {
+      "name": "Decisión del cliente",
+      "definition": "Se comunica cuando la cancelación no se puede aceptar por una decisión del cliente (beneficiario)."
+    },
+    "LEGL": {
+      "name": "Decisión legal",
+      "definition": "Se comunica cuando la cancelación no se puede aceptar por normas regulatorias."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "El motivo se facilita como información narrativa en la información adicional del motivo."
+    },
+    "NOAS": {
+      "name": "Sin respuesta del cliente",
+      "definition": "Sin respuesta del beneficiario (a la solicitud de cancelación)."
+    },
+    "NOOR": {
+      "name": "No se ha recibido la operación original",
+      "definition": "Nunca se recibió la operación original (sujeta a cancelación)."
+    },
+    "PTNA": {
+      "name": "Trasladado a la siguiente entidad",
+      "definition": "Se comunica cuando la solicitud de cancelación no se puede aceptar porque la instrucción de pago se ha pasado a la siguiente entidad."
+    },
+    "RQDA": {
+      "name": "Solicitando autorización de adeudo",
+      "definition": "Se comunica cuando el beneficiario requiere autorización para devolver el pago."
+    },
+    "WSEQ": {
+      "name": "Secuencia errónea",
+      "definition": "Se comunica cuando la solicitud de cancelación no se puede procesar porque la secuencia a la que se refiere la solicitud no es válida."
+    },
+    "INDM": {
+      "name": "Se requiere indemnización por cancelación",
+      "definition": "Complementa un estado Pendiente o Rechazado. La solicitud de cancelación del pago no se puede aceptar hasta que se establezca un acuerdo de indemnización."
+    },
+    "ACLR": {
+      "name": "RTP ya cancelada",
+      "definition": "La solicitud de pago ya ha sido cancelada."
+    },
+    "AEXR": {
+      "name": "RTP ya vencida",
+      "definition": "La fecha y hora de caducidad de la solicitud de pago ya ha pasado."
+    },
+    "ARFR": {
+      "name": "RTP ya denegada",
+      "definition": "La solicitud de pago ya ha sido rechazada por el ordenante."
+    },
+    "ARJR": {
+      "name": "RTP ya rechazada",
+      "definition": "La solicitud de pago ya ha sido rechazada."
+    },
+    "PATE": {
+      "name": "Pago ya transmitido para su ejecución",
+      "definition": "El pago relacionado con la solicitud de pago ya se ha transmitido para su ejecución."
+    },
+    "RR04": {
+      "name": "Motivo regulatorio",
+      "definition": "Motivo regulatorio."
+    },
+    "RCAR": {
+      "name": "RfC ya rechazada",
+      "definition": "La solicitud de cancelación de la solicitud de pago ya ha sido rechazada."
+    },
+    "RCNR": {
+      "name": "RfC nunca recibida",
+      "definition": "Nunca se ha recibido la solicitud de cancelación de la solicitud de pago."
+    },
+    "RCPR": {
+      "name": "RfC recibida y procesada",
+      "definition": "La solicitud de cancelación de la solicitud de pago ya ha sido recibida y procesada."
+    },
+    "URTP": {
+      "name": "RTP desconocida",
+      "definition": "La solicitud de pago es desconocida."
+    },
+    "AACR": {
+      "name": "RTP ya aceptada",
+      "definition": "La solicitud de pago (RTP) ya ha sido aceptada."
+    },
+    "ARJT": {
+      "name": "Operación ya rechazada",
+      "definition": "La operación subyacente ya ha sido rechazada."
+    }
+  }
+}

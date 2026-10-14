@@ -1,0 +1,15 @@
+{
+  "isoType": "Statement89",
+  "definition": "Define los criterios utilizados para informar sobre las posiciones de la cuenta de valores.",
+  "isoElements": {
+    "DateOrPeriod": {
+      "definition": "Fecha o período del extracto."
+    },
+    "HistoricData": {
+      "definition": "Especifica si los datos son históricos (true) o actuales (false)."
+    },
+    "StatementType": {
+      "definition": "Tipo de saldo sobre el que se elabora el extracto."
+    }
+  }
+}

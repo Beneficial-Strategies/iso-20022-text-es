@@ -1,0 +1,15 @@
+{
+  "isoType": "NewIssueAllocation2",
+  "definition": "Información sobre la titularidad de la cuenta de inversión con respecto a la asignación de nuevas emisiones para un fondo de inversión libre.",
+  "isoElements": {
+    "Restricted": {
+      "definition": "Indica si el inversor es apto para participar en los beneficios y pérdidas de una nueva emisión."
+    },
+    "ExemptPersonReason": {
+      "definition": "Motivo de la exención."
+    },
+    "DeMinimus": {
+      "definition": "Condiciones aplicables cuando el inversor está cubierto por la exención “de minimis”."
+    }
+  }
+}

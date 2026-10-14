@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType10Code",
+  "definition": "Especifica el tipo de tasa.",
+  "isoCodes": {
+    "ANYA": {
+      "name": "Cualquiera y todos",
+      "definition": "Se solicita cualquier tasa y todas las tasas."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "La tasa es desconocida para el remitente o no se ha establecido."
+    }
+  }
+}

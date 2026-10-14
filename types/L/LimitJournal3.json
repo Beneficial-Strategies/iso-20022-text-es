@@ -1,0 +1,15 @@
+{
+  "isoType": "LimitJournal3",
+  "definition": "Registro en el que se introducen originalmente todas las operaciones. El diario detalla qué operaciones se produjeron y qué cuentas resultaron afectadas.",
+  "isoElements": {
+    "Limit": {
+      "definition": "Valor máximo utilizado para la contención del riesgo en un sistema o frente a contrapartes. El límite puede ser un límite vigente o un límite por defecto."
+    },
+    "JournalActivityDate": {
+      "definition": "Fecha en la que se produce la actividad del diario."
+    },
+    "JournalEntry": {
+      "definition": "Registro en un diario de los datos de una operación."
+    }
+  }
+}

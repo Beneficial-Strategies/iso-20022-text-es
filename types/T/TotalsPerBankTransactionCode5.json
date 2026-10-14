@@ -1,0 +1,33 @@
+{
+  "isoType": "TotalsPerBankTransactionCode5",
+  "definition": "Conjunto de elementos utilizados para proporcionar la suma total de los apuntes por código de operación bancaria.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Número de apuntes individuales correspondientes al código de operación bancaria."
+    },
+    "Sum": {
+      "definition": "Total de todos los apuntes individuales incluidos en el informe."
+    },
+    "TotalNetEntry": {
+      "definition": "Importe total de débito o de crédito resultante de los importes compensados de todos los apuntes de débito y de crédito por código de operación bancaria."
+    },
+    "CreditEntries": {
+      "definition": "Número de apuntes de crédito individuales correspondientes al código de operación bancaria."
+    },
+    "DebitEntries": {
+      "definition": "Número de apuntes de débito individuales correspondientes al código de operación bancaria."
+    },
+    "ForecastIndicator": {
+      "definition": "Indica si el código de operación bancaria se refiere a partidas contabilizadas o previstas."
+    },
+    "BankTransactionCode": {
+      "definition": "Conjunto de elementos utilizados para identificar plenamente el tipo de operación subyacente que da lugar a un apunte."
+    },
+    "Availability": {
+      "definition": "Conjunto de elementos utilizados para indicar cuándo estará disponible el importe contabilizado, es decir, cuándo se podrá acceder a él y empezará a generar intereses."
+    },
+    "Date": {
+      "definition": "Indica la fecha (y hora) del resumen de operaciones."
+    }
+  }
+}

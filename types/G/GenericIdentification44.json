@@ -1,0 +1,21 @@
+{
+  "isoType": "GenericIdentification44",
+  "definition": "Información relativa a la identificación de una persona física.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Nombre o número asignado por una entidad para permitir su reconocimiento, por ejemplo, el identificador de una cuenta."
+    },
+    "Type": {
+      "definition": "Especifica la naturaleza de la identificación."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna el identificador."
+    },
+    "IssueDate": {
+      "definition": "Fecha en que se emitió la identificación."
+    },
+    "ExpiryDate": {
+      "definition": "Fecha en que vence la identificación."
+    }
+  }
+}

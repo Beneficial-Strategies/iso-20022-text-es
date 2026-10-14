@@ -1,0 +1,42 @@
+{
+  "isoType": "Contact4",
+  "definition": "Especifica los datos de la persona de contacto.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Especifica el tratamiento utilizado para dirigirse formalmente a una persona."
+    },
+    "Name": {
+      "definition": "Nombre por el que se conoce a una parte y que suele utilizarse para identificarla."
+    },
+    "PhoneNumber": {
+      "definition": "Conjunto de información que identifica un número de teléfono, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "MobileNumber": {
+      "definition": "Conjunto de información que identifica un número de teléfono móvil, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "FaxNumber": {
+      "definition": "Conjunto de información que identifica un número de FAX, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "EmailAddress": {
+      "definition": "Dirección de correo electrónico (e-mail)."
+    },
+    "EmailPurpose": {
+      "definition": "Finalidad para la cual puede utilizarse una dirección de correo electrónico."
+    },
+    "JobTitle": {
+      "definition": "Título del cargo."
+    },
+    "Responsibility": {
+      "definition": "Función de una persona en una organización."
+    },
+    "Department": {
+      "definition": "Identificación de una división de una organización o edificio de gran tamaño."
+    },
+    "Other": {
+      "definition": "Datos de contacto en otra forma."
+    },
+    "PreferredMethod": {
+      "definition": "Método preferido para ponerse en contacto."
+    }
+  }
+}

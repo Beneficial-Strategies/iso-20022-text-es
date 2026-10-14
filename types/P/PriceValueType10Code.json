@@ -1,0 +1,10 @@
+{
+  "isoType": "PriceValueType10Code",
+  "definition": "Especifica el valor de un precio.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "El precio es desconocido para el remitente o no se ha establecido."
+    }
+  }
+}

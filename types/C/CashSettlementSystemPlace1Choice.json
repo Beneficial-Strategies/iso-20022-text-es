@@ -1,0 +1,15 @@
+{
+  "isoType": "CashSettlementSystemPlace1Choice",
+  "definition": "Lugar donde se efectúa o se efectuará el pago.",
+  "isoElements": {
+    "DigitalLedgerIdentification": {
+      "definition": "Lugar de custodia expresado con un identificador de libro mayor digital (Digital Ledger Identifier). Identifica un libro mayor digital o un sistema de libro mayor distribuido (por ejemplo, blockchain o plataformas similares)."
+    },
+    "AnyBIC": {
+      "definition": "Forma única e inequívoca de identificar a una organización."
+    },
+    "LEI": {
+      "definition": "Identificación de la entidad jurídica como identificación alternativa de un lugar de custodia."
+    }
+  }
+}

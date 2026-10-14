@@ -1,0 +1,12 @@
+{
+  "isoType": "PairedOrTurnedQuantity7Choice",
+  "definition": "Elección entre una cantidad de rotación y una de compensación para instruir una compensación o rotación (parcial) de uno a varios y de varios a varios.",
+  "isoElements": {
+    "PairedOffQuantity": {
+      "definition": "Cantidad de instrumentos financieros de la operación vinculada que se va a compensar."
+    },
+    "TurnedQuantity": {
+      "definition": "Cantidad de instrumentos financieros de la operación vinculada que se va a rotar."
+    }
+  }
+}

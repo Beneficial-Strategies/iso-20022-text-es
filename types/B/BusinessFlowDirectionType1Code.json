@@ -1,0 +1,14 @@
+{
+  "isoType": "BusinessFlowDirectionType1Code",
+  "definition": "Identifica el flujo de negocio, con el fin de determinar el papel de las partes en el proceso de negocio. Este indicador es muy importante cuando hay varios intermediarios en el proceso de intercambio de información.",
+  "isoCodes": {
+    "ADLV": {
+      "name": "Activos por entregar",
+      "definition": "Activos que se van a entregar."
+    },
+    "ARCV": {
+      "name": "Activos por recibir",
+      "definition": "Activos que se van a recibir."
+    }
+  }
+}

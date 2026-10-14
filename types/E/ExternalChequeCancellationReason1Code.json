@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalChequeCancellationReason1Code",
+  "definition": "Especifica el código externo del motivo de cancelación del cheque, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es un conjunto de códigos externo que se publica por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Solicitado por el cliente",
+      "definition": "El cliente solicitó detener/cancelar el cheque."
+    },
+    "LOST": {
+      "name": "Perdido",
+      "definition": "El cheque ha sido robado/extraviado."
+    },
+    "FRAD": {
+      "name": "Fraude",
+      "definition": "El cheque ha sido emitido de forma fraudulenta."
+    },
+    "DUPL": {
+      "name": "Duplicado",
+      "definition": "El cheque ha sido emitido en duplicado de otro cheque."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "El motivo se facilita como información narrativa en la información adicional del motivo."
+    }
+  }
+}

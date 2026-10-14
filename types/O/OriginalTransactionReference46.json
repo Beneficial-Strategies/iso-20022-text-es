@@ -1,0 +1,63 @@
+{
+  "isoType": "OriginalTransactionReference46",
+  "definition": "Elementos clave utilizados para hacer referencia a la operación original.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la moneda indicada por la parte iniciadora."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha en la que la parte iniciadora solicita a la entidad de compensación que procese el pago. |Uso: Es la fecha en la que debe adeudarse la cuenta del ordenante. Si el pago es mediante cheque, la fecha en la que el banco debe emitir el cheque."
+    },
+    "ExpiryDate": {
+      "definition": "Fecha límite en la que el ordenante debe haber aceptado o rechazado la solicitud.||Uso: |Transcurrida esta fecha, la solicitud queda sin efecto y ya no puede procesarse."
+    },
+    "PaymentCondition": {
+      "definition": "Condiciones para la ejecución del pago."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "PaymentMethod": {
+      "definition": "Especifica el medio de pago que se utilizará para mover el importe de dinero."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Proporciona más detalles del mandato firmado entre el beneficiario y el ordenante."
+    },
+    "RemittanceInformation": {
+      "definition": "Información proporcionada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    },
+    "EnclosedFile": {
+      "definition": "Documento o plantilla adjunto a la notificación.||Uso: El uso del elemento EnclosedFile debe acordarse bilateralmente."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe una cantidad de dinero al beneficiario (final)."
+    },
+    "Debtor": {
+      "definition": "Parte que adeuda un importe de dinero al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se realizará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad prestadora de servicios dentro de la cadena de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicios sobre una cuenta del beneficiario."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad de servicio, en la que se efectuará un abono como resultado de la operación de pago."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se abonará un apunte como resultado de la operación de pago."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe de dinero."
+    }
+  }
+}

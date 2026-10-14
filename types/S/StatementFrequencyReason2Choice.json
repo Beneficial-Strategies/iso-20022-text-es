@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementFrequencyReason2Choice",
+  "definition": "Elección de formatos para la especificación de la frecuencia de los extractos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Frecuencia de los extractos expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Frecuencia de los extractos expresada como código propietario."
+    }
+  }
+}

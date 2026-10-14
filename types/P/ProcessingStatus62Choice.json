@@ -1,0 +1,24 @@
+{
+  "isoType": "ProcessingStatus62Choice",
+  "definition": "Elección del formato del estado de tratamiento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la instrucción."
+    },
+    "PendingProcessing": {
+      "definition": "El procesamiento de la instrucción/solicitud está pendiente."
+    },
+    "Repair": {
+      "definition": "La instrucción/solicitud ha sido aceptada pero está en reparación."
+    },
+    "PendingCancellation": {
+      "definition": "Una solicitud de cancelación suya para esta instrucción está pendiente de su posterior procesamiento (solo como respuesta a una SecuritiesTransactionStatusQuery). El estado pendiente del procesamiento de una solicitud de cancelación debe facilitarse mediante un SecuritiesTransactionCancellationRequestStatusAdvice."
+    },
+    "Proprietary": {
+      "definition": "Estado que no puede notificarse mediante ninguno de los estados estándar disponibles."
+    },
+    "CancellationRequested": {
+      "definition": "La solicitud de cancelación de su contraparte para esta operación está pendiente a la espera de su solicitud de cancelación."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RepoCallRequestStatus10Choice",
+  "definition": "Elección de formato para el acuse de recibo del requerimiento del acuerdo de recompra.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado de la solicitud de requerimiento del acuerdo de recompra."
+    },
+    "Proprietary": {
+      "definition": "Proporciona el estado de la solicitud de requerimiento del acuerdo de recompra."
+    }
+  }
+}

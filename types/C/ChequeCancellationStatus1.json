@@ -1,0 +1,15 @@
+{
+  "isoType": "ChequeCancellationStatus1",
+  "definition": "Proporciona información adicional sobre el estado de la solicitud de cancelación de la presentación del cheque.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite la solicitud de cancelación."
+    },
+    "Status": {
+      "definition": "Especifica el estado de la solicitud de cancelación."
+    },
+    "AdditionalInformation": {
+      "definition": "Más detalles sobre el motivo de la solicitud de cancelación."
+    }
+  }
+}

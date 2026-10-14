@@ -1,0 +1,10 @@
+{
+  "isoType": "SafekeepingAccountIdentification1Code",
+  "definition": "Especifica la identificación de la cuenta mediante un código.",
+  "isoCodes": {
+    "GENR": {
+      "name": "General",
+      "definition": "El anuncio se aplica a todas las cuentas de custodia que poseen el instrumento financiero subyacente. (Se utiliza para anuncios generales o preliminares.)."
+    }
+  }
+}

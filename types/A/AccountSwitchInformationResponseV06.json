@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchInformationResponseV06",
+  "definition": "El mensaje AccountSwitchInformationResponse es enviado por la entidad gestora que mantenía previamente la cuenta a la entidad gestora de la cuenta nueva para indicar si la cuenta del titular puede cambiarse y, en caso afirmativo, transmitir los detalles de los acuerdos de pago que se transferirán a la entidad gestora de la cuenta nueva. La entidad gestora de la cuenta anterior puede confirmar la ventana de transferencia de saldo."
+}

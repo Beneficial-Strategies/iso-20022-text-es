@@ -1,0 +1,22 @@
+{
+  "isoType": "Response12Code",
+  "definition": "Resultado del servicio realizado.",
+  "isoCodes": {
+    "APPR": {
+      "name": "Aprobado",
+      "definition": "El servicio se ha prestado correctamente."
+    },
+    "DECL": {
+      "name": "Denegado",
+      "definition": "El servicio es denegado."
+    },
+    "PART": {
+      "name": "Aprobado parcialmente",
+      "definition": "El servicio se ha prestado parcialmente."
+    },
+    "ASUP": {
+      "name": "Aprobación suspendida",
+      "definition": "Para prestar este servicio, el cliente debe facilitar información adicional."
+    }
+  }
+}

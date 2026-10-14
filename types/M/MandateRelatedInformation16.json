@@ -1,0 +1,44 @@
+{
+  "isoType": "MandateRelatedInformation16",
+  "definition": "Proporciona más detalles relacionados con un mandato de adeudo directo firmado entre el beneficiario y el ordenante.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificación única, asignada por el beneficiario, para identificar inequívocamente el mandato."
+    },
+    "DateOfSignature": {
+      "definition": "Fecha en la que el ordenante firmó el mandato de adeudo directo."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indicador que notifica si el mandato subyacente ha sido modificado o no."
+    },
+    "AmendmentInformationDetails": {
+      "definition": "Lista de elementos del mandato que han sido modificados."
+    },
+    "ElectronicSignature": {
+      "definition": "Disposiciones de seguridad adicionales, como una firma digital, proporcionadas por el ordenante."
+    },
+    "FirstCollectionDate": {
+      "definition": "Fecha del primer cobro de un adeudo directo según el mandato."
+    },
+    "FinalCollectionDate": {
+      "definition": "Fecha del último cobro de un adeudo directo según el mandato."
+    },
+    "Frequency": {
+      "definition": "Regularidad con la que se deben crear y procesar las instrucciones de adeudo directo."
+    },
+    "Reason": {
+      "definition": "Motivo del mandato de adeudo directo para permitir al usuario distinguir entre distintos mandatos del mismo beneficiario."
+    },
+    "TrackingDays": {
+      "definition": "Especifica el número de días durante los que debe realizarse el seguimiento de la instrucción de adeudo directo."
+    }
+  },
+  "isoRules": {
+    "AmendmentIndicatorTrueRule": {
+      "definition": "Si AmendmentIndicator es verdadero, AmendmentInformationDetails debe estar presente."
+    },
+    "AmendmentIndicatorFalseRule": {
+      "definition": "Si AmendmentIndicator es falso, no se permite AmendmentInformationDetails."
+    }
+  }
+}

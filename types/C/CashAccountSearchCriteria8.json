@@ -1,0 +1,29 @@
+{
+  "isoType": "CashAccountSearchCriteria8",
+  "definition": "Define los criterios utilizados para buscar una cuenta.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad que la administra."
+    },
+    "Type": {
+      "definition": "Especifica la naturaleza, o el uso, de la cuenta de efectivo."
+    },
+    "Currency": {
+      "definition": "Especifica la divisa de la cuenta de efectivo."
+    },
+    "Balance": {
+      "definition": "Saldo de la cuenta que se consulta."
+    },
+    "AccountOwner": {
+      "definition": "Titular de la cuenta que se consulta."
+    },
+    "AccountServicer": {
+      "definition": "Entidad que administra la cuenta que se consulta."
+    }
+  },
+  "isoRules": {
+    "CashAccountIdentificationGuideline": {
+      "definition": "Si la identificación de la cuenta identifica un grupo de cuentas de distintos tipos o en distintas divisas, la divisa y/o el tipo de cuenta pueden utilizarse como criterios de búsqueda adicionales."
+    }
+  }
+}

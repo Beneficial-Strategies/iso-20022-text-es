@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesStatementType1Code",
+  "definition": "Especifica si el extracto es un extracto contable o de custodia.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Custodia",
+      "definition": "El extracto es un extracto de custodia."
+    },
+    "ACCT": {
+      "name": "Contabilidad",
+      "definition": "El extracto es un extracto contable."
+    }
+  }
+}

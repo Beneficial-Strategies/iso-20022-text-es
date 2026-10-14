@@ -1,0 +1,26 @@
+{
+  "isoType": "CashAccountType5Code",
+  "definition": "Especifica el tipo de cuenta de efectivo.",
+  "isoCodes": {
+    "LEND": {
+      "name": "Préstamo",
+      "definition": "La cuenta es para la cobertura de préstamos."
+    },
+    "COLL": {
+      "name": "Garantía",
+      "definition": "La cuenta es para garantías."
+    },
+    "SETT": {
+      "name": "Liquidación financiera",
+      "definition": "La cuenta es para liquidaciones financieras."
+    },
+    "MARR": {
+      "name": "Devolución de margen",
+      "definition": "La cuenta es para devoluciones de margen."
+    },
+    "SEGT": {
+      "name": "Segregada",
+      "definition": "La cuenta es una cuenta segregada."
+    }
+  }
+}

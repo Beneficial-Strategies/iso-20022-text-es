@@ -1,0 +1,12 @@
+{
+  "isoType": "AutomaticBorrowing6Choice",
+  "definition": "Elección de formato para la información del préstamo automático.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condición para el préstamo automático expresada como un código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Condición para el préstamo automático expresada como un código propio."
+    }
+  }
+}

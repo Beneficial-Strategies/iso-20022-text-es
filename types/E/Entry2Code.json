@@ -1,0 +1,18 @@
+{
+  "isoType": "Entry2Code",
+  "definition": "Especifica el tipo de un apunte en un informe.",
+  "isoCodes": {
+    "TRIA": {
+      "name": "De prueba",
+      "definition": "Calendario de pay-in de prueba."
+    },
+    "OFFI": {
+      "name": "Oficial",
+      "definition": "Calendario de pay-in oficial."
+    },
+    "REQU": {
+      "name": "Solicitado",
+      "definition": "Calendario de pay-in a petición."
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "isoType": "SecuritiesBalanceType12Code",
+  "definition": "Especifica la naturaleza del saldo de valores o de fondos de inversión.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de instrumentos financieros que están bloqueados."
+    },
+    "AWAS": {
+      "name": "Disponible sin estado adicional",
+      "definition": "Saldo de instrumentos financieros que están libremente disponibles sin ningún estado adicional específico."
+    },
+    "BLCA": {
+      "name": "Bloqueado por operación societaria",
+      "definition": "Saldo de instrumentos financieros bloqueados a raíz de una operación societaria, incluidas las actividades de representación (proxy)."
+    },
+    "BLOT": {
+      "name": "Bloqueado por negociación",
+      "definition": "Saldo de instrumentos financieros que están bloqueados para la negociación."
+    },
+    "BLOV": {
+      "name": "Bloqueado por autenticidad",
+      "definition": "Saldo de instrumentos financieros que están bloqueados para la verificación de autenticidad."
+    },
+    "BORR": {
+      "name": "Tomado en préstamo",
+      "definition": "Saldo de instrumentos financieros que se han tomado en préstamo de otra parte."
+    },
+    "BODE": {
+      "name": "Entrega pendiente de valores tomados en préstamo",
+      "definition": "Saldo de instrumentos financieros pendientes de entrega en relación con una operación de préstamo recibido."
+    },
+    "BORE": {
+      "name": "Recepción pendiente de valores tomados en préstamo",
+      "definition": "Saldo de instrumentos financieros pendientes de recepción en relación con una operación de préstamo recibido."
+    },
+    "COLI": {
+      "name": "Garantía recibida",
+      "definition": "Saldo de valores que pertenecen a un tercero y se mantienen con fines de colateralización."
+    },
+    "COLO": {
+      "name": "Garantía entregada",
+      "definition": "Saldo de valores que pertenecen a la cuenta de custodia indicada en este mensaje y están depositados en un tercero con fines de colateralización."
+    },
+    "LOAN": {
+      "name": "En préstamo",
+      "definition": "Préstamo de consumo."
+    },
+    "LODE": {
+      "name": "Entrega pendiente de valores prestados",
+      "definition": "Saldo de instrumentos financieros pendientes de entrega en relación con una operación de préstamo concedido."
+    },
+    "LORE": {
+      "name": "Recepción pendiente de valores prestados",
+      "definition": "Saldo de instrumentos financieros pendientes de recepción en relación con una operación de préstamo concedido."
+    },
+    "MARG": {
+      "name": "Margen de derivados",
+      "definition": "La cuenta se utiliza cuando la financiación la realiza el corredor/operador."
+    },
+    "PECA": {
+      "name": "Recepción pendiente por operación societaria",
+      "definition": "Saldo de instrumentos financieros pendientes de recepción a raíz de una operación societaria."
+    },
+    "PEDA": {
+      "name": "Entrega pendiente por operación societaria",
+      "definition": "Saldo de instrumentos financieros pendientes de entrega a raíz de una operación societaria."
+    },
+    "PEND": {
+      "name": "Entrega pendiente",
+      "definition": "El procesamiento no se ha completado."
+    },
+    "PENR": {
+      "name": "Recepción pendiente",
+      "definition": "La instrucción está pendiente de recibir valores, por ejemplo, de una compra, un préstamo, etc."
+    },
+    "PLED": {
+      "name": "Pignorado",
+      "definition": "Saldo de valores que pertenecen a la cuenta de custodia indicada en este mensaje, y se mantienen en ella, y que están pignorados."
+    },
+    "REGO": {
+      "name": "Pendiente de registro",
+      "definition": "Saldo de instrumentos financieros que está procesando actualmente la entidad responsable de registrar al nuevo titular real (o nominatario)."
+    },
+    "RSTR": {
+      "name": "Restringido",
+      "definition": "Saldo de instrumentos financieros que solo pueden venderse bajo determinadas condiciones o que requieren documentos legales."
+    },
+    "OTHR": {
+      "name": "Sin clasificar",
+      "definition": "Otro. Véase Narrative."
+    },
+    "TRAN": {
+      "name": "En transbordo",
+      "definition": "La operación se ha generado debido a una transformación a raíz de una operación societaria."
+    },
+    "DRAW": {
+      "name": "Sorteado",
+      "definition": "Las operaciones de liquidación se refieren a valores sorteados."
+    },
+    "WDOC": {
+      "name": "A la espera de documentación",
+      "definition": "El instrumento financiero no está disponible debido a documentación faltante o incompleta relativa a la cuenta, o debido a una orden faltante o incompleta."
+    },
+    "BTRA": {
+      "name": "En proceso de traspaso",
+      "definition": "El instrumento financiero no está disponible como resultado de una orden de transferencia, pendiente de movimiento en el registro de accionistas."
+    }
+  }
+}

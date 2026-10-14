@@ -1,0 +1,68 @@
+{
+  "isoType": "ReportEntry16",
+  "definition": "Proporciona detalles adicionales sobre un apunte del informe.",
+  "isoElements": {
+    "EntryReference": {
+      "definition": "Referencia única del apunte."
+    },
+    "Amount": {
+      "definition": "Importe del apunte en efectivo."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el apunte es un crédito o un débito."
+    },
+    "ReversalIndicator": {
+      "definition": "Indica si el apunte es o no resultado de una reversión.|Uso: este elemento solo debe estar presente si el apunte es resultado de una reversión.|Si CreditDebitIndicator es CRDT y ReversalIndicator es Yes, la operación original fue un apunte de débito.|Si CreditDebitIndicator es DBIT y ReversalIndicator es Yes, la operación original fue un apunte de crédito."
+    },
+    "Status": {
+      "definition": "Estado de un apunte en los libros de la entidad que administra la cuenta."
+    },
+    "BookingDate": {
+      "definition": "Fecha y hora en que un apunte se anota en una cuenta en los libros de la entidad que administra la cuenta.||Uso: la fecha de contabilización es la fecha de contabilización prevista, salvo que el estado sea contabilizado, en cuyo caso es la fecha de contabilización real."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que los activos pasan a estar disponibles para el titular de la cuenta en el caso de un apunte de crédito, o dejan de estar disponibles para el titular de la cuenta en el caso de un apunte de débito.|Uso: si el estado del apunte es pendiente y la fecha valor está presente, la fecha valor se refiere a una fecha valor prevista o solicitada.|En los apuntes sujetos a disponibilidad o flotante y para los que se facilita información de disponibilidad, no debe utilizarse la fecha valor. En este caso, el componente de disponibilidad identifica el número de días de disponibilidad."
+    },
+    "AccountServicerReference": {
+      "definition": "Referencia única asignada por la entidad que administra la cuenta para identificar inequívocamente el apunte."
+    },
+    "Availability": {
+      "definition": "Indica cuándo el importe contabilizado estará disponible, es decir, cuándo se podrá acceder a él y empezará a generar intereses. ||Uso: este tipo de información se utiliza en US (Estados Unidos) y está vinculada a determinados instrumentos, como los cheques.|Ejemplo: cuando se ingresa un cheque, se contabiliza el día del ingreso, pero el importe solo estará accesible a partir del día de disponibilidad indicado (según la normativa bancaria nacional)."
+    },
+    "BankTransactionCode": {
+      "definition": "Conjunto de elementos utilizados para identificar plenamente el tipo de operación subyacente que da lugar a un apunte."
+    },
+    "CommissionWaiverIndicator": {
+      "definition": "Indica si la operación está exenta de comisión."
+    },
+    "AdditionalInformationIndicator": {
+      "definition": "Indica si los detalles de la operación subyacente se facilitan mediante un mensaje aparte, como en el caso de los asientos agregados."
+    },
+    "AmountDetails": {
+      "definition": "Proporciona información sobre el importe original.||Uso: este componente (en el nivel de apunte) debe utilizarse cuando se debe indicar un importe original total del lote o agregado. Si es necesario, los importes originales individuales pueden incluirse en el mismo componente en el nivel de detalles de la operación."
+    },
+    "Charges": {
+      "definition": "Proporciona información sobre los gastos, avisados previamente o incluidos en el importe del apunte.||Uso: este componente se utiliza en el nivel de apunte en el caso de asientos por lotes o agregados."
+    },
+    "TechnicalInputChannel": {
+      "definition": "Canal utilizado para introducir técnicamente la instrucción relacionada con el apunte."
+    },
+    "Interest": {
+      "definition": "Proporciona detalles del importe de intereses incluido en el importe del apunte.||Uso: este componente se utiliza en el nivel de apunte en el caso de asientos por lotes o agregados."
+    },
+    "CardTransaction": {
+      "definition": "Proporciona detalles de la operación con tarjeta incluida en el importe del apunte, cuando la entidad que administra la cuenta la ha globalizado."
+    },
+    "EntryDetails": {
+      "definition": "Proporciona detalles del apunte."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Detalles adicionales del apunte."
+    }
+  },
+  "isoRules": {
+    "ReferenceGuideline": {
+      "definition": "Debería estar presente al menos una referencia para identificar la(s) operación(es) subyacente(s)."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "BeneficiaryDrawdown2",
+  "definition": "Información sobre el beneficiario de una disposición.",
+  "isoElements": {
+    "BeneficiaryType": {
+      "definition": "Tipo de beneficiario."
+    },
+    "DeathUnderLimit": {
+      "definition": "Indica si el titular original de la pensión era menor del límite de edad en el momento del fallecimiento. Normalmente, en el UK este límite es de setenta y cinco años."
+    },
+    "DateOfDeath": {
+      "definition": "Fecha de fallecimiento del titular original de la pensión."
+    },
+    "DateDesignatedToBeneficiary": {
+      "definition": "Fecha en la que se designó al nuevo beneficiario."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el destinatario de la disposición."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "QuantityAndAccount107",
+  "definition": "Detalles sobre una cantidad, una cuenta y otra información relacionada.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "DenominationChoice": {
+      "definition": "Denominación del valor que se ha de recibir o entregar."
+    },
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "QuantityBreakdown": {
+      "definition": "Desglose de una cantidad en lotes, como lotes fiscales o series de instrumentos."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    }
+  },
+  "isoRules": {
+    "DenominationRule": {
+      "definition": "Salvo acuerdo bilateral entre el titular de la cuenta y el administrador de cuentas, si se utiliza DenominationChoice, no debe contener información que pueda proporcionarse en un campo estructurado."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "La funcionalidad SafekeepingPlace en las instrucciones de liquidación solo debe utilizarse para custodios globales que permiten a sus clientes especificar dónde se han de mantener los valores, por ejemplo, en una cuenta de un ICSD frente a una cuenta en el CSD local."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "GroupHeader129",
+  "definition": "Conjunto de características comunes a todas las notificaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el emisor y enviada al receptor para identificar el mensaje de forma inequívoca.|Uso: El emisor debe asegurarse de que MessageIdentification sea único para cada receptor durante un periodo previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "Sender": {
+      "definition": "Parte que envía la notificación."
+    },
+    "Receiver": {
+      "definition": "Parte que recibe la notificación."
+    }
+  }
+}

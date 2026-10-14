@@ -1,0 +1,30 @@
+{
+  "isoType": "PositionSearchCriteria4",
+  "definition": "Define los criterios de consulta de posiciones de la cuenta de valores.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular, es decir, gestiona el registro y la contabilización de los apuntes de la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "FinancialInstrument": {
+      "definition": "Instrumento financiero que representa un conjunto de derechos del inversor frente al emisor."
+    },
+    "CountryOfIssue": {
+      "definition": "País donde se emite el valor."
+    },
+    "SubBalanceType": {
+      "definition": "Define características específicas de restricción para una posición en valores."
+    },
+    "ReturnZeroPosition": {
+      "definition": "Opción para proporcionar una posición cero en los resultados."
+    },
+    "OtherBusinessParties": {
+      "definition": "Otras partes comerciales relevantes para la operación."
+    }
+  }
+}

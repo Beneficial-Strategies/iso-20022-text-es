@@ -1,0 +1,21 @@
+{
+  "isoType": "FinancialInstrument76",
+  "definition": "Características identificativas de un instrumento financiero que es un subconjunto de un fondo de inversión.",
+  "isoElements": {
+    "SupplementaryIdentification": {
+      "definition": "Información adicional sobre un instrumento financiero que ayuda a identificarlo."
+    },
+    "SecuritiesForm": {
+      "definition": "Especifica la forma, es decir, la titularidad, del valor."
+    },
+    "ClassType": {
+      "definition": "Características de las participaciones ofrecidas por un fondo, por ejemplo, una participación puede tener una estructura de comisiones específica, por ejemplo, de entrada o de salida, una política de rentas, por ejemplo, distribución o acumulación, o una política de comisión de seguimiento, por ejemplo, con o sin ella. Las clases de fondos se denotan normalmente con un solo carácter, por ejemplo, «Class A», «Class 2»."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rentas relativa a un tipo de clase, es decir, si las rentas se distribuyen o se retienen en el fondo."
+    },
+    "ClassificationType": {
+      "definition": "Tipo de clasificación del instrumento financiero, según la codificación ISO de clasificación de instrumentos financieros (CFI), por ejemplo, acción ordinaria con derechos de voto, totalmente desembolsada o nominativa."
+    }
+  }
+}

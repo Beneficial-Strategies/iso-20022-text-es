@@ -1,0 +1,62 @@
+{
+  "isoType": "ExternalChargeType1Code",
+  "definition": "Especifica la naturaleza o el uso de los gastos en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa que se publica por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "BRKF": {
+      "name": "Comisión de corretaje",
+      "definition": "Comisión pagada a un corredor por los servicios prestados."
+    },
+    "BTCH": {
+      "name": "Lote",
+      "definition": "Comisión abonada por el procesamiento de un lote de operaciones."
+    },
+    "COMM": {
+      "name": "Comisión",
+      "definition": "Comisión abonada por los servicios prestados."
+    },
+    "SUMM": {
+      "name": "Suma",
+      "definition": "Suma de comisiones individuales."
+    },
+    "AMND": {
+      "name": "Modificación",
+      "definition": "La orden de pago se modificó a petición de la entidad emisora (original) o como resultado de recibir información modificada de la entidad emisora (original)."
+    },
+    "CFEE": {
+      "name": "Comisión de cancelación",
+      "definition": "Se utiliza cuando se cobran comisiones por la cancelación de un pago."
+    },
+    "CLEF": {
+      "name": "Comisión de compensación",
+      "definition": "Se utiliza cuando se cobran comisiones por el procesamiento estándar de transferencias entre entidades financieras."
+    },
+    "INVS": {
+      "name": "Investigación",
+      "definition": "Gastos relacionados con el procesamiento de un caso de investigación o consulta."
+    },
+    "INTE": {
+      "name": "Intereses",
+      "definition": "Gastos relacionados con intereses."
+    },
+    "NSTP": {
+      "name": "Gastos no STP",
+      "definition": "Gasto por un pago que requirió una intervención durante su procesamiento."
+    },
+    "DEBT": {
+      "name": "A cargo del ordenante",
+      "definition": "Se presenta la reclamación en respuesta a la recepción de una transferencia de cliente con DEBT en el código de responsable de los gastos."
+    },
+    "TELE": {
+      "name": "Gastos de telecomunicaciones",
+      "definition": "Gastos relacionados con el medio de telecomunicación más adecuado y eficiente disponible, por ejemplo, SWIFT, télex, teléfono, fax, según determine la parte que ejecuta la instrucción de pago."
+    },
+    "ACCM": {
+      "name": "Comisión de mantenimiento de cuenta",
+      "definition": "Comisión de mantenimiento de cuenta."
+    },
+    "RECH": {
+      "name": "Gastos de informes",
+      "definition": "Gasto por un mensaje de información (camt.05X)."
+    }
+  }
+}

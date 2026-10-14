@@ -1,0 +1,14 @@
+{
+  "isoType": "SafekeepingPlace2Code",
+  "definition": "Especifica el tipo de lugar de custodia.",
+  "isoCodes": {
+    "SHHE": {
+      "name": "Acciones mantenidas en otro lugar",
+      "definition": "Se utiliza para ciertos instrumentos financieros, por ejemplo, fondos de inversión US, en los que la liquidación es solo interna, es decir, no hay movimiento externo de valores."
+    },
+    "ALLP": {
+      "name": "Todos los lugares",
+      "definition": "Todos los lugares de custodia donde se mantiene el instrumento financiero."
+    }
+  }
+}

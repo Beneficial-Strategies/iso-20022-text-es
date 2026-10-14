@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesModification2",
+  "definition": "Proporciona las operaciones del informe.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "Modification": {
+      "definition": "Identifica la operación individual."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount debe estar presente o Modification(*)/SafekeepingAccount debe estar presente, pero no ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner debe estar presente o Modification(*)/AccountOwner debe estar presente, pero no ambos."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus debe estar presente o Modification(*)/ProcessingStatus debe estar presente, pero no ambos."
+    }
+  }
+}

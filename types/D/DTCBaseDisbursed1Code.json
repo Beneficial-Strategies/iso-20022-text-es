@@ -1,0 +1,14 @@
+{
+  "isoType": "DTCBaseDisbursed1Code",
+  "definition": "Código que indica si la base de cálculo es el valor base (original) o el valor desembolsado (distribuido).",
+  "isoCodes": {
+    "BASE": {
+      "name": "Base",
+      "definition": "Basado en el valor base."
+    },
+    "DISB": {
+      "name": "Desembolsado",
+      "definition": "Basado en el valor desembolsado."
+    }
+  }
+}

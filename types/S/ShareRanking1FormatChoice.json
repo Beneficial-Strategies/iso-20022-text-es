@@ -1,0 +1,12 @@
+{
+  "isoType": "ShareRanking1FormatChoice",
+  "definition": "Elección de formatos para expresar el rango de las acciones.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el rango de las acciones."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el rango de las acciones."
+    }
+  }
+}

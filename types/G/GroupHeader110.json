@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader110",
+  "definition": "Conjunto de características compartidas por todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la parte instruida, para identificar inequívocamente el mensaje.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por parte instruida durante un período pactado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "Authorisation": {
+      "definition": "Identificación de usuario o cualquier clave de usuario que se utilice para comprobar la autoridad de la parte iniciadora.||Uso: El contenido no es de naturaleza técnica, sino que refleja la estructura organizativa del lado iniciador. El elemento de autorización suele utilizarse en escenarios de retransmisión, iniciaciones de pago, devoluciones de pago o reversiones de pago que se inician en nombre de una parte distinta de la parte iniciadora."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia el mensaje de mandato."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que lleve a cabo una instrucción.||Regla de uso: |En el caso de los mensajes de solicitud de modificación y de cancelación, la entidad instructora es la parte que envía el mensaje de solicitud de modificación y de cancelación, y no la parte que envió el mensaje original de solicitud de inicio del mandato.|En el caso del mensaje de informe de aceptación, la entidad instructora es la parte que envía el mensaje de informe de aceptación, y no la parte que envió el mensaje original de solicitud del mandato."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute una instrucción.||Regla de uso: |En el caso de los mensajes de solicitud de modificación y de cancelación, la entidad instruida es la parte que recibe el mensaje de solicitud de modificación y de cancelación, y no la parte que recibió el mensaje original de solicitud de inicio del mandato.|En el caso del mensaje de informe de aceptación, la entidad instruida es la parte que recibe el mensaje de informe de aceptación, y no la parte que recibió el mensaje original de solicitud del mandato."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification81",
+  "definition": "Información relacionada con la identificación de una parte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de una parte, como un identificador fiscal o de la seguridad social."
+    },
+    "IdentificationType": {
+      "definition": "Tipo de identificación."
+    }
+  }
+}

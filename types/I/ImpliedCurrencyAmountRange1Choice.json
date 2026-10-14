@@ -1,0 +1,21 @@
+{
+  "isoType": "ImpliedCurrencyAmountRange1Choice",
+  "definition": "Elección entre rangos de valores en los que un importe se considera válido, o un valor de importe especificado que debe coincidir o no coincidir para ser válido.",
+  "isoElements": {
+    "FromAmount": {
+      "definition": "Límite inferior de un rango de valores de importe."
+    },
+    "ToAmount": {
+      "definition": "Límite superior de un rango de valores de importe."
+    },
+    "FromToAmount": {
+      "definition": "Rango de valores de importe válidos."
+    },
+    "EqualAmount": {
+      "definition": "Valor exacto con el que debe coincidir un importe para considerarse válido."
+    },
+    "NotEqualAmount": {
+      "definition": "Valor con el que un importe no debe coincidir para considerarse válido."
+    }
+  }
+}

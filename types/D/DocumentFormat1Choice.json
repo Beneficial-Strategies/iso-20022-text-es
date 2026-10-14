@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentFormat1Choice",
+  "definition": "Elección de formato para el tipo de formato de documento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Formato del documento."
+    },
+    "Proprietary": {
+      "definition": "Formato del documento expresado como código propietario."
+    }
+  }
+}

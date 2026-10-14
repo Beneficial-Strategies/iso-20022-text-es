@@ -1,0 +1,18 @@
+{
+  "isoType": "ProtectTransactionType2Code",
+  "definition": "Especifica el tipo de instrucción de protección.",
+  "isoCodes": {
+    "PROT": {
+      "name": "Operación de protección",
+      "definition": "La reorganización es un tipo de operación de protección."
+    },
+    "COVP": {
+      "name": "Operación de cobertura por cuenta de otro participante",
+      "definition": "La reorganización es un tipo de operación de cobertura por cuenta de otro participante."
+    },
+    "COVR": {
+      "name": "Operación de cobertura de protección",
+      "definition": "La reorganización es un tipo de operación de cobertura de protección."
+    }
+  }
+}

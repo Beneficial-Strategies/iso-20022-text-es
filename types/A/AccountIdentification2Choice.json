@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification2Choice",
+  "definition": "Elección entre la identificación de una cuenta de efectivo o de valores.",
+  "isoElements": {
+    "CashAccountIdentification": {
+      "definition": "Identificación de una cuenta de efectivo."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificación de una cuenta de valores."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "PostalAddress26",
+  "definition": "Información que localiza e identifica una dirección específica, tal como la definen los servicios postales.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Identifica la naturaleza de la dirección postal."
+    },
+    "AddressLine": {
+      "definition": "Información que localiza e identifica una dirección concreta, tal como la definen los servicios postales, presentada en texto de formato libre."
+    },
+    "StreetName": {
+      "definition": "Nombre de una calle o vía pública."
+    },
+    "BuildingNumber": {
+      "definition": "Número que identifica la posición de un edificio en una calle."
+    },
+    "PostBox": {
+      "definition": "Apartado numerado de una oficina de correos, asignado a una persona u organización, donde se conservan las cartas hasta que se retiran."
+    },
+    "PostCode": {
+      "definition": "Identificador formado por un grupo de letras y/o números que se añade a una dirección postal para facilitar la clasificación del correo."
+    },
+    "TownName": {
+      "definition": "Nombre de un área urbanizada, con límites definidos y un gobierno local."
+    },
+    "CountrySubDivision": {
+      "definition": "Identifica una subdivisión de un país, por ejemplo, estado, región o condado."
+    },
+    "Country": {
+      "definition": "Nación con gobierno propio."
+    }
+  }
+}

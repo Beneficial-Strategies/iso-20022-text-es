@@ -1,0 +1,33 @@
+{
+  "isoType": "PenaltyRecord4",
+  "definition": "Especifica información adicional sobre la penalización.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación asignada a la penalización por la infraestructura del mercado."
+    },
+    "Type": {
+      "definition": "Tipo de penalización."
+    },
+    "Insolvency": {
+      "definition": "La parte ya no puede cumplir sus obligaciones financieras.||Uso: Cuando no se proporciona el indicador, la insolvencia no es relevante."
+    },
+    "Status": {
+      "definition": "Estado de una penalización."
+    },
+    "ComputedAmount": {
+      "definition": "Importe calculado para esta penalización."
+    },
+    "CalculationMethod": {
+      "definition": "Proporciona la regla de cálculo utilizada para calcular la penalización."
+    },
+    "NumberOfDays": {
+      "definition": "Número de días hábiles desde/hasta la fecha de liquidación prevista."
+    },
+    "CalculationData": {
+      "definition": "Información adicional sobre el cálculo de la penalización."
+    },
+    "RelatedTransaction": {
+      "definition": "Operación a la que se aplican las penalizaciones."
+    }
+  }
+}

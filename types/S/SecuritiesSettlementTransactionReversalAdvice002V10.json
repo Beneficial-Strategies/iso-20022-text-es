@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesSettlementTransactionReversalAdvice002V10",
+  "definition": "Alcance|Un administrador de la cuenta envía un SecuritiesSettlementTransactionReversalAdvice a un titular de la cuenta para revertir la confirmación de una entrega o recepción, parcial o total, de instrumentos financieros, libre de pago o contra pago, de forma física o mediante anotación en cuenta.|La relación entre el administrador de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que actúe en nombre de sus participantes|- un agente (subcustodio) que actúe en nombre de su cliente custodio global, o|- un custodio que actúe en nombre de una entidad de gestión de inversiones o de un intermediario/operador (broker/dealer).||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoElements": {
+    "ConfirmationReference": {
+      "definition": "Referencia a la identificación inequívoca de la confirmación según el administrador de la cuenta."
+    }
+  },
+  "isoRules": {
+    "BuyerSSIRule": {
+      "definition": "Si se aplica una instrucción permanente de liquidación y la instrucción es una entrega, entonces Buyer debe estar presente."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si la instrucción es una entrega y no se aplica ninguna instrucción permanente de liquidación, entonces ReceivingDepository y Party1 deben estar presentes."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si la instrucción es una recepción y no se aplica ninguna instrucción permanente de liquidación, entonces DeliveringDepository y Party1 deben estar presentes."
+    },
+    "SettledAmountRule": {
+      "definition": "Si la instrucción es contra pago, entonces SettledAmount debe estar presente."
+    },
+    "SellerSSIRule": {
+      "definition": "Si se aplica una instrucción permanente de liquidación y la instrucción es una recepción, entonces Seller debe estar presente."
+    }
+  }
+}

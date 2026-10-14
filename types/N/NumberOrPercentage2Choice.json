@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberOrPercentage2Choice",
+  "definition": "Elección entre un porcentaje y un número para un umbral.",
+  "isoElements": {
+    "ThresholdPercentage": {
+      "definition": "Umbral facilitado como tasa porcentual."
+    },
+    "ThresholdNumber": {
+      "definition": "Umbral facilitado como número decimal."
+    }
+  }
+}

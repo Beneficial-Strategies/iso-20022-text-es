@@ -1,0 +1,27 @@
+{
+  "isoType": "ContactIdentification2",
+  "definition": "Información necesaria para contactar con una persona física.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Especifica el tratamiento utilizado para dirigirse formalmente a una persona."
+    },
+    "GivenName": {
+      "definition": "Nombre de pila de una persona."
+    },
+    "Name": {
+      "definition": "Nombre por el que se conoce a una parte y que suele utilizarse para identificarla."
+    },
+    "PhoneNumber": {
+      "definition": "Conjunto de información que identifica un número de teléfono, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "MobileNumber": {
+      "definition": "Conjunto de información que identifica un número de teléfono móvil, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "FaxNumber": {
+      "definition": "Conjunto de información que identifica un número de FAX, tal como lo definen los servicios de telecomunicaciones."
+    },
+    "EmailAddress": {
+      "definition": "Dirección de correo electrónico (e-mail)."
+    }
+  }
+}

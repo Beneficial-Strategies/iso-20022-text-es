@@ -1,0 +1,39 @@
+{
+  "isoType": "FinancialInstrument22",
+  "definition": "Valor que es un subconjunto de un fondo de inversión y se rige por la misma política del fondo de inversión, por ejemplo, la opción de dividendos o la divisa de valoración.",
+  "isoElements": {
+    "ClassType": {
+      "definition": "Características de las participaciones ofrecidas por un fondo. Por ejemplo, una participación puede tener una estructura de comisiones específica, p. ej., de entrada o de salida, una política de rentas, por ejemplo, distribución o acumulación, o una política de comisión de seguimiento, p. ej., con o sin ella. Las clases de fondos suelen denotarse con un solo carácter, por ejemplo, \"Clase A\", \"Clase 2\"."
+    },
+    "SecuritiesForm": {
+      "definition": "Especifica la forma, es decir, la titularidad, del valor."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rentas relativa a un tipo de clase, es decir, si las rentas se distribuyen o se retienen en el fondo."
+    },
+    "ProductGroup": {
+      "definition": "Descripción específica de la empresa de un grupo de fondos."
+    },
+    "UmbrellaName": {
+      "definition": "Nombre del fondo paraguas en el que está contenido el instrumento financiero."
+    },
+    "BaseCurrency": {
+      "definition": "Divisa de la clase del fondo de inversión."
+    },
+    "DenominationCurrency": {
+      "definition": "Divisa en la que se emite o se redenomina un valor."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Divisa que se utilizará para fijar el precio del fondo. Esta divisa debe estar entre el conjunto de divisas en las que puede expresarse el precio, según se indica en el folleto."
+    },
+    "DualFundIndicator": {
+      "definition": "Indica si el fondo tiene dos precios."
+    },
+    "CountryOfDomicile": {
+      "definition": "País en el que el fondo tiene su domicilio legal, tal como se refleja en la clasificación ISIN."
+    },
+    "RegisteredDistributionCountry": {
+      "definition": "Países en los que el fondo está registrado para su distribución."
+    }
+  }
+}

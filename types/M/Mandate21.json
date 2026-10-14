@@ -1,0 +1,80 @@
+{
+  "isoType": "Mandate21",
+  "definition": "Información que sirve de base para adeudar una cuenta.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificación única, asignada por la parte responsable (como el beneficiario) o por la entidad (como la entidad del ordenante), para identificar inequívocamente el mandato."
+    },
+    "MandateRequestIdentification": {
+      "definition": "Identificación de la solicitud de mandato, asignada por la parte iniciadora."
+    },
+    "Authentication": {
+      "definition": "Especifica los detalles de autenticación de transporte relacionados con el mandato."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de mandato, como papel, electrónico o de esquema."
+    },
+    "Occurrences": {
+      "definition": "Proporciona detalles de la duración del mandato y de la periodicidad de las operaciones subyacentes."
+    },
+    "TrackingIndicator": {
+      "definition": "Especifica si las instrucciones de adeudo directo deben volver a presentarse automáticamente de forma periódica cuando así se haya acordado bilateralmente."
+    },
+    "FirstCollectionAmount": {
+      "definition": "Importe distinto del importe del cobro, ya que incluye los costes asociados al primer importe adeudado."
+    },
+    "CollectionAmount": {
+      "definition": "Importe fijo que se cobrará de la cuenta del ordenante."
+    },
+    "MaximumAmount": {
+      "definition": "Importe máximo que puede cobrarse de la cuenta del ordenante, por instrucción."
+    },
+    "Adjustment": {
+      "definition": "Especifica las características del ajuste aplicado al importe de cobro de una instrucción de adeudo directo."
+    },
+    "Reason": {
+      "definition": "Proporciona el motivo de la constitución del mandato."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Parte acreedora que firma el mandato."
+    },
+    "Creditor": {
+      "definition": "Parte que firma el mandato y a quien se debe una cantidad de dinero."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se abonará un apunte como resultado de la operación de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicios sobre una cuenta del beneficiario."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe de dinero."
+    },
+    "Debtor": {
+      "definition": "Parte que firma el mandato y adeuda una cantidad de dinero al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se realizará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe una cantidad de dinero al beneficiario (final)."
+    },
+    "MandateReference": {
+      "definition": "Referencia asignada por un beneficiario o beneficiario final para uso interno del mandato."
+    },
+    "ReferredDocument": {
+      "definition": "Proporciona información para identificar los documentos subyacentes asociados al mandato."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor solo puede estar presente si es distinto de Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor solo puede estar presente si es distinto de Creditor."
+    }
+  }
+}

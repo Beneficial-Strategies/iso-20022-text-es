@@ -1,0 +1,65 @@
+{
+  "isoType": "SettlementDetails151",
+  "definition": "Detalles de la liquidación de una operación.",
+  "isoElements": {
+    "Priority": {
+      "definition": "Especifica si la operación se ejecutó con alta prioridad."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condiciones en las que debía liquidarse la orden/operación."
+    },
+    "SettlingCapacity": {
+      "definition": "Función de una parte en la liquidación de la operación."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica el tipo de impuesto de timbre o el motivo de exención aplicable a la operación de liquidación."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica si la operación de liquidación debía liquidarse a través de un sistema RTGS o no RTGS."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica si hubo cambio de titularidad real."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica la categoría del sistema de compensación de efectivo, por ejemplo, la compensación de cheques."
+    },
+    "TaxCapacity": {
+      "definition": "Función fiscal de la parte instructora."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica si una instrucción correspondía a una operación del lado del mercado o del lado del cliente."
+    },
+    "BlockTrade": {
+      "definition": "Especifica si la instrucción de liquidación era una instrucción de bloque principal o hija."
+    },
+    "LegalRestrictions": {
+      "definition": "Restricciones regulatorias aplicables a un valor."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Especifica si la instrucción de liquidación debía liquidarse a través del sistema de liquidación predeterminado o del alternativo."
+    },
+    "NettingEligibility": {
+      "definition": "Especifica si la operación de liquidación era admisible para compensación por neteo."
+    },
+    "CCPEligibility": {
+      "definition": "Especifica si la operación de liquidación era admisible para una CCP (Central Counterparty)."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condición para el préstamo automático."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica si se permitió la liquidación parcial."
+    },
+    "EligibleForCollateral": {
+      "definition": "Especifica si se solicitó que los valores se incluyeran en el conjunto de valores admisibles como garantía."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si se utilizan elementos SettlementDetails, sus condiciones de uso deben acordarse previamente entre el titular de la cuenta y el administrador de cuentas."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Los códigos CashSettlementSystem solo deben ser utilizados por los agentes directamente implicados en el proceso de liquidación, como agentes de liquidación locales, depositarios centrales de valores (CSD) y bancos centrales."
+    }
+  }
+}

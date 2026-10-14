@@ -1,0 +1,15 @@
+{
+  "isoType": "Account11Choice",
+  "definition": "Elección entre una cuenta de efectivo, una cuenta de gastos o una cuenta de impuestos.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Cuenta en la que se mantiene efectivo."
+    },
+    "ChargesAccount": {
+      "definition": "Cuenta que se utilizará para los gastos si es distinta de la cuenta del pago."
+    },
+    "TaxAccount": {
+      "definition": "Cuenta que se utilizará para los impuestos si es distinta de la cuenta del pago."
+    }
+  }
+}

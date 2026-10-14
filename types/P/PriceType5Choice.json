@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceType5Choice",
+  "definition": "Elección del tipo de precio.",
+  "isoElements": {
+    "Market": {
+      "definition": "Último precio comunicado de un instrumento financiero en un mercado, determinado por la oferta y la demanda."
+    },
+    "Indicative": {
+      "definition": "Precio estimado, a efectos de valoración."
+    }
+  }
+}

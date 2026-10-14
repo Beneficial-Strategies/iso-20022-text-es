@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingSearchCriteria3",
+  "definition": "Define los criterios que se utilizarán para la extracción.",
+  "isoElements": {
+    "Service": {
+      "definition": "Identificación del servicio o sistema para el que se debe devolver la información de facturación."
+    },
+    "BillingIdentification": {
+      "definition": "Identificación del informe de facturación."
+    },
+    "BillingPeriod": {
+      "definition": "Se almacena información general de cada factura, solicitud de facturación o evento de facturación de fin de mes."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Identificación única de la parte responsable de la parte referenciada (es decir, que tiene una responsabilidad contractual sobre el cliente facturado)."
+    },
+    "PartyIdentification": {
+      "definition": "Identificación única para identificar de forma inequívoca a la parte facturada."
+    },
+    "AccountIdentification": {
+      "definition": "Número de cuenta de valores o de cuenta de efectivo dedicada."
+    }
+  }
+}

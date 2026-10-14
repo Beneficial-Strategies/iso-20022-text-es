@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateMemberV01",
+  "definition": "Ámbito|El mensaje ModifyMember lo envía un miembro al administrador de operaciones.|Se utiliza para crear el perfil de un miembro que mantiene el administrador de operaciones.|Uso|Con arreglo a los criterios definidos en el mensaje CreateLimit, el administrador de operaciones ejecutará o rechazará la creación solicitada y responderá con un mensaje Receipt como respuesta a la solicitud."
+}

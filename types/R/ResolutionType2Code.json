@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionType2Code",
+  "definition": "Especifica el tipo de resolución.",
+  "isoCodes": {
+    "EXTR": {
+      "name": "Extraordinaria",
+      "definition": "La resolución de la junta es extraordinaria y puede estar sujeta a requisitos de votación específicos."
+    },
+    "SPCL": {
+      "name": "Especial",
+      "definition": "Resolución que no es ni ordinaria ni extraordinaria (por ejemplo, una decisión sobre una estrategia de inversión)."
+    }
+  }
+}

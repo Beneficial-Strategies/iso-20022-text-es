@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification132",
+  "definition": "Identificación de una parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Identificación de la parte expresada como BIC."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Elección de identificador de un miembro de un sistema de compensación, asignado por el sistema de compensación. En algunos sistemas de compensación, a las cuentas de los miembros también se les asigna un identificador."
+    },
+    "NameAndAddress": {
+      "definition": "Nombre y dirección de la parte."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identificador único e inequívoco asignado a la parte mediante un esquema de identificación propietario."
+    },
+    "LEI": {
+      "definition": "Identificación de la entidad jurídica como identificación alternativa de la parte."
+    }
+  }
+}

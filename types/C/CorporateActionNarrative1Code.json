@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionNarrative1Code",
+  "definition": "Especifica el tipo de texto narrativo de una operación corporativa.",
+  "isoCodes": {
+    "TAXE": {
+      "name": "Condiciones fiscales",
+      "definition": "Proporciona condiciones fiscales que no pueden incluirse en los campos estructurados de este mensaje."
+    },
+    "REGI": {
+      "name": "Detalles del registro",
+      "definition": "Proporciona la información necesaria para el registro."
+    },
+    "WTRC": {
+      "name": "Certificación de exención de retención fiscal",
+      "definition": "Proceso de certificación para la reducción o exención de la retención fiscal en función de la situación fiscal del tenedor."
+    },
+    "RFMC": {
+      "name": "Rechazo por el ICSD de la confirmación de aumento o reducción",
+      "definition": "En el contexto de una operación corporativa, un depositario central internacional de valores (ICSD) rechaza una confirmación de aumento/reducción enviada por el administrador de la cuenta."
+    },
+    "PAUT": {
+      "name": "Reclamación de autorización previa",
+      "definition": "El depositario central internacional de valores (ICSD) reclama al administrador de la cuenta la autorización para procesar el canje de global temporal a global permanente."
+    },
+    "CTIN": {
+      "name": "Confirmación de traspaso de posición",
+      "definition": "Confirmación de la transferencia de participaciones entre depositarios centrales internacionales de valores (ICSDs) a raíz de operaciones corporativas."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentificationAndName5",
+  "definition": "Identificación de la cuenta expresada con un nombre y un número de cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "Name": {
+      "definition": "Nombre de la cuenta. Proporciona un medio adicional de identificación y lo designa la entidad gestora de la cuenta de acuerdo con el titular de la cuenta."
+    }
+  }
+}

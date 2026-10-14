@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServicesAmount1",
+  "definition": "Conversiones a la divisa de la jurisdicción fiscal del importe del cargo de servicio imponible.",
+  "isoElements": {
+    "HostAmount": {
+      "definition": "Suma de todos los impuestos individuales del servicio expresada en la divisa de la jurisdicción fiscal."
+    },
+    "PricingAmount": {
+      "definition": "Importe de la obligación fiscal expresado en la divisa de tarificación de la región fiscal.|Uso: Es el mismo importe que figura en el importe en la divisa de la jurisdicción fiscal, pero permite al emisor expresar opcionalmente el valor en la divisa de tarificación."
+    }
+  }
+}

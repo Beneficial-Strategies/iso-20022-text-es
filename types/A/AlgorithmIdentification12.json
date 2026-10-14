@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification12",
+  "definition": "Algoritmo criptográfico y parámetros de la función generadora de máscara.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Algoritmo criptográfico de la función generadora de máscara."
+    },
+    "Parameter": {
+      "definition": "Parámetros asociados al algoritmo criptográfico de la función generadora de máscara."
+    }
+  }
+}

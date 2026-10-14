@@ -1,0 +1,62 @@
+{
+  "isoType": "CorporateActionBalanceDetails45",
+  "definition": "Saldo admisible y no admisible de valores para un evento de operación societaria.",
+  "isoElements": {
+    "ConfirmedBalance": {
+      "definition": "Saldo al que se aplica el pago (inferior o igual al saldo admisible total)."
+    },
+    "TotalEligibleBalance": {
+      "definition": "Saldo total de valores admisibles para este evento de operación societaria. El cálculo del derecho se basa en este saldo."
+    },
+    "BlockedBalance": {
+      "definition": "Saldo de instrumentos financieros que están bloqueados."
+    },
+    "BorrowedBalance": {
+      "definition": "Saldo de instrumentos financieros que se han tomado en préstamo de otra parte."
+    },
+    "CollateralInBalance": {
+      "definition": "Saldo de valores que pertenecen a un tercero y se mantienen con fines de colateralización."
+    },
+    "CollateralOutBalance": {
+      "definition": "Saldo de valores que pertenecen a la cuenta de custodia indicada en este mensaje y están depositados en un tercero con fines de colateralización."
+    },
+    "OnLoanBalance": {
+      "definition": "Saldo de instrumentos financieros que se han prestado a un tercero."
+    },
+    "PendingDeliveryBalance": {
+      "definition": "Saldo de instrumentos financieros pendientes de entrega."
+    },
+    "PendingReceiptBalance": {
+      "definition": "Saldo de instrumentos financieros pendientes de recepción."
+    },
+    "OutForRegistrationBalance": {
+      "definition": "Saldo de instrumentos financieros que está procesando actualmente la entidad responsable de registrar al nuevo titular real (o nominatario)."
+    },
+    "SettlementPositionBalance": {
+      "definition": "Saldo de valores que representa únicamente operaciones liquidadas; no incluye las operaciones pendientes."
+    },
+    "StreetPositionBalance": {
+      "definition": "Saldo de instrumentos financieros que siguen registrados a nombre del titular real anterior."
+    },
+    "TradeDatePositionBalance": {
+      "definition": "Saldo de valores basado en la fecha de contratación; por ejemplo, incluye todas las operaciones pendientes además del saldo de operaciones liquidadas."
+    },
+    "InTransshipmentBalance": {
+      "definition": "Saldo de valores físicos que están en proceso de transferencia de un depositario/agente a otro."
+    },
+    "RegisteredBalance": {
+      "definition": "Saldo de instrumentos financieros que están registrados (a nombre de un nominatario o del titular real)."
+    },
+    "AffectedBalance": {
+      "definition": "Saldo que ha sido afectado por el proceso ejecutado a lo largo del evento."
+    },
+    "UnaffectedBalance": {
+      "definition": "Saldo que no ha sido afectado por el proceso ejecutado a lo largo del evento."
+    }
+  },
+  "isoRules": {
+    "AffectedAndUnaffectedBalanceRule": {
+      "definition": "El saldo no afectado y los saldos afectados solo deben indicarse como resultado del proceso ejecutado en el evento. Por ejemplo, resultados de un sorteo, resultados de una subasta holandesa o resultados de una oferta pública de adquisición."
+    }
+  }
+}

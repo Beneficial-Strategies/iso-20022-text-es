@@ -1,0 +1,24 @@
+{
+  "isoType": "StatementGroup5",
+  "definition": "Grupo de la cabecera del extracto que informa de la facturación de servicios bancarios y del extracto de facturación.",
+  "isoElements": {
+    "GroupIdentification": {
+      "definition": "Identificación de un grupo de extractos de facturación de clientes."
+    },
+    "Sender": {
+      "definition": "Entidad financiera de origen que envía el extracto."
+    },
+    "SenderIndividualContact": {
+      "definition": "Especifica la persona de contacto en caso de problemas técnicos en la ubicación del remitente."
+    },
+    "Receiver": {
+      "definition": "Cliente de la entidad financiera que recibe el extracto."
+    },
+    "ReceiverIndividualContact": {
+      "definition": "Especifica la persona de contacto en caso de problemas técnicos en la ubicación del destinatario."
+    },
+    "BillingStatement": {
+      "definition": "Proporciona el extracto de facturación de servicios bancarios, que recoge todos los hechos generadores de cargos por servicios ocurridos durante un ciclo de información, como el cierre de mes."
+    }
+  }
+}

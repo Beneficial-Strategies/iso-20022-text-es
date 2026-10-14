@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionAmendmentRequestV01",
+  "definition": "Ámbito|Este mensaje lo envía un CSD al emisor (o a su agente) para solicitar la autorización de una modificación de un mensaje de aviso de elección de evento corporativo del agente enviado previamente.|Uso|Este mensaje se utiliza para solicitar la modificación de un mensaje de aviso de elección de evento corporativo del agente enviado previamente.|Una vez que el emisor (o su agente) haya aceptado la solicitud de modificación, el CSD procesará cualquier movimiento de recursos y enviará un mensaje de aviso de elección de evento corporativo del agente con la función, cambio de opción, para confirmar que la modificación se ha contabilizado en el CSD.|Este mensaje se utiliza cuando los términos y condiciones del evento corporativo permiten modificaciones."
+}

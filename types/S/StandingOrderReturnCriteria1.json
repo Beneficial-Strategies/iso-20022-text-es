@@ -1,0 +1,57 @@
+{
+  "isoType": "StandingOrderReturnCriteria1",
+  "definition": "Define los criterios utilizados para notificar las órdenes permanentes.",
+  "isoElements": {
+    "StandingOrderIdentificationIndicator": {
+      "definition": "Define los criterios utilizados para informar sobre un saldo multilateral."
+    },
+    "TypeIndicator": {
+      "definition": "Indica si se solicita el tipo de orden permanente."
+    },
+    "SystemMemberIndicator": {
+      "definition": "Indica si se solicita la identificación del miembro del sistema."
+    },
+    "ResponsiblePartyIndicator": {
+      "definition": "Indica si se solicita la identificación de la parte responsable."
+    },
+    "CurrencyIndicator": {
+      "definition": "Indica si se solicita la divisa de la cuenta."
+    },
+    "DebtorAccountIndicator": {
+      "definition": "Indica si se solicita el tipo de cuenta."
+    },
+    "CreditorAccountIndicator": {
+      "definition": "Indica si se solicita el límite multilateral."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Indica si se solicita la cuenta asociada del conjunto de cuentas."
+    },
+    "FrequencyIndicator": {
+      "definition": "Indica si se solicita la frecuencia."
+    },
+    "ExecutionTypeIndicator": {
+      "definition": "Indica si se solicita el tipo de ejecución."
+    },
+    "ValidityFromIndicator": {
+      "definition": "Indica si se solicita la orden permanente de la cuenta."
+    },
+    "ValidToIndicator": {
+      "definition": "Indica si se solicita la información del titular de la cuenta."
+    },
+    "LinkSetIdentificationIndicator": {
+      "definition": "Indica si se solicita la identificación del conjunto vinculado."
+    },
+    "LinkSetOrderIdentificationIndicator": {
+      "definition": "Indica si se solicita la identificación de una orden permanente dentro de un conjunto vinculado."
+    },
+    "LinkSetOrderSequenceIndicator": {
+      "definition": "Indica si se solicita la secuencia de una orden permanente dentro de un conjunto vinculado."
+    },
+    "TotalAmountIndicator": {
+      "definition": "Indica si se solicita el importe total por tipo de orden permanente."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indica si se solicita el indicador de barrido a cero."
+    }
+  }
+}

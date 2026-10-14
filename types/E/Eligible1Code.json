@@ -1,0 +1,14 @@
+{
+  "isoType": "Eligible1Code",
+  "definition": "Especifica si el elemento es admisible o no admisible.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Admisible",
+      "definition": "El elemento es admisible."
+    },
+    "NELI": {
+      "name": "No admisible",
+      "definition": "El elemento no es admisible."
+    }
+  }
+}

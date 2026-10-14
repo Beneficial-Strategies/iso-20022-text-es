@@ -1,0 +1,82 @@
+{
+  "isoType": "PendingProcessingReason6Code",
+  "definition": "Especifica el motivo por el que la operación o instrucción incumple la liquidación. La liquidación en la fecha de liquidación instruida ya no es posible.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Cuenta bloqueada",
+      "definition": "Su cuenta está bloqueada; ninguna instrucción puede liquidarse a través de la cuenta."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del administrador de cuentas. Se gestionará conforme al acuerdo de servicio bilateral entre el administrador de cuentas y el titular de la cuenta."
+    },
+    "DOCY": {
+      "name": "A la espera de documentos o endosos de su parte",
+      "definition": "A la espera de documentos o endosos de su parte."
+    },
+    "CAIS": {
+      "name": "A la espera de valores",
+      "definition": "En espera de instrumentos financieros procedentes de una operación societaria u otro procedimiento, por ejemplo, conversión, desmaterialización, canje, registro, estampillado o división."
+    },
+    "YCOL": {
+      "name": "Insuficiencia de garantías",
+      "definition": "Garantía insuficiente en su cuenta para ejecutar la instrucción."
+    },
+    "GLOB": {
+      "name": "Valores en forma global",
+      "definition": "No se puede ejecutar la liquidación; los instrumentos financieros están en forma global."
+    },
+    "LIQU": {
+      "name": "Liquidez insuficiente en el banco central",
+      "definition": "La liquidez del banco central es insuficiente."
+    },
+    "MONY": {
+      "name": "Fondos insuficientes",
+      "definition": "Fondos insuficientes en su cuenta."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "Instrumentos financieros insuficientes en su cuenta."
+    },
+    "FLIM": {
+      "name": "Límite máximo de extranjeros alcanzado",
+      "definition": "Instrumentos financieros entregables insuficientes en su cuenta porque se ha alcanzado el límite máximo para extranjeros."
+    },
+    "MINO": {
+      "name": "Importe mínimo de liquidación",
+      "definition": "La cantidad instruida es inferior a la cantidad mínima de liquidación existente para el instrumento financiero."
+    },
+    "MUNO": {
+      "name": "Importe de liquidación múltiple",
+      "definition": "La cantidad instruida no es múltiplo de un lote de liquidación existente para el instrumento financiero."
+    },
+    "NEXT": {
+      "name": "Siguiente proceso",
+      "definition": "Se inicia el siguiente proceso. No hay problemas de procesamiento pendientes que notificar."
+    },
+    "NOFX": {
+      "name": "Sin instrucción de cambio de divisas",
+      "definition": "Falta una instrucción de cambio de divisas de su parte."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "LALO": {
+      "name": "Valores prestados",
+      "definition": "Los instrumentos financieros están prestados."
+    },
+    "COLL": {
+      "name": "Valores pignorados como garantía",
+      "definition": "Los instrumentos financieros no son entregables porque están pignorados como garantía."
+    },
+    "DENO": {
+      "name": "Cantidad denominada entregable no disponible",
+      "definition": "La cantidad instruida no coincide con la denominación disponible o entregable. Los valores físicos deben obtenerse en cantidades de denominaciones entregables."
+    },
+    "CERT": {
+      "name": "Números de certificados incorrectos",
+      "definition": "Error en el número de certificado."
+    }
+  }
+}

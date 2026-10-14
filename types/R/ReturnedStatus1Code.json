@@ -1,0 +1,14 @@
+{
+  "isoType": "ReturnedStatus1Code",
+  "definition": "Especifica el motivo por el que la instrucción o la solicitud de cancelación tiene un estado devuelto.",
+  "isoCodes": {
+    "NARR": {
+      "name": "Motivo narrativo",
+      "definition": "Véase el campo narrativo para conocer el motivo."
+    },
+    "PROR": {
+      "name": "Prorrateado",
+      "definition": "Acciones devueltas debido a una aceptación prorrateada."
+    }
+  }
+}

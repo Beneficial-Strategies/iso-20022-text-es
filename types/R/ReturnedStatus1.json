@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedStatus1",
+  "definition": "Las unidades instruidas se devuelven, total o parcialmente, a la parte instructora.",
+  "isoElements": {
+    "ReturnedQuantity": {
+      "definition": "Cantidad de valores que se han devuelto."
+    },
+    "ReturnedReason": {
+      "definition": "Motivo del estado de pendiente."
+    }
+  }
+}

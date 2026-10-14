@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReason1",
+  "definition": "Motivo por el que se grava el servicio.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo por el que se grava el servicio, de forma codificada."
+    },
+    "Explanation": {
+      "definition": "Motivo por el que se grava el servicio, en texto libre."
+    }
+  }
+}

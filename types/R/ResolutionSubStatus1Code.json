@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionSubStatus1Code",
+  "definition": "Especifica el subestado de una resolución.",
+  "isoCodes": {
+    "AMDR": {
+      "name": "Acuerdo modificado",
+      "definition": "La resolución votada en la junta fue modificada."
+    },
+    "NEWR": {
+      "name": "Nuevo acuerdo",
+      "definition": "La resolución votada en la junta es nueva."
+    }
+  }
+}

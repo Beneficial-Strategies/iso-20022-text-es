@@ -1,0 +1,18 @@
+{
+  "isoType": "System3",
+  "definition": "Búsqueda de un sistema y de un miembro de un sistema.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identificación de un sistema de compensación de efectivo concreto."
+    },
+    "MemberIdentification": {
+      "definition": "Identificación única e inequívoca de un miembro dentro de un sistema, asignada mediante el esquema de identificación de miembros del sistema."
+    },
+    "Country": {
+      "definition": "País en el que se encuentra el sistema."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    }
+  }
+}

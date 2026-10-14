@@ -1,0 +1,12 @@
+{
+  "isoType": "HoldIndicator6",
+  "definition": "Especifica si la operación está retenida/bloqueada/inmovilizada.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si la operación está retenida/bloqueada/inmovilizada."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la situación de registro."
+    }
+  }
+}

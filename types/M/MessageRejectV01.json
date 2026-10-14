@@ -1,0 +1,4 @@
+{
+  "isoType": "MessageRejectV01",
+  "definition": "Alcance|El mensaje MessageReject lo envía un sistema central para notificar el rechazo de un mensaje recibido previamente.|Uso|El mensaje facilita información específica sobre el motivo del rechazo."
+}

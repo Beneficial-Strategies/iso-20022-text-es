@@ -1,0 +1,12 @@
+{
+  "isoType": "Charges15",
+  "definition": "Proporciona información adicional sobre los gastos relacionados con la operación de pago.",
+  "isoElements": {
+    "TotalChargesAndTaxAmount": {
+      "definition": "Total de todos los gastos e impuestos aplicados al apunte."
+    },
+    "Record": {
+      "definition": "Proporciona información sobre el registro de gastos individual."
+    }
+  }
+}

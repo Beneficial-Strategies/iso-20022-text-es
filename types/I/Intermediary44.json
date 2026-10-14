@@ -1,0 +1,15 @@
+{
+  "isoType": "Intermediary44",
+  "definition": "Parte que presta servicios a los inversores en relación con productos financieros (fondos de inversión).",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco del intermediario."
+    },
+    "Role": {
+      "definition": "Función desempeñada por el intermediario (fondos de inversión)."
+    },
+    "Account": {
+      "definition": "Relación comercial entre dos entidades; una entidad es el titular de la cuenta y la otra es la entidad gestora de la cuenta."
+    }
+  }
+}

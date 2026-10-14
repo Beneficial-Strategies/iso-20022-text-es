@@ -1,0 +1,62 @@
+{
+  "isoType": "Drawdown04",
+  "definition": "Detalles de un tramo de disposición.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la disposición."
+    },
+    "TrancheType": {
+      "definition": "Tipo de tramo de disposición."
+    },
+    "ApplicableRules": {
+      "definition": "Especifica las normas aplicables a la disposición. Por ejemplo, en el mercado del UK, la norma anterior al Día A introducida el 6 de abril de 2006.)"
+    },
+    "InvestorTaxReference": {
+      "definition": "Identificación del inversor asignada por una autoridad fiscal."
+    },
+    "PercentageOfTotalTransferValue": {
+      "definition": "Porcentaje del valor total de la transferencia cubierto por la disposición."
+    },
+    "TotalAmountNetDrawdown": {
+      "definition": "Importe que se designó originalmente para la disposición."
+    },
+    "AdditionalFundsDesignated": {
+      "definition": "Indica si se han designado fondos adicionales desde el acuerdo original."
+    },
+    "PensionCommencementLumpSumRemaining": {
+      "definition": "Importe restante del pago único al inicio de la pensión (PCLS)."
+    },
+    "PensionCommencementLumpSumDate": {
+      "definition": "Fecha límite para utilizar el pago único al inicio de la pensión (PCLS)."
+    },
+    "MultiplePensionCommencementLumpSums": {
+      "definition": "Indica que ha habido varios pagos únicos al inicio de la pensión (PCLS)."
+    },
+    "LifetimeAllowance": {
+      "definition": "Porcentaje de la asignación vitalicia (LTA) utilizado."
+    },
+    "RecipientOfDrawdownIndicator": {
+      "definition": "Indica que una persona distinta del titular original de la pensión es la receptora del pago de la disposición."
+    },
+    "BeneficiaryDetails": {
+      "definition": "Información sobre el destinatario de la disposición, cuando no es el titular original de la pensión."
+    },
+    "CappedLimits": {
+      "definition": "Límites de la disposición con límite."
+    },
+    "FlexibleDrawdownTriggeredDate": {
+      "definition": "Fecha en la que se desencadenó la disposición cuando el tipo de disposición es flexible."
+    },
+    "TrancheDate": {
+      "definition": "Fecha en la que se ejecuta el tramo"
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la disposición."
+    }
+  },
+  "isoRules": {
+    "BeneficiaryDetailsRule": {
+      "definition": "Si RecipientOfDrawdownIndicator es \"false\" o \"0\" (No), entonces BeneficiaryDetails no está permitido.|Si RecipientOfDrawdownIndicator es \"true\" o \"1\" (Sí), entonces BeneficiaryDetails puede estar presente."
+    }
+  }
+}

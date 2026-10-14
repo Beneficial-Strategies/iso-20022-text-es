@@ -1,0 +1,305 @@
+{
+  "isoType": "IssuerAgentRejection1Code",
+  "isoCodes": {
+    "NMOD": {
+      "name": "Evento cancelado",
+      "definition": "Un evento cancelado no puede modificarse."
+    },
+    "PR1K": {
+      "name": "Tasa en efectivo inferior a mil",
+      "definition": "Bono cupón cero: la tasa de principal / efectivo debe ser inferior a USD 1,000.00."
+    },
+    "CER0": {
+      "name": "Importe del certificado superior a cero",
+      "definition": "El importe del certificado debe ser mayor que cero."
+    },
+    "NCON": {
+      "name": "Valor convertible no admitido",
+      "definition": "Valor convertible no admitido."
+    },
+    "DEPO": {
+      "name": "Importe amortizado del depositario igual al importe amortizado del valor",
+      "definition": "El importe amortizado del depositario debe ser mayor que cero y debe ser igual al importe amortizado del valor."
+    },
+    "FAS0": {
+      "name": "Importe amortizado del depositario superior a cero",
+      "definition": "El importe amortizado del depositario debe ser mayor que cero."
+    },
+    "DUPL": {
+      "name": "Evento duplicado",
+      "definition": "Existe un evento duplicado."
+    },
+    "PDAY": {
+      "name": "Día efectivo posterior a la fecha de pago",
+      "definition": "La fecha de efecto es posterior a la fecha de pago."
+    },
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Ha fallado la validación del aviso, instrucción o solicitud."
+    },
+    "LOCK": {
+      "name": "Bloqueo global",
+      "definition": "El valor subyacente tiene un bloqueo global."
+    },
+    "GAMN": {
+      "name": "Importe bruto inferior al importe neto",
+      "definition": "El importe bruto es menor que el importe neto."
+    },
+    "UNDI": {
+      "name": "Valor subyacente inactivo",
+      "definition": "Valor subyacente inactivo."
+    },
+    "DEFE": {
+      "name": "Identificador de valor extinguido no válido",
+      "definition": "Identificador de valor liberado no válido."
+    },
+    "IDIS": {
+      "name": "Identificación de valor desembolsado no válida",
+      "definition": "Falta la identificación del valor desembolsado."
+    },
+    "SEEQ": {
+      "name": "Tipo de valor de renta variable no válido",
+      "definition": "Tipo de valor de renta variable no válido."
+    },
+    "EVNT": {
+      "name": "Tipo de evento no válido",
+      "definition": "Tipo de evento no válido."
+    },
+    "NDEF": {
+      "name": "Identificador de valor no extinguido no válido",
+      "definition": "Identificador de valor no liberado no válido."
+    },
+    "NREF": {
+      "name": "Identificador de valor no reembolsado no válido",
+      "definition": "Identificador de valor no reembolsado no válido"
+    },
+    "REFR": {
+      "name": "Identificación de notificación no válida",
+      "definition": "Identificación de notificación no válida."
+    },
+    "ISSC": {
+      "name": "Información de contacto del agente del emisor no válida o ausente",
+      "definition": "La información de contacto del agente del emisor no es válida o falta."
+    },
+    "PRIN": {
+      "name": "Tasa de efectivo principal no válida",
+      "definition": "Tasa de efectivo del principal no válida."
+    },
+    "REDT": {
+      "name": "Fecha de amortización no válida",
+      "definition": "Fecha de reembolso no válida."
+    },
+    "REFU": {
+      "name": "Identificador de valor reembolsado no válido",
+      "definition": "Identificador de valor reembolsado no válido."
+    },
+    "CERT": {
+      "name": "Importe total del certificado no válido",
+      "definition": "Importe no válido: el importe total del certificado debe ser mayor que cero e igual al importe amortizado del valor."
+    },
+    "UNDV": {
+      "name": "Valor subyacente no válido",
+      "definition": "Valor subyacente no válido."
+    },
+    "BACK": {
+      "name": "Falta la cantidad de lote impar final",
+      "definition": "Falta la cantidad de lote impar de cierre."
+    },
+    "BIDI": {
+      "name": "Falta el intervalo de oferta",
+      "definition": "Falta el intervalo de oferta."
+    },
+    "CINL": {
+      "name": "Falta el precio del efectivo en sustitución",
+      "definition": "Falta el precio del efectivo en sustitución."
+    },
+    "MCER": {
+      "name": "Falta la certificación",
+      "definition": "No se ha cumplimentado la certificación."
+    },
+    "CSRT": {
+      "name": "Falta la tasa en efectivo",
+      "definition": "Falta la tasa en efectivo."
+    },
+    "COND": {
+      "name": "Falta el indicador de ofertas condicionales aceptadas",
+      "definition": "Falta el indicador de ofertas condicionales aceptadas."
+    },
+    "DFLT": {
+      "name": "Falta la opción por defecto",
+      "definition": "Una opción debe estar marcada como predeterminada."
+    },
+    "MDIS": {
+      "name": "Falta la identificación del valor desembolsado",
+      "definition": "Falta la identificación del valor desembolsado."
+    },
+    "XRAT": {
+      "name": "Falta el tipo de cambio",
+      "definition": "No se permite el importe resultante sin un tipo de cambio."
+    },
+    "FIRS": {
+      "name": "Falta el primer incremento de oferta",
+      "definition": "Falta el primer incremento de oferta."
+    },
+    "FRAC": {
+      "name": "Falta el tratamiento de fracciones",
+      "definition": "No se puede anunciar un valor subyacente fraccionario."
+    },
+    "MFCF": {
+      "name": "Falta el indicador de condicionalidad total",
+      "definition": "Falta el indicador de condicional total."
+    },
+    "ISSR": {
+      "name": "Falta el agente del emisor",
+      "definition": "Falta el agente del emisor."
+    },
+    "LAST": {
+      "name": "Falta el último incremento de oferta",
+      "definition": "Falta el último incremento de oferta."
+    },
+    "MAXP": {
+      "name": "Falta el precio máximo",
+      "definition": "Falta el precio máximo."
+    },
+    "MINP": {
+      "name": "Falta el precio mínimo",
+      "definition": "Falta el precio mínimo."
+    },
+    "ODLT": {
+      "name": "Falta el indicador de prioridad de lote impar",
+      "definition": "Falta el indicador de prioridad de lote impar."
+    },
+    "SECO": {
+      "name": "Falta la opción",
+      "definition": "La segunda opción es obligatoria."
+    },
+    "OVCH": {
+      "name": "Falta el indicador de gastos de sobresuscripción",
+      "definition": "Falta el indicador de cargo por sobresuscripción."
+    },
+    "OVFL": {
+      "name": "Falta el indicador de sobresuscripción",
+      "definition": "Falta el indicador de sobresuscripción."
+    },
+    "OVPR": {
+      "name": "Falta el precio de sobresuscripción",
+      "definition": "Falta el precio de sobresuscripción."
+    },
+    "PTYP": {
+      "name": "Falta el tipo de pago",
+      "definition": "Falta el tipo de pago."
+    },
+    "ENDP": {
+      "name": "Falta la fecha de fin del periodo",
+      "definition": "Falta la fecha o el código de fin del período."
+    },
+    "STAR": {
+      "name": "Falta la fecha de inicio del periodo",
+      "definition": "Falta la fecha o el código de inicio del período."
+    },
+    "PBAS": {
+      "name": "Falta la base del precio",
+      "definition": "Falta la base de precio."
+    },
+    "PROR": {
+      "name": "Falta la tasa de prorrateo",
+      "definition": "Falta la tasa de prorrateo."
+    },
+    "MPRI": {
+      "name": "Falta el indicador de redondeo del prorrateo",
+      "definition": "Falta el indicador de redondeo de prorrateo."
+    },
+    "PRCH": {
+      "name": "Falta el indicador de gastos de protección",
+      "definition": "Falta el indicador de cargo de protección."
+    },
+    "RESU": {
+      "name": "Falta el importe resultante",
+      "definition": "El importe resultante debe cumplimentarse, ya que existe un tipo de cambio."
+    },
+    "RITR": {
+      "name": "Falta el indicador de derechos transferibles",
+      "definition": "Falta el indicador de derechos transferibles."
+    },
+    "ROUN": {
+      "name": "Falta el factor de redondeo",
+      "definition": "Falta el factor de redondeo."
+    },
+    "SERT": {
+      "name": "Falta la tasa de valores",
+      "definition": "Falta la tasa de valores."
+    },
+    "SFEE": {
+      "name": "Falta el indicador de comisión del intermediario de solicitud",
+      "definition": "Falta el indicador de comisión del intermediario de solicitud."
+    },
+    "SUCH": {
+      "name": "Falta el indicador de gastos de suscripción",
+      "definition": "Falta el indicador de cargo de suscripción."
+    },
+    "SUPR": {
+      "name": "Falta el precio de suscripción",
+      "definition": "Falta el precio de suscripción."
+    },
+    "UNSP": {
+      "name": "Falta el indicador de precio no especificado permitido",
+      "definition": "Falta el indicador de precio no especificado permitido."
+    },
+    "NOAC": {
+      "name": "Sin acceso al servicio",
+      "definition": "La entidad no tiene acceso al servicio."
+    },
+    "NPAT": {
+      "name": "Parte no activa",
+      "definition": "La parte no está activa."
+    },
+    "ELIG": {
+      "name": "Valor no admisible",
+      "definition": "El valor no es elegible."
+    },
+    "BDAY": {
+      "name": "No es día hábil",
+      "definition": "La fecha no es un día hábil para el mercado de valores."
+    },
+    "AGID": {
+      "name": "Entidad no definida",
+      "definition": "La parte no está definida como agente."
+    },
+    "DISP": {
+      "name": "Valor no admisible para dispersión",
+      "definition": "El valor de dispersión no es elegible en el proveedor de servicios titular (ICSD)."
+    },
+    "ONCV": {
+      "name": "Existe un evento de conversión en curso",
+      "definition": "Existe un evento de conversión en curso"
+    },
+    "PERI": {
+      "name": "Fecha de fin del periodo anterior a la fecha de inicio",
+      "definition": "La fecha de fin del período es anterior a la fecha de inicio del período."
+    },
+    "PUBD": {
+      "name": "Fecha de publicación",
+      "definition": "La fecha de publicación debe ser anterior a la fecha de pago."
+    },
+    "RDTE": {
+      "name": "Fecha de registro posterior a la fecha de pago",
+      "definition": "La fecha de registro es posterior a la fecha de pago."
+    },
+    "UNDM": {
+      "name": "Valor subyacente no admisible",
+      "definition": "El valor subyacente no es admisible en el depositario."
+    },
+    "ACRU": {
+      "name": "Intereses devengados inesperados",
+      "definition": "Los intereses devengados no son aplicables a este tipo de valor."
+    },
+    "VALU": {
+      "name": "Fecha valor anterior a la fecha de pago",
+      "definition": "La fecha valor es anterior a la fecha de pago."
+    },
+    "SECT": {
+      "name": "Tipo de valor incorrecto",
+      "definition": "El tipo de valor no coincide con el tipo de operación societaria."
+    }
+  }
+}

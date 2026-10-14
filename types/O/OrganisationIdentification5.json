@@ -1,0 +1,12 @@
+{
+  "isoType": "OrganisationIdentification5",
+  "definition": "Identificación oficial de una organización (persona jurídica) en un registro específico.",
+  "isoElements": {
+    "RegistrationNumber": {
+      "definition": "Nombre del registro de personas jurídicas."
+    },
+    "RegisterName": {
+      "definition": "Nombre del registro gestionado por una autoridad de registro."
+    }
+  }
+}

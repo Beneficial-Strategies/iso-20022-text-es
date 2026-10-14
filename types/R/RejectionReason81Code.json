@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason81Code",
+  "definition": "Especifica el motivo por el que la solicitud de cancelación de la notificación de la operación societaria tiene estado de rechazada.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Ha fallado la validación del aviso, instrucción o solicitud."
+    },
+    "REFI": {
+      "name": "Identificación de CA no válida",
+      "definition": "Se ha facilitado una identificación de operación societaria no válida."
+    },
+    "DCAN": {
+      "name": "Rechazado por estar ya cancelado",
+      "definition": "La solicitud de cancelación fue rechazada porque la instrucción ya ha sido cancelada."
+    },
+    "DPRG": {
+      "name": "Rechazado por estar en curso",
+      "definition": "La solicitud de cancelación ha sido rechazada porque el proceso de la instrucción está en curso o ya ha sido procesada."
+    }
+  }
+}

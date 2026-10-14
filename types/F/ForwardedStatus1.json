@@ -1,0 +1,12 @@
+{
+  "isoType": "ForwardedStatus1",
+  "definition": "Información de estado y cantidad relativa a una solicitud de instrucción reenviada.",
+  "isoElements": {
+    "ForwardedQuantity": {
+      "definition": "La cantidad de valores instruidos aceptada previamente se ha reenviado ahora a lo largo de la cadena."
+    },
+    "ForwardedReason": {
+      "definition": "Motivo del estado reenviado."
+    }
+  }
+}

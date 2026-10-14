@@ -1,0 +1,35 @@
+{
+  "isoType": "ChargesPerType5",
+  "definition": "Proporciona un desglose detallado de los cargos por tipo de cargo.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identificación única e inequívoca de la información de cargos a efectos de conciliación."
+    },
+    "TotalChargesPerChargeType": {
+      "definition": "Total de cargos reclamados para el tipo de cargo especificado."
+    },
+    "ChargesAccount": {
+      "definition": "Identifica la cuenta que ha sido adeudada o abonada por los cargos, intereses u otros ajustes."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Entidad titular de la cuenta de cargos."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de cargo."
+    },
+    "Record": {
+      "definition": "Registro de cargos detallado por tipo de cargo."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalles adicionales sobre el motivo de los cargos."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountTypeOrRecord2Rule": {
+      "definition": "Cuando Record/ChargesAccount está presente o Record/ChargesAccountOwner está presente, ChargesAccount debe estar ausente y ChargesAccountOwner debe estar ausente."
+    },
+    "ChargesAccountTypeOrRecord1Rule": {
+      "definition": "Cuando ChargesAccount está presente o ChargesAccountOwner está presente, Record/ChargesAccount debe estar ausente y Record/ChargesAccountOwner debe estar ausente."
+    }
+  }
+}

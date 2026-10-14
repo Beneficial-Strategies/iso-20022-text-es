@@ -1,0 +1,18 @@
+{
+  "isoType": "RepoCallAcknowledgementReason2Code",
+  "definition": "Especifica información adicional sobre la instrucción procesada de requerimiento del acuerdo de recompra.",
+  "isoCodes": {
+    "CALD": {
+      "name": "En proceso",
+      "definition": "El requerimiento del acuerdo de recompra está en proceso."
+    },
+    "CALP": {
+      "name": "Procesado",
+      "definition": "El requerimiento del acuerdo de recompra ha sido procesado."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Recibida después del plazo límite de la entidad gestora de la cuenta. Se procesa en la medida de lo posible."
+    }
+  }
+}

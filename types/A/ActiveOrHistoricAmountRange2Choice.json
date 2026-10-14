@@ -1,0 +1,12 @@
+{
+  "isoType": "ActiveOrHistoricAmountRange2Choice",
+  "definition": "Elección entre un rango de valores de importe con o sin divisa.",
+  "isoElements": {
+    "ImpliedCurrencyAndAmountRange": {
+      "definition": "Expresa un importe o un rango de importes con un indicador explícito de adeudo/abono y con la divisa implícita."
+    },
+    "CurrencyAndAmountRange": {
+      "definition": "Expresa un importe o un rango de importes con la divisa y con el indicador de abono/adeudo explícito."
+    }
+  }
+}

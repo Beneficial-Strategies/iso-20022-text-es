@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalReservationType1Code",
+  "definition": "Especifica el tipo de reserva, tal como se publica en un conjunto de códigos externo de tipos de reserva.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "BLKD": {
+      "name": "Bloqueado",
+      "definition": "Importe bloqueado o congelado por circunstancias externas, como una orden judicial, el fallecimiento del beneficiario o del titular de la cuenta, o una quiebra."
+    },
+    "CARE": {
+      "name": "Reserva de efectivo",
+      "definition": "Importe reservado por un participante para reservar liquidez de su propia cuenta, exclusivamente para la ejecución de retiradas de efectivo."
+    },
+    "HPAR": {
+      "name": "Reserva de pagos de máxima urgencia",
+      "definition": "Importe reservado por un participante para reservar liquidez de su propia cuenta, exclusivamente para la ejecución de pagos muy urgentes."
+    },
+    "NSSR": {
+      "name": "Reserva neta SSS",
+      "definition": "Importe reservado por un participante para reservar liquidez de su propia cuenta, exclusivamente para la liquidación del saldo multilateral de efectivo procedente del Net Security Settlement System."
+    },
+    "THRE": {
+      "name": "Umbral de inversión",
+      "definition": "Importe a partir del cual los fondos se destinarán a inversión."
+    },
+    "UPAR": {
+      "name": "Reserva de pagos urgentes",
+      "definition": "Importe reservado por un participante para reservar liquidez de su propia cuenta, exclusivamente para la ejecución de pagos críticos denominados pagos urgentes."
+    }
+  }
+}

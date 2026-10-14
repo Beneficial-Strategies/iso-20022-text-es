@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeTransactionCondition8Choice",
+  "definition": "Elección de formato para las condiciones de la operación comercial.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condición comercial expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Condición comercial expresada como código propietario."
+    }
+  }
+}

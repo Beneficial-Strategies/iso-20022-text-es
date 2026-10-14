@@ -1,0 +1,18 @@
+{
+  "isoType": "NotificationAdviceStatus4Choice",
+  "definition": "Proporciona el estado de un aviso de notificación.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Proporciona información sobre el estado de procesamiento del aviso."
+    },
+    "RejectedStatus": {
+      "definition": "Proporciona información sobre el estado de rechazo."
+    },
+    "PendingStatus": {
+      "definition": "Proporciona información sobre el estado pendiente del aviso."
+    },
+    "AcceptedWithWarningStatus": {
+      "definition": "Proporciona información sobre el estado de aceptado con advertencia."
+    }
+  }
+}

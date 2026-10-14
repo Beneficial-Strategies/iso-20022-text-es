@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentInstrument17",
+  "definition": "Instrumento utilizado para procesar una instrucción de pago.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "definition": "Divisa asociada al instrumento de pago."
+    },
+    "DividendPercentage": {
+      "definition": "Porcentaje del pago de dividendos que no se debe reinvertir, es decir, que se debe pagar en efectivo."
+    },
+    "SubscriptionPaymentInstrument": {
+      "definition": "Instrumento que tiene o representa valor monetario y se utiliza para procesar una instrucción de pago de una suscripción."
+    },
+    "RedemptionPaymentInstrument": {
+      "definition": "Instrumento que tiene o representa valor monetario y se utiliza para procesar una instrucción de pago de un reembolso."
+    },
+    "DividendPaymentInstrument": {
+      "definition": "Instrumento que tiene o representa valor monetario y se utiliza para procesar una instrucción de pago de un dividendo."
+    },
+    "SavingsPlanPaymentInstrument": {
+      "definition": "Instrumento que tiene o representa valor monetario y se utiliza para procesar una instrucción de pago de un plan de ahorro."
+    },
+    "InterestPaymentInstrument": {
+      "definition": "Instrumento que tiene o representa valor monetario y se utiliza para procesar una instrucción de pago de intereses."
+    }
+  }
+}

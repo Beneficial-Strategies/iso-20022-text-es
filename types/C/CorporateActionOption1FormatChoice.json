@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption1FormatChoice",
+  "definition": "Elección del formato para el tipo de opción.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de opción expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de opción expresado como código propietario."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "SecurityIdentification21",
+  "definition": "Identificación de un valor.",
+  "isoElements": {
+    "ISIN": {
+      "definition": "Número Internacional de Identificación de Valores (ISIN). Sistema de numeración diseñado por la Organización Internacional de Normalización (ISO) de las Naciones Unidas. El ISIN se compone de un prefijo de 2 caracteres que representa el país de emisión, seguido del número nacional del valor (si existe) y un dígito de control. Cada país dispone de una agencia nacional de numeración que asigna los números ISIN de los valores de ese país."
+    },
+    "OtherIdentification": {
+      "definition": "Identificación de un valor mediante un esquema de identificación propio o nacional."
+    },
+    "Description": {
+      "definition": "Descripción textual de un instrumento de valores."
+    }
+  },
+  "isoRules": {
+    "DescriptionPresenceRule": {
+      "definition": "Si Description no está presente, debe estar presente ISIN o al menos una ocurrencia de OtherIdentification."
+    },
+    "OtherIdentificationPresenceRule": {
+      "definition": "Si OtherIdentification no está presente, debe estar presente ISIN o Description."
+    },
+    "ISINPresenceRule": {
+      "definition": "Si ISIN no está presente, debe estar presente Description o al menos una ocurrencia de OtherIdentification."
+    },
+    "DescriptionUsageRule": {
+      "definition": "Description debe utilizarse sola, como último recurso."
+    },
+    "ISINGuideline": {
+      "definition": "Cuando existe un código ISIN, se recomienda encarecidamente utilizar el ISIN."
+    }
+  }
+}

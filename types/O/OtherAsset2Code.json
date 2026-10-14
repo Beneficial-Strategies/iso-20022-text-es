@@ -1,0 +1,26 @@
+{
+  "isoType": "OtherAsset2Code",
+  "definition": "Especifica un tipo de activo.",
+  "isoCodes": {
+    "DIMA": {
+      "name": "Discrecional",
+      "definition": "El activo es una cuenta de gestor de inversiones discrecional"
+    },
+    "EXIA": {
+      "name": "Cuenta externa",
+      "definition": "El activo es una cuenta de inversión externa."
+    },
+    "MOVE": {
+      "name": "Bienes muebles",
+      "definition": "Bien que no es inmueble. También conocido como «bienes muebles»."
+    },
+    "PROP": {
+      "name": "Inmueble",
+      "definition": "Bien que es inmueble."
+    },
+    "TIPP": {
+      "name": "Plan de inversión del fiduciario",
+      "definition": "El activo es un plan de inversión fiduciario (TIP)."
+    }
+  }
+}

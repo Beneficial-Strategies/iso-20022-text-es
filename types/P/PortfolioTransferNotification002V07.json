@@ -1,0 +1,18 @@
+{
+  "isoType": "PortfolioTransferNotification002V07",
+  "definition": "Ámbito|El PortfolioTransferNotification lo envía un administrador de cuentas a otro administrador de cuentas para intercambiar información sobre los detalles de liquidación de la transferencia durante una transferencia de cartera de un cliente minorista o institucional.|El administrador de cuentas será normalmente un agente local o un custodio global que actúa por cuenta de una entidad de gestión de inversiones, un intermediario/operador o un cliente minorista.||Uso|El intercambio de detalles de liquidación de la transferencia consiste en que el administrador de cuentas entregador facilita al administrador de cuentas receptor los datos de liquidación (como la fecha de negociación, la fecha de liquidación, la cadena de liquidación entregadora y las cantidades) de las transferencias individuales que se realizarán durante una transferencia de cartera total o parcial. Este mensaje del administrador de cuentas entregador también puede incluir, a efectos de validación, la cadena de liquidación receptora facilitada por el cliente. Si el administrador de cuentas entregador no dispone de la cadena de liquidación receptora, el administrador de cuentas receptor puede facilitársela a su vez utilizando el mismo mensaje.||El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo|utilizando los elementos pertinentes de la Business Application Header.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

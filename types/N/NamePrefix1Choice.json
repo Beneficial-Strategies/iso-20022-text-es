@@ -1,0 +1,12 @@
+{
+  "isoType": "NamePrefix1Choice",
+  "definition": "Elección de formatos para la especificación del tratamiento (prefijo del nombre).",
+  "isoElements": {
+    "Code": {
+      "definition": "Prefijo del nombre expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Prefijo del nombre expresado como código propietario."
+    }
+  }
+}

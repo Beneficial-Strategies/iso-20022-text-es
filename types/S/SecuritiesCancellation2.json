@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesCancellation2",
+  "definition": "Proporciona las operaciones del informe.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "Cancellation": {
+      "definition": "Identifica la operación individual."
+    }
+  },
+  "isoRules": {
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus debe estar presente o Cancellation(*)/ProcessingStatus debe estar presente, pero no ambos."
+    },
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount debe estar presente o Cancellation(*)/SafekeepingAccount debe estar presente, pero no ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner debe estar presente o Cancellation(*)/AccountOwner debe estar presente, pero no ambos."
+    }
+  }
+}

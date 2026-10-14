@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationUpdate2",
+  "definition": "Identificación de una notificación anterior.",
+  "isoElements": {
+    "PreviousNotificationIdentification": {
+      "definition": "Identificación de un mensaje de notificación de junta enviado previamente."
+    },
+    "ReconfirmInstructions": {
+      "definition": "Indica si una instrucción de junta debe reenviarse en caso de que se modifiquen los parámetros de la junta y la instrucción de junta ya se haya enviado."
+    }
+  }
+}

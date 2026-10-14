@@ -1,0 +1,12 @@
+{
+  "isoType": "ApplicableRules1Choice",
+  "definition": "Elección de formatos para las normas aplicables.",
+  "isoElements": {
+    "Code": {
+      "definition": "Normas aplicables expresadas como código."
+    },
+    "Proprietary": {
+      "definition": "Normas aplicables expresadas como código propietario."
+    }
+  }
+}

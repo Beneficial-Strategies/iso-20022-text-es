@@ -1,0 +1,18 @@
+{
+  "isoType": "FundSettlementParameters26",
+  "definition": "Parámetros aplicados a la liquidación de un valor.",
+  "isoElements": {
+    "TradeTransactionCondition": {
+      "definition": "Condición en la que se ejecuta o se ejecutó la orden u operación. Puede ser necesaria para la liquidación a través de T2S."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condición en la que se debe liquidar la orden u operación. Puede ser necesaria para la liquidación a través de T2S."
+    },
+    "SecuritiesSettlementSystemIdentification": {
+      "definition": "Identificación de un sistema específico o de un conjunto de reglas o procesos que se aplicarán en el lugar de liquidación."
+    },
+    "DeliveringSideDetails": {
+      "definition": "Cadena de partes de liquidación entregadoras."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateAction82",
+  "definition": "Evento determinado por el consejo de administración de una sociedad que modifica la estructura de capital o la situación financiera existentes.",
+  "isoElements": {
+    "EventType": {
+      "definition": "Tipo de evento de operación societaria."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Referencia asignada por el administrador de la cuenta para identificar inequívocamente un evento de operación societaria."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Referencia oficial y única asignada por el organismo o entidad central oficial de cada mercado al inicio de un evento de operación societaria."
+    }
+  }
+}

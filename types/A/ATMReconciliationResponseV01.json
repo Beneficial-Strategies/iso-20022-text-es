@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationResponseV01",
+  "definition": "El ATMReconciliationResponse lo envía un host de mantenimiento a un cajero automático para identificar los recuentos que deben actualizarse."
+}

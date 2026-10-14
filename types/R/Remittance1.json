@@ -1,0 +1,15 @@
+{
+  "isoType": "Remittance1",
+  "definition": "Especifica el recurso de remesa para el acceso directo a la información de remesa.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Información proporcionada para permitir la correspondencia o conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar, en forma no estructurada."
+    },
+    "Structured": {
+      "definition": "Información proporcionada para permitir la correspondencia o conciliación de un apunte con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas por cobrar, en forma estructurada."
+    },
+    "Related": {
+      "definition": "Proporciona información relativa al tratamiento de la información de remesa por cualquiera de las entidades de la cadena de procesamiento de la operación."
+    }
+  }
+}

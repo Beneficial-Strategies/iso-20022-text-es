@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNarrative35",
+  "definition": "Proporciona información adicional, como las condiciones fiscales.",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Proporciona información adicional o especifica con más detalle el contenido de un mensaje. Este campo solo puede utilizarse cuando la información que se va a transmitir no puede codificarse."
+    },
+    "NarrativeVersion": {
+      "definition": "Proporciona información que puede ignorarse en el procesamiento automatizado; reiteración de información que ya se ha incluido en campos estructurados, o información narrativa que no es necesaria para el procesamiento automático."
+    },
+    "PartyContactNarrative": {
+      "definition": "Proporciona información adicional relativa a la parte, por ejemplo, la unidad de contacto o la persona responsable de la operación identificada en el mensaje."
+    },
+    "TaxationConditions": {
+      "definition": "Proporciona condiciones fiscales que no pueden incluirse en los campos estructurados de este mensaje y que no se han mencionado en el acuerdo de nivel de servicio (SLA)."
+    }
+  }
+}

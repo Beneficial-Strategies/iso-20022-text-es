@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseProcessingStatus1Choice",
+  "definition": "Elección entre un estado aceptado y un estado rechazado para la aceptación de un mensaje.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "El mensaje recibido o el informe recibido en varias partes (enviado con paginación en varios mensajes) es aceptado."
+    },
+    "Rejected": {
+      "definition": "El mensaje recibido o el informe recibido en varias partes (enviado con paginación en varios mensajes) es rechazado."
+    }
+  }
+}

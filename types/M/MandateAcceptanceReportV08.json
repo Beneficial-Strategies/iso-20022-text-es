@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateAcceptanceReportV08",
+  "definition": "Ámbito|El mensaje MandateAcceptanceReport lo envía la entidad del receptor (ordenante o beneficiario) del mensaje MandateRequest (iniciación, modificación o cancelación) a la entidad del iniciador del mensaje MandateRequest (ordenante o beneficiario).|El mensaje MandateAcceptanceReport se utiliza para confirmar la aceptación o el rechazo de un mensaje MandateRequest. Cuando la aceptación forma parte del flujo completo del proceso, un mensaje MandateRequest solo es válido tras recibir una confirmación de aceptación mediante un mensaje MandateAcceptanceReport de la entidad del receptor.|Uso|El mensaje MandateAcceptanceReport puede contener una o varias confirmaciones de aceptación o rechazo de una solicitud de mandato específica.|Los mensajes pueden intercambiarse entre la entidad del ordenante y la entidad del beneficiario, entre la entidad del ordenante y el ordenante, y entre la entidad del beneficiario y el beneficiario.|El mensaje MandateAcceptanceReport puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

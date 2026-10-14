@@ -1,0 +1,21 @@
+{
+  "isoType": "RejectionReason2",
+  "definition": "Información general sobre el motivo del rechazo.",
+  "isoElements": {
+    "RejectingPartyReason": {
+      "definition": "Motivo del rechazo facilitado por la parte rechazante."
+    },
+    "RejectionDateTime": {
+      "definition": "Fecha y hora en que se generó el rechazo."
+    },
+    "ErrorLocation": {
+      "definition": "Descripción de la ubicación exacta del posible error en un mensaje."
+    },
+    "ReasonDescription": {
+      "definition": "Descripción detallada del motivo del rechazo."
+    },
+    "AdditionalData": {
+      "definition": "Información adicional relacionada con el rechazo y destinada a permitir la identificación precisa de su motivo. Puede incluir una copia total o parcial del mensaje rechazado."
+    }
+  }
+}

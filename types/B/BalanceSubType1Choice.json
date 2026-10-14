@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceSubType1Choice",
+  "definition": "Especifica el subtipo de saldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Subtipo de saldo, tal como se publica en una lista de códigos externa de subtipos de saldo."
+    },
+    "Proprietary": {
+      "definition": "Especifica un código propietario para el tipo de saldo."
+    }
+  }
+}

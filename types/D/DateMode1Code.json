@@ -1,0 +1,14 @@
+{
+  "isoType": "DateMode1Code",
+  "definition": "Especifica, para una fecha, cuándo debe tener lugar el evento o la operación, por ejemplo, al inicio o al final del día.",
+  "isoCodes": {
+    "BODY": {
+      "name": "BODY",
+      "definition": "Inicio del día."
+    },
+    "EODY": {
+      "name": "EODY",
+      "definition": "Final del día."
+    }
+  }
+}

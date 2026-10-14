@@ -1,0 +1,15 @@
+{
+  "isoType": "FundPortfolio9Choice",
+  "definition": "Elección entre diferentes tipos de cartera.",
+  "isoElements": {
+    "TaxEfficientProduct": {
+      "definition": "La cartera es un esquema gubernamental para fomentar la inversión en fondos de inversión y fideicomisos de inversión basados en valores, que ofrece determinadas ventajas fiscales. No son inversiones en sí mismas, sino 'envoltorios' exentos de impuestos en los que pueden mantenerse acciones, bonos y fondos para protegerlos de diversos tipos de impuestos.|En el UK, un producto típico de envoltorio fiscal se conoce como 'ISA' (Individual Savings Account)."
+    },
+    "GeneralInvestment": {
+      "definition": "La cartera es una inversión general."
+    },
+    "Pension": {
+      "definition": "La cartera es una póliza, plan o esquema de pensiones."
+    }
+  }
+}

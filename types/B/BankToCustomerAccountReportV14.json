@@ -1,0 +1,12 @@
+{
+  "isoType": "BankToCustomerAccountReportV14",
+  "definition": "Ámbito|El mensaje BankToCustomerAccountReport lo envía la entidad que administra la cuenta al titular de la cuenta o a una parte autorizada por el titular para recibir el mensaje. Puede utilizarse para informar al titular de la cuenta, o a la parte autorizada, de los apuntes notificados en la cuenta y/o para facilitar al titular información sobre el saldo de la cuenta en un momento determinado.|Uso|El mensaje BankToCustomerAccountReport puede contener informes de más de una cuenta. Proporciona información para la gestión de tesorería y/o la conciliación. Puede utilizarse para:|- notificar partidas pendientes y contabilizadas;|- facilitar información de saldos.|Puede incluir los detalles subyacentes de las operaciones incluidas en el apunte.|Es posible que el receptor del mensaje no sea el titular de la cuenta, sino una parte facultada por el titular para recibir la información de la cuenta (también denominada destinatario).|Para un extracto, debe utilizarse el mensaje Bank-to-Customer Account Statement.",
+  "isoRules": {
+    "MessageOrReportPaginationRule": {
+      "definition": "MessagePagination puede estar presente o ReportPagination puede estar presente, pero no ambos."
+    },
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData en el nivel de mensaje no debe utilizarse para facilitar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData en el nivel de operación."
+    }
+  }
+}

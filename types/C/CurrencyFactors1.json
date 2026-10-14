@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyFactors1",
+  "definition": "Factores específicos de la divisa.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Divisa de los importes y ratios específicos de la divisa subyacentes utilizados en el cálculo del calendario de pay-in."
+    },
+    "ShortPositionLimit": {
+      "definition": "Posición corta máxima permitida en la divisa durante la liquidación."
+    },
+    "MinimumPayInAmount": {
+      "definition": "Importe mínimo ingresado en un solo pago, salvo que la posición corta sea inferior al mínimo."
+    },
+    "VolatilityMargin": {
+      "definition": "Margen utilizado para reducir las posiciones largas y aumentar las posiciones cortas durante el cálculo del riesgo."
+    },
+    "Rate": {
+      "definition": "Tipo de cambio utilizado en el cálculo del calendario de pay-in."
+    }
+  }
+}

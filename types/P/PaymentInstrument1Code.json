@@ -1,0 +1,46 @@
+{
+  "isoType": "PaymentInstrument1Code",
+  "definition": "Especifica el instrumento de pago utilizado o la operación financiera subyacente que dio lugar a una operación de pago.",
+  "isoCodes": {
+    "BDT": {
+      "name": "Adeudo bancario",
+      "definition": "Instrucción de adeudo directo en la que el ordenante y el beneficiario son entidades financieras."
+    },
+    "BCT": {
+      "name": "Transferencia bancaria",
+      "definition": "Transferencia de fondos en la que el ordenante y el beneficiario son entidades financieras."
+    },
+    "CDT": {
+      "name": "Adeudo de cliente",
+      "definition": "Instrucción de adeudo directo en la que el ordenante, el beneficiario o ambos son entidades no financieras."
+    },
+    "CCT": {
+      "name": "Transferencia de cliente",
+      "definition": "Transferencia de fondos en la que el ordenante, el beneficiario o ambos son entidades no financieras."
+    },
+    "CHK": {
+      "name": "Cheque",
+      "definition": "El instrumento de pago es un cheque. (Orden escrita por la que se instruye al titular de una cuenta (una entidad financiera) a pagar una suma determinada a un destinatario designado (el tenedor))."
+    },
+    "BKT": {
+      "name": "Transferencia contable",
+      "definition": "Transferencia que consiste en un movimiento de efectivo en los libros de la entidad que administra la cuenta."
+    },
+    "DCP": {
+      "name": "Pago con tarjeta de débito",
+      "definition": "El instrumento de pago es una tarjeta de débito. (El pago se originó mediante un sistema de tarjetas de débito.)."
+    },
+    "CCP": {
+      "name": "Pago con tarjeta de crédito",
+      "definition": "El instrumento de pago es una tarjeta de crédito. (El pago se originó mediante un sistema de tarjetas de crédito.)."
+    },
+    "RTI": {
+      "name": "Devolución",
+      "definition": "Apunte relacionado con un efecto devuelto o impagado."
+    },
+    "CAN": {
+      "name": "Solicitud de cancelación",
+      "definition": "Apunte de reversión resultante de la cancelación de un apunte contabilizado previamente."
+    }
+  }
+}

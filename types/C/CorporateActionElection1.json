@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionElection1",
+  "definition": "Proporciona información sobre una instrucción de elección modificada.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OriginalInstructedQuantity": {
+      "definition": "Cantidad de valores que se instruyó en el aviso de elección original."
+    },
+    "RemainingQuantity": {
+      "definition": "Cantidad de valores instruidos restante tras la modificación de la elección."
+    }
+  }
+}

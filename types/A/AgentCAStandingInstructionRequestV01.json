@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAStandingInstructionRequestV01",
+  "definition": "Ámbito|Este mensaje lo envía un CSD al emisor (o a su agente) para facilitarle los datos del cliente del CSD relativos a la distribución de los fondos de un evento de operación societaria:|- Pagos brutos o netos.|- Datos de entrega de los valores que deban entregarse fuera del CSD.|- Datos de entrega de los importes de efectivo que deban entregarse fuera del CSD.|Uso|Este mensaje se utiliza para solicitar al emisor (o a su agente) que establezca una instrucción permanente para los fondos.|La modificación de una instrucción permanente se realiza mediante un mecanismo de cancelación y sustitución. Primero se envía una solicitud de cancelación de la instrucción permanente, seguida de una nueva solicitud de instrucción permanente."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosedStatusReason1Choice",
+  "definition": "Elección de formatos para el motivo de un estado cerrado.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "No hay ningún motivo disponible ni que informar para el estado de cuenta cerrada."
+    },
+    "Reason": {
+      "definition": "Motivo del estado cerrado de la cuenta."
+    }
+  }
+}

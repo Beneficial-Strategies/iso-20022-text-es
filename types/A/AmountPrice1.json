@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountPrice1",
+  "definition": "Precio expresado como importe.",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Tipo de precio por importe."
+    },
+    "PriceValue": {
+      "definition": "Valor del precio."
+    }
+  }
+}

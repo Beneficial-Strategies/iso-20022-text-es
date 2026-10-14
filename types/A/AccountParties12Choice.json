@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountParties12Choice",
+  "definition": "Información sobre la cuenta de una parte.",
+  "isoElements": {
+    "PrimaryOwner": {
+      "definition": "Titular único de la cuenta o, cuando la titularidad se reparte entre varios titulares, el titular principal es quien facilita su dirección y los datos de la cuenta para el registro."
+    },
+    "Trustee": {
+      "definition": "Propietarios legales de los bienes. No obstante, el beneficiario tiene la titularidad en equidad o real."
+    },
+    "Nominee": {
+      "definition": "Entidad designada por el titular real para actuar en su nombre, a menudo para facilitar la operativa o para ocultar la identidad del beneficiario."
+    },
+    "JointOwner": {
+      "definition": "Cotitular de la cuenta de inversión cuando la titularidad se asigna a más de una parte."
+    }
+  }
+}

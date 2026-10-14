@@ -1,0 +1,30 @@
+{
+  "isoType": "BuyInAdviceDetails2",
+  "definition": "Detalles de una recompra forzosa (buy-in).",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referencias de la operación fallida."
+    },
+    "BuyInState": {
+      "definition": "Estado de la operación de recompra forzosa (buy-in)."
+    },
+    "BuyInDeferral": {
+      "definition": "Especifica si la operación de recompra forzosa (buy-in) se aplazó o no."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación del instrumento financiero de la instrucción de recompra forzosa (buy-in)."
+    },
+    "Quantity": {
+      "definition": "Cantidad de instrumento financiero a la que se refiere la operación de recompra forzosa (buy-in)."
+    },
+    "BuyInPrice": {
+      "definition": "Precio del instrumento financiero negociado en la operación de recompra forzosa (buy-in)."
+    },
+    "CashCompensationAmount": {
+      "definition": "Importe de dinero que debe pagar la parte negociadora incumplidora en caso de una operación de recompra forzosa (buy-in) sin éxito o con éxito parcial."
+    },
+    "BuyInSettlementDate": {
+      "definition": "Fecha de liquidación de la recompra forzosa (buy-in)."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "SwitchStatus1Code",
+  "definition": "Especifica el estado de un traspaso de cuenta determinado.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Aceptado",
+      "definition": "El traspaso de cuenta está aceptado.||Uso: el estado Aceptado debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida una solicitud de respuesta de información que acepta el traspaso."
+    },
+    "BTRQ": {
+      "name": "Traspaso de saldo solicitado",
+      "definition": "Se solicita la transferencia del saldo de la cuenta.||Uso: el estado Transferencia de saldo solicitada debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida una solicitud de transferencia de saldo."
+    },
+    "BTRS": {
+      "name": "Respuesta al traspaso de saldo",
+      "definition": "Transferencia de saldo respondida.||Uso: el estado Transferencia de saldo respondida debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida una solicitud de acuse de recibo de transferencia de saldo."
+    },
+    "COMP": {
+      "name": "Completado",
+      "definition": "El traspaso de cuenta está completado.||Uso: el estado Completado debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida una solicitud de notificación de traspaso de cuenta completado."
+    },
+    "REDT": {
+      "name": "Redirección",
+      "definition": "Solicitud de redirección. ||Uso: el estado Redirección debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida la primera solicitud de redirección."
+    },
+    "REDE": {
+      "name": "Redirección finalizada",
+      "definition": "La redirección finalizó al término del período de redirección. ||Uso: indica el cese de la redirección de cuenta por un servicio determinado."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "El traspaso de cuenta está rechazado. ||Uso: el estado Rechazado debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida una solicitud de respuesta de información que rechaza el traspaso de cuenta."
+    },
+    "REQU": {
+      "name": "Solicitado",
+      "definition": "Se solicita información para el traspaso de cuenta. ||Uso: el estado Solicitado debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida una solicitud de información."
+    },
+    "TMTN": {
+      "name": "Terminación",
+      "definition": "El traspaso de cuenta está terminado. ||Uso: el estado Terminado debe utilizarse cuando el servicio de traspaso de cuentas recibe y valida una solicitud de terminación de traspaso."
+    }
+  }
+}

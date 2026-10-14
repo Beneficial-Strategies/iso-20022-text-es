@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeReport4",
+  "definition": "Informa sobre el cambio de divisas o sobre un error de negocio.",
+  "isoElements": {
+    "CurrencyReference": {
+      "definition": "Divisas de origen y de destino para las que se solicita información."
+    },
+    "CurrencyExchangeOrError": {
+      "definition": "Informa sobre el cambio de divisas o sobre un error de negocio."
+    }
+  }
+}

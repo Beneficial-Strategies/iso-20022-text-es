@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMCommandParameters1",
+  "definition": "Parámetros que se utilizan para actualizar la configuración o el estado del dispositivo de seguridad.",
+  "isoElements": {
+    "SerialNumber": {
+      "definition": "Número de serie del dispositivo."
+    },
+    "RequiredConfiguration": {
+      "definition": "Actualización de la configuración de seguridad que se debe aplicar en el módulo de seguridad del ATM."
+    },
+    "RequiredStatus": {
+      "definition": "Nuevo estado que se debe aplicar en el módulo de seguridad del ATM."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "PreferredContactMethod1Code",
+  "definition": "Método preferido para ponerse en contacto con la persona de contacto individual dentro de una organización.",
+  "isoCodes": {
+    "LETT": {
+      "name": "Carta",
+      "definition": "El método preferido para ponerse en contacto es por carta."
+    },
+    "MAIL": {
+      "name": "Correo electrónico",
+      "definition": "El método preferido para ponerse en contacto es por correo electrónico."
+    },
+    "PHON": {
+      "name": "Teléfono",
+      "definition": "El método preferido para ponerse en contacto es por teléfono."
+    },
+    "FAXX": {
+      "name": "Fax",
+      "definition": "El método preferido para ponerse en contacto es por fax."
+    },
+    "CELL": {
+      "name": "Teléfono móvil",
+      "definition": "El método preferido para ponerse en contacto es por teléfono móvil o celular."
+    }
+  }
+}

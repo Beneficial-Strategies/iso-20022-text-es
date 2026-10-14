@@ -1,0 +1,15 @@
+{
+  "isoType": "DigitalPaymentSettlement3",
+  "definition": "Especifica la información relacionada con la liquidación de pagos digitales.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financiero que representa un conjunto de derechos del inversor frente al emisor."
+    },
+    "Quantity": {
+      "definition": "Elección entre diferentes cantidades relacionadas con el pago en activos digitales."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Lugar de liquidación expresado mediante un identificador de libro mayor digital. Identifica un libro mayor digital o un sistema de libro mayor distribuido (por ejemplo, blockchain o plataformas similares)."
+    }
+  }
+}

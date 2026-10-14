@@ -1,0 +1,14 @@
+{
+  "isoType": "MeetingInstructionCancellationRequestV10",
+  "definition": "Ámbito|El mensaje MeetingInstructionCancellationRequest lo envía la misma parte que envió el|mensaje MeetingInstruction. Se envía para solicitar la cancelación de una, algunas o todas las instrucciones incluidas en el mensaje MeetingInstruction original.|Uso|Este mensaje debe responderse con un mensaje MeetingInstructionStatus. |Esta definición de mensaje está prevista para su uso con la Business Application Header (BAH).",
+  "isoElements": {
+    "MeetingInstructionIdentification": {
+      "definition": "Identificación del mensaje de instrucción de junta original cuya cancelación se solicita o del mensaje de instrucción de junta original que contiene la o las instrucciones individuales que se han de cancelar."
+    }
+  },
+  "isoRules": {
+    "Cancellation3Guideline": {
+      "definition": "Se recomienda que la solicitud de cancelación de una instrucción de junta se realice utilizando únicamente MeetingInstructionIdentification y que se eviten los elementos opcionales, salvo que las normas de práctica de mercado y/o la legislación especifiquen otra cosa. Si se incluye algún elemento opcional, debe ser idéntico a la información del mensaje de instrucción de junta que se cancela."
+    }
+  }
+}

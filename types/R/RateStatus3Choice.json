@@ -1,0 +1,17 @@
+{
+  "isoType": "RateStatus3Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar un estado del tipo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el estado del tipo."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del estado del tipo."
+    }
+  },
+  "isoRules": {
+    "RateStatusGuideline": {
+      "definition": "El valor de código ACTU es el valor por defecto del estado del tipo."
+    }
+  }
+}

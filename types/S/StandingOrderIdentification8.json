@@ -1,0 +1,15 @@
+{
+  "isoType": "StandingOrderIdentification8",
+  "definition": "Define los elementos utilizados para identificar de forma única una orden permanente.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de una orden permanente, asignada por la entidad gestora de la cuenta o por el titular de la cuenta."
+    },
+    "Account": {
+      "definition": "Relación comercial entre dos entidades; una entidad es el titular de la cuenta y la otra es la entidad gestora de la cuenta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    }
+  }
+}

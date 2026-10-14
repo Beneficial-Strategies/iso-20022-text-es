@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndDateTimeSearch4Choice",
+  "definition": "Elección entre una fecha o un patrón de fecha y hora como criterio de selección de la búsqueda.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Patrones para buscar una fecha y hora."
+    },
+    "Date": {
+      "definition": "Patrones para buscar una fecha."
+    }
+  }
+}

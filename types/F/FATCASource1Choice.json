@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCASource1Choice",
+  "definition": "Elección de formatos para el origen de la Ley de Cumplimiento Tributario de Cuentas en el Extranjero (FATCA).",
+  "isoElements": {
+    "Code": {
+      "definition": "Fuente del estatus de la Ley de Cumplimiento Tributario de Cuentas Extranjeras (FATCA) expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Fuente del estatus de la Ley de Cumplimiento Tributario de Cuentas Extranjeras (FATCA) expresada como código propietario."
+    }
+  }
+}

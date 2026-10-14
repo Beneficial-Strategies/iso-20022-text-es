@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingEligibility4Choice",
+  "definition": "Elección del formato de la información sobre la admisibilidad para neteo.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si la operación de liquidación es admisible para neteo."
+    },
+    "Proprietary": {
+      "definition": "Admisibilidad para neteo expresada como código propietario."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionStatus1Choice",
+  "definition": "Especifica el estado de la operación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el estado de una operación, tal como se publica en una lista de códigos externa de estados de operaciones de pago."
+    },
+    "Proprietary": {
+      "definition": "Especifica el estado de una operación, en forma propietaria."
+    }
+  }
+}

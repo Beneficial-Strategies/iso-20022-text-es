@@ -1,0 +1,147 @@
+{
+  "isoType": "CorporateActionAmounts78",
+  "definition": "Especifica importes en el marco de un evento de acción corporativa.",
+  "isoElements": {
+    "GrossAmount": {
+      "definition": "Importe de dinero antes de practicar cualquier deducción fiscal."
+    },
+    "NetAmount": {
+      "definition": "Importe de dinero después de practicar las deducciones fiscales."
+    },
+    "SolicitationFees": {
+      "definition": "Prima en efectivo puesta a disposición si el titular de los valores consiente o participa en un evento, por ejemplo, comisiones por consentimiento o comisiones de solicitud."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Desembolso en efectivo en sustitución de una cantidad fraccionaria de, por ejemplo, acciones."
+    },
+    "CapitalGain": {
+      "definition": "Importe de dinero distribuido como resultado de una plusvalía."
+    },
+    "InterestAmount": {
+      "definition": "Importe de dinero que representa el pago de un cupón."
+    },
+    "MarketClaimAmount": {
+      "definition": "Importe de dinero resultante de una reclamación de mercado."
+    },
+    "IndemnityAmount": {
+      "definition": "Importe de la reclamación de mercado o reclamación de mercado inversa tratado como una indemnización (ya sea neto o bruto)."
+    },
+    "ManufacturedDividendPaymentAmount": {
+      "definition": "Cualquier importe representativo de un dividendo u otro pago de rentas que una persona deba pagar a otra, en virtud de un contrato o de cualquier otro acuerdo entre las partes, por la transmisión de los valores subyacentes. Los pagos compensatorios (manufactured payments) son un pago de compensación o sustitución efectuado por el titular de los valores al propietario original, para reflejar que este último no recibe el dividendo o interés real."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Importe de dinero reinvertido en valores adicionales."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Importe resultante de un dividendo plenamente acreditado (fully franked) pagado por una sociedad; el importe incluye el crédito fiscal para las sociedades que han efectuado pagos de impuestos suficientes durante el período fiscal."
+    },
+    "UnfrankedAmount": {
+      "definition": "Importe resultante de un dividendo no acreditado (unfranked) pagado por una sociedad; el importe no incluye crédito fiscal y está sujeto a retención fiscal."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Importe de dinero relacionado con rentas imponibles que no pueden clasificarse."
+    },
+    "TaxFreeAmount": {
+      "definition": "Importe de dinero que no ha estado sujeto a tributación."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Importe de rentas susceptibles de tributación diferida."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Importe del impuesto sobre el valor añadido."
+    },
+    "StampDutyAmount": {
+      "definition": "Importe del impuesto de timbre."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Importe que se pagó en exceso de la obligación tributaria real y que fue reclamado."
+    },
+    "TaxCreditAmount": {
+      "definition": "Importe de impuestos que se han pagado previamente en relación con el hecho imponible."
+    },
+    "TaxArrearAmount": {
+      "definition": "Importe de dinero pagado por las autoridades fiscales además del pago de la propia devolución de impuestos."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Importe de impuestos adicionales que no pueden clasificarse."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Importe de una distribución en efectivo que será retenido por las autoridades fiscales de la jurisdicción del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Importe de dinero retenido por una jurisdicción distinta de la del país de constitución fiscal del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación. Se aplica como complemento o compensación del tipo de retención aplicado por la jurisdicción del domicilio fiscal del emisor."
+    },
+    "FiscalStampAmount": {
+      "definition": "Importe del impuesto fiscal que debe aplicarse."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Importe de dinero pagado a un corredor ejecutor como comisión."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Importe de la comisión del agente pagador o subagente pagador."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Comisión del corredor local."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Importe de dinero cobrado por una autoridad reguladora, por ejemplo, tasas de valores y bolsa."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Todos los costes relacionados con la entrega física de documentos, tales como timbres, franqueo, tarifas de transporte, seguros o servicios de mensajería."
+    },
+    "ChargesAmount": {
+      "definition": "Importe de dinero pagado por la prestación de servicios financieros que no puede clasificarse con otro calificador."
+    },
+    "EntitledAmount": {
+      "definition": "Importe en efectivo basado en las condiciones del evento de acción corporativa y en el saldo de los valores subyacentes, que corresponde al titular de la cuenta o a cargo de este (y que puede ser positivo o negativo)."
+    },
+    "OriginalAmount": {
+      "definition": "Importe de contabilización/liquidación en su divisa original cuando se ha producido una conversión desde/hacia otra divisa."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Importe de intereses devengados entre períodos de pago de cupón."
+    },
+    "IncomePortion": {
+      "definition": "Importe relativo al valor subyacente por el cual se distribuyen rentas."
+    },
+    "EqualisationAmount": {
+      "definition": "Parte del importe de la distribución del fondo que representa la renta media devengada incluida en el precio de compra de las participaciones adquiridas durante el período contable."
+    },
+    "FATCATaxAmount": {
+      "definition": "Importe de impuesto relacionado con FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRATaxAmount": {
+      "definition": "Importe de rentas de carácter fiscal sujetas a NRA (Non Resident Alien)."
+    },
+    "BackUpWithholdingTaxAmount": {
+      "definition": "Importe de impuesto relacionado con la retención de respaldo (back up withholding)."
+    },
+    "TaxOnIncomeAmount": {
+      "definition": "Importe del impuesto global retenido en origen por los gestores de fondos antes de considerar la obligación tributaria de cada partícipe."
+    },
+    "TransactionTax": {
+      "definition": "Importe del impuesto sobre la operación."
+    },
+    "DeemedAmount": {
+      "definition": "Importe de ingresos que no se paga realmente al titular de los valores pero sobre el cual es aplicable la retención fiscal."
+    },
+    "ForeignIncomeAmount": {
+      "definition": "Importe relativo a una renta extranjera, como una renta extranjera canalizada (conduit foreign income)."
+    },
+    "DeemedDividendAmount": {
+      "definition": "Importe presunto resultante de la diferencia entre el tipo de ingresos por dividendos atribuido al titular de los valores para el ejercicio fiscal y el tipo de ingresos por dividendos notificado previamente al titular de los valores en relación con las distribuciones en efectivo del ejercicio."
+    },
+    "DeemedFundAmount": {
+      "definition": "Importe presunto resultante de la diferencia entre el tipo de los componentes de ingresos que integran un pago del fondo atribuido al titular de los valores para el ejercicio fiscal y el tipo de ingresos del fondo notificado previamente al titular de los valores en relación con las distribuciones en efectivo del ejercicio."
+    },
+    "DeemedInterestAmount": {
+      "definition": "Importe presunto resultante de la diferencia entre el tipo de ingresos por intereses atribuido al titular de los valores para el ejercicio fiscal y el tipo de ingresos por intereses notificado previamente al titular de los valores en relación con las distribuciones en efectivo del ejercicio."
+    },
+    "DeemedRoyaltiesAmount": {
+      "definition": "Importe presunto resultante de la diferencia entre el tipo de ingresos por cánones atribuido al titular de los valores para el ejercicio fiscal y el tipo de ingresos por cánones notificado previamente al titular de los valores en relación con las distribuciones en efectivo del ejercicio."
+    },
+    "BuyUpAmount": {
+      "definition": "Importe en efectivo adeudado en el contexto de una opción de compra adicional (buy up)."
+    }
+  }
+}

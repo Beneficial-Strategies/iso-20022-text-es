@@ -1,0 +1,9 @@
+{
+  "isoType": "PayInCallItem",
+  "definition": "Representación numérica de los aumentos y disminuciones netos en una cuenta en un momento determinado. Un saldo de efectivo se calcula como la suma de los abonos en efectivo menos la suma de los adeudos en efectivo.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Especifica la divisa y el importe de la partida llamada."
+    }
+  }
+}

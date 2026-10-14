@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader126",
+  "definition": "Conjunto de características comunes a todos los registros de cargos individuales incluidos en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia de punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar inequívocamente el mensaje.|Uso: la parte instructora debe asegurarse de que MessageIdentification sea único por parte instruida durante un periodo acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "ChargesRequestor": {
+      "definition": "Entidad que solicita los cargos, si es distinta del remitente."
+    },
+    "TotalCharges": {
+      "definition": "Total de cargos reclamados mediante este mensaje."
+    },
+    "ChargesAccount": {
+      "definition": "Identifica la cuenta que ha sido adeudada o abonada por los cargos, intereses u otros ajustes."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Entidad titular de la cuenta de cargos."
+    }
+  }
+}

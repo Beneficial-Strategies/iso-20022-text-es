@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionPrice83",
+  "definition": "Especifica diversos precios de una operación societaria.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Desembolso en efectivo en lugar de acciones; normalmente en lugar de una cantidad fraccionaria."
+    },
+    "IndicativeOrMarketPrice": {
+      "definition": "Indica si el precio es un precio indicativo o un precio de mercado."
+    },
+    "CashValueForTax": {
+      "definition": "Valor en efectivo del producto en valores resultante a efectos del cálculo y/o la declaración de impuestos."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Precio genérico en efectivo pagado por producto por el titular del valor subyacente, ya sea como porcentaje, como importe o como número de puntos por encima de un índice, por ejemplo, precio de reinversión, precio de ejercicio y precio de ejecución."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Precio genérico en efectivo recibido por producto por el titular del valor subyacente, ya sea como porcentaje o como importe, por ejemplo, precio de reembolso."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct y GenericCashPricePaidPerProduct son precios recibidos o pagados en el curso de un evento. El significado específico (precio de reembolso, precio de suscripción, precio de reinversión, etc.) se deriva del tipo de evento."
+    }
+  }
+}

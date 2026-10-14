@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseStatus5Choice",
+  "definition": "Elección de formato para el estado de la respuesta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado del mensaje de garantía recibido (reclamación de garantía, propuesta de garantía o propuesta/solicitud de sustitución de garantía) desde la perspectiva de la gestión de garantías."
+    },
+    "Proprietary": {
+      "definition": "Proporciona el estado del mensaje de garantía recibido (reclamación de garantía, propuesta de garantía o propuesta/solicitud de sustitución de garantía) desde la perspectiva de la gestión de garantías."
+    }
+  }
+}

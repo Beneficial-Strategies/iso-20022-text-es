@@ -1,0 +1,35 @@
+{
+  "isoType": "InvestmentAccount76",
+  "definition": "Información sobre una cuenta de valores y sus características.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre de la cuenta. Proporciona un medio adicional de identificación y lo designa la entidad gestora de la cuenta de acuerdo con el titular de la cuenta."
+    },
+    "Designation": {
+      "definition": "Información de registro complementaria que se aplica a un bloque específico de participaciones a efectos de negociación y de reporte. La información de registro complementaria puede utilizarse cuando todas las participaciones están registradas, por ejemplo, a nombre de un supermercado de fondos, pero las posiciones de cada inversor deben conciliarse individualmente."
+    },
+    "FundType": {
+      "definition": "Forma jurídica del fondo, por ejemplo, UCITS, SICAV, OEIC, Unit Trust y FCP."
+    },
+    "FundFamilyName": {
+      "definition": "Nombre de la familia de fondos de inversión."
+    },
+    "SecurityDetails": {
+      "definition": "Información detallada sobre el fondo de inversión asociado a la cuenta."
+    },
+    "AccountOwner": {
+      "definition": "Titular de la cuenta."
+    },
+    "Intermediary": {
+      "definition": "Intermediario u otra parte relacionada con la gestión de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular, es decir, gestiona el registro y la contabilización de los apuntes de la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    }
+  },
+  "isoRules": {
+    "AccountDataElementRule": {
+      "definition": "Debe estar presente uno de los elementos (Name, Designation, FundType, FundFamilyName, SecurityDetails, AccountOwner, Intermediary, Account Servicer)."
+    }
+  }
+}

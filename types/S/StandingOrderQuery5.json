@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderQuery5",
+  "definition": "Especificación de los criterios de la consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica el tipo de elementos coincidentes que deben devolverse en la respuesta a la consulta."
+    },
+    "StandingOrderCriteria": {
+      "definition": "Definición de los criterios de consulta de órdenes permanentes."
+    }
+  }
+}

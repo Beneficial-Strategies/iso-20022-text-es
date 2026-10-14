@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingCancellationReport3",
+  "definition": "Informe sobre datos de facturación cancelados.",
+  "isoElements": {
+    "RegulatoryData": {
+      "definition": "Información sobre datos legales y regulatorios intercambiados entre la parte que factura y la parte que paga."
+    },
+    "Service": {
+      "definition": "Identificación del servicio o sistema para el que se proporciona la cancelación de la facturación."
+    },
+    "InvoiceDate": {
+      "definition": "Fecha en la que se creó el informe de facturación."
+    },
+    "BillingIdentification": {
+      "definition": "Identificación del informe de facturación."
+    },
+    "BillingPeriod": {
+      "definition": "Periodo de fechas para el que son válidos los datos del informe."
+    },
+    "CancellationReason": {
+      "definition": "Motivo por el que se cancela la información de facturación solicitada."
+    }
+  }
+}

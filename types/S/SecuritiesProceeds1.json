@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesProceeds1",
+  "definition": "Proporciona información sobre los productos en valores.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "PostingQuantity": {
+      "definition": "La cantidad de instrumentos financieros que se contabiliza."
+    },
+    "AccountDetails": {
+      "definition": "Proporciona información sobre la cuenta que se adeuda/abona."
+    },
+    "ReconciliationDetails": {
+      "definition": "Proporciona información de conciliación."
+    }
+  }
+}

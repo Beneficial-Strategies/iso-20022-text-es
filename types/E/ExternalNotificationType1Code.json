@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalNotificationType1Code",
+  "definition": "Especifica el tipo de notificación, tal como se publica en un conjunto de códigos externo de tipos de notificación.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "CUHO": {
+      "name": "Festivo de divisa",
+      "definition": "Notificación de un día festivo de una divisa."
+    },
+    "ATAC": {
+      "name": "Condiciones de la cuenta",
+      "definition": "Notificación de condiciones nuevas o modificadas de una cuenta."
+    },
+    "SUSP": {
+      "name": "Suspensión",
+      "definition": "Notificación de la suspensión de un proceso debido a una incidencia."
+    },
+    "COUP": {
+      "name": "Actualización de datos de contacto",
+      "definition": "Notificación de datos de contacto nuevos o modificados."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro tipo de notificación."
+    },
+    "INFO": {
+      "name": "Intercambio de información",
+      "definition": "Intercambio de información."
+    },
+    "ADDR": {
+      "name": "Cambio de dirección",
+      "definition": "Notificación de un cambio de dirección."
+    },
+    "TERM": {
+      "name": "Terminación del servicio",
+      "definition": "Notificación de la terminación de un servicio, como el cierre de una cuenta."
+    },
+    "SSIS": {
+      "name": "Actualización de instrucciones permanentes de liquidación",
+      "definition": "Notificación de un cambio en las instrucciones permanentes de liquidación (SSIs)."
+    },
+    "MERG": {
+      "name": "Aviso de fusión",
+      "definition": "Notificación de una fusión y de los cambios asociados."
+    },
+    "SYST": {
+      "name": "Solicitud de acceso al sistema",
+      "definition": "Solicitud de acceso a un sistema."
+    },
+    "OPEN": {
+      "name": "Cambio del horario de apertura de la sucursal bancaria",
+      "definition": "Notificación de un cambio en el horario de apertura."
+    },
+    "INCH": {
+      "name": "Cambios del sector",
+      "definition": "Notificación de cualquier cambio pertinente del sector o del mercado."
+    }
+  }
+}

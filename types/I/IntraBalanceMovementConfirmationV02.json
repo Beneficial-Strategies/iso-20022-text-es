@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementConfirmationV02",
+  "definition": "El mensaje IntraBalanceMovementConfirmation lo envía una infraestructura de liquidación a un titular de cuenta o solicitante para confirmar el movimiento de un importe de dinero, dentro de sus posiciones, de un subsaldo a otro. ||Uso: |El mensaje puede utilizarse para: |- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es «Duplicate»)|- proporcionar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «Copy»)|- reenviar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «CopyDuplicate»)."
+}

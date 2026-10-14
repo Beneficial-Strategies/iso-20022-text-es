@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason24Choice",
+  "definition": "Elección de formato para el motivo de no casación de la financiación con valores.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción tiene situación de no casada."
+    },
+    "Proprietary": {
+      "definition": "Especifica el motivo por el que la instrucción tiene situación de no casada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus20Choice",
+  "definition": "Elección del formato para la situación de casamiento.",
+  "isoElements": {
+    "Forwarded": {
+      "definition": "La alegación se ha reenviado."
+    },
+    "UnderInvestigation": {
+      "definition": "La alegación está en investigación."
+    }
+  }
+}

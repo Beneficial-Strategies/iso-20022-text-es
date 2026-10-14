@@ -1,0 +1,12 @@
+{
+  "isoType": "Vote15",
+  "definition": "Voto expresado para una resolución.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número de la resolución según lo especificado por el emisor o su agente."
+    },
+    "VoteOption": {
+      "definition": "Voto instruido."
+    }
+  }
+}

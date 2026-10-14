@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferStatusType3Choice",
+  "definition": "Elección de formatos para un tipo de estado o de evento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de evento expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de evento expresado como código propietario."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CashOption1",
+  "definition": "Proporciona información sobre la opción en efectivo.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indica si se trata de un adeudo o de un abono."
+    },
+    "Currency": {
+      "definition": "Divisa de la opción."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con un movimiento de efectivo."
+    },
+    "AmountDetails": {
+      "definition": "Proporciona información sobre los importes relacionados con un movimiento de efectivo."
+    },
+    "ExchangeRate": {
+      "definition": "Proporciona información sobre un cambio de divisas."
+    }
+  }
+}

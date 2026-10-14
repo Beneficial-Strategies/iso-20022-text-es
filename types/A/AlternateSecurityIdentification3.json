@@ -1,0 +1,23 @@
+{
+  "isoType": "AlternateSecurityIdentification3",
+  "definition": "Esquema de identificación propio o nacional que identifica de forma única un valor.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de un valor."
+    },
+    "DomesticIdentificationSource": {
+      "definition": "País del esquema de identificación propio."
+    },
+    "ProprietaryIdentificationSource": {
+      "definition": "Entidad que emite la identificación propia."
+    }
+  },
+  "isoRules": {
+    "DomesticOrProprietaryIdentificationSourceRule": {
+      "definition": "Debe estar presente DomesticIdentificationSource o ProprietaryIdentificationSource, pero no ambos."
+    },
+    "DomesticOrProprietaryIdentificationSourceRuleNotBoth": {
+      "definition": "Debe estar presente DomesticIdentificationSource o ProprietaryIdentificationSource, pero no ambos."
+    }
+  }
+}

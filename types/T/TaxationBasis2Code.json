@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxationBasis2Code",
+  "definition": "Especifica la base del impuesto.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Importe fijo",
+      "definition": "La base del gasto o impuesto es una cantidad global."
+    },
+    "PERU": {
+      "name": "Por unidad",
+      "definition": "La base del gasto o impuesto es por unidad de instrumento financiero."
+    }
+  }
+}

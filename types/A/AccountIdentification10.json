@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountIdentification10",
+  "definition": "Proporciona información de identificación de la cuenta.",
+  "isoElements": {
+    "IdentificationCode": {
+      "definition": "Código estándar para especificar que el anuncio se aplica a todas las cuentas de custodia que poseen el instrumento financiero subyacente."
+    }
+  }
+}

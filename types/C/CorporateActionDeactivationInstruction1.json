@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationInstruction1",
+  "definition": "Proporciona información sobre la desactivación.",
+  "isoElements": {
+    "DeactivationDateAndTime": {
+      "definition": "Fecha y hora en que el CSD debe desactivar el evento de operación societaria o la opción."
+    },
+    "OptionDetails": {
+      "definition": "Proporciona información sobre la opción, cuando la instrucción de desactivación se aplica a nivel de una opción de operación societaria."
+    }
+  }
+}

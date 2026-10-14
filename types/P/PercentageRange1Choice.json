@@ -1,0 +1,21 @@
+{
+  "isoType": "PercentageRange1Choice",
+  "definition": "Elección entre intervalos de tipos dentro de los cuales un tipo porcentual se considera válido, o un tipo porcentual especificado que debe coincidir o no coincidir para ser válido.",
+  "isoElements": {
+    "From": {
+      "definition": "Extremo inferior de un intervalo de tipos porcentuales."
+    },
+    "To": {
+      "definition": "Extremo superior de un intervalo de tipos porcentuales."
+    },
+    "FromTo": {
+      "definition": "Intervalo de tipos porcentuales válidos."
+    },
+    "Equal": {
+      "definition": "El tipo porcentual exacto debe coincidir para considerarse válido."
+    },
+    "NotEqual": {
+      "definition": "Valor con el que el tipo porcentual no debe coincidir para considerarse válido."
+    }
+  }
+}

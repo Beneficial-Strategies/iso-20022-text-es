@@ -1,0 +1,44 @@
+{
+  "isoType": "OriginalPaymentInstruction55",
+  "definition": "Proporciona información sobre la referencia y el estado de las operaciones originales, incluidas en la instrucción original, a las que se aplica el mensaje de solicitud de anulación.",
+  "isoElements": {
+    "PaymentCancellationIdentification": {
+      "definition": "Identificación única, asignada por el asignador, para identificar inequívocamente la solicitud de cancelación.||Uso: la identificación de la solicitud de cancelación puede utilizarse para la conciliación o para vincular tareas relacionadas con la solicitud de cancelación."
+    },
+    "Case": {
+      "definition": "Identifica el caso."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Identificador único e inequívoco del bloque de información del pago original, asignado por la parte emisora original."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Información relativa al grupo original de operaciones al que se refiere el mensaje."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el grupo de información del pago de cancelación."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el grupo de información del pago de cancelación, con independencia de las divisas."
+    },
+    "PaymentInformationCancellation": {
+      "definition": "Indica si la cancelación se aplica o no a un grupo completo de operaciones o a operaciones individuales dentro del grupo original."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Información detallada sobre el motivo de la cancelación."
+    },
+    "TransactionInformation": {
+      "definition": "Información relativa a las operaciones originales a las que se refiere el mensaje de solicitud de cancelación."
+    }
+  },
+  "isoRules": {
+    "PaymentInformationCancellationTrueAndTransactionInformationRule": {
+      "definition": "Si PaymentInformationCancellation es true, TransactionInformation no está permitido."
+    },
+    "PaymentInformationCancellationFalseAndTransactionInformationRule": {
+      "definition": "Si PaymentInformationCancellation es false, debe estar presente TransactionInformation."
+    },
+    "PaymentInformationOrTransactionCaseRule": {
+      "definition": "Case puede estar presente en el nivel de Case, OriginalGroupInformationAndCancellation, OriginalPaymentInformationAndCancellation o TransactionInformation."
+    }
+  }
+}

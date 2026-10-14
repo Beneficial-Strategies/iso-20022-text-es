@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryCertificationType5Code",
+  "definition": "Especifica el tipo de certificación requerida.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Inversor acreditado",
+      "definition": "El titular del valor debe certificar de forma irrevocable que es un Inversor Acreditado (Accredited Investor) según la definición de la Regulation D de la Comisión del Mercado de Valores de Estados Unidos (US Securities and Exchange Commission)."
+    },
+    "NCOM": {
+      "name": "No sociedad",
+      "definition": "El titular del valor debe certificar que es una persona no vinculada a la sociedad."
+    },
+    "QIBB": {
+      "name": "Certificación QIB",
+      "definition": "El titular del valor debe certificar de forma irrevocable que es un Comprador Institucional Cualificado (Qualified Institutional Buyer) según la definición de la Rule 144A de la Comisión del Mercado de Valores de Estados Unidos (US Securities and Exchange Commission)."
+    }
+  }
+}

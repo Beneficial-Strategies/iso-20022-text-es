@@ -1,0 +1,66 @@
+{
+  "isoType": "IntermediateSecurityDistributionType5Code",
+  "definition": "Especifica el tipo de distribución de valores intermedios.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Derechos inversos",
+      "definition": "Distribución de derechos inversos."
+    },
+    "DRIP": {
+      "name": "Reinversión de dividendos",
+      "definition": "Distribución de valores de reinversión de dividendos."
+    },
+    "DVCA": {
+      "name": "Dividendo en efectivo",
+      "definition": "Distribución de efectivo a los accionistas, en proporción a su participación en el capital. Los dividendos ordinarios son recurrentes y regulares. El accionista debe recibir efectivo y se le puede ofrecer la elección de la divisa."
+    },
+    "DVOP": {
+      "name": "Opción de dividendo",
+      "definition": "Distribución de la opción de dividendo."
+    },
+    "EXRI": {
+      "name": "Derechos de suscripción",
+      "definition": "Distribución de derechos de suscripción."
+    },
+    "PRIO": {
+      "name": "Derechos de oferta abierta",
+      "definition": "Distribución de derechos de oferta abierta."
+    },
+    "DVSC": {
+      "name": "Dividendo o pago en acciones (scrip)",
+      "definition": "Dividendo o interés pagado en forma de scrip."
+    },
+    "DVSE": {
+      "name": "Dividendo en acciones",
+      "definition": "Dividendo pagado a los accionistas en forma de acciones."
+    },
+    "INTR": {
+      "name": "Pago de intereses",
+      "definition": "Pago de intereses distribuido a los tenedores de un activo que devenga intereses."
+    },
+    "LIQU": {
+      "name": "Dividendo o pago de liquidación",
+      "definition": "Distribución de efectivo, de activos o de ambos."
+    },
+    "SOFF": {
+      "name": "Escisión",
+      "definition": "Distribución de acciones de una filial a los accionistas."
+    },
+    "SPLF": {
+      "name": "División de acciones",
+      "definition": "También conocido como cambio de valor nominal o subdivisión.|Aumento del número de acciones en circulación de una sociedad sin que varíen el patrimonio neto del accionista ni el valor de mercado agregado en el momento del desdoblamiento. El precio y el valor nominal de las acciones se reducen en consecuencia."
+    },
+    "BONU": {
+      "name": "Derechos de asignación gratuita",
+      "definition": "Distribución de derechos de bonificación."
+    },
+    "EXOF": {
+      "name": "Canje",
+      "definition": "Canje de participaciones por otros valores y/o efectivo. El canje puede ser obligatorio o voluntario e implica el canje de valores en circulación por valores diferentes y/o efectivo. Por ejemplo, \"oferta de canje\", \"reorganización de capital\" o \"separación de fondos\"."
+    },
+    "MRGR": {
+      "name": "Fusión",
+      "definition": "Canje de valores en circulación, iniciado por el emisor, que puede incluir opciones, como resultado de la combinación de los activos de dos o más sociedades, es decir, una sociedad tercera externa. El canje de acciones puede ir acompañado de pagos en efectivo."
+    }
+  }
+}

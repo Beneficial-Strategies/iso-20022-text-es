@@ -1,0 +1,12 @@
+{
+  "isoType": "AllegementStatus3Choice",
+  "definition": "Elección del formato para la situación de la alegación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Situación de la alegación notificada."
+    },
+    "Proprietary": {
+      "definition": "Situación de la alegación notificada."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "VoteInstructionType1",
+  "definition": "Opciones de voto para una resolución.",
+  "isoElements": {
+    "VoteInstructionTypeCode": {
+      "definition": "Opción de voto permitida a nivel de resolución."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el código del tipo de instrucción de voto cuando se expresa como código propio."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Si AdditionalInformation está presente, VoteInstructionTypeCode/Proprietary/Identification debe estar presente."
+    }
+  }
+}

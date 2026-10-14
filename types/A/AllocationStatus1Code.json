@@ -1,0 +1,14 @@
+{
+  "isoType": "AllocationStatus1Code",
+  "definition": "Especifica el estado de la asignación de garantías para cubrir la instrucción.",
+  "isoCodes": {
+    "AOLF": {
+      "name": "Totalmente asignado",
+      "definition": "La instrucción ha sido cubierta íntegramente por garantías."
+    },
+    "AOLP": {
+      "name": "Parcialmente asignado",
+      "definition": "La instrucción ha sido cubierta parcialmente por garantías."
+    }
+  }
+}

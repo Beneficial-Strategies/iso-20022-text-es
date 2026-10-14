@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherIdentification4",
+  "definition": "Identificación de un instrumento financiero mediante un formato aceptado distinto del ISIN.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación del fondo/subfondo."
+    },
+    "Type": {
+      "definition": "Fuente de identificación."
+    }
+  }
+}

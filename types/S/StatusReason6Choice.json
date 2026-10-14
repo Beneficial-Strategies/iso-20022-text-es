@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusReason6Choice",
+  "definition": "Especifica el motivo del estado de la operación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado, según se publica en una lista externa de códigos de motivo."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado, en forma propietaria."
+    }
+  }
+}

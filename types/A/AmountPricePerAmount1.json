@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountPricePerAmount1",
+  "definition": "Especifica una proporción: precio en importe por importe.||Ejemplo:|ISIN US629377AS17. Recompra de USD1087.17 en efectivo por cada USD1000 en acciones (NRG Energy Inc 8% Senior Notes 15/12/13).",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Tipo de precio por importe."
+    },
+    "PriceValue": {
+      "definition": "Valor del precio."
+    },
+    "Amount": {
+      "definition": "El importe."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateQuarter1Choice",
+  "definition": "Elección de formatos para una fecha o un trimestre.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha expresada como año, mes y día."
+    },
+    "Period": {
+      "definition": "Descripción propietaria del plazo."
+    }
+  }
+}

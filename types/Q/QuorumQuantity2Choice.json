@@ -1,0 +1,12 @@
+{
+  "isoType": "QuorumQuantity2Choice",
+  "definition": "Elección de la cantidad de quórum.",
+  "isoElements": {
+    "QuorumQuantity": {
+      "definition": "Cantidad mínima de valores necesaria para celebrar una junta."
+    },
+    "QuorumQuantityPercentage": {
+      "definition": "Cantidad mínima de valores, expresada como porcentaje, necesaria para celebrar una junta."
+    }
+  }
+}

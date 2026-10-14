@@ -1,0 +1,89 @@
+{
+  "isoType": "TransactionDetails186",
+  "definition": "Especifica los detalles de la operación.",
+  "isoElements": {
+    "TransactionActivity": {
+      "definition": "Especifica el tipo de actividad a la que se refiere esta instrucción."
+    },
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Elección del tipo para la operación notificada."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "SettlementParameters": {
+      "definition": "Parámetros aplicados a la liquidación de una transferencia de valores."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado en el que se ha ejecutado una operación de negociación."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestructura que puede formar parte de una cámara de compensación y que facilita la compensación y liquidación para sus miembros interponiéndose entre el comprador y el vendedor. Puede compensar operaciones por saldos netos y se sustituye a sí misma como contraparte de liquidación de cada posición."
+    },
+    "PostingQuantity": {
+      "definition": "Cantidad de instrumento financiero que se ha de contabilizar (o se contabilizó) en la cuenta de custodia."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días en los que se devenga el tipo de interés (nota de devengo diario)."
+    },
+    "PostingAmount": {
+      "definition": "Importe de dinero que se ha de contabilizar (o se contabilizó) en la cuenta."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Importe de activo digital que se ha de contabilizar (o se contabilizó) en la cuenta como medio de pago."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Fecha y hora en que una operación se completa y compensa, es decir, se efectúa el pago y se entregan los valores."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que los activos pasan a estar disponibles para el titular de la cuenta (en un asiento de abono), o dejan de estar disponibles para el titular de la cuenta (en un asiento de adeudo)."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se acusa recibo de la operación."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se casa la operación."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "ReversalIndicator": {
+      "definition": "Indica si se trata de la reversión de un movimiento notificado previamente."
+    },
+    "TransactionAdditionalDetails": {
+      "definition": "Proporciona detalles adicionales sobre la operación que no pueden incluirse en los campos estructurados del mensaje."
+    }
+  },
+  "isoRules": {
+    "PostingAmountRule": {
+      "definition": "Si la instrucción es contra pago, PostingAmount debe estar presente."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si TransactionAdditionalDetails está presente, no debe contener información que pueda proporcionarse en un campo estructurado."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Para la liquidación de operaciones de dos tramos (financiación de valores), la apertura/inicio y el cierre/devolución de la operación se confirman enviando la siguiente combinación de códigos TransactionIdentificationDetails/SecuritiesMovementType y códigos SettlementParameters/SecuritiesTransactionType:||Apertura de repo|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Cierre de repo|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Apertura de repo inverso|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Cierre de repo inverso|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Apertura de repo tripartito|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Cierre de repo tripartito|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Apertura de repo inverso tripartito|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Cierre de repo inverso tripartito|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Inicio de préstamo de valores|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Devolución de préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Inicio de toma en préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Devolución de toma en préstamo de valores|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Para la liquidación de operaciones de dos tramos (compra con reventa, venta con recompra, entrada y salida de garantías), la apertura/inicio y el cierre/devolución de la operación se confirman enviando la siguiente combinación de códigos SecuritiesMovementType y códigos SettlementParameters/SecuritiesTransactionType:||Venta con recompra: venta|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Venta con recompra: recompra|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Compra con reventa: compra|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Compra con reventa: reventa|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Inicio de salida de garantía (otorgante)|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Devolución de salida de garantía (otorgante)|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Inicio de entrada de garantía (receptor)|SecuritiesMovementType: Recepción (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Devolución de entrada de garantía (receptor)|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

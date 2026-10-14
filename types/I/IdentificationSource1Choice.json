@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource1Choice",
+  "definition": "Elección de un esquema de identificación propietario o nacional que identifica de forma única un valor.",
+  "isoElements": {
+    "Domestic": {
+      "definition": "País del esquema de identificación propio."
+    },
+    "Proprietary": {
+      "definition": "Entidad que emite la identificación propia."
+    }
+  }
+}

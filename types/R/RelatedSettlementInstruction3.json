@@ -1,0 +1,44 @@
+{
+  "isoType": "RelatedSettlementInstruction3",
+  "definition": "Información sobre una instrucción de liquidación relacionada.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador de la instrucción distinto del titular de la cuenta, de la entidad administradora de cuentas o de la infraestructura de mercado."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identificador único de operación (UTI) acordado con la otra contraparte."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Identificación inequívoca de la instrucción de liquidación relacionada asignada por el titular de la cuenta."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "TradeDate": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    },
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "CounterpartyDepository": {
+      "definition": "Primera parte receptora en la cadena de liquidación. En una liquidación estándar, es el depositario central de valores donde el lado receptor de la operación solicita recibir el instrumento financiero."
+    }
+  },
+  "isoRules": {
+    "MarketInfrastructureOrProcessorTransactionIdentificationRule": {
+      "definition": "Debe estar presente MarketInfrastructureTransactionIdentification o ProcessorTransactionIdentification; pueden estar presentes ambos."
+    }
+  }
+}

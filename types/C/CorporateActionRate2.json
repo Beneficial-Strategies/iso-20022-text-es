@@ -1,0 +1,105 @@
+{
+  "isoType": "CorporateActionRate2",
+  "definition": "Especifica tasas.",
+  "isoElements": {
+    "WithholdingTax": {
+      "definition": "Porcentaje de una distribución en efectivo que será retenido por una autoridad tributaria."
+    },
+    "WithholdingOfForeignTax": {
+      "definition": "Tasa a la que la jurisdicción en la que se pagó originalmente el ingreso retendrá dicho ingreso, y para la cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "WithholdingOfLocalTax": {
+      "definition": "Tasa a la que la jurisdicción en la que se encuentra el titular de la cuenta retendrá el ingreso, y para la cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "GermanLocalTax1": {
+      "definition": "Impuesto local (ZAS Anrechnungsbetrag) sujeto al impuesto sobre pagos anticipados de intereses (proporción de los intereses sujetos a dicho impuesto o del beneficio provisional que no está cubierta por el importe exento de impuestos)."
+    },
+    "GermanLocalTax2": {
+      "definition": "Impuesto local (ZAS Pflichtige Zinsen): intereses sujetos al impuesto sobre pagos anticipados de intereses (proporción de los intereses brutos por unidad o de los beneficios provisionales que no está cubierta por el crédito en el fondo de intereses)."
+    },
+    "GermanLocalTax3": {
+      "definition": "Impuesto local (Zinstopf): compensación de intereses por unidad con el importe exento de impuestos (variación para compensar los intereses por unidad en relación con el importe exento de impuestos)."
+    },
+    "GermanLocalTax4": {
+      "definition": "Impuesto local (Ertrag Besitzanteilig): rendimiento sujeto al impuesto sobre pagos anticipados de intereses."
+    },
+    "TaxOnIncome": {
+      "definition": "Tributación aplicada a un importe claramente identificado como ingreso."
+    },
+    "TaxOnProfit": {
+      "definition": "Imposición aplicada sobre un importe claramente identificado como beneficios de capital o ganancias de capital."
+    },
+    "TaxReclaim": {
+      "definition": "Porcentaje de efectivo que se pagó en exceso de la obligación fiscal real y fue reclamado."
+    },
+    "FiscalStamp": {
+      "definition": "Porcentaje de impuesto fiscal que se aplicará."
+    },
+    "Proration": {
+      "definition": "Asignación proporcional utilizada para la oferta."
+    },
+    "NewToOld": {
+      "definition": "Cantidad de nuevos valores por una cantidad determinada de valores subyacentes, cuando los valores subyacentes se canjearán o se adeudarán, p. ej., 2 por 1: 2 acciones nuevas abonadas por cada acción subyacente adeudada = 2 acciones resultantes."
+    },
+    "NewSecuritiesToUnderlyingSecurities": {
+      "definition": "Cantidad de nuevas acciones que se derivarán del ejercicio de una cantidad determinada de valores intermedios."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Cantidad de valores adicionales por una cantidad determinada de valores subyacentes cuando los valores subyacentes no se canjean ni se adeudan, p. ej., 1 por 1: 1 acción|nueva abonada por cada acción subyacente = 2 acciones resultantes."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Cantidad de valores intermedios adicionales o nuevas acciones adjudicadas por una cantidad dada de valores derivados de la suscripción."
+    },
+    "RelatedTax": {
+      "definition": "Porcentaje de la tasa de dividendo bruto sobre el que debe pagarse impuesto."
+    },
+    "NonResidentRate": {
+      "definition": "Tasa por acción a la que tiene derecho un no residente."
+    },
+    "Charges": {
+      "definition": "Tipo utilizado para calcular el importe de los cargos o comisiones que no pueden clasificarse."
+    },
+    "InterestForUsedPayment": {
+      "definition": "Tipo de interés real utilizado para el pago de los intereses del período de intereses especificado."
+    },
+    "IndexFactor": {
+      "definition": "Tasa de índice público aplicada al importe pagado para ajustarlo a la inflación."
+    },
+    "FullyFranked": {
+      "definition": "Tasa resultante de un dividendo totalmente acreditado pagado por una sociedad; la tasa incluye el crédito fiscal para las sociedades que han efectuado pagos de impuestos suficientes durante el ejercicio fiscal."
+    },
+    "GrossDividend": {
+      "definition": "Importe del dividendo en efectivo por acción antes de deducciones o desgravaciones."
+    },
+    "NetDividend": {
+      "definition": "Importe del dividendo en efectivo por acción después de deducciones o desgravaciones."
+    },
+    "FinalDividend": {
+      "definition": "El dividendo es definitivo."
+    },
+    "ProvisionalDividend": {
+      "definition": "El dividendo es provisional."
+    },
+    "CashIncentive": {
+      "definition": "Tasa de la prima en efectivo puesta a disposición si el titular de los valores consiente o participa en un evento, p. ej., comisiones de consentimiento."
+    },
+    "SolicitationFee": {
+      "definition": "Tasa en efectivo puesta a disposición en una oferta con el fin de fomentar la participación en ella."
+    },
+    "MaximumAllowedOversubscription": {
+      "definition": "Porcentaje máximo de acciones disponibles mediante el privilegio de sobresuscripción, normalmente un porcentaje de las acciones de la suscripción básica, p. ej., un titular de cuenta que suscribe 100 acciones puede sobresuscribir un máximo de 50 acciones adicionales cuando el máximo de sobresuscripción es del 50 %."
+    },
+    "AdditionalTax": {
+      "definition": "Tipo utilizado para impuestos adicionales que no pueden clasificarse."
+    },
+    "OriginalAmount": {
+      "definition": "Importe en su divisa original cuando se ha producido una conversión desde o hacia otra divisa."
+    },
+    "ExchangeRate": {
+      "definition": "Proporciona información sobre un cambio de divisas."
+    },
+    "ApplicableRate": {
+      "definition": "Tasa aplicable al evento anunciado, p. ej., tasa de reembolso para un evento de reembolso."
+    }
+  }
+}

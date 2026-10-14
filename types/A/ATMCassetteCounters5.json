@@ -1,0 +1,48 @@
+{
+  "isoType": "ATMCassetteCounters5",
+  "definition": "Contadores de los soportes contenidos en un cartucho de cajero automático (ATM).",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de contadores."
+    },
+    "AddedNumber": {
+      "definition": "Número de soportes añadidos durante las operaciones de mantenimiento."
+    },
+    "RemovedNumber": {
+      "definition": "Número de soportes retirados durante las operaciones de mantenimiento."
+    },
+    "RemovedAmount": {
+      "definition": "Importe de los soportes retirados durante las operaciones de mantenimiento."
+    },
+    "DispensedNumber": {
+      "definition": "Número total de soportes retirados del cartucho."
+    },
+    "DepositedNumber": {
+      "definition": "Número total de soportes depositados en el cartucho."
+    },
+    "DepositedAmount": {
+      "definition": "Importe de los soportes depositados en el cartucho."
+    },
+    "RecycledNumber": {
+      "definition": "Número total de soportes reciclados del cartucho."
+    },
+    "RetractedNumber": {
+      "definition": "Número total de soportes retraídos procedentes del cartucho."
+    },
+    "RetractedAmount": {
+      "definition": "Importe total retraído durante la operación. Solo está pensado para usarse cuando los elementos del cartucho no tienen todos el mismo valor (por ejemplo, en la retracción de cheques)."
+    },
+    "RejectedNumber": {
+      "definition": "Número total de soportes de este cartucho que se encuentran en el depósito de rechazados."
+    },
+    "PresentedNumber": {
+      "definition": "Número total de soportes presentados al cliente."
+    },
+    "InitialNumber": {
+      "definition": "Número inicial añadido durante una operación de mantenimiento."
+    },
+    "InitialAmount": {
+      "definition": "Importe inicial añadido durante una operación de mantenimiento."
+    }
+  }
+}

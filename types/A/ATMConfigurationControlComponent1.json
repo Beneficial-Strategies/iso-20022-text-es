@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMConfigurationControlComponent1",
+  "definition": "Información relativa al control de una configuración en un dispositivo cajero automático (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno de la operación."
+    },
+    "ConfigurationVersion": {
+      "definition": "Versión de la configuración que se envía al terminal."
+    },
+    "ActionRequired": {
+      "definition": "Acción que requiere el terminal al recibir esta actualización de la configuración. Será una de las siguientes: APLY (Apply) aplicar la actualización de la configuración, o NONE no hay configuración que aplicar."
+    },
+    "Property": {
+      "definition": "Conjunto de propiedades relativas a una configuración del cajero automático (ATM)."
+    },
+    "ActivationDate": {
+      "definition": "Fecha en la que se debe activar toda la configuración. Si no se indica fecha de activación, la activación debe producirse de inmediato."
+    }
+  }
+}

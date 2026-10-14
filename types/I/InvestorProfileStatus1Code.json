@@ -1,0 +1,46 @@
+{
+  "isoType": "InvestorProfileStatus1Code",
+  "definition": "Especifica el estado del perfil del inversor.",
+  "isoCodes": {
+    "DISA": {
+      "name": "Deshabilitado",
+      "definition": "El estado del perfil del inversor es deshabilitado."
+    },
+    "DISG": {
+      "name": "Deshabilitación",
+      "definition": "El estado del perfil del inversor está en proceso de deshabilitación."
+    },
+    "ENAB": {
+      "name": "Habilitado",
+      "definition": "El estado del perfil del inversor es habilitado."
+    },
+    "ENBG": {
+      "name": "Habilitación",
+      "definition": "El estado del perfil del inversor está en proceso de habilitación."
+    },
+    "ADMI": {
+      "name": "En admisión",
+      "definition": "El estado del perfil del inversor es en admisión."
+    },
+    "ANLY": {
+      "name": "En análisis",
+      "definition": "El estado del perfil del inversor es en análisis."
+    },
+    "NAPP": {
+      "name": "No aprobado",
+      "definition": "El estado del perfil del inversor es no aprobado."
+    },
+    "PSUS": {
+      "name": "Suspendido parcialmente",
+      "definition": "El estado del perfil del inversor es parcialmente suspendido."
+    },
+    "PEND": {
+      "name": "Pendiente de aprobación",
+      "definition": "El estado del perfil del inversor es pendiente de aprobación."
+    },
+    "SUPS": {
+      "name": "Suspendido",
+      "definition": "El estado del perfil del inversor es suspendido."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PledgeInformation1",
+  "definition": "Información sobre la prenda y el pignorante.",
+  "isoElements": {
+    "Pledger": {
+      "definition": "Entidad que aporta activos a una contraparte como garantía."
+    },
+    "ThirdParty": {
+      "definition": "Tercero, normalmente un banco, que interviene en la prenda."
+    },
+    "PledgeType": {
+      "definition": "Identifica el tipo de prenda."
+    },
+    "ReturnSecuritiesIndicator": {
+      "definition": "Indica si el pignorante tiene derecho a voto; en caso contrario, el derecho de voto corresponde al titular del derecho."
+    }
+  }
+}

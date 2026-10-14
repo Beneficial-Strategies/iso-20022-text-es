@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMCommand9",
+  "definition": "Parte que ha solicitado la conciliación.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando que debe ejecutar el cajero automático (ATM)."
+    },
+    "CommandIdentification": {
+      "definition": "Identificación de la entidad que emite el comando."
+    }
+  }
+}

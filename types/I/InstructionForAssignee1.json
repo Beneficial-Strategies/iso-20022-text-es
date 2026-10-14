@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForAssignee1",
+  "definition": "Información adicional relacionada con el procesamiento de la investigación sobre la que puede ser necesario actuar por parte del cesionario.",
+  "isoElements": {
+    "Code": {
+      "definition": "Información codificada relacionada con el procesamiento de la instrucción de investigación, facilitada por el cedente y destinada al cesionario."
+    },
+    "InstructionInformation": {
+      "definition": "Información adicional que complementa la instrucción codificada o la instrucción al cesionario."
+    }
+  }
+}

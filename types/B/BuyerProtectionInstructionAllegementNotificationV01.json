@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyerProtectionInstructionAllegementNotificationV01",
+  "definition": "Alcance|Una entidad gestora de cuentas envía un mensaje BuyerProtectionInstructionAllegementNotification a un titular de cuenta para informarle de que una contraparte ha alegado una Buyer Protection Instruction contra la cuenta del titular en la entidad gestora de cuentas. Puede ser necesaria una acción por parte del titular de la cuenta.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo, utilizando los elementos correspondientes de la cabecera de aplicación comercial.",
+  "isoElements": {
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el procesador de la instrucción distinto del titular de la cuenta, el administrador de la cuenta y la infraestructura del mercado."
+    }
+  }
+}

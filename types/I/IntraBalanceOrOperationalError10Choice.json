@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceOrOperationalError10Choice",
+  "definition": "Elección entre los datos del informe o un error operativo.",
+  "isoElements": {
+    "Cancellations": {
+      "definition": "Detalles adicionales de las operaciones de cancelación entre saldos."
+    },
+    "OperationalError": {
+      "definition": "Error operativo resultante de un rechazo."
+    }
+  }
+}

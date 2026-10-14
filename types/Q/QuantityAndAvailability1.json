@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityAndAvailability1",
+  "definition": "Posición neta de una tenencia segregada de un único valor dentro de la posición global mantenida en la cuenta de valores, por ejemplo, subsaldo por estado.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Cantidad de valores en el subsaldo."
+    },
+    "AvailabilityIndicator": {
+      "definition": "Indica si la cantidad de valores del subsaldo está disponible."
+    }
+  }
+}

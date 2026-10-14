@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesOption84",
+  "definition": "Especifica la opción de valores de un evento societario.",
+  "isoElements": {
+    "MaximumQuantityToInstruct": {
+      "definition": "Cantidad máxima de instrumento financiero que puede instruirse."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Cantidad mínima de instrumento financiero que puede instruirse."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Cantidad múltiplo mínima de instrumento financiero que puede instruirse."
+    },
+    "NewBoardLotQuantity": {
+      "definition": "Cantidad de capital que constituye el nuevo lote de negociación."
+    },
+    "NewDenominationQuantity": {
+      "definition": "Nueva denominación del capital tras, por ejemplo, un aumento o una disminución del valor nominal."
+    },
+    "FrontEndOddLotQuantity": {
+      "definition": "Especifica que, si una orden se prorratea, los titulares de lotes irregulares que ofrezcan toda su posición no verán prorrateada su posición ofrecida, sino que se aceptará en su totalidad."
+    },
+    "BackEndOddLotQuantity": {
+      "definition": "Representa la presencia de una disposición final sobre lotes irregulares y la cantidad de acciones requerida tras el prorrateo para tener derecho a este privilegio."
+    }
+  }
+}

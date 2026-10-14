@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxReference1",
+  "definition": "Referencia fiscal del plan de pensiones.",
+  "isoElements": {
+    "TaxType": {
+      "definition": "Tipo de referencia fiscal."
+    },
+    "Reference": {
+      "definition": "Referencia fiscal."
+    },
+    "HolderType": {
+      "definition": "Tipo de titular de la referencia. Por ejemplo, la referencia fiscal del cesionario. El cesionario también puede conocerse como parte adquirente."
+    }
+  }
+}

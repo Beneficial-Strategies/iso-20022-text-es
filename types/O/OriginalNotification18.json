@@ -1,0 +1,21 @@
+{
+  "isoType": "OriginalNotification18",
+  "definition": "Identifica la notificación original a la que se refiere el aviso de cancelación.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el remitente original, para identificar inequívocamente el mensaje original de notificación de recepción."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje original."
+    },
+    "OriginalNotificationIdentification": {
+      "definition": "Identificación de la notificación original."
+    },
+    "NotificationCancellation": {
+      "definition": "Indica si la cancelación se aplica a la notificación original completa o a partidas individuales dentro de la notificación original."
+    },
+    "OriginalNotificationReference": {
+      "definition": "Identifica la partida de notificación original a la que se refiere el aviso de cancelación."
+    }
+  }
+}

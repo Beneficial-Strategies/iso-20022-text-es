@@ -1,0 +1,42 @@
+{
+  "isoType": "CashAccount204",
+  "definition": "Cuenta a la que o desde la que se efectúa un apunte de efectivo.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "definition": "Divisa asociada al instrumento de pago."
+    },
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular, es decir, gestiona el registro y la contabilización de los apuntes de la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "AccountServicerBranch": {
+      "definition": "Información que identifica una sucursal específica de una entidad financiera.||Uso: este componente debe utilizarse en caso de que la información de identificación del componente de entidad financiera no permita identificar hasta el nivel de sucursal."
+    },
+    "AccountOwnerOtherIdentification": {
+      "definition": "Identificación alternativa, por ejemplo, número de identificación del registro nacional, número de pasaporte, número de identificación fiscal. Puede ser un número de cuenta utilizado para identificar con más detalle al beneficiario efectivo, por ejemplo, una cuenta del Central Provident Fund (CFP) según lo exigido para Singapur."
+    },
+    "InvestmentAccountType": {
+      "definition": "Tipo de cuenta."
+    },
+    "CreditDebit": {
+      "definition": "Especifica si la cuenta es de créditos o de débitos."
+    },
+    "SettlementInstructionReason": {
+      "definition": "Tipo de operación para la que se especifica la cuenta de efectivo."
+    },
+    "CashAccountPurpose": {
+      "definition": "Finalidad de la cuenta de efectivo."
+    },
+    "CashAccountDesignation": {
+      "definition": "Especifica si la cuenta es la principal o la secundaria cuando hay dos cuentas para la misma finalidad."
+    },
+    "DividendPercentage": {
+      "definition": "Porcentaje del pago de dividendos que no se debe reinvertir, es decir, que se debe pagar en efectivo."
+    }
+  }
+}

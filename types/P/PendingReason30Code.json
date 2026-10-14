@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason30Code",
+  "definition": "Especifica el motivo por el que la instrucción tiene un estado pendiente.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "BUMM": {
+      "name": "Discrepancia en la protección del comprador",
+      "definition": "Desacuerdo de la contraparte sobre el resultado elegido de la operación societaria."
+    },
+    "ECRD": {
+      "name": "Plazo de respuesta para la elección ante la contraparte incumplido",
+      "definition": "Recibida después del plazo de mercado para la respuesta a la elección ante la contraparte."
+    },
+    "WCTF": {
+      "name": "A la espera de la respuesta de la contraparte",
+      "definition": "Se ha enviado la alegación a la contraparte. A la espera de la respuesta."
+    }
+  }
+}

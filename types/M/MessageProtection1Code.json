@@ -1,0 +1,22 @@
+{
+  "isoType": "MessageProtection1Code",
+  "definition": "Mecanismo utilizado para proteger el mensaje del protocolo del cajero automático (ATM).",
+  "isoCodes": {
+    "EVLP": {
+      "name": "Mensaje envuelto",
+      "definition": "Los mensajes contienen un cuerpo cifrado y un MAC o una firma digital calculados sobre el mensaje completo (cabecera más cuerpo tras el cifrado)."
+    },
+    "MACB": {
+      "name": "MAC del cuerpo",
+      "definition": "Los mensajes contienen un MAC o una firma digital calculados solo sobre el cuerpo."
+    },
+    "MACM": {
+      "name": "MAC del mensaje",
+      "definition": "Los mensajes contienen un MAC o una firma digital calculados sobre el mensaje completo (cabecera más cuerpo)."
+    },
+    "UNPR": {
+      "name": "Sin protección",
+      "definition": "Los mensajes no están protegidos: sin cifrado, sin MAC ni firma digital."
+    }
+  }
+}

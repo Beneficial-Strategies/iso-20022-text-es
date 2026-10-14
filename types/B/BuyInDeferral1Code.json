@@ -1,0 +1,14 @@
+{
+  "isoType": "BuyInDeferral1Code",
+  "definition": "Especifica si la operación de recompra forzosa (buy-in) se aplazó o no.",
+  "isoCodes": {
+    "DEFY": {
+      "name": "Recompra forzosa aplazada",
+      "definition": "La recompra forzosa (buy-in) está aplazada."
+    },
+    "DEFN": {
+      "name": "Recompra forzosa no aplazada",
+      "definition": "La recompra forzosa (buy-in) no está aplazada."
+    }
+  }
+}

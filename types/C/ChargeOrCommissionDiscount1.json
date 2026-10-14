@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount1",
+  "definition": "Información sobre descuentos o renuncias a gastos y comisiones.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Diferencia entre el importe estándar de la comisión (gasto/comisión) y el importe aplicado de la comisión (gasto/comisión).|EJEMPLO:|El gasto estándar es de EUR 100|El descuento es de EUR 30|El gasto aplicado es de EUR 70 (EXAMPLE)."
+    },
+    "Rate": {
+      "definition": "Diferencia entre el tipo estándar de la comisión (gasto/comisión) y el tipo aplicado de la comisión (gasto/comisión).|EJEMPLO:|El tipo estándar es del 5%|El tipo de descuento es del 3%|El tipo aplicado es del 2% (EXAMPLE)."
+    },
+    "Basis": {
+      "definition": "Forma del descuento o bonificación, por ejemplo, efectivo."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis debe estar presente."
+    }
+  }
+}

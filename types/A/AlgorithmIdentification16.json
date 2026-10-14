@@ -1,0 +1,9 @@
+{
+  "isoType": "AlgorithmIdentification16",
+  "definition": "Algoritmo criptográfico y parámetros de los resúmenes (digest).",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identificación del algoritmo de resumen."
+    }
+  }
+}

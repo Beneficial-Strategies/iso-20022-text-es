@@ -1,0 +1,18 @@
+{
+  "isoType": "ExternalSystemErrorHandling1Code",
+  "definition": "Especifica el código de error generado por el sistema en la respuesta, tal como se publica en un conjunto de códigos externo de tipos de saldo.|Los conjuntos de códigos externos se pueden descargar de www.iso20022.org.",
+  "isoCodes": {
+    "X020": {
+      "name": "Datos aún no disponibles",
+      "definition": "Especifica el código de error cuando los datos solicitados aún no están disponibles."
+    },
+    "X030": {
+      "name": "Límite de tamaño del mensaje excedido",
+      "definition": "Especifica el código de error cuando los datos solicitados generan un mensaje de un tamaño que excede la capacidad de procesamiento."
+    },
+    "X050": {
+      "name": "Datos no disponibles",
+      "definition": "Especifica el código de error cuando los datos solicitados no se han encontrado."
+    }
+  }
+}

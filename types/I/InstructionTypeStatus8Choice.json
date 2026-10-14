@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionTypeStatus8Choice",
+  "definition": "Elección del estado del tipo de instrucción.",
+  "isoElements": {
+    "InstructionStatus": {
+      "definition": "Estado de cada instrucción de junta individual incluida en el mensaje de instrucciones identificado en InstructionType/InstructionIdentification."
+    },
+    "CancellationStatus": {
+      "definition": "Estado del mensaje de solicitud de cancelación de instrucciones de junta o de las solicitudes de cancelación de instrucción de junta individuales. El mensaje se identifica en InstructionType/InstructionCancellationIdentification."
+    }
+  }
+}

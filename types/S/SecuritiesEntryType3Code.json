@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesEntryType3Code",
+  "definition": "Especifica el tipo de anotación de valores en una cuenta.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Admisible",
+      "definition": "Número total de valores con derecho a este evento."
+    },
+    "UNBA": {
+      "name": "Saldo sin instrucciones",
+      "definition": "Saldo de la posición sin instrucciones."
+    },
+    "INBA": {
+      "name": "Saldo con instrucciones",
+      "definition": "Saldo de la posición con instrucciones."
+    }
+  }
+}

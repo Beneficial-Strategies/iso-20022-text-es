@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndPeriod3Choice",
+  "definition": "Elección entre una fecha y un período.",
+  "isoElements": {
+    "StatementDate": {
+      "definition": "Fecha del extracto."
+    },
+    "StatementPeriod": {
+      "definition": "Período del extracto."
+    }
+  }
+}

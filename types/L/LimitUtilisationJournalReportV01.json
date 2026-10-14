@@ -1,0 +1,4 @@
+{
+  "isoType": "LimitUtilisationJournalReportV01",
+  "definition": "El mensaje LimitUtilisationJournalReport se intercambia entre el sistema central y un depositario central de valores o una parte del sistema conectada directamente (el participante del depositario central de valores con acceso directo, como un banco o una contraparte central) y se utiliza para devolver información sobre el límite. Su finalidad es informar sobre el diario de operaciones que afectan a la utilización de los límites definidos por el participante del sistema."
+}

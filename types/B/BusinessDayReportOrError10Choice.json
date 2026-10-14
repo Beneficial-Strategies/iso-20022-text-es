@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayReportOrError10Choice",
+  "definition": "Opción entre los detalles de la información del día hábil o un error de negocio cuando no es posible recuperar los datos solicitados.",
+  "isoElements": {
+    "BusinessDayInformation": {
+      "definition": "Detalles del sistema solicitados para un día hábil específico."
+    },
+    "BusinessError": {
+      "definition": "Motivo por el que no se facilita la información de negocio solicitada."
+    }
+  }
+}

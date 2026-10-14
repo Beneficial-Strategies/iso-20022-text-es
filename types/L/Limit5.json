@@ -1,0 +1,12 @@
+{
+  "isoType": "Limit5",
+  "definition": "Detalles sobre los límites.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del límite, expresado en una moneda admisible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si un límite es un límite de débito o un límite de crédito."
+    }
+  }
+}

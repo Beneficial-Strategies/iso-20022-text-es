@@ -1,0 +1,12 @@
+{
+  "isoType": "AttendanceAdmissionConditions2",
+  "definition": "Condiciones de admisión para la asistencia presencial a una junta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condición de admisión presencial a la junta general."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre las condiciones de admisión presencial a la junta general."
+    }
+  }
+}

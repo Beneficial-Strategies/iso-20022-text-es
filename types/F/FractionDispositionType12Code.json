@@ -1,0 +1,14 @@
+{
+  "isoType": "FractionDispositionType12Code",
+  "definition": "Indica el tratamiento que se aplicará a las fracciones de valores.",
+  "isoCodes": {
+    "RDDN": {
+      "name": "Redondeo a la baja",
+      "definition": "Redondear hacia abajo al número entero más próximo."
+    },
+    "RDUP": {
+      "name": "Redondeo al alza",
+      "definition": "Redondear hacia arriba al número entero más próximo."
+    }
+  }
+}

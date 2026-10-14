@@ -1,0 +1,23 @@
+{
+  "isoType": "FinancialInstrumentIdentification6",
+  "definition": "Identificación de un valor.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de un valor, asignado conforme a un esquema de identificación formal o propietario."
+    },
+    "Name": {
+      "definition": "Nombre del instrumento financiero en texto de formato libre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) expresado conforme a la norma ISO 18774."
+    },
+    "ClassificationType": {
+      "definition": "Tipo de valor."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Cuando existe un código ISIN, se recomienda encarecidamente utilizarlo."
+    }
+  }
+}

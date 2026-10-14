@@ -1,0 +1,14 @@
+{
+  "isoType": "DeliveryReceiptType2Code",
+  "definition": "Especifica cómo se ha de liquidar la operación.",
+  "isoCodes": {
+    "FREE": {
+      "name": "Liquidación separada",
+      "definition": "La liquidación del instrumento financiero y del efectivo es independiente."
+    },
+    "APMT": {
+      "name": "Liquidación contra pago",
+      "definition": "La liquidación del instrumento financiero y del efectivo se realiza en un entorno de entrega contra pago (DVP), es decir, a través de un depositario central internacional de valores (ICSD) o de un depositario central de valores (CSD)."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "VoteInstruction7Code",
+  "definition": "Especifica un tipo de instrucciones de voto.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Abstención",
+      "definition": "Voto activo expresado como abstención (sin opinión)."
+    },
+    "CAGS": {
+      "name": "En contra",
+      "definition": "Voto en contra de una resolución de la junta."
+    },
+    "AMGT": {
+      "name": "En contra de la dirección",
+      "definition": "La instrucción de voto es contraria a las recomendaciones de voto de la dirección."
+    },
+    "BLNK": {
+      "name": "En blanco",
+      "definition": "El voto se emite en blanco, pero se contabiliza."
+    },
+    "CFOR": {
+      "name": "A favor",
+      "definition": "Voto a favor de una resolución de la junta."
+    },
+    "NOAC": {
+      "name": "Sin acción",
+      "definition": "No votar."
+    },
+    "ONEY": {
+      "name": "Un año",
+      "definition": "Voto a favor durante un año en una resolución de tipo \"say on pay\"."
+    },
+    "THRY": {
+      "name": "Tres años",
+      "definition": "Voto a favor durante tres años en una resolución de tipo \"say on pay\"."
+    },
+    "TWOY": {
+      "name": "Dos años",
+      "definition": "Voto a favor durante dos años en una resolución de tipo \"say on pay\"."
+    },
+    "WTHH": {
+      "name": "Retener",
+      "definition": "Un participante en una junta retiene su voto sobre una resolución de la junta. Esta acción se adopta normalmente para indicar un fuerte desacuerdo con una resolución (mercado de US)."
+    },
+    "WMGT": {
+      "name": "Con la dirección",
+      "definition": "La instrucción de voto es acorde con las recomendaciones de voto de la dirección."
+    }
+  }
+}

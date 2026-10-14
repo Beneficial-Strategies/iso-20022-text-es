@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneratedStatus8Choice",
+  "definition": "Elección de la situación de generación.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la situación de generación."
+    }
+  }
+}

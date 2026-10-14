@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters22",
+  "definition": "Especifica las condiciones en las que debe liquidarse la orden/operación.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación (única por pieza de garantía) según el titular de la cuenta (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación (única por pieza de garantía) según el administrador de la cuenta."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Especifica el tipo de operación de financiación con valores, es decir, acuerdo de recompra, acuerdo de recompra inverso, préstamo de valores o toma en préstamo de valores."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica si el movimiento en una cuenta de valores resulta de una instrucción de entrega o de recepción."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificación asignada por la entidad gestora de la cuenta para identificar de forma inequívoca un evento de operación societaria."
+    },
+    "NonceIdentification": {
+      "definition": "Identificación inequívoca de un número aleatorio o semialeatorio de un solo uso (NONCE) generado en el marco de una comunicación criptográfica."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "Para las operaciones que se liquidan en dos patas (financiación con valores), la información de apertura/inicio y de cierre/devolución de la operación se facilita enviando la siguiente combinación de códigos de SecuritiesMovementType y códigos de SecuritiesFinancingTransactionType:||Apertura de repo|SecuritiesMovementType: Entrega (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Cierre de repo|SecuritiesMovementType: Recepción (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Apertura de repo inverso|SecuritiesMovementType: Recepción (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Cierre de repo inverso|SecuritiesMovementType: Entrega (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Inicio de préstamo de valores|SecuritiesMovementType: Entrega (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Devolución de préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Inicio de toma en préstamo de valores|SecuritiesMovementType: Recepción (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Devolución de toma en préstamo de valores|SecuritiesMovementType: Entrega (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    }
+  }
+}

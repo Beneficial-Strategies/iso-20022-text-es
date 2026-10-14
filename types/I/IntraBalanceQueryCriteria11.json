@@ -1,0 +1,51 @@
+{
+  "isoType": "IntraBalanceQueryCriteria11",
+  "definition": "Define los criterios con arreglo a los cuales se incluye la información.",
+  "isoElements": {
+    "References": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "Status": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "CashAccount": {
+      "definition": "Cuenta en la que se mantiene el efectivo."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gestiona la cuenta de efectivo por cuenta del titular de la cuenta, es decir, gestiona el registro y la contabilización de los apuntes en la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "BalanceType": {
+      "definition": "Saldo al que se mueve el importe de dinero."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Número que identifica un lote que forma parte del subsaldo."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe liquidarse."
+    },
+    "SettledAmount": {
+      "definition": "Importe de dinero efectivamente liquidado que se abonará o cargará en la cuenta de efectivo del titular de la cuenta. Puede diferir del importe de liquidación instruido según el nivel de tolerancia del mercado."
+    },
+    "SettlementCurrency": {
+      "definition": "Divisa en la que se expresa el importe instruido."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Fecha y hora en que se pretende mover el importe de dinero."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Fecha y hora en que se mueve el importe de dinero."
+    },
+    "Priority": {
+      "definition": "Especifica si la operación debe ejecutarse con prioridad alta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originó el mensaje, si es distinta del emisor."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica la fecha y hora de creación del movimiento entre saldos."
+    }
+  }
+}

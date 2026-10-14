@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType14Code",
+  "definition": "Especifica el tipo de tasa.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "La tasa es desconocida para el remitente o no se ha establecido."
+    },
+    "JLID": {
+      "name": "A discreción del emisor",
+      "definition": "Indica que no habrá una tasa de prorrateo uniforme aplicable a todas las instrucciones o cuentas."
+    }
+  }
+}

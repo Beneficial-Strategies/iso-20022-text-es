@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationStatusReason3Choice",
+  "definition": "Especifica el motivo del estado de anulación de la operación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado de anulación, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado, en forma propietaria."
+    }
+  }
+}

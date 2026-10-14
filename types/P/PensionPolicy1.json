@@ -1,0 +1,15 @@
+{
+  "isoType": "PensionPolicy1",
+  "definition": "Identificación de una póliza de pensiones.",
+  "isoElements": {
+    "Identifier": {
+      "definition": "Número de referencia de la póliza, el plan o el esquema de pensiones."
+    },
+    "SubIdentifier": {
+      "definition": "Subidentificación de la póliza, el plan o el esquema de pensiones, como una referencia de partícipe."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la identificación de la póliza, el plan o el esquema de pensiones."
+    }
+  }
+}

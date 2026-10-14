@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementStandingInstructionDatabase4Choice",
+  "definition": "Elección del formato de la información de la instrucción permanente de liquidación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Base de datos de instrucciones permanentes de liquidación expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Base de datos de instrucciones permanentes de liquidación expresada como código propietario."
+    }
+  }
+}

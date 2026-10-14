@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionType5Choice",
+  "definition": "Elección de formatos para la especificación del tipo de orden.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de operación expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de operación expresado como código propio."
+    }
+  }
+}

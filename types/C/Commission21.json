@@ -1,0 +1,12 @@
+{
+  "isoType": "Commission21",
+  "definition": "Importe de dinero debido a una parte como compensación por un servicio.",
+  "isoElements": {
+    "CommissionType": {
+      "definition": "Tipo de comisión."
+    },
+    "CommissionApplied": {
+      "definition": "Importe o tipo de la comisión aplicada."
+    }
+  }
+}

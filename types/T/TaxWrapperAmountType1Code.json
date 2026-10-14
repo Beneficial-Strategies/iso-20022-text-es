@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxWrapperAmountType1Code",
+  "definition": "Especifica un tipo de importe.",
+  "isoCodes": {
+    "BONU": {
+      "name": "Bonificación",
+      "definition": "El tipo de importe es una bonificación, por ejemplo, una bonificación del Estado."
+    },
+    "WTHD": {
+      "name": "Retirada",
+      "definition": "El tipo de importe es una retirada, por ejemplo, una retirada para la primera compra de vivienda."
+    }
+  }
+}

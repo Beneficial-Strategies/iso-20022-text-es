@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownType2Code",
+  "definition": "Especifica un tipo de disposición.",
+  "isoCodes": {
+    "BOTH": {
+      "name": "Ambos",
+      "definition": "El tipo de disposición es de acceso flexible y limitada a la vez."
+    },
+    "CAPP": {
+      "name": "Disposición de ingresos con límite",
+      "definition": "El tipo de disposición es limitada."
+    },
+    "FLEX": {
+      "name": "Disposición de acceso flexible",
+      "definition": "El tipo de disposición es de acceso flexible."
+    }
+  }
+}

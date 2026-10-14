@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionOrRepairReason32",
+  "definition": "Motivo del estado de rechazo o de reparación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción o la solicitud tiene estado de rechazada o de reparación."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

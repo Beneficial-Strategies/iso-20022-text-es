@@ -1,0 +1,12 @@
+{
+  "isoType": "GDPRDataConsent1Choice",
+  "definition": "Elección de formatos para el tipo de consentimiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de consentimiento expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de consentimiento expresado como código propietario."
+    }
+  }
+}

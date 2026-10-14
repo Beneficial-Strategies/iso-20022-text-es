@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargePaymentMethod1Choice",
+  "definition": "Elección de formatos para la especificación del método de pago de gastos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Método de pago de gastos expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Método de pago de gastos expresado como código propietario."
+    }
+  }
+}

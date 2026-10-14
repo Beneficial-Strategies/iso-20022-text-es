@@ -1,0 +1,22 @@
+{
+  "isoType": "LotteryFeatureType1Code",
+  "definition": "Especifica la característica del sorteo.",
+  "isoCodes": {
+    "XTRA": {
+      "name": "Extraordinaria",
+      "definition": "Reembolso extraordinario. El reembolso extraordinario permite al emisor amortizar sus bonos antes del vencimiento si se producen ciertos eventos especificados, como que el proyecto para cuya financiación se emitió el bono haya sido dañado o destruido. Esta característica debe especificarse en el folleto de oferta del bono."
+    },
+    "OPTL": {
+      "name": "Opcional",
+      "definition": "El emisor tiene derecho a reembolsar la totalidad o parte de los bonos antes de sus fechas de vencimiento."
+    },
+    "SINK": {
+      "name": "Fondo de amortización",
+      "definition": "Fondo de amortización de bonos (sinking fund). El fondo de amortización de bonos es un mecanismo financiero utilizado por los emisores de bonos para reservar dinero con el fin de reembolsar a los bonistas al vencimiento o mediante reembolsos periódicos."
+    },
+    "SPCL": {
+      "name": "Especial",
+      "definition": "Bono de reembolso especial. Bono que puede reembolsarse antes del vencimiento debido a un evento inusual, como una catástrofe que afecte a la fuente de ingresos del bono. Esta característica debe especificarse en el folleto de oferta del bono. El reembolso especial puede realizarse conforme a las disposiciones del contrato de emisión (indenture)."
+    }
+  }
+}

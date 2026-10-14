@@ -1,0 +1,21 @@
+{
+  "isoType": "SignedData4",
+  "definition": "Firmas digitales de los datos de uno o varios firmantes.",
+  "isoElements": {
+    "Version": {
+      "definition": "Versión de la estructura de datos."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identificación del algoritmo de resumen (digest) aplicado antes de la firma."
+    },
+    "EncapsulatedContent": {
+      "definition": "Datos que se deben firmar."
+    },
+    "Certificate": {
+      "definition": "Cadena de certificados X.509."
+    },
+    "Signer": {
+      "definition": "Firma digital e identificación de un firmante."
+    }
+  }
+}

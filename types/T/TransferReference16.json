@@ -1,0 +1,24 @@
+{
+  "isoType": "TransferReference16",
+  "definition": "Referencia de una transferencia y de una confirmación de transferencia.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Identificador único e inequívoco de la instrucción de transferencia para la que se envía la reversión de la confirmación, asignado por la parte instructora."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de la transferencia por parte del inversor. Esta referencia suele poder utilizarse en un escenario de concentrador (hub) para indicar la referencia de la transferencia asignada por el cliente subyacente."
+    },
+    "TransferConfirmationReference": {
+      "definition": "Identificador único e inequívoco de la ejecución de la transferencia para la que se envía la reversión de la confirmación, asignado por la parte confirmante."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificación inequívoca de la transferencia asignada por la contraparte."
+    },
+    "CancellationReference": {
+      "definition": "Identificador único e inequívoco de la reversión, asignado por la parte confirmante."
+    },
+    "ReversalReason": {
+      "definition": "Motivo de la reversión de la confirmación."
+    }
+  }
+}

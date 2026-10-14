@@ -1,0 +1,14 @@
+{
+  "isoType": "ActivationStatus2Code",
+  "definition": "Estado de una configuración.",
+  "isoCodes": {
+    "WACT": {
+      "name": "Pendiente de activación",
+      "definition": "La descarga de la configuración fue correcta y queda a la espera de una fecha de activación futura."
+    },
+    "FAIL": {
+      "name": "Fallo",
+      "definition": "La actualización de la configuración ha fallado."
+    }
+  }
+}

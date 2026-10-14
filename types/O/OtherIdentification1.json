@@ -1,0 +1,15 @@
+{
+  "isoType": "OtherIdentification1",
+  "definition": "Otra identificación admitida de un instrumento financiero distinta del ISIN.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de un valor."
+    },
+    "Suffix": {
+      "definition": "Identifica el sufijo de la identificación del valor."
+    },
+    "Type": {
+      "definition": "Tipo de identificación."
+    }
+  }
+}

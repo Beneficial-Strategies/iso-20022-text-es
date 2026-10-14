@@ -1,0 +1,12 @@
+{
+  "isoType": "BorrowerLendingDeadline6",
+  "definition": "Plazo de préstamo de valores asignado a un prestatario de los valores.",
+  "isoElements": {
+    "StockLendingDeadline": {
+      "definition": "Fecha y hora fijadas como plazo para responder, con instrucciones, a un evento pendiente cuyo valor subyacente está prestado."
+    },
+    "Borrower": {
+      "definition": "Parte que ha tomado valores en préstamo."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceType9Choice",
+  "definition": "Elección del formato para el subsaldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo por el que un instrumento financiero no está disponible o información adicional sobre el instrumento financiero cuyo saldo se facilita, por ejemplo, no registrado, registrado a nombre de un nominatario."
+    },
+    "Proprietary": {
+      "definition": "Motivo por el que un instrumento financiero no está disponible o información adicional sobre el instrumento financiero cuyo saldo se facilita, por ejemplo, no registrado, registrado a nombre de un nominatario."
+    }
+  }
+}

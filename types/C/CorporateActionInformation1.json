@@ -1,0 +1,32 @@
+{
+  "isoType": "CorporateActionInformation1",
+  "definition": "Información general sobre el evento de acción corporativa.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identificación del agente del emisor."
+    },
+    "IssuerCorporateActionIdentification": {
+      "definition": "Referencia asignada al evento por el emisor (agente) del evento de CA."
+    },
+    "CorporateActionProcessingIdentification": {
+      "definition": "Referencia asignada por el administrador de la cuenta para identificar inequívocamente un evento de operación societaria."
+    },
+    "EventType": {
+      "definition": "Tipo de evento de operación societaria."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Especifica si el evento es obligatorio, obligatorio con opciones o voluntario."
+    },
+    "EventProcessingType": {
+      "definition": "Tipo de procesamiento que implica una operación societaria."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identificación del instrumento financiero subyacente, es decir, el instrumento financiero afectado por el evento de operación societaria."
+    }
+  },
+  "isoRules": {
+    "CorporateActionIdentificationRule": {
+      "definition": "Al menos un elemento de la lista (IssuerCorporateActionReference, OfficialCorporateActionReference, CorporateActionProcessingIdentifier) debe estar presente. Pueden estar presentes todos."
+    }
+  }
+}

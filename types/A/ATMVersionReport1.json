@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMVersionReport1",
+  "definition": "Información relativa a una configuración almacenada en un terminal.",
+  "isoElements": {
+    "ConfigurationVersion": {
+      "definition": "Versión de la configuración no activa sobre la que se informa."
+    },
+    "ConfigurationStatus": {
+      "definition": "Estado de la configuración no activa. Puede ser ‘Fail’ (es decir, la actualización de la configuración ha fallado) o ‘AwaitingActivation’ (es decir, la descarga de la configuración se realizó correctamente y está a la espera de una fecha de activación futura)."
+    },
+    "FailReason": {
+      "definition": "Motivo por el que ha fallado una actualización de la configuración en el terminal."
+    }
+  }
+}

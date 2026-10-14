@@ -1,0 +1,21 @@
+{
+  "isoType": "InstructionCancellationRequestStatus18Choice",
+  "definition": "Elección entre diferentes estados de solicitud de cancelación de instrucción.",
+  "isoElements": {
+    "CancellationCompleted": {
+      "definition": "Proporciona información de estado relativa a una solicitud de cancelación de instrucción completada."
+    },
+    "Accepted": {
+      "definition": "Proporciona información de estado relativa a una solicitud de cancelación aceptada para su posterior procesamiento."
+    },
+    "Rejected": {
+      "definition": "Proporciona información de estado relativa a una solicitud de cancelación rechazada para su posterior procesamiento por motivos del sistema (datos)."
+    },
+    "PendingCancellation": {
+      "definition": "Proporciona información de estado relativa a una solicitud de cancelación pendiente."
+    },
+    "ProprietaryStatus": {
+      "definition": "Estado propio relativo a una solicitud de cancelación de instrucción."
+    }
+  }
+}

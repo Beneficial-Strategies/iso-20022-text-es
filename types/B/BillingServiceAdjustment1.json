@@ -1,0 +1,51 @@
+{
+  "isoType": "BillingServiceAdjustment1",
+  "definition": "Especifica los ajustes de facturación correspondientes a un servicio determinado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Identifica el tipo de ajuste."
+    },
+    "Description": {
+      "definition": "Descripción y aclaración de texto libre del ajuste."
+    },
+    "Amount": {
+      "definition": "Importe del ajuste, expresado en la divisa de liquidación.||Uso: si el importe redujera los cargos debidos, debe indicarse con signo negativo."
+    },
+    "BalanceRequiredAmount": {
+      "definition": "Especifica si el importe del saldo requiere un ajuste."
+    },
+    "ErrorDate": {
+      "definition": "Fecha en que se produjo la situación que originó el ajuste del servicio. Si se desconoce la fecha, se utilizará el último día del mes en que se produjo la situación o la fecha del extracto de facturación que informó del servicio original al que se aplica este ajuste."
+    },
+    "AdjustmentIdentification": {
+      "definition": "Código interno de identificación del servicio propio de la entidad financiera, utilizado para identificar de forma única el servicio dentro de la entidad financiera."
+    },
+    "SubService": {
+      "definition": "Define la identificación del subservicio de la entidad financiera si el código de identificación del servicio de la entidad financiera se utiliza para más de un servicio."
+    },
+    "PriceChange": {
+      "definition": "Variación del precio del servicio, expresada en la divisa de tarificación. Un valor negativo indica una reducción del precio."
+    },
+    "OriginalPrice": {
+      "definition": "Precio aplicado al servicio antes de la modificación, expresado en la divisa de tarificación."
+    },
+    "NewPrice": {
+      "definition": "Nuevo precio del servicio, ya ajustado, expresado en la divisa de tarificación."
+    },
+    "VolumeChange": {
+      "definition": "Variación del volumen del servicio. Un valor negativo indica una reducción del volumen."
+    },
+    "OriginalVolume": {
+      "definition": "Volumen original del servicio."
+    },
+    "NewVolume": {
+      "definition": "Nuevo volumen del servicio, ya ajustado."
+    },
+    "OriginalChargeAmount": {
+      "definition": "Comisión por el servicio aplicada antes de la modificación, expresada en la divisa de tarificación."
+    },
+    "NewChargeAmount": {
+      "definition": "Nueva comisión por el servicio, ya ajustada, expresada en la divisa de tarificación."
+    }
+  }
+}

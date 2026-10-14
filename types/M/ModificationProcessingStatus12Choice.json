@@ -1,0 +1,27 @@
+{
+  "isoType": "ModificationProcessingStatus12Choice",
+  "definition": "Elección del formato del estado de tratamiento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la instrucción."
+    },
+    "PendingProcessing": {
+      "definition": "La modificación está pendiente de procesamiento."
+    },
+    "Denied": {
+      "definition": "La solicitud de modificación no se ejecutará."
+    },
+    "Rejected": {
+      "definition": "La solicitud de modificación ha sido rechazada para su posterior tratamiento."
+    },
+    "Repaired": {
+      "definition": "La solicitud de modificación se ha aceptado, pero está en reparación."
+    },
+    "Modified": {
+      "definition": "La instrucción ha sido modificada."
+    },
+    "Proprietary": {
+      "definition": "Estado propietario."
+    }
+  }
+}

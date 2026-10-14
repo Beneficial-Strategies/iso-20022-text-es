@@ -1,0 +1,12 @@
+{
+  "isoType": "DeMinimusApplicable1",
+  "definition": "Condiciones aplicables cuando el inversor está cubierto por la exención “de minimis”.",
+  "isoElements": {
+    "NewIssuePermission": {
+      "definition": "Indica si el inversor permite que sus titulares reales que sean personas restringidas, si los hay, participen en los beneficios y pérdidas asignados al inversor que sean atribuibles a valores de nueva emisión."
+    },
+    "Percentage": {
+      "definition": "Porcentaje de los beneficios y pérdidas de nuevas emisiones que corresponde a los titulares reales que son personas restringidas."
+    }
+  }
+}

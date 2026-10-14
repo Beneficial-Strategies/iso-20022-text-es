@@ -1,0 +1,9 @@
+{
+  "isoType": "MeetingCancellationV10",
+  "definition": "Ámbito|El mensaje MeetingCancellation lo envía la parte que envió el mensaje MeetingNotification al receptor original. Se envía para cancelar una junta anunciada previamente o para comunicar la retirada de una junta.|Uso|El mensaje MeetingCancellation se utiliza para comunicar que la junta ha sido cancelada por el administrador de la cuenta o retirada por el emisor. |Esta definición de mensaje está prevista para su uso con la Business Application Header (BAH).",
+  "isoRules": {
+    "Cancellation1Guideline": {
+      "definition": "Se recomienda cancelar una junta utilizando únicamente MeetingReference/MeetingIdentification, MeetingReference/Type y Security y Reason. Se recomienda no utilizar los elementos opcionales."
+    }
+  }
+}

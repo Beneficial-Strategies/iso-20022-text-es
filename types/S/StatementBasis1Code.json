@@ -1,0 +1,18 @@
+{
+  "isoType": "StatementBasis1Code",
+  "definition": "Especifica el tipo de saldos sobre los que se elabora el extracto.",
+  "isoCodes": {
+    "CONT": {
+      "name": "Contractual",
+      "definition": "El extracto se basa en la fecha de liquidación contractual, con independencia de las posiciones liquidadas."
+    },
+    "SETT": {
+      "name": "Liquidado",
+      "definition": "El extracto se basa en las posiciones a fecha de liquidación, según el conocimiento del remitente en el momento de elaborar el extracto."
+    },
+    "TRAD": {
+      "name": "Negociado",
+      "definition": "El extracto se basa en las posiciones a fecha de contratación."
+    }
+  }
+}

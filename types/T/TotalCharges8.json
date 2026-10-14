@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalCharges8",
+  "definition": "Especifica el importe total de los registros y cargos incluidos en el bloque.",
+  "isoElements": {
+    "NumberOfChargesBreakdownItems": {
+      "definition": "Número de partidas individuales de desglose de cargos contenidas en el registro."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales del desglose de cargos, con independencia de las divisas."
+    },
+    "TotalChargesAmount": {
+      "definition": "Importe total de los cargos reclamados mediante las partidas de desglose de cargos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe total de los cargos es un importe de abono o de adeudo. |Uso: un importe cero se considera un abono."
+    }
+  }
+}

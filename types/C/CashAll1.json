@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAll1",
+  "definition": "Especifica si todos los activos de la cartera deben liquidarse y transferirse como efectivo.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indica si todos los activos de la cartera han de liquidarse y transferirse como efectivo."
+    },
+    "Currency": {
+      "definition": "Divisa del efectivo."
+    }
+  }
+}

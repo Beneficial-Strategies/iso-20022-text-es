@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMDiagnosticRequest3",
+  "definition": "Información relativa a la solicitud de diagnóstico desde un cajero automático (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno del cajero automático (ATM)."
+    },
+    "ATMGlobalStatus": {
+      "definition": "Estado global del cajero automático (ATM)."
+    }
+  }
+}

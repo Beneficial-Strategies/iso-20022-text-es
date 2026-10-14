@@ -1,0 +1,62 @@
+{
+  "isoType": "CorporateActionRate141",
+  "definition": "Especifica tasas.",
+  "isoElements": {
+    "GrossDistributionRate": {
+      "definition": "Tipo de distribución antes de deducir impuestos."
+    },
+    "NetDistributionRate": {
+      "definition": "Tipo de distribución después de deducir impuestos."
+    },
+    "GrossInterestRateUsedForPayment": {
+      "definition": "Tipo de interés real antes de impuestos utilizado para el pago de los intereses del período de intereses especificado."
+    },
+    "MaximumAllowedOversubscriptionRate": {
+      "definition": "Porcentaje máximo de acciones disponibles mediante el privilegio de sobresuscripción, normalmente un porcentaje de las acciones de suscripción básica; por ejemplo, un titular de cuenta que suscribe 100 acciones puede sobresuscribir un máximo de 50 acciones adicionales cuando el máximo de sobresuscripción es del 50 por ciento."
+    },
+    "ProrationRate": {
+      "definition": "Porcentaje de valores aceptados por el oferente o emisor."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Porcentaje de una distribución en efectivo que será retenido por las autoridades fiscales de la jurisdicción del emisor, para el cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "SecondLevelTax": {
+      "definition": "Tipo al que una jurisdicción distinta de la del país de domicilio fiscal del emisor retendrá los ingresos, para el cual puede ser posible una desgravación en origen y/o una reclamación. Se aplica de forma complementaria o compensatoria al tipo de retención fiscal (TAXR) aplicado por la jurisdicción del domicilio fiscal del emisor."
+    },
+    "AdditionalTax": {
+      "definition": "Tipo utilizado para impuestos adicionales que no pueden clasificarse."
+    },
+    "TaxableIncomePerDividendShare": {
+      "definition": "Importe incluido en el dividendo/valor liquidativo que se identifica como ganancias derivadas directa o indirectamente de pagos de intereses, por ejemplo, en el contexto de la directiva de la EU sobre el ahorro (NAV)."
+    }
+  },
+  "isoRules": {
+    "GrossDistributionRate2Rule": {
+      "definition": "Si GrossDistributionRate se repite, entonces:|- los valores de RateTypeAndAmountAndRateStatus/RateType/Code deben ser todos diferentes en cada ocurrencia de GrossDistributionRate. (MT 566 NVR C4 )."
+    },
+    "GrossDistributionRate3Rule": {
+      "definition": "Solo puede estar presente una única ocurrencia de GrossDistributionRate/Amount o de GrossDistributionRate/AmountAndRateStatus. Ambos elementos no pueden estar presentes a la vez. (MT 566 NVR C3)."
+    },
+    "NetDistributionRate1Rule": {
+      "definition": "Si NetDistributionRate se repite, entonces los valores de RateTypeAndAmountAndRateStatus/RateType/Code deben ser todos diferentes en cada ocurrencia de NetDistributionRate. (MT 566 NVR C4 )."
+    },
+    "NetDistributionRate2Rule": {
+      "definition": "Solo puede estar presente una única ocurrencia de NetDistributionRate/Amount. Ambos elementos no pueden estar presentes a la vez. (MT 566 NVR C3)."
+    },
+    "SecondLevelTax3Rule": {
+      "definition": "Si al menos una ocurrencia de SecondLevelTax está presente, entonces al menos una ocurrencia de WithholdingTaxRate debe estar presente. (MT 566 NVR C8)."
+    },
+    "SecondLevelTax1Rule": {
+      "definition": "Si SecondLevelTax se repite, entonces los valores de SecondLevelTax/RateTypeAndRate/RateType/Code deben ser todos distintos en cada aparición de SecondLevelTax. |(MT 564 NVR C8)."
+    },
+    "SecondLevelTax2Rule": {
+      "definition": "Solo puede estar presente una única aparición de SecondLevelTax/Amount, de SecondLevelTax/Rate o de SecondLevelTax/NotSpecifiedRate; solo puede estar presente uno de estos elementos. |(MT 564 NVR C7)."
+    },
+    "WithholdingTaxRate1Rule": {
+      "definition": "Si WithholdingTaxRate se repite, entonces los valores de WithholdingTaxRate/RateTypeAndRate/RateType/Code deben ser todos distintos en cada aparición de WithholdingTaxRate. |(MT 564 NVR C8)."
+    },
+    "WithholdingTaxRate2Rule": {
+      "definition": "Solo puede estar presente una única aparición de WithholdingTaxRate/Amount, de WithholdingTaxRate/Rate o de WithholdingTaxRate/NotSpecifiedRate; solo puede estar presente uno de estos elementos. |(MT 564 NVR C7)."
+    }
+  }
+}

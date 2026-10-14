@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityToQuantityRatio2",
+  "definition": "Proporción expresada como cociente de cantidades.",
+  "isoElements": {
+    "Quantity1": {
+      "definition": "Numerador del cociente de cantidades."
+    },
+    "Quantity2": {
+      "definition": "Denominador del cociente de cantidades."
+    }
+  }
+}

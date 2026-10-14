@@ -1,0 +1,15 @@
+{
+  "isoType": "ActiveOrHistoricCurrencyAndAmountRange2",
+  "definition": "Rango de valores de importe.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe o rango de importes especificado."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe es un importe acreditado o adeudado."
+    },
+    "Currency": {
+      "definition": "Medio de intercambio de valor, utilizado para calificar un importe."
+    }
+  }
+}

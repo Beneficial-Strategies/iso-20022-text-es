@@ -1,0 +1,15 @@
+{
+  "isoType": "UnableToApplyJustification4Choice",
+  "definition": "Especifica los detalles de la información que falta o es incorrecta, o el conjunto completo de la información disponible.",
+  "isoElements": {
+    "AnyInformation": {
+      "definition": "Indica si se solicita o no toda la información disponible sobre la instrucción de pago subyacente."
+    },
+    "MissingOrIncorrectInformation": {
+      "definition": "Conjunto de elementos utilizados para indicar qué información falta o es incorrecta."
+    },
+    "PossibleDuplicateInstruction": {
+      "definition": "Indica si el elemento referido es o no un posible duplicado de una instrucción o un asiento anterior."
+    }
+  }
+}

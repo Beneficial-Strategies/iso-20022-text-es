@@ -1,0 +1,51 @@
+{
+  "isoType": "SecurityIdentification3Choice",
+  "definition": "Elección entre formatos para la identificación de un instrumento financiero.",
+  "isoElements": {
+    "ISIN": {
+      "definition": "Número Internacional de Identificación de Valores (ISIN). Sistema de numeración diseñado por la Organización Internacional de Normalización (ISO) de las Naciones Unidas. El ISIN se compone de un prefijo de 2 caracteres que representa el país de emisión, seguido del número nacional del valor (si existe) y un dígito de control. Cada país tiene un organismo nacional de numeración que asigna los números ISIN a los valores de ese país."
+    },
+    "SEDOL": {
+      "definition": "Número de la Lista Oficial Diaria de la Bolsa de Valores (SEDOL). Código utilizado por la Bolsa de Londres para identificar acciones extranjeras, especialmente las que no se negocian activamente en Estados Unidos y no tienen número CUSIP."
+    },
+    "CUSIP": {
+      "definition": "Comité de Procedimientos Uniformes de Identificación y Valores (CUSIP). Organismo de normalización que creó y mantiene el sistema de clasificación de valores en Estados Unidos. El CUSIP se compone de un número de 9 caracteres que identifica de forma única un valor concreto. Los valores no estadounidenses tienen un número similar denominado número CINS."
+    },
+    "RIC": {
+      "definition": "Código de Identificación de Reuters (RIC). Sistema de numeración utilizado dentro del sistema Reuters para identificar instrumentos en todo el mundo. El RIC contiene un código específico del mercado de X caracteres (puede ser el código CUSIP o EPIC) seguido de un punto y, a continuación, el código de país ISO de dos dígitos; por ejemplo, IBM en el Reino Unido es IBM.UK."
+    },
+    "TickerSymbol": {
+      "definition": "Letras que identifican una acción negociada en una bolsa de valores. El símbolo de cotización (Ticker Symbol) es una forma breve y cómoda de identificar una acción; por ejemplo, RTR.L para Reuters cotizada en Londres."
+    },
+    "Bloomberg": {
+      "definition": "Identificador de un valor asignado por la organización Bloomberg."
+    },
+    "CTA": {
+      "definition": "Identificador de un valor asignado por la Consolidated Tape Association."
+    },
+    "QUICK": {
+      "definition": "Identificador de un valor asignado por el esquema japonés de identificación QUICK para instrumentos financieros."
+    },
+    "Wertpapier": {
+      "definition": "Wertpapier Kenn-nummer. Número emitido en Alemania por Wertpapier Mitteilungen. El Wertpapier Kenn-nummer, a veces denominado WPK, contiene 6 dígitos, pero no dígito de control. Existen distintos rangos de números que representan diferentes clases de valores."
+    },
+    "Dutch": {
+      "definition": "Identificador de valores neerlandeses."
+    },
+    "Valoren": {
+      "definition": "Identificador de valores suizos asignado por Telekurs Financial, el organismo suizo de numeración."
+    },
+    "Sicovam": {
+      "definition": "Identificador de valores franceses asignado por la Societe Interprofessionnelle Pour La Compensation des Valeurs Mobilieres en Francia. El Sicovam se compone de 5 dígitos."
+    },
+    "Belgian": {
+      "definition": "Identificador de valores belgas."
+    },
+    "Common": {
+      "definition": "Identificador de valores emitidos en Luxemburgo. El código común es un código de 9 dígitos que sustituye a los códigos CEDEL (Clearstream) y Euroclear."
+    },
+    "OtherProprietaryIdentification": {
+      "definition": "Identificación propia de un valor asignada por una institución u organización."
+    }
+  }
+}

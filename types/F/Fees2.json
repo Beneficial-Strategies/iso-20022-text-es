@@ -1,0 +1,17 @@
+{
+  "isoType": "Fees2",
+  "definition": "Importe de dinero asociado a un servicio.",
+  "isoElements": {
+    "CommercialAgreementReference": {
+      "definition": "Referencia al acuerdo establecido entre el fondo y otra parte. Este elemento define, entre otras cosas, las condiciones de las comisiones."
+    },
+    "IndividualFee": {
+      "definition": "Comisión (gasto/comisión) individual."
+    }
+  },
+  "isoRules": {
+    "FeeTaxElementRule": {
+      "definition": "Debe estar presente uno de los elementos (CommercialAgreementReference, IndividualFee, IndividualTax)."
+    }
+  }
+}

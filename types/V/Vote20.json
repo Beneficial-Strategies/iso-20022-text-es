@@ -1,0 +1,57 @@
+{
+  "isoType": "Vote20",
+  "definition": "Resultados de la votación de una resolución.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número de la resolución según lo especificado por el emisor o su agente."
+    },
+    "Description": {
+      "definition": "Idioma, título y descripción textual de una resolución del orden del día."
+    },
+    "ResolutionStatus": {
+      "definition": "Estado de aceptación de la resolución."
+    },
+    "SubStatus": {
+      "definition": "Especifica si la resolución es nueva o modificada."
+    },
+    "For": {
+      "definition": "Número de votos a favor de una resolución."
+    },
+    "Against": {
+      "definition": "Número de votos en contra de una resolución."
+    },
+    "Abstain": {
+      "definition": "Número de votos de abstención."
+    },
+    "Withhold": {
+      "definition": "Total de votos retenidos, por ejemplo, en el caso de que un accionista no desee respaldar la elección de un miembro del consejo."
+    },
+    "WithManagement": {
+      "definition": "Número de votos en línea con los votos de la dirección."
+    },
+    "AgainstManagement": {
+      "definition": "Número de votos contrarios a la recomendación de voto de la dirección."
+    },
+    "Discretionary": {
+      "definition": "Número de votos para los que la decisión se deja a la parte que ejercerá el derecho de voto."
+    },
+    "OneYear": {
+      "definition": "Número de votos a favor de un año en una resolución de tipo \"say on pay\"."
+    },
+    "TwoYears": {
+      "definition": "Número de votos a favor de dos años en una resolución de tipo \"say on pay\"."
+    },
+    "ThreeYears": {
+      "definition": "Número de votos a favor de tres años en una resolución de tipo \"say on pay\"."
+    },
+    "NoAction": {
+      "definition": "Número de votos para los que no se ha tomado ninguna medida."
+    },
+    "Blank": {
+      "definition": "El voto se emite en blanco, pero se contabiliza."
+    },
+    "Proprietary": {
+      "definition": "Otro tipo de voto expresado como un código propietario."
+    }
+  }
+}

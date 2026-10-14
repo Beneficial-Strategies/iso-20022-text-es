@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingCancellationReason2",
+  "definition": "Especifica el motivo de la cancelación de una junta.",
+  "isoElements": {
+    "CancellationReasonCode": {
+      "definition": "Motivo de la cancelación de una junta."
+    },
+    "CancellationReason": {
+      "definition": "Proporciona más información sobre el motivo de la cancelación de una junta en formato libre."
+    }
+  }
+}

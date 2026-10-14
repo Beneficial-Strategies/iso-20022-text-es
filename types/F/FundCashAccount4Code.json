@@ -1,0 +1,50 @@
+{
+  "isoType": "FundCashAccount4Code",
+  "definition": "Especifica el tipo de cuenta.",
+  "isoCodes": {
+    "HEDG": {
+      "name": "Fondo de cobertura",
+      "definition": "Cuenta de fondo de inversión libre (hedge fund)."
+    },
+    "CPFO": {
+      "name": "Fondo de pensiones ordinario",
+      "definition": "Cuenta ordinaria del Central Provident Fund (CPF)."
+    },
+    "CPFS": {
+      "name": "Fondo de pensiones especial",
+      "definition": "Cuenta especial del Central Provident Fund (CPF)."
+    },
+    "SRSA": {
+      "name": "Plan de jubilación",
+      "definition": "Cuenta del Supplementary Retirement Scheme (SRS)."
+    },
+    "CSDO": {
+      "name": "Cuenta ómnibus del CSD",
+      "definition": "Cuenta gestionada por un depositario central de valores (CSD) en un contexto de liquidación entre CSD."
+    },
+    "TOFF": {
+      "name": "Cuenta técnica de compensación",
+      "definition": "Cuenta gestionada por un CSD en un contexto de mercado de tenencia directa."
+    },
+    "ICSA": {
+      "name": "Cuenta entre CSD",
+      "definition": "Cuenta gestionada por un CSD para la liquidación de las posiciones de valores de instrucciones que involucran CSD internos."
+    },
+    "CSDM": {
+      "name": "Cuenta espejo del CSD",
+      "definition": "Cuenta gestionada por un CSD para el reflejo de posiciones (mirroring)."
+    },
+    "CSDP": {
+      "name": "Cuenta de participante del CSD",
+      "definition": "Cuenta propiedad de un participante de un CSD."
+    },
+    "PPEN": {
+      "name": "Plan de pensiones privado",
+      "definition": "Cuenta de pensión privada."
+    },
+    "CPEN": {
+      "name": "Plan de pensiones de empleo",
+      "definition": "Cuenta de pensión de empleo o de empresa."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosureReason2Choice",
+  "definition": "Motivo de cierre expresado como código o como código acordado bilateralmente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo por el que el sistema está cerrado o no opera, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Motivo por el que el sistema está cerrado o no opera, en código acordado bilateralmente."
+    }
+  }
+}

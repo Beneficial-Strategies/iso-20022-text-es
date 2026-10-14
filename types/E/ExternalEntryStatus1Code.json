@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalEntryStatus1Code",
+  "definition": "Especifica el estado de un apunte en los libros de la entidad que administra la cuenta, tal como se publica en un conjunto de códigos externo.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "BOOK": {
+      "name": "Contabilizado",
+      "definition": "Contabilizado significa que la transferencia de dinero entre la entidad gestora de la cuenta y el titular de la cuenta se ha completado.|Uso: el estado Contabilizado no implica necesariamente la irrevocabilidad del dinero, ya que esta depende de otros factores, como el sistema de pagos utilizado, la finalización de la operación de extremo a extremo y las condiciones acordadas entre la entidad gestora de la cuenta y el titular.|El estado Contabilizado es el único estado que puede revertirse."
+    },
+    "FUTR": {
+      "name": "Futuro",
+      "definition": "El apunte figura en los libros de la entidad gestora de la cuenta y la fecha valor se aplicará al titular de la cuenta en una fecha y hora futuras."
+    },
+    "INFO": {
+      "name": "Información",
+      "definition": "El apunte se facilita únicamente a título informativo y no se ha realizado ninguna contabilización en la cuenta del titular en el libro mayor de la entidad gestora de la cuenta."
+    },
+    "PDNG": {
+      "name": "Pendiente",
+      "definition": "La contabilización en la cuenta del titular en el libro mayor de la entidad gestora de la cuenta no se ha completado.|Uso: puede utilizarse para partidas esperadas o para partidas respecto de las cuales aún deben cumplirse algunas condiciones antes de poder contabilizarse. Si se produce la contabilización, el apunte se incluirá con el estado Contabilizado en el informe o extracto de cuenta posterior. El estado Pendiente no puede revertirse."
+    }
+  }
+}

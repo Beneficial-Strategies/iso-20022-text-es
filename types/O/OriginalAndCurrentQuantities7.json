@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalAndCurrentQuantities7",
+  "definition": "Importe nominal con signo y valor amortizado.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Signo de la cantidad de valores."
+    },
+    "FaceAmount": {
+      "definition": "Cantidad expresada como un importe que representa el valor nominal, es decir, el principal, de un instrumento de deuda."
+    },
+    "AmortisedValue": {
+      "definition": "Cantidad expresada como un importe que representa el importe nominal amortizado actual de un bono, por ejemplo, una reducción/aumento periódico del importe principal de un bono."
+    }
+  }
+}

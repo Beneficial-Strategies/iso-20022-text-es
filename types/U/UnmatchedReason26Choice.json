@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason26Choice",
+  "definition": "Elección del formato para el motivo de no casamiento de la operación de liquidación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción tiene situación de no casada."
+    },
+    "Proprietary": {
+      "definition": "Especifica el motivo por el que la instrucción tiene situación de no casada."
+    }
+  }
+}

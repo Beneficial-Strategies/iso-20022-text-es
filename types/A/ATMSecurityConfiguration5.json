@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMSecurityConfiguration5",
+  "definition": "Configuración de la verificación en línea del PIN.",
+  "isoElements": {
+    "PINFormat": {
+      "definition": "Formato de bloque PIN que el módulo de seguridad puede gestionar para la verificación en línea del PIN."
+    },
+    "PINLengthCapabilities": {
+      "definition": "Número máximo de dígitos que el módulo de seguridad puede aceptar cuando el titular de la tarjeta introduce su PIN."
+    }
+  }
+}

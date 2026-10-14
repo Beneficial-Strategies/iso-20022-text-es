@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection35",
+  "definition": "Importe resultante, de débito o de crédito, de los importes compensados de todos los apuntes de débito y de crédito.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe resultante de los importes compensados de todos los apuntes de débito y de crédito."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe es un importe de crédito o de débito."
+    }
+  }
+}

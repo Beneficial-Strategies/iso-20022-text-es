@@ -1,0 +1,15 @@
+{
+  "isoType": "Quantity52Choice",
+  "definition": "Elección entre distintos formatos de cantidad de valores.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar la cantidad de un instrumento financiero."
+    },
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Importe nominal y valor amortizado del valor."
+    },
+    "Quantity": {
+      "definition": "Cantidad de instrumento financiero en unidades, importe nominal original o importe nominal actual."
+    }
+  }
+}

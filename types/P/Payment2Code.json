@@ -1,0 +1,10 @@
+{
+  "isoType": "Payment2Code",
+  "definition": "Indica si el pago en efectivo se produce o se producirá antes de recibir los fondos del emisor, sobre la base de un acuerdo contractual establecido con la entidad administradora de la cuenta, o a la recepción de los fondos del emisor.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Pago efectivo",
+      "definition": "El pago en efectivo se produce o se producirá a la recepción de los fondos del emisor."
+    }
+  }
+}

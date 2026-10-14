@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentDetails44",
+  "definition": "Informe por instrumento financiero.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elementos que caracterizan un instrumento financiero."
+    },
+    "SubBalance": {
+      "definition": "Identificación del subsaldo."
+    }
+  }
+}

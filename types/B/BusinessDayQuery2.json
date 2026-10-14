@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayQuery2",
+  "definition": "Define los criterios de la consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica el tipo de elementos coincidentes que deben devolverse en la respuesta a la consulta."
+    },
+    "Criteria": {
+      "definition": "Define los criterios de la consulta de información sobre el día hábil."
+    }
+  }
+}

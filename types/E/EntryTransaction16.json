@@ -1,0 +1,98 @@
+{
+  "isoType": "EntryTransaction16",
+  "definition": "Identifica la operación subyacente.",
+  "isoElements": {
+    "References": {
+      "definition": "Proporciona la identificación de la operación subyacente."
+    },
+    "Amount": {
+      "definition": "Importe de la operación en efectivo."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si la operación es un crédito o un débito."
+    },
+    "AmountDetails": {
+      "definition": "Proporciona información detallada sobre el importe original.||Uso: este componente (en el nivel de operación) debe utilizarse cuando el asiento corresponde a una sola operación y el importe original es distinto del importe del apunte. También puede utilizarse cuando se facilitan importes originales individuales en el caso de un asiento por lotes o agregado."
+    },
+    "Availability": {
+      "definition": "Indica cuándo el importe contabilizado estará disponible, es decir, cuándo se podrá acceder a él y empezará a generar intereses. ||Uso: este tipo de información se utiliza en US (Estados Unidos) y está vinculada a determinados instrumentos, como los cheques.|Ejemplo: cuando se ingresa un cheque, se contabiliza el día del ingreso, pero el importe solo estará accesible a partir del día de disponibilidad indicado (según la normativa bancaria nacional)."
+    },
+    "BankTransactionCode": {
+      "definition": "Conjunto de elementos utilizados para identificar plenamente el tipo de operación subyacente que da lugar a un apunte."
+    },
+    "Charges": {
+      "definition": "Proporciona información sobre los gastos, avisados previamente o incluidos en el importe del apunte.||Uso: este componente (en el nivel de operación) puede utilizarse cuando el asiento corresponde a una sola operación y los gastos están incluidos en el importe del apunte. También puede utilizarse cuando se aplican importes de gastos individuales a operaciones individuales en el caso de un asiento por lotes o de importe agregado."
+    },
+    "Interest": {
+      "definition": "Proporciona detalles del importe de intereses incluido en el importe del apunte.||Uso: este componente (en el nivel de operación) puede utilizarse si el asiento corresponde a una sola operación y el importe de intereses está incluido en el importe del apunte. También puede utilizarse si se aplican importes de intereses individuales a operaciones individuales en el caso de un asiento por lotes o de importe agregado."
+    },
+    "RelatedParties": {
+      "definition": "Conjunto de elementos utilizados para identificar las partes relacionadas con la operación subyacente."
+    },
+    "RelatedAgents": {
+      "definition": "Conjunto de elementos utilizados para identificar las entidades relacionadas con la operación subyacente."
+    },
+    "LocalInstrument": {
+      "definition": "Instrumento específico de la comunidad de usuarios.|Uso: este elemento se utiliza para especificar un instrumento local, una opción de compensación local y/o para calificar con mayor detalle el servicio o el nivel de servicio."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con mayor detalle el tipo de operación."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago.|Uso: la finalidad la utilizan los clientes finales, es decir, la parte iniciadora, el ordenante (final) y el beneficiario (final), para facilitar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no utiliza ninguna de las entidades que intervienen en la cadena de pago para el procesamiento."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Proporciona información relativa al tratamiento de la información de remesa por parte de cualquiera de las entidades de la cadena de procesamiento de la operación."
+    },
+    "RemittanceInformation": {
+      "definition": "Información estructurada que permite la correspondencia, es decir, la conciliación, de un pago con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    },
+    "RelatedDates": {
+      "definition": "Conjunto de elementos utilizados para identificar las fechas relacionadas con las operaciones subyacentes."
+    },
+    "RelatedPrice": {
+      "definition": "Conjunto de elementos utilizados para identificar la información de precio relacionada con la operación subyacente."
+    },
+    "RelatedQuantities": {
+      "definition": "Conjunto de elementos utilizados para identificar las cantidades relacionadas, como valores, de la operación subyacente."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación de un valor, asignada con arreglo a un esquema de identificación formal o propio."
+    },
+    "Tax": {
+      "definition": "Proporciona detalles sobre el impuesto."
+    },
+    "ReturnInformation": {
+      "definition": "Proporciona la información de la devolución."
+    },
+    "RelatedCorporateAction": {
+      "definition": "Conjunto de elementos utilizados para identificar la operación societaria subyacente."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta de valores o de inversión. Una cuenta de valores es una cuenta en la que se realiza un apunte de valores. Una cuenta de inversión es una cuenta entre uno o varios inversores y un gestor de fondos o un fondo. La cuenta puede contener posiciones en cualquier fondo de inversión o clase de fondo de inversión gestionado (o distribuido) por el gestor de fondos, dentro de la misma familia de fondos."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Proporciona información sobre las asignaciones subyacentes que componen el pago.||Uso: solo lo utiliza el sector de valores."
+    },
+    "CashDeposit": {
+      "definition": "Proporciona los detalles de un ingreso en efectivo de un importe en billetes y/o monedas."
+    },
+    "CardTransaction": {
+      "definition": "Proporciona los datos relativos a la tarjeta (número, esquema), el terminal (número, identificación) y los datos de la operación utilizados para identificar de forma única una operación con tarjeta."
+    },
+    "InstructionCopy": {
+      "definition": "Copia de la instrucción original, en texto libre.||Uso: cuando la instrucción que se copia es un mensaje ISO 20022 con sintaxis XML, debe utilizarse un formato CDATA."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Detalles adicionales de la operación."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede recogerse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  },
+  "isoRules": {
+    "PaymentTypeOrLocalInstrumentRule": {
+      "definition": "PaymentTypeInformation o LocalInstrument deben estar ausentes; ambos pueden estar ausentes."
+    }
+  }
+}

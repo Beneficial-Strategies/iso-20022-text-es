@@ -1,0 +1,12 @@
+{
+  "isoType": "RateName2",
+  "definition": "El nombre de la tasa especifica la tasa de referencia o tasa base en la que se basa una tasa variable (p. ej.: EONIA, EURIBOR, LIBOR, FEFUND, EURREPO).",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    },
+    "RateName": {
+      "definition": "El nombre de la tasa especifica la tasa de referencia o tasa base en la que se basa una tasa variable (p. ej.: EONIA, EURIBOR, LIBOR, FEFUND, EURREPO)."
+    }
+  }
+}

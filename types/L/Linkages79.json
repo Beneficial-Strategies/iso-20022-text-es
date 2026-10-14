@@ -1,0 +1,26 @@
+{
+  "isoType": "Linkages79",
+  "definition": "Información relativa a una operación vinculada.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Especifica cuándo debe ejecutarse la operación en relación con una operación vinculada."
+    },
+    "MessageNumber": {
+      "definition": "Número del tipo de mensaje o identificador del mensaje referenciado en la secuencia de vinculación."
+    },
+    "Reference": {
+      "definition": "Referencia a la operación vinculada."
+    },
+    "LinkedQuantity": {
+      "definition": "Cantidad de instrumentos financieros de la operación vinculada que se va a compensar o rotar."
+    },
+    "ReferenceOwner": {
+      "definition": "Parte que genera la referencia."
+    }
+  },
+  "isoRules": {
+    "LinkedQuantityRule": {
+      "definition": "Si se utiliza la cantidad vinculada para la compensación parcial y la cantidad rotada para las rotaciones parciales, su uso debe acordarse previamente entre el titular de la cuenta del mensaje y la entidad gestora de cuentas."
+    }
+  }
+}

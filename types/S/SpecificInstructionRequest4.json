@@ -1,0 +1,12 @@
+{
+  "isoType": "SpecificInstructionRequest4",
+  "definition": "Método de participación en la votación en una junta general.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Método de participación en la votación de la junta general."
+    },
+    "SecuritiesRegistration": {
+      "definition": "Indica una solicitud de registro de los valores para la junta."
+    }
+  }
+}

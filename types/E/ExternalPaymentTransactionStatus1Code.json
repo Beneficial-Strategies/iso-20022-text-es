@@ -1,0 +1,106 @@
+{
+  "isoType": "ExternalPaymentTransactionStatus1Code",
+  "definition": "Especifica el estado de una instrucción de pago individual, tal como se publica en un conjunto de códigos externo de estados de operaciones de pago.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "ACCC": {
+      "name": "Aceptado, liquidación completada en la cuenta del beneficiario",
+      "definition": "La liquidación en la cuenta del beneficiario se ha completado."
+    },
+    "ACCP": {
+      "name": "Perfil de cliente aceptado",
+      "definition": "La comprobación técnica previa se ha superado correctamente. La comprobación del perfil del cliente también se ha superado correctamente."
+    },
+    "ACFC": {
+      "name": "Aceptado, fondos verificados",
+      "definition": "La comprobación previa de validación técnica y perfil del cliente fue satisfactoria y una comprobación automática de fondos resultó positiva."
+    },
+    "ACIS": {
+      "name": "Aceptado y cheque emitido",
+      "definition": "La instrucción de pago de emitir un cheque ha sido aceptada, y el cheque ha sido emitido pero aún no ha sido depositado ni compensado."
+    },
+    "ACSC": {
+      "name": "Aceptado, liquidación completada en la cuenta del ordenante",
+      "definition": "Liquidación completada.|Uso: puede ser utilizado por una infraestructura de mercado que informa a un participante de la infraestructura, o por una entidad gestora de cuentas que informa al titular de la cuenta, de que el apunte de la cuenta de la operación se ha completado.|Advertencia: este estado se facilita por motivos de estado de la operación, no como información financiera. Solo puede utilizarse previo acuerdo bilateral"
+    },
+    "ACSP": {
+      "name": "Aceptado, liquidación en curso",
+      "definition": "Todas las comprobaciones previas, como la validación técnica y el perfil del cliente, fueron satisfactorias y, por tanto, la instrucción de pago ha sido aceptada para su ejecución."
+    },
+    "ACTC": {
+      "name": "Validación técnica aceptada",
+      "definition": "La autenticación y la validación sintáctica y semántica son satisfactorias"
+    },
+    "ACWC": {
+      "name": "Aceptado con cambios",
+      "definition": "La instrucción se acepta, pero se realizará un cambio, como la fecha o la no transmisión de la información de remesa."
+    },
+    "ACWP": {
+      "name": "Aceptado sin contabilización",
+      "definition": "La instrucción de pago incluida en la transferencia es aceptada sin haber sido contabilizada en la cuenta del cliente beneficiario."
+    },
+    "BLCK": {
+      "name": "Bloqueado",
+      "definition": "La operación de pago notificada previamente con el estado 'ACWP' queda bloqueada; por ejemplo, los fondos no se contabilizarán en la cuenta del beneficiario ni se devolverán al ordenante."
+    },
+    "CANC": {
+      "name": "Cancelado",
+      "definition": "La iniciación del pago ha sido cancelada correctamente tras recibir una solicitud de cancelación.|Uso: código que debe utilizarse únicamente en el contexto de las API."
+    },
+    "CPUC": {
+      "name": "Efectivo recogido por el beneficiario",
+      "definition": "El efectivo ha sido recogido por el beneficiario."
+    },
+    "PATC": {
+      "name": "Aceptado parcialmente, técnicamente correcto",
+      "definition": "La iniciación del pago requiere múltiples autenticaciones, de las cuales se han realizado algunas pero aún no todas. Las validaciones sintácticas y semánticas son satisfactorias."
+    },
+    "PDNG": {
+      "name": "Pendiente",
+      "definition": "La instrucción de pago está pendiente. Se realizarán comprobaciones adicionales y una actualización del estado."
+    },
+    "PRES": {
+      "name": "Presentado",
+      "definition": "La solicitud de pago ha sido presentada al ordenante."
+    },
+    "RCVD": {
+      "name": "Recibido",
+      "definition": "La instrucción de pago ha sido recibida."
+    },
+    "RJCT": {
+      "name": "Rechazado",
+      "definition": "La instrucción de pago ha sido rechazada."
+    },
+    "ACPD": {
+      "name": "Aceptado, compensación procesada",
+      "definition": "Estado de la operación liberada por la entidad del ordenante y aceptada por la compensación."
+    },
+    "RCVC": {
+      "name": "Recibido, verificación completada",
+      "definition": "Se ha aplicado la comprobación de Verification of Payee a la operación recibida, indicándose que está completa sin datos discordantes."
+    },
+    "RVNA": {
+      "name": "Recibido, verificación completada, no aplicable",
+      "definition": "Se ha aplicado la comprobación de Verification of Payee a la operación recibida, indicándose que está completa con datos no aplicables."
+    },
+    "RVNM": {
+      "name": "Recibido, verificación completada, sin coincidencia",
+      "definition": "Se ha aplicado la comprobación de Verification of Payee a la operación recibida, indicándose que está completa con datos discordantes."
+    },
+    "RVMC": {
+      "name": "Recibido, verificación completada, coincidencia aproximada",
+      "definition": "Se ha aplicado la comprobación de Verification of Payee a la operación recibida, indicándose que está completa con datos que coinciden de forma aproximada."
+    },
+    "ACFW": {
+      "name": "Aceptado, fondos verificados, a la espera de confirmación",
+      "definition": "La comprobación previa de validación técnica y perfil del cliente fue satisfactoria, y una comprobación automática de fondos resultó positiva, pero está pendiente una confirmación explícita de la parte iniciadora."
+    },
+    "RVNC": {
+      "name": "Recibido, verificación no completada",
+      "definition": "La comprobación de verificación de la parte en la operación aún no se ha completado."
+    },
+    "RVCM": {
+      "name": "Recibido, verificación completada con discrepancias",
+      "definition": "Se han aplicado las comprobaciones de Verification of Payee a la operación recibida, indicándose que están completas con datos discordantes."
+    }
+  }
+}

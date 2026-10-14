@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope42",
+  "definition": "Alcance de la modificación que se aplicará a un conjunto de información identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Tipo de modificación que se aplicará."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Información detallada sobre el fondo de inversión o valor asociado a la cuenta."
+    }
+  }
+}

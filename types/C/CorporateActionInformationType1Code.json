@@ -1,0 +1,10 @@
+{
+  "isoType": "CorporateActionInformationType1Code",
+  "definition": "Especifica el tipo de evento informativo.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Conferencia telefónica",
+      "definition": "La información se refiere a una convocatoria informal en la que un emisor, fiduciario o agente desea hablar con los tenedores de pagarés para tratar una cuestión determinada o un posible cambio en los pagarés; nada de lo dicho es vinculante."
+    }
+  }
+}

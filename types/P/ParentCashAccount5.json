@@ -1,0 +1,15 @@
+{
+  "isoType": "ParentCashAccount5",
+  "definition": "Especifica los elementos de cuenta de efectivo de una cuenta de efectivo principal.",
+  "isoElements": {
+    "Level": {
+      "definition": "Define el nivel de cuenta principal dentro de una jerarquía."
+    },
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta principal entre el titular de la cuenta principal y la entidad gestora de la cuenta principal."
+    },
+    "Servicer": {
+      "definition": "Entidad financiera en la que reside la cuenta principal."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionElection3",
+  "definition": "Proporciona información sobre una elección de evento corporativo.",
+  "isoElements": {
+    "AccountDetails": {
+      "definition": "Proporciona información sobre la cuenta."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "InstructedUnderlyingSecuritiesQuantity": {
+      "definition": "Cantidad de valores subyacentes a los que se aplica esta instrucción."
+    },
+    "InstructedSecuritiesQuantityToReceive": {
+      "definition": "Cantidad de los beneficios que el titular de la cuenta desea recibir, por ejemplo, como resultado de la reinversión de dividendos."
+    },
+    "ProposedRate": {
+      "definition": "Tipo propuesto en una recolocación de pagarés a tipo variable."
+    },
+    "CashMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de efectivo resultante de la instrucción de elección."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de valores resultante de la instrucción de elección."
+    }
+  }
+}

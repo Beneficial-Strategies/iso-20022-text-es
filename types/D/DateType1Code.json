@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType1Code",
+  "definition": "Especifica cuándo la fecha es desconocida.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "La fecha es desconocida para el emisor o no se ha establecido."
+    }
+  }
+}

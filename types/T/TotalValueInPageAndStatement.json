@@ -1,0 +1,12 @@
+{
+  "isoType": "TotalValueInPageAndStatement",
+  "definition": "Valor del total de posiciones comunicadas.",
+  "isoElements": {
+    "TotalHoldingsValueOfPage": {
+      "definition": "Valor total de las posiciones comunicadas en este mensaje."
+    },
+    "TotalHoldingsValueOfStatement": {
+      "definition": "Valor total de las posiciones comunicadas en este extracto (un extracto puede comprender uno o varios mensajes)."
+    }
+  }
+}

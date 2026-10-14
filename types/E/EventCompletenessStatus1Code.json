@@ -1,0 +1,14 @@
+{
+  "isoType": "EventCompletenessStatus1Code",
+  "definition": "Indica si los detalles facilitados sobre un evento están completos o incompletos.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Completo",
+      "definition": "Los detalles del evento están completos."
+    },
+    "INCO": {
+      "name": "Incompleto",
+      "definition": "Los detalles del evento no están completos."
+    }
+  }
+}

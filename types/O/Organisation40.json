@@ -1,0 +1,41 @@
+{
+  "isoType": "Organisation40",
+  "definition": "Estructura organizada constituida con un fin determinado, por ejemplo, una empresa, un organismo gubernamental, un departamento, una organización benéfica o una entidad financiera.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre por el que se conoce la organización y que se utiliza habitualmente para identificarla."
+    },
+    "ShortName": {
+      "definition": "Nombre abreviado de la organización."
+    },
+    "Identification": {
+      "definition": "Identificador único e inequívoco de la organización."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identificación de la organización con un identificador de entidad jurídica (LEI). Es un código asignado a una parte tal como se describe en ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    },
+    "Purpose": {
+      "definition": "Finalidad de la organización, por ejemplo, beneficencia."
+    },
+    "RegistrationCountry": {
+      "definition": "País en el que está registrada la organización."
+    },
+    "RegistrationDate": {
+      "definition": "Fecha y hora en que se registró oficialmente una organización determinada."
+    },
+    "ModifiedPostalAddress": {
+      "definition": "Información relativa a una dirección que se va a insertar, actualizar o eliminar."
+    },
+    "TypeOfOrganisation": {
+      "definition": "Tipo de organización."
+    },
+    "PlaceOfListing": {
+      "definition": "Lugar de cotización de las acciones de la organización."
+    }
+  },
+  "isoRules": {
+    "OrganisationElementRule": {
+      "definition": "Debe estar presente uno de los elementos (Name, ShortName, Identification, LegalEntityIdentifier, Purpose, RegistrationCountry, RegistrationDate, ModifiedPostalAddress, TypeOfOrganisation, PlaceOfListing)."
+    }
+  }
+}

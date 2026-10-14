@@ -1,0 +1,38 @@
+{
+  "isoType": "CardDataReading1Code",
+  "definition": "Tipo de lectura de los datos de la tarjeta.",
+  "isoCodes": {
+    "TAGC": {
+      "name": "Etiqueta",
+      "definition": "Capacidad de lectura de etiquetas (RFID, etc.)."
+    },
+    "PHYS": {
+      "name": "Física",
+      "definition": "Introducción por teclado o lectura OCR de datos grabados en relieve o impresos, ya sea en el momento de la operación o posteriormente."
+    },
+    "BRCD": {
+      "name": "Código de barras",
+      "definition": "Código de barras."
+    },
+    "MGST": {
+      "name": "Banda magnética",
+      "definition": "Banda magnética."
+    },
+    "CICC": {
+      "name": "ICC",
+      "definition": "ICC (tarjeta de circuito integrado) con contacto que contiene aplicaciones de software conformes con ISO 7816."
+    },
+    "DFLE": {
+      "name": "Datos de cuenta",
+      "definition": "Datos de cuenta almacenados en fichero."
+    },
+    "CTLS": {
+      "name": "Lector de proximidad",
+      "definition": "Lector de proximidad sin contacto."
+    },
+    "ECTL": {
+      "name": "Lector de proximidad EMV",
+      "definition": "Lector de proximidad sin contacto, con aplicación conforme al estándar EMV (estándar iniciado por Europay, Mastercard y Visa)."
+    }
+  }
+}

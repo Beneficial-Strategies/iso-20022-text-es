@@ -1,0 +1,26 @@
+{
+  "isoType": "DeliveryPlace3Code",
+  "definition": "Especifica el lugar de entrega.",
+  "isoCodes": {
+    "EMAL": {
+      "name": "Correo electrónico",
+      "definition": "La tarjeta debe enviarse por correo electrónico."
+    },
+    "EMPL": {
+      "name": "Empleador",
+      "definition": "La tarjeta debe enviarse por correo postal a la dirección del empleador."
+    },
+    "INDI": {
+      "name": "Individual",
+      "definition": "La tarjeta debe enviarse por correo postal a la persona especificada en PersonDetail."
+    },
+    "ENTR": {
+      "name": "Entrada de la junta",
+      "definition": "La tarjeta debe estar disponible a la entrada de la junta."
+    },
+    "OADR": {
+      "name": "Otra dirección",
+      "definition": "Las tarjetas deben enviarse a otra dirección especificada."
+    }
+  }
+}

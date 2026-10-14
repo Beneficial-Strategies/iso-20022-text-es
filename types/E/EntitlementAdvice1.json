@@ -1,0 +1,21 @@
+{
+  "isoType": "EntitlementAdvice1",
+  "definition": "Proporciona información sobre el derecho del evento corporativo (CA).",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "RecordDate": {
+      "definition": "Fecha en la que se registra o registrará a los titulares de valores para los ingresos que se pagan o para el derecho a los derechos o a la oferta/privilegio."
+    },
+    "PaymentDate": {
+      "definition": "Fecha en la que se pagarán los valores/el efectivo."
+    },
+    "AccountAndDistributionDetails": {
+      "definition": "Proporciona información sobre el derecho y la cuenta con derecho."
+    }
+  }
+}

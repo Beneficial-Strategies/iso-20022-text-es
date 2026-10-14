@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesBalanceType9Code",
+  "definition": "Especifica el tipo de saldo de valores.",
+  "isoCodes": {
+    "AVLB": {
+      "name": "Disponible",
+      "definition": "Saldo de dinero o de valores que está a disposición del titular de la cuenta en la fecha especificada."
+    },
+    "ELEC": {
+      "name": "Elegido",
+      "definition": "Saldo de la posición con instrucciones."
+    },
+    "UNEL": {
+      "name": "No elegido",
+      "definition": "Saldo de la posición sin instrucciones."
+    },
+    "RDIS": {
+      "name": "Reservado para distribución",
+      "definition": "Saldo de instrumentos financieros reservados para la distribución del producto."
+    },
+    "RREM": {
+      "name": "Reservado para retirada",
+      "definition": "Saldo de valores reservados temporalmente en la cuenta del SPA antes de que se canjeen efectivamente."
+    }
+  }
+}

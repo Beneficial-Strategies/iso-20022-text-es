@@ -1,0 +1,51 @@
+{
+  "isoType": "SecurityOption1",
+  "definition": "Proporciona información sobre la opción de valores de la CA.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el valor es un débito o un crédito."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Cantidad de instrumento financiero."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Cantidad mínima de instrumento financiero o lote de derechos/warrants que debe ejercerse."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Cantidad múltiplo mínima de instrumento financiero o lote de derechos/warrants que debe ejercerse."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Nueva denominación del instrumento financiero tras, p. ej., un aumento o una disminución del valor nominal."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Cantidad de capital que constituye el nuevo lote de negociación."
+    },
+    "ShareRanking": {
+      "definition": "Especifica si las acciones tienen derecho a dividendo o son pari passu."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Cantidad de valores intermedios adicionales o nuevas acciones adjudicadas por una cantidad dada de valores derivados de la suscripción."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con un movimiento de valores."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con un movimiento de valores."
+    },
+    "TradingPeriod": {
+      "definition": "Período durante el cual los valores intermedios son negociables en un mercado secundario."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Cantidad de valores adicionales por una cantidad determinada de valores subyacentes cuando los valores subyacentes no se canjean ni se adeudan, p. ej., 1 por 1: 1 acción nueva abonada por cada acción subyacente = 2 acciones resultantes."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Especifica que el valor es un valor temporal."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo."
+    }
+  }
+}

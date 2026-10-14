@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType6Choice",
+  "definition": "Elección entre formatos para un tipo de gasto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de comisión expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de comisión expresado como código propietario."
+    }
+  }
+}

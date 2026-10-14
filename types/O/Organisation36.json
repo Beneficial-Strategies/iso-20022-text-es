@@ -1,0 +1,33 @@
+{
+  "isoType": "Organisation36",
+  "definition": "Estructura organizada constituida con un fin determinado, por ejemplo, una empresa, un organismo gubernamental, un departamento, una organización benéfica o una entidad financiera.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre por el que se conoce a la parte y que se utiliza habitualmente para identificarla."
+    },
+    "Identification": {
+      "definition": "Identificador único e inequívoco de la organización."
+    },
+    "Purpose": {
+      "definition": "Finalidad de la organización, por ejemplo, beneficencia."
+    },
+    "TaxationCountry": {
+      "definition": "País de tributación de la organización."
+    },
+    "RegistrationCountry": {
+      "definition": "País en el que está registrada la organización."
+    },
+    "RegistrationDate": {
+      "definition": "Fecha y hora en que la organización fue registrada oficialmente."
+    },
+    "TaxIdentificationNumber": {
+      "definition": "Número asignado a la organización por una autoridad fiscal."
+    },
+    "NationalRegistrationNumber": {
+      "definition": "Número asignado a la organización por una autoridad nacional de registro."
+    },
+    "CorporateInvestorAddress": {
+      "definition": "Dirección postal de la organización."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherAmountType1Choice",
+  "definition": "Elección entre formatos para un tipo de importe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de importe expresado como código."
+    },
+    "ProprietaryCode": {
+      "definition": "Tipo de importe expresado como código propietario."
+    }
+  }
+}

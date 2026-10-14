@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary1Code",
+  "definition": "Especifica si el evento es obligatorio, obligatorio con opciones o voluntario.",
+  "isoCodes": {
+    "MAND": {
+      "name": "Obligatorio",
+      "definition": "La participación en el evento de CA es obligatoria. No se requieren más instrucciones del titular de la cuenta."
+    },
+    "CHOS": {
+      "name": "Obligatorio con opciones",
+      "definition": "La participación en la operación societaria es obligatoria y se requieren más instrucciones del titular de la cuenta, salvo que se haya especificado una opción por defecto."
+    },
+    "VOLU": {
+      "name": "Voluntario",
+      "definition": "La participación en la operación societaria es voluntaria. Si el titular desea participar en el evento, se requieren instrucciones del titular de la cuenta."
+    }
+  }
+}

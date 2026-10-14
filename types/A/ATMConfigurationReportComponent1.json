@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMConfigurationReportComponent1",
+  "definition": "Información relativa a un informe de configuración de un dispositivo cajero automático (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno de la operación."
+    },
+    "ActiveVersion": {
+      "definition": "Versión de la configuración que está activa en el terminal."
+    },
+    "NonActiveVersion": {
+      "definition": "Versiones de la configuración que no están activas en el terminal."
+    }
+  }
+}

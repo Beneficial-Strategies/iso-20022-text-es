@@ -1,0 +1,21 @@
+{
+  "isoType": "DateTimeSearch2Choice",
+  "definition": "Elección entre criterios de búsqueda basados en fechas y rangos de fechas.",
+  "isoElements": {
+    "FromDateTime": {
+      "definition": "Fecha de inicio del rango."
+    },
+    "ToDateTime": {
+      "definition": "Fecha de fin del rango."
+    },
+    "FromToDateTime": {
+      "definition": "Intervalo de tiempo determinado entre una fecha de inicio y una fecha de fin."
+    },
+    "EqualDateTime": {
+      "definition": "Fecha especificada que debe coincidir."
+    },
+    "NotEqualDateTime": {
+      "definition": "Fecha especificada que debe excluirse de la búsqueda."
+    }
+  }
+}

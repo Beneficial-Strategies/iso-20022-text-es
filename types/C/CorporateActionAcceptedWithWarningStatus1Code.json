@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionAcceptedWithWarningStatus1Code",
+  "definition": "Estado de aceptado con advertencia del aviso de notificación de la operación societaria procedente del agente del emisor.",
+  "isoCodes": {
+    "SCAL": {
+      "name": "Importe amortizado del valor no válido",
+      "definition": "Importe amortizado del valor no válido."
+    },
+    "PAYD": {
+      "name": "Fecha de pago fuera de rango",
+      "definition": "Fecha de pago fuera del rango de fechas aplicable."
+    }
+  }
+}

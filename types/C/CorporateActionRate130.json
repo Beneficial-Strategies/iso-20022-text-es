@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionRate130",
+  "definition": "Especifica los tipos relacionados con una opción de operación societaria.",
+  "isoElements": {
+    "ProposedRate": {
+      "definition": "Tipo propuesto en una recolocación de pagarés a tipo variable."
+    },
+    "OversubscriptionRate": {
+      "definition": "Tasa de sobresuscripción permitida."
+    },
+    "RequestedWithholdingTaxRate": {
+      "definition": "Tipo impositivo solicitado que será retenido por las autoridades tributarias de la jurisdicción del emisor, para el cual puede ser posible una desgravación en origen o una reclamación."
+    },
+    "RequestedSecondLevelTaxRate": {
+      "definition": "Tasa solicitada a la que se retendrán los ingresos por una jurisdicción distinta de la del país de constitución fiscal del emisor, para la cual puede ser posible una desgravación en origen o una reclamación."
+    }
+  }
+}

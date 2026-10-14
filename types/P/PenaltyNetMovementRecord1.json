@@ -1,0 +1,21 @@
+{
+  "isoType": "PenaltyNetMovementRecord1",
+  "definition": "Especifica los atributos cuando la penalización se aplica a un movimiento de liquidación neta.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "SecuritiesShortfall": {
+      "definition": "Cantidad total de valores cuya liquidación ha fallado."
+    },
+    "ShortfallValuation": {
+      "definition": "Valoración de los valores cuya liquidación ha fallado."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica las condiciones en las que se va a ejecutar o se ejecutó la orden/operación."
+    },
+    "NumberOfEntries": {
+      "definition": "Número de asientos relacionados con la posición neta."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "PensionOrderType1Code",
+  "definition": "Especifica un tipo de orden asociada a una pensión.",
+  "isoCodes": {
+    "EARM": {
+      "name": "Reserva",
+      "definition": "La póliza, el plan o el régimen de pensiones ha sido reservado (apartado)."
+    },
+    "SHAR": {
+      "name": "Reparto",
+      "definition": "Un tribunal ha emitido una orden de reparto para la póliza, el plan o el régimen de pensiones."
+    }
+  }
+}

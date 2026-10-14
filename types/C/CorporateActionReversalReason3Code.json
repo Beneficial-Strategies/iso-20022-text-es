@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionReversalReason3Code",
+  "definition": "Especifica el motivo por el que se realiza una reversión de un pago en el tratamiento de operaciones corporativas.",
+  "isoCodes": {
+    "DCBD": {
+      "name": "Diferencia en la base de cómputo de días",
+      "definition": "Diferencia en la base de cómputo de días."
+    },
+    "FNRC": {
+      "name": "Fondos no recibidos",
+      "definition": "No se han recibido los fondos."
+    },
+    "IRED": {
+      "name": "Fecha de derecho incorrecta",
+      "definition": "La fecha de derecho es incorrecta."
+    },
+    "IETR": {
+      "name": "Tipo impositivo a nivel de evento incorrecto",
+      "definition": "El tipo impositivo a nivel de evento es incorrecto."
+    },
+    "IPCU": {
+      "name": "Divisa de pago incorrecta",
+      "definition": "La divisa del pago es incorrecta."
+    },
+    "IPRI": {
+      "name": "Precio incorrecto",
+      "definition": "El precio es incorrecto."
+    },
+    "IVAD": {
+      "name": "Fecha valor incorrecta",
+      "definition": "La fecha valor es incorrecta."
+    },
+    "UPAY": {
+      "name": "Pago indebido",
+      "definition": "El pago no es exigible."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro"
+    }
+  }
+}

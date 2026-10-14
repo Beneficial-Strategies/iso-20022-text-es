@@ -1,0 +1,22 @@
+{
+  "isoType": "CSCManagement1Code",
+  "definition": "Gestión del CSC (código de seguridad de la tarjeta) asociada a la operación.",
+  "isoCodes": {
+    "PRST": {
+      "name": "CSC presente",
+      "definition": "Código de seguridad de la tarjeta presente."
+    },
+    "BYPS": {
+      "name": "Omisión del CSC",
+      "definition": "Código de seguridad de la tarjeta omitido o no facilitado por el comercio."
+    },
+    "UNRD": {
+      "name": "CSC ilegible",
+      "definition": "Código de seguridad de la tarjeta ilegible."
+    },
+    "NCSC": {
+      "name": "Sin CSC",
+      "definition": "Sin impresión del código de seguridad de la tarjeta."
+    }
+  }
+}

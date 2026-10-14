@@ -1,0 +1,70 @@
+{
+  "isoType": "ExternalVerificationReason1Code",
+  "definition": "Especifica el código de motivo de verificación externo, tal como se publica en un conjunto de códigos de verificación externo.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Número de cuenta incorrecto",
+      "definition": "El número de cuenta facilitado en la solicitud no es válido o falta."
+    },
+    "AGNT": {
+      "name": "Agente incorrecto",
+      "definition": "La identificación de la entidad facilitada en la solicitud es incorrecta."
+    },
+    "DUPL": {
+      "name": "Solicitud duplicada",
+      "definition": "La solicitud es un duplicado de otra solicitud."
+    },
+    "AG01": {
+      "name": "Operación prohibida en esta cuenta",
+      "definition": "Operación prohibida en este tipo de cuenta (no se puede realizar el pago a esta cuenta, por ejemplo, porque no admite ingresos, está bloqueada o cerrada)."
+    },
+    "BNOR": {
+      "name": "Banco depositario de la cuenta no registrado",
+      "definition": "El PSP no está registrado en este esquema."
+    },
+    "DS28": {
+      "name": "Devolución por motivo técnico",
+      "definition": "Devolución a raíz de problemas técnicos que han dado lugar a una operación errónea."
+    },
+    "FF01": {
+      "name": "Formato de archivo no válido",
+      "definition": "Formato de fichero incompleto o no válido."
+    },
+    "MS03": {
+      "name": "Motivo no especificado generado por la entidad",
+      "definition": "La entidad no ha especificado el motivo."
+    },
+    "NORR": {
+      "name": "Ningún informe recibido",
+      "definition": "Sin respuesta a la solicitud dentro del plazo."
+    },
+    "NR01": {
+      "name": "Ningún motivo posible",
+      "definition": "El PSP no puede confirmar los datos y no se indica ningún motivo."
+    },
+    "RC03": {
+      "name": "Identificador de banco del ordenante no válido",
+      "definition": "El identificador del banco del ordenante no es válido o falta."
+    },
+    "RC04": {
+      "name": "Identificador de banco del beneficiario no válido",
+      "definition": "El identificador del banco del beneficiario no es válido o falta."
+    },
+    "TM01": {
+      "name": "Hora límite no válida",
+      "definition": "El mensaje asociado se recibió después de la hora límite de procesamiento acordada."
+    },
+    "PN01": {
+      "name": "El nombre del titular de la cuenta no coincide",
+      "definition": "El nombre del titular de la cuenta y el número de cuenta de pago no coinciden."
+    },
+    "PN02": {
+      "name": "El nombre del titular de la cuenta coincide aproximadamente",
+      "definition": "El nombre del titular de la cuenta y el número de cuenta de pago coinciden de forma aproximada."
+    },
+    "PI01": {
+      "name": "La identificación del titular de la cuenta no coincide",
+      "definition": "La identificación del titular de la cuenta y el número de cuenta de pago no coinciden."
+    }
+  }
+}

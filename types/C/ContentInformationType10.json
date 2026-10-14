@@ -1,0 +1,12 @@
+{
+  "isoType": "ContentInformationType10",
+  "definition": "Sintaxis genérica de mensajes criptográficos (CMS) que contiene datos cifrados.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Tipo de protección de datos."
+    },
+    "EnvelopedData": {
+      "definition": "Protección de datos mediante cifrado o mediante un sobre digital, con una clave de cifrado."
+    }
+  }
+}

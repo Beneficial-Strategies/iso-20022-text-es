@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateMovementStatus2",
+  "definition": "Proporciona el estado del movimiento.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Proporciona información sobre el estado de procesamiento de la solicitud de cancelación."
+    },
+    "RejectedStatus": {
+      "definition": "Proporciona información sobre el estado de rechazo."
+    }
+  }
+}

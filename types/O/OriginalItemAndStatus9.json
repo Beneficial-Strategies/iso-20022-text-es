@@ -1,0 +1,30 @@
+{
+  "isoType": "OriginalItemAndStatus9",
+  "definition": "Identifica la partida de notificación original y proporciona el estado.",
+  "isoElements": {
+    "OriginalItemIdentification": {
+      "definition": "Identificación de la partida de notificación original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única asignada por el ordenante para identificar inequívocamente ante el beneficiario la operación subyacente original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal que proporciona la referencia de extremo a extremo original de una operación de pago."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que se esperaba abonar en la cuenta, según la notificación de recepción original."
+    },
+    "ExpectedValueDate": {
+      "definition": "Fecha valor en la que se esperaba que se abonara la cuenta."
+    },
+    "ItemStatus": {
+      "definition": "Especifica el estado de la partida de notificación."
+    },
+    "AdditionalStatusInformation": {
+      "definition": "Detalles adicionales del estado de la partida."
+    },
+    "OriginalItemReference": {
+      "definition": "Proporciona información adicional para identificar una notificación de pago anterior."
+    }
+  }
+}

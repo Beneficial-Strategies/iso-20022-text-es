@@ -1,0 +1,54 @@
+{
+  "isoType": "AdditionalBusinessProcess7Code",
+  "definition": "Especifica el proceso de negocio adicional vinculado a un evento de acción corporativa.",
+  "isoCodes": {
+    "CLAI": {
+      "name": "Reclamación o compensación",
+      "definition": "Se refiere a una reclamación sobre el evento de operación corporativa asociado."
+    },
+    "TAXR": {
+      "name": "Devolución de impuestos",
+      "definition": "Se refiere a una devolución de impuestos por parte de las autoridades sobre el evento de operación corporativa asociado."
+    },
+    "ACLA": {
+      "name": "Reclamación de mercado automática",
+      "definition": "Dará lugar automáticamente a reclamaciones de mercado por parte del administrador de la cuenta, por ejemplo, un depositario central de valores (CSD)."
+    },
+    "ATXF": {
+      "name": "Sujeto a transformación",
+      "definition": "Como resultado de la acción corporativa, todas las operaciones sobre el valor subyacente serán canceladas por el sistema y sustituidas por operaciones sobre el o los recursos resultantes (outturn)."
+    },
+    "CNTR": {
+      "name": "Cancelar operaciones subyacentes",
+      "definition": "Como resultado de la acción corporativa, todas las operaciones sobre el valor subyacente serán canceladas por el sistema."
+    },
+    "CONS": {
+      "name": "Consentimiento",
+      "definition": "Se refiere a un consentimiento dentro de un evento de acción corporativa distinto de un evento de consentimiento (: 22F:: CAEV//CONS)."
+    },
+    "NAMC": {
+      "name": "Sin reclamaciones de mercado automáticas ni transformaciones",
+      "definition": "El evento no dará lugar automáticamente a reclamaciones de mercado ni a transformaciones por parte del administrador de la cuenta, por ejemplo, un depositario central de valores (CSD)."
+    },
+    "NPLE": {
+      "name": "Sin elección dividida",
+      "definition": "El emisor solo permite seleccionar una única opción por posición designada."
+    },
+    "SCHM": {
+      "name": "Esquema o plan de acuerdo",
+      "definition": "Evento componente de un plan de reestructuración (scheme/plan of arrangement): una reorganización de una sociedad o de un grupo de sociedades y de su capital."
+    },
+    "PPUT": {
+      "name": "Amortización parcial obligatoria por opción de venta",
+      "definition": "Canje obligatorio parcial de una parte de los bonos en el que los valores canjeados suelen recolocarse en el mercado. El emisor puede ofrecer a los titulares el derecho a conservar sus valores en lugar de canjearlos. Se utilizará un sorteo para determinar la elegibilidad para el evento."
+    },
+    "PPRE": {
+      "name": "Prefinanciación parcial",
+      "definition": "Prefinanciación parcial de un instrumento de deuda antes de su vencimiento, determinada mediante un proceso de sorteo. Se emite un nuevo valor con una fecha de vencimiento anterior para la parte refinanciada (amortizada) y se emite el otro nuevo valor con la fecha de vencimiento original para la parte no refinanciada (restante). Aplicable únicamente en el marco de un evento de acción corporativa de partial defeasance."
+    },
+    "FPRE": {
+      "name": "Prefinanciación total",
+      "definition": "Prefinanciación total de un instrumento de deuda por el emisor antes del vencimiento original, mediante el depósito de activos en fideicomiso. Aplicable únicamente en el marco de un evento de operación societaria de defeasance parcial."
+    }
+  }
+}

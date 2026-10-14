@@ -1,0 +1,75 @@
+{
+  "isoType": "TaxEfficientProduct7",
+  "definition": "Características de un producto con ventajas fiscales.",
+  "isoElements": {
+    "TaxEfficientProductType": {
+      "definition": "Tipo de producto con ventajas fiscales, por ejemplo, una cuenta de ahorro individual (ISA) en el UK."
+    },
+    "CurrentYear": {
+      "definition": "Indica que se incluyen todos los productos del ejercicio fiscal en curso."
+    },
+    "CashComponentIndicator": {
+      "definition": "Indica si, para el año en curso, el producto contiene un activo en efectivo para su traspaso."
+    },
+    "PreviousYears": {
+      "definition": "Planes de inversión emitidos en años anteriores."
+    },
+    "PreviousYearSubscriptionAmount": {
+      "definition": "Suscripciones del año de suscripción anterior."
+    },
+    "PreviousYearsSubscriptionAmount": {
+      "definition": "Importe suscrito en todos los años anteriores."
+    },
+    "DateOfFirstSubscription": {
+      "definition": "Fecha de inicio del plan de inversión."
+    },
+    "CurrentYearSubscriptionDetails": {
+      "definition": "Importes ya suscritos en el año en curso."
+    },
+    "BonusOrWithdrawal": {
+      "definition": "Bonificación abonada o retirada."
+    },
+    "WithdrawalForResidentialPurchaseProgress": {
+      "definition": "Indica si hay una compra de inmueble relacionada en curso en el momento del traspaso. Puede ser aplicable a productos como las cuentas de ahorro individual de por vida (LISA)."
+    },
+    "TransferorAlternateIdentification": {
+      "definition": "Identificación alternativa del cedente (parte cedente), por ejemplo, la 'referencia Z del gestor de ISA' en el UK."
+    },
+    "TotalSubscriptionAmount": {
+      "definition": "Importe total suscrito durante toda la vida del producto."
+    },
+    "OtherAmount": {
+      "definition": "Otro importe, como el total de aportaciones adicionales admisibles en el año del traspaso, los intereses capitalizados en el año en curso, el total de dividendos pendientes, etc."
+    },
+    "DateFirstQualifyingAddition": {
+      "definition": "Fecha en la que se realizó al producto la primera aportación adicional admisible.  Pueden realizarse aportaciones adicionales admisibles a un producto de cuenta de ahorro individual de por vida (LISA)."
+    },
+    "InvestorTaxReference": {
+      "definition": "Identificación del inversor asignada por una autoridad fiscal."
+    },
+    "InvestmentsToFollowValue": {
+      "definition": "Valor de las inversiones por venir."
+    },
+    "InnovativeFinance": {
+      "definition": "Información sobre un producto de financiación innovadora."
+    },
+    "LowestInvestedAmountCurrentYear": {
+      "definition": "Importe de inversión más bajo del año en curso, utilizado para calcular un importe de deducción fiscal."
+    },
+    "TaxCalculationBase": {
+      "definition": "Importe de dinero a partir del cual se calcula la deducción fiscal."
+    },
+    "UnusedTaxDeduction": {
+      "definition": "Importe de deducción fiscal no utilizado."
+    },
+    "CurrentInvestmentAmount": {
+      "definition": "Importe de dinero invertido."
+    },
+    "EstimatedValue": {
+      "definition": "Valor estimado de los activos del producto fiscalmente eficiente que se van a traspasar."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el producto con ventajas fiscales."
+    }
+  }
+}

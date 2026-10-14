@@ -1,0 +1,15 @@
+{
+  "isoType": "UTMCoordinates1",
+  "definition": "Ubicación en la Tierra especificada mediante el sistema de coordenadas Universal Transversal de Mercator (UTM), utilizando el sistema geodésico WGS84.",
+  "isoElements": {
+    "UTMZone": {
+      "definition": "Zona de la cuadrícula UTM, combinación de la zona de longitud (1 a 60) y la banda de latitud, de C a X, excluyendo I y O (por ejemplo, la zona UTM de la Torre Eiffel es 31U)."
+    },
+    "UTMEastward": {
+      "definition": "Coordenada X del sistema de coordenadas Universal Transversal de Mercator en metros (por ejemplo, 448 265m para la coordenada X de la Torre Eiffel)."
+    },
+    "UTMNorthward": {
+      "definition": "Coordenada Y del sistema de coordenadas Universal Transversal de Mercator (por ejemplo, 5 411 920m para la coordenada Y de la Torre Eiffel)."
+    }
+  }
+}

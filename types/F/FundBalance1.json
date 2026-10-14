@@ -1,0 +1,18 @@
+{
+  "isoType": "FundBalance1",
+  "definition": "Saldos de participaciones y efectivo derivados de órdenes de fondos de inversión.",
+  "isoElements": {
+    "TotalUnitsFromUnitOrders": {
+      "definition": "Número total de participaciones procedentes de órdenes cursadas en participaciones."
+    },
+    "TotalUnitsFromCashOrders": {
+      "definition": "Número de participaciones procedentes de órdenes cursadas en efectivo."
+    },
+    "TotalCashFromUnitOrders": {
+      "definition": "Importe total de efectivo procedente de órdenes cursadas en participaciones."
+    },
+    "TotalCashFromCashOrders": {
+      "definition": "Importe total de efectivo procedente de órdenes cursadas en efectivo."
+    }
+  }
+}

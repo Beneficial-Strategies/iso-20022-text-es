@@ -1,0 +1,322 @@
+{
+  "isoType": "RejectionReason76Code",
+  "definition": "Especifica el motivo por el que la instrucción o solicitud de cancelación tiene un estado rechazado.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Referencia no válida",
+      "definition": "La referencia vinculada es desconocida."
+    },
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "RTGS": {
+      "name": "Imposible utilizar el sistema RTGS indicado",
+      "definition": "No es posible utilizar el sistema RTGS instruido (NRTG o YRTG)."
+    },
+    "NCRR": {
+      "name": "Rechazo de la divisa del importe de liquidación",
+      "definition": "Divisa del importe de liquidación no reconocida o no válida."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "DADR": {
+      "name": "Rechazo por datos de dirección",
+      "definition": "Los datos de dirección son incorrectos o no pueden reconocerse."
+    },
+    "INIR": {
+      "name": "Instrucción irrevocable",
+      "definition": "La instrucción es irrevocable."
+    },
+    "CANC": {
+      "name": "Opción cancelada",
+      "definition": "La opción no es válida; ha sido cancelada por el mercado o el proveedor de servicios y no puede responderse. Cualquier respuesta ya procesada para esta opción se considera nula y se requerirán nuevas respuestas."
+    },
+    "INTV": {
+      "name": "Opción inactiva",
+      "definition": "La opción no está activa y ya no puede responderse. Cualquier respuesta ya procesada para esta opción seguirá siendo válida, por ejemplo, opción vencida."
+    },
+    "INVA": {
+      "name": "No válido para las autoridades fiscales",
+      "definition": "En el caso de la devolución de impuestos, la solicitud de devolución no es válida para las autoridades tributarias."
+    },
+    "REFT": {
+      "name": "Rechazado por las autoridades fiscales",
+      "definition": "La solicitud de devolución es rechazada por las autoridades tributarias."
+    },
+    "PHYS": {
+      "name": "Liquidación física imposible",
+      "definition": "La liquidación física es imposible para el instrumento financiero instruido."
+    },
+    "REFE": {
+      "name": "Rechazo por referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida previamente."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "La posición instruida excede el saldo admisible."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "NMTY": {
+      "name": "Discrepancia",
+      "definition": "No coinciden el número de opción y el tipo de opción."
+    },
+    "OPNM": {
+      "name": "Rechazo por número de opción",
+      "definition": "Número de opción no reconocido."
+    },
+    "DMON": {
+      "name": "Rechazo del importe de liquidación",
+      "definition": "Importe de liquidación no reconocido o no válido."
+    },
+    "OPTY": {
+      "name": "Tipo de opción no válido",
+      "definition": "Tipo de opción no válido."
+    },
+    "DCAN": {
+      "name": "Rechazado por estar ya cancelado",
+      "definition": "La solicitud de cancelación fue rechazada porque la instrucción ya ha sido cancelada."
+    },
+    "DPRG": {
+      "name": "Rechazado por estar en curso",
+      "definition": "La solicitud de cancelación ha sido rechazada porque el proceso de la instrucción está en curso o ya ha sido procesada."
+    },
+    "EVNM": {
+      "name": "Identificación no reconocida",
+      "definition": "Número de evento no reconocido."
+    },
+    "STAT": {
+      "name": "Faltan los estatutos",
+      "definition": "Faltan los estatutos, el registro mercantil u otros documentos legales."
+    },
+    "STAM": {
+      "name": "Sin sellar ni firmar",
+      "definition": "El instrumento financiero no ha sido sellado y/o debidamente firmado."
+    },
+    "SIGN": {
+      "name": "Firma no válida",
+      "definition": "La solicitud de registro no tiene una firma válida del propietario del instrumento financiero."
+    },
+    "SHAR": {
+      "name": "Rechazo por número de accionista",
+      "definition": "Número de accionista no reconocido, ausente o no válido."
+    },
+    "MINO": {
+      "name": "Cantidad mínima de liquidación",
+      "definition": "La cantidad instruida es inferior a la cantidad mínima de liquidación existente para el instrumento financiero."
+    },
+    "NRGM": {
+      "name": "Sin coincidencia",
+      "definition": "Más de una instrucción cumple los criterios."
+    },
+    "MLEG": {
+      "name": "Falta el poder legal",
+      "definition": "Falta el poder legal para la transferencia."
+    },
+    "BATC": {
+      "name": "Rechazo del lote de procesamiento",
+      "definition": "Lote de procesamiento no reconocido o no válido, es decir, diurno/en tiempo real cuando solo es posible liquidar en el lote nocturno."
+    },
+    "CADE": {
+      "name": "Plazo de preaviso de la operación",
+      "definition": "Plazo de requerimiento de la operación no reconocido o no válido."
+    },
+    "CASH": {
+      "name": "Cuenta de efectivo",
+      "definition": "Cuenta de efectivo no reconocida o no válida."
+    },
+    "DDEA": {
+      "name": "Precio de la transacción",
+      "definition": "Precio de la operación no reconocido o no válido."
+    },
+    "OWNT": {
+      "name": "Rechazo por tipo de titularidad",
+      "definition": "El tipo de titularidad indicado no es correcto."
+    },
+    "NRGN": {
+      "name": "Rechazo por no encontrado",
+      "definition": "No se pudo encontrar la instrucción."
+    },
+    "MUNO": {
+      "name": "Cantidad de liquidación múltiple",
+      "definition": "La cantidad instruida no es múltiplo de un lote de liquidación existente para el instrumento financiero."
+    },
+    "REQW": {
+      "name": "Solicitud de registro incorrecta",
+      "definition": "La solicitud de registro que debe completar el comprador y remitir al emisor es errónea. Ha utilizado la solicitud de registro de otro emisor/registrador."
+    },
+    "TXST": {
+      "name": "Rechazo por estatus fiscal",
+      "definition": "Régimen fiscal de los valores instruidos no reconocido o no válido."
+    },
+    "REPA": {
+      "name": "Importe de la operación de terminación",
+      "definition": "Importe de la operación de terminación no reconocido o no válido."
+    },
+    "REPO": {
+      "name": "Tipo de recompra",
+      "definition": "Tasa de recompra no reconocida o no válida."
+    },
+    "REPP": {
+      "name": "Importe de la prima",
+      "definition": "Importe de la prima no reconocido o no válido."
+    },
+    "RREA": {
+      "name": "Desacuerdo en el motivo del registro",
+      "definition": "El motivo de registro indicado no es correcto."
+    },
+    "REQM": {
+      "name": "Falta la solicitud de registro",
+      "definition": "Falta la solicitud de registro que debe completar el comprador y remitir al emisor."
+    },
+    "RERT": {
+      "name": "Tipo de tasa de recompra",
+      "definition": "Tipo de tasa de recompra no reconocido o no válido."
+    },
+    "RSPR": {
+      "name": "Tipo diferencial",
+      "definition": "Tasa de diferencial no reconocida o no válida."
+    },
+    "SETS": {
+      "name": "Rechazo por método del sistema de liquidación",
+      "definition": "Sistema/método de liquidación instruido no reconocido o no válido."
+    },
+    "DTRD": {
+      "name": "Fecha de negociación",
+      "definition": "Fecha de la operación, fecha de operación solicitada o fecha de operación futura no reconocida o no válida."
+    },
+    "IIND": {
+      "name": "Rechazo por referencia común",
+      "definition": "Referencia común no reconocida, no válida o ausente."
+    },
+    "PLCE": {
+      "name": "Lugar de negociación",
+      "definition": "Lugar de negociación no reconocido o no válido."
+    },
+    "INNA": {
+      "name": "Rechazo por información narrativa",
+      "definition": "Información narrativa preacordada del acuerdo de nivel de servicio no reconocida o no válida."
+    },
+    "ICOL": {
+      "name": "Garantía insuficiente",
+      "definition": "Garantía propuesta insuficiente."
+    },
+    "BPAR": {
+      "name": "Rechazo por número de socio comercial",
+      "definition": "Número de socio comercial no reconocido o no válido."
+    },
+    "BREF": {
+      "name": "Rechazo por número de referencia bancaria",
+      "definition": "Número de referencia bancaria no reconocido o no válido."
+    },
+    "BUSE": {
+      "name": "Rechazo por tipo de orden",
+      "definition": "Tipo de orden no reconocido o no válido."
+    },
+    "CAEV": {
+      "name": "Rechazo de operación societaria",
+      "definition": "Operación societaria pendiente sobre el instrumento financiero instruido."
+    },
+    "CASY": {
+      "name": "Sistema de liquidación de efectivo imposible",
+      "definition": "Acuerdos permanentes imposibles anulan la instrucción para el sistema de liquidación de efectivo."
+    },
+    "COMC": {
+      "name": "Rechazo por contrato de comercialización",
+      "definition": "Contrato de comercialización no reconocido o no válido."
+    },
+    "CONL": {
+      "name": "Límite de concentración superado",
+      "definition": "Se excedió el límite de concentración."
+    },
+    "CPTY": {
+      "name": "Exposición de operación desconocida",
+      "definition": "La operación o la exposición es desconocida."
+    },
+    "DDAT": {
+      "name": "Rechazo de la fecha de liquidación",
+      "definition": "Fecha de liquidación no reconocida o no válida."
+    },
+    "DISC": {
+      "name": "Desacuerdo con el importe de la llamada",
+      "definition": "La parte no está de acuerdo con el importe del requerimiento."
+    },
+    "DISE": {
+      "name": "Desacuerdo con el importe de exposición",
+      "definition": "La parte no está de acuerdo con el importe de la exposición."
+    },
+    "DORD": {
+      "name": "Rechazo por datos de la solicitud de registro y orden",
+      "definition": "Discrepancia entre los datos de la solicitud de registro y la orden."
+    },
+    "FEEE": {
+      "name": "Rechazo por comisión",
+      "definition": "Comisión o tarifa no reconocida o no válida."
+    },
+    "SETR": {
+      "name": "Rechazo por operación de liquidación",
+      "definition": "Tipo de operación de liquidación no reconocido o no válido."
+    },
+    "TERM": {
+      "name": "Rechazo por fecha y hora de cierre",
+      "definition": "Fecha y hora de cierre no reconocidas o no válidas."
+    },
+    "VASU": {
+      "name": "Rechazo por soporte de tipo variable",
+      "definition": "Soporte de tasa variable (acuerdo de recompra) no reconocido o no válido."
+    },
+    "INPS": {
+      "name": "Lugar de custodia",
+      "definition": "Lugar de custodia no reconocido, no válido o ausente."
+    },
+    "SDUT": {
+      "name": "Falta de impuesto de timbre",
+      "definition": "Falta la información requerida sobre el impuesto de timbre."
+    },
+    "FORF": {
+      "name": "Importe de la pérdida",
+      "definition": "Importe de penalización no reconocido o no válido."
+    },
+    "ICUS": {
+      "name": "Parte receptora o entregadora 2",
+      "definition": "Cliente de la parte 1 entregadora o receptora no reconocido o no válido."
+    },
+    "ICAG": {
+      "name": "Parte receptora o entregadora 1",
+      "definition": "Participante del depositario entregador o receptor no reconocido o no válido."
+    },
+    "DEPT": {
+      "name": "Depositario receptor o entregador",
+      "definition": "Depositario no reconocido o no válido."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "IEXE": {
+      "name": "Parte receptora o entregadora 3",
+      "definition": "Cliente de la parte 2 entregadora o receptora no reconocido o no válido."
+    },
+    "INVE": {
+      "name": "Parte inversora no válida",
+      "definition": "Parte inversora no reconocida o no válida. Puede ser utilizado por una parte ejecutora para rechazar una instrucción de un inversor (o cartera) para el que no está autorizada a actuar."
+    },
+    "PLIS": {
+      "name": "Lugar de cotización",
+      "definition": "Lugar de cotización no reconocido o no válido. Se utiliza cuando el valor identificado no cotiza en el mercado indicado."
+    }
+  }
+}

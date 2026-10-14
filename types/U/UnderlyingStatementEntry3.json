@@ -1,0 +1,18 @@
+{
+  "isoType": "UnderlyingStatementEntry3",
+  "definition": "Proporciona más detalles sobre el apunte del extracto subyacente al que se refiere el mensaje de investigación.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Conjunto de elementos utilizados para facilitar información sobre el mensaje original."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Identificación única, asignada por la entidad administradora de la cuenta, para identificar de forma inequívoca el extracto original."
+    },
+    "OriginalEntryIdentification": {
+      "definition": "Identificación única original, asignada por la entidad administradora de la cuenta, para identificar de forma inequívoca el apunte original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal que proporciona la referencia de extremo a extremo original de una operación de pago."
+    }
+  }
+}

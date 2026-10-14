@@ -1,0 +1,30 @@
+{
+  "isoType": "PostalAddress17",
+  "definition": "Información que localiza e identifica una dirección específica, según la definen los servicios postales o en texto de formato libre.",
+  "isoElements": {
+    "AddressLine": {
+      "definition": "Información que localiza e identifica una dirección específica, según la definen los servicios postales, presentada en texto de formato libre."
+    },
+    "StreetName": {
+      "definition": "Nombre de una calle o vía pública."
+    },
+    "BuildingNumber": {
+      "definition": "Número que identifica la posición de un edificio en una calle."
+    },
+    "PostCode": {
+      "definition": "Identificador formado por un grupo de letras y/o números que se añade a una dirección postal para facilitar la clasificación del correo."
+    },
+    "TownName": {
+      "definition": "Nombre de un área urbanizada, con límites definidos y gobierno local."
+    },
+    "CountrySubDivision": {
+      "definition": "Identifica una subdivisión de un país, por ejemplo estado, región o provincia."
+    },
+    "Country": {
+      "definition": "Nación con gobierno propio que ocupa un territorio determinado."
+    },
+    "GeoLocation": {
+      "definition": "Ubicación geográfica del cajero automático (ATM) especificada mediante coordenadas geográficas o coordenadas UTM."
+    }
+  }
+}

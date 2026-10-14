@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderType1Choice",
+  "definition": "Define el tipo de orden permanente de transferencia de liquidez.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de orden permanente de transferencia de liquidez, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de orden permanente de transferencia de liquidez, en forma de texto libre."
+    }
+  }
+}

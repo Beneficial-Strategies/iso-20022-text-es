@@ -1,0 +1,27 @@
+{
+  "isoType": "CashEntry2",
+  "definition": "Contabilización de una partida en una cuenta de efectivo, en el contexto de una operación de efectivo, que da lugar a un aumento o una disminución del saldo de la cuenta.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero del apunte de efectivo."
+    },
+    "Date": {
+      "definition": "Fecha en la que se contabiliza un apunte en una cuenta en los libros de la entidad gestora de la cuenta."
+    },
+    "Status": {
+      "definition": "Estado de un apunte en los libros de la entidad gestora de la cuenta."
+    },
+    "Identification": {
+      "definition": "Identificador único e inequívoco de un apunte, asignado por la entidad gestora de la cuenta."
+    },
+    "StatementIdentification": {
+      "definition": "Identificación única, asignada por la entidad gestora de la cuenta, para identificar sin ambigüedad el extracto de cuenta."
+    },
+    "AccountServicerReference": {
+      "definition": "Número secuencial del extracto, asignado por la entidad gestora de la cuenta.|Uso: el número secuencial se incrementa de forma correlativa con cada extracto enviado electrónicamente."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Detalles adicionales del apunte."
+    }
+  }
+}

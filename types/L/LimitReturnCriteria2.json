@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitReturnCriteria2",
+  "definition": "Define los criterios utilizados para informar sobre un límite.",
+  "isoElements": {
+    "StartDateTimeIndicator": {
+      "definition": "Indica si se solicita la fecha y hora de inicio del límite."
+    },
+    "StatusIndicator": {
+      "definition": "Indica si se solicita el estado del límite."
+    },
+    "UsedAmountIndicator": {
+      "definition": "Indica si se solicita el importe utilizado del límite."
+    },
+    "UsedPercentageIndicator": {
+      "definition": "Indica si se solicita el porcentaje utilizado del límite."
+    }
+  }
+}

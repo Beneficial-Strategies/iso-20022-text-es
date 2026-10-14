@@ -1,0 +1,12 @@
+{
+  "isoType": "VotingRightsThreshold2",
+  "definition": "Especifica un nivel de umbral y una base del umbral para la aprobación de resoluciones en las juntas generales.",
+  "isoElements": {
+    "Threshold": {
+      "definition": "Umbral de derechos de voto necesario para que una resolución sea aprobada, en porcentaje o en cantidad."
+    },
+    "ThresholdBasis": {
+      "definition": "Naturaleza de la cantidad utilizada como base para fijar un umbral para la votación de resoluciones en las juntas generales."
+    }
+  }
+}

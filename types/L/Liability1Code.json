@@ -1,0 +1,14 @@
+{
+  "isoType": "Liability1Code",
+  "definition": "Especifica la parte responsable de la obligación.",
+  "isoCodes": {
+    "INVE": {
+      "name": "Inversor",
+      "definition": "El inversor es responsable."
+    },
+    "BROK": {
+      "name": "Corredor",
+      "definition": "El corredor es responsable."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionDate3",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe realizarse la distribución (efectivo y/o valores)."
+    },
+    "AvailableDate": {
+      "definition": "Fecha y hora en que los valores quedan disponibles para la venta."
+    },
+    "DividendRankingDate": {
+      "definition": "Fecha y hora a partir de la cual un valor tendrá derecho a un dividendo."
+    },
+    "PariPassuDate": {
+      "definition": "Fecha en que el valor se asimilará, será fungible o tendrá los mismos derechos a dividendos que la emisión matriz."
+    },
+    "FirstDealingDate": {
+      "definition": "Fecha y hora en que los nuevos valores comienzan a negociarse."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Fecha y hora en que puede efectuarse un pago, por ejemplo, si la fecha de pago es un día inhábil o para indicar la fecha del primer pago de una oferta."
+    }
+  }
+}

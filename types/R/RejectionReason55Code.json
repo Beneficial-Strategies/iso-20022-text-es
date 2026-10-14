@@ -1,0 +1,38 @@
+{
+  "isoType": "RejectionReason55Code",
+  "definition": "Especifica el motivo por el que la instrucción o solicitud de cancelación tiene estado de rechazada.",
+  "isoCodes": {
+    "BENO": {
+      "name": "Discrepancia sobre la titularidad real",
+      "definition": "Desacuerdo sobre la titularidad real."
+    },
+    "CAEV": {
+      "name": "Rechazo de operación societaria",
+      "definition": "Operación societaria pendiente sobre el instrumento financiero instruido."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "PODU": {
+      "name": "Posible duplicado",
+      "definition": "La instrucción no ha sido casada. Es una posible instrucción duplicada."
+    },
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "SSID": {
+      "name": "Rechazo de instrucción permanente de liquidación",
+      "definition": "La instrucción permanente de liquidación es desconocida o no válida."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    }
+  }
+}

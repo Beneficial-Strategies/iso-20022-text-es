@@ -1,0 +1,14 @@
+{
+  "isoType": "VoteType1Code",
+  "definition": "Especifica el efecto de una votación sobre una resolución del orden del día en las juntas generales.",
+  "isoCodes": {
+    "ADVI": {
+      "name": "Consultivo",
+      "definition": "El resultado de una votación sobre una propuesta es meramente consultivo."
+    },
+    "BNDG": {
+      "name": "Vinculante",
+      "definition": "El resultado de una votación sobre una propuesta es vinculante."
+    }
+  }
+}

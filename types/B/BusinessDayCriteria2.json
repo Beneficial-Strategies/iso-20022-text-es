@@ -1,0 +1,20 @@
+{
+  "isoType": "BusinessDayCriteria2",
+  "definition": "Define los criterios utilizados para buscar información sobre el día hábil y para informar sobre ella. Se puede asignar un nombre a la nueva consulta.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nombre de la consulta definida por los criterios de búsqueda y los criterios de devolución."
+    },
+    "SearchCriteria": {
+      "definition": "Define los criterios con los que se extrae la información."
+    },
+    "ReturnCriteria": {
+      "definition": "Define el informe esperado."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Si ReturnCriteria no está presente, debe estar presente al menos una ocurrencia de SearchCriteria. Si ReturnCriteria está presente, cualquier ocurrencia de SearchCriteria es opcional."
+    }
+  }
+}

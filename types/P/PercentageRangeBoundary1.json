@@ -1,0 +1,12 @@
+{
+  "isoType": "PercentageRangeBoundary1",
+  "definition": "Límite para un intervalo de tipos porcentuales.",
+  "isoElements": {
+    "BoundaryRate": {
+      "definition": "Tipo porcentual del límite del intervalo."
+    },
+    "Included": {
+      "definition": "Indica si el tipo porcentual del extremo está incluido en el intervalo de tipos porcentuales."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationStatusReason5",
+  "definition": "Proporciona información adicional sobre el estado de la solicitud de anulación.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite el estado de anulación."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo del estado indicado en el informe."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el motivo del estado de anulación."
+    }
+  }
+}

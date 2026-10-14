@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferCancellationStatusReportV07",
+  "definition": "Ámbito|El mensaje TransferCancellationStatusReport lo envía una parte ejecutante, por ejemplo, un agente de transferencias, a la parte instructora, por ejemplo, un gestor de inversiones o uno de sus representantes autorizados, para comunicar el estado de una instrucción de cancelación de transferencia recibida previamente.|Uso|El mensaje TransferCancellationStatusReport se utiliza para informar sobre el estado de una solicitud de cancelación de transferencia de entrada o de salida.|La referencia de la instrucción de transferencia cuyo estado de cancelación se comunica se identifica en TransferReference. La identificación del mensaje de solicitud de cancelación de transferencia en el que se comunicó la instrucción de transferencia también puede citarse en RelatedReference.|La identificación del mensaje de solicitud de instrucción de transferencia en el que se comunicó la instrucción de transferencia también puede citarse en RelatedReference.|Puede comunicarse uno de los siguientes estados:|- la cancelación de la transferencia es aceptada, o bien,|- la cancelación de la transferencia se ha enviado a la siguiente parte, o bien,|- la cancelación de la transferencia está completada y el motivo del estado,|- la cancelación de la transferencia está pendiente y el motivo del estado,|- la cancelación de la transferencia es rechazada y el motivo del estado.",
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference debe utilizarse para hacer referencia a un «mensaje» de solicitud de cancelación de transferencia enviado de forma propietaria o utilizado como referencia de un sistema. Si Reference/OtherReference está presente, References/OtherReference/MessageName debe contener, por ejemplo, «fax», «phone» o «email»."
+    },
+    "RelatedReferenceRule": {
+      "definition": "Si Reference/RelatedReference/MessageName está presente, debe comenzar por sese.002, sese.006, sese.009 o sese.014."
+    }
+  }
+}

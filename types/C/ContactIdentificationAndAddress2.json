@@ -1,0 +1,15 @@
+{
+  "isoType": "ContactIdentificationAndAddress2",
+  "definition": "Entidad humana, por oposición a una entidad corporativa (a la que a veces se denomina «persona jurídica»).",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre por el que se conoce a una parte y que suele utilizarse para identificarla."
+    },
+    "Role": {
+      "definition": "Rol de la parte en el pago."
+    },
+    "CommunicationAddress": {
+      "definition": "Número o dirección virtual utilizados para la comunicación."
+    }
+  }
+}

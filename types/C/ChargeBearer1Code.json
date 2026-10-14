@@ -1,0 +1,18 @@
+{
+  "isoType": "ChargeBearer1Code",
+  "definition": "Especifica qué parte o partes pagarán los gastos debidos por el tratamiento de la operación de pago.",
+  "isoCodes": {
+    "OUR": {
+      "name": "A cargo del ordenante",
+      "definition": "Todos los gastos de la operación correrán a cargo del ordenante."
+    },
+    "BEN": {
+      "name": "A cargo del beneficiario",
+      "definition": "Todos los gastos de la operación correrán a cargo del beneficiario."
+    },
+    "SHA": {
+      "name": "Compartido",
+      "definition": "En el escenario de transferencia, los gastos de la operación en el lado del emisor corren a cargo del ordenante y los gastos de la operación en el lado del receptor corren a cargo del beneficiario."
+    }
+  }
+}

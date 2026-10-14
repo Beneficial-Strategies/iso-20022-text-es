@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionNarrative2",
+  "definition": "Proporciona información adicional sobre el evento de operación societaria (CA).",
+  "isoElements": {
+    "InformationConditions": {
+      "definition": "Proporciona información condicional relacionada con el evento, p. ej., una oferta está sujeta a una aceptación del 50 %, el oferente permite al titular de los valores establecer algunas condiciones."
+    },
+    "InformationToComplyWith": {
+      "definition": "Proporciona información sobre condiciones que debe cumplir el titular de la cuenta, p. ej., no abierta a residentes de US o Canadá, debe facilitarse QIB o SIL."
+    },
+    "TaxationConditions": {
+      "definition": "Proporciona condiciones fiscales que no pueden incluirse en los campos estructurados de este mensaje y que no se han mencionado en el SLA."
+    },
+    "DeclarationDetails": {
+      "definition": "Proporciona una narrativa de los detalles de declaración relativa al instrumento financiero, p. ej., titularidad real."
+    },
+    "RegistrationDetails": {
+      "definition": "Proporciona la información requerida para el registro."
+    },
+    "AdditionalText": {
+      "definition": "Proporciona información adicional o especifica con más detalle el contenido de un mensaje."
+    }
+  }
+}

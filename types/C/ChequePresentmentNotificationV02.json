@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequePresentmentNotificationV02",
+  "definition": "El mensaje ChequePresentmentNotification lo envía una entidad librada, o una entidad que actúa en nombre de esta, a la entidad contra la que se han librado uno o varios cheques (la entidad pagadora).|Se utiliza para informar a la entidad pagadora, o para confirmar a una entidad que realiza una consulta, los detalles relativos al cheque o cheques a los que se refiere el mensaje."
+}

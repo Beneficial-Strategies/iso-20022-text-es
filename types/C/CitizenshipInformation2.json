@@ -1,0 +1,12 @@
+{
+  "isoType": "CitizenshipInformation2",
+  "definition": "Información sobre una persona física.",
+  "isoElements": {
+    "Nationality": {
+      "definition": "País donde nació una persona o con el que está legalmente reconocida como vinculada."
+    },
+    "MinorIndicator": {
+      "definition": "Indica si la persona es menor de edad legal. Esto puede depender de la nacionalidad, del país de domicilio o de la operación en la que participa la persona."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalBusinessInstruction1",
+  "definition": "Identificación única, asignada por el solicitante original, para identificar de forma inequívoca el mensaje de instrucción comercial.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte iniciadora original, para identificar de forma inequívoca el mensaje de instrucción original."
+    },
+    "MessageNameIdentification": {
+      "definition": "Especifica el identificador del nombre del mensaje de instrucción al que se refiere el mensaje."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    }
+  }
+}

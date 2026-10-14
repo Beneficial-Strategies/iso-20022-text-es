@@ -1,0 +1,29 @@
+{
+  "isoType": "Meeting7",
+  "definition": "Información sobre la fecha y el/los lugar(es) de una junta general.",
+  "isoElements": {
+    "DateAndTime": {
+      "definition": "Fecha y hora en que tendrá lugar la junta."
+    },
+    "DateStatus": {
+      "definition": "Estado de la fecha de la junta."
+    },
+    "QuorumRequired": {
+      "definition": "Indica si se requiere un número mínimo de valores representados para celebrar una junta."
+    },
+    "Location": {
+      "definition": "Lugar en que tendrá lugar la junta."
+    },
+    "QuorumQuantity": {
+      "definition": "Cantidad mínima de valores necesaria para celebrar una junta."
+    },
+    "URLAddress": {
+      "definition": "Dirección del Localizador Uniforme de Recursos (URL), por ejemplo, utilizado en el servicio www (HTTP)."
+    }
+  },
+  "isoRules": {
+    "DateStatus1Rule": {
+      "definition": "Si DateAndTime/DateCode es \"UKWN\" (desconocido), DateStatus no debe estar presente."
+    }
+  }
+}

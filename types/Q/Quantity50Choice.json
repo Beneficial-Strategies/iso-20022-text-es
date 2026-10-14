@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity50Choice",
+  "definition": "Elección entre distintos formatos de cantidad de valores.",
+  "isoElements": {
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Importe nominal con signo y valor amortizado del valor."
+    },
+    "SignedQuantity": {
+      "definition": "Cantidad de valores con signo."
+    }
+  }
+}

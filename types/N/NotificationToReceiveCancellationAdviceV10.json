@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveCancellationAdviceV10",
+  "definition": "Alcance|El mensaje NotificationToReceiveCancellationAdvice lo envía un titular de cuenta, o una parte que actúa en su nombre, a una de las entidades gestoras de las cuentas del titular. Se utiliza para avisar a la entidad gestora de la cuenta de la cancelación de una o varias notificaciones de un mensaje NotificationToReceive anterior.|Uso|El mensaje NotificationToReceiveCancellationAdvice se utiliza para avisar a la entidad gestora de la cuenta de que ya no se esperan los fondos. El mensaje puede utilizarse tanto en un escenario directo como en un escenario de retransmisión."
+}

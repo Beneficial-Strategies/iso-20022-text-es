@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalDocumentFormat1Code",
+  "definition": "Especifica el código externo de formato de documento en forma de cadena de caracteres con una longitud máxima de 4 caracteres. La lista de códigos válidos es una lista de códigos externa publicada por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "DPDF": {
+      "name": "PDF",
+      "definition": "El formato del documento es PDF."
+    },
+    "DXML": {
+      "name": "XML",
+      "definition": "El formato del documento es XML."
+    },
+    "SDSH": {
+      "name": "Hoja de cálculo",
+      "definition": "El formato del documento es una hoja de cálculo."
+    },
+    "WORD": {
+      "name": "Word",
+      "definition": "El formato del documento es Word."
+    },
+    "XSLT": {
+      "name": "XSLT",
+      "definition": "El formato del documento es XSLT."
+    }
+  }
+}

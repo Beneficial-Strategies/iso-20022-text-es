@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingMethod2",
+  "definition": "Proporciona los detalles del método B de cálculo de impuestos.",
+  "isoElements": {
+    "ServiceChargeHostAmount": {
+      "definition": "Importe del cargo original expresado en la divisa de la jurisdicción fiscal."
+    },
+    "ServiceTax": {
+      "definition": "Contempla los impuestos regionales sobre el servicio. Pueden definirse hasta tres impuestos regionales para el mismo servicio."
+    },
+    "TaxIdentification": {
+      "definition": "Contempla la identificación fiscal específica dentro de la misma región fiscal. ||Uso: Este elemento admite un máximo de tres impuestos regionales sobre el mismo servicio."
+    }
+  }
+}

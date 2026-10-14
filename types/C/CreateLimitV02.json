@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateLimitV02",
+  "definition": "Ámbito|El mensaje CreateLimit lo envía un miembro al administrador de operaciones.|Se utiliza para crear uno o varios límites establecidos por el miembro y gestionados por el administrador de operaciones.|Uso|Con arreglo a los criterios definidos en el mensaje CreateLimit, el administrador de operaciones ejecutará o rechazará la creación solicitada y responderá con un mensaje Receipt como respuesta a la solicitud."
+}

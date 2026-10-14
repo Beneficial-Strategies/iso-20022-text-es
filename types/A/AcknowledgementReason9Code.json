@@ -1,0 +1,10 @@
+{
+  "isoType": "AcknowledgementReason9Code",
+  "definition": "Especifica información adicional sobre una instrucción procesada.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    }
+  }
+}

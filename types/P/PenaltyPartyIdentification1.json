@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyPartyIdentification1",
+  "definition": "Identificación de una parte con el tipo relacionado con las penalizaciones.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la parte."
+    },
+    "Type": {
+      "definition": "Tipo de la parte."
+    }
+  }
+}

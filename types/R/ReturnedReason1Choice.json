@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedReason1Choice",
+  "definition": "Elección entre un código estándar y un código propietario para especificar el motivo por el que la instrucción o la solicitud de cancelación tiene un estado devuelto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de la devolución especificado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo de la devolución especificado como código propietario."
+    }
+  }
+}

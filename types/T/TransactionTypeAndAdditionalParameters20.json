@@ -1,0 +1,27 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters20",
+  "definition": "Especifica las condiciones en las que debe liquidarse la orden/operación.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación (única por pieza de garantía) según el titular de la cuenta (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación (única por pieza de garantía) según el administrador de la cuenta."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Especifica el tipo de operación de financiación con valores, es decir, acuerdo de recompra, acuerdo de recompra inverso, préstamo de valores o toma en préstamo de valores."
+    },
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación, por ejemplo, contra pago."
+    },
+    "ModificationType": {
+      "definition": "Identifica el tipo de modificación de financiación de valores solicitada."
+    },
+    "CommonIdentification": {
+      "definition": "Referencia única acordada por las dos contrapartes de la operación comercial para identificarla."
+    },
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    }
+  }
+}

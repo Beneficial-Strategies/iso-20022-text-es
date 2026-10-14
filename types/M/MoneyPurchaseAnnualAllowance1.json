@@ -1,0 +1,12 @@
+{
+  "isoType": "MoneyPurchaseAnnualAllowance1",
+  "definition": "Información sobre una Money Purchase Annual Allowance (MPAA).",
+  "isoElements": {
+    "Triggered": {
+      "definition": "Indica si se ha activado el límite anual."
+    },
+    "TriggeredDate": {
+      "definition": "Fecha en la que se aplica el límite anual."
+    }
+  }
+}

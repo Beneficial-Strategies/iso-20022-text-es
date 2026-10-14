@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesAccountPurposeType1Code",
+  "definition": "Especifica la finalidad de la cuenta de valores.",
+  "isoCodes": {
+    "MARG": {
+      "name": "Margen",
+      "definition": "La cuenta se utiliza cuando la financiación la realiza el corredor."
+    },
+    "SHOR": {
+      "name": "Venta en corto",
+      "definition": "La cuenta se utiliza para órdenes de venta en corto."
+    },
+    "ABRD": {
+      "name": "En el extranjero",
+      "definition": "La cuenta está situada en una entidad financiera fuera del país donde se realiza la operación."
+    },
+    "CEND": {
+      "name": "Centralizado",
+      "definition": "La cuenta y todas sus posiciones relacionadas se mantienen en una única ubicación."
+    },
+    "DVPA": {
+      "name": "Entrega contra pago en efectivo",
+      "definition": "La cuenta se utiliza para la liquidación contra entrega, o para un cobro contra entrega."
+    },
+    "PHYS": {
+      "name": "Física",
+      "definition": "La cuenta se utiliza para la custodia física nacional."
+    }
+  }
+}

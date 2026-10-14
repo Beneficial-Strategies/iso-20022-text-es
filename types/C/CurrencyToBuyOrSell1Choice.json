@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyToBuyOrSell1Choice",
+  "definition": "Elección del tipo de contraparte.",
+  "isoElements": {
+    "CurrencyToBuy": {
+      "definition": "Se instruye al administrador de cuentas para que compre la divisa indicada tras la recepción del producto en efectivo."
+    },
+    "CurrencyToSell": {
+      "definition": "Se instruye a la entidad gestora de la cuenta que venda la divisa indicada para obtener la divisa necesaria para financiar la operación."
+    }
+  }
+}

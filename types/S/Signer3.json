@@ -1,0 +1,21 @@
+{
+  "isoType": "Signer3",
+  "definition": "Entidad que ha firmado los datos y su firma digital.",
+  "isoElements": {
+    "Version": {
+      "definition": "Versión de la estructura de datos de la sintaxis de mensajes criptográficos (CMS)."
+    },
+    "SignerIdentification": {
+      "definition": "Identificación de la entidad que ha firmado los datos."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identificación de un algoritmo de resumen (digest) que se aplica antes de la firma."
+    },
+    "SignatureAlgorithm": {
+      "definition": "Algoritmo criptográfico de firma digital."
+    },
+    "Signature": {
+      "definition": "Firma digital."
+    }
+  }
+}

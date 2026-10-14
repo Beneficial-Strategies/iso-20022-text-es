@@ -1,0 +1,41 @@
+{
+  "isoType": "Fee11",
+  "definition": "Importe de dinero asociado a un servicio.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comisión (gasto/comisión)."
+    },
+    "Basis": {
+      "definition": "Método utilizado para calcular la comisión (gasto/comisión)."
+    },
+    "StandardAmount": {
+      "definition": "Importe estándar de la comisión (gasto/comisión) especificado en el folleto del fondo o acordado para la cuenta."
+    },
+    "StandardRate": {
+      "definition": "Tipo estándar de la comisión (gasto/comisión) utilizado para calcular el importe del gasto o la comisión, especificado en el folleto del fondo o acordado para la cuenta."
+    },
+    "DiscountDetails": {
+      "definition": "Descuento o renuncia aplicado a la comisión (gasto/comisión)."
+    },
+    "AppliedAmount": {
+      "definition": "Importe de la comisión (gasto/comisión) aplicado a la operación."
+    },
+    "AppliedRate": {
+      "definition": "Tipo final utilizado para calcular el importe de la comisión (gasto/comisión)."
+    },
+    "NonStandardSLAReference": {
+      "definition": "Referencia a un acuerdo de ventas que anula el tratamiento normal o el acuerdo de nivel de servicio (SLA), como una comisión (gasto/comisión)."
+    },
+    "RecipientIdentification": {
+      "definition": "Parte con derecho al importe de dinero resultante de una comisión (gasto/comisión)."
+    },
+    "InformativeIndicator": {
+      "definition": "Indica que la información se facilita únicamente a título informativo. Cuando el valor es «false» o «0», el importe facilitado se tiene en cuenta en los costes generales de la operación. Cuando el valor es «true» o «1», el importe facilitado no se tiene en cuenta en los costes generales de la operación."
+    }
+  },
+  "isoRules": {
+    "AppliedAmountRule": {
+      "definition": "Si InformativeIndicator es \"false\" o \"0\" (No), entonces AppliedAmount debe estar presente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Rate4",
+  "definition": "Conjunto de elementos utilizados para calificar el tipo de interés.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de tasa de interés."
+    },
+    "ValidityRange": {
+      "definition": "Rango de importes en el que es aplicable el tipo de interés."
+    }
+  }
+}

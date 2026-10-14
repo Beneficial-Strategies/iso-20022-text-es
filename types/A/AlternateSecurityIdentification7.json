@@ -1,0 +1,12 @@
+{
+  "isoType": "AlternateSecurityIdentification7",
+  "definition": "Esquema de identificación propio o nacional que identifica de forma única un valor.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de un valor."
+    },
+    "IdentificationSource": {
+      "definition": "Origen de la identificación, es decir, nacional o propietario."
+    }
+  }
+}

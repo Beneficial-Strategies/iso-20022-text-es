@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource5Choice",
+  "definition": "Elección entre las fuentes de identificación de un instrumento financiero.",
+  "isoElements": {
+    "DomesticIdentificationSource": {
+      "definition": "País del esquema de identificación propio."
+    },
+    "ProprietaryIdentificationSource": {
+      "definition": "Entidad que emite la identificación propia."
+    }
+  }
+}

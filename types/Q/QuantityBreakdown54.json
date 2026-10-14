@@ -1,0 +1,21 @@
+{
+  "isoType": "QuantityBreakdown54",
+  "definition": "Detalles del desglose de una cantidad.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identificación, a efectos fiscales, de un lote de valores idénticos que se compraron en una fecha determinada y a un precio determinado."
+    },
+    "LotQuantity": {
+      "definition": "Cantidad de instrumentos financieros que forma parte del lote descrito."
+    },
+    "LotDateTime": {
+      "definition": "Fecha y hora en que se compró el lote."
+    },
+    "LotPrice": {
+      "definition": "Precio al que se compró el lote."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica el tipo de precio e información sobre el precio."
+    }
+  }
+}

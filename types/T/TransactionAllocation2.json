@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionAllocation2",
+  "definition": "Conjunto de elementos utilizados para identificar cada asignación subyacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero de la asignación."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si la asignación es un adeudo o un abono."
+    },
+    "Account": {
+      "definition": "Identificación inequívoca de la cuenta a la que corresponde la asignación o de la que procede."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la asignación.||Uso: Se aplica únicamente a la asignación; no es el motivo subyacente del pago."
+    },
+    "Reference": {
+      "definition": "Referencia de la asignación."
+    },
+    "RelatedReferences": {
+      "definition": "Referencia relativa a la asignación que resulta significativa para ambas partes (por ejemplo, la Identificación de la operación de liquidación de valores original)."
+    }
+  },
+  "isoRules": {
+    "UnderlyingAllocationGuideline": {
+      "definition": "UnderlyingAllocation solo puede estar presente si así se ha acordado bilateralmente."
+    }
+  }
+}

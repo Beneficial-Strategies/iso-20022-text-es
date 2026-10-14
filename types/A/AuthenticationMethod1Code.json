@@ -1,0 +1,50 @@
+{
+  "isoType": "AuthenticationMethod1Code",
+  "definition": "Método utilizado para autenticar a un titular de tarjeta.",
+  "isoCodes": {
+    "UKNW": {
+      "name": "Método desconocido",
+      "definition": "Se desconoce el método de autenticación realizado."
+    },
+    "BYPS": {
+      "name": "Omisión",
+      "definition": "Autenticación omitida por el comercio."
+    },
+    "NPIN": {
+      "name": "PIN en línea",
+      "definition": "Autenticación mediante PIN en línea (número de identificación personal)."
+    },
+    "FPIN": {
+      "name": "PIN sin conexión",
+      "definition": "Autenticación mediante PIN sin conexión (número de identificación personal)."
+    },
+    "CPSG": {
+      "name": "Captura de firma",
+      "definition": "Captura de firma electrónica (firma manuscrita)."
+    },
+    "PPSG": {
+      "name": "Firma en papel",
+      "definition": "Firma manuscrita en papel."
+    },
+    "MANU": {
+      "name": "Verificación manual",
+      "definition": "Verificación manual, por ejemplo pasaporte o permiso de conducir."
+    },
+    "MERC": {
+      "name": "Autenticación del comercio",
+      "definition": "Autenticación relacionada con el comercio."
+    },
+    "SCRT": {
+      "name": "Certificado seguro",
+      "definition": "Operación de comercio electrónico protegida con el certificado X.509 de un cliente."
+    },
+    "SNCT": {
+      "name": "Seguro sin certificado",
+      "definition": "Operación electrónica segura sin certificado del titular de la tarjeta."
+    },
+    "SCNL": {
+      "name": "Canal seguro",
+      "definition": "Operación cifrada por canal."
+    }
+  }
+}

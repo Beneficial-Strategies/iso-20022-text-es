@@ -1,0 +1,18 @@
+{
+  "isoType": "MarketMakerProfile2",
+  "definition": "Perfil de creador de mercado.",
+  "isoElements": {
+    "ContractPeriod": {
+      "definition": "Período del contrato."
+    },
+    "Compliance": {
+      "definition": "Indica si el creador de mercado está obligado a cumplir los requisitos del contrato que mantiene con la bolsa o está exento de dichas obligaciones."
+    },
+    "MaximumSpread": {
+      "definition": "Porcentaje de variación entre el valor mínimo y máximo aceptado de una acción."
+    },
+    "Discount": {
+      "definition": "Tasa de descuento."
+    }
+  }
+}

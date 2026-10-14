@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentification134Choice",
+  "definition": "Elección de formatos para la identificación de una parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Código asignado a una institución financiera o no financiera por la Autoridad de Registro de ISO 9362, tal como se describe en ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identificador único e inequívoco, asignado a una entidad financiera mediante un esquema de identificación propietario."
+    },
+    "NameAndAddress": {
+      "definition": "Nombre y dirección de una parte."
+    },
+    "Country": {
+      "definition": "País en el que reside una persona (el lugar de su domicilio). En el caso de una empresa, es el país desde el que se dirigen los asuntos de dicha empresa."
+    }
+  }
+}

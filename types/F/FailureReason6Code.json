@@ -1,0 +1,22 @@
+{
+  "isoType": "FailureReason6Code",
+  "definition": "Motivo por el que se ha detenido la clave.",
+  "isoCodes": {
+    "CMPR": {
+      "name": "Comprometida",
+      "definition": "La clave está comprometida."
+    },
+    "EXPR": {
+      "name": "Caducada",
+      "definition": "La clave ha caducado."
+    },
+    "KCVE": {
+      "name": "KCV no válido",
+      "definition": "El valor de comprobación de la clave es incorrecto."
+    },
+    "KLOD": {
+      "name": "Error de carga de claves",
+      "definition": "Error durante la descarga de la clave en el dispositivo de seguridad."
+    }
+  }
+}

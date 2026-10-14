@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorCapacity5Choice",
+  "definition": "Elección de formato para la capacidad del inversor.",
+  "isoElements": {
+    "Code": {
+      "definition": "Capacidad del inversor expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Capacidad del inversor expresada como código propietario."
+    }
+  }
+}

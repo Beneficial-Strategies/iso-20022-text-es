@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionGeneralInformation186",
+  "definition": "Información general sobre el evento de acción corporativa.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referencia asignada por el administrador de la cuenta para identificar inequívocamente un evento de operación societaria."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Referencia oficial y única asignada por el organismo o entidad central oficial de cada mercado al inicio de un evento de operación societaria."
+    },
+    "ClassActionNumber": {
+      "definition": "Referencia asignada por un tribunal a una acción colectiva."
+    },
+    "EventType": {
+      "definition": "Tipo de evento de operación societaria."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "EventType/Code OTHR solo debe utilizarse en caso de que ningún otro código de evento de operación societaria sea apropiado. |EventType/Code CHAN solo debe utilizarse en caso de que ningún otro código de evento de operación societaria sea apropiado y únicamente para un evento relacionado con un cambio. |EventType/Code REDM solo debe utilizarse cuando el reembolso lo decide el emisor y no los titulares de los valores."
+    },
+    "OfficialCorporateActionEventReference": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de práctica de mercado sobre la estructura y el uso de la referencia oficial del evento de operación societaria (COAF). Dichas recomendaciones están|disponibles en el documento SMPG Global Market Practices Part 1 en www.smpg.info."
+    }
+  }
+}

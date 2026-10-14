@@ -1,0 +1,27 @@
+{
+  "isoType": "Product2",
+  "definition": "Producto adquirido que debe pagarse.",
+  "isoElements": {
+    "ProductCode": {
+      "definition": "Código de producto del artículo adquirido."
+    },
+    "UnitOfMeasure": {
+      "definition": "Unidad de medida del artículo adquirido."
+    },
+    "ProductQuantity": {
+      "definition": "Cantidad de producto."
+    },
+    "UnitPrice": {
+      "definition": "Precio por unidad de producto."
+    },
+    "ProductAmount": {
+      "definition": "Valor monetario del producto adquirido."
+    },
+    "TaxType": {
+      "definition": "Información sobre el impuesto pagado por el producto."
+    },
+    "AdditionalProductInformation": {
+      "definition": "Información adicional relacionada con el producto."
+    }
+  }
+}

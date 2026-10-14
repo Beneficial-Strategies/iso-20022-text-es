@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionStatus27Choice",
+  "definition": "Elección de estado de rechazo.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo del estado de rechazo o reparación."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BusinessFlowType1Code",
+  "definition": "Identifica el proceso de negocio en el que participan los actores. Esto es importante para activar el proceso de negocio correcto, según el modelo de negocio del mercado, que puede requerir la correspondencia de instrucciones en un entorno CSD (proceso de doble tramo) o no (proceso de tramo único).",
+  "isoCodes": {
+    "SLDP": {
+      "name": "Parte entregadora de un solo tramo",
+      "definition": "Proceso de tramo único iniciado por la parte entregadora."
+    },
+    "SLRP": {
+      "name": "Parte receptora de un solo tramo",
+      "definition": "Proceso de tramo único iniciado por la parte receptora."
+    },
+    "DLPR": {
+      "name": "Proceso de doble tramo",
+      "definition": "Proceso de doble tramo."
+    }
+  }
+}

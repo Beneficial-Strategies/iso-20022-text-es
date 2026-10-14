@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSStatus3Choice",
+  "definition": "Elección de formatos para el estatus del Estándar Común de Comunicación de Información (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Estatus del Estándar Común de Comunicación de Información (CRS) expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Estatus del Estándar Común de Comunicación de Información (CRS) expresado como código propietario."
+    }
+  }
+}

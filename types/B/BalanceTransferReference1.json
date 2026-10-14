@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceTransferReference1",
+  "definition": "Referencia que permite a la entidad gestora de la cuenta receptora conciliar el pago con el mensaje.",
+  "isoElements": {
+    "BalanceTransferReference": {
+      "definition": "Utilizada por el ordenante en un campo de referencia adecuado de un mensaje de pago enviado por un canal de pago alternativo, para que el beneficiario pueda asociar el pago con la solicitud de pago."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "AggregatedPenaltyAmount1",
+  "definition": "Especifica los importes agregados de las penalizaciones.",
+  "isoElements": {
+    "AggregatedDebitAmount": {
+      "definition": "Suma de todos los importes de adeudo."
+    },
+    "AggregatedCreditAmount": {
+      "definition": "Suma de todos los importes de abono."
+    },
+    "GlobalNetAmount": {
+      "definition": "Neto de todos los importes."
+    },
+    "CounterpartyCSDAggregatedAmount": {
+      "definition": "Importes agregados facilitados por CSD de la contraparte."
+    }
+  }
+}

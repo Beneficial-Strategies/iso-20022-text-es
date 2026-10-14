@@ -1,0 +1,14 @@
+{
+  "isoType": "Registration1Code",
+  "definition": "Especifica si el registro debe efectuarse a la recepción.",
+  "isoCodes": {
+    "NREG": {
+      "name": "A nombre de intermediario",
+      "definition": "Mantener los valores a nombre del intermediario (street name). Si existe una instrucción permanente de registrar a la recepción, dicha instrucción permanente debe ignorarse."
+    },
+    "YREG": {
+      "name": "Nominativo",
+      "definition": "Registrar a la recepción. Si existe una instrucción permanente de mantener los valores a nombre del intermediario (street name), dicha instrucción permanente debe ignorarse."
+    }
+  }
+}

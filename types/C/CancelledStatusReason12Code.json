@@ -1,0 +1,50 @@
+{
+  "isoType": "CancelledStatusReason12Code",
+  "definition": "Especifica el motivo subyacente de la cancelación de la operación asociada.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Cancelado por usted mismo",
+      "definition": "La operación ha sido cancelada por usted mismo."
+    },
+    "CANS": {
+      "name": "Cancelado por el sistema",
+      "definition": "La operación ha sido cancelada por el sistema."
+    },
+    "CSUB": {
+      "name": "Cancelado por el agente",
+      "definition": "La entidad ha cancelado la instrucción debido a una ampliación del plazo del evento."
+    },
+    "CXLR": {
+      "name": "Fin de vida",
+      "definition": "La parte ejecutora rechaza la operación; el rechazo es definitivo, por lo que la orden se cancela en el sistema."
+    },
+    "CANT": {
+      "name": "Cancelado por transformación",
+      "definition": "La operación original ha sido cancelada y sustituida debido a una operación societaria."
+    },
+    "CANZ": {
+      "name": "Cancelado por liquidación parcial fraccionada",
+      "definition": "La operación original ha sido cancelada y sustituida para permitir una liquidación parcial o fraccionada."
+    },
+    "CORP": {
+      "name": "Cancelado por operación societaria",
+      "definition": "La operación ha sido cancelada debido a una operación societaria."
+    },
+    "SCEX": {
+      "name": "Valores ya no admisibles",
+      "definition": "La operación ha sido cancelada; el valor ya no existe o ya no es admisible en el mercado instruido. Para las cancelaciones relacionadas con operaciones societarias debe utilizarse CORP."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "CANO": {
+      "name": "Cancelado por otro",
+      "definition": "La operación ha sido cancelada por una parte distinta de la parte instructora, por ejemplo, una infraestructura de mercado como una bolsa de valores."
+    },
+    "CREG": {
+      "name": "Cancelado por el emisor o registrador",
+      "definition": "La operación ha sido cancelada por el emisor/registrador."
+    }
+  }
+}

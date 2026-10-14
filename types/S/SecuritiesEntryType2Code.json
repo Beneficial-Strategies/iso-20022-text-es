@@ -1,0 +1,66 @@
+{
+  "isoType": "SecuritiesEntryType2Code",
+  "definition": "Especifica el tipo de anotación de valores en una cuenta.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de valores que están bloqueados o congelados. Un instrumento financiero puede no estar disponible debido a circunstancias externas como una orden judicial, el fallecimiento del beneficiario o del titular de la cuenta, o una quiebra."
+    },
+    "ELIG": {
+      "name": "Admisible",
+      "definition": "Número total de valores con derecho a este evento."
+    },
+    "PEND": {
+      "name": "Entrega pendiente",
+      "definition": "Saldo de valores pendientes de entrega."
+    },
+    "PENR": {
+      "name": "Recepción pendiente",
+      "definition": "Saldo de valores pendientes de recepción."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de valores que están registrados (a nombre de un titular interpuesto o del titular real)."
+    },
+    "SETD": {
+      "name": "Liquidado",
+      "definition": "Saldo de valores que representa únicamente operaciones liquidadas."
+    },
+    "BORR": {
+      "name": "Tomado en préstamo",
+      "definition": "Saldo de valores que han sido tomados en préstamo de otra parte."
+    },
+    "LOAN": {
+      "name": "En préstamo",
+      "definition": "Saldo de valores que han sido prestados a un tercero."
+    },
+    "SPOS": {
+      "name": "Posición a nombre de intermediario",
+      "definition": "Saldo de valores que permanecen registrados a nombre del anterior titular real de los valores."
+    },
+    "TRAD": {
+      "name": "Negociado",
+      "definition": "Saldo de valores que representa operaciones contratadas."
+    },
+    "COLI": {
+      "name": "Garantía recibida",
+      "definition": "Saldo de valores que pertenecen a un tercero y que se mantienen con fines de constitución de garantías."
+    },
+    "COLO": {
+      "name": "Garantía entregada",
+      "definition": "Saldo de valores que pertenecen a la cuenta de custodia indicada en este mensaje y que están depositados en un tercero con fines de constitución de garantías."
+    },
+    "UNBA": {
+      "name": "Saldo sin instrucciones",
+      "definition": "Saldo de la posición sin instrucciones."
+    },
+    "INBA": {
+      "name": "Saldo con instrucciones",
+      "definition": "Saldo de la posición con instrucciones."
+    },
+    "REGO": {
+      "name": "Pendiente de registro",
+      "definition": "Saldo de valores que están siendo procesados actualmente por la institución responsable de registrar al nuevo titular real (o titular interpuesto) de los valores después de que se haya liquidado una operación."
+    }
+  }
+}

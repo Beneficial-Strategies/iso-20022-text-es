@@ -1,0 +1,14 @@
+{
+  "isoType": "ATMStatus1Code",
+  "definition": "Estado del cajero automático (ATM).",
+  "isoCodes": {
+    "INSV": {
+      "name": "En servicio",
+      "definition": "El componente está en servicio."
+    },
+    "OUTS": {
+      "name": "Fuera de servicio",
+      "definition": "Cajero automático (ATM) fuera de servicio."
+    }
+  }
+}

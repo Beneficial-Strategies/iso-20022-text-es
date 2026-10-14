@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDeviceControlV04",
+  "definition": "El mensaje ATMDeviceControl lo envía un host de mantenimiento a un cajero automático (ATM) en respuesta a un mensaje ATMDeviceReport. El mensaje contiene una secuencia de comandos de mantenimiento que el cajero automático debe ejecutar."
+}

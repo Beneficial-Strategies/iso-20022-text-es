@@ -1,0 +1,33 @@
+{
+  "isoType": "NetReportData2",
+  "definition": "Especifica los metadatos asociados a un informe de posiciones netas.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificador único e inequívoco de un mensaje, asignado por el emisor. Este identificador único puede utilizarse con fines de referencia cruzada en mensajes posteriores."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se generó el informe de posiciones netas."
+    },
+    "NettingCutOffTime": {
+      "definition": "Proporciona la hora límite que se ha superado, lo que ha dado lugar a la generación del informe de posiciones netas."
+    },
+    "ReportDate": {
+      "definition": "Especifica la fecha de valor en la que se generó el informe de posiciones netas."
+    },
+    "ValueDate": {
+      "definition": "Especifica la fecha de valor de las operaciones utilizadas en la generación del informe de posiciones netas."
+    },
+    "ReportType": {
+      "definition": "Especifica el tipo de informe de posiciones netas, indicando cómo se han calculado las obligaciones."
+    },
+    "NetReportServicer": {
+      "definition": "Describe el sistema central responsable de generar el informe de posiciones netas."
+    },
+    "NetServiceType": {
+      "definition": "Describe el tipo de servicio de compensación multilateral que respalda el informe de posiciones netas."
+    },
+    "MessagePagination": {
+      "definition": "Número de página del mensaje (dentro del informe de posiciones netas) e indicador de continuación para señalar que el informe continúa o que el mensaje es la última página del informe."
+    }
+  }
+}

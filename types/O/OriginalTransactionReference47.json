@@ -1,0 +1,72 @@
+{
+  "isoType": "OriginalTransactionReference47",
+  "definition": "Especifica los elementos clave tal como se definieron en la operación original.",
+  "isoElements": {
+    "InterbankSettlementAmount": {
+      "definition": "Importe de dinero movido entre la entidad instructora y la entidad instruida."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que se debe mover entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en la que el importe deja de estar disponible para la entidad que lo adeuda y en la que pasa a estar disponible para la entidad a la que se le debe."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Fecha y hora en la que el beneficiario solicita que el importe de dinero sea cobrado al ordenante."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha en la que la parte iniciadora solicita a la entidad compensadora que procese el pago. |Uso: Es la fecha en la que debe adeudarse la cuenta del ordenante. Si el pago es mediante cheque, la fecha en que el banco debe emitir el cheque."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Parte acreedora que firma el mandato."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica los detalles sobre cómo se completó la liquidación de la(s) operación(es) original(es) entre la entidad instructora y la entidad instruida."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "PaymentMethod": {
+      "definition": "Especifica el medio de pago que se utilizará para mover la cantidad de dinero."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Proporciona más detalles del mandato firmado entre el beneficiario y el ordenante."
+    },
+    "RemittanceInformation": {
+      "definition": "Información proporcionada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe un importe de dinero al beneficiario (final)."
+    },
+    "Debtor": {
+      "definition": "Parte que debe una cantidad de dinero al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se realizará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad gestora de la cadena de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del beneficiario."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad gestora, en la que se realizará un abono como resultado de la operación de pago."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se contabilizará un abono como resultado de la operación de pago."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe de dinero."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago.||Uso: |La finalidad es utilizada por los clientes finales, es decir, la parte iniciadora, el ordenante (final) o el beneficiario (final), para proporcionar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no es utilizado para el procesamiento por ninguna de las entidades que intervienen en la cadena de pago."
+    }
+  }
+}

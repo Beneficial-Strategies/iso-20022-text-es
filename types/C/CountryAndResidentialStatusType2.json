@@ -1,0 +1,12 @@
+{
+  "isoType": "CountryAndResidentialStatusType2",
+  "definition": "País y condición de residencia.",
+  "isoElements": {
+    "Country": {
+      "definition": "País al que se aplica la condición de residencia."
+    },
+    "ResidentialStatus": {
+      "definition": "Condición de residencia de la organización o persona física, por ejemplo, residente no permanente."
+    }
+  }
+}

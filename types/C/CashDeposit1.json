@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDeposit1",
+  "definition": "Ingreso de un importe en efectivo definido en billetes y/o monedas.",
+  "isoElements": {
+    "NoteDenomination": {
+      "definition": "Especifica la denominación del billete o de la moneda, incluida la divisa, por ejemplo un billete de 50 euros."
+    },
+    "NumberOfNotes": {
+      "definition": "Especifica el número de billetes de la misma denominación incluidos en el ingreso."
+    },
+    "Amount": {
+      "definition": "Especifica el importe total del ingreso en efectivo, es decir, la denominación del billete multiplicada por el número de billetes."
+    }
+  }
+}

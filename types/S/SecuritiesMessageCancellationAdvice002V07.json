@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesMessageCancellationAdvice002V07",
+  "definition": "Alcance|Una entidad gestora de cuentas envía un SecuritiesMessageCancellationAdvice a un titular de cuenta para informarle de la cancelación de un mensaje de valores enviado previamente por una entidad gestora de cuentas. |La relación entre la entidad gestora y el titular de la cuenta puede ser:|- un depositario central de valores u otra infraestructura de mercado de liquidación que actúa en nombre de sus participantes|- un agente (subcustodio) que actúa en nombre de su cliente custodio global, o |- un custodio que actúa en nombre de una institución de gestión de inversiones o de un corredor/operador.||Uso|El mensaje enviado previamente puede ser:|- una confirmación de operación de liquidación de valores|- un informe (operaciones, operaciones pendientes, alegaciones, saldos de valores contables y de custodia)|- una notificación de alegación (cuando se envió por error o porque la contraparte canceló su instrucción)|- una notificación de traspaso de cartera |- una confirmación de movimiento intraposición|- una notificación de generación de operación||El mensaje enviado previamente no puede ser un mensaje de aviso de estado (de ningún tipo). Si no debió enviarse un aviso de estado, debe enviarse un nuevo aviso de estado con el estado correcto, y no un aviso de cancelación.|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo|utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "CreditTransfer13",
+  "definition": "Instrumento de pago entre un ordenante y un beneficiario, que circula a través de una o varias entidades financieras o sistemas.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Parte que debía un importe de dinero al beneficiario (final). En el contexto del modelo de pago, el ordenante es también el titular de la cuenta de adeudo."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se realizó un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona la cuenta del ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identifica la cuenta de la entidad del ordenante."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 1 en su entidad gestora en la cadena de pago."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 2 en su entidad gestora en la cadena de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que gestiona la cuenta del beneficiario."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad gestora, en la que se realizó un abono como resultado de la operación de pago."
+    },
+    "Creditor": {
+      "definition": "Parte que recibió un importe de dinero del ordenante. En el contexto del modelo de pago, el beneficiario es también el titular de la cuenta de abono."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se contabilizó un abono como resultado de la operación de pago."
+    }
+  }
+}

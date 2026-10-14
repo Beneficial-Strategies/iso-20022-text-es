@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceAmounts6",
+  "definition": "Importes vinculados a un saldo de valores, por ejemplo, el valor de la tenencia.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Valor de una tenencia individual de un instrumento financiero dentro de una cuenta de custodia."
+    },
+    "BookValue": {
+      "definition": "Valor de un instrumento financiero, tal como se contabilizó o adquirió en una cuenta. Puede utilizarse para establecer la obligación tributaria por ganancias de capital."
+    },
+    "UnrealisedGainLoss": {
+      "definition": "Diferencia entre el valor de la posición y el valor contable."
+    }
+  }
+}

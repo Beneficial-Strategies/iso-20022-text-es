@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus66Choice",
+  "definition": "Elección entre un motivo y la ausencia de motivo para el estado de rechazo del tratamiento de la instrucción de junta general.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo no especificado."
+    },
+    "Reason": {
+      "definition": "Motivo por el que se rechaza el mensaje de instrucción de junta o la instrucción de junta individual."
+    }
+  }
+}

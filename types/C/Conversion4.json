@@ -1,0 +1,18 @@
+{
+  "isoType": "Conversion4",
+  "definition": "Identificación de un instrumento financiero.",
+  "isoElements": {
+    "SourceSecurity": {
+      "definition": "Identificación del valor de origen."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Número de participaciones del valor de origen."
+    },
+    "UnitsDetails": {
+      "definition": "Desglose de las participaciones del valor de origen."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la conversión."
+    }
+  }
+}

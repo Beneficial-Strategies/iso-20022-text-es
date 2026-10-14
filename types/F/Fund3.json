@@ -1,0 +1,44 @@
+{
+  "isoType": "Fund3",
+  "definition": "Información sobre un fondo de inversión.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre del fondo/subfondo."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identificación del fondo/subfondo con un Identificador de Entidad Jurídica. Es un código asignado a una parte según se describe en ISO 17442 \"Servicios financieros - Identificador de Entidad Jurídica (LEI)\"."
+    },
+    "Identification": {
+      "definition": "Identificador único e inequívoco del fondo/subfondo, asignado mediante un esquema de identificación formal o propio."
+    },
+    "Currency": {
+      "definition": "Divisa del fondo/subfondo."
+    },
+    "EstimatedTotalNAV": {
+      "definition": "Valor total estimado de todas las posiciones, menos los pasivos del fondo, del fondo/subfondo."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Valor total anterior de todas las posiciones, menos los pasivos del fondo, del fondo/subfondo."
+    },
+    "EstimatedTotalUnitsNumber": {
+      "definition": "Número total estimado de participaciones del fondo/subfondo."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Número total anterior de participaciones del fondo/subfondo."
+    },
+    "EstimatedPercentageOfFundTotalNAV": {
+      "definition": "Flujo neto de efectivo consolidado estimado, expresado como porcentaje del NAV total anterior del fondo/subfondo."
+    }
+  },
+  "isoRules": {
+    "FundIdentification1Rule": {
+      "definition": "Si Identification no está presente, debe estar presente Name o LegalEntityIdentifier. Pueden estar presentes a la vez Identification, Name y Legal Entity Identifier."
+    },
+    "FundIdentification2Rule": {
+      "definition": "Si Name no está presente, debe estar presente Identification o Legal Entity Identifier. Pueden estar presentes a la vez Identification, Name y Legal Entity Identifier."
+    },
+    "FundIdentification3Rule": {
+      "definition": "Si Legal Entity Identifier no está presente, debe estar presente Identification o Name. Pueden estar presentes a la vez Identification, Name y Legal Entity Identifier."
+    }
+  }
+}

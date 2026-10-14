@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestDetails5",
+  "definition": "Informe de los datos solicitados.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de datos solicitados, por ejemplo, un BIC de submiembro."
+    },
+    "RequestReference": {
+      "definition": "Referencia de la solicitud para la que se envía el informe."
+    },
+    "ReportKey": {
+      "definition": "Clave del informe y datos devueltos."
+    }
+  }
+}

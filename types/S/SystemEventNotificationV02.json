@@ -1,0 +1,4 @@
+{
+  "isoType": "SystemEventNotificationV02",
+  "definition": "Alcance|El mensaje SystemEventNotification lo envía un sistema central para notificar la ocurrencia de un evento en un sistema central.|Uso|El mensaje puede ser utilizado por un sistema central de liquidación para informar a sus participantes de un evento que va a ocurrir en el sistema, por ejemplo, que el sistema estará fuera de servicio en un momento determinado, etc."
+}

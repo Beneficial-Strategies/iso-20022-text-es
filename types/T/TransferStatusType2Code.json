@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferStatusType2Code",
+  "definition": "Especifica un tipo de estado de transferencia o de evento de transferencia.",
+  "isoCodes": {
+    "S019": {
+      "name": "Solicitud de información de tenencias de la cuenta",
+      "definition": "El informe de estado se envía en respuesta a una solicitud de información sobre posiciones de la cuenta."
+    },
+    "BCEV": {
+      "name": "Evento de cristalización de prestaciones",
+      "definition": "El informe de estado comunica que se han producido uno o varios eventos de cristalización de prestaciones (BCE)."
+    },
+    "SETT": {
+      "name": "Información de liquidación del CSD o ICSD",
+      "definition": "El informe de estado se envía para facilitar la información requerida para un tramo de liquidación de un CSD o ICSD."
+    },
+    "DRAW": {
+      "name": "Disposición",
+      "definition": "El informe de estado comunica una o varias disposiciones (drawdowns)."
+    },
+    "PAYA": {
+      "name": "Aviso de pago",
+      "definition": "El informe de estado comunica que se ha instruido o se está instruyendo efectivo."
+    },
+    "S012": {
+      "name": "Instrucción de transferencia de cartera",
+      "definition": "El informe de estado se envía en respuesta a una instrucción de transferencia de cartera."
+    },
+    "INFO": {
+      "name": "Información",
+      "definition": "El informe de estado se envía para facilitar información pertinente sobre la transferencia. Puede enviarse en respuesta a una solicitud de estado de la transferencia."
+    },
+    "STAT": {
+      "name": "Estado",
+      "definition": "El informe de estado se envía para facilitar el estado de una transferencia. Puede enviarse en respuesta a una solicitud de estado de la transferencia."
+    },
+    "S005": {
+      "name": "Instrucción de transferencia entrante",
+      "definition": "El informe de estado se envía en respuesta a una instrucción de transferencia de entrada."
+    },
+    "S001": {
+      "name": "Instrucción de transferencia saliente",
+      "definition": "El informe de estado se envía en respuesta a una instrucción de transferencia de salida."
+    },
+    "CONV": {
+      "name": "Estado de la conversión",
+      "definition": "El informe de estado se envía para facilitar el número de participaciones tras una conversión."
+    }
+  }
+}

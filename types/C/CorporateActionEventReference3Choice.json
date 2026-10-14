@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventReference3Choice",
+  "definition": "Elección entre una identificación de operación societaria o una identificación oficial de operación societaria.",
+  "isoElements": {
+    "LinkedOfficialCorporateActionEventIdentification": {
+      "definition": "Referencia oficial y única asignada por el organismo o entidad central oficial de cada mercado al comienzo de un evento de operación societaria."
+    },
+    "LinkedCorporateActionIdentification": {
+      "definition": "Referencia asignada por la entidad administradora de la cuenta para identificar sin ambigüedad un evento de operación societaria relacionado."
+    }
+  }
+}

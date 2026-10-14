@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMDeviceReport5",
+  "definition": "Información relacionada con el informe de un dispositivo del ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno de la operación."
+    },
+    "ATMGlobalStatus": {
+      "definition": "Estado global del cajero automático (ATM)."
+    },
+    "CommandResult": {
+      "definition": "Resultado de un comando de mantenimiento ejecutado por el cajero automático (ATM)."
+    },
+    "CommandContext": {
+      "definition": "Comando de mantenimiento que ha solicitado el informe del dispositivo."
+    },
+    "ATMSecurityContext": {
+      "definition": "Información relacionada con los comandos de seguridad."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "CashAccountData1",
+  "definition": "Cuenta a la que o desde la que se efectúa un apunte de efectivo.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre de la cuenta. Proporciona un medio adicional de identificación y lo designa la entidad gestora de la cuenta de acuerdo con el titular de la cuenta."
+    },
+    "Type": {
+      "definition": "Especifica la naturaleza o el uso de la cuenta de efectivo."
+    },
+    "Currency": {
+      "definition": "Especifica la moneda de la cuenta de efectivo."
+    },
+    "Proxy": {
+      "definition": "Especifica un nombre alternativo supuesto para la identificación de la cuenta."
+    },
+    "CurrentMultilateralLimit": {
+      "definition": "Importe máximo aplicado a un participante, o por este, frente a un conjunto de contrapartes. El administrador de operaciones tiene en cuenta el sistema multilateral para contener el riesgo en el sistema.|Mediante el límite multilateral, el participante directo restringe el uso de liquidez al compensar pagos con todos los demás participantes directos para los que no se ha establecido ningún límite bilateral."
+    },
+    "Owner": {
+      "definition": "Titular de la cuenta que se consulta."
+    },
+    "Servicer": {
+      "definition": "Entidad gestora de la cuenta que se consulta."
+    },
+    "MultilateralBalance": {
+      "definition": "El saldo se calcula con respecto a varios miembros del sistema."
+    },
+    "CurrentBilateralLimit": {
+      "definition": "Límite fijado por una parte A con respecto a una contraparte específica B y que corresponde al importe máximo de tráfico que la parte A puede enviar a la parte B. El límite bilateral puede expresarse como un límite de débito o un límite de crédito. |Mediante un límite bilateral, el participante directo restringe el uso de liquidez al compensar pagos con otro participante directo."
+    },
+    "StandingOrder": {
+      "definition": "Instrucción dada por una parte que tiene autoridad explícita para ordenar un adeudo en la cuenta, es decir, el ordenante o la parte originadora, a la entidad del ordenante, para procesar transferencias de liquidez a intervalos especificados durante un período de tiempo implícito o explícito. Una orden permanente se da una sola vez y es válida durante un período abierto o cerrado."
+    }
+  },
+  "isoRules": {
+    "BilateralBalanceRule": {
+      "definition": "Si MultilateralBalance no está presente, debe estar presente al menos una ocurrencia de CurrentBilateralLimit/BilateralBalance.|Si MultilateralBalance está presente, cualquier ocurrencia de CurrentBilateralLimit/BilateralBalance es opcional."
+    }
+  }
+}

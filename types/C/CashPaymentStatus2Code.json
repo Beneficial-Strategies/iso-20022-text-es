@@ -1,0 +1,14 @@
+{
+  "isoType": "CashPaymentStatus2Code",
+  "definition": "Especifica el estado de una instrucción de pago en un momento determinado.",
+  "isoCodes": {
+    "PDNG": {
+      "name": "Pendiente",
+      "definition": "El pago está a la espera de liquidación."
+    },
+    "FINL": {
+      "name": "Definitivo",
+      "definition": "El pago ha sido liquidado o detenido."
+    }
+  }
+}

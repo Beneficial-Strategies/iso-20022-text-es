@@ -1,0 +1,24 @@
+{
+  "isoType": "TransactionAndDocumentIdentification6",
+  "definition": "Detalles de identificación de la operación y del documento.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación tal como la conoce la parte instructora."
+    },
+    "DocumentIdentification": {
+      "definition": "Identificador único del documento (mensaje) asignado por el emisor del documento."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que la parte instructora creó la operación en su aplicación comercial."
+    },
+    "CopyDuplicate": {
+      "definition": "Especifica si este documento es una copia, un duplicado o un duplicado de una copia."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originó el mensaje, si es distinta del emisor."
+    },
+    "MessageRecipient": {
+      "definition": "Parte que es el destino final del mensaje, si es distinta del receptor."
+    }
+  }
+}

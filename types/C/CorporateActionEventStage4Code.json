@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventStage4Code",
+  "definition": "Especifica la etapa del evento de sorteo de una operación corporativa (CA).",
+  "isoCodes": {
+    "FULL": {
+      "name": "Cancelación y reejecución",
+      "definition": "Cancelación y repetición de un sorteo original o de un sorteo original y complementario. Un sorteo posterior se realizará en un nuevo evento."
+    },
+    "PART": {
+      "name": "Cancelación y reejecución complementarias",
+      "definition": "Cancelación y repetición únicamente de un sorteo suplementario. Se realizará un nuevo sorteo suplementario posterior en el marco del evento original."
+    },
+    "RESC": {
+      "name": "Cancelación complementaria",
+      "definition": "El emisor cancela un sorteo suplementario. No se realizará ningún sorteo posterior."
+    }
+  }
+}

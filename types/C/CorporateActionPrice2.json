@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionPrice2",
+  "definition": "Especifica precios.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Precio máximo o tope al que un titular puede pujar, por ejemplo, en una oferta de subasta holandesa."
+    },
+    "MinimumPrice": {
+      "definition": "Precio mínimo o suelo al que un titular puede pujar, por ejemplo, en una oferta de subasta holandesa."
+    }
+  }
+}

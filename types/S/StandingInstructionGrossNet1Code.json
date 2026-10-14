@@ -1,0 +1,14 @@
+{
+  "isoType": "StandingInstructionGrossNet1Code",
+  "definition": "Especifica el tipo de instrucción permanente.",
+  "isoCodes": {
+    "GROS": {
+      "name": "Bruto",
+      "definition": "Pago bruto."
+    },
+    "NETT": {
+      "name": "Neto",
+      "definition": "Pago neto."
+    }
+  }
+}

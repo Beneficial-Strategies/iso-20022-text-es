@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyStatus2Code",
+  "definition": "Especifica el estado de la penalización.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Activo",
+      "definition": "La penalización está activa para la parte."
+    },
+    "NCOM": {
+      "name": "No calculado",
+      "definition": "No se pudo calcular la penalización."
+    },
+    "REMO": {
+      "name": "Eliminado",
+      "definition": "Eliminación de una penalización en efectivo cuando la liquidación no puede realizarse por motivos ajenos a cualquiera de los participantes del CSD o al propio CSD."
+    }
+  }
+}

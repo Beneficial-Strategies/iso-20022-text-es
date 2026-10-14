@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingTransaction38",
+  "definition": "Identifica la solicitud o solicitudes a las que se aplica la cancelación.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Proporciona información sobre el mensaje original."
+    },
+    "OriginalRequestIdentification": {
+      "definition": "Identificación del CashDepositRequest o CashWithdrawalRequest original."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Proporciona información detallada sobre el motivo de la cancelación."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportingSource1Choice",
+  "definition": "Especifica la fuente utilizada para generar la información.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fuente de la información, tal como se publica en una lista de códigos externa de fuentes de información."
+    },
+    "Proprietary": {
+      "definition": "Fuente de la información, en forma propia."
+    }
+  }
+}

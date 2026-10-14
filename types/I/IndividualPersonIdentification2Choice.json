@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPersonIdentification2Choice",
+  "definition": "Elección de formatos para la identificación de una persona física.",
+  "isoElements": {
+    "IdentificationNumber": {
+      "definition": "Identificación de una parte, como un identificador fiscal o de la seguridad social."
+    },
+    "PersonName": {
+      "definition": "Entidad humana, por oposición a una entidad corporativa (a la que a veces se denomina «persona jurídica»)."
+    }
+  }
+}

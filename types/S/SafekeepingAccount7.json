@@ -1,0 +1,27 @@
+{
+  "isoType": "SafekeepingAccount7",
+  "definition": "Cuenta en la que se realiza una anotación de valores.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular, es decir, gestiona el registro y la contabilización de los apuntes de la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "BeneficialOwner": {
+      "definition": "Persona o entidad que tiene en última instancia derecho al beneficio de los ingresos y derechos de un instrumento financiero, a diferencia de un propietario nominal o legal."
+    },
+    "BalanceDetails": {
+      "definition": "Informe sobre la posición neta de un instrumento financiero en la cuenta, para una fecha determinada. También puede especificarse el agente, por ejemplo, un intermediario de la operación."
+    },
+    "AccountSubLevel1": {
+      "definition": "Tenencias del nivel 1."
+    },
+    "AccountSubLevel1Difference": {
+      "definition": "Diferencia de tenencias entre la cuenta de valores en custodia y las subcuentas del nivel 1."
+    }
+  }
+}

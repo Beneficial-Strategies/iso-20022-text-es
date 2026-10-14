@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateAmendment8",
+  "definition": "Identifica el mandato que se va a modificar y proporciona detalles del nuevo mandato.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "definition": "Proporciona información sobre el mensaje original."
+    },
+    "AmendmentReason": {
+      "definition": "Proporciona información detallada sobre el motivo de la modificación."
+    },
+    "Mandate": {
+      "definition": "Proporciona los datos modificados del mandato."
+    },
+    "OriginalMandate": {
+      "definition": "Proporciona los datos del mandato original."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

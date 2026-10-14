@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateCancellationRequestV08",
+  "definition": "Alcance|El mensaje MandateCancellationRequest lo envía el iniciador de la solicitud a su entidad. El iniciador puede ser el ordenante o el beneficiario.|El mensaje MandateCancellationRequest lo reenvía la entidad del iniciador a la entidad de la contraparte.|Un mensaje MandateCancellationRequest se utiliza para solicitar la cancelación de un mandato existente. Si se acepta, este mensaje MandateCancellationRequest, junto con el mensaje MandateAcceptanceReport que confirma la aceptación, se considerará una cancelación válida de un mandato existente, acordada por todas las partes.|Uso|El mensaje MandateCancellationRequest puede contener una o varias solicitudes de cancelación de un mandato específico.|Los mensajes pueden intercambiarse entre el beneficiario y la entidad del beneficiario, entre el ordenante y la entidad del ordenante, y entre la entidad del beneficiario y la entidad del ordenante.|El mensaje también puede ser utilizado por una parte iniciadora que tenga autoridad para enviarlo en nombre del beneficiario o del ordenante.|El mensaje MandateCancellationRequest puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

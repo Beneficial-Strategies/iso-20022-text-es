@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeCancellationReason1Choice",
+  "definition": "Especifica el motivo de la solicitud de cancelación de la presentación de un cheque.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo, tal como se publica en un conjunto de códigos externo."
+    },
+    "Proprietary": {
+      "definition": "Motivo, en formato propietario."
+    }
+  }
+}

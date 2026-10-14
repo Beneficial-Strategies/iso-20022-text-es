@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionAmendmentStatus1Choice",
+  "definition": "Elección entre los distintos estados de una solicitud de modificación de elección.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Proporciona información sobre el estado de procesamiento de la solicitud."
+    },
+    "RejectedStatus": {
+      "definition": "Proporciona información sobre el estado de rechazo."
+    }
+  }
+}

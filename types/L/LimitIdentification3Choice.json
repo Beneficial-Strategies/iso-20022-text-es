@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitIdentification3Choice",
+  "definition": "Detalles de un límite concreto establecido por el miembro y gestionado por el administrador de operaciones.",
+  "isoElements": {
+    "Current": {
+      "definition": "Identificación del límite vigente."
+    },
+    "Default": {
+      "definition": "Identificación del límite por defecto."
+    },
+    "AllCurrent": {
+      "definition": "Identificación de todos los límites vigentes."
+    },
+    "AllDefault": {
+      "definition": "Identificación de todos los límites por defecto."
+    }
+  }
+}

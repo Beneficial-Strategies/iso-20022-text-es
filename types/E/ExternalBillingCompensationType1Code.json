@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalBillingCompensationType1Code",
+  "definition": "Especifica el tipo de compensación de facturación que se aplicará, tal como se publica en un conjunto de códigos externo de tipos de compensación de facturación.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "BACS": {
+      "name": "Servicios compensables con saldo",
+      "definition": "Importe total de los cargos por servicios que pueden compensarse con un abono por bonificación de rendimientos. Dichos servicios llevan un código de método de pago «Balance Compensable». Este importe está incluido en SettleChargeTtl-Current Period (código AFP 00 03 00). Este valor debe enviarse si la entidad ofrece un abono por rendimientos basado en saldos de depósito. Código AFP=00 03 31"
+    },
+    "CTND": {
+      "name": "Gastos e impuestos netos adeudados en este extracto",
+      "definition": "Importe adeudado a la entidad por el periodo de liquidación, después de todos los ajustes y deducciones. Incluye tanto los cargos por servicios como los impuestos. Si no se adeuda nada, este valor debe enviarse como cero. Código AFP=00 03 14"
+    },
+    "DEAD": {
+      "name": "Bonificación por rendimientos deficitaria adeudada en este extracto",
+      "definition": "Importe adeudado a la entidad por cargos de servicios compensables con saldo que exceden la bonificación de rendimientos del periodo de liquidación. Este importe debe ser igual al valor absoluto de ExcessDeficitEarningsAllowance-Adjusted (código AFP 00 02 44). Este valor debe enviarse si la entidad ofrece un abono por rendimientos basado en saldos de depósito. Código AFP=00 02 47"
+    },
+    "EALL": {
+      "name": "Bonificación por rendimientos",
+      "definition": "Valor de los saldos mantenidos durante el periodo del extracto que pueden utilizarse para compensar los cargos por servicios compensables con saldo. Este valor debe enviarse si la entidad ofrece un abono por rendimientos basado en saldos de depósito. Código AFP=00 02 40"
+    },
+    "EANA": {
+      "name": "Ajuste neto de la bonificación por rendimientos",
+      "definition": "Valor neto de los ajustes de saldo y/o de tipo correspondientes a períodos anteriores que se aplicarán a la bonificación excedente/(deficitaria) actual. AFP code=00 02 43"
+    },
+    "EDAA": {
+      "name": "Exceso o déficit de la bonificación por rendimientos ajustado",
+      "definition": "Bonificación por ingresos excedente/(deficitaria) del período de análisis, más o menos cualquier bonificación neta por ingresos y/o ajustes de comisiones de servicio compensables con saldo. Obsérvese que, en ausencia de EarningsAllowance-NetAdjust (AFP code 00 02 43), se prefiere este saldo en lugar de ExcessDeficitEarningsAllowance (AFP code 00 02 41). Este valor debe enviarse si la entidad ofrece un crédito por ingresos basado en los saldos de los depósitos. AFP code=00 02 44"
+    },
+    "EDAL": {
+      "name": "Exceso o déficit de la bonificación por rendimientos",
+      "definition": "Diferencia entre la bonificación por ingresos y las comisiones de servicio compensables con saldo. Existe bonificación excedente cuando la bonificación por ingresos supera el total de las comisiones de servicio compensables con saldo. Existe bonificación deficitaria cuando el total de las comisiones de servicio compensables con saldo supera la bonificación por ingresos. Las bonificaciones excedentes pueden trasladarse a futuros períodos de extracto a discreción de la entidad. Las bonificaciones deficitarias suelen reflejarse como cargos adeudados a la entidad en forma de DeficitEarningsAllowanceDueThisStmt (AFP code 00 02 47). Este valor debe enviarse si la entidad ofrece un crédito por ingresos basado en los saldos de los depósitos. AFP code=00 02 41"
+    },
+    "FESS": {
+      "name": "Comisiones pagadas",
+      "definition": "Cargos de un período de facturación anterior que han sido pagados. AFP code=00 03 22"
+    },
+    "FREE": {
+      "name": "Servicios gratuitos",
+      "definition": "Importe total de las comisiones de servicio, según figuran en las secciones de servicios, que se prestan sin coste. Dichos servicios llevan un código de método de pago \"FREE\" (Free). Este importe está incluido en SettleChargetTL-Current Period (AFP code 00 03 00). Debe enviarse si existe algún servicio \"gratuito\" en las secciones de servicios. Se presupone que los servicios \"exentos\" y \"gratuitos\" no están sujetos a impuestos. AFP code=00 03 36"
+    },
+    "NBCS": {
+      "name": "Servicios no compensables con saldo",
+      "definition": "Importe total de las comisiones de servicio adeudadas a la fecha de este extracto que no pueden compensarse con una bonificación por ingresos. Dichos servicios llevan un código de método de pago \"FLAT\" (HardCharge). Este importe está incluido en SettleChargeTtl-CurrentPeriod (AFP code 00 03 00 ). AFP code=00 03 00"
+    },
+    "PVCS": {
+      "name": "Servicios cobrados anteriormente",
+      "definition": "Importe total de las comisiones de servicio que figuran en las secciones de servicios pero que fueron cobradas con anterioridad y que, por tanto, no son adeudadas. Dichos servicios llevan un código de método de pago \"PVCH\" (PreviouslyCharged). Este importe está incluido en SettleChargetTL-CurrentPeriod (AFP code 00 03 00). Debe enviarse si existe algún servicio \"cobrado previamente\" en las secciones de servicios. AFP code=00 03 35"
+    },
+    "SCAB": {
+      "name": "Ajuste neto de comisiones de servicio compensables con saldo",
+      "definition": "Valor neto de los ajustes de las comisiones de servicio compensables con saldo de uno o varios períodos anteriores que se aplicarán a la bonificación excedente/(deficitaria) actual. AFP cod=00 03 32"
+    },
+    "SCAN": {
+      "name": "Ajuste neto de comisiones de servicio no compensables con saldo",
+      "definition": "Total de todos los ajustes de comisiones de servicio que no pueden compensarse con una bonificación por ingresos. Puede ser un número con signo positivo o negativo. AFP code=00 03 33"
+    },
+    "SCBT": {
+      "name": "Comisiones de servicio debidas antes de impuestos",
+      "definition": "Importe total de las comisiones de servicio adeudadas, sin incluir los impuestos adeudados. AFP code=00 03 11"
+    },
+    "SCCP": {
+      "name": "Total de comisiones a liquidar del período actual",
+      "definition": "Total de cargos antes del abono por los servicios prestados durante el período de extracto actual. Este total es la suma aritmética de todos los cargos indicados en el elemento Settlement Amount de las secciones de servicios del extracto, con independencia del código de método de pago. Incluye todos los cargos compensables con saldo, los cargos fijos, los cargos cobrados previamente, los cargos exentos y los cargos gratuitos. No incluye ningún impuesto relacionado con los servicios. AFP code=00 03 00"
+    },
+    "SCDB": {
+      "name": "Comisiones de servicio adeudadas",
+      "definition": "Importe de ChargesAndTaxes-NetDueThisStmt (AFP code 00 03 14 ) que se adeuda directamente en la cuenta del cliente. AFP code=00 03 50"
+    },
+    "SCDI": {
+      "name": "Descuento en comisiones de servicio",
+      "definition": "Importe total de cualquier descuento en las comisiones de servicio. AFP code=00 03 41"
+    },
+    "SCIN": {
+      "name": "Comisiones de servicio facturadas",
+      "definition": "Importe de ChargesAndTaxes-NetDueThisStmt (AFP code 00 03 14 ) que se factura. AFP code=00 03 A0"
+    },
+    "TICD": {
+      "name": "Total de intereses abonados",
+      "definition": "Importe total de intereses fijos abonados en una cuenta designada. El importe de intereses fijos abonados, si lo hubiera, se calcula aplicando el tipo de Interest Credited a un saldo negativo, tal como se indica en la sección de saldos con un identificador de saldo ExcessDeficitCollectedBal (AFP code 00 04 12). AFP code=00 00 76"
+    },
+    "TXSC": {
+      "name": "Comisiones de servicio sujetas a impuestos",
+      "definition": "Importe total de las comisiones de servicio que estaban sujetas a impuestos. AFP code=00 03 13"
+    },
+    "TXTS": {
+      "name": "Suma total de impuestos",
+      "definition": "Suma de todos los valores de impuestos individuales contenidos en las secciones de servicios individuales o en las secciones de impuestos. AFP code=00 03 60"
+    },
+    "WAIV": {
+      "name": "Servicios exonerados",
+      "definition": "Importe de las comisiones de servicio que de otro modo serían adeudadas y que quedan exentas en este extracto. Dichos servicios llevan un código de método de pago \"WVED\" (Waived). Obsérvese que este importe no incluye los servicios gratuitos por partida (AFP code 00 03 36). Este importe está incluido en SettleChargetTL-Current Period (AFP code 00 03 00). Dichas exenciones o servicios gratuitos por partida no se trasladan a los cálculos de compensación. Se presupone que los servicios \"exentos\" y \"gratuitos\" no están sujetos a impuestos. afp CODE=00 03 40"
+    }
+  }
+}

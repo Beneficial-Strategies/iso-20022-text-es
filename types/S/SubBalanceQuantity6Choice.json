@@ -1,0 +1,15 @@
+{
+  "isoType": "SubBalanceQuantity6Choice",
+  "definition": "Elección entre formatos para la información del saldo.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Cantidad de valores en el subsaldo."
+    },
+    "Proprietary": {
+      "definition": "Cantidad de valores en el subsaldo."
+    },
+    "QuantityAndAvailability": {
+      "definition": "Cantidad de valores del subsaldo y si el saldo está disponible."
+    }
+  }
+}

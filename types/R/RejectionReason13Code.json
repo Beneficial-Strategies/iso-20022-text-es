@@ -1,0 +1,26 @@
+{
+  "isoType": "RejectionReason13Code",
+  "definition": "Especifica el motivo del rechazo de un movimiento.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    },
+    "SAID": {
+      "name": "Misma identificación",
+      "definition": "Varios mensajes con la misma identificación."
+    },
+    "INID": {
+      "name": "Identificación no válida",
+      "definition": "La instrucción contiene una identificación de mensaje no válida; la identificación es desconocida."
+    },
+    "REFI": {
+      "name": "Identificación de CA no válida",
+      "definition": "Se ha facilitado una identificación de operación societaria no válida."
+    },
+    "MICA": {
+      "name": "Identificación de CA no coincidente",
+      "definition": "La identificación del evento corporativo del emisor no corresponde con la identificación del evento corporativo proporcionada (CA)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryStatusJustification2",
+  "definition": "Define el motivo propio del rechazo de una operación.",
+  "isoElements": {
+    "ProprietaryStatusReason": {
+      "definition": "Define el motivo por el que el sistema ha rechazado la operación."
+    },
+    "Reason": {
+      "definition": "Proporciona información detallada sobre el motivo por el que el sistema ha rechazado la operación."
+    }
+  }
+}

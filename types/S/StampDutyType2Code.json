@@ -1,0 +1,14 @@
+{
+  "isoType": "StampDutyType2Code",
+  "definition": "Especifica si es aplicable el impuesto de timbre.",
+  "isoCodes": {
+    "ASTD": {
+      "name": "Aplicable",
+      "definition": "Es aplicable el impuesto de timbre."
+    },
+    "SDRN": {
+      "name": "No aplicable",
+      "definition": "Impuesto de timbre no aplicable."
+    }
+  }
+}

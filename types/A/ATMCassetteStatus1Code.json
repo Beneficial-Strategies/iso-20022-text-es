@@ -1,0 +1,46 @@
+{
+  "isoType": "ATMCassetteStatus1Code",
+  "definition": "Estado de un cartucho en un cajero automático (ATM).",
+  "isoCodes": {
+    "CUOK": {
+      "name": "Correcto",
+      "definition": "La unidad de efectivo está en buen estado."
+    },
+    "CUFL": {
+      "name": "Lleno",
+      "definition": "La unidad de efectivo está llena."
+    },
+    "CUHG": {
+      "name": "Alto",
+      "definition": "La unidad de efectivo está en nivel alto, es decir, ha alcanzado o superado el umbral definido para este cartucho."
+    },
+    "CULW": {
+      "name": "Bajo",
+      "definition": "La unidad de efectivo está en nivel bajo, es decir, ha alcanzado o está por debajo del umbral definido para este cartucho."
+    },
+    "CUMT": {
+      "name": "Vacío",
+      "definition": "La unidad de efectivo está vacía."
+    },
+    "CUNP": {
+      "name": "Inoperativo",
+      "definition": "La unidad de efectivo está inoperativa."
+    },
+    "CUMS": {
+      "name": "Ausente",
+      "definition": "Falta la unidad de efectivo."
+    },
+    "CUNA": {
+      "name": "No disponible",
+      "definition": "Los valores de esta unidad de efectivo no están disponibles."
+    },
+    "CUNR": {
+      "name": "Sin referencia",
+      "definition": "No hay valores de referencia disponibles para esta unidad de efectivo."
+    },
+    "CUMP": {
+      "name": "Manipulado",
+      "definition": "El dispositivo se ha insertado cuando no estaba en estado de intercambio."
+    }
+  }
+}

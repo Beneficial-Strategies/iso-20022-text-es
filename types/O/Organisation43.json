@@ -1,0 +1,60 @@
+{
+  "isoType": "Organisation43",
+  "definition": "Estructura organizada constituida con un fin determinado. Por ejemplo, una empresa, un organismo público, un departamento, una organización benéfica o una entidad financiera.",
+  "isoElements": {
+    "FullLegalName": {
+      "definition": "Nombre por el que se conoce a una parte y que suele utilizarse para identificarla."
+    },
+    "TradingName": {
+      "definition": "Nombre utilizado por una empresa con fines comerciales, aunque su denominación legal registrada, utilizada para contratos y otras situaciones formales, pueda ser otra."
+    },
+    "OrganisationLegalStatus": {
+      "definition": "Estado de una persona jurídica."
+    },
+    "EstablishedDate": {
+      "definition": "La fecha de establecimiento o fundación de una institución es la fecha que dicha institución elige como punto de partida."
+    },
+    "RegistrationNumber": {
+      "definition": "Número de registro de la organización."
+    },
+    "RegistrationCountry": {
+      "definition": "País en el que está registrada la organización."
+    },
+    "RegistrationDate": {
+      "definition": "Fecha en que una organización determinada fue registrada oficialmente."
+    },
+    "TaxationIdentificationNumber": {
+      "definition": "Número de referencia fiscal único."
+    },
+    "TaxationCountry": {
+      "definition": "País de tributación de una persona física o de una organización."
+    },
+    "CountryOfOperation": {
+      "definition": "País en el que la organización desarrolla su actividad empresarial."
+    },
+    "BoardResolutionIndicator": {
+      "definition": "Indica que el banco nuevo posee una copia de la resolución del consejo de administración de una sociedad registrada para el cambio de cuenta."
+    },
+    "BusinessAddress": {
+      "definition": "Dirección donde se desarrolla la actividad empresarial."
+    },
+    "OperationalAddress": {
+      "definition": "Dirección, por ejemplo, de un centro de servicios compartidos."
+    },
+    "LegalAddress": {
+      "definition": "Dirección donde reside y está registrada la entidad. De forma más genérica, es la dirección del domicilio (dirección residencial)."
+    },
+    "RepresentativeOfficer": {
+      "definition": "Persona de la organización del cliente con la que puede contactar la entidad gestora de la cuenta."
+    },
+    "TreasuryManager": {
+      "definition": "Persona responsable del departamento de tesorería dentro de una organización."
+    },
+    "MainMandateHolder": {
+      "definition": "Persona que delegará cierta autoridad en otras personas (apoderados) para realizar determinadas operaciones bancarias en la cuenta."
+    },
+    "Sender": {
+      "definition": "Remitente de un mensaje relacionado con el ciclo de vida de una cuenta."
+    }
+  }
+}

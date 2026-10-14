@@ -1,0 +1,23 @@
+{
+  "isoType": "SettlementInstruction14",
+  "definition": "Proporciona detalles adicionales sobre la liquidación de la instrucción.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Método utilizado para liquidar la instrucción (o el lote de instrucciones) de pago."
+    },
+    "SettlementAccount": {
+      "definition": "Cuenta de finalidad específica utilizada para contabilizar los apuntes de débito y crédito derivados de la operación."
+    },
+    "ClearingSystem": {
+      "definition": "Especificación de una oferta previamente acordada entre entidades de compensación o del canal a través del cual se procesa la instrucción de pago."
+    }
+  },
+  "isoRules": {
+    "SettlementMethodAgentRule": {
+      "definition": "Si SettlementMethod es igual a INDA o INGA, ClearingSystem no está permitido."
+    },
+    "SettlementMethodClearingRule": {
+      "definition": "Si SettlementMethod es igual a CLRG, entonces ClearingSystem debe estar presente y SettlementAccount no está permitido."
+    }
+  }
+}

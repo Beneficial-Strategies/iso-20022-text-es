@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountForAction2",
+  "definition": "Cuenta a la que o desde la que se efectúa un apunte de efectivo.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "Name": {
+      "definition": "Nombre de la cuenta. En caso de conflicto entre la identificación de la cuenta y el nombre de la cuenta, se recomienda que el administrador de la cuenta solicite una aclaración mediante el mensaje de solicitud de información adicional."
+    },
+    "Currency": {
+      "definition": "Medio de intercambio de valor."
+    }
+  }
+}

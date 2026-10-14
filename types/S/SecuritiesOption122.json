@@ -1,0 +1,77 @@
+{
+  "isoType": "SecuritiesOption122",
+  "definition": "Proporciona información sobre la opción de valores de la operación societaria.",
+  "isoElements": {
+    "SecurityDetails": {
+      "definition": "Proporciona la descripción del instrumento financiero relacionado con el movimiento de valores."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el valor es un débito o un crédito."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Especifica que el valor identificado es una identificación temporal de valor utilizada por motivos de procesamiento, por ejemplo, el valor de contrapartida utilizado en US"
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Especifica información sobre los recursos de salida que no pueden ser procesados por el depositario central de valores (CSD). Se requiere una instrucción especial de entrega del titular de la cuenta para que se abone el resultado de la operación societaria."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "definition": "Los fondos tributan según la información facilitada por el emisor / oferente."
+    },
+    "NewSecuritiesIssuanceIndicator": {
+      "definition": "Especifica la naturaleza de la emisión de valores."
+    },
+    "IncomeType": {
+      "definition": "Especifica el tipo de ingreso.|Las listas de códigos de tipo de ingreso que deben utilizarse están disponibles en el sitio web de SMPG en www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "definition": "Tipo de ingreso que se utilizará en otro régimen fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Especifica la base de la retención reducida."
+    },
+    "EntitledQuantity": {
+      "definition": "Cantidad de valores basada en las condiciones del evento de operación societaria y el saldo de valores subyacentes al que tiene derecho el titular de la cuenta. (Esta cantidad puede ser positiva o negativa)."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lugar donde los instrumentos financieros están o estarán en custodia."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indica el país de origen del ingreso."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo."
+    },
+    "CurrencyOption": {
+      "definition": "Divisa en la que se abonará o adeudará el producto en efectivo."
+    },
+    "TradingPeriod": {
+      "definition": "Período durante el cual los valores intermedios o de salida son negociables en un mercado secundario."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con el movimiento de valores."
+    },
+    "RateDetails": {
+      "definition": "Proporciona información sobre los tipos relacionados con el movimiento de valores."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con el movimiento de valores."
+    },
+    "AmountDetails": {
+      "definition": "Proporciona información sobre los importes relacionados con un movimiento de valores."
+    }
+  },
+  "isoRules": {
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "IssuerOfferorTaxabilityIndicator solo puede utilizarse cuando no se facilita ningún tipo impositivo en el mensaje y no debe utilizarse en eventos como dividendos o intereses.|La lista de códigos propietarios de IssuerOfferorTaxabilityIndicator que pueden utilizarse figura en el documento \" TXAP Taxability Codes\" disponible en el sitio web del SMPG en www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "Las listas de códigos de tipo de ingreso que deben utilizarse en IncomeType se facilitan en el documento \"ETYP-ITYP Exemption & Income Type Codes\", disponible en el sitio web de SMPG en www.smpg.info."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Las listas de códigos de tipo de exención que deben utilizarse en ExemptionType se facilitan en el documento \"ETYP-ITYP Exemption & Income Type Codes\", disponible en el sitio web de SMPG en www.smpg.info."
+    },
+    "IncomeType1Rule": {
+      "definition": "Si está presente al menos una aparición de OtherIncomeType, entonces IncomeType debe estar presente."
+    }
+  }
+}

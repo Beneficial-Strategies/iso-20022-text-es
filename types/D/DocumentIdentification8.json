@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification8",
+  "definition": "Identifica el documento mediante una identificación única y, opcionalmente, la fecha y hora de creación del documento.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única del documento."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora de creación del documento."
+    }
+  }
+}

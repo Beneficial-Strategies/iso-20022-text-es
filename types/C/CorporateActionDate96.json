@@ -1,0 +1,116 @@
+{
+  "isoType": "CorporateActionDate96",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "AnnouncementDate": {
+      "definition": "Fecha y hora en que el emisor anunció que tendrá lugar un evento de operación societaria."
+    },
+    "CertificationDeadline": {
+      "definition": "Plazo límite en que debe enviarse la certificación."
+    },
+    "CourtApprovalDate": {
+      "definition": "Fecha en la que el tribunal dio su aprobación."
+    },
+    "EarlyClosingDate": {
+      "definition": "Primera fecha posible de cierre anticipado de una oferta, si es distinta de la fecha de vencimiento."
+    },
+    "EffectiveDate": {
+      "definition": "Fecha y hora en que un evento es oficialmente efectivo desde la perspectiva del emisor."
+    },
+    "EqualisationDate": {
+      "definition": "Fecha y hora en que la totalidad o parte de cualquier participación comprada en un fondo de inversión se trata como capital en lugar de ingreso. Normalmente es un día después de la fecha ex de la distribución anterior."
+    },
+    "FurtherDetailedAnnouncementDate": {
+      "definition": "Fecha y hora en que se anunciará información adicional sobre el evento, por ejemplo, la fecha de anuncio de la relación de canje."
+    },
+    "FixingDate": {
+      "definition": "Fecha y hora en que se determinará un índice / tasa / precio / valor."
+    },
+    "LotteryDate": {
+      "definition": "Fecha y hora en que se realiza el sorteo y se aplica a las posiciones del titular. Esto también es aplicable a las amortizaciones parciales."
+    },
+    "NewMaturityDate": {
+      "definition": "Fecha y hora hasta la que se prorroga la fecha de vencimiento de un valor que devenga intereses."
+    },
+    "MeetingDate": {
+      "definition": "Fecha y hora en que se celebrará la junta de obligacionistas o de accionistas."
+    },
+    "MarginFixingDate": {
+      "definition": "Fecha y hora en que se determinará la tasa del margen."
+    },
+    "ProrationDate": {
+      "definition": "Fecha y hora (y hora) en que un emisor determinará el importe/cantidad de prorrateo de una oferta."
+    },
+    "RecordDate": {
+      "definition": "Fecha y hora en que se fijan las posiciones al cierre del día para determinar qué partes recibirán el importe de derechos correspondiente, pagadero en la fecha de pago."
+    },
+    "RegistrationDeadline": {
+      "definition": "Fecha y hora en que se aceptarán las instrucciones de registro o los datos de registro."
+    },
+    "ResultsPublicationDate": {
+      "definition": "Fecha y hora en que se publican los resultados, por ejemplo, los resultados de una oferta."
+    },
+    "DeadlineToSplit": {
+      "definition": "Plazo límite en que deben recibirse las instrucciones para dividir valores, por ejemplo, certificados físicos."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "definition": "Fecha y hora hasta la que se aceptarán las instrucciones de desglose fiscal."
+    },
+    "TradingSuspendedDate": {
+      "definition": "Fecha y hora en que se suspende la negociación de un valor como resultado de un evento."
+    },
+    "UnconditionalDate": {
+      "definition": "Fecha y hora en que las condiciones de la oferta pública de adquisición pasan a ser incondicionales en cuanto a las aceptaciones."
+    },
+    "WhollyUnconditionalDate": {
+      "definition": "Fecha y hora en que se han cumplido todas las condiciones, incluidas las regulatorias, legales, etc., relativas a la oferta pública de adquisición."
+    },
+    "ExDividendDate": {
+      "definition": "Fecha y hora a partir de la cual la negociación (incluida la negociación en bolsa y OTC) del valor subyacente se realiza sin el beneficio."
+    },
+    "OfficialAnnouncementPublicationDate": {
+      "definition": "Fecha y hora en que la operación societaria se anuncia legalmente por un organismo oficial, por ejemplo, mediante publicación de una administración gubernamental."
+    },
+    "SpecialExDate": {
+      "definition": "Fecha y hora a partir de la cual los participantes pueden empezar a utilizar el \"tratamiento especial\" para ese evento. El tratamiento especial es un medio de marcar una operación que normalmente se negociaría ex o cum como negociada cum o ex respectivamente; por ejemplo, una operación cerrada como \"especial\" después de la fecha ex haría que el comprador tuviera derecho a los derechos. Se utiliza típicamente en los mercados del UK e irlandés."
+    },
+    "GuaranteedParticipationDate": {
+      "definition": "Última fecha y hora hasta la que una contraparte compradora de una operación puede estar segura de que tendrá derecho a participar en un evento."
+    },
+    "ElectionToCounterpartyMarketDeadline": {
+      "definition": "Plazo límite en que un titular con derecho debe comunicar a su contraparte en una operación su elección para un evento de operación societaria, también conocido como Buyer Protection Deadline."
+    },
+    "ElectionToCounterpartyResponseDeadline": {
+      "definition": "Fecha y hora fijada por la entidad gestora de la cuenta como plazo límite para responder, con instrucciones, antes del plazo límite de elección frente a la contraparte del mercado."
+    },
+    "LapsedDate": {
+      "definition": "Fecha y hora en que un evento/oferta finaliza o caduca."
+    },
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe tener lugar el movimiento (de efectivo y/o de valores)."
+    },
+    "ThirdPartyDeadline": {
+      "definition": "Fecha y hora en que el titular de la cuenta debe dar instrucciones directamente a otra parte, por ejemplo, para facilitar documentación a un agente del emisor."
+    },
+    "EarlyThirdPartyDeadline": {
+      "definition": "Fecha y hora fijada por el agente del emisor como primer plazo límite anticipado en que el titular de la cuenta debe dar instrucciones directamente a otra parte, lo que posiblemente da al titular derecho a incentivos. Por ejemplo, para facilitar documentación a un agente del emisor."
+    },
+    "MarketClaimTrackingEndDate": {
+      "definition": "Fecha en que el depositario deja de supervisar las actividades del evento, por ejemplo, finalizan las actividades de contabilidad y seguimiento de los due bills."
+    },
+    "LeadPlaintiffDeadline": {
+      "definition": "Último día en que un inversor puede convertirse en demandante principal."
+    },
+    "FilingDate": {
+      "definition": "Fecha en que se presentó la acción ante el tribunal competente."
+    },
+    "HearingDate": {
+      "definition": "Fecha de la audiencia entre el demandante y el demandado, fijada por el tribunal."
+    }
+  },
+  "isoRules": {
+    "EffectiveDateRule": {
+      "definition": "La fecha efectiva debe utilizarse en eventos en los que no existe el concepto de derecho, por ejemplo el cambio de nombre (CHAN) o el lugar de constitución (PLAC), y en eventos en los que existe una noción de elegibilidad pero con una obligación legal, por ejemplo la fusión (MRGR)."
+    }
+  }
+}

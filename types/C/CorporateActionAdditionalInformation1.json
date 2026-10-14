@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionAdditionalInformation1",
+  "definition": "Proporciona información adicional sobre los datos de entrega, los datos del titular real, etc.",
+  "isoElements": {
+    "BeneficialOwnerDetails": {
+      "definition": "Proporciona información sobre el titular real de los valores."
+    },
+    "RegistrationDetails": {
+      "definition": "Proporciona la información requerida para el registro."
+    },
+    "ReceiverIdentification": {
+      "definition": "Identificación del receptor de los recursos entregados (efectivo/valores) en caso de que los recursos deban entregarse fuera del CSD."
+    },
+    "CertificationIndicator": {
+      "definition": "Indica si se requiere o no certificación del titular de la cuenta. |Y: se requiere certificación |N: no se requiere certificación."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificación que se requiere."
+    },
+    "DeliveryDetails": {
+      "definition": "Proporciona información sobre los datos de entrega de los productos."
+    },
+    "AdditionalInstruction": {
+      "definition": "Proporciona detalles adicionales relativos a la instrucción de evento corporativo."
+    }
+  }
+}

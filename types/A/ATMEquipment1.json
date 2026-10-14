@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMEquipment1",
+  "definition": "Equipo terminal del cajero automático (ATM).",
+  "isoElements": {
+    "Manufacturer": {
+      "definition": "Fabricante del cajero automático (ATM)."
+    },
+    "Model": {
+      "definition": "Modelo del cajero automático (ATM)."
+    },
+    "SerialNumber": {
+      "definition": "Número de serie del cajero automático (ATM)."
+    },
+    "ApplicationProvider": {
+      "definition": "Proveedor del software de aplicación del cajero automático (ATM)."
+    },
+    "ApplicationName": {
+      "definition": "Nombre del producto de software."
+    },
+    "ApplicationVersion": {
+      "definition": "Versión actual del software, que puede incluir el número de publicación."
+    },
+    "ApprovalNumber": {
+      "definition": "Número de evaluación único del componente."
+    },
+    "ConfigurationParameter": {
+      "definition": "Versión de los parámetros de configuración."
+    }
+  }
+}

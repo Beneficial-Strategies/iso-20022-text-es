@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesStatusOrStatementQueryStatusAdviceV08",
+  "definition": "Ámbito|Una entidad gestora de cuentas envía un SecuritiesStatusOrStatementQueryStatusAdvice a un titular de cuenta para comunicar el estado de una consulta de estado o de extracto enviada previamente por el titular de la cuenta.|La relación entre entidad gestora y titular de la cuenta puede ser:|- un depositario central de valores u otra infraestructura de mercado de liquidación que actúa en nombre de sus participantes|- un agente (subcustodio) que actúa en nombre de su cliente custodio global, o|- un custodio que actúa en nombre de una entidad de gestión de inversiones o de un corredor/operador.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    }
+  }
+}

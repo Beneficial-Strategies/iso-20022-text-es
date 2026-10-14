@@ -1,0 +1,20 @@
+{
+  "isoType": "RequestHandling4",
+  "definition": "Explica el estado de la solicitud relacionada.",
+  "isoElements": {
+    "Status": {
+      "definition": "Especifica el estado de la solicitud, por ejemplo el resultado de la validación del esquema o un resultado/error del procesamiento comercial."
+    },
+    "StatusReason": {
+      "definition": "Proporciona información detallada sobre el motivo del estado."
+    },
+    "Description": {
+      "definition": "Descripción del estado, en texto de formato libre."
+    }
+  },
+  "isoRules": {
+    "DescriptionRule": {
+      "definition": "Si Description está presente, Status/Code no está permitido."
+    }
+  }
+}

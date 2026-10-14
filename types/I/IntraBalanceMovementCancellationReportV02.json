@@ -1,0 +1,18 @@
+{
+  "isoType": "IntraBalanceMovementCancellationReportV02",
+  "definition": "El mensaje IntraBalanceMovementCancellationReport lo envía una infraestructura de liquidación a un titular de cuenta/solicitante para proporcionar los detalles completos o los valores de estado actuales de las solicitudes de cancelación de movimiento entre saldos, según lo definido en la consulta.||El mensaje también puede utilizarse para: |- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es \"Duplicate\") |- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es \"Copy\") |- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es igual a Yes (true o 1), ReportOrError debe estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es igual a No (false o 0), ReportOrError debe estar ausente."
+    },
+    "QueryTypeFullRule": {
+      "definition": "Si ReportGeneralDetails/QueryType es igual a Full, ReportOrError/Cancellations(*)/Cancellation/TransactionIdentification y ReportOrError/Cancellations(*)/Cancellation/UnderlyingIntraBalance deben estar presentes."
+    },
+    "QueryTypeStatusRule": {
+      "definition": "Si ReportGeneralDetails/QueryType es igual a Status, ReportOrError/Cancellations(*)/Cancellation/TransactionIdentification y ReportOrError/Cancellations(*)/Cancellation/UnderlyingIntraBalance deben estar ausentes."
+    }
+  }
+}

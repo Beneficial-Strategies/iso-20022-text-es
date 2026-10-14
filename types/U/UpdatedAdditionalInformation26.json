@@ -1,0 +1,17 @@
+{
+  "isoType": "UpdatedAdditionalInformation26",
+  "definition": "Información adicional con la descripción de la actualización y la fecha.",
+  "isoElements": {
+    "Language": {
+      "definition": "Idioma utilizado para facilitar información adicional, conforme al estándar de códigos de idioma ISO 639-1."
+    },
+    "AdditionalInformation": {
+      "definition": "Proporciona información textual adicional."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "El elemento Additionalnformation no debe contener información que pueda facilitarse en un campo estructurado, salvo acuerdo bilateral."
+    }
+  }
+}

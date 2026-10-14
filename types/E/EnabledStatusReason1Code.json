@@ -1,0 +1,10 @@
+{
+  "isoType": "EnabledStatusReason1Code",
+  "definition": "Especifica el motivo de un estado habilitado.",
+  "isoCodes": {
+    "MODI": {
+      "name": "Modificado",
+      "definition": "La modificación de los datos de la cuenta está en curso."
+    }
+  }
+}

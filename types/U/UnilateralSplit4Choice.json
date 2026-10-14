@@ -1,0 +1,12 @@
+{
+  "isoType": "UnilateralSplit4Choice",
+  "definition": "Especifica el cambio solicitado en el procesamiento de casamiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "División unilateral expresada como un código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "División unilateral expresada como un código propio."
+    }
+  }
+}

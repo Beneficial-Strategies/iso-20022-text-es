@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionAmounts80",
+  "definition": "Especifica importes en el marco de un evento de acción corporativa.",
+  "isoElements": {
+    "RefundedAmount": {
+      "definition": "En los eventos de prerrefinanciación parcial, importe que el emisor está refinanciando a una fecha de vencimiento anterior, que está garantizado y depositado en garantía (escrow)."
+    },
+    "NonRefundedAmount": {
+      "definition": "En los eventos de prerrefinanciación parcial, importe restante que seguirá teniendo la misma fecha de vencimiento."
+    },
+    "DepositoryCalledAmount": {
+      "definition": "Indica la parte del importe de la amortización que está mantenida en el depositario. Puede incluir la posición mantenida en forma de certificados en el depositario más el saldo mantenido en el agente de reembolso. En las emisiones nominativas, solo incluye la parte de los certificados mantenida en el depositario en forma nominativa o al portador."
+    }
+  }
+}

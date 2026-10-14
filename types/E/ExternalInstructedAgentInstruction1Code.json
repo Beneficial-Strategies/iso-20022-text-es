@@ -1,0 +1,10 @@
+{
+  "isoType": "ExternalInstructedAgentInstruction1Code",
+  "definition": "Especifica instrucciones adicionales relativas al procesamiento de una instrucción de pago o ajuste, facilitadas a la entidad instruida.",
+  "isoCodes": {
+    "REMD": {
+      "name": "Recordatorio",
+      "definition": "Recordatorio. Se ha enviado previamente un mensaje de solicitud de gastos."
+    }
+  }
+}

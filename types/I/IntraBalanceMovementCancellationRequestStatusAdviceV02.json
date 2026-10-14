@@ -1,0 +1,9 @@
+{
+  "isoType": "IntraBalanceMovementCancellationRequestStatusAdviceV02",
+  "definition": "El mensaje IntraBalanceMovementCancellationRequestStatusAdvice lo envía una infraestructura de liquidación a un titular de cuenta/solicitante para comunicar el estado de una solicitud de cancelación de movimiento entre saldos enviada previamente por el titular de la cuenta/solicitante.||Uso:|El mensaje puede utilizarse para:|- reenviar un mensaje enviado previamente (la subfunción del mensaje es \"Duplicate\")|- proporcionar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es \"Copy\")|- reenviar a un tercero una copia de un mensaje a título informativo (la subfunción del mensaje es \"CopyDuplicate\").",
+  "isoElements": {
+    "RequestReference": {
+      "definition": "Referencia de la solicitud original de cancelación del movimiento entre saldos."
+    }
+  }
+}

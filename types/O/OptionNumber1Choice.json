@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionNumber1Choice",
+  "definition": "Elección entre un número y un número de opción en formato de código.",
+  "isoElements": {
+    "Number": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "Code": {
+      "definition": "Código que identifica números especiales de opción de operación societaria."
+    }
+  }
+}

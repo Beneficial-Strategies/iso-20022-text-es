@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification70Choice",
+  "definition": "Elección entre todas las cuentas (GENR - General en ISO 15022) o una o varias cuentas seleccionadas.",
+  "isoElements": {
+    "ForAllAccounts": {
+      "definition": "Todas las cuentas de custodia que poseen un instrumento financiero subyacente."
+    },
+    "AccountsListAndBalanceDetails": {
+      "definition": "Lista de cuentas de custodia seleccionadas (y, opcionalmente, información de saldo) a las que se aplica el evento de operación societaria."
+    }
+  }
+}

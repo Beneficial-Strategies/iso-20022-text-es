@@ -1,0 +1,63 @@
+{
+  "isoType": "VoteParameters10",
+  "definition": "Información que describe cómo se organiza el proceso de votación.",
+  "isoElements": {
+    "SecuritiesQuantityRequiredToVote": {
+      "definition": "Número de posiciones necesarias para una votación."
+    },
+    "PartialVoteAllowed": {
+      "definition": "Indica si se puede votar por una parte del total de la posición, es decir, si parte de la posición queda sin votar."
+    },
+    "SplitVoteAllowed": {
+      "definition": "Indica si el voto puede fraccionarse, es decir, si pueden emitirse votos distintos para diferentes partes de la posición."
+    },
+    "VoteDeadline": {
+      "definition": "Fecha y hora límite para presentar las instrucciones de voto al intermediario."
+    },
+    "VoteMarketDeadline": {
+      "definition": "Fecha y hora límite para presentar las instrucciones de voto al emisor."
+    },
+    "VoteMethods": {
+      "definition": "Especifica los distintos métodos que se pueden utilizar para votar."
+    },
+    "VotingBallotElectronicAddress": {
+      "definition": "Ubicación electrónica, dirección de correo electrónico o URL, donde se puede solicitar la papeleta de voto."
+    },
+    "VotingBallotRequestAddress": {
+      "definition": "Dirección postal donde se puede solicitar la papeleta de voto."
+    },
+    "RevocabilityDeadline": {
+      "definition": "Fecha hasta la cual la parte instructora puede revocar, modificar o retirar su instrucción de voto. Este plazo lo especifica un intermediario."
+    },
+    "RevocabilityMarketDeadline": {
+      "definition": "Fecha hasta la cual la parte instructora puede revocar, modificar o retirar su instrucción de voto. Este plazo lo establece el emisor."
+    },
+    "BeneficialOwnerDisclosure": {
+      "definition": "Indica si deben facilitarse los datos del beneficiario, por ejemplo, nombre y dirección, para poder participar en una junta."
+    },
+    "EarlyIncentivePremium": {
+      "definition": "Prima en efectivo pagada al titular de los valores que vota con antelación (antes del plazo de voto anticipado con prima)."
+    },
+    "IncentivePremium": {
+      "definition": "Prima en efectivo pagada al titular de los valores que vota."
+    },
+    "EarlyVoteWithPremiumDeadline": {
+      "definition": "Fecha y hora límite para presentar las instrucciones de voto al intermediario con el fin de beneficiarse de la prima de incentivo por voto anticipado."
+    },
+    "VoteWithPremiumDeadline": {
+      "definition": "Fecha y hora límite para presentar las instrucciones de voto al intermediario con el fin de beneficiarse de la prima."
+    },
+    "VoteWithPremiumMarketDeadline": {
+      "definition": "Fecha y hora límite para presentar las instrucciones de voto al emisor con el fin de beneficiarse de la prima."
+    },
+    "AdditionalVotingRequirements": {
+      "definition": "Información adicional sobre los requisitos específicos para permitir que una persona vote."
+    },
+    "AdditionalDisclosureRequirements": {
+      "definition": "Información que el emisor exige divulgar como parte de una instrucción presentada, que no sea la información relativa al titular beneficiario, al participante votante, al apoderado designado por el emisor ni a los asistentes que participan en la junta (sin voto)."
+    },
+    "PreviousInstructionInvalidityIndicator": {
+      "definition": "Indica si las instrucciones enviadas previamente dejan de ser válidas tras una prórroga del plazo del mercado."
+    }
+  }
+}

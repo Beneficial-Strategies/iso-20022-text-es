@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionType6Choice",
+  "definition": "Elección del formato para el tipo de opción.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de opción expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de opción expresado como código propietario."
+    }
+  }
+}

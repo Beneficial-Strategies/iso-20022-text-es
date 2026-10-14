@@ -1,0 +1,10 @@
+{
+  "isoType": "ProtectInstructionStatus4Code",
+  "definition": "Especifica el estado de la operación de protección.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Abierto",
+      "definition": "Instrucción de protección que no ha sido cubierta por completo. Incluirá coberturas parciales."
+    }
+  }
+}

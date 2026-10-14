@@ -1,0 +1,12 @@
+{
+  "isoType": "PlaceOfClearingIdentification2",
+  "definition": "Identificación de la infraestructura que puede formar parte de una cámara de compensación y que facilita la compensación y la liquidación a sus miembros interponiéndose entre el comprador y el vendedor. Puede netear operaciones y se sustituye a sí misma como contrapartida de liquidación de cada posición.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única del lugar de compensación."
+    },
+    "LEI": {
+      "definition": "Identificación de entidad jurídica como identificación alternativa de un lugar de compensación."
+    }
+  }
+}

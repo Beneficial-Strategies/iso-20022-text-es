@@ -1,0 +1,15 @@
+{
+  "isoType": "Case6",
+  "definition": "Proporciona información adicional para identificar un caso de investigación.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifica de forma inequívoca el caso."
+    },
+    "Creator": {
+      "definition": "Parte que creó el caso de investigación."
+    },
+    "ReopenCaseIndication": {
+      "definition": "Indica si el caso se había cerrado previamente y ahora se ha reabierto."
+    }
+  }
+}

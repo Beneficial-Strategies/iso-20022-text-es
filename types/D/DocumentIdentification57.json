@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification57",
+  "definition": "Identifica un documento mediante una identificación única.",
+  "isoElements": {
+    "BuyerProtectionInstructionIdentification": {
+      "definition": "Identificación del documento de instrucción de protección del comprador relacionado para el que se proporciona el estado."
+    },
+    "ProcessorInstructionIdentification": {
+      "definition": "Identificación de la instrucción asignada por el procesador de la instrucción distinto del titular de la cuenta, de la entidad administradora de cuentas y de la infraestructura de mercado."
+    }
+  }
+}

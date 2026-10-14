@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesFinancingTransactionType2Code",
+  "definition": "Especifica el tipo de operación de financiación con valores.",
+  "isoCodes": {
+    "REPU": {
+      "name": "Repo",
+      "definition": "Se refiere a una operación de pacto de recompra."
+    },
+    "RVPO": {
+      "name": "Repo inverso",
+      "definition": "Se refiere a una operación de pacto de recompra inversa."
+    },
+    "SECB": {
+      "name": "Toma en préstamo de valores",
+      "definition": "Se refiere a una operación de toma de valores en préstamo."
+    },
+    "SECL": {
+      "name": "Préstamo de valores",
+      "definition": "Se refiere a una operación de préstamo de valores."
+    },
+    "BSBK": {
+      "name": "Compra-reventa",
+      "definition": "Se refiere a una operación de compra con pacto de reventa (buy sell back)."
+    },
+    "SBBK": {
+      "name": "Venta-recompra",
+      "definition": "Se refiere a una operación de venta con pacto de recompra (sell buy back)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OwnerIdentification3Choice",
+  "definition": "Elección entre los detalles de una persona física o de una organización.",
+  "isoElements": {
+    "IndividualOwnerIdentification": {
+      "definition": "Identificación de la persona física."
+    },
+    "OrganisationOwnerIdentification": {
+      "definition": "Identificación de una organización."
+    }
+  }
+}

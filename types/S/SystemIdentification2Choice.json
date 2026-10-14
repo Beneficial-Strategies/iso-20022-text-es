@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemIdentification2Choice",
+  "definition": "Información utilizada para identificar un sistema de compensación de efectivo.",
+  "isoElements": {
+    "MarketInfrastructureIdentification": {
+      "definition": "Servicio de compensación seleccionado para una operación."
+    },
+    "Country": {
+      "definition": "País en el que se encuentra el sistema."
+    }
+  }
+}

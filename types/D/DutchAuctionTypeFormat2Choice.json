@@ -1,0 +1,12 @@
+{
+  "isoType": "DutchAuctionTypeFormat2Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el formato del tipo de subasta holandesa requerido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de subasta holandesa requerido."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de subasta holandesa."
+    }
+  }
+}

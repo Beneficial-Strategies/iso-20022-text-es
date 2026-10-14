@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingPosition9Choice",
+  "definition": "Elección del formato de la posición de tratamiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Posición de tratamiento expresada como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Posición de tratamiento expresada como código propietario."
+    }
+  }
+}

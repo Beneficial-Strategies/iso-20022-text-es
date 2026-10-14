@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel25",
+  "definition": "Proporciona información de tenencia de acciones a nivel de subcuenta.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Cuenta en la que se mantienen instrumentos financieros. Cuenta administrada por el intermediario que responde para un titular de cuenta."
+    },
+    "AccountHolder": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "ShareholdingBalance": {
+      "definition": "Información detallada del saldo de tenencia de acciones de una cuenta."
+    }
+  }
+}

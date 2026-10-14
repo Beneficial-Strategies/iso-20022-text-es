@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionMovementType1FormatChoice",
+  "definition": "Elección de formatos para expresar el efecto sobre las posiciones de elegir una opción de operación societaria.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el efecto sobre las posiciones de elegir una opción de operación societaria."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el efecto sobre las posiciones de elegir una opción de operación societaria."
+    }
+  }
+}

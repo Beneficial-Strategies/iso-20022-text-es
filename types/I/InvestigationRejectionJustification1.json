@@ -1,0 +1,9 @@
+{
+  "isoType": "InvestigationRejectionJustification1",
+  "definition": "Proporciona el motivo del rechazo de la asignación del caso.",
+  "isoElements": {
+    "RejectionReason": {
+      "definition": "Motivo del rechazo de una asignación de caso, en forma codificada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToPercentageRange1",
+  "definition": "Intervalo de tipos porcentuales.",
+  "isoElements": {
+    "From": {
+      "definition": "Extremo inferior de un intervalo de tipos porcentuales."
+    },
+    "To": {
+      "definition": "Extremo superior de un intervalo de tipos porcentuales."
+    }
+  }
+}

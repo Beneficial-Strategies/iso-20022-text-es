@@ -1,0 +1,42 @@
+{
+  "isoType": "TaxWithholdingMethod3Code",
+  "definition": "Especifica el método por el que se debe procesar el impuesto sobre los intereses, es decir, si se retiene en origen, si se comunica a las autoridades fiscales o si el beneficiario ha aportado un certificado fiscal.",
+  "isoCodes": {
+    "MITX": {
+      "name": "Impuesto sobre participaciones minoritarias",
+      "definition": "Se retiene el impuesto sobre intereses minoritarios."
+    },
+    "INVE": {
+      "name": "Sociedad de inversión",
+      "definition": "Se aplica la retención fiscal a una sociedad de inversión."
+    },
+    "ACCT": {
+      "name": "Contable",
+      "definition": "El impuesto sobre dividendos está exento según el contable."
+    },
+    "EXMT": {
+      "name": "Exento",
+      "definition": "El impuesto sobre dividendos está exento."
+    },
+    "REPT": {
+      "name": "Declarar impuesto",
+      "definition": "La información fiscal se comunica a las autoridades fiscales y, por tanto, no se retiene en origen."
+    },
+    "CRTF": {
+      "name": "Certificado fiscal",
+      "definition": "El beneficiario aporta un certificado fiscal de su autoridad fiscal en su país de residencia. Por tanto, se exime de la obligación de retención fiscal y la información fiscal se comunicará a las autoridades fiscales."
+    },
+    "WHCO": {
+      "name": "Retención del impuesto de sociedades",
+      "definition": "Se aplica la retención fiscal a una sociedad mercantil."
+    },
+    "WTHD": {
+      "name": "Retener impuesto",
+      "definition": "El impuesto se retiene en origen."
+    },
+    "WTRE": {
+      "name": "Retener impuesto y declarar",
+      "definition": "El impuesto se retiene en origen y la información fiscal también se comunica a las autoridades fiscales."
+    }
+  }
+}

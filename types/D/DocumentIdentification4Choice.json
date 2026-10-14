@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification4Choice",
+  "definition": "Elección entre una identificación de documento facilitada por el titular de la cuenta o por el administrador de la cuenta.",
+  "isoElements": {
+    "AccountServicerDocumentIdentification": {
+      "definition": "Identificación del documento asignada por el administrador de la cuenta."
+    },
+    "AccountOwnerDocumentIdentification": {
+      "definition": "Identificación del documento asignada por el titular de la cuenta."
+    }
+  }
+}

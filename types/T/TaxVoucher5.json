@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxVoucher5",
+  "definition": "Especifica los certificados fiscales en el marco de un evento de operación corporativa.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Referencia única del certificado fiscal exigida por las autoridades fiscales pertinentes para garantizar que no pueda duplicarse ninguna reclamación relativa a este certificado fiscal concreto."
+    },
+    "BargainDate": {
+      "definition": "Fecha en que se completó una compra de reinversión de dividendos. Si interviene una sola operación, debe incluirse la hora en que se cerró."
+    },
+    "BargainSettlementDate": {
+      "definition": "Fecha de liquidación de la operación de compra de reinversión de dividendos."
+    }
+  }
+}

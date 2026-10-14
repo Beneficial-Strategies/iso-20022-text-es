@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyIdentificationAndAccount224",
+  "definition": "Datos de la parte y de la cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la parte."
+    },
+    "LEI": {
+      "definition": "Identificación de entidad jurídica como identificación alternativa de una parte."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificación alternativa de una parte."
+    },
+    "CashAccount": {
+      "definition": "Cuenta a la que, o de la que, se realiza un asiento de efectivo."
+    },
+    "ChargesAccount": {
+      "definition": "Cuenta que debe utilizarse para los gastos/comisiones si es distinta de la cuenta para el pago."
+    },
+    "CommissionAccount": {
+      "definition": "Cuenta que debe utilizarse para la comisión si es distinta de la cuenta para el pago."
+    },
+    "TaxAccount": {
+      "definition": "Cuenta que se utilizará para los impuestos si es distinta de la cuenta del pago."
+    },
+    "AdditionalInformation": {
+      "definition": "Proporciona información adicional sobre la identificación de una parte."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "Status39Choice",
+  "definition": "Elección entre situaciones.",
+  "isoElements": {
+    "Proprietary": {
+      "definition": "Estado propietario."
+    },
+    "MatchingStatus": {
+      "definition": "Proporciona la situación de casamiento de la instrucción."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Proporciona la situación de casamiento de una instrucción tal como la conoce el administrador de cuentas a partir de una alegación. En este momento no se ha realizado ningún casamiento en el mercado (en el CSD/ICSD)."
+    },
+    "SettlementStatus": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Proporciona el estado de una instrucción."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Una operación pendiente (PEND) pasa a ser una operación fallida (PENF) en la fecha de liquidación instruida en el mensaje, durante el informe de fin de día."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Si la situación/motivo de liquidación se utiliza por sí sola, significa que la operación está casada (si existe un proceso de casamiento en el mercado correspondiente o en el administrador de cuentas correspondiente)."
+    }
+  }
+}

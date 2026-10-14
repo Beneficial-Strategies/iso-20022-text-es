@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalObligationSettlementMethod1Code",
+  "definition": "Especifica el método de liquidación de la obligación.|||La lista de códigos válidos es una lista de códigos externa publicada por separado. ||Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "BILA": {
+      "name": "Bilateral",
+      "definition": "Liquidado de forma bilateral."
+    },
+    "MULT": {
+      "name": "Multilateral",
+      "definition": "Liquidado de forma multilateral."
+    }
+  }
+}

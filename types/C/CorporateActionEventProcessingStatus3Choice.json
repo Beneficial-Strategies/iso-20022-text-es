@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus3Choice",
+  "definition": "Elección del estado de procesamiento de la acción corporativa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado de una acción corporativa o estado de un pago expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Estado de una acción corporativa o estado de un pago expresado como código propietario."
+    }
+  }
+}

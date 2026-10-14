@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentOrigin1Choice",
+  "definition": "Especifica el formato en el que se transmitió el pago que generó el apunte.",
+  "isoElements": {
+    "FINMessageType": {
+      "definition": "Especifica que el pago se incluyó en un mensaje en formato SWIFT FIN, por ejemplo, MT 103."
+    },
+    "XMLMessageName": {
+      "definition": "Especifica que el pago se incluyó en un mensaje XML de SWIFT."
+    },
+    "Proprietary": {
+      "definition": "Especifica que el pago se incluyó en un mensaje en formato propietario."
+    },
+    "Instrument": {
+      "definition": "Especifica el tipo de pago cuando no está incluido en un formato SWIFT o propietario."
+    }
+  }
+}

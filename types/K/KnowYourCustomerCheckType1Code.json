@@ -1,0 +1,18 @@
+{
+  "isoType": "KnowYourCustomerCheckType1Code",
+  "definition": "Especifica el tipo de diligencia debida de conocimiento del cliente (KYC) o contra el blanqueo de capitales a la que ha sido sometido el inversor.",
+  "isoCodes": {
+    "ENHA": {
+      "name": "Reforzado",
+      "definition": "Comprobación reforzada, normalmente realizada en cuentas consideradas de alto riesgo."
+    },
+    "ORDN": {
+      "name": "Ordinario",
+      "definition": "Comprobación ordinaria, normalmente realizada en cuentas estándar."
+    },
+    "SIMP": {
+      "name": "Simplificado",
+      "definition": "Comprobación simplificada, normalmente realizada en cuentas con bajo riesgo de blanqueo de capitales, como una cuenta cuyo titular es una entidad financiera."
+    }
+  }
+}

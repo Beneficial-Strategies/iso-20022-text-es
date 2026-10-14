@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlementMethod1Code",
+  "definition": "Especifica el método utilizado para liquidar la instrucción de transferencia.",
+  "isoCodes": {
+    "INDA": {
+      "name": "Entidad instruida",
+      "definition": "La liquidación la realiza la entidad instruida para ejecutar una instrucción de pago."
+    },
+    "INGA": {
+      "name": "Entidad instructora",
+      "definition": "La liquidación la realiza la entidad que instruye y reenvía el pago a la siguiente parte de la cadena de pago."
+    },
+    "COVE": {
+      "name": "Método de cobertura",
+      "definition": "La liquidación se realiza mediante un pago de cobertura."
+    },
+    "CLRG": {
+      "name": "Sistema de compensación",
+      "definition": "La liquidación se realiza a través de un sistema de compensación de pagos."
+    }
+  }
+}

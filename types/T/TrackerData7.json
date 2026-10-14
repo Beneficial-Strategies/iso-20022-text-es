@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerData7",
+  "definition": "Especifica la información detallada proporcionada por un sistema de seguimiento de pagos.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "definition": "Momento en que se ha confirmado una actualización del sistema de seguimiento. ||Uso: |Esta fecha puede ser el momento en que una entidad proporciona al sistema de seguimiento una actualización de estado pendiente o aquel en que se ha abonado al beneficiario y este puede disponer del importe de dinero (según lo confirmado al sistema de seguimiento por la entidad del beneficiario)."
+    },
+    "ConfirmedAmount": {
+      "definition": "Importe de dinero confirmado al sistema de seguimiento por la entidad."
+    },
+    "TrackerRecord": {
+      "definition": "Proporciona información de seguimiento de la operación para una entidad concreta que interviene en la cadena de la operación."
+    }
+  }
+}

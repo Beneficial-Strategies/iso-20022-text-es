@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat24Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo del proceso de negocio adicional, es decir, una devolución de impuestos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el proceso de negocio adicional \"devolución de impuestos\" vinculado a un evento de operación corporativa."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del proceso de negocio adicional \"devolución de impuestos\" vinculado a un evento de operación corporativa."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges5Choice",
+  "definition": "Especifica la elección entre cargos de una única operación, cargos consolidados por operación o cargos por tipo de cargo.",
+  "isoElements": {
+    "Single": {
+      "definition": "Cargos relacionados con una única operación de pago."
+    },
+    "PerTransaction": {
+      "definition": "Cargos desglosados por operación de pago."
+    },
+    "PerType": {
+      "definition": "Cargos desglosados por tipo de cargo."
+    }
+  }
+}

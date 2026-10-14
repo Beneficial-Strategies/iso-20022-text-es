@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesSettlementTransactionQueryResponseV01",
+  "definition": "El mensaje SecuritiesSettlementResponse es enviado por una infraestructura de liquidación a un titular de cuenta o solicitante para proporcionar los detalles de las instrucciones de liquidación de valores, seleccionadas según los criterios de búsqueda definidos en la solicitud.",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ActivityIndicator es igual a Sí (true o 1), Transactions debe estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ActivityIndicator es igual a No (false o 0), Transactions debe estar ausente."
+    },
+    "QueryTypeAndStatusReasonRule": {
+      "definition": "Si QueryType es igual a Status (STTS) o StatusPeriod (STPD), Transactions(*)/StatusReaon debe estar presente."
+    }
+  }
+}

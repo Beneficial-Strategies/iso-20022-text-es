@@ -1,0 +1,4 @@
+{
+  "isoType": "DeleteStandingOrderV05",
+  "definition": "El mensaje DeleteStandingOrder es enviado por el miembro del sistema para eliminar una o varias órdenes permanentes de los datos estáticos que mantiene el administrador de operaciones del sistema."
+}

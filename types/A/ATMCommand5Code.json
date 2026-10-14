@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCommand5Code",
+  "definition": "Tipo de comando ejecutado por el cajero automático (ATM).",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Balance del ATM",
+      "definition": "Proporcionar los contadores del cajero automático (ATM), reiniciando los que correspondan."
+    },
+    "CCNT": {
+      "name": "Consulta de contadores",
+      "definition": "Solicitar el valor de los contadores del cajero automático (ATM)."
+    },
+    "RPTC": {
+      "name": "Informe de contadores",
+      "definition": "Proporciona el valor de los contadores del ATM, sin reinicializarlos."
+    }
+  }
+}

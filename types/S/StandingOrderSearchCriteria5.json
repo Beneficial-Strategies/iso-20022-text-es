@@ -1,0 +1,45 @@
+{
+  "isoType": "StandingOrderSearchCriteria5",
+  "definition": "Define los criterios utilizados para buscar órdenes permanentes definidas en el sistema.",
+  "isoElements": {
+    "KeyAttributesIndicator": {
+      "definition": "Indica si se deben devolver los campos clave o los atributos de negocio definidos en el sistema."
+    },
+    "StandingOrderIdentification": {
+      "definition": "Identificación única para identificar de forma inequívoca la orden permanente utilizada para iniciar la transferencia de liquidez."
+    },
+    "Type": {
+      "definition": "Tipo de orden permanente."
+    },
+    "Account": {
+      "definition": "Cuenta de origen o de destino de la transferencia de liquidez dentro del conjunto de cuentas gestionadas por el solicitante."
+    },
+    "Currency": {
+      "definition": "Identificación única e inequívoca de una orden permanente, asignada por la entidad gestora de la cuenta o por el titular de la cuenta."
+    },
+    "ValidityPeriod": {
+      "definition": "Fechas durante las cuales la orden permanente está en vigor."
+    },
+    "SystemMember": {
+      "definition": "Especifica si la orden permanente adeuda o abona la cuenta."
+    },
+    "ResponsibleParty": {
+      "definition": "Entidad que participa en una actividad."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Cuenta de origen o de destino de la transferencia de liquidez dentro del conjunto de cuentas gestionadas por el solicitante."
+    },
+    "LinkSetIdentification": {
+      "definition": "Identificación única para identificar de forma inequívoca el conjunto vinculado en el que se define la orden permanente. El conjunto vinculado es una colección de órdenes permanentes definidas en una secuencia determinada."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Identificación única para identificar de forma inequívoca la orden permanente de transferencia de liquidez dentro del conjunto vinculado."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Especifica la secuencia en la que el sistema ejecutará las órdenes permanentes de transferencia de liquidez dentro del conjunto vinculado cuando se requiera liquidez adicional."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indica si la consulta debe devolver todas las órdenes permanentes de transferencia de liquidez definidas como órdenes de barrido a cero.|Cuando el indicador está establecido en verdadero, la orden permanente de transferencia de liquidez transferirá todo el importe de la cuenta, de modo que el saldo resultante sea cero."
+    }
+  }
+}

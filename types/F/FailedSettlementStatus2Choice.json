@@ -1,0 +1,15 @@
+{
+  "isoType": "FailedSettlementStatus2Choice",
+  "definition": "Motivo del estado de liquidación fallida.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motivo del estado de liquidación fallida."
+    },
+    "DataSourceScheme": {
+      "definition": "Identificación propietaria del motivo del estado de liquidación fallida."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    }
+  }
+}

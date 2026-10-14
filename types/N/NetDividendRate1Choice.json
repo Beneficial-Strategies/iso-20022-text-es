@@ -1,0 +1,15 @@
+{
+  "isoType": "NetDividendRate1Choice",
+  "definition": "Elección del formato para expresar un dividendo neto.",
+  "isoElements": {
+    "NotSpecifiedRate": {
+      "definition": "El valor de la tasa no está especificado, p. ej., la tasa se desconoce."
+    },
+    "Amount": {
+      "definition": "Valor expresado como importe."
+    },
+    "RateTypeAmount": {
+      "definition": "El valor se expresa como un importe relacionado con un valor subyacente, p. ej., el valor subyacente por el que se paga un interés."
+    }
+  }
+}

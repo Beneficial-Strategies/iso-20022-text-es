@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportingPeriod5",
+  "definition": "Especifica el periodo de informe solicitado.",
+  "isoElements": {
+    "FromToDate": {
+      "definition": "Especifica un intervalo de fechas."
+    },
+    "FromToTime": {
+      "definition": "Especifica un intervalo de horas."
+    },
+    "Type": {
+      "definition": "Especifica si deben comunicarse todas las partidas coincidentes o solo las que son nuevas o han cambiado desde que se hizo la última solicitud similar."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption43Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de opción de la operación societaria.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de opción de la operación societaria."
+    }
+  }
+}

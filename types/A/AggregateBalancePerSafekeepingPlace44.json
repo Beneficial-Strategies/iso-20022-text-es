@@ -1,0 +1,62 @@
+{
+  "isoType": "AggregateBalancePerSafekeepingPlace44",
+  "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una cuenta de valores en un lugar de custodia especificado.",
+  "isoElements": {
+    "SafekeepingPlace": {
+      "definition": "Lugar donde se custodian los valores, física o nocionalmente. Este lugar puede ser, por ejemplo, un custodio local, un depositario central de valores (CSD) o un depositario central de valores internacional (ICSD)."
+    },
+    "PlaceOfListing": {
+      "definition": "Mercado o mercados en los que cotiza el valor."
+    },
+    "Pledgee": {
+      "definition": "Especifica la entidad a la que se pignoran los instrumentos financieros."
+    },
+    "AggregateBalance": {
+      "definition": "Cantidad total de instrumentos financieros del saldo."
+    },
+    "AvailableBalance": {
+      "definition": "Cantidad total de instrumentos financieros del saldo que está disponible."
+    },
+    "NotAvailableBalance": {
+      "definition": "Cantidad total de instrumentos financieros del saldo que no está disponible."
+    },
+    "PriceDetails": {
+      "definition": "Precio del instrumento financiero en una o varias divisas."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Información necesaria para procesar un cambio o una conversión de divisas."
+    },
+    "DaysAccrued": {
+      "definition": "Especifica el número de días utilizado para calcular el importe de los intereses devengados."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Importes de valoración proporcionados en la divisa base de la cuenta."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Importes de valoración proporcionados en la divisa del instrumento financiero."
+    },
+    "QuantityBreakdown": {
+      "definition": "Desglose de la cantidad agregada comunicada en lotes significativos, por ejemplo, lotes fiscales."
+    },
+    "ExposureType": {
+      "definition": "Especifica el área de negocio o tipo de operación subyacente que origina el movimiento de garantías."
+    },
+    "BalanceBreakdown": {
+      "definition": "Desglose del saldo agregado por subsaldos significativos y disponibilidad."
+    },
+    "AdditionalBalanceBreakdown": {
+      "definition": "Proporciona información adicional del subsaldo del instrumento sobre la totalidad o parte del instrumento financiero comunicado (no registrado, exento de impuestos, etc.)."
+    },
+    "HoldingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre la posición."
+    }
+  },
+  "isoRules": {
+    "AggregateBalanceGuideline": {
+      "definition": "Si AvailableQuantity y NotAvailableQuantity están ambos presentes, AggregateQuantity debe ser la suma de AvailableQuantity y NotAvailableQuantity."
+    },
+    "HoldingAdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si HoldingAdditionnalDetails está presente, no debe contener información que pueda proporcionarse en un campo estructurado."
+    }
+  }
+}

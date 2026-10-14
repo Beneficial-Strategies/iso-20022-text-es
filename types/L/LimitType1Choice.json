@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitType1Choice",
+  "definition": "Naturaleza del límite de gestión de riesgos definida como una elección entre una lista codificada o un límite propietario.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de límite, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de límite, en forma propietaria."
+    }
+  }
+}

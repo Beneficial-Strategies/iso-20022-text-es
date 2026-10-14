@@ -1,0 +1,14 @@
+{
+  "isoType": "ElectionMovementType1Code",
+  "definition": "Especifica el efecto sobre las posiciones de elegir una opción de operación societaria.",
+  "isoCodes": {
+    "REST": {
+      "name": "Restringido",
+      "definition": "La elección da lugar a un cambio del tipo de saldo que transfiere el control de los valores en lugar de los valores en sí."
+    },
+    "DRCT": {
+      "name": "Directo",
+      "definition": "Movimiento directo de recursos, es decir, efectivo o valores que se abonan directamente en la cuenta del agente de pagos."
+    }
+  }
+}

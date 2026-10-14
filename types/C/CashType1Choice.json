@@ -1,0 +1,12 @@
+{
+  "isoType": "CashType1Choice",
+  "definition": "Especifica el tipo de efectivo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de efectivo, tal como se publica en un conjunto de códigos externo de tipos de efectivo."
+    },
+    "Proprietary": {
+      "definition": "Tipo de efectivo, en formato propietario."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyAdditionalIdentification2Choice",
+  "definition": "Información complementaria de identificación de la parte.",
+  "isoElements": {
+    "BirthDate": {
+      "definition": "Fecha de nacimiento de una persona física."
+    },
+    "RegistrationIdentification": {
+      "definition": "Identificación oficial de una organización en un registro específico."
+    }
+  }
+}

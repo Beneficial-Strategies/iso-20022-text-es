@@ -1,0 +1,34 @@
+{
+  "isoType": "DeliveryReturn1Code",
+  "definition": "Especifica el tipo de devolución de la entrega.",
+  "isoCodes": {
+    "UNRE": {
+      "name": "Entrega no reconocida",
+      "definition": "La entrega original no se reconoce."
+    },
+    "DQUA": {
+      "name": "Cantidad incorrecta",
+      "definition": "Se entregó una cantidad incorrecta en la instrucción original."
+    },
+    "DMON": {
+      "name": "Importe de liquidación incorrecto",
+      "definition": "Se liquidó un importe de liquidación incorrecto en la entrega original."
+    },
+    "PART": {
+      "name": "Entrega parcial",
+      "definition": "El Depositario Central de Valores (CSD) entregó solo una parte de la cantidad de la operación original."
+    },
+    "SAFE": {
+      "name": "Falta la cuenta",
+      "definition": "Falta información de la cuenta en la entrega original."
+    },
+    "DUEB": {
+      "name": "Falta el pagaré debido",
+      "definition": "Falta información del due bill en la entrega original."
+    },
+    "PARD": {
+      "name": "Devolución parcial",
+      "definition": "El receptor devolvió una parte de la cantidad de la operación original."
+    }
+  }
+}

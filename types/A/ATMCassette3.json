@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCassette3",
+  "definition": "Información sobre el cartucho de un cajero automático (ATM).",
+  "isoElements": {
+    "PhysicalIdentification": {
+      "definition": "Identificación física del cartucho para el cajero automático (ATM)."
+    },
+    "LogicalIdentification": {
+      "definition": "Identificación lógica del cartucho para el cajero automático (ATM)."
+    },
+    "SerialNumber": {
+      "definition": "Número de serie o identificación única del hardware del cartucho."
+    },
+    "Type": {
+      "definition": "Tipo de cartucho."
+    },
+    "SubType": {
+      "definition": "Tipo de elementos que admite el ingreso de efectivo."
+    },
+    "MediaType": {
+      "definition": "Tipo de soporte contenido en el cartucho."
+    },
+    "MediaCounters": {
+      "definition": "Contador por valor unitario o de forma global."
+    },
+    "CassetteStatus": {
+      "definition": "Estado del cartucho. Este elemento puede omitirse si el estado no ha cambiado desde la última vez que se facilitó la información del cartucho."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Liability1Choice",
+  "definition": "Elección de formatos para la responsabilidad.",
+  "isoElements": {
+    "Code": {
+      "definition": "Responsabilidad expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Responsabilidad expresada como código propietario."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "SequenceRange1Choice",
+  "definition": "Especifica una elección de secuencias.",
+  "isoElements": {
+    "FromSequence": {
+      "definition": "Secuencia inicial del rango."
+    },
+    "ToSequence": {
+      "definition": "Secuencia final del rango."
+    },
+    "FromToSequence": {
+      "definition": "Rango de secuencias determinado, especificado entre una secuencia inicial y una secuencia final."
+    },
+    "EqualSequence": {
+      "definition": "Secuencia especificada con la que debe haber coincidencia."
+    },
+    "NotEqualSequence": {
+      "definition": "Secuencia especificada que debe excluirse."
+    }
+  }
+}

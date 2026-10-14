@@ -1,0 +1,9 @@
+{
+  "isoType": "Linkages75",
+  "definition": "Información relativa a una operación vinculada.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identificación inequívoca de una operación de liquidación de valores tal como la conoce el titular de la cuenta (o la parte instructora que actúa en su nombre)."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "RejectionReason59Code",
+  "definition": "Especifica el motivo por el que la solicitud de instrucción tiene un estado rechazado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "OPTY": {
+      "name": "Tipo de opción no válido",
+      "definition": "Tipo de opción no válido."
+    },
+    "ULNK": {
+      "name": "Referencia no válida",
+      "definition": "La referencia vinculada es desconocida."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "NMTY": {
+      "name": "Discrepancia",
+      "definition": "No coinciden el número de opción y el tipo de opción."
+    },
+    "OPNM": {
+      "name": "Rechazo por número de opción",
+      "definition": "Número de opción no reconocido."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "EVNM": {
+      "name": "Identificación no reconocida",
+      "definition": "Número de evento no reconocido."
+    },
+    "DQCS": {
+      "name": "Rechazo por importe",
+      "definition": "Importe en efectivo instruido no reconocido o no válido."
+    },
+    "DQCC": {
+      "name": "Rechazo por divisa",
+      "definition": "Divisa instruida no válida."
+    }
+  }
+}

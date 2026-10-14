@@ -1,0 +1,75 @@
+{
+  "isoType": "MeetingNotice10",
+  "definition": "Información sobre una junta, los requisitos de participación y los procedimientos de votación.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identificación asignada a la junta general por la parte que facilita la notificación de la junta. Debe ser única para la parte que facilita la notificación"
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identificación asignada a la junta por el emisor. Debe ser única para el emisor."
+    },
+    "Type": {
+      "definition": "Tipo de junta de titulares de valores."
+    },
+    "Classification": {
+      "definition": "Clasificación de la junta."
+    },
+    "AnnouncementDate": {
+      "definition": "Fecha oficial del anuncio de la junta."
+    },
+    "OneManOneVoteIndicator": {
+      "definition": "Indica si la votación de la junta se celebra conforme al principio de \"una persona, un voto\", también conocido como \"voto per cápita\", por el cual el accionista que asiste a la junta dispone de un solo voto, con independencia de las posiciones que mantenga."
+    },
+    "Participation": {
+      "definition": "Método de participación en la votación de la junta general y plazo de votación correspondiente a cada método de participación."
+    },
+    "Attendance": {
+      "definition": "Información y condiciones para la asistencia presencial a la junta general."
+    },
+    "AdditionalDocumentationURLAddress": {
+      "definition": "Dirección que debe utilizarse en el servicio www (HTTP) donde puede encontrarse información adicional sobre la junta."
+    },
+    "EventProcessingWebSiteAddress": {
+      "definition": "Facilita la dirección web de una entidad gestora de la cuenta (o de un proveedor de servicios) que contiene información destinada exclusivamente al titular inmediato de la cuenta para permitir o facilitar el procesamiento del evento entre las partes."
+    },
+    "AdditionalProcedureDetails": {
+      "definition": "Información procedimental adicional sobre la junta general, que especifica los requisitos de participación y los procedimientos de votación. Alternativamente, puede indicar dónde se puede obtener dicha información."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "definition": "Número de valores admitidos a la votación, expresado como un importe y una divisa."
+    },
+    "TotalNumberOfVotingRights": {
+      "definition": "Número de derechos admitidos a la votación."
+    },
+    "ProxyAppointmentNotificationAddress": {
+      "definition": "Dirección a la que debe enviarse la información sobre el representante."
+    },
+    "ProxyChoice": {
+      "definition": "Especifica el representante o si no se permite un representante."
+    },
+    "ContactPersonDetails": {
+      "definition": "Persona de contacto en la parte que organiza la junta, en el emisor o en un intermediario."
+    },
+    "ResultPublicationDate": {
+      "definition": "Fecha en que la sociedad publica los resultados de su junta."
+    },
+    "SecuritiesBlockingPeriodEndDate": {
+      "definition": "Fecha en que debe finalizar el período de bloqueo de los valores."
+    },
+    "EntitlementFixingDate": {
+      "definition": "Fecha en que se fijan las posiciones para registrar qué partes recibirán el derecho, por ejemplo, fecha de registro o fecha de cierre de libros."
+    },
+    "RegistrationSecuritiesDeadline": {
+      "definition": "Fecha límite en que deben inscribirse los valores. Este plazo lo especifica un intermediario."
+    },
+    "RegistrationSecuritiesMarketDeadline": {
+      "definition": "Fecha límite en que deben inscribirse los valores. Este plazo lo fija el emisor."
+    },
+    "EnrolmentMarketDeadline": {
+      "definition": "Fecha límite en que debe instruirse la inscripción para participar en la junta general o ejercer los derechos de voto. Este plazo lo fija el emisor."
+    },
+    "EnrolmentDeadline": {
+      "definition": "Fecha límite en que debe instruirse la inscripción para participar en la junta general o ejercer los derechos de voto. Este plazo lo fija el intermediario."
+    }
+  }
+}

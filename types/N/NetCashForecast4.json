@@ -1,0 +1,26 @@
+{
+  "isoType": "NetCashForecast4",
+  "definition": "Movimiento neto de efectivo hacia un fondo como resultado de operaciones de fondos de inversión.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Fecha en la que el efectivo está disponible."
+    },
+    "NetAmount": {
+      "definition": "Importe neto del flujo de efectivo, expresado como importe de dinero."
+    },
+    "NetUnitsNumber": {
+      "definition": "Importe neto, expresado como número de participaciones."
+    },
+    "FlowDirection": {
+      "definition": "Especifica la dirección del flujo de efectivo desde la perspectiva del fondo."
+    },
+    "AdditionalBalance": {
+      "definition": "Saldos adicionales de importes de efectivo y número de participaciones. |En un informe estimado, el efectivo total procedente de órdenes cursadas como número de participaciones es un importe de efectivo estimado, y el número total de participaciones procedentes de órdenes cursadas como importe de efectivo es un número de participaciones estimado."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "Si AdditionalBalance está presente, debe estar presente al menos uno de los elementos de la lista (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders)."
+    }
+  }
+}

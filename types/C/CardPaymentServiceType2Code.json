@@ -1,0 +1,50 @@
+{
+  "isoType": "CardPaymentServiceType2Code",
+  "definition": "Servicio prestado por la operación de pago con tarjeta, además del servicio principal.",
+  "isoCodes": {
+    "AGGR": {
+      "name": "Agregación",
+      "definition": "Agregación de pagos de bajo importe."
+    },
+    "DCCV": {
+      "name": "DCC",
+      "definition": "Conversión dinámica de divisas (DCC)."
+    },
+    "GRTT": {
+      "name": "Propina",
+      "definition": "Pago con tarjeta con propina."
+    },
+    "INSP": {
+      "name": "Pago a plazos",
+      "definition": "Pago a plazos."
+    },
+    "LOYT": {
+      "name": "Fidelización",
+      "definition": "Servicios de fidelización."
+    },
+    "NRES": {
+      "name": "No presentación",
+      "definition": "Ausencia sin aviso tras una reserva."
+    },
+    "PUCO": {
+      "name": "Compra corporativa",
+      "definition": "Compra y datos corporativos."
+    },
+    "RECP": {
+      "name": "Pago recurrente",
+      "definition": "Pago recurrente."
+    },
+    "SOAF": {
+      "name": "Fondos disponibles solicitados",
+      "definition": "Fondos disponibles solicitados."
+    },
+    "UNAF": {
+      "name": "Fondos disponibles no solicitados",
+      "definition": "Fondos disponibles no solicitados."
+    },
+    "VCAU": {
+      "name": "Autorización por voz",
+      "definition": "Autorización por voz."
+    }
+  }
+}

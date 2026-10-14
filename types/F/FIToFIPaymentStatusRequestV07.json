@@ -1,0 +1,18 @@
+{
+  "isoType": "FIToFIPaymentStatusRequestV07",
+  "definition": "Ámbito|El mensaje FinancialInstitutionToFinancialInstitutionPaymentStatusRequest lo envía la entidad del ordenante a la entidad del beneficiario, directamente o a través de otras entidades y/o de un sistema de compensación y liquidación de pagos. Se utiliza para solicitar un mensaje FIToFIPaymentStatusReport que contiene información sobre el estado de una instrucción enviada previamente. |Uso|El mensaje FIToFIPaymentStatusRequest se intercambia entre entidades para solicitar información de estado sobre instrucciones enviadas previamente. Su uso estará siempre regulado por un acuerdo bilateral entre las entidades.|El mensaje FIToFIPaymentStatusRequest puede utilizarse para solicitar información sobre el estado (como rechazo o aceptación) de una instrucción de transferencia, de una instrucción de adeudo directo, así como de otras instrucciones entre entidades (por ejemplo, FIToFIPaymentCancellationRequest).|El mensaje FIToFIPaymentStatusRequest se refiere a la o las instrucciones originales únicamente mediante referencias o mediante referencias y un conjunto de elementos de la instrucción original.|El mensaje FIToFIPaymentStatusRequest puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "OriginalGroupInformationAbsenceRule": {
+      "definition": "Si OriginalGroupInformation está ausente, debe estar presente TransactionInformation[*]/OriginalGroupInformation."
+    },
+    "OriginalGroupInformationMultiplePresenceRule": {
+      "definition": "Si OriginalGroupInformation está presente varias veces (repeticiones > 1), debe estar presente TransactionInformation[*]/OriginalGroupInformation."
+    },
+    "OriginalGroupInformationSinglePresenceRule": {
+      "definition": "Si OriginalGroupInformationAndStatus está presente una sola vez, TransactionInformationAndStatus[*]/OriginalGroupInformation debe estar ausente."
+    },
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

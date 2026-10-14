@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementFrequency1Choice",
+  "definition": "Elección de formatos para la frecuencia de liquidación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Frecuencia de liquidación expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Frecuencia de liquidación expresada como código propietario."
+    }
+  }
+}

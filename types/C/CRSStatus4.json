@@ -1,0 +1,15 @@
+{
+  "isoType": "CRSStatus4",
+  "definition": "Información del estatus del Estándar Común de Comunicación de Información (CRS).",
+  "isoElements": {
+    "Type": {
+      "definition": "Estatus del Estándar Común de Comunicación de Información (CRS)."
+    },
+    "Source": {
+      "definition": "Fuente del estatus del Estándar Común de Comunicación de Información (CRS)."
+    },
+    "ExceptionalReportingCountry": {
+      "definition": "País de comunicación de información para el estatus CRS cuando existe una excepción a nivel de país."
+    }
+  }
+}

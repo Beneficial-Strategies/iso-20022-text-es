@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionCashMovements2",
+  "definition": "Proporciona información sobre el movimiento de efectivo resultante de la instrucción de elección.",
+  "isoElements": {
+    "PostingIdentification": {
+      "definition": "Identificación contable del movimiento de efectivo."
+    },
+    "PostingDateTime": {
+      "definition": "Fecha contable del movimiento de efectivo."
+    },
+    "PostingAmount": {
+      "definition": "Importe contabilizado como resultado del movimiento de efectivo."
+    },
+    "AccountDetails": {
+      "definition": "Proporciona información sobre la cuenta que se adeuda o se abona como resultado del movimiento."
+    }
+  }
+}

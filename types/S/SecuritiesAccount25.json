@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesAccount25",
+  "definition": "Cuenta en la que, o desde la que, se realiza un apunte de valores.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación inequívoca de la cuenta entre el titular de la cuenta y el gestor de la cuenta.”."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de cuenta de valores."
+    },
+    "Name": {
+      "definition": "Descripción de la cuenta."
+    }
+  }
+}

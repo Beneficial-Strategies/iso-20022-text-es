@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReportOrError8Choice",
+  "definition": "Define el informe comercial del límite como un informe de límite o un error comercial.",
+  "isoElements": {
+    "LimitJournal": {
+      "definition": "Información solicitada sobre el límite."
+    },
+    "BusinessError": {
+      "definition": "Motivo por el que no se facilita la información de negocio solicitada."
+    }
+  }
+}

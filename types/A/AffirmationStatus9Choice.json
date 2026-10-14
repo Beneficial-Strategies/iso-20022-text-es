@@ -1,0 +1,12 @@
+{
+  "isoType": "AffirmationStatus9Choice",
+  "definition": "Elección de formato para el estado de afirmación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado de la operación a nivel de confirmación en el momento en que se envió la instrucción de liquidación."
+    },
+    "Proprietary": {
+      "definition": "Proporciona el estado de la operación a nivel de confirmación en el momento en que se envió la instrucción de liquidación."
+    }
+  }
+}

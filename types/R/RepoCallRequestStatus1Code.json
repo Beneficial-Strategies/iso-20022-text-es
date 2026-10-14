@@ -1,0 +1,14 @@
+{
+  "isoType": "RepoCallRequestStatus1Code",
+  "definition": "Especifica información adicional sobre el estado de la instrucción procesada de requerimiento de un acuerdo de recompra.",
+  "isoCodes": {
+    "CACK": {
+      "name": "Acuse de recibo aceptado",
+      "definition": "La solicitud de requerimiento del acuerdo de recompra ha sido reconocida/aceptada."
+    },
+    "DEND": {
+      "name": "Denegado",
+      "definition": "La solicitud de requerimiento del acuerdo de recompra ha sido denegada."
+    }
+  }
+}

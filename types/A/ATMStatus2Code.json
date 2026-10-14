@@ -1,0 +1,14 @@
+{
+  "isoType": "ATMStatus2Code",
+  "definition": "Estado actual del dispositivo de seguridad.",
+  "isoCodes": {
+    "OPER": {
+      "name": "En funcionamiento",
+      "definition": "El componente está activado y en funcionamiento."
+    },
+    "OUTS": {
+      "name": "Fuera de servicio",
+      "definition": "Cajero automático (ATM) fuera de servicio."
+    }
+  }
+}

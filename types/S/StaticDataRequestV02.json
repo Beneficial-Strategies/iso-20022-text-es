@@ -1,0 +1,12 @@
+{
+  "isoType": "StaticDataRequestV02",
+  "definition": "El mensaje StaticDataRequest lo envía un participante de un sistema central al sistema central para solicitar un informe de datos estáticos.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificador único e inequívoco del mensaje, asignado por el remitente."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Para indicar la sesión de liquidación de CLS solicitada de la que forma parte la operación comercial relacionada."
+    }
+  }
+}

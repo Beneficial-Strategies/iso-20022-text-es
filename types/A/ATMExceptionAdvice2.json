@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMExceptionAdvice2",
+  "definition": "Información relativa a las excepciones que se producen en el cajero automático (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno de la excepción."
+    },
+    "Context": {
+      "definition": "Contexto de la excepción."
+    },
+    "Transaction": {
+      "definition": "Operación para la que se envía la excepción."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "SafekeepingPlaceAsCodeAndPartyIdentification",
+  "definition": "Identificación del lugar de custodia expresada mediante un código y un BIC.",
+  "isoElements": {
+    "PlaceSafekeeping": {
+      "definition": "Lugar de custodia como código."
+    },
+    "Narrative": {
+      "definition": "Información adicional sobre el lugar de custodia."
+    },
+    "Party": {
+      "definition": "Lugar de custodia."
+    }
+  },
+  "isoRules": {
+    "Party1Rule": {
+      "definition": "Si PlaceSafekeeping no es SHHE, Party es obligatorio. Si PlaceSafekeeping es SHHE, Party es opcional."
+    }
+  }
+}

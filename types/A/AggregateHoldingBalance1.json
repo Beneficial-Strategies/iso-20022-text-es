@@ -1,0 +1,21 @@
+{
+  "isoType": "AggregateHoldingBalance1",
+  "definition": "Posición global de tenencia, en un único instrumento financiero, mantenida en una cuenta de valores en un lugar de custodia especificado.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificación del instrumento financiero para el que se especifica la información de saldo."
+    },
+    "HoldingForm": {
+      "definition": "Forma de titularidad de la tenencia."
+    },
+    "HoldingPhysicalType": {
+      "definition": "Especifica si la tenencia se entrega físicamente o es únicamente una anotación en cuenta."
+    },
+    "BalanceForFinancialInstrument": {
+      "definition": "Desglose del saldo de la posición neta del instrumento financiero."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

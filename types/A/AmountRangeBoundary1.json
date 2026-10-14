@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountRangeBoundary1",
+  "definition": "Límite de un rango de importes.",
+  "isoElements": {
+    "BoundaryAmount": {
+      "definition": "Valor del importe del límite del rango."
+    },
+    "Included": {
+      "definition": "Indica si el importe límite está incluido en el rango de valores de importe."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Reinvestment4",
+  "definition": "Información de reinversión.",
+  "isoElements": {
+    "FinancialInstrumentDetails": {
+      "definition": "Fondo de inversión para la reinversión."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Divisa que se utilizará para fijar el precio del fondo. Esta divisa debe estar entre el conjunto de divisas en las que puede expresarse el precio, según se indica en el folleto."
+    },
+    "ReinvestmentPercentage": {
+      "definition": "Porcentaje de la reinversión."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ResolutionOfInvestigationV14",
+  "definition": "Ámbito|El mensaje ResolutionOfInvestigation es enviado por el asignatario de un caso al creador o al asignador del caso.|Este mensaje se utiliza para informar de la resolución de un caso y, opcionalmente, proporciona detalles sobre:|- la acción correctiva emprendida por el asignatario del caso;|- información sobre la devolución, cuando proceda.|Uso|El mensaje ResolutionOfInvestigation es utilizado por el asignatario del caso para informar al creador o al asignador del caso sobre la resolución de:|- una solicitud de anulación de pago;|El mensaje ResolutionOfInvestigation abarca un único caso cada vez. Si el asignatario del caso necesita comunicarse sobre varios casos, deben enviarse varios mensajes Resolution Of Investigation.|El mensaje ResolutionOfInvestigation proporciona:|- el resultado final del caso, ya sea positivo o negativo;|- opcionalmente, los detalles de la acción correctiva emprendida por el asignatario del caso y la información de la devolución.|Siempre que la acción de modificar o anular un pago dé lugar a la devolución o reversión de fondos, una entidad investigadora puede facilitar los detalles en el componente de investigación relacionado con la resolución, para identificar la operación de devolución o de reversión. Estos detalles facilitarán la conciliación de cuentas en la entidad iniciadora y en las entidades intermediarias. Debe subrayarse que la devolución o reversión de fondos queda fuera del ámbito de este servicio de excepciones e investigaciones. Las funciones aquí descritas solo tienen por objeto transmitir la información de la devolución o reversión cuando esta se halle disponible a través de la resolución del caso.|El mensaje ResolutionOfInvestigation debe:|- ser reenviado por todos los asignatarios posteriores del caso hasta que llegue al creador del caso;|El mensaje ResolutionOfInvestigation debe ser el único mensaje de respuesta a una solicitud de anulación. Los detalles de las operaciones subyacentes y de los estados relacionados para los que se ha emitido la solicitud de anulación pueden facilitarse en el componente CancellationDetails.",
+  "isoRules": {
+    "PartialOrRejectedCancellationRule": {
+      "definition": "Si Status/Confirmation está presente y es igual a PECR o RJCR, CancellationDetails debe estar presente."
+    },
+    "MessageOrGroupResolvedCaseRule": {
+      "definition": "ResolvedCase puede estar presente en el nivel ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus o TransactionInformationAndStatus."
+    },
+    "MessageOrPaymentInformationResolvedCaseRule": {
+      "definition": "ResolvedCase puede estar presente en el nivel ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus o TransactionInformationAndStatus."
+    },
+    "MessageOrInitiationTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase puede estar presente en el nivel ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus o TransactionInformationAndStatus."
+    },
+    "MessageOrInterbankTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase puede estar presente en el nivel ResolvedCase, OriginalGroupInformationAndStatus, OriginalPaymentInformationAndStatus o TransactionInformationAndStatus."
+    }
+  }
+}

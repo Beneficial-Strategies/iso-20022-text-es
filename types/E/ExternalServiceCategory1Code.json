@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalServiceCategory1Code",
+  "definition": "Especifica la categoría de servicio, tal como se publica en una lista de códigos externa de motivos de estado.|Los conjuntos de códigos externos se pueden descargar de www.iso20022.org.",
+  "isoCodes": {
+    "ACMS": {
+      "name": "Servicios de gestión de cuentas",
+      "definition": "Acuerdo o normas conforme a los cuales debe procesarse la operación, expresado como código.|Esta categoría abarca la información de comisiones relacionadas con los servicios de gestión de cuentas, incluidas, entre otras, las cuotas de membresía y las comisiones mínimas (es decir, comisiones añadidas a las facturas pequeñas para alcanzar las comisiones mínimas acordadas para cada participante)."
+    },
+    "BICM": {
+      "name": "Gestión bilateral de garantías",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con la gestión de garantías sujetas a acuerdos bilaterales (que cubren la financiación del banco central para activos negociables y no negociables, derivados OTC no compensados y financiación de valores)."
+    },
+    "CALM": {
+      "name": "Servicios de gestión de efectivo y liquidez",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con los servicios de gestión de efectivo y liquidez."
+    },
+    "CLEA": {
+      "name": "Servicios de compensación",
+      "definition": "Esta categoría abarca la información de las comisiones relacionadas con la prestación de servicios de compensación."
+    },
+    "CUST": {
+      "name": "Servicios de custodia",
+      "definition": "Esta categoría abarca la información de todas las comisiones que se cobran por operación, como las instrucciones de elección. La categoría también se utiliza para informar de las comisiones por servicios fiscales relacionados con los activos en custodia, junto con el procesamiento de operaciones societarias y eventos de juntas."
+    },
+    "INSV": {
+      "name": "Servicios de información",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con la provisión de información por cualquier medio y con la provisión de herramientas de conectividad. Incluye la mensajería ISO (entrante o saliente), el acceso a la interfaz gráfica de usuario (GUI), la conectividad, la recarga de tokens de seguridad, las suscripciones a informes y el suministro de datos por cualquier otro medio (p. ej., formatos en papel)."
+    },
+    "INVS": {
+      "name": "Servicios de fondos de inversión",
+      "definition": "Esta categoría abarca la información de todo lo relacionado con los servicios específicos prestados a los fondos de inversión, como el enrutamiento de órdenes o la información a los titulares. La custodia y la liquidación de fondos de inversión y de fondos cotizados deben notificarse en las categorías de Servicios de custodia y Servicios de liquidación, respectivamente."
+    },
+    "ISSU": {
+      "name": "Servicios de emisor",
+      "definition": "Esta categoría abarca la información de las comisiones relacionadas con la prestación de servicios al emisor por parte de un CSD. Incluye comisiones como la emisión y el reembolso de valores y la gestión de operaciones societarias."
+    },
+    "OTHR": {
+      "name": "Otros servicios",
+      "definition": "Esta categoría abarca la información de las comisiones relacionadas con otros servicios prestados que pueden no estar fijados en una tarifa general aplicable a todos los clientes, sino acordados bilateralmente con cada cliente. Incluye la atención de solicitudes de servicio personalizadas y otro apoyo prestado a los clientes, como la formación y el acceso de pruebas, así como los gastos suplidos."
+    },
+    "PENM": {
+      "name": "Mecanismo de penalizaciones",
+      "definition": "Esta categoría abarca la información de las comisiones relacionadas con la recuperación de los costes asociados al desarrollo y mantenimiento del mecanismo de penalizaciones. Nota: esta categoría no debe utilizarse para informar de la propia penalización."
+    },
+    "REGI": {
+      "name": "Servicios de registro",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con el registro de valores."
+    },
+    "SAFE": {
+      "name": "Servicios de depósito y custodia",
+      "definition": "Esta categoría abarca la información de todas las comisiones que se calculan como puntos básicos aplicados a los activos en custodia. Incluye las comisiones de notaría, de mantenimiento central y de administración de activos."
+    },
+    "SECL": {
+      "name": "Servicios de préstamo de valores",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con los servicios de préstamo de valores."
+    },
+    "PENA": {
+      "name": "Penalizaciones de liquidación",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con la recuperación de costes de las penalizaciones de liquidación aplicadas por sistemas de liquidación no pertenecientes a la EU (fuera del ámbito de la disciplina de liquidación del CSDR)."
+    },
+    "SETT": {
+      "name": "Servicios de liquidación",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con la liquidación de valores y/o efectivo. Incluye las comisiones relacionadas con la liquidación de reclamaciones de mercado y transformaciones. En esta categoría también se notifican los impuestos aplicados a las operaciones liquidadas (como los impuestos sobre transacciones financieras) y los servicios auxiliares de liquidación."
+    },
+    "SHDT": {
+      "name": "Servicios de transmisión de datos de accionistas",
+      "definition": "Esta categoría abarca la información de las comisiones relacionadas con la prestación de servicios que permiten a los intermediarios enviar datos de los accionistas a los emisores. Incluye los costes relacionados con la prestación del servicio de cálculo y liquidación de las comisiones aplicadas por los intermediarios a los emisores por la notificación de datos de los accionistas."
+    },
+    "STEX": {
+      "name": "Servicios de bolsa",
+      "definition": "Esta categoría abarca la información de las comisiones relacionadas con la prestación de servicios de bolsa. Incluye las comisiones por operación."
+    },
+    "TPCM": {
+      "name": "Servicios de gestión tripartita de garantías",
+      "definition": "Esta categoría abarca la información de todas las comisiones relacionadas con la prestación de servicios a los dadores y/o tomadores de garantías que participan en una operación de gestión de garantías tripartita."
+    }
+  }
+}

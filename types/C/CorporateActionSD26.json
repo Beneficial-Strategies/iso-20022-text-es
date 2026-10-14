@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionSD26",
+  "definition": "Contiene detalles sobre los certificados amortizados.",
+  "isoElements": {
+    "CertificateNumber": {
+      "definition": "Identificación única o número de serie que el emisor o el agente de transferencias asigna e imprime en cada certificado de valores."
+    },
+    "CertificatePrefix": {
+      "definition": "Prefijo de un certificado que puede variar según el lugar donde se haya realizado la emisión de los certificados."
+    },
+    "CertificateCalledAmount": {
+      "definition": "Importe principal (en emisiones de deuda) o número de acciones (en emisiones de renta variable) que ha sido llamado a reembolso para un número de certificado determinado."
+    }
+  }
+}

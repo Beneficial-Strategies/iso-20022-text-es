@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat30Choice",
+  "definition": "Elección entre un formato ISODate o un código de fecha.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha expresada como fecha del calendario."
+    },
+    "DateCode": {
+      "definition": "Especifica el tipo de fecha."
+    }
+  }
+}

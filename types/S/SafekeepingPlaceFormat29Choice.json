@@ -1,0 +1,18 @@
+{
+  "isoType": "SafekeepingPlaceFormat29Choice",
+  "definition": "Elección entre formatos para el lugar de custodia.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Lugar de custodia expresado como un código y una descripción narrativa."
+    },
+    "Country": {
+      "definition": "Lugar de custodia expresado con un código de país."
+    },
+    "TypeAndIdentification": {
+      "definition": "Lugar de custodia expresado con un tipo y una identificación."
+    },
+    "Proprietary": {
+      "definition": "Lugar de custodia expresado con un esquema de identificación propietario."
+    }
+  }
+}

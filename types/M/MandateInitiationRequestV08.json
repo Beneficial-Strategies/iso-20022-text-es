@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateInitiationRequestV08",
+  "definition": "Ámbito|El mensaje MandateInitiationRequest lo envía el iniciador de la solicitud a su entidad. El iniciador puede ser el ordenante o el beneficiario.|El mensaje MandateInitiationRequest lo reenvía la entidad del iniciador a la entidad de la contraparte.|El mensaje MandateInitiationRequest se utiliza para configurar la instrucción que permite a la entidad del ordenante aceptar instrucciones del beneficiario, a través de la entidad del beneficiario, para adeudar la cuenta del ordenante.|Uso|El mensaje MandateInitiationRequest puede contener una o más solicitudes para configurar un mandato específico.|Los mensajes pueden intercambiarse entre el beneficiario y la entidad del beneficiario, o entre el ordenante y la entidad del ordenante, y entre la entidad del beneficiario y la entidad del ordenante.|El mensaje también puede ser utilizado por una parte iniciadora que tenga autoridad para enviarlo en nombre del beneficiario o del ordenante.|El mensaje MandateInitiationRequest puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

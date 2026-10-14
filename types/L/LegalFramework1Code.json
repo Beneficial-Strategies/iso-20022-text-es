@@ -1,0 +1,10 @@
+{
+  "isoType": "LegalFramework1Code",
+  "definition": "Identifica el marco jurídico de la operación.",
+  "isoCodes": {
+    "FRAN": {
+      "name": "Pensión con entrega de valores",
+      "definition": "Se refiere al marco jurídico francés para los repos, es decir, se refiere a una \"Pension Livrée\"."
+    }
+  }
+}

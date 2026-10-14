@@ -1,0 +1,47 @@
+{
+  "isoType": "IntraPositionDetails61",
+  "definition": "Detalles del movimiento intraposición.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Cantidad de instrumento financiero efectivamente liquidada."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica un tipo de subsaldo de valores, por ejemplo, la identificación de una restricción."
+    },
+    "CollateralMonitorAmount": {
+      "definition": "Valor de la garantía disponible para el proceso de liquidación de entrega a nivel de cuenta."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Cantidad de instrumento financiero liquidada previamente."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Cantidad de instrumento financiero pendiente de liquidar."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que se movieron los valores."
+    },
+    "AvailableDate": {
+      "definition": "Fecha y hora en que los valores pasan a estar disponibles para la venta (si los valores dejan de estar disponibles, indica la fecha y hora en que volverán a estarlo)."
+    },
+    "CorporateActionEventType": {
+      "definition": "Especifica el tipo de evento societario."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo del que se mueven los valores."
+    },
+    "BalanceTo": {
+      "definition": "Saldo al que se mueven los valores."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre el tratamiento de la liquidación que no puede incluirse en los campos estructurados del mensaje."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si InstructionProcessingAdditionalDetails está presente, no debe contener información que pueda facilitarse en un campo estructurado."
+    },
+    "BalanceFromToRule": {
+      "definition": "BalanceFrom/Type debe ser distinto de BalanceTo/Type."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "isoType": "CorporateActionPeriod16",
+  "definition": "Especifica los períodos de una operación societaria.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Periodo durante el cual se determina el precio de un valor."
+    },
+    "InterestPeriod": {
+      "definition": "Período durante el cual se ha aplicado el tipo de interés."
+    },
+    "CompulsoryPurchasePeriod": {
+      "definition": "Período durante una oferta pública de adquisición en el que la sociedad adquirente debe comprar cualquier capital pendiente."
+    },
+    "ClaimPeriod": {
+      "definition": "Período asignado por el tribunal en una demanda colectiva. Determina las operaciones elegibles del cliente que se incluirán en la demanda colectiva y se utilizarán para determinar el derecho resultante."
+    },
+    "DepositorySuspensionPeriodForBookEntryTransfer": {
+      "definition": "Período que define la última fecha hasta la que se aceptarán traspasos mediante anotación en cuenta y la fecha en que se levantará la suspensión y se reanudará el tratamiento de dichos traspasos."
+    },
+    "DepositorySuspensionPeriodForDepositAtAgent": {
+      "definition": "Período que define la última fecha hasta la que se aceptarán depósitos, a nombre del titular interpuesto (nominee), en el agente y la fecha en que se levantará la suspensión y se reanudarán los depósitos en el agente."
+    },
+    "DepositorySuspensionPeriodForDeposit": {
+      "definition": "Período que define la última fecha hasta la que se aceptarán depósitos y la fecha en que se levantará la suspensión y se reanudarán los depósitos."
+    },
+    "DepositorySuspensionPeriodForPledge": {
+      "definition": "Período que define la última fecha hasta la que se aceptarán pignoraciones y la fecha en que se levantará la suspensión y se reanudará el tratamiento de pignoraciones."
+    },
+    "DepositorySuspensionPeriodForSegregation": {
+      "definition": "Período que define la última fecha hasta la que pueden segregarse saldos intraposición y la fecha en que se levantará la suspensión y se reanudará la posibilidad de segregar saldos intraposición."
+    },
+    "DepositorySuspensionPeriodForWithdrawalAtAgent": {
+      "definition": "Período que define la última fecha hasta la que se aceptarán retiradas, del nombre del titular interpuesto (nominee) en el agente, y la fecha en que se levantará la suspensión y se reanudará el tratamiento de retiradas en el agente."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInNomineeName": {
+      "definition": "Período que define la última fecha hasta la que se aceptarán retiradas físicas a nombre del titular interpuesto (nominee) y la fecha en que se levantará la suspensión y se reanudarán las retiradas físicas a nombre del titular interpuesto (nominee)."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInStreetName": {
+      "definition": "Período que define la última fecha en que se aceptarán solicitudes de retirada a nombre de la calle (street name) sobre el valor del evento y la fecha en que se levantará la suspensión y se reanudará el tratamiento de retiradas a nombre de la calle (street name) sobre el valor del evento."
+    },
+    "BookClosurePeriod": {
+      "definition": "Período que define la última fecha en que el emisor aceptará el registro de accionistas y la fecha en que se reanudará el registro de accionistas."
+    },
+    "CoDepositoriesSuspensionPeriod": {
+      "definition": "Período durante el cual se suspenden las actividades de liquidación en los codepositarios con el fin de estabilizar las posiciones en el CSD."
+    },
+    "SplitPeriod": {
+      "definition": "Período durante el cual puede dividirse un certificado físico."
+    },
+    "FiscalYearPeriod": {
+      "definition": "Período que define el año fiscal o tributario al que corresponde el dividendo, con el fin de deducir correctamente los impuestos a los residentes."
+    }
+  },
+  "isoRules": {
+    "InterestPeriodRule": {
+      "definition": "InterestPeriod debe utilizarse únicamente si es distinto de un período normal de intereses devengados."
+    }
+  }
+}

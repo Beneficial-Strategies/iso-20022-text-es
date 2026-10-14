@@ -1,0 +1,21 @@
+{
+  "isoType": "GroupHeader120",
+  "definition": "Conjunto de características compartidas por todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar el mensaje de forma inequívoca.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por cada parte instruida durante un periodo previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la instrucción (o el conjunto de instrucciones).||Uso: La entidad instructora es la parte que envía el mensaje de estado y no la parte que envió la instrucción original sobre la que se informa."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad instruida por la parte anterior de la cadena para ejecutar la instrucción o el conjunto de instrucciones.||Uso: La entidad instruida es la parte que recibe el mensaje de estado y no la parte que recibió la instrucción original sobre la que se informa."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Identificación única, asignada por el solicitante original, para identificar de forma inequívoca el mensaje de consulta de negocio."
+    }
+  }
+}

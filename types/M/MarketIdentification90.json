@@ -1,0 +1,17 @@
+{
+  "isoType": "MarketIdentification90",
+  "definition": "Contexto, o entorno geográfico, en el que las partes negociadoras pueden reunirse para negociar y ejecutar operaciones entre ellas.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Código asignado a los lugares de negociación, es decir, bolsas de valores, mercados regulados, por ejemplo, plataformas electrónicas de negociación (ECN), y mercados no regulados, por ejemplo, sistemas de negociación automatizados (ATS), como fuentes de precios e información conexa, con el fin de facilitar el procesamiento automatizado."
+    },
+    "Type": {
+      "definition": "Naturaleza de un mercado en el que se realizan operaciones."
+    }
+  },
+  "isoRules": {
+    "MarketTypeAndIdentificationRule": {
+      "definition": "Si Type/Code es OverTheCounter (OTCO) y si Identification está presente, Identification/Description debe especificar un sistema.|Si Type/Code es Exchange (EXCH) y si Identification está presente, Identification/MarketIdentifierCode debe estar presente."
+    }
+  }
+}

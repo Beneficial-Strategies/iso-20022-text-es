@@ -1,0 +1,21 @@
+{
+  "isoType": "BalanceAmounts5",
+  "definition": "Contabilización de una partida en una cuenta de efectivo, en el contexto de una operación de efectivo, que da lugar a un aumento o una disminución del saldo de la cuenta.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Valor de una tenencia individual de un instrumento financiero dentro de una cuenta de custodia."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Valor anterior de una tenencia individual de un instrumento financiero dentro de una cuenta de custodia."
+    },
+    "BookValue": {
+      "definition": "Valor de un instrumento financiero, tal como se contabilizó o adquirió en una cuenta. Puede utilizarse para establecer la obligación tributaria por ganancias de capital."
+    },
+    "UnrealisedGainLoss": {
+      "definition": "Diferencia entre el valor de la posición y el valor contable."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    }
+  }
+}

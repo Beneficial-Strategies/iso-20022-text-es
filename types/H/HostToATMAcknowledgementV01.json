@@ -1,0 +1,4 @@
+{
+  "isoType": "HostToATMAcknowledgementV01",
+  "definition": "El mensaje HostToATMAcknowledgement lo envía un cajero automático (ATM) a un host para acusar recibo de un mensaje HostToATMRequest."
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstrument24Choice",
+  "definition": "Elección de instrumentos de pago.",
+  "isoElements": {
+    "PaymentCardDetails": {
+      "definition": "Instrucciones de liquidación para un pago con tarjeta."
+    },
+    "DirectDebitDetails": {
+      "definition": "Instrucciones de liquidación para un pago mediante adeudo directo."
+    },
+    "Cheque": {
+      "definition": "Indica si el pago se realiza mediante cheque."
+    },
+    "BankersDraft": {
+      "definition": "Indica si el pago se realiza mediante giro."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "FinancialInstitutionIdentification21",
+  "definition": "Especifica los datos para identificar a una entidad financiera.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Código asignado a una entidad financiera por la Autoridad de Registro de la norma ISO 9362, tal como se describe en ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Información utilizada para identificar a un miembro dentro de un sistema de compensación."
+    },
+    "LEI": {
+      "definition": "Identificador de entidad jurídica de la entidad financiera."
+    },
+    "Other": {
+      "definition": "Identificación única de una entidad, asignada por una institución, mediante un esquema de identificación."
+    }
+  }
+}

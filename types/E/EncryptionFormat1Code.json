@@ -1,0 +1,14 @@
+{
+  "isoType": "EncryptionFormat1Code",
+  "definition": "Formato de los datos antes del cifrado, si el formato no es texto en claro o implícito.",
+  "isoCodes": {
+    "TR31": {
+      "name": "TR31",
+      "definition": "Formato de clave criptográfica especificado por el estándar ANSI X9 TR-31."
+    },
+    "TR34": {
+      "name": "TR34",
+      "definition": "Formato de clave criptográfica especificado por el estándar ANSI X9 TR-34."
+    }
+  }
+}

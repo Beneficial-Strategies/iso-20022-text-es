@@ -1,0 +1,15 @@
+{
+  "isoType": "ChargesBreakdown1",
+  "definition": "Proporciona un desglose de los cargos por tipo.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de los cargos de la operación que debe pagar el responsable de los gastos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe de los cargos es un importe de abono o de adeudo. |Uso: un importe cero se considera un abono."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de cargo."
+    }
+  }
+}

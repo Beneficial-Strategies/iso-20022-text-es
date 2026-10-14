@@ -1,0 +1,9 @@
+{
+  "isoType": "OtherParties46",
+  "definition": "Información de otras partes.",
+  "isoElements": {
+    "Investor": {
+      "definition": "Parte, ya sea una persona física u organización, cuyos activos se están invirtiendo."
+    }
+  }
+}

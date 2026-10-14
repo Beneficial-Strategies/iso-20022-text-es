@@ -1,0 +1,42 @@
+{
+  "isoType": "PortfolioTransfer18",
+  "definition": "Tipo de producto y de activos que se van a traspasar.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    },
+    "TransferInstructionReference": {
+      "definition": "Identificación asignada al traspaso de activos."
+    },
+    "TransferCompletionIdentification": {
+      "definition": "Identificación de la finalización asignada por el cedente a la transferencia."
+    },
+    "ActualTransferDate": {
+      "definition": "Fecha en la que se ejecutó la instrucción de traspaso de cartera."
+    },
+    "Portfolio": {
+      "definition": "Elección de producto fiscalmente eficiente, inversión general o pensión."
+    },
+    "AllOtherCash": {
+      "definition": "Especifica si todos los activos restantes de la cartera que no figuran para su traspaso deben liquidarse y traspasarse como efectivo."
+    },
+    "CashAll": {
+      "definition": "Especifica si todos los activos de la cartera deben liquidarse y transferirse como efectivo."
+    },
+    "ResidualCash": {
+      "definition": "Especifica cómo debe tratarse el efectivo de la cuenta que está pendiente de inversión"
+    },
+    "TaxDate": {
+      "definition": "Fecha fiscal aplicable a todos los activos."
+    },
+    "PaymentDetails": {
+      "definition": "Proceso de pago para la transferencia de efectivo del ordenante al beneficiario."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Activo transferido."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el traspaso del producto."
+    }
+  }
+}

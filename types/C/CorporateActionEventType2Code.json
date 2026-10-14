@@ -1,0 +1,250 @@
+{
+  "isoType": "CorporateActionEventType2Code",
+  "definition": "Especifica el estado del evento de CA.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Estado de negociación activa",
+      "definition": "La negociación del valor se ha iniciado o el valor se ha reactivado tras una suspensión de la negociación."
+    },
+    "ATTI": {
+      "name": "Adjunto",
+      "definition": "Combinación de diferentes tipos de valores para crear una unidad. Las unidades suelen estar compuestas por warrants y bonos o por warrants y acciones. Los valores pueden combinarse a petición del tenedor o según la convención del mercado."
+    },
+    "BIDS": {
+      "name": "Oferta de recompra",
+      "definition": "Oferta de recompra/oferta del emisor/derechos inversos. Oferta de la sociedad emisora a los accionistas existentes para recomprar acciones u otros valores convertibles en acciones. El objetivo de la oferta es reducir el número de acciones en circulación."
+    },
+    "BONU": {
+      "name": "Emisión de acciones liberadas",
+      "definition": "El evento es una emisión de acciones gratuitas, una emisión de scrip o una emisión por capitalización. Los tenedores de valores reciben del emisor activos adicionales sin pago, en proporción a su participación. Una emisión gratuita se representa normalmente mediante acciones, derechos o warrants. El valor nominal no cambia. Puede ofrecerse al tenedor la elección de la forma."
+    },
+    "BPUT": {
+      "name": "Reembolso por opción de venta (put)",
+      "definition": "Amortización parcial antes de la fecha de vencimiento final prevista de un valor. El sorteo se distingue de la amortización parcial anticipada (partial call) en que los bonos sorteados se eligen por sorteo y sin reducción del valor nominal."
+    },
+    "BRUP": {
+      "name": "Quiebra",
+      "definition": "Situación jurídica de una sociedad incapaz de pagar a sus acreedores. La quiebra suele implicar una resolución judicial formal. Los valores pueden quedar sin valor."
+    },
+    "CAPG": {
+      "name": "Distribución de plusvalías",
+      "definition": "El evento es la distribución de beneficios resultantes de la venta de valores. Los accionistas de fondos de inversión, fondos de participación (unit trusts) o Sicavs reciben las distribuciones de plusvalías, que con frecuencia se reinvierten en participaciones adicionales del fondo."
+    },
+    "CAPI": {
+      "name": "Capitalización",
+      "definition": "Aumento del principal vigente de un instrumento de deuda sin aumentar el valor nominal. Normalmente se origina por la incorporación al principal de intereses vencidos y no pagados. Se realiza habitualmente aumentando el valor del factor de amortización (pool factor), por ejemplo, capitalización y amortización negativa."
+    },
+    "CERT": {
+      "name": "Certificación no estadounidense TEFRA D",
+      "definition": "Requisito de certificación de beneficiario final no US para el canje de bonos temporales por permanentes."
+    },
+    "CHAN": {
+      "name": "Cambio",
+      "definition": "Información relativa a un cambio descrito con mayor detalle en los detalles de la operación societaria."
+    },
+    "CLSA": {
+      "name": "Acuerdo propuesto en demanda colectiva",
+      "definition": "Situación en la que las partes interesadas buscan una indemnización por pérdidas financieras. Puede ofrecerse al tenedor del valor la oportunidad de unirse a una acción colectiva (class action) y tendría que responder con una instrucción."
+    },
+    "CONS": {
+      "name": "Consentimiento",
+      "definition": "Procedimiento que tiene por objeto obtener el consentimiento del titular a una propuesta del emisor o de un tercero destinada a hacer avanzar un evento a la siguiente etapa. No es necesario que este procedimiento esté vinculado a la convocatoria de una reunión formal. Por ejemplo, el consentimiento para aprobar un plan de reorganización en un procedimiento de quiebra."
+    },
+    "CONV": {
+      "name": "Conversión",
+      "definition": "Conversión de valores (generalmente bonos convertibles o acciones preferentes) en otra forma de valores (normalmente acciones ordinarias) a un precio o proporción predeterminados."
+    },
+    "COOP": {
+      "name": "Opción de la sociedad",
+      "definition": "La sociedad puede conceder una opción de sociedad (Company Option) que permita al titular suscribir acciones de la sociedad en una o varias fechas futuras a un precio previamente acordado. Una sociedad no puede conceder opciones que permitan al titular suscribir acciones no emitidas en un momento que se sitúe cinco o más años después de la fecha de concesión. Los titulares de opciones no son miembros de la sociedad. Son acreedores contingentes de la sociedad y, por tanto, en algunos casos pueden tener derecho a votar un plan de acuerdo entre los acreedores y la sociedad y quedar vinculados por él. Como muchas opciones tienen varios períodos de ejercicio, una opción de sociedad caducará o continuará hasta la siguiente fecha de vencimiento."
+    },
+    "DECR": {
+      "name": "Disminución de valor",
+      "definition": "Reducción del valor nominal de cada acción o del valor de los activos del fondo. El número de acciones/participaciones en circulación permanece sin cambios. Este evento puede incluir un pago en efectivo a los tenedores."
+    },
+    "DETI": {
+      "name": "Desprendimiento",
+      "definition": "Separación de los componentes que integran un valor, por ejemplo, normalmente unidades compuestas por warrants y bonos o por warrants y acciones. Las unidades pueden desagregarse a petición del titular del valor o con arreglo a la convención del mercado."
+    },
+    "DFLT": {
+      "name": "Impago de bono",
+      "definition": "Incumplimiento por parte de la sociedad de obligaciones definidas como eventos de impago en el contrato de bonos y que no han sido subsanadas."
+    },
+    "DLST": {
+      "name": "Estado de negociación: excluido de cotización",
+      "definition": "El valor ya no puede cumplir los requisitos de admisión a cotización de una bolsa y se retira de la cotización oficial."
+    },
+    "DRAW": {
+      "name": "Sorteo",
+      "definition": "Amortización parcial antes de la fecha de vencimiento final prevista de un valor. El sorteo se distingue de la amortización parcial anticipada (partial call) en que los bonos sorteados se eligen por sorteo y sin reducción del valor nominal."
+    },
+    "DRIP": {
+      "name": "Reinversión de dividendos",
+      "definition": "El evento es un tipo de pago de dividendo en el que el dividendo en efectivo se reinvierte en acciones adicionales de la sociedad emisora."
+    },
+    "DSCL": {
+      "name": "Divulgación",
+      "definition": "Requisito para que los tenedores o beneficiarios finales comuniquen al emisor su nombre, ubicación y posiciones en cualquier emisión."
+    },
+    "DTCH": {
+      "name": "Subasta holandesa",
+      "definition": "Acción de una parte que desea adquirir un valor. Se invita a los titulares del valor a presentar una oferta de venta dentro de un rango de precios determinado. La parte adquirente comprará al titular que presente la oferta más baja."
+    },
+    "DVCA": {
+      "name": "Dividendo en efectivo",
+      "definition": "Distribución de efectivo a los accionistas, en proporción a su participación en el capital. Los dividendos ordinarios son recurrentes y regulares. El accionista debe recibir efectivo y se le puede ofrecer la elección de la divisa."
+    },
+    "DVOP": {
+      "name": "Opción de dividendo",
+      "definition": "El evento es una distribución de dividendo a los accionistas con posibilidad de elegir el método de pago. El accionista debe elegir la forma de pago: acciones, efectivo o ambos."
+    },
+    "DVSC": {
+      "name": "Dividendo opcional en acciones",
+      "definition": "Dividendo/pago en scrip. Dividendo o interés pagado en forma de scrip."
+    },
+    "DVSE": {
+      "name": "Dividendo en acciones",
+      "definition": "El evento es un dividendo pagado a los accionistas en forma de acciones de la sociedad emisora o de otra sociedad. El accionista debe recibir acciones y no se le ofrece elegir la forma de distribución."
+    },
+    "EXOF": {
+      "name": "Canje",
+      "definition": "Canje de participaciones por otros valores y/o efectivo. El canje puede ser obligatorio o voluntario e implica el canje de valores en circulación por valores diferentes y/o efectivo. Por ejemplo, \"oferta de canje\", \"reorganización de capital\" o \"separación de fondos\"."
+    },
+    "EXRI": {
+      "name": "Llamada sobre valores intermedios",
+      "definition": "Llamada o ejercicio sobre valores no desembolsados o valores intermedios resultantes de una distribución de valores intermedios (RHDI). Este código se utiliza para el segundo evento, cuando la emisión de valores intermedios (derechos/cupones) se compone de dos eventos, siendo el primero la distribución de valores intermedios."
+    },
+    "EXTM": {
+      "name": "Prórroga del vencimiento",
+      "definition": "Según lo estipulado en los términos y condiciones de un bono, el emisor o el tenedor del bono puede prorrogar la fecha de vencimiento del bono. Tras la prórroga, el valor puede diferir de la emisión original (nuevo tipo o nueva fecha de vencimiento). Puede estar sujeta a la aprobación del tenedor del bono."
+    },
+    "EXWA": {
+      "name": "Ejercicio de warrants",
+      "definition": "Opción ofrecida a los tenedores para comprar (call warrant) o vender (put warrant) una cantidad específica de acciones, efectivo o materias primas, a un precio predeterminado, durante un período de tiempo predeterminado (que normalmente corresponde a la vida de la emisión)."
+    },
+    "INCR": {
+      "name": "Aumento de valor",
+      "definition": "Aumento del valor nominal de un único valor. El número de valores en circulación permanece sin cambios."
+    },
+    "INTR": {
+      "name": "Pago de intereses",
+      "definition": "Pago regular de intereses distribuido a los titulares de un activo que devenga intereses."
+    },
+    "LIQU": {
+      "name": "Dividendo de liquidación",
+      "definition": "Distribución de efectivo, de activos o de ambos. La deuda puede pagarse por orden de prioridad según los derechos preferentes sobre los activos que especifique el valor."
+    },
+    "MCAL": {
+      "name": "Amortización anticipada total",
+      "definition": "Amortización de la totalidad de una emisión en circulación de valores, por ejemplo, bonos, acciones preferentes o fondos, por el emisor o su agente, por ejemplo, un gestor de activos, antes del vencimiento final."
+    },
+    "MRGR": {
+      "name": "Fusión",
+      "definition": "El evento es un canje obligatorio o voluntario de valores en circulación como resultado de la combinación de los activos de dos o más sociedades. El canje de acciones puede ir acompañado de pagos en efectivo."
+    },
+    "ODLT": {
+      "name": "Compraventa de lotes irregulares",
+      "definition": "Venta/compra de lotes irregulares (Odd Lot). Venta o compra de lotes irregulares a la sociedad emisora o de ella, iniciada por el titular del valor o mediante una oferta realizada por el emisor."
+    },
+    "PARI": {
+      "name": "Pari passu",
+      "definition": "Se produce cuando valores con características diferentes, por ejemplo, acciones con distintos derechos a dividendo o de voto, pasan a ser idénticos en todos los aspectos, por ejemplo, pari passu o asimilación. Puede programarse con antelación, por ejemplo, las acciones resultantes de una emisión liberada pueden pasar a ser fungibles tras un período de tiempo preestablecido, o puede derivarse de eventos externos, por ejemplo, fusión, reorganización, emisión de tramos suplementarios, etc."
+    },
+    "PCAL": {
+      "name": "Amortización parcial con reducción del valor nominal",
+      "definition": "Los valores se amortizan parcialmente antes de su fecha de vencimiento final prevista con reducción del valor nominal de las acciones. El importe en circulación de los valores se reducirá proporcionalmente."
+    },
+    "PDEF": {
+      "name": "Prefinanciación",
+      "definition": "También denominado defeasance parcial. El emisor tiene dinero reservado para amortizar una parte de una emisión y el contrato de emisión (indenture) establece que los valores podrían ser amortizados anticipadamente antes del vencimiento indicado."
+    },
+    "PINK": {
+      "name": "Pago en especie",
+      "definition": "Pago de intereses, en cualquier forma excepto efectivo, distribuido a los tenedores de un activo que devenga intereses."
+    },
+    "PLAC": {
+      "name": "Lugar de constitución",
+      "definition": "Cambios en el estado de constitución de sociedades US y cambios en el lugar de constitución de sociedades extranjeras. Cuando las acciones deban registrarse tras el cambio de constitución, es posible que los tenedores tengan que elegir el registrador."
+    },
+    "PPMT": {
+      "name": "Llamada de pago fraccionado",
+      "definition": "Un pago a plazos para la compra de capital social, sujeto a un acuerdo entre un emisor y un comprador."
+    },
+    "PRED": {
+      "name": "Amortización parcial sin reducción del valor nominal",
+      "definition": "Los valores se amortizan parcialmente antes de su fecha de vencimiento final prevista sin reducción del valor nominal de las acciones. Se realiza habitualmente mediante la reducción del factor de amortización (pool factor)."
+    },
+    "PRII": {
+      "name": "Pago de intereses con principal",
+      "definition": "Evento que consta de dos componentes: la disminución del valor amortizado de un valor con factor de amortización (pool factor) y un pago de intereses."
+    },
+    "PRIO": {
+      "name": "Emisión prioritaria",
+      "definition": "Forma de oferta abierta o pública en la que, debido a la cantidad limitada de valores disponibles, se da prioridad a los accionistas existentes."
+    },
+    "REDM": {
+      "name": "Vencimiento final",
+      "definition": "Amortización de la totalidad de una emisión en circulación de valores, por ejemplo, bonos, acciones preferentes o fondos, por el emisor o su agente, por ejemplo, un gestor de activos, al vencimiento final."
+    },
+    "REDO": {
+      "name": "Redenominación",
+      "definition": "Evento por el cual se redenomina la unidad (divisa y/o nominal) de un valor, por ejemplo, el valor nominal de un valor expresado en una divisa nacional se redenomina en otra divisa."
+    },
+    "REMK": {
+      "name": "Acuerdo de recolocación",
+      "definition": "Compra y venta de acciones preferentes/bonos remercadeados (remarketed) mediante la negociación del tipo de interés entre los emisores y los tenedores."
+    },
+    "RHDI": {
+      "name": "Distribución de valores intermedios",
+      "definition": "Distribución de valores intermedios o de un privilegio que otorga al titular el derecho a participar en un evento futuro."
+    },
+    "RHTS": {
+      "name": "Emisión de derechos",
+      "definition": "Emisión de derechos/derechos de suscripción/oferta de derechos. Distribución de un valor o privilegio que otorga al titular un derecho a participar en un evento futuro."
+    },
+    "SHPR": {
+      "name": "Dividendo con prima de emisión",
+      "definition": "Este evento societario abona a los accionistas un importe en efectivo procedente de la reserva de prima de emisión. Es similar a un dividendo, pero con consecuencias fiscales distintas."
+    },
+    "SMAL": {
+      "name": "Unidad negociable mínima",
+      "definition": "Modificación de la unidad mínima negociable de acciones con el fin de obtener una nueva unidad negociable."
+    },
+    "SOFF": {
+      "name": "Escisión",
+      "definition": "El evento es una escisión, una distribución o una segregación (unbundling). Es una distribución de acciones de una filial a los accionistas de la sociedad matriz sin entrega de acciones. Un spin-off representa una forma de desinversión que da lugar a una sociedad independiente. Normalmente no tiene coste para los accionistas de la emisión de la matriz."
+    },
+    "SPLF": {
+      "name": "División de acciones",
+      "definition": "El evento es un cambio del valor nominal, una subdivisión. Es un aumento del número de acciones en circulación de una sociedad sin ningún cambio en el patrimonio del accionista ni en el valor de mercado agregado en el momento de la división. El precio de la acción y el valor nominal se reducen en consecuencia."
+    },
+    "SPLR": {
+      "name": "Agrupación de acciones",
+      "definition": "El evento es un cambio del valor nominal, una consolidación. Es una disminución del número de acciones en circulación sin ningún cambio en el patrimonio del accionista ni en el valor de mercado agregado en el momento de la división. El precio de la acción y el valor nominal se reducen en consecuencia."
+    },
+    "SUSP": {
+      "name": "Estado de negociación: suspendido",
+      "definition": "La negociación del valor ha sido suspendida."
+    },
+    "TEND": {
+      "name": "Oferta pública",
+      "definition": "El evento es una adquisición, una toma de control, una offre publique de retrait (FR), una oferta de compra o una recompra. Es una oferta dirigida a los accionistas para que vendan (ofrezcan) sus acciones a un precio especificado, normalmente con una prima sobre el precio de mercado vigente. Por lo general, el objetivo de una oferta pública de adquisición es tomar el control de la sociedad objetivo."
+    },
+    "TREC": {
+      "name": "Reclamación de impuestos",
+      "definition": "Evento relacionado con actividades de reclamación de impuestos."
+    },
+    "WRTH": {
+      "name": "Sin valor",
+      "definition": "Baja contable de valores sin valor."
+    },
+    "WTRC": {
+      "name": "Certificación de exención de retención fiscal",
+      "definition": "Proceso de certificación para la reducción o exención de la retención fiscal en función de la situación fiscal del tenedor."
+    },
+    "OTHR": {
+      "name": "Otro evento",
+      "definition": "Otro evento; utilícese únicamente cuando no sea aplicable ningún otro tipo de evento, por ejemplo, un nuevo tipo de evento."
+    }
+  }
+}

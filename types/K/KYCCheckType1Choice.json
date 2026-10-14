@@ -1,0 +1,12 @@
+{
+  "isoType": "KYCCheckType1Choice",
+  "definition": "Elección de formatos para la especificación del tipo de comprobación de conocimiento del cliente (KYC).",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de comprobación de conocimiento del cliente (KYC) expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de comprobación de conocimiento del cliente (KYC) expresado como código propietario."
+    }
+  }
+}

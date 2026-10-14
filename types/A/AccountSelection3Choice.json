@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountSelection3Choice",
+  "definition": "Elección de criterios para la identificación de una cuenta.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "OtherAccountSelectionData": {
+      "definition": "Diversa información de la cuenta de inversión utilizada para seleccionar una cuenta específica."
+    }
+  }
+}

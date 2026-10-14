@@ -1,0 +1,12 @@
+{
+  "isoType": "CustomerConductClassification1Choice",
+  "definition": "Elección de formatos para la especificación de la clasificación de la conducta del cliente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de conducta expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de conducta expresado como código propietario."
+    }
+  }
+}

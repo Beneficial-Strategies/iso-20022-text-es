@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationRequestV01",
+  "definition": "El ATMReconciliationRequest lo envía un cajero automático a un host de mantenimiento para notificar actualizaciones de los recuentos de conciliación."
+}

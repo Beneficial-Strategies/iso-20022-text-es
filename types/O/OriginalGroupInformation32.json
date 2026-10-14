@@ -1,0 +1,38 @@
+{
+  "isoType": "OriginalGroupInformation32",
+  "definition": "Proporciona información sobre el grupo original al que se refiere el mensaje.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora original, para identificar inequívocamente el mensaje original."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Especifica el identificador del nombre del mensaje original al que se refiere el mensaje."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje original."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje original."
+    },
+    "OriginalControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje original, independientemente de las divisas."
+    },
+    "GroupStatus": {
+      "definition": "Especifica el estado de un grupo de operaciones."
+    },
+    "StatusReasonInformation": {
+      "definition": "Conjunto de elementos utilizados para proporcionar información detallada sobre el motivo del estado."
+    },
+    "NumberOfTransactionsPerStatus": {
+      "definition": "Información detallada sobre el número de operaciones para cada estado de operación idéntico."
+    }
+  },
+  "isoRules": {
+    "StatusReasonInformationRule": {
+      "definition": "Si GroupStatus está presente y es distinto de RJCT o PDNG, StatusReasonInformation/AdditionalInformation debe estar ausente."
+    },
+    "NumberOfTransactionPerStatusGuideline": {
+      "definition": "OriginalGroupInformationAndStatus/NumberOfTransactionsPerStatus solo debería estar presente si GroupStatus es igual a 'PART'."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "AdditionalDateTime1",
+  "definition": "Serie de fechas adicionales relacionadas con el pago.",
+  "isoElements": {
+    "AcceptanceDateTime": {
+      "definition": "Momento en que la orden de pago de la parte iniciadora cumple las condiciones de tramitación de la entidad gestora de la cuenta. Esto significa que la entidad gestora de la cuenta ha recibido la orden de pago y ha aplicado comprobaciones como la autorización y la disponibilidad de fondos."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Fecha utilizada para corregir la fecha valor de un movimiento de cash pooling que se ha contabilizado con una fecha valor diferente."
+    },
+    "ExpiryDateTime": {
+      "definition": "Fecha y hora en que debe caducar el pago si no se ha liquidado."
+    }
+  },
+  "isoRules": {
+    "AdditionalDateTimePresenceRule": {
+      "definition": "Debe estar presente AcceptanceDateTime, PoolingAdjustmentDate o ExpiryDateTime. Pueden estar presentes todos."
+    }
+  }
+}

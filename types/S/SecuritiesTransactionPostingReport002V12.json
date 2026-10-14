@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesTransactionPostingReport002V12",
+  "definition": "Alcance|SecuritiesTransactionPostingReport es enviado por un administrador de cuentas a un titular de cuenta para proporcionar el detalle de los aumentos y disminuciones de posiciones ocurridos durante un período determinado, para todos los valores o para valores seleccionados de la cuenta de custodia o subcuenta de custodia especificada que el administrador de cuentas mantiene para el titular de la cuenta. |La relación entre administrador de cuentas y titular puede ser:|- un depositario central de valores u otra infraestructura de mercado de liquidación que actúa en nombre de sus participantes|- un agente (subcustodio) que actúa en nombre de su cliente custodio global, o |- un custodio que actúa en nombre de una institución de gestión de inversiones o de un corredor/intermediario.||Uso|Este mensaje puede utilizarse como estado basado en la fecha de contratación o en la fecha de liquidación.|El mensaje también puede utilizarse para: |- reenviar un mensaje enviado previamente,|- proporcionar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "FinancialInstrumentDetailsReportingRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es TRUE (Sí) y SubAccountIndicator es FALSE (No), entonces FinancialInstrumentDetails debe estar presente y Sub Account Details debe estar ausente."
+    },
+    "SubAccountDetailsFinancialInstrumentPresenceRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es TRUE (Sí) y SubAccountIndicator es TRUE (YES), entonces SubAccountDetails debe estar presente y FinancialInstrumentDetails debe estar ausente."
+    },
+    "FinancialInstrumentDetailsOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es FALSE (No), entonces FinancialInstrumentDetails y SubAccountDetails deben estar ausentes."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "El Securities Market Practice Group (SMPG) ha publicado recomendaciones de prácticas de mercado sobre el uso de este mensaje.|Estas prácticas de mercado están disponibles en www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

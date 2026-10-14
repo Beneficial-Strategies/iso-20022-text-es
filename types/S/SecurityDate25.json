@@ -1,0 +1,24 @@
+{
+  "isoType": "SecurityDate25",
+  "definition": "Especifica los detalles de fecha del valor.",
+  "isoElements": {
+    "PostingDate": {
+      "definition": "Fecha del asiento (abono o adeudo) en la cuenta."
+    },
+    "AvailableDate": {
+      "definition": "Fecha y hora en que los valores pasan a estar disponibles para su negociación, por ejemplo, la primera fecha de contratación."
+    },
+    "PariPassuDate": {
+      "definition": "Fecha y hora en que el valor se asimilará, pasará a ser fungible o tendrá los mismos derechos a dividendos que la emisión matriz."
+    },
+    "DividendRankingDate": {
+      "definition": "Fecha y hora a partir de la cual un valor tendrá derecho a un dividendo."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Fecha y hora en que puede efectuarse un pago, por ejemplo, si la fecha de pago no es un día hábil o para indicar la primera fecha de pago de una oferta."
+    },
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe tener lugar el movimiento (de efectivo y/o de valores)."
+    }
+  }
+}

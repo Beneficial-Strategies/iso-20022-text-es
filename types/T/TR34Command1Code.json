@@ -1,0 +1,26 @@
+{
+  "isoType": "TR34Command1Code",
+  "definition": "Comando TR34 específico que el cajero automático (ATM) podría ejecutar.",
+  "isoCodes": {
+    "BIND": {
+      "name": "Vinculación",
+      "definition": "Operación de vinculación (bind) TR34."
+    },
+    "HILR": {
+      "name": "Revinculación de nivel superior",
+      "definition": "Operación de revinculación (rebind) de nivel superior TR34."
+    },
+    "HILU": {
+      "name": "Desvinculación de nivel superior",
+      "definition": "Operación de desvinculación (unbind) de nivel superior TR34."
+    },
+    "RBND": {
+      "name": "Revinculación",
+      "definition": "Operación de revinculación (rebind) TR34."
+    },
+    "UBND": {
+      "name": "Desvinculación",
+      "definition": "Operación de desvinculación (unbind) TR34."
+    }
+  }
+}

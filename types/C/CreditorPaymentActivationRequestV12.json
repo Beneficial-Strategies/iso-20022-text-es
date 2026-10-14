@@ -1,0 +1,9 @@
+{
+  "isoType": "CreditorPaymentActivationRequestV12",
+  "definition": "El mensaje CreditorPaymentActivationRequest lo envía la parte emisora del beneficiario a la parte receptora del ordenante, directamente o a través de entidades. Lo utiliza un beneficiario para solicitar el movimiento de fondos desde la cuenta del ordenante a un beneficiario.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

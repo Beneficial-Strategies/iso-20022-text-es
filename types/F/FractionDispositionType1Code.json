@@ -1,0 +1,30 @@
+{
+  "isoType": "FractionDispositionType1Code",
+  "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Adquisición adicional",
+      "definition": "Comprar valores hasta el siguiente número entero."
+    },
+    "CINL": {
+      "name": "Efectivo en lugar de fracción",
+      "definition": "Parte fraccionaria en efectivo. Recibir efectivo en lugar de fracciones."
+    },
+    "DIST": {
+      "name": "Emitir fracción",
+      "definition": "Recibir la distribución de fracciones en forma de valores."
+    },
+    "RDDN": {
+      "name": "Redondeo a la baja",
+      "definition": "Redondear hacia abajo al número entero más próximo."
+    },
+    "RDUP": {
+      "name": "Redondeo al alza",
+      "definition": "Redondear hacia arriba al número entero más próximo."
+    },
+    "STAN": {
+      "name": "Redondeo al más próximo",
+      "definition": "Si la fracción es mayor o igual que 0,5 del valor resultante, se redondea al alza; en caso contrario, se redondea a la baja (0.5)."
+    }
+  }
+}

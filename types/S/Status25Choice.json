@@ -1,0 +1,12 @@
+{
+  "isoType": "Status25Choice",
+  "definition": "Elección de formatos para la especificación del estado.",
+  "isoElements": {
+    "Status": {
+      "definition": "Código de estado."
+    },
+    "Rejected": {
+      "definition": "El estado de la instrucción de gestión de cuenta es rechazado."
+    }
+  }
+}

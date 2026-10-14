@@ -1,0 +1,18 @@
+{
+  "isoType": "ServiceTaxDesignation1Code",
+  "definition": "Define la situación fiscal del servicio.",
+  "isoCodes": {
+    "XMPT": {
+      "name": "Exento",
+      "definition": "No se adeuda ningún impuesto."
+    },
+    "ZERO": {
+      "name": "Tipo cero",
+      "definition": "Se adeuda impuesto, pero al cero por ciento y con un cargo cero."
+    },
+    "TAXE": {
+      "name": "Imponible",
+      "definition": "Se adeudan uno o más impuestos por este servicio."
+    }
+  }
+}

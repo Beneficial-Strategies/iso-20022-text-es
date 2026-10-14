@@ -1,0 +1,50 @@
+{
+  "isoType": "IntraPositionDetails60",
+  "definition": "Detalles del movimiento intraposición.",
+  "isoElements": {
+    "PoolIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Dirección de cadena de bloques o monedero donde se mantienen los activos digitales. Es el equivalente de la cuenta de valores para los activos digitales."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    },
+    "SettlementQuantity": {
+      "definition": "Cantidad total de valores que se van a liquidar."
+    },
+    "LotNumber": {
+      "definition": "Número que identifica un lote que constituye el instrumento financiero."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que se van a mover los valores."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se acusa recibo de la operación."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo del que se mueven los valores."
+    },
+    "BalanceTo": {
+      "definition": "Saldo al que se mueven los valores."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

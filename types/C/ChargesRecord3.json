@@ -1,0 +1,30 @@
+{
+  "isoType": "ChargesRecord3",
+  "definition": "Proporciona detalles individuales adicionales del registro de los gastos relacionados con la operación de pago.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Gastos de la operación que debe pagar el responsable de los gastos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe de los gastos es un importe de abono o de adeudo. |Uso: Un importe cero se considera un abono."
+    },
+    "ChargeIncludedIndicator": {
+      "definition": "Indica si el gasto debe incluirse en el importe o se añade como preaviso."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de gasto."
+    },
+    "Rate": {
+      "definition": "Tasa utilizada para calcular el importe del gasto o de la comisión."
+    },
+    "Bearer": {
+      "definition": "Especifica qué parte o partes asumirán los gastos asociados a la tramitación de la operación de pago."
+    },
+    "Agent": {
+      "definition": "Entidad que percibe los gastos de la operación o a la que se deben los gastos de la operación."
+    },
+    "Tax": {
+      "definition": "Proporciona detalles sobre el impuesto aplicado a los gastos."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReversalReason1Code",
+  "definition": "Especifica el motivo de reversión, tal como se publica en una lista de códigos externa de motivos de reversión.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "AC03": {
+      "name": "Número de cuenta del beneficiario no válido",
+      "definition": "IBAN erróneo en SCT"
+    },
+    "AC04": {
+      "name": "Número de cuenta cerrada",
+      "definition": "El número de cuenta especificado ha sido cerrado en los libros del receptor"
+    },
+    "AG02": {
+      "name": "Código de operación bancaria no válido",
+      "definition": "El código de operación bancaria especificado en el mensaje no es válido para el receptor"
+    },
+    "AM05": {
+      "name": "Duplicación",
+      "definition": "Duplicación"
+    },
+    "AM09": {
+      "name": "Importe incorrecto",
+      "definition": "Importe erróneo en SCT"
+    },
+    "MD01": {
+      "name": "Sin mandato",
+      "definition": "Sin mandato"
+    },
+    "MD05": {
+      "name": "Cobro no vencido",
+      "definition": "El beneficiario o la entidad del beneficiario no debería haber cobrado el adeudo directo"
+    },
+    "MS02": {
+      "name": "Motivo no especificado generado por el cliente",
+      "definition": "El cliente final no ha especificado el motivo"
+    },
+    "MS03": {
+      "name": "Motivo no especificado generado por la entidad",
+      "definition": "La entidad no ha especificado el motivo."
+    },
+    "RC07": {
+      "name": "Identificador BIC del beneficiario no válido",
+      "definition": "BIC erróneo en SCT"
+    },
+    "TM01": {
+      "name": "Hora límite",
+      "definition": "El mensaje asociado se recibió después de la hora límite de procesamiento acordada."
+    }
+  }
+}

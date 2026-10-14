@@ -1,0 +1,50 @@
+{
+  "isoType": "NetDividendRateType6Code",
+  "definition": "Especifica el tipo de tasa de dividendo.",
+  "isoCodes": {
+    "CAPO": {
+      "name": "Parte de capital",
+      "definition": "Tasa relativa al valor subyacente por el que se distribuye capital."
+    },
+    "CDFI": {
+      "name": "Ingresos del extranjero",
+      "definition": "Tasa relativa a un tipo de ingreso extranjero, como un ingreso extranjero canalizado."
+    },
+    "FLFR": {
+      "name": "Totalmente acreditado",
+      "definition": "Tasa resultante de un dividendo totalmente acreditado pagado por una sociedad; la tasa incluye el crédito fiscal para las sociedades que han efectuado pagos de impuestos suficientes durante el periodo fiscal."
+    },
+    "INCO": {
+      "name": "Parte de ingresos",
+      "definition": "Tasa relativa al valor subyacente por el que se distribuyen ingresos."
+    },
+    "INTR": {
+      "name": "Intereses",
+      "definition": "Tasa relativa al valor subyacente por el que se pagan intereses."
+    },
+    "REES": {
+      "name": "Parte de ingresos inmobiliarios",
+      "definition": "Tasa de distribución de ingresos originados por inversión inmobiliaria."
+    },
+    "SOIC": {
+      "name": "Ingresos diversos u otros",
+      "definition": "Tasa relativa al valor subyacente por el que se pagan otros ingresos."
+    },
+    "TXBL": {
+      "name": "Parte sujeta a impuestos",
+      "definition": "Tasa relativa al valor subyacente por el que se cobra impuesto."
+    },
+    "TXDF": {
+      "name": "Impuestos diferidos",
+      "definition": "Tasa relativa al valor subyacente cuyo impuesto está diferido."
+    },
+    "TXFR": {
+      "name": "Exento de impuestos",
+      "definition": "Tasa relativa al valor subyacente que no está sujeto a impuesto."
+    },
+    "UNFR": {
+      "name": "No acreditado",
+      "definition": "Tasa resultante de un dividendo no acreditado pagado por una sociedad; la tasa no incluye crédito fiscal y está sujeta a retención fiscal."
+    }
+  }
+}

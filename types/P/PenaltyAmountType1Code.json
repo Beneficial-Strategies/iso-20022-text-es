@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyAmountType1Code",
+  "definition": "Especifica el tipo del importe de la penalización.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Efectivo",
+      "definition": "La penalización se basa en el importe de efectivo no entregado y la tasa de penalización es la tasa de descuento de la divisa correspondiente."
+    },
+    "SECU": {
+      "name": "Valores",
+      "definition": "La penalización se basa en la cantidad de valores no entregados y en la tasa de penalización de los valores."
+    }
+  }
+}

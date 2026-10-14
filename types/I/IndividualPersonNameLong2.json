@@ -1,0 +1,33 @@
+{
+  "isoType": "IndividualPersonNameLong2",
+  "definition": "Nombre de pila de una persona.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Prefijo, como un título antepuesto al nombre de una persona."
+    },
+    "Surname": {
+      "definition": "El apellido es un nombre que se añade al nombre de pila y forma parte del nombre personal. En muchos casos, el apellido es el nombre de familia."
+    },
+    "GivenName": {
+      "definition": "Nombre otorgado al nacer."
+    },
+    "MiddleName": {
+      "definition": "Segundo nombre de una persona."
+    },
+    "Initials": {
+      "definition": "Prefijo inicial del nombre."
+    },
+    "NameSuffix": {
+      "definition": "Sufijo del nombre."
+    },
+    "Name": {
+      "definition": "Nombre legal completo."
+    },
+    "StartDate": {
+      "definition": "Fecha en que se asignó el nombre."
+    },
+    "EndDate": {
+      "definition": "Fecha en que cambió el nombre."
+    }
+  }
+}

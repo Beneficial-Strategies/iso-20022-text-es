@@ -1,0 +1,12 @@
+{
+  "isoType": "CertificationTypeFormat4Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el formato de certificación requerido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el formato de certificación requerido, es decir, formato físico o electrónico."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del formato de certificación."
+    }
+  }
+}

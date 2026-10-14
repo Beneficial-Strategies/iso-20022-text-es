@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason29Code",
+  "definition": "Código estándar para especificar el motivo por el que la instrucción o el evento tiene un estado pendiente.",
+  "isoCodes": {
+    "NPAY": {
+      "name": "Sin pago",
+      "definition": "El emisor no ha efectuado el pago."
+    },
+    "NSEC": {
+      "name": "No entregado",
+      "definition": "El emisor no ha entregado los instrumentos financieros."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "AUTH": {
+      "name": "Enviado a las autoridades fiscales",
+      "definition": "La instrucción o el evento está pendiente porque la reclamación se ha enviado a las autoridades tributarias."
+    }
+  }
+}

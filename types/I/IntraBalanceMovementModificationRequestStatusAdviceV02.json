@@ -1,0 +1,9 @@
+{
+  "isoType": "IntraBalanceMovementModificationRequestStatusAdviceV02",
+  "definition": "El mensaje IntraBalanceMovementModificationRequestStatusAdvice lo envía una infraestructura de liquidación a un titular de cuenta o solicitante para notificar el estado de una solicitud de modificación de movimiento intrasaldo enviada anteriormente por el titular de la cuenta o solicitante.||Uso: |El mensaje puede utilizarse para: |- reenviar un mensaje enviado anteriormente (la subfunción del mensaje es «Duplicate»)|- proporcionar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «Copy»)|- reenviar a un tercero una copia de un mensaje con fines informativos (la subfunción del mensaje es «CopyDuplicate»).",
+  "isoElements": {
+    "RequestReference": {
+      "definition": "Referencia de la solicitud original de modificación del movimiento entre saldos."
+    }
+  }
+}

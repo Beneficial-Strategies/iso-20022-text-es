@@ -1,0 +1,12 @@
+{
+  "isoType": "AllOtherCash1",
+  "definition": "Especifica si todos los activos restantes de una cartera que no figuren en la lista de transferencia deben liquidarse y transferirse como efectivo",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indica si todos los activos restantes de una cartera que no figuren en la lista de transferencia deben liquidarse y transferirse como efectivo."
+    },
+    "Currency": {
+      "definition": "Divisa del efectivo."
+    }
+  }
+}

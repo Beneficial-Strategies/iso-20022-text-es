@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmendmentRejectionStatus1",
+  "definition": "Proporciona el motivo del rechazo de una solicitud de modificación de elección.",
+  "isoElements": {
+    "Reason": {
+      "definition": "El motivo del rechazo."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

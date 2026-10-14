@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentConditionStatus2",
+  "definition": "Especifica los detalles sobre el estado de las condiciones de pago.",
+  "isoElements": {
+    "AcceptedAmount": {
+      "definition": "Importe aceptado para su pago.||Uso:|Solo puede estar presente cuando AmountModificationAllowed está presente en la solicitud."
+    },
+    "GuaranteedPayment": {
+      "definition": "Indica si DebtorAgent garantiza el pago, suponiendo que exista un contrato de garantía de pago entre los distintos participantes.||Uso: Cuando el elemento no está presente, el valor por defecto es \"No aplicable\"."
+    },
+    "EarlyPayment": {
+      "definition": "Indica si el ordenante pagará antes de la fecha de ejecución solicitada.||Uso: cuando el elemento no está presente, el valor por defecto es \"No aplicable\"."
+    }
+  }
+}

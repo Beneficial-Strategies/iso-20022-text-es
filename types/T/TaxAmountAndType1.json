@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxAmountAndType1",
+  "definition": "Especifica el importe con un tipo específico.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo del importe."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que ha sido tipificado."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ServiceAdjustmentType1Code",
+  "definition": "Define el tipo de ajuste de servicio permitido.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Compensable",
+      "definition": "El ajuste se aplica a un servicio compensable con saldos. Los créditos por rentabilidad basados en los saldos medios mantenidos en la cuenta pueden utilizarse para compensar la comisión por el servicio."
+    },
+    "NCMP": {
+      "name": "No compensable",
+      "definition": "El ajuste se aplica a un servicio no compensable con saldos. Los créditos basados en saldos no pueden utilizarse para compensar la comisión por el servicio."
+    }
+  }
+}

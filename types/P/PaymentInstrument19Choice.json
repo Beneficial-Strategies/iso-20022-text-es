@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument19Choice",
+  "definition": "Elección de instrumentos de pago.",
+  "isoElements": {
+    "ChequeDetails": {
+      "definition": "Instrucciones de liquidación para un pago mediante cheque."
+    },
+    "BankersDraftDetails": {
+      "definition": "Instrucciones de liquidación para un pago mediante giro."
+    }
+  }
+}

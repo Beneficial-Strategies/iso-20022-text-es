@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification13",
+  "definition": "Algoritmo criptográfico y parámetros para la protección de la clave transportada.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identificación del algoritmo."
+    },
+    "Parameter": {
+      "definition": "Parámetros asociados al algoritmo de cifrado."
+    }
+  }
+}

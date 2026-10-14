@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMKeyDownloadRequest6",
+  "definition": "Información relativa a la solicitud de descarga de claves desde un cajero automático (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno de la descarga de claves."
+    },
+    "CommandResult": {
+      "definition": "Resultado de un comando de mantenimiento ejecutado por el cajero automático (ATM)."
+    },
+    "CommandContext": {
+      "definition": "Comando de seguridad en curso en cuyo contexto se solicita la descarga de claves."
+    },
+    "ATMSecurityContext": {
+      "definition": "Contexto del cajero automático (ATM) para la descarga de claves."
+    },
+    "ATMSecurityParameters": {
+      "definition": "Parámetros de seguridad del cajero automático (ATM) para la descarga de claves iniciada."
+    },
+    "HostChallenge": {
+      "definition": "Valor aleatorio del host proporcionado durante un intercambio anterior."
+    }
+  }
+}

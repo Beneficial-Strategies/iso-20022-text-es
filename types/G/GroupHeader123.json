@@ -1,0 +1,56 @@
+{
+  "isoType": "GroupHeader123",
+  "definition": "Conjunto de características comunes a todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena, para identificar inequívocamente el mensaje.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por parte instruida durante un periodo preacordado."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "Authorisation": {
+      "definition": "Identificación de usuario o cualquier clave de usuario que se utilice para comprobar si la parte iniciadora está autorizada a iniciar operaciones desde la cuenta especificada en el mensaje.||Uso: El contenido no es de naturaleza técnica, sino que refleja la estructura organizativa del lado iniciador.|El elemento de autorización puede utilizarse normalmente en escenarios de retransmisión, iniciaciones de pago, devoluciones de pago o reversiones de pago iniciadas en nombre de una parte distinta de la parte iniciadora."
+    },
+    "BatchBooking": {
+      "definition": "Identifica si se solicita un apunte individual por cada operación o un apunte en lote por la suma de los importes de todas las operaciones del grupo de un mensaje.|Uso: El lote se utiliza para solicitar, y no para ordenar, un posible apunte en lote."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, con independencia de las divisas."
+    },
+    "GroupReturn": {
+      "definition": "Indica si la devolución se aplica a todo el grupo de operaciones o a operaciones individuales dentro de los grupos originales."
+    },
+    "TotalReturnedInterbankSettlementAmount": {
+      "definition": "Importe total de dinero movido entre la entidad instructora y la entidad instruida en el mensaje de devolución."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en la que el importe deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se debe."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica los detalles de cómo se completa la liquidación de las operaciones entre la entidad instructora y la entidad instruida."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Especifica el tipo de la operación de devolución."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la instrucción o el conjunto de instrucciones.|Uso: La entidad instructora es la parte que envía el mensaje de devolución y no la que envió la instrucción original que se devuelve."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute la instrucción o el conjunto de instrucciones.|Uso: La entidad instruida es la parte que recibe el mensaje de devolución y no la que recibió la instrucción original que se devuelve."
+    }
+  },
+  "isoRules": {
+    "GroupReturnAndNumberOfTransactionsGuideline": {
+      "definition": "Si GroupReturn es true, NumberOfTransactions es igual al número de operaciones del mensaje original."
+    },
+    "TotalInterbankSettlementAmountAndDateRule": {
+      "definition": "Si TotalReturnedInterbankSettlementAmount está presente, InterbankSettlementDate debe estar presente."
+    },
+    "ControlSumAndGroupReturnRule": {
+      "definition": "Si GroupReturn es true, ControlSum no está permitido."
+    }
+  }
+}

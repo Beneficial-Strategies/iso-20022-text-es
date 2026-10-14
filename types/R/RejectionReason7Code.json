@@ -1,0 +1,62 @@
+{
+  "isoType": "RejectionReason7Code",
+  "definition": "Especifica el motivo del rechazo de una solicitud de cancelación.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Evento ya desactivado",
+      "definition": "Rechazada porque la desactivación del evento ya se ha completado."
+    },
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    },
+    "PDEA": {
+      "name": "Sin instrucción de desactivación pendiente",
+      "definition": "La solicitud de cancelación se rechaza porque no hay ninguna instrucción de desactivación pendiente."
+    },
+    "INID": {
+      "name": "Identificación no válida",
+      "definition": "La instrucción contiene una identificación de mensaje no válida; la identificación es desconocida."
+    },
+    "REFI": {
+      "name": "Identificación de CA no válida",
+      "definition": "Se ha facilitado una identificación de operación societaria no válida."
+    },
+    "AGIN": {
+      "name": "Agente no válido",
+      "definition": "Se ha facilitado una identificación de agente no válida."
+    },
+    "SAID": {
+      "name": "Misma identificación",
+      "definition": "Varios mensajes con la misma identificación."
+    },
+    "DEAO": {
+      "name": "Opción ya desactivada",
+      "definition": "Rechazada porque la desactivación de la opción ya se ha completado."
+    },
+    "INET": {
+      "name": "Tipo de evento no válido",
+      "definition": "El tipo de evento CA no corresponde con el evento corporativo relacionado."
+    },
+    "INUS": {
+      "name": "Valor subyacente no válido",
+      "definition": "La identificación del valor subyacente no corresponde con la referencia del evento corporativo proporcionada."
+    },
+    "INPT": {
+      "name": "Tipo de procesamiento del evento no válido",
+      "definition": "El tipo de procesamiento del evento no corresponde con el evento corporativo relacionado."
+    },
+    "INMV": {
+      "name": "Tipo de evento obligatorio/voluntario no válido",
+      "definition": "El tipo de evento obligatorio/voluntario no corresponde con el evento corporativo relacionado."
+    },
+    "INDE": {
+      "name": "Información de la operación societaria no válida",
+      "definition": "Los detalles especificados en el bloque de información general del evento corporativo no son coherentes con los especificados en el mensaje original relacionado."
+    },
+    "INDT": {
+      "name": "Detalles no válidos",
+      "definition": "Los datos del mensaje especificados en la instrucción o solicitud son incoherentes con los especificados en el mensaje original relacionado."
+    }
+  }
+}

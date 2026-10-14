@@ -1,0 +1,38 @@
+{
+  "isoType": "RejectionReason88Code",
+  "definition": "Especifica el motivo por el que la instrucción o solicitud de cancelación tiene un estado rechazado.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Referencia no válida",
+      "definition": "La referencia vinculada es desconocida."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "DCAN": {
+      "name": "Rechazado por estar ya cancelado",
+      "definition": "La solicitud de cancelación fue rechazada porque la instrucción ya ha sido cancelada."
+    },
+    "DPRG": {
+      "name": "Rechazado por estar en curso",
+      "definition": "La solicitud de cancelación ha sido rechazada porque el proceso de la instrucción está en curso o ya ha sido procesada."
+    },
+    "DUPL": {
+      "name": "Instrucción duplicada",
+      "definition": "La instrucción se rechaza por duplicidad del identificador de mensaje de negocio."
+    },
+    "ECMD": {
+      "name": "Plazo de mercado para la elección ante la contraparte incumplido",
+      "definition": "Recibida después del plazo de mercado para la elección ante la contraparte."
+    },
+    "ECRD": {
+      "name": "Plazo de respuesta para la elección ante la contraparte incumplido",
+      "definition": "Recibida después del plazo de mercado para la respuesta a la elección ante la contraparte."
+    }
+  }
+}

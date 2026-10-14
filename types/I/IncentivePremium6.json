@@ -1,0 +1,18 @@
+{
+  "isoType": "IncentivePremium6",
+  "definition": "Prima en efectivo puesta a disposición si el titular de valores consiente o participa en un evento.",
+  "isoElements": {
+    "Description": {
+      "definition": "Descripción de la prima."
+    },
+    "Amount": {
+      "definition": "Prima en efectivo pagada por valor, por voto o por asistente."
+    },
+    "Type": {
+      "definition": "Especifica qué criterios relacionados con la votación dan derecho a una prima de incentivo."
+    },
+    "PaymentDate": {
+      "definition": "Fecha y hora del pago de la prima."
+    }
+  }
+}

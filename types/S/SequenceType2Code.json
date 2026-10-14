@@ -1,0 +1,14 @@
+{
+  "isoType": "SequenceType2Code",
+  "definition": "Especifica si se cubre una operación única o si se cubren operaciones recurrentes.",
+  "isoCodes": {
+    "RCUR": {
+      "name": "Recurrente",
+      "definition": "Instrucción de adeudo directo en la que la autorización del ordenante se utiliza para operaciones de adeudo directo periódicas iniciadas por el beneficiario."
+    },
+    "OOFF": {
+      "name": "Único",
+      "definition": "Instrucción de adeudo directo en la que la autorización del ordenante se utiliza para iniciar una única operación de adeudo directo."
+    }
+  }
+}

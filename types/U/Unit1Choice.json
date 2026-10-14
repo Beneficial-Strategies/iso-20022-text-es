@@ -1,0 +1,12 @@
+{
+  "isoType": "Unit1Choice",
+  "definition": "Cantidad de participaciones o de tokens digitales.",
+  "isoElements": {
+    "UnitsNumber": {
+      "definition": "Cantidad de participaciones."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Cantidad de tokens digitales expresada como un número, por ejemplo, un número de tokens de cadena de bloques."
+    }
+  }
+}

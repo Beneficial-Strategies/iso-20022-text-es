@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmendmentProcessingStatus1",
+  "definition": "Proporciona información del estado de procesamiento de una solicitud de modificación de elección.",
+  "isoElements": {
+    "Status": {
+      "definition": "El estado de procesamiento."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

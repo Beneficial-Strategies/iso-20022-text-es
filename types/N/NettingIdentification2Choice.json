@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingIdentification2Choice",
+  "definition": "Elección entre la identificación de un grupo de compensación multilateral o una parte negociadora individual.",
+  "isoElements": {
+    "TradeParty": {
+      "definition": "Describe la parte negociadora individual."
+    },
+    "NettingGroupIdentification": {
+      "definition": "Describe el grupo de compensación multilateral."
+    }
+  }
+}

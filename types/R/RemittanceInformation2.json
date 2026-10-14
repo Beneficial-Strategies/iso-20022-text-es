@@ -1,0 +1,9 @@
+{
+  "isoType": "RemittanceInformation2",
+  "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, por ejemplo, facturas comerciales en un sistema de cuentas a cobrar, en forma no estructurada."
+    }
+  }
+}

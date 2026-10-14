@@ -1,0 +1,18 @@
+{
+  "isoType": "DirectDebitTransaction12",
+  "definition": "Proporciona más detalles específicos sobre la operación de adeudo directo y el mandato relacionado.",
+  "isoElements": {
+    "MandateRelatedInformation": {
+      "definition": "Proporciona más detalles del mandato de adeudo directo firmado entre el beneficiario y el ordenante."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Parte acreedora que firma el mandato."
+    },
+    "PreNotificationIdentification": {
+      "definition": "Identificación única e inequívoca de la prenotificación que se envía por separado de la instrucción de adeudo directo.||Uso: La prenotificación de adeudo directo se utiliza para conciliar la información de cobro enviada por separado con la información de la operación de adeudo directo."
+    },
+    "PreNotificationDate": {
+      "definition": "Fecha en la que el beneficiario notifica al ordenante el importe y la fecha en que la instrucción de adeudo directo se presentará a la entidad del ordenante."
+    }
+  }
+}

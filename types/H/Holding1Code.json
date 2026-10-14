@@ -1,0 +1,18 @@
+{
+  "isoType": "Holding1Code",
+  "definition": "Especifica cómo se bloquea la tenencia.",
+  "isoCodes": {
+    "CERT": {
+      "name": "Certificado",
+      "definition": "Certificado."
+    },
+    "NPRH": {
+      "name": "Tenencia no parcial",
+      "definition": "Tenencia no parcial."
+    },
+    "PRTH": {
+      "name": "Tenencia parcial",
+      "definition": "Tenencia parcial."
+    }
+  }
+}

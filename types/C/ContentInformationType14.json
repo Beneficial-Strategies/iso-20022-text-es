@@ -1,0 +1,12 @@
+{
+  "isoType": "ContentInformationType14",
+  "definition": "Sintaxis general de mensajes criptográficos (CMS) que contiene datos protegidos mediante una firma digital.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Tipo de protección de datos."
+    },
+    "SignedData": {
+      "definition": "Datos protegidos mediante una firma digital."
+    }
+  }
+}

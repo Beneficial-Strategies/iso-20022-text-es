@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling3Choice",
+  "definition": "Especifica la elección entre los códigos de error de la lista y los códigos de error propietarios.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especificación del error, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Especificación del error, en formato libre."
+    }
+  }
+}

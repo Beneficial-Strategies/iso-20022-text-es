@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestmentAccountOpening4",
+  "definition": "Información sobre el tipo de instrucción de apertura y la identificación de la solicitud de alta.",
+  "isoElements": {
+    "OpeningType": {
+      "definition": "Especifica si la instrucción de apertura de cuenta se refiere a una cuenta de nueva creación o a una cuenta suplementaria."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Identificador único e inequívoco de la solicitud de apertura de cuenta a nivel de aplicación."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de una operación, por ejemplo, una transferencia, asignada por el inversor o titular de la cuenta."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificación inequívoca de la operación, por ejemplo, una transferencia, asignada por la contraparte."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Cuenta a la que se refiere la apertura de cuenta."
+    }
+  }
+}

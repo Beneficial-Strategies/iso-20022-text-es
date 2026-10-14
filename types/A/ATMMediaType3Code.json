@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMMediaType3Code",
+  "definition": "Categoría de los elementos de soporte.",
+  "isoCodes": {
+    "CNTR": {
+      "name": "Falso",
+      "definition": "Soportes falsos detectados."
+    },
+    "FITN": {
+      "name": "Apto",
+      "definition": "Soportes aptos."
+    },
+    "FITU": {
+      "name": "Apto y no apto",
+      "definition": "Soportes aptos o no aptos, si no se puede determinar su aptitud."
+    },
+    "SPCT": {
+      "name": "Sospechoso",
+      "definition": "Soportes sospechosos."
+    },
+    "UNFT": {
+      "name": "No apto",
+      "definition": "Soportes no aptos (calidad inaceptable)."
+    },
+    "UNRG": {
+      "name": "No reconocido",
+      "definition": "Soportes no reconocidos."
+    }
+  }
+}

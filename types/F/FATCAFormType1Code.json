@@ -1,0 +1,34 @@
+{
+  "isoType": "FATCAFormType1Code",
+  "definition": "Especifica el tipo de formulario de la Ley de Cumplimiento Tributario de Cuentas en el Extranjero (FATCA).",
+  "isoCodes": {
+    "CER5": {
+      "name": "Certificado de intermediario extranjero",
+      "definition": "Certificado de intermediario extranjero (también conocido como formulario IRS W-8IMY)."
+    },
+    "CER7": {
+      "name": "Certificado de reclamación de personas extranjeras",
+      "definition": "Certificado de la reclamación de una persona extranjera de que los ingresos están efectivamente vinculados con la realización de una actividad comercial o empresarial en los Estados Unidos (también conocido como formulario IRS W-8BEN-E)."
+    },
+    "CER1": {
+      "name": "Certificado de condición de extranjero del beneficiario efectivo",
+      "definition": "Certificado de condición de extranjero del beneficiario efectivo (también conocido como formulario IRS W-8BEN)."
+    },
+    "CER2": {
+      "name": "Certificado de pérdida de nacionalidad",
+      "definition": "Certificado de pérdida de la nacionalidad."
+    },
+    "CER3": {
+      "name": "Autocertificación",
+      "definition": "Autocertificación."
+    },
+    "CER4": {
+      "name": "Autocertificación de pérdida de nacionalidad",
+      "definition": "Autocertificado de pérdida de la nacionalidad (también conocido como formulario IRS I-407)."
+    },
+    "CER6": {
+      "name": "Solicitud de número de identificación fiscal",
+      "definition": "El formulario es una solicitud de número de identificación fiscal y certificación (también conocido como formulario IRS W9)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason7FormatChoice",
+  "definition": "Elección entre formatos para expresar el motivo del rechazo de una solicitud de cancelación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo del rechazo de una solicitud de cancelación."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el motivo del rechazo de una solicitud de cancelación."
+    }
+  }
+}

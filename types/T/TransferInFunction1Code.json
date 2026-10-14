@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferInFunction1Code",
+  "definition": "Especifica la función de la transferencia de entrada.",
+  "isoCodes": {
+    "ADRE": {
+      "name": "Aviso y solicitud",
+      "definition": "La transferencia de entrada es un aviso y una solicitud, es decir, el mensaje se utiliza para informar al receptor de que debe esperar una confirmación de transferencia de entrada no solicitada y para solicitar información de cuenta para la transferencia."
+    },
+    "INST": {
+      "name": "Instrucción",
+      "definition": "La transferencia de entrada es una instrucción."
+    }
+  }
+}

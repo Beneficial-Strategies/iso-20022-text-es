@@ -1,0 +1,50 @@
+{
+  "isoType": "IntraPositionMovementDetails21",
+  "definition": "Detalles del movimiento intraposición.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificaciones (del titular de la cuenta y/o de la entidad depositaria) del movimiento intraposición."
+    },
+    "SettledQuantity": {
+      "definition": "Cantidad de instrumento financiero efectivamente liquidada."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Cantidad de instrumento financiero liquidada previamente."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Cantidad de instrumento financiero pendiente de liquidar."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica un tipo de subsaldo de valores, por ejemplo, la identificación de una restricción."
+    },
+    "BalanceTo": {
+      "definition": "Saldo al que se movieron los valores."
+    },
+    "SettlementDate": {
+      "definition": "Fecha y hora en que se movieron los valores."
+    },
+    "AvailableDate": {
+      "definition": "Fecha y hora en que los valores pasan a estar disponibles para la venta (si los valores dejan de estar disponibles, indica la fecha y hora en que volverán a estarlo)."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Marca de tiempo del momento en que se acusa recibo de la operación."
+    },
+    "CorporateActionEventType": {
+      "definition": "Especifica el tipo de evento societario."
+    },
+    "CollateralMonitorAmount": {
+      "definition": "Valor de la garantía disponible para el proceso de liquidación de entrega a nivel de cuenta."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre el tratamiento de la liquidación que no puede incluirse en los campos estructurados del mensaje."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el Emisor y el Receptor, si InstructionProcessingAdditionalDetails está presente, entonces no debe contener información que pueda proporcionarse en un campo estructurado."
+    }
+  }
+}

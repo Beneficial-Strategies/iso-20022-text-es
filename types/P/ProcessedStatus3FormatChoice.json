@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus3FormatChoice",
+  "definition": "Elección de formatos para expresar el estado de procesamiento de un aviso, una solicitud o un movimiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el estado de procesamiento de un aviso, una solicitud o un movimiento."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el estado de procesamiento de un aviso, una solicitud o un movimiento."
+    }
+  }
+}

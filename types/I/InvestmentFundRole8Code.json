@@ -1,0 +1,62 @@
+{
+  "isoType": "InvestmentFundRole8Code",
+  "definition": "Especifica la función de la parte.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Custodio",
+      "definition": "Parte que custodia y administra activos por cuenta del propietario."
+    },
+    "DIST": {
+      "name": "Distribuidor",
+      "definition": "Parte que actúa como mayorista de fondos."
+    },
+    "FMCO": {
+      "name": "Sociedad gestora del fondo",
+      "definition": "Parte que constituye un fondo, decide la estrategia de inversión, nombra agentes y es responsable de la promoción y comercialización del fondo. Esta parte toma todas las decisiones estratégicas relacionadas con un fondo."
+    },
+    "INTR": {
+      "name": "Intermediario",
+      "definition": "Parte que presta servicios a los inversores relacionados con productos financieros. Estos servicios pueden incluir algunos de los siguientes, o todos ellos: suministro de información y asesoramiento sobre productos, colocación de órdenes de inversión, transmisión de pagos, custodia de activos y administración de derechos y beneficios. En el marco específico del sector de los fondos de inversión, un intermediario puede presentar información sobre fondos a posibles inversores y solicitar órdenes para el fondo. Este intermediario puede facilitar la transmisión de las órdenes y de la información desde/hacia los inversores y/o otros intermediarios. El intermediario recibe una comisión del fondo y/o honorarios del inversor."
+    },
+    "INVE": {
+      "name": "Gestor de inversiones",
+      "definition": "Parte que aplica la estrategia de inversión, es decir, selecciona las inversiones de la cartera de acuerdo con los objetivos y la estrategia del folleto del fondo, y cursa órdenes para realizar o liquidar las inversiones seleccionadas de acuerdo con el flujo neto de capital que entra o sale del fondo."
+    },
+    "INVS": {
+      "name": "Inversor",
+      "definition": "Parte, ya sea una persona física u organización, cuyos activos se están invirtiendo."
+    },
+    "TRAG": {
+      "name": "Agente de transferencias",
+      "definition": "Parte nombrada por la sociedad gestora del fondo. Esta parte actualiza los registros de las cuentas de los inversores para reflejar las compras, reembolsos, traspasos, transferencias y nuevos registros diarios de los inversores. Garantiza la liquidación oportuna de las operaciones y puede proporcionar información fiscal al inversor y/o a sus intermediarios. Puede calcular, cobrar y reembolsar comisiones. Prepara y distribuye las confirmaciones que reflejan las operaciones, que dan lugar a movimientos de participaciones o de la cuenta de efectivo del inversor o del intermediario del inversor. Responde a las consultas sobre el estado de la cuenta y procesa la distribución de ingresos."
+    },
+    "TRAN": {
+      "name": "Entidad transmisora",
+      "definition": "Parte que transmite la instrucción, el aviso, la notificación o el informe."
+    },
+    "UCL1": {
+      "name": "Cliente subyacente 1",
+      "definition": "Cliente subyacente del intermediario."
+    },
+    "UCL2": {
+      "name": "Cliente subyacente 2",
+      "definition": "Cliente subyacente del cliente subyacente 1."
+    },
+    "REGI": {
+      "name": "Registrador",
+      "definition": "Parte responsable de llevar el control de los titulares de valores. En el negocio de los fondos de inversión, esta parte mantiene el registro de inversores del fondo y administra las cuentas de los inversores y los registros relacionados. Es nombrada por la sociedad gestora del fondo."
+    },
+    "CACO": {
+      "name": "Corresponsal de efectivo",
+      "definition": "Entidad financiera que ejecuta transferencias de efectivo en nombre de sus clientes."
+    },
+    "CONC": {
+      "name": "Concentrador",
+      "definition": "Parte que actúa como agregador de fondos, también denominada plataforma de fondos."
+    },
+    "DATP": {
+      "name": "Proveedor de datos",
+      "definition": "Fuente de información financiera. Proporciona noticias y datos financieros (por ejemplo, hechos, estadísticas y análisis) para inversores profesionales y particulares a través de diversos medios, por ejemplo, Internet o revistas."
+    }
+  }
+}

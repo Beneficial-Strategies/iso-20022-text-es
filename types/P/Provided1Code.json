@@ -1,0 +1,14 @@
+{
+  "isoType": "Provided1Code",
+  "definition": "Especifica si se han proporcionado los elementos.",
+  "isoCodes": {
+    "NPRO": {
+      "name": "No proporcionado",
+      "definition": "No proporcionado."
+    },
+    "PROV": {
+      "name": "Proporcionado",
+      "definition": "Proporcionado."
+    }
+  }
+}

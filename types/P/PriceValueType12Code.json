@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceValueType12Code",
+  "definition": "El precio no se pagará.",
+  "isoCodes": {
+    "DISC": {
+      "name": "Descuento",
+      "definition": "Precio expresado como un número de puntos porcentuales por debajo de la par; por ejemplo, un precio con descuento del 2.0% equivale a un precio de 98 cuando la par es 100."
+    },
+    "PARV": {
+      "name": "A la par",
+      "definition": "El precio es el importe nominal."
+    },
+    "PREM": {
+      "name": "Prima",
+      "definition": "Precio expresado como un número de puntos porcentuales por encima de la par; por ejemplo, un precio con prima del 2.0% equivale a un precio de 102 cuando la par es 100."
+    },
+    "NEGA": {
+      "name": "Importe real negativo",
+      "definition": "El precio debe interpretarse como un importe negativo de divisa por unidad o por acción."
+    }
+  }
+}

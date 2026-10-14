@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMConfigurationParameter1",
+  "definition": "Versión de los parámetros de configuración del cajero automático (ATM).",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de la configuración del cajero automático (ATM)."
+    },
+    "Version": {
+      "definition": "Versión activa de la configuración."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionDate94",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "PaymentDate": {
+      "definition": "Fecha y hora en que debe tener lugar el movimiento (efectivo y/o valores)."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que se calcula el beneficio económico de un importe en efectivo."
+    },
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Fecha y hora en que se determinará un tipo de cambio."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Fecha y hora en que puede efectuarse un pago, por ejemplo, si la fecha de pago es un día no hábil o para indicar la primera fecha de pago de una oferta."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationStatusReason1Choice",
+  "definition": "Especifica el motivo del estado de la investigación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado, tal como se publica en un conjunto de códigos externo de motivos de estado de investigación."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado, en forma propietaria."
+    }
+  }
+}

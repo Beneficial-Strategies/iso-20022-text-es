@@ -1,0 +1,51 @@
+{
+  "isoType": "SecuritiesSettlementTransactionDetails53",
+  "definition": "Facilita los detalles de las actualizaciones de la operación de liquidación.",
+  "isoElements": {
+    "SettlementTypeAndAdditionalParameters": {
+      "definition": "Facilita información sobre el tipo de liquidación y la identificación."
+    },
+    "Linkages": {
+      "definition": "Vínculo con otra operación que debe tramitarse después, antes o al mismo tiempo."
+    },
+    "TradeDetails": {
+      "definition": "Detalles de la operación comercial."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Atributos que definen un instrumento financiero."
+    },
+    "QuantityAndAccountDetails": {
+      "definition": "Detalles relativos a la cuenta y la cantidad que intervienen en la operación."
+    },
+    "SettlementParameters": {
+      "definition": "Parámetros que establecen explícitamente las condiciones que deben cumplirse antes de que pueda liquidarse una operación determinada de un instrumento financiero. Estos parámetros los define la parte instructora de conformidad con las normas de liquidación del mercado en el que se liquidará la operación."
+    },
+    "StandingSettlementInstructionDetails": {
+      "definition": "Especifica qué base de datos de instrucciones permanentes de liquidación debe utilizarse para determinar las partes de la liquidación que intervienen en la operación."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que entregan."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica la cadena de partes de liquidación que reciben."
+    },
+    "CashParties": {
+      "definition": "Partes de efectivo que intervienen en la operación, si son distintas de las partes de liquidación de valores."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero que debe pagarse o recibirse a cambio de los valores."
+    },
+    "OtherAmounts": {
+      "definition": "Importes distintos del importe de liquidación."
+    },
+    "OtherBusinessParties": {
+      "definition": "Otras partes comerciales relevantes para la operación."
+    },
+    "AdditionalPhysicalOrRegistrationDetails": {
+      "definition": "Facilita la información necesaria para el registro o la liquidación física."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

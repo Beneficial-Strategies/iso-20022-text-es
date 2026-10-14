@@ -1,0 +1,18 @@
+{
+  "isoType": "RateType1Code",
+  "definition": "Especifica si el tipo es fijo, variable o a tanto alzado.",
+  "isoCodes": {
+    "FIXE": {
+      "name": "Fijo",
+      "definition": "El tipo es fijo."
+    },
+    "FORF": {
+      "name": "Pérdida",
+      "definition": "No se aplica un tipo de recompra específico a la operación de repo, solo un importe a tanto alzado."
+    },
+    "VARI": {
+      "name": "Variable",
+      "definition": "El tipo es variable."
+    }
+  }
+}

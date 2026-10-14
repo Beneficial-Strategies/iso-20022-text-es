@@ -1,0 +1,14 @@
+{
+  "isoType": "ConversionType1Code",
+  "definition": "Especifica el tipo de conversión.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Se trata de una conversión final."
+    },
+    "INTE": {
+      "name": "Intermedio",
+      "definition": "Se trata de una conversión provisional."
+    }
+  }
+}

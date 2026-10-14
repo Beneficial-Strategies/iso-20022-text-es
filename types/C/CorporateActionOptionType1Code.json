@@ -1,0 +1,86 @@
+{
+  "isoType": "CorporateActionOptionType1Code",
+  "definition": "Especifica el tipo de opciones de CA.",
+  "isoCodes": {
+    "BSPL": {
+      "name": "Plan de acciones gratuitas",
+      "definition": "Recibir acciones emitidas con cargo a la reserva de prima de emisión de la sociedad y consideradas como una distribución de capital y no como un desembolso de ingresos, con consecuencias fiscales distintas (típico de Australia)."
+    },
+    "BUYA": {
+      "name": "Adquisición adicional",
+      "definition": "Comprar valores adicionales para redondear la posición."
+    },
+    "CASE": {
+      "name": "Efectivo y valores",
+      "definition": "La opción elegida incluye una combinación de efectivo y valores."
+    },
+    "CASH": {
+      "name": "Efectivo",
+      "definition": "Distribución de efectivo."
+    },
+    "CEXC": {
+      "name": "Consentimiento y canje",
+      "definition": "Voto para consentir el cambio de las condiciones del contrato de valores y el canje de valores."
+    },
+    "CTEN": {
+      "name": "Consentimiento y oferta",
+      "definition": "Voto para consentir el cambio de las condiciones del contrato de valores y la oferta de valores a cambio de efectivo."
+    },
+    "CONN": {
+      "name": "Consentimiento denegado",
+      "definition": "Voto de no aprobación del evento o de la propuesta."
+    },
+    "CONY": {
+      "name": "Consentimiento otorgado",
+      "definition": "Voto de aprobación del evento o de la propuesta."
+    },
+    "EXER": {
+      "name": "Ejercicio",
+      "definition": "Ejercer valores intermedios o warrants."
+    },
+    "LAPS": {
+      "name": "Caducidad",
+      "definition": "Permitir que el evento o el valor con derecho expire."
+    },
+    "MPUT": {
+      "name": "Conservar",
+      "definition": "Opción que permite a un titular elegir mantener su posición, por ejemplo, un bono con opción de venta (putable)."
+    },
+    "NOAC": {
+      "name": "Sin acción",
+      "definition": "Opción para que el titular de la cuenta no participe en el evento."
+    },
+    "OFFR": {
+      "name": "Tasa propuesta",
+      "definition": "En una recolocación de pagarés a tipo variable, el margen que los accionistas pueden proponer respecto del siguiente periodo de intereses."
+    },
+    "OVER": {
+      "name": "Sobresuscripción",
+      "definition": "Suscribir más acciones de las que permite la posición en valores subyacentes."
+    },
+    "SECU": {
+      "name": "Opción de valores",
+      "definition": "Distribución de valores a los titulares."
+    },
+    "SLLE": {
+      "name": "Venta del derecho",
+      "definition": "Vender los valores intermedios."
+    },
+    "SPLI": {
+      "name": "Instrucción dividida",
+      "definition": "Opción de dar una instrucción fraccionada, por ejemplo, una instrucción de voto fraccionado en una junta."
+    },
+    "NOQU": {
+      "name": "Inversor no cualificado",
+      "definition": "El titular de la cuenta es un inversor no cualificado."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Opción genérica de operación societaria que se utilizará cuando ningún otro código específico sea apropiado."
+    },
+    "QINV": {
+      "name": "Inversor cualificado",
+      "definition": "El titular de la cuenta es un inversor cualificado."
+    }
+  }
+}

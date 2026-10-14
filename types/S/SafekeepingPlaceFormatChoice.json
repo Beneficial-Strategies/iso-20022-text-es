@@ -1,0 +1,15 @@
+{
+  "isoType": "SafekeepingPlaceFormatChoice",
+  "definition": "Elección de formatos para el lugar de custodia.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Lugar de custodia expresado mediante un código y un BIC."
+    },
+    "IdentificationAsDSS": {
+      "definition": "Lugar de custodia expresado con un esquema de identificación propietario."
+    },
+    "IdentificationAsCountry": {
+      "definition": "Lugar de custodia expresado con un código de país."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketIdentification3Choice",
+  "definition": "Elección de la identificación del mercado.",
+  "isoElements": {
+    "MarketIdentifierCode": {
+      "definition": "Código de identificación de mercado (Market Identifier Code). Identificación de un mercado financiero, según lo estipulado en la norma ISO 10383 \"Codes for exchanges and market identifications\"."
+    },
+    "Description": {
+      "definition": "Descripción del mercado cuando no se dispone de un código de identificación de mercado (MIC)."
+    }
+  }
+}

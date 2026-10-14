@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMCommand7",
+  "definition": "Comando de mantenimiento que debe ejecutarse en un cajero automático (ATM).",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando que debe ejecutar el cajero automático (ATM)."
+    },
+    "Urgency": {
+      "definition": "Urgencia del comando."
+    },
+    "DateTime": {
+      "definition": "Fecha y hora en la que debe ejecutarse el comando."
+    },
+    "CommandIdentification": {
+      "definition": "Identificación de la entidad que emite el comando."
+    },
+    "CommandParameters": {
+      "definition": "Parámetros específicos asociados al comando."
+    }
+  }
+}

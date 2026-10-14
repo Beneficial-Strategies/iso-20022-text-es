@@ -1,0 +1,23 @@
+{
+  "isoType": "InvestmentAccount42",
+  "definition": "Cuenta entre uno o varios inversores y una gestora de fondos o un fondo. La cuenta puede contener posiciones en cualquier fondo de inversión o clase de fondo de inversión gestionado (o distribuido) por la gestora, dentro de la misma familia de fondos.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad que la administra."
+    },
+    "OwnerIdentification": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular, es decir, gestiona el registro y la contabilización de los apuntes de la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    }
+  },
+  "isoRules": {
+    "AccountOrOwner1Rule": {
+      "definition": "Si AccountIdentification no está presente, debe estar presente OwnerIdentification. Pueden estar presentes ambos, AccountIdentification y OwnerIdentification."
+    },
+    "AccountOrOwner2Rule": {
+      "definition": "Si OwnerIdentification no está presente, debe estar presente AccountIdentification. Pueden estar presentes ambos, OwnerIdentification y AccountIdentification."
+    }
+  }
+}

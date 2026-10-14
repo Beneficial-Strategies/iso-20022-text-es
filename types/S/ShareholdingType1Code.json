@@ -1,0 +1,22 @@
+{
+  "isoType": "ShareholdingType1Code",
+  "definition": "Especifica el tipo de tenencia de acciones.",
+  "isoCodes": {
+    "BENE": {
+      "name": "Participación real",
+      "definition": "Las acciones se mantienen por cuenta del titular real. |Uso: este tipo debe utilizarse para reportar los activos que el intermediario mantiene por cuenta de un titular real final."
+    },
+    "NOMI": {
+      "name": "Participación a través de interpuesto",
+      "definition": "Las acciones se mantienen por cuenta de un intermediario.|Uso: este tipo debe utilizarse para reportar los activos que el intermediario mantiene por cuenta de otro intermediario."
+    },
+    "OOAC": {
+      "name": "Por cuenta propia",
+      "definition": "Las acciones son mantenidas por el intermediario que responde por cuenta propia.|Uso: este tipo solo debe utilizarse para reportar los activos propios del intermediario cuando este los mezcla con los de sus clientes.  En las jurisdicciones donde no se permite la mezcla, este tipo no debe utilizarse."
+    },
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "El tipo de tenencia de acciones es desconocido.|Uso: este tipo debe utilizarse cuando el cliente del intermediario no ha sido clasificado."
+    }
+  }
+}

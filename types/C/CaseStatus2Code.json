@@ -1,0 +1,26 @@
+{
+  "isoType": "CaseStatus2Code",
+  "definition": "Especifica el estado de un caso de investigación.||Nota: |Los casos que han sido rechazados (no aceptados) son desconocidos para la parte que informa del estado de los casos. Se comunicarán con CaseStatusCode = Unknown.",
+  "isoCodes": {
+    "CLSD": {
+      "name": "Cerrada",
+      "definition": "El caso se ha cerrado."
+    },
+    "ASGN": {
+      "name": "Asignado",
+      "definition": "El caso se ha asignado a otra parte."
+    },
+    "INVE": {
+      "name": "En investigación",
+      "definition": "El caso se encuentra actualmente en investigación."
+    },
+    "UKNW": {
+      "name": "Desconocido",
+      "definition": "El caso no se había asignado nunca antes."
+    },
+    "ODUE": {
+      "name": "Vencido",
+      "definition": "La investigación está tardando demasiado."
+    }
+  }
+}

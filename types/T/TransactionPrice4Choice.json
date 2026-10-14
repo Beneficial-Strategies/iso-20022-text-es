@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionPrice4Choice",
+  "definition": "Especifica la información de precio relacionada con la operación subyacente.",
+  "isoElements": {
+    "DealPrice": {
+      "definition": "Especifica el precio del instrumento financiero negociado.|Es el precio de la operación individual.|Si solo hay una operación bursátil para la ejecución de la negociación, el precio pactado podría ser igual al precio de ejecución (salvo, por ejemplo, que el precio incluya comisiones o redondeos, o que se haya aplicado algún otro factor al precio pactado o al precio de ejecución, o a ambos)."
+    },
+    "Proprietary": {
+      "definition": "Especificación del precio propio relacionada con la operación subyacente."
+    }
+  }
+}

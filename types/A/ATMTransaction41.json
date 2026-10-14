@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMTransaction41",
+  "definition": "Acuse de recibo del aviso de excepción.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificación de la operación asignada por el cajero automático (ATM)."
+    },
+    "Response": {
+      "definition": "Respuesta al aviso."
+    },
+    "Command": {
+      "definition": "Comando de mantenimiento que debe ejecutarse en el cajero automático (ATM)."
+    }
+  }
+}

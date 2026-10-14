@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationInstructionProcessingStatus1",
+  "definition": "Proporciona la información sobre el estado de tramitación de una instrucción de desactivación.",
+  "isoElements": {
+    "Status": {
+      "definition": "El estado de procesamiento."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

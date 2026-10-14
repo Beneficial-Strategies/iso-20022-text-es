@@ -1,0 +1,22 @@
+{
+  "isoType": "ATMCounterType2Code",
+  "definition": "Tipo de contadores de cartucho del cajero automático (ATM).",
+  "isoCodes": {
+    "BDAY": {
+      "name": "Día hábil",
+      "definition": "Contadores desde el inicio del día hábil."
+    },
+    "INQU": {
+      "name": "Consulta de contadores",
+      "definition": "Contadores desde la última consulta de contadores."
+    },
+    "CTOF": {
+      "name": "Corte",
+      "definition": "Contadores desde el último corte."
+    },
+    "OPER": {
+      "name": "Ajuste del operador",
+      "definition": "Contadores desde la última actualización realizada por un operador en el cajero automático (ATM)."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "Status19Choice",
+  "definition": "Elección de estado.",
+  "isoElements": {
+    "AffirmationStatus": {
+      "definition": "Estado de afirmación de una operación."
+    },
+    "AllocationStatus": {
+      "definition": "Proporciona el estado de la asignación de garantías para cubrir la instrucción."
+    },
+    "RepoCallRequestStatus": {
+      "definition": "Proporciona el estado de la solicitud de requerimiento del acuerdo de recompra."
+    },
+    "CorporateActionEventProcessingStatus": {
+      "definition": "Proporciona el estado de un evento de acciones corporativas o el estado de un pago."
+    },
+    "CorporateActionEventStage": {
+      "definition": "Etapa en el ciclo de vida del evento de acciones corporativas."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Proporciona la situación de casamiento de una instrucción tal como la conoce el administrador de cuentas a partir de una alegación. En este momento no se ha realizado ningún casamiento en el mercado (en el CSD/ICSD)."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Proporciona el estado de una instrucción."
+    },
+    "MatchingStatus": {
+      "definition": "Proporciona la situación de casamiento de la instrucción."
+    },
+    "RegistrationProcessingStatus": {
+      "definition": "Proporciona el estado del procesamiento del registro."
+    },
+    "ResponseStatus": {
+      "definition": "Proporciona el estado del mensaje de garantía recibido (reclamación de garantía, propuesta de garantía o propuesta/solicitud de sustitución de garantía) desde la perspectiva de la gestión de garantías."
+    },
+    "ReplacementProcessingStatus": {
+      "definition": "Proporciona el estado de procesamiento de la solicitud de sustitución."
+    },
+    "CancellationProcessingStatus": {
+      "definition": "Proporciona el estado de una solicitud de cancelación."
+    },
+    "SettlementStatus": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "SettlementConditionModificationStatus": {
+      "definition": "Proporciona el estado de una solicitud de modificación de condición de liquidación de valores."
+    }
+  },
+  "isoRules": {
+    "StatusRule": {
+      "definition": "Si se solicita un estado específico, debe ser coherente con los estados disponibles para el tipo de mensaje solicitado."
+    }
+  }
+}

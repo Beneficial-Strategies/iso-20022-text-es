@@ -1,0 +1,26 @@
+{
+  "isoType": "UnitPrice11",
+  "definition": "Importe de dinero por el que se ofrecen, venden o compran bienes o servicios.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo e información sobre un precio."
+    },
+    "ExtendedType": {
+      "definition": "Tipo e información sobre un precio."
+    },
+    "Value": {
+      "definition": "Valor del precio, p. ej., como una divisa y un valor."
+    },
+    "PriceMethod": {
+      "definition": "Tipo de método de cálculo del precio."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Debe estar presente Type o ExtendedType, pero no ambos."
+    },
+    "TypeOrExtendedTypeRuleNotBoth": {
+      "definition": "Debe estar presente Type o ExtendedType, pero no ambos."
+    }
+  }
+}

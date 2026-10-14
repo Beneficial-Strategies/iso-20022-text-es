@@ -1,0 +1,110 @@
+{
+  "isoType": "CorporateActionOption250",
+  "definition": "Proporciona información sobre la opción de operación societaria.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria."
+    },
+    "SupplementaryOptionFeatures": {
+      "definition": "Utilizado para opciones que tienen características propietarias particulares."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Especifica el estado de la opción."
+    },
+    "CertificationBreakdownType": {
+      "definition": "Tipo de certificación o desglose."
+    },
+    "CurrencyOption": {
+      "definition": "Moneda en la que se abonarán o adeudarán los fondos en efectivo."
+    },
+    "DefaultOptionIndicator": {
+      "definition": "Indica si la opción, por ejemplo, una opción de moneda, se seleccionará por defecto si el titular de la cuenta no facilita ninguna instrucción."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Indica si se requiere certificación o desglose del titular de la cuenta. |Yes: se requiere certificación |No: no se requiere certificación."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Indica si se permite la retirada de la instrucción."
+    },
+    "OversubscriptionChargeIndicator": {
+      "definition": "Indica si el adeudo en efectivo del cargo de sobresuscripción se realiza en el momento de presentar la instrucción.|Yes: aplicable.|No: no aplicable.|Cuando está ausente, significa No."
+    },
+    "ProtectChargeIndicator": {
+      "definition": "Indica si el adeudo en efectivo del cargo de protección se realiza en el momento de presentar la instrucción.|Yes: aplicable.|No: no aplicable.|Cuando está ausente, significa No."
+    },
+    "SubscriptionChargeIndicator": {
+      "definition": "Indica si el adeudo en efectivo del cargo de suscripción se realiza en el momento de presentar la instrucción.|Yes: aplicable.|No: no aplicable.|Cuando está ausente, significa No."
+    },
+    "StepUpChargeIndicator": {
+      "definition": "Indica si el adeudo en efectivo del cargo de step-up se realiza en el momento de presentar la instrucción.|Yes: aplicable.|No: no aplicable.|Cuando está ausente, significa No."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica el instrumento financiero."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con una opción de operación societaria."
+    },
+    "PeriodDetails": {
+      "definition": "Proporciona información sobre los períodos relacionados con una opción de operación societaria."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Proporciona información sobre los tipos e importes relacionados con una opción de operación societaria."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con una opción de operación societaria."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Proporciona información sobre la cantidad de valores vinculada a una opción de operación societaria."
+    },
+    "TaxCategory": {
+      "definition": "Identificación de la categoría fiscal, ya que los emisores, sus agentes o las autoridades fiscales pueden requerir un desglose de los titulares, a nivel de categoría, que hayan solicitado recibir una distribución a un tipo impositivo favorable."
+    },
+    "ProrationBelowMinimumQuantity": {
+      "definition": "Especifica cómo se procesarán las instrucciones prorrateadas por debajo de la cantidad mínima para instruir."
+    },
+    "ProrationRoundingIndicator": {
+      "definition": "Indica cómo se tratarán las posiciones fraccionarias en los eventos con opciones prorrateadas."
+    },
+    "ProrationFraction": {
+      "definition": "Decimal a partir del cual se redondean los números en las opciones prorrateadas. Por ejemplo, si el factor de redondeo es 0,5, los números de 0,5 y superiores se redondearán al alza (0.5)."
+    },
+    "ProrationReturnMinimumQuantityTreatment": {
+      "definition": "Indica cómo se tratarán las instrucciones prorrateadas cuando el derecho prorrateado resulte inferior a la denominación mínima."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de valores vinculado a la opción de operación societaria."
+    },
+    "CashMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de efectivo vinculado a la opción de operación societaria."
+    },
+    "AdditionalInformation": {
+      "definition": "Proporciona información adicional."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "Si OptionType/Code es OTHR (Other), entonces debe estar presente al menos una aparición de AdditionalInformation/AdditionalText/AdditionalInformation.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "Para diferenciar entre opciones, se recomienda utilizar OptionNumber en lugar de OptionType, por ejemplo, en el caso de que dos o más ofertas puedan describirse con el mismo código de opción de operación societaria."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "Si WithdrawalAllowedIndicator está presente y es 'true' o '1' (Yes), entonces PeriodDetails/RevocabilityPeriod debe estar presente para indicar el período durante el cual se permite la retirada de la instrucción."
+    },
+    "OptionTypeUnknownProceedsUsageRule": {
+      "definition": "Cuando se utilice, el código de tipo de opción de operación societaria PRUN (Unknown Proceeds) debe mantenerse durante todo el ciclo de vida del evento."
+    },
+    "InstructCashAmountRule": {
+      "definition": "Si OptionFeatures/Code QCAS (InstructCashAmount) no está presente, entonces ninguno de los elementos de mensaje de la lista (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) debe estar presente.|(MT564 NVR C20)."
+    }
+  }
+}

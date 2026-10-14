@@ -1,0 +1,12 @@
+{
+  "isoType": "Restriction5Choice",
+  "definition": "Elección del formato de la información sobre restricciones de valores.",
+  "isoElements": {
+    "Code": {
+      "definition": "Restricciones expresadas como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Restricciones expresadas como código propietario."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryCertificationType1FormatChoice",
+  "definition": "Elección de formatos para expresar el tipo de certificación del beneficiario.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de certificación del beneficiario."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el tipo de certificación del beneficiario."
+    }
+  }
+}

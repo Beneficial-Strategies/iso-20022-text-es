@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateCopyRequestV04",
+  "definition": "Ámbito|El mensaje MandateCopyRequest lo envía el iniciador de la solicitud a su entidad. El iniciador puede ser el ordenante o el beneficiario.|El mensaje MandateCopyRequest lo reenvía la entidad del iniciador a la entidad de la contraparte.|El mensaje MandateCopyRequest se utiliza para solicitar una copia de un mandato existente. Si se acepta, la copia del mandato puede enviarse mediante el mensaje MandateAcceptanceReport.|Uso|El mensaje MandateCopyRequest puede contener una o varias solicitudes de copia.|Los mensajes pueden intercambiarse entre el beneficiario y la entidad del beneficiario, entre el ordenante y la entidad del ordenante, y entre la entidad del beneficiario y la entidad del ordenante.|El mensaje también puede ser utilizado por una parte iniciadora con autoridad para enviarlo en nombre del beneficiario o del ordenante.|El mensaje MandateCopyRequest puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

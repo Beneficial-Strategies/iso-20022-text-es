@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateAction92",
+  "definition": "Proporciona información sobre el evento de operación societaria.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con un evento de operación societaria."
+    },
+    "EventStage": {
+      "definition": "Etapa en el ciclo de vida del evento de acciones corporativas."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Indica que el proceso de negocio adicional se refiere a una reclamación sobre el evento de operación corporativa asociado."
+    },
+    "FollowingEventTypeIndicator": {
+      "definition": "Especifica el tipo de evento del evento siguiente."
+    },
+    "LotteryType": {
+      "definition": "Especifica el tipo de sorteo anunciado."
+    }
+  }
+}

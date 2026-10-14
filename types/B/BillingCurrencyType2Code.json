@@ -1,0 +1,22 @@
+{
+  "isoType": "BillingCurrencyType2Code",
+  "definition": "Define el tipo de divisa que se utilizará para la facturación de un servicio.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Cuenta",
+      "definition": "El tipo de divisa utilizado para la facturación es la divisa de la cuenta."
+    },
+    "STLM": {
+      "name": "Liquidación",
+      "definition": "El tipo de divisa utilizado para la facturación es la divisa de liquidación."
+    },
+    "PRCG": {
+      "name": "Tarificación",
+      "definition": "El tipo de divisa utilizado para la facturación es la divisa de tarificación."
+    },
+    "HOST": {
+      "name": "Anfitrión",
+      "definition": "El tipo de divisa utilizado para la facturación es la divisa de la jurisdicción fiscal."
+    }
+  }
+}

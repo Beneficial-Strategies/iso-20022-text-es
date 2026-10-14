@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceRateType3Code",
+  "definition": "Especifica el tipo de tasa de precio.",
+  "isoCodes": {
+    "DISC": {
+      "name": "Descuento",
+      "definition": "Precio expresado como un número de puntos porcentuales por debajo de la par; por ejemplo, un precio con descuento del 2.0% equivale a un precio de 98 cuando la par es 100."
+    },
+    "PREM": {
+      "name": "Prima",
+      "definition": "Precio expresado como un número de puntos porcentuales por encima de la par; por ejemplo, un precio con prima del 2.0% equivale a un precio de 102 cuando la par es 100."
+    },
+    "PRCT": {
+      "name": "Porcentaje",
+      "definition": "Precio expresado como porcentaje del valor nominal."
+    },
+    "YIEL": {
+      "name": "Rendimiento",
+      "definition": "Precio expresado como rendimiento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountPriceType1FormatChoice",
+  "definition": "Elección de formatos para expresar el tipo de precio del importe.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de precio del importe."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el tipo de precio del importe."
+    }
+  }
+}

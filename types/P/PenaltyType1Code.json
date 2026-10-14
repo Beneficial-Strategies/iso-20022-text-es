@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyType1Code",
+  "definition": "Especifica el tipo de penalización.",
+  "isoCodes": {
+    "LMFP": {
+      "name": "Penalización por fallo de casación tardía",
+      "definition": "Se aplica desde la fecha de liquidación prevista hasta la fecha de casamiento.|La penalización se imputa al participante que fue el último en introducir o modificar la instrucción de liquidación pertinente (por ejemplo, la «marca de tiempo de aceptación» es posterior a la de la instrucción de la contraparte) durante los períodos comprendidos entre la fecha de liquidación prevista y el día del casamiento de la instrucción."
+    },
+    "SEFP": {
+      "name": "Penalización por fallo de liquidación",
+      "definition": "Las penalizaciones se aplican a las instrucciones que no se liquidan en la fecha de liquidación prevista. Una instrucción de liquidación que «no se liquida en ese día hábil» debe entenderse como una instrucción de liquidación que no está cancelada y que queda pendiente de liquidar, total o parcialmente, al término de|el final del procesamiento del cut-off pertinente."
+    }
+  }
+}

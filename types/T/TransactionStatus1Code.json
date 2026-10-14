@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionStatus1Code",
+  "definition": "Especifica el estado de procesamiento de una operación de fondo de inversión.",
+  "isoCodes": {
+    "RVSL": {
+      "name": "Reversión",
+      "definition": "La operación ha sido revertida."
+    },
+    "REBO": {
+      "name": "Recontabilizado",
+      "definition": "La operación ha sido recontabilizada."
+    },
+    "CANC": {
+      "name": "Cancelado",
+      "definition": "La operación ha sido cancelada."
+    }
+  }
+}

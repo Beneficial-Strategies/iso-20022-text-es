@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryType1Code",
+  "definition": "Especifica un tipo de beneficiario.",
+  "isoCodes": {
+    "DEPE": {
+      "name": "Dependiente",
+      "definition": "El beneficiario es una persona dependiente."
+    },
+    "NOMI": {
+      "name": "Titular fiduciario",
+      "definition": "El beneficiario es una persona designada (nominee)."
+    },
+    "SUCC": {
+      "name": "Sucesor",
+      "definition": "El beneficiario es un sucesor."
+    }
+  }
+}

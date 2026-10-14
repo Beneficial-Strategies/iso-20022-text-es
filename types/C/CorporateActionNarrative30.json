@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionNarrative30",
+  "definition": "Proporciona información adicional, como los detalles de registro.",
+  "isoElements": {
+    "RegistrationDetails": {
+      "definition": "Proporciona la información requerida para el registro."
+    },
+    "PartyContactNarrative": {
+      "definition": "Proporciona información adicional relativa a la parte, por ejemplo, la unidad de contacto o la persona responsable de la operación identificada en el mensaje."
+    },
+    "CertificationBreakdown": {
+      "definition": "Proporciona la información requerida para la certificación o el desglose."
+    }
+  }
+}

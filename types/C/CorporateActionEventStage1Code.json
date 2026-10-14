@@ -1,0 +1,46 @@
+{
+  "isoType": "CorporateActionEventStage1Code",
+  "definition": "Especifica la fase del evento de CA.",
+  "isoCodes": {
+    "APPD": {
+      "name": "Aprobado",
+      "definition": "Aprobado en la junta correspondiente, p. ej., dividendo."
+    },
+    "CLDE": {
+      "name": "Desactivado",
+      "definition": "La oferta está cerrada a aceptación."
+    },
+    "PWAL": {
+      "name": "Período de actuación",
+      "definition": "Abierto a aceptación hasta el siguiente plazo especificado en el anuncio (si lo hay)."
+    },
+    "SUAP": {
+      "name": "Sujeto a aprobación",
+      "definition": "Sujeto a aprobación en la junta correspondiente, p. ej., dividendo."
+    },
+    "UNAC": {
+      "name": "Incondicional en cuanto a la aceptación",
+      "definition": "Se ha alcanzado el nivel de aceptaciones requerido especificado en los términos de la oferta, pero aún quedan condiciones pendientes de cumplir."
+    },
+    "WHOU": {
+      "name": "Totalmente incondicional",
+      "definition": "Totalmente incondicional; se han cumplido todas las condiciones especificadas en el documento de la oferta."
+    },
+    "FULL": {
+      "name": "Notificación de sorteo con reversión total",
+      "definition": "Se está revirtiendo un sorteo original o complementario."
+    },
+    "LAPS": {
+      "name": "Caducado",
+      "definition": "No se han cumplido las condiciones del evento/oferta y el evento/oferta ha finalizado o caducado."
+    },
+    "PART": {
+      "name": "Notificación de sorteo con reversión parcial",
+      "definition": "El agente reduce el importe de amortización original. Se cancela el anuncio original y se emite un nuevo sorteo original."
+    },
+    "RESC": {
+      "name": "Notificación de sorteo con reversión por rescisión",
+      "definition": "Los detalles del sorteo original y/o complementario han cambiado y el sorteo se cancela."
+    }
+  }
+}

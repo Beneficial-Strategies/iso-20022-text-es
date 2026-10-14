@@ -1,0 +1,18 @@
+{
+  "isoType": "OrderOriginatorEligibility1Code",
+  "definition": "Especifica el tipo de elegibilidad de las contrapartes según el artículo 24 de la Directiva MiFID de la EU, aplicable a las operaciones ejecutadas por empresas de inversión para contrapartes elegibles.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Admisible",
+      "definition": "Contraparte elegible - clasificación MiFID de contraparte. Los clientes elegibles son el nivel más sofisticado de inversor, capaz de renunciar a algunas de las protecciones que ofrecen las normas de conducta empresarial definidas en MiFID."
+    },
+    "RETL": {
+      "name": "Minorista",
+      "definition": "Cliente minorista - clasificación MiFID de contraparte. Los clientes minoristas son el nivel menos sofisticado de inversor."
+    },
+    "PROF": {
+      "name": "Profesional",
+      "definition": "Cliente profesional - clasificación MiFID de contraparte. Los clientes profesionales son, por ejemplo, empresas de inversión, entidades de crédito y compañías de seguros."
+    }
+  }
+}

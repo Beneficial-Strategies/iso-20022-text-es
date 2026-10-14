@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentCAMovementInstructionV01",
+  "definition": "Ámbito|Este mensaje lo envía un emisor (o su agente) a un CSD para ordenar:|- el adeudo global o individual de los recursos ejercidos (efectivo y/o valores), por evento y, opcionalmente, por opción y por recurso, para todas las cuentas de clientes del CSD o para cuentas individuales;|- y/o los abonos individuales de los recursos entregados por evento y, opcionalmente, por opción y por recurso, para la cuenta de un cliente determinado del CSD.|Uso|Este mensaje se utiliza para instruir:|- el adeudo global de los recursos ejercidos del saldo disponible o secuestrado del cliente del CSD, en cuyo caso el tipo de orden debe ser 'orden de adeudo global';|- los adeudos y abonos individuales:|- el adeudo individual de los recursos ejercidos del saldo disponible o secuestrado del cliente del CSD y/o|- el abono individual de los recursos entregados a la cuenta del cliente del CSD.|El tipo de orden debe ser 'orden individual';|- una orden de devolución, en caso de prorrateo, es decir, la devolución de los recursos ejercidos a la cuenta del cliente del CSD. El tipo de orden debe ser 'orden de devolución global' u 'orden de devolución individual'; y|cambio de opción, por ejemplo, en caso de cierre de una opción, trasladando los recursos ejercidos de una opción a otra dentro de los saldos secuestrados de acuerdo con las condiciones de la nueva opción. El tipo de orden debe ser 'orden de cambio de opción'.",
+  "isoRules": {
+    "OptionRule1": {
+      "definition": "SI MovementGeneralInformation/OrderType es CHAN (OptionChangeOrder), OptionNumber y OptionType deben estar presentes en cada ocurrencia de UnderlyingSecuritiesMovementDetails/CreditAccountDetails y UnderlyingSecuritiesMovement/DebitAccountDetails, y OptionNumber y OptionType no pueden estar presentes en MovementGeneralInformation."
+    },
+    "OptionRule2": {
+      "definition": "SI MovementGeneralInformation/OrderType no es CHAN (OptionChangeOrder), OptionNumber y OptionType deben estar presentes en MovementGeneralInformation y no pueden estar presentes en ninguna ocurrencia de UnderlyingSecuritiesMovementDetails/CreditAccountDetails ni en UnderlyingSecuritiesMovement/DebitAccountDetails."
+    }
+  }
+}

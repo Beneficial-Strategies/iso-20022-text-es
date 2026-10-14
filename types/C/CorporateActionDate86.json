@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDate86",
+  "definition": "Especifica las fechas de la operación societaria.",
+  "isoElements": {
+    "RecordDate": {
+      "definition": "Fecha y hora en que se fijan las posiciones al cierre del día para determinar qué partes recibirán el importe de derechos correspondiente, pagadero en la fecha de pago."
+    },
+    "ExDividendDate": {
+      "definition": "Fecha y hora a partir de la cual la negociación (incluida la negociación en bolsa y OTC) del valor subyacente se realiza sin el beneficio."
+    }
+  }
+}

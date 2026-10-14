@@ -1,0 +1,26 @@
+{
+  "isoType": "MarketType2Code",
+  "definition": "Especifica el tipo de mercado en el que se realizan las operaciones, por ejemplo, primario.",
+  "isoCodes": {
+    "PRIM": {
+      "name": "Mercado primario",
+      "definition": "El lugar es un mercado primario."
+    },
+    "SECM": {
+      "name": "Mercado secundario",
+      "definition": "El lugar es un mercado secundario."
+    },
+    "OTCO": {
+      "name": "Mercado extrabursátil",
+      "definition": "El lugar es el mercado extrabursátil (over the counter)."
+    },
+    "VARI": {
+      "name": "Varios",
+      "definition": "Varios lugares."
+    },
+    "EXCH": {
+      "name": "Bolsa de valores",
+      "definition": "El lugar es una bolsa de valores."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "InvestigationRequestAction1",
+  "definition": "Especifica el tipo de acción solicitada y el motivo de la acción.",
+  "isoElements": {
+    "Action": {
+      "definition": "Especifica el tipo de acción solicitada."
+    },
+    "ActionReason": {
+      "definition": "Proporciona información detallada sobre el motivo de la acción."
+    }
+  },
+  "isoRules": {
+    "ObjectionActionReasonRule": {
+      "definition": "Si Action/Code es igual a RQOB para Request Objection (solicitud de objeción), ActionReason debe estar presente."
+    },
+    "ObjectionActionRule": {
+      "definition": "El código externo RQOB para Request Objection (solicitud de objeción) solo puede informarse en Action/Code cuando el solicitante ya ha recibido una respuesta del respondedor."
+    }
+  }
+}

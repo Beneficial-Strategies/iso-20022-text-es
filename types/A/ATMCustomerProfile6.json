@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCustomerProfile6",
+  "definition": "Perfil del cliente seleccionado por un cajero automático (ATM).",
+  "isoElements": {
+    "RetrievalMode": {
+      "definition": "Describe la forma principal en que se recopiló la información del cliente para construir el menú del cliente y prestar el servicio."
+    },
+    "ProfileReference": {
+      "definition": "Referencia del perfil del cliente."
+    },
+    "CustomerIdentification": {
+      "definition": "Identificación del cliente para el banco."
+    },
+    "PreferredLanguage": {
+      "definition": "Idioma seleccionado por el cliente y almacenado por el emisor para utilizarlo en futuras sesiones del cliente. El PreferredLanguage puede obtenerse enviando un ATMInquiryRequest al emisor. Referencia ISO 639-1 (alfa-2) y ISO 639-2 (alfa-3)."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "TransactionReferences10",
+  "definition": "Identifica la operación subyacente.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora del mensaje subyacente."
+    },
+    "AccountServicerReference": {
+      "definition": "Referencia única, asignada por la entidad que administra la cuenta, para identificar inequívocamente la instrucción."
+    },
+    "PaymentInformationIdentification": {
+      "definition": "Identificación única, asignada por una parte remitente, para identificar de forma inequívoca el grupo de información del pago dentro del mensaje."
+    },
+    "InstructionIdentification": {
+      "definition": "Identificación única, asignada por una parte instructora a una parte instruida, para identificar inequívocamente la instrucción.||Uso: la identificación de la instrucción es una referencia punto a punto que puede utilizarse entre la parte instructora y la parte instruida para referirse a la instrucción individual. Puede incluirse en varios mensajes relacionados con la instrucción."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora, para identificar inequívocamente la operación. Esta identificación se transmite sin modificar a lo largo de toda la cadena de extremo a extremo.||Uso: la identificación de extremo a extremo puede utilizarse para la conciliación o para vincular tareas relacionadas con la operación. Puede incluirse en varios mensajes relacionados con la operación.||Uso: si existen limitaciones técnicas para transmitir varias referencias, la identificación de extremo a extremo debe transmitirse a lo largo de toda la cadena de extremo a extremo."
+    },
+    "UETR": {
+      "definition": "Identificador único universal que proporciona una referencia de extremo a extremo de una operación de pago."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificación única, asignada por la primera entidad instructora, para identificar inequívocamente la operación que se transmite sin modificar a lo largo de toda la cadena interbancaria. |Uso: la identificación de la operación puede utilizarse para la conciliación, el seguimiento o para vincular tareas relacionadas con la operación en el nivel interbancario. |Uso: la entidad instructora debe asegurarse de que la identificación de la operación sea única durante un período acordado previamente."
+    },
+    "MandateIdentification": {
+      "definition": "Identificación única, asignada por el beneficiario, para identificar inequívocamente el mandato."
+    },
+    "ChequeNumber": {
+      "definition": "Identificador único e inequívoco de un cheque, asignado por la entidad."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referencia única, asignada por un sistema de compensación, para identificar inequívocamente la instrucción.|Uso: si existen limitaciones técnicas para transmitir varias referencias, la identificación de extremo a extremo debe transmitirse a lo largo de toda la cadena de extremo a extremo."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación de valores tal como la conoce el titular de la cuenta de valores (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación de valores tal como la conoce el administrador de la cuenta de valores."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación de valores asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificación de la operación de valores asignada por el procesador de la instrucción distinto del titular de la cuenta de valores, el administrador de la cuenta de valores y la infraestructura de mercado."
+    },
+    "ReturnIdentification": {
+      "definition": "Identificación única, asignada por una parte instructora a una parte instruida, para identificar inequívocamente la operación devuelta.|Uso: la parte instructora es la parte que envía el mensaje de devolución y no la que envió la instrucción original que se devuelve."
+    },
+    "Proprietary": {
+      "definition": "Referencia propia relacionada con la operación subyacente."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "isoType": "CorporateActionOption1",
+  "definition": "Proporciona información sobre la opción de la CA.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Especifica el estado de la opción."
+    },
+    "CertificationIndicator": {
+      "definition": "Indica si se requiere o no certificación al titular de la cuenta. |Sí: se requiere certificación |No: no se requiere certificación."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificación que se requiere."
+    },
+    "AssentedLineSecurityIdentification": {
+      "definition": "Identificación de un valor temporal utilizado por motivos de procesamiento, p. ej., el valor de contrapartida utilizado en US."
+    },
+    "AgentSecuritiesAccountIdentification": {
+      "definition": "Identificación de la cuenta de custodia mantenida por una entidad en el CSD."
+    },
+    "AgentCashAccountIdentification": {
+      "definition": "Identificación de la cuenta de efectivo mantenida por una entidad en el CSD."
+    },
+    "OfferType": {
+      "definition": "Especifica las condiciones aplicables a la oferta."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "definition": "Tipo de distribución de valores intermedios, por ejemplo, dividendo en acciones, derecho inverso."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Indica si se permite la retirada de la instrucción."
+    },
+    "ChangeAllowedIndicator": {
+      "definition": "Indica si se permite el cambio de instrucción."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con una opción de la CA."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Proporciona información sobre las tasas y los importes relacionados con una opción de la CA."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con una opción de la CA."
+    },
+    "PeriodDetails": {
+      "definition": "Proporciona información sobre los períodos relacionados con una opción de la CA."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de valores vinculado a la opción de la CA."
+    },
+    "CashMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de efectivo vinculado a la opción de la CA."
+    },
+    "CorporateActionOtherAgentDetails": {
+      "definition": "Proporciona información sobre las entidades vinculadas a la opción de la CA."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo."
+    },
+    "RedemptionChargesAppliedIndicator": {
+      "definition": "Indica si se aplican cargos por reembolso."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria."
+    },
+    "CorporateActionAdditionalInformation": {
+      "definition": "Proporciona información adicional."
+    }
+  },
+  "isoRules": {
+    "ChangeAllowedRule": {
+      "definition": "Si el valor de ChangeAllowedIndicator es verdadero, entonces PerdioDetails/RevocabilityPeriod es obligatorio."
+    },
+    "WithdrawalAllowedRule": {
+      "definition": "Si el valor de WithdrawalAllowedIndicator es verdadero, entonces PeriodDetails/RevocabilityPeriod es obligatorio."
+    }
+  }
+}

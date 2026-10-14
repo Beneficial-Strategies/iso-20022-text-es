@@ -1,0 +1,45 @@
+{
+  "isoType": "CashDepositRequest1",
+  "definition": "Especifica los detalles de una solicitud de ingreso de efectivo.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Identificación única de la orden."
+    },
+    "CashSenderReference": {
+      "definition": "Identificación única, asignada por el remitente del efectivo para el ingreso de efectivo."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indica si este mensaje modifica un mensaje de solicitud anterior.||Uso: Cuando se indica el valor Yes, OrderReference y CashSenderReference deben permanecer iguales a los del mensaje original. Cuando no se utiliza este elemento, el mensaje no se considera una modificación."
+    },
+    "ExpectedValueDate": {
+      "definition": "Fecha en la que el remitente del efectivo espera que el efectivo llegue al receptor del efectivo y se abone en su cuenta."
+    },
+    "Account": {
+      "definition": "Identificación inequívoca de la cuenta en la que se ingresará el efectivo."
+    },
+    "CashDeposit": {
+      "definition": "Proporciona los detalles de un ingreso de efectivo por una suma de dinero en billetes y/o monedas."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica el método de entrega del ingreso de efectivo."
+    },
+    "DeliveryAddress": {
+      "definition": "Especifica la dirección a la que se entrega el ingreso de efectivo."
+    },
+    "DepositContact": {
+      "definition": "Parte que transporta el efectivo que se va a ingresar."
+    },
+    "SecureCarrierName": {
+      "definition": "Identificación del transportista de seguridad."
+    },
+    "SecureCarrierReference": {
+      "definition": "Identificación única, asignada por el transportista de seguridad para el ingreso."
+    },
+    "InsuranceIndicator": {
+      "definition": "Indica si el ingreso en tránsito está asegurado.||Uso: cuando no se utiliza este elemento, el ingreso no está asegurado."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el ingreso de efectivo."
+    }
+  }
+}

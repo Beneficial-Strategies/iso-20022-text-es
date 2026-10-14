@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionPrice99",
+  "definition": "Especifica los precios relacionados con una opción de operación societaria.",
+  "isoElements": {
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Precio genérico en efectivo recibido por producto por el titular del valor subyacente, ya sea como porcentaje o como importe, por ejemplo, precio de reembolso."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Precio genérico en efectivo pagado por producto por el titular del valor subyacente, ya sea como porcentaje o como importe, por ejemplo, el precio de reinversión."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "El precio genérico en efectivo recibido por producto (OFFR) y el precio genérico en efectivo pagado por producto (PRPP) son precios recibidos o pagados en el curso de un evento. El significado específico (precio de reembolso, precio de suscripción, precio de reinversión, etc.) se deriva del tipo de evento."
+    }
+  }
+}

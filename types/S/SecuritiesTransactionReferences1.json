@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesTransactionReferences1",
+  "definition": "Identifica la operación de valores subyacente.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación de valores tal como la conoce el titular de la cuenta de valores (o la parte instructora que gestiona la cuenta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificación inequívoca de la operación de valores tal como la conoce la entidad gestora de la cuenta de valores."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificación de una operación de valores asignada por una infraestructura de mercado distinta de un depositario central de valores, por ejemplo, Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificación de la operación de valores asignada por el procesador de la instrucción distinto del titular de la cuenta de valores, la entidad gestora de la cuenta de valores y la infraestructura de mercado."
+    }
+  }
+}

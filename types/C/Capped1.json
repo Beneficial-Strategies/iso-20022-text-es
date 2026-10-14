@@ -1,0 +1,21 @@
+{
+  "isoType": "Capped1",
+  "definition": "Información sobre una disposición con límite.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Fecha de inicio del periodo de referencia actual"
+    },
+    "IncomeLimitCurrentPeriod": {
+      "definition": "Límite de ingresos para el periodo actual."
+    },
+    "IncomeCurrentPeriod": {
+      "definition": "Ingresos percibidos en el ejercicio de ingresos actual."
+    },
+    "IncomeLimitNextPeriod": {
+      "definition": "Límite de ingresos para el próximo ejercicio de ingresos."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el límite."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "IntraPositionMovementConfirmationV10",
+  "definition": "Ámbito|El IntraPositionMovementConfirmation lo envía una entidad depositaria a un titular de cuenta para confirmar el movimiento de valores dentro de su posición de un subsaldo a otro, por ejemplo, el bloqueo de valores. |La relación entre la entidad depositaria y el titular de la cuenta puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que actúa por cuenta de su participante|- una entidad (subcustodio) que actúa por cuenta de su cliente custodio global, o |- un custodio que actúa por cuenta de una institución de gestión de inversiones o de un broker/dealer.||Uso|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo|utilizando los elementos pertinentes del Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Debe estar presente SafekeepingAccount o BlockChainAddressOrWallet, pero no ambos."
+    }
+  }
+}

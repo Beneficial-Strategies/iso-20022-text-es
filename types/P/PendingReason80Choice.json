@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason80Choice",
+  "definition": "Elección del formato del motivo de pendiente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el código de motivo por el que la instrucción o la solicitud está pendiente."
+    },
+    "Proprietary": {
+      "definition": "Especifica el código de motivo por el que la instrucción o la solicitud está pendiente, utilizando un formato propietario."
+    }
+  }
+}

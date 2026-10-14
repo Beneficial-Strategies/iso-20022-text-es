@@ -1,0 +1,14 @@
+{
+  "isoType": "PreConfirmation1Code",
+  "definition": "Especifica si existe una preconfirmación de efectivo o de valores.",
+  "isoCodes": {
+    "PRCA": {
+      "name": "Preconfirmación de efectivo",
+      "definition": "Preconfirmación del movimiento de efectivo, a la espera del movimiento de valores."
+    },
+    "PRSE": {
+      "name": "Preconfirmación de valores",
+      "definition": "Preconfirmación del movimiento de valores, a la espera del movimiento de efectivo."
+    }
+  }
+}

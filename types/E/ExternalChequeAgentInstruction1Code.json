@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalChequeAgentInstruction1Code",
+  "definition": "Especifica el código de instrucción externo, facilitado a una entidad de cheques para su procesamiento, en formato de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es un conjunto de códigos externo publicado por separado.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org."
+}

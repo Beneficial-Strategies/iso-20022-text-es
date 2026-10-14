@@ -1,0 +1,4 @@
+{
+  "isoType": "MarketClaimCancellationRequestStatusAdviceV04",
+  "definition": "Alcance y uso|El mensaje MarketClaimCancellationRequestStatusAdvice es enviado por una entidad administradora de cuentas a un titular de cuenta para proporcionar el estado de una solicitud de cancelación de una operación de reclamación de mercado.|Esta definición de mensaje está prevista para su uso con la cabecera de aplicación empresarial (BAH)."
+}

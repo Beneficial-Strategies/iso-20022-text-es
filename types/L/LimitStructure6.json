@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitStructure6",
+  "definition": "Detalles de un límite concreto establecido por el miembro y gestionado por el administrador de operaciones.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identificación del límite por defecto."
+    },
+    "StartDateTime": {
+      "definition": "Fecha y hora en que el límite entra en vigor."
+    },
+    "Amount": {
+      "definition": "Importe de dinero del límite, expresado en una divisa admisible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si un límite es un límite de adeudo o un límite de abono."
+    }
+  }
+}

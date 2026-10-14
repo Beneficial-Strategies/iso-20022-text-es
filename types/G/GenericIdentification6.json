@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification6",
+  "definition": "Saldo expresado mediante un esquema de fuente de datos.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación."
+    },
+    "Information": {
+      "definition": "Información propia, a menudo un código, emitida por el emisor del esquema de la fuente de datos."
+    },
+    "Balance": {
+      "definition": "Valor del saldo."
+    }
+  }
+}

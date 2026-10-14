@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType3Code",
+  "definition": "Especifica un tipo de fecha.",
+  "isoCodes": {
+    "VARI": {
+      "name": "Varios",
+      "definition": "Se han producido operaciones parciales a lo largo de un periodo de dos o más días."
+    }
+  }
+}

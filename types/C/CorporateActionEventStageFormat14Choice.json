@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStageFormat14Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de etapa del evento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar la etapa del evento de operación societaria."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria de la etapa del evento de operación societaria."
+    }
+  }
+}

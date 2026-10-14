@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus4Code",
+  "definition": "Especifica el estado de tramitación de la solicitud de cancelación de la instrucción permanente.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recibido",
+      "definition": "Se ha recibido la instrucción o solicitud."
+    },
+    "COMP": {
+      "name": "Completado",
+      "definition": "La solicitud se ha completado."
+    },
+    "PEND": {
+      "name": "Pendiente",
+      "definition": "El procesamiento de la solicitud está pendiente."
+    }
+  }
+}

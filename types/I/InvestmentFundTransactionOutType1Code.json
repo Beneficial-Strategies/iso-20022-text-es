@@ -1,0 +1,22 @@
+{
+  "isoType": "InvestmentFundTransactionOutType1Code",
+  "definition": "Especifica el tipo de operación de fondo de inversión que da lugar a un movimiento de efectivo desde un fondo.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Reembolso",
+      "definition": "La operación es un reembolso de un fondo de inversión."
+    },
+    "SWIO": {
+      "name": "Traspaso de salida",
+      "definition": "La operación es el tramo de suscripción de la ejecución de una orden de traspaso."
+    },
+    "INSP": {
+      "name": "En especie",
+      "definition": "La operación es una entrega en especie (InSpecie)."
+    },
+    "CROO": {
+      "name": "Salida cruzada",
+      "definition": "La operación es un cruce de salida."
+    }
+  }
+}

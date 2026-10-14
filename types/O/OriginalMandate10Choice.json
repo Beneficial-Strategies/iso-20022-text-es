@@ -1,0 +1,12 @@
+{
+  "isoType": "OriginalMandate10Choice",
+  "definition": "Especifica el mandato que se está aceptando.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Identificación única, asignada por la parte responsable (como el beneficiario) o por la entidad (como la entidad del ordenante), para identificar inequívocamente el mandato original."
+    },
+    "OriginalMandate": {
+      "definition": "Proporciona los datos del mandato original."
+    }
+  }
+}

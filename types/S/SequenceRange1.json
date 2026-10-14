@@ -1,0 +1,12 @@
+{
+  "isoType": "SequenceRange1",
+  "definition": "Especifica un rango de secuencias desde una secuencia inicial hasta una secuencia final.",
+  "isoElements": {
+    "FromSequence": {
+      "definition": "Secuencia inicial del rango."
+    },
+    "ToSequence": {
+      "definition": "Secuencia final del rango."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PersonName2",
+  "definition": "Identifica a una persona mediante su nombre y apellidos.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre(s) por el que se conoce a una persona física."
+    },
+    "Address": {
+      "definition": "Dirección postal de la parte."
+    }
+  }
+}

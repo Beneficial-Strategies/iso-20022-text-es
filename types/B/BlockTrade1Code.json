@@ -1,0 +1,14 @@
+{
+  "isoType": "BlockTrade1Code",
+  "definition": "Especifica si la instrucción es la matriz o una hija de una operación en bloque.",
+  "isoCodes": {
+    "BLPA": {
+      "name": "Principal",
+      "definition": "La operación es la matriz de una operación en bloque."
+    },
+    "BLCH": {
+      "name": "Dependiente",
+      "definition": "La operación es una hija de una operación en bloque."
+    }
+  }
+}

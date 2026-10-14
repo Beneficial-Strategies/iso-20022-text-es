@@ -1,0 +1,35 @@
+{
+  "isoType": "CorporateActionNarrative64",
+  "definition": "Proporciona información adicional, como las condiciones fiscales.",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Proporciona información adicional o especifica con más detalle el contenido de un mensaje. Este campo solo puede utilizarse cuando la información que se va a transmitir no puede codificarse."
+    },
+    "NarrativeVersion": {
+      "definition": "Proporciona información que puede ignorarse en el procesamiento automatizado; reiteración de información que ya se ha incluido en campos estructurados, o información narrativa que no es necesaria para el procesamiento automático."
+    },
+    "InformationConditions": {
+      "definition": "Proporciona información condicional relacionada con el evento, por ejemplo, una oferta está sujeta a una aceptación del 50 por ciento, el oferente permite al titular de los valores establecer algunas condiciones."
+    },
+    "InformationToComplyWith": {
+      "definition": "Proporciona información sobre condiciones que debe cumplir el titular de la cuenta, por ejemplo, no abierta a residentes de US o Canadá, Qualified Institutional Buyers (QIB) o debe facilitarse una SIL (Sophisticated Investor Letter)."
+    },
+    "SecurityRestriction": {
+      "definition": "Proporciona restricciones sobre los valores."
+    },
+    "TaxationConditions": {
+      "definition": "Proporciona condiciones fiscales que no pueden incluirse en los campos estructurados de este mensaje y que no se han mencionado en el acuerdo de nivel de servicio (SLA)."
+    },
+    "Disclaimer": {
+      "definition": "Proporciona un descargo de responsabilidad relativo a la información facilitada en el mensaje. Puede ignorarse en el procesamiento automatizado."
+    },
+    "CertificationBreakdown": {
+      "definition": "Proporciona información adicional sobre el tipo de certificación o desglose requerido."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "El campo AdditionalInformation de todos los elementos no debe contener información que pueda facilitarse en un campo estructurado, salvo que se acuerde bilateralmente o se indique lo contrario en la definición del elemento, como en NarrativeVersion."
+    }
+  }
+}

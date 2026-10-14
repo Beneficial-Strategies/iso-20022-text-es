@@ -1,0 +1,26 @@
+{
+  "isoType": "FinancialInstrumentQuantity35Choice",
+  "definition": "Elección entre formatos para la cantidad de valores.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Cantidad expresada como un número, por ejemplo, un número de acciones."
+    },
+    "FaceAmount": {
+      "definition": "Cantidad expresada como un importe que representa el valor nominal, es decir, el principal, de un instrumento de deuda."
+    },
+    "AmortisedValue": {
+      "definition": "Cantidad expresada como un importe que representa el importe nominal amortizado actual de un bono, por ejemplo, una reducción/aumento periódico del importe principal de un bono."
+    },
+    "Code": {
+      "definition": "Cantidad expresada como un código."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Cantidad de tokens digitales expresada como un número, por ejemplo, un número de tokens de cadena de bloques."
+    }
+  },
+  "isoRules": {
+    "DigitalTokenUnitUsageRule": {
+      "definition": "El formato DigitalTokenUnit solo puede utilizarse para instrumentos identificados con un identificador de token digital."
+    }
+  }
+}

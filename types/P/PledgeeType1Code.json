@@ -1,0 +1,14 @@
+{
+  "isoType": "PledgeeType1Code",
+  "definition": "Especifica el tipo de acreedor pignoraticio.",
+  "isoCodes": {
+    "CPTY": {
+      "name": "Contrapartida",
+      "definition": "Los instrumentos financieros están pignorados a favor de una contraparte."
+    },
+    "REGB": {
+      "name": "Organismo regulador",
+      "definition": "Los instrumentos financieros están pignorados a favor de un organismo regulador."
+    }
+  }
+}

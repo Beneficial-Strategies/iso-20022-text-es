@@ -1,0 +1,27 @@
+{
+  "isoType": "CurrencyExchange6",
+  "definition": "Describe los detalles del cambio de divisa.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Divisa desde la que se convierte un importe en una conversión de divisas."
+    },
+    "TargetCurrency": {
+      "definition": "Divisa en la que se va a convertir un importe en una conversión de divisas."
+    },
+    "ExchangeRate": {
+      "definition": "Factor utilizado para convertir un importe de una divisa a otra. Refleja el precio al que se compró una divisa con otra divisa."
+    },
+    "Description": {
+      "definition": "Identificación única para identificar inequívocamente el contrato de cambio de divisas."
+    },
+    "UnitCurrency": {
+      "definition": "Divisa en la que se expresa el tipo de cambio en un cambio de divisas. En el ejemplo 1GBP = xxxCUR, la divisa unitaria es GBP."
+    },
+    "Comments": {
+      "definition": "Información adicional sobre el tipo de cambio."
+    },
+    "QuotationDate": {
+      "definition": "Fecha y hora en que se cotiza un tipo de cambio."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusReason2Choice",
+  "definition": "Elección de formatos para el código de motivo pendiente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado pendiente de la cuenta expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado pendiente de la cuenta expresado como código propietario."
+    }
+  }
+}

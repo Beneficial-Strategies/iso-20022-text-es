@@ -1,0 +1,71 @@
+{
+  "isoType": "ReceiveInformation22",
+  "definition": "Parámetros aplicados a la liquidación de una transferencia de valores.",
+  "isoElements": {
+    "Transferee": {
+      "definition": "Parte que recibe valores (cesionario) del agente entregador (cedente)."
+    },
+    "TransfereeRegisteredAccount": {
+      "definition": "Cuenta en la que se van a recibir los valores."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identificación de una parte relacionada o de un intermediario."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, es decir, titularidad, del valor, es decir, nominativo o al portador."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Indica si un valor existe únicamente como registro electrónico, es decir, si no hay ningún documento físico que represente el valor."
+    },
+    "IncomePreference": {
+      "definition": "Opción de dividendo elegida por el titular de la cuenta entre las opciones ofrecidas en el folleto."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "definition": "El titular real o su agente designado certifica que cumple las restricciones o requisitos de tenencia o inversión del fondo."
+    },
+    "RequestedTradeDate": {
+      "definition": "Fecha que se utilizará como fecha de contratación cuando los valores se liquiden a través de un Depositario Central de Valores Internacional (ICSD) o un Depositario Central de Valores (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Fecha y hora en que se van a intercambiar los valores en el depositario central internacional de valores (ICSD) o en el depositario central de valores (CSD)."
+    },
+    "SettlementAmount": {
+      "definition": "Importe total de dinero pagado o por pagar, o recibido, a cambio del instrumento financiero."
+    },
+    "StampDuty": {
+      "definition": "Especifica si el importe de liquidación incluye el importe del impuesto de timbre."
+    },
+    "NetAmount": {
+      "definition": "Importe de la operación."
+    },
+    "Fees": {
+      "definition": "Comisión relacionada con la transferencia del instrumento financiero."
+    },
+    "IndividualTax": {
+      "definition": "Impuesto relacionado con la transferencia del instrumento financiero."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Información necesaria para procesar un cambio o conversión de divisas.|La forma en que se expresa el tipo de cambio determina cuál es la divisa unitaria (Unit Currency) y cuál la divisa cotizada (Quoted Currency). Si los importes en cuestión son EUR 1000 y USD 1300, el tipo de cambio puede expresarse según cualquiera de los siguientes ejemplos:|EJEMPLO 1 |UnitCurrency EUR|QuotedCurrency USD|ExchangeRate 1.300|EJEMPLO 2|UnitCurrency USD|QuotedCurrency EUR|ExchangeRate 0.769 (EXAMPLE)."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Cadena de partes que intervienen en la liquidación de la operación."
+    },
+    "PhysicalTransfer": {
+      "definition": "Indica si el instrumento financiero debe entregarse físicamente."
+    },
+    "PhysicalTransferDetails": {
+      "definition": "Parámetros de una entrega física."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de la transferencia por parte del inversor. Esta referencia suele poder utilizarse en un escenario de concentrador (hub) para indicar la referencia de la transferencia asignada por el cliente subyacente."
+    }
+  },
+  "isoRules": {
+    "PhysicalTransferDetails1Rule": {
+      "definition": "Si PhysicalTransfer es PHYS (Physical), PhysicalTransferDetails debe estar presente."
+    },
+    "PhysicalTransferDetails2Rule": {
+      "definition": "Si PhysicalTransfer es DEMT (Dematerialised), PhysicalTransferDetails no está permitido."
+    }
+  }
+}

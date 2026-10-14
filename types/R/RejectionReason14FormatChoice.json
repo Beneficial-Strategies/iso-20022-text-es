@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason14FormatChoice",
+  "definition": "Elección de formatos para expresar el motivo del rechazo de una solicitud de cancelación de movimiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo del rechazo de una solicitud de cancelación de movimiento."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el motivo del rechazo de una solicitud de cancelación de movimiento."
+    }
+  }
+}

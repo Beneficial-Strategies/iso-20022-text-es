@@ -1,0 +1,23 @@
+{
+  "isoType": "PartyIdentificationAndAccount225",
+  "definition": "Proporciona información sobre la identificación y la cuenta de la parte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de una parte."
+    },
+    "CashAccount": {
+      "definition": "Cuenta en la que se mantiene efectivo."
+    },
+    "ProcessingIdentification": {
+      "definition": "Referencia significativa para la parte identificada."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificación alternativa de una parte."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "El campo AdditionalInformation de todos los elementos no debe contener información que pueda facilitarse en un campo estructurado, salvo que se acuerde bilateralmente o se indique lo contrario en la definición del elemento, como en NarrativeVersion."
+    }
+  }
+}

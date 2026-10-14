@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveV09",
+  "definition": "Alcance|El mensaje NotificationToReceive lo envía un titular de cuenta, o una parte que actúa en su nombre, a una de las entidades gestoras de las cuentas del titular. Es un aviso previo de que la entidad gestora de la cuenta recibirá fondos que se abonarán en la cuenta del titular.|Uso|El mensaje NotificationToReceive se utiliza para avisar a la entidad gestora de la cuenta de los fondos que el titular de la cuenta espera que se abonen en ella. El mensaje puede utilizarse tanto en un escenario directo como en un escenario de retransmisión."
+}

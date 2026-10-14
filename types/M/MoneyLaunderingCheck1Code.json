@@ -1,0 +1,30 @@
+{
+  "isoType": "MoneyLaunderingCheck1Code",
+  "definition": "Especifica el estado de los procedimientos de identificación en materia de blanqueo de capitales.",
+  "isoCodes": {
+    "PASS": {
+      "name": "Superado",
+      "definition": "El intermediario ha llevado a cabo los procedimientos de identificación en materia de blanqueo de capitales."
+    },
+    "NOTC": {
+      "name": "No comprobado",
+      "definition": "No se han llevado a cabo los procedimientos de identificación en materia de blanqueo de capitales."
+    },
+    "EXEM": {
+      "name": "Exento por debajo del límite",
+      "definition": "No se han llevado a cabo los procedimientos de identificación en materia de blanqueo de capitales porque la operación está por debajo del límite prescrito."
+    },
+    "CLMO": {
+      "name": "Exento por tipo de dinero del cliente",
+      "definition": "No se han llevado a cabo los procedimientos de identificación en materia de blanqueo de capitales debido al tipo de operación, por ejemplo, un traspaso entre fondos, o porque la operación se financia desde una cuenta de inversor existente mantenida por el intermediario."
+    },
+    "AUTH": {
+      "name": "Crédito autorizado",
+      "definition": "No se han llevado a cabo los procedimientos de identificación en materia de blanqueo de capitales porque el inversor es una entidad de crédito o financiera autorizada."
+    },
+    "POEP": {
+      "name": "Exento por pago postal o electrónico",
+      "definition": "Se han llevado a cabo procedimientos limitados de identificación en materia de blanqueo de capitales porque se trata de una operación única y el pago se realiza por transferencia postal, telefónica o electrónica desde una cuenta existente en una entidad de crédito o financiera autorizada."
+    }
+  }
+}

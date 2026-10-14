@@ -1,0 +1,15 @@
+{
+  "isoType": "ProceedsMovement1",
+  "definition": "Detalles de los movimientos de productos.",
+  "isoElements": {
+    "CashProceedsMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de los productos en efectivo."
+    },
+    "SecuritiesProceedsMovementDetails": {
+      "definition": "Proporciona información sobre el movimiento de los productos en valores."
+    },
+    "TaxDetails": {
+      "definition": "Proporciona información sobre el comprobante fiscal."
+    }
+  }
+}

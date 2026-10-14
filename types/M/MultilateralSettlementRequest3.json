@@ -1,0 +1,27 @@
+{
+  "isoType": "MultilateralSettlementRequest3",
+  "definition": "Proporciona detalles específicos de la o las instrucciones de liquidación individuales incluidas en el mensaje.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificación única, asignada por la entidad que instruye y enviada a la infraestructura de mercado, para identificar inequívocamente la instrucción.||Uso: la identificación de la instrucción es una referencia punto a punto que puede utilizarse entre la entidad que instruye y la infraestructura de mercado para referirse a la instrucción individual. Puede incluirse en varios mensajes relacionados con la instrucción."
+    },
+    "InstructionPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la entidad que instruye desea que la infraestructura de mercado aplique a la tramitación de la instrucción.||Uso: la práctica de mercado o el acuerdo bilateral deben especificar cómo debe utilizarse este elemento. Si este elemento no se rellena y no hay directrices de mercado ni acuerdo bilateral, la prioridad se considerará 'Normal'."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Proporciona información sobre la hora o las horas de liquidación solicitadas de la instrucción."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la entidad que instruye desea que la infraestructura de mercado aplique a la tramitación de la instrucción de liquidación.||Uso: la práctica de mercado o el acuerdo bilateral deben especificar cómo debe utilizarse este elemento. Si este elemento no se rellena y no hay directrices de mercado ni acuerdo bilateral, la prioridad se considerará 'Normal'."
+    },
+    "SettlementCycle": {
+      "definition": "Identificación del ciclo de liquidación en el servicio de liquidación.||Uso: el SettlementCycle se utiliza para diferenciar esta liquidación multilateral de otras liquidaciones multilaterales cuando se producen varias dentro de un mismo periodo de tiempo."
+    },
+    "NumberOfMovementRecords": {
+      "definition": "Indicador del número de registros de movimiento contenidos en una solicitud de liquidación individual."
+    },
+    "MovementRecord": {
+      "definition": "Operación de abono o adeudo contenida en una solicitud de liquidación individual.||Uso: la suma de todos los importes (registros de adeudo y de abono) debería dar cero cuando se utiliza la liquidación neta."
+    }
+  }
+}

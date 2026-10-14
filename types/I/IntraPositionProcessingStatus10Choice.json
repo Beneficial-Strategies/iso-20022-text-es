@@ -1,0 +1,21 @@
+{
+  "isoType": "IntraPositionProcessingStatus10Choice",
+  "definition": "Elección del formato del estado de tratamiento.",
+  "isoElements": {
+    "Rejected": {
+      "definition": "La instrucción/solicitud ha sido rechazada para su posterior procesamiento."
+    },
+    "Repair": {
+      "definition": "La instrucción/solicitud ha sido aceptada pero está en reparación."
+    },
+    "Cancelled": {
+      "definition": "La instrucción ha sido cancelada."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la instrucción."
+    },
+    "Proprietary": {
+      "definition": "Especifica una elección de estado para el procesamiento de un movimiento intraposición."
+    }
+  }
+}

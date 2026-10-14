@@ -1,0 +1,15 @@
+{
+  "isoType": "DateFormat1Choice",
+  "definition": "Elección entre los formatos para expresar una fecha.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha expresada como fecha del calendario."
+    },
+    "Code": {
+      "definition": "Fecha expresada como código."
+    },
+    "DateTime": {
+      "definition": "Fecha expresada como fecha de calendario y hora."
+    }
+  }
+}

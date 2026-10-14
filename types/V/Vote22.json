@@ -1,0 +1,57 @@
+{
+  "isoType": "Vote22",
+  "definition": "Voto expresado para una resolución.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número de la resolución según lo especificado por el emisor o su agente."
+    },
+    "Description": {
+      "definition": "Idioma, título y descripción textual de una resolución del orden del día."
+    },
+    "SubStatus": {
+      "definition": "Especifica si la resolución es nueva o modificada."
+    },
+    "For": {
+      "definition": "Número de valores para los que se instruye voto a favor."
+    },
+    "Against": {
+      "definition": "Número de valores para los que se instruye voto en contra."
+    },
+    "Abstain": {
+      "definition": "Número de valores para los que se instruye abstenerse."
+    },
+    "Withhold": {
+      "definition": "Número de valores para los que se instruye retener el voto."
+    },
+    "WithManagement": {
+      "definition": "Número de valores para los que se instruye voto en línea con los votos de la dirección."
+    },
+    "AgainstManagement": {
+      "definition": "Número de valores para los que se instruye voto contra la recomendación de voto de la dirección."
+    },
+    "Discretionary": {
+      "definition": "Número de valores para los que la decisión se deja a la parte que ejercerá el derecho de voto."
+    },
+    "OneYear": {
+      "definition": "Número de valores para los que se instruye el voto a favor de un año en una resolución de tipo \"say on pay\"."
+    },
+    "TwoYears": {
+      "definition": "Número de valores para los que se instruye el voto a favor de dos años en una resolución de tipo \"say on pay\"."
+    },
+    "ThreeYears": {
+      "definition": "Número de valores para los que se instruye el voto a favor de tres años en una resolución de tipo \"say on pay\"."
+    },
+    "NoAction": {
+      "definition": "Número de votos para los que no se ha tomado ninguna medida."
+    },
+    "Blank": {
+      "definition": "El voto se emite en blanco, pero se contabiliza."
+    },
+    "Proprietary": {
+      "definition": "Otro tipo de voto expresado como un código propietario."
+    },
+    "Withdrawn": {
+      "definition": "Indica que la resolución fue retirada en la junta."
+    }
+  }
+}

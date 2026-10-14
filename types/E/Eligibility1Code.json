@@ -1,0 +1,18 @@
+{
+  "isoType": "Eligibility1Code",
+  "definition": "Identifica el tipo de inversor. Las normas aplicables a cada tipo de cliente son diferentes.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Contraparte elegible",
+      "definition": "Los clientes elegibles son el nivel más sofisticado de inversor, y pueden renunciar a algunas de las protecciones que otorgan las normas de conducta empresarial."
+    },
+    "RETL": {
+      "name": "Cliente minorista",
+      "definition": "Los clientes minoristas son el nivel menos sofisticado de inversor."
+    },
+    "PROF": {
+      "name": "Cliente profesional",
+      "definition": "Los clientes profesionales son, por ejemplo, las empresas de inversión, las entidades de crédito y las compañías de seguros."
+    }
+  }
+}

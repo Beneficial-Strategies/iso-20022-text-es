@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionTypeFormat4Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de movimiento de elección.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el efecto sobre las posiciones de elegir una opción de operación societaria."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de elección de una opción de operación societaria."
+    }
+  }
+}

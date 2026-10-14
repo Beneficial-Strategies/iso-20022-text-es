@@ -1,0 +1,33 @@
+{
+  "isoType": "AccountManagementStatusAndReason5",
+  "definition": "Información de estado.",
+  "isoElements": {
+    "Status": {
+      "definition": "Estado de la instrucción de gestión de cuenta recibida previamente."
+    },
+    "StatusReason": {
+      "definition": "Motivo del estado de la instrucción de gestión de cuenta."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Identificador único e inequívoco de la instrucción de apertura o modificación de cuenta a nivel de aplicación."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Cuenta a la que se refiere la apertura de cuenta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "AccountStatus": {
+      "definition": "Estado de la cuenta."
+    },
+    "BlockedStatus": {
+      "definition": "Especifica que la cuenta está bloqueada y otros factores relativos a la cuenta bloqueada."
+    },
+    "FATCAReportingDate": {
+      "definition": "Fecha facilitada por el titular de la cuenta para informar a la entidad gestora de la cuenta de la fecha en la que deben comunicarse las posiciones antes del cierre posterior de la cuenta."
+    },
+    "CRSReportingDate": {
+      "definition": "Fecha facilitada por el titular de la cuenta para informar a la entidad gestora de la cuenta de la fecha en la que deben comunicarse las posiciones antes del cierre posterior de la cuenta."
+    }
+  }
+}

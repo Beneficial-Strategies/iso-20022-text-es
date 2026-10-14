@@ -1,0 +1,18 @@
+{
+  "isoType": "IntraBalanceMovementQueryResponseV02",
+  "definition": "El mensaje IntraBalanceMovementQueryResponse lo envía una infraestructura de liquidación a un titular de cuenta/solicitante para proporcionar todas las instrucciones de movimiento entre saldos que cumplen los criterios de selección definidos en la consulta, devolviendo los atributos actuales y el último estado.|El mensaje también puede utilizarse para: |- reenviar un mensaje enviado por el titular de la cuenta a la entidad gestora de la cuenta (la subfunción del mensaje es \"Duplicate\") |- proporcionar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy\") |- reenviar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es igual a Yes (true o 1), entonces ReportOrError debe estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator es igual a No (false o 0), entonces ReportOrError debe estar ausente."
+    },
+    "QueryTypeFullRule": {
+      "definition": "Si ReportGeneralDetails/QueryType es igual a Full, entonces ReportOrError/Movements(*)/Movement/MovementDetails debe estar presente."
+    },
+    "QueryTypeStatusRule": {
+      "definition": "Si ReportGeneralDetails/QueryType es igual a Status, entonces ReportOrError/Movements(*)/Movement/MovementDetails debe estar ausente."
+    }
+  }
+}

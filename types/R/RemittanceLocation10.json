@@ -1,0 +1,15 @@
+{
+  "isoType": "RemittanceLocation10",
+  "definition": "Proporciona información sobre el aviso de remesa.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora, para identificar de forma inequívoca la información de remesa enviada por separado de la instrucción de pago, como un aviso de remesa."
+    },
+    "RemittanceLocationDetails": {
+      "definition": "Conjunto de elementos utilizados para proporcionar información sobre la ubicación y/o la entrega de la información de remesa."
+    },
+    "References": {
+      "definition": "Identifica la operación subyacente."
+    }
+  }
+}

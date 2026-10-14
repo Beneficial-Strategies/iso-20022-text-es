@@ -1,0 +1,26 @@
+{
+  "isoType": "BalanceAmounts4",
+  "definition": "Importes vinculados a un saldo de valores, por ejemplo, el valor de la tenencia.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Valor de una tenencia individual de un instrumento financiero dentro de una cuenta de custodia."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Valor anterior de una tenencia individual de un instrumento financiero dentro de una cuenta de custodia."
+    },
+    "BookValue": {
+      "definition": "Valor de un instrumento financiero, tal como se contabilizó o adquirió en una cuenta. Puede utilizarse para establecer la obligación tributaria por ganancias de capital."
+    },
+    "EligibleCollateralValue": {
+      "definition": "Valor de la posición admisible a efectos de garantía."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Importe de interés devengado entre los períodos de pago de cupón."
+    }
+  },
+  "isoRules": {
+    "EligibleCollateralValueRule": {
+      "definition": "EligibleCollateralValue solo debe utilizarse en la comunicación (I)CSD-participante o si así lo acuerdan bilateralmente el remitente y el receptor."
+    }
+  }
+}

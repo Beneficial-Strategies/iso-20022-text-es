@@ -1,0 +1,22 @@
+{
+  "isoType": "ResponseStatus1Code",
+  "definition": "Especifica el estado del mensaje de garantía recibido (reclamación de garantía, propuesta de garantía o propuesta/solicitud de sustitución de garantía) desde la perspectiva de la gestión de garantías.",
+  "isoCodes": {
+    "ACCP": {
+      "name": "Aceptado parcialmente",
+      "definition": "Una parte de la garantía es aceptada y otra parte rechazada."
+    },
+    "ACCT": {
+      "name": "Aceptado",
+      "definition": "La reclamación, sustitución o propuesta es aceptada íntegramente."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "La reclamación, sustitución o propuesta es rechazada íntegramente."
+    },
+    "SUBR": {
+      "name": "Sustitución aceptada",
+      "definition": "La parte A está de acuerdo con la parte de devolución de la sustitución y acepta esperar la propuesta de la nueva garantía."
+    }
+  }
+}

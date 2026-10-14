@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeBasis2Choice",
+  "definition": "Elección de formatos para la base del gasto o de la comisión.",
+  "isoElements": {
+    "Code": {
+      "definition": "Base de la comisión (gasto/comisión) expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Base de la comisión (gasto/comisión) expresada como código propietario."
+    }
+  }
+}

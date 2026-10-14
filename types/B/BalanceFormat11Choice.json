@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceFormat11Choice",
+  "definition": "Elección entre los formatos de saldo, saldo admisible y saldo no admisible.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Proporciona información sobre el saldo relacionado con una operación societaria."
+    },
+    "EligibleBalance": {
+      "definition": "Proporciona información sobre el saldo admisible en distintos formatos."
+    },
+    "NotEligibleBalance": {
+      "definition": "Proporciona información sobre el saldo no admisible en distintos formatos."
+    }
+  }
+}

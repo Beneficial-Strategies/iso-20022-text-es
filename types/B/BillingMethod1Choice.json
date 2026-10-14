@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingMethod1Choice",
+  "definition": "Elección entre los métodos A, B o D de cálculo de impuestos.",
+  "isoElements": {
+    "MethodA": {
+      "definition": "Los valores de los impuestos se basan en el método A de cálculo de impuestos."
+    },
+    "MethodB": {
+      "definition": "Los valores de los impuestos se basan en el método B de cálculo de impuestos."
+    },
+    "MethodD": {
+      "definition": "Los valores de los impuestos se basan en el método D de cálculo de impuestos."
+    }
+  }
+}

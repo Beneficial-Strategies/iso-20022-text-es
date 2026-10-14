@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMCassetteCounters6",
+  "definition": "Contador de cartucho del cajero automático (ATM) por valor unitario o de forma global.",
+  "isoElements": {
+    "UnitValue": {
+      "definition": "Importe de una unidad de soporte, si el tipo de soporte tiene valor."
+    },
+    "Currency": {
+      "definition": "Divisa del soporte, si el tipo de soporte tiene valor y es distinta de la divisa del importe solicitado."
+    },
+    "MediaCategory": {
+      "definition": "Categoría de los elementos de soporte."
+    },
+    "InitialCount": {
+      "definition": "Número de elementos de soporte en el cartucho tras la última reposición."
+    },
+    "CurrentNumber": {
+      "definition": "Número actual de soportes presentes en el cartucho."
+    },
+    "CurrentAmount": {
+      "definition": "Importe actual en el cartucho."
+    },
+    "FlowTotals": {
+      "definition": "Contadores de los soportes contenidos en el cartucho."
+    }
+  }
+}

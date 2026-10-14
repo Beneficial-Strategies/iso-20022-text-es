@@ -1,0 +1,21 @@
+{
+  "isoType": "Frequency2",
+  "definition": "Detalles que especifican la frecuencia, el patrón y otros elementos para permitir la comunicación de una serie de pagos que se realizarán al mismo destinatario durante un período de tiempo.",
+  "isoElements": {
+    "Sequence": {
+      "definition": "Identificador técnico de una transferencia dentro de una serie de transferencias en una única instrucción de pago. Facilita la transferencia de calendarios de pagos futuros variables y complejos, asociados a un único acto de consentimiento del cliente, dentro de una única instrucción de pago."
+    },
+    "StartDate": {
+      "definition": "Fecha del primer pago que se realizará en este calendario de pagos."
+    },
+    "EndPointChoice": {
+      "definition": "Información sobre cuándo finalizará el acuerdo de pago."
+    },
+    "RequestedFrequencyPattern": {
+      "definition": "Patrón de frecuencia del calendario de pagos que indica con qué frecuencia se realiza un pago."
+    },
+    "NonWorkingDayAdjustment": {
+      "definition": "Indicador de ajuste para un día no laborable que permite efectuar el pago el siguiente día laborable."
+    }
+  }
+}

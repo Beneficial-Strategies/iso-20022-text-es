@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDate17Choice",
+  "definition": "Elección del formato de la fecha de liquidación.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha en formato ISO."
+    },
+    "DateCode": {
+      "definition": "Fecha y hora en que los valores se han de entregar o recibir."
+    }
+  }
+}

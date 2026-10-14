@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationProcessingStatus2",
+  "definition": "Proporciona información sobre el estado de procesamiento de una solicitud de cancelación de notificación.",
+  "isoElements": {
+    "Status": {
+      "definition": "El estado de procesamiento."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "EventFrequency9Code",
+  "definition": "Especifica la periodicidad de un evento.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Anual",
+      "definition": "El evento tiene lugar cada año o una vez al año."
+    },
+    "SEMI": {
+      "name": "Semestral",
+      "definition": "El evento tiene lugar cada seis meses o dos veces al año."
+    },
+    "QUTR": {
+      "name": "Trimestral",
+      "definition": "El evento tiene lugar cada tres meses o cuatro veces al año."
+    },
+    "TOMN": {
+      "name": "Cada dos meses",
+      "definition": "El evento tiene lugar cada dos meses."
+    },
+    "MNTH": {
+      "name": "Mensual",
+      "definition": "El evento tiene lugar cada mes o una vez al mes."
+    },
+    "TWMN": {
+      "name": "Dos veces al mes",
+      "definition": "El evento tiene lugar dos veces al mes."
+    },
+    "TOWK": {
+      "name": "Cada dos semanas",
+      "definition": "El evento tiene lugar cada dos semanas."
+    },
+    "WEEK": {
+      "name": "Semanal",
+      "definition": "El evento tiene lugar una vez por semana."
+    },
+    "DAIL": {
+      "name": "Diario",
+      "definition": "El evento tiene lugar cada día."
+    },
+    "ADHO": {
+      "name": "Ad hoc",
+      "definition": "El evento tiene lugar según sea necesario."
+    },
+    "INDA": {
+      "name": "Intradía",
+      "definition": "El evento tiene lugar varias veces al día."
+    },
+    "OVNG": {
+      "name": "Overnight",
+      "definition": "El evento tiene lugar durante la noche."
+    },
+    "ONDE": {
+      "name": "A petición",
+      "definition": "El evento tiene lugar a petición."
+    },
+    "NONE": {
+      "name": "Ninguno",
+      "definition": "El evento no tiene lugar."
+    }
+  }
+}

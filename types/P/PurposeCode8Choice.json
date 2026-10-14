@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode8Choice",
+  "definition": "Elección entre un código y/o un esquema de fuente de datos para determinar el tipo de cuenta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Finalidad de la cuenta de valores como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Finalidad de la cuenta de valores como código propietario."
+    }
+  }
+}

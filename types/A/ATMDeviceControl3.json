@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMDeviceControl3",
+  "definition": "Información relativa al control de un dispositivo del cajero automático (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno de la operación."
+    },
+    "Command": {
+      "definition": "Comando de mantenimiento que debe ejecutar el cajero automático (ATM)."
+    }
+  }
+}

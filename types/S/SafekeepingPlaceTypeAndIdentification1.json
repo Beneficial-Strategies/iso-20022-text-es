@@ -1,0 +1,12 @@
+{
+  "isoType": "SafekeepingPlaceTypeAndIdentification1",
+  "definition": "Identificación del tipo de lugar de custodia expresada como un código y un BIC.",
+  "isoElements": {
+    "SafekeepingPlaceType": {
+      "definition": "Lugar de custodia como código."
+    },
+    "Identification": {
+      "definition": "Lugar de custodia."
+    }
+  }
+}

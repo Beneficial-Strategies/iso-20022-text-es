@@ -1,0 +1,54 @@
+{
+  "isoType": "AccountStatement15",
+  "definition": "Proporciona detalles adicionales del extracto de cuenta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única, asignada por la entidad que administra la cuenta, para identificar inequívocamente el extracto de cuenta."
+    },
+    "StatementPagination": {
+      "definition": "Proporciona detalles sobre el número de página del extracto.||Uso: la paginación del extracto solo se permite cuando así lo acuerdan las partes."
+    },
+    "ElectronicSequenceNumber": {
+      "definition": "Número secuencial del extracto, asignado por la entidad que administra la cuenta.|Uso: el número secuencial se incrementa de forma progresiva con cada extracto enviado por vía electrónica."
+    },
+    "ReportingSequence": {
+      "definition": "Especifica el rango de números de secuencia de identificación, tal como se indicó en la solicitud."
+    },
+    "LegalSequenceNumber": {
+      "definition": "Número secuencial legal del extracto, asignado por la entidad que administra la cuenta. Se incrementa de forma progresiva con cada extracto enviado.||Uso: cuando un extracto en papel es un requisito legal, puede tener un número distinto del número secuencial electrónico. Los extractos en papel podrían enviarse, por ejemplo, solo si ha habido movimientos en la cuenta, mientras que los extractos electrónicos podrían enviarse al final de cada período de información, haya habido o no movimientos."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el extracto."
+    },
+    "FromToDate": {
+      "definition": "Período comprendido entre una fecha de inicio y una fecha de fin para el que se emite el extracto de cuenta."
+    },
+    "CopyDuplicateIndicator": {
+      "definition": "Indica si el documento es una copia, un duplicado o un duplicado de una copia."
+    },
+    "ReportingSource": {
+      "definition": "Especifica la aplicación utilizada para generar la información."
+    },
+    "Account": {
+      "definition": "Identificación inequívoca de la cuenta en la que se realizan los apuntes de crédito y de débito."
+    },
+    "RelatedAccount": {
+      "definition": "Identifica la cuenta principal de la cuenta para la que se ha emitido el extracto."
+    },
+    "Interest": {
+      "definition": "Proporciona información general sobre los intereses que se aplican a la cuenta en un momento determinado."
+    },
+    "Balance": {
+      "definition": "Conjunto de elementos utilizados para definir el saldo como representación numérica de los aumentos y disminuciones netos de una cuenta en un momento determinado."
+    },
+    "TransactionsSummary": {
+      "definition": "Proporciona información resumida sobre los apuntes."
+    },
+    "Entry": {
+      "definition": "Especifica un apunte del extracto.|Uso: debe facilitarse al menos una referencia para identificar el apunte y su(s) operación(es) subyacente(s).|||Regla de uso: en el caso de una operación R de pagos, el beneficiario/ordenante al que se hace referencia en los mensajes originales de iniciación de pago también se utiliza para la notificación de la operación R. El ordenante/beneficiario original en la notificación de operaciones R no se invierte. |Esta regla de uso afecta a los siguientes elementos, todos ellos definidos en TransactionDetails en RelatedParties o RelatedAgents:|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount y DebtorAgent."
+    },
+    "AdditionalStatementInformation": {
+      "definition": "Detalles adicionales del extracto de cuenta."
+    }
+  }
+}

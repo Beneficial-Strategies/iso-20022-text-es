@@ -1,0 +1,12 @@
+{
+  "isoType": "PersonIdentificationType3Choice",
+  "definition": "Especifica el tipo de identificación de una persona.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identificación de la persona expresada como un código."
+    },
+    "Proprietary": {
+      "definition": "Identificación de la persona expresada como un código propietario."
+    }
+  }
+}

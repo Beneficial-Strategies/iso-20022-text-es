@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndDateTimeSearch5Choice",
+  "definition": "Elección entre un formato de fecha o de fecha y hora.",
+  "isoElements": {
+    "Date": {
+      "definition": "Fecha especificada."
+    },
+    "DateTime": {
+      "definition": "Fecha y hora especificadas."
+    }
+  }
+}

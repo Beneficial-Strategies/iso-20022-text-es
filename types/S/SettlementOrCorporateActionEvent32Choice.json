@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementOrCorporateActionEvent32Choice",
+  "definition": "Elección entre tipo de operación, evento societario y operación de liquidación.",
+  "isoElements": {
+    "SecuritiesTransactionType": {
+      "definition": "Identifica el tipo de operación con valores."
+    },
+    "CorporateActionEventType": {
+      "definition": "Especifica el tipo de evento societario."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountModification1",
+  "definition": "Especifica el tipo de cambio en un importe.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica el tipo de cambio."
+    },
+    "Amount": {
+      "definition": "Importe."
+    }
+  }
+}

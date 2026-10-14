@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat17Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo del proceso de negocio adicional.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el proceso de negocio adicional vinculado a un evento de acción corporativa."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del proceso de negocio adicional vinculado a un evento de acción corporativa."
+    }
+  }
+}

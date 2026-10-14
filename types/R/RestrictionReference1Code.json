@@ -1,0 +1,22 @@
+{
+  "isoType": "RestrictionReference1Code",
+  "definition": "Especifica las referencias de restricción que deben aplicarse a una operación.",
+  "isoCodes": {
+    "ADDC": {
+      "name": "Añadir referencia de restricción de efectivo",
+      "definition": "Adición de una referencia de restricción de efectivo que representa un subsaldo de efectivo que se utilizará en la instrucción de liquidación para el adeudo o el abono de efectivo."
+    },
+    "ADDS": {
+      "name": "Añadir referencia de restricción de valores",
+      "definition": "Adición de una referencia de restricción de valores que representa una subposición de valores que se utilizará en la instrucción de liquidación para la entrega o la recepción de valores."
+    },
+    "REMC": {
+      "name": "Eliminar referencia de restricción de efectivo",
+      "definition": "Eliminación de una referencia de restricción de efectivo, ya presente en la instrucción de liquidación, que representa un subsaldo de efectivo que se utilizará en la instrucción de liquidación para el adeudo o el abono de efectivo."
+    },
+    "REMS": {
+      "name": "Eliminar referencia de restricción de valores",
+      "definition": "Eliminación de una referencia de restricción de valores, ya presente en la instrucción de liquidación, que representa una subposición de valores que se utilizará en la instrucción de liquidación para la entrega o la recepción de valores."
+    }
+  }
+}

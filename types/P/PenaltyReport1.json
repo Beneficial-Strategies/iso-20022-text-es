@@ -1,0 +1,32 @@
+{
+  "isoType": "PenaltyReport1",
+  "definition": "Especifica los detalles del informe de penalizaciones.",
+  "isoElements": {
+    "ReportIdentification": {
+      "definition": "Referencia común a todas las páginas de un informe."
+    },
+    "ReportDate": {
+      "definition": "Fecha del informe."
+    },
+    "ReportPeriod": {
+      "definition": "Período del informe."
+    },
+    "Frequency": {
+      "definition": "Frecuencia del extracto."
+    },
+    "PenaltyListType": {
+      "definition": "Especifica si la lista de penalizaciones notificada contiene penalizaciones recién calculadas o penalizaciones actualizadas o eliminadas."
+    },
+    "UpdateType": {
+      "definition": "Indica si el extracto está completo o contiene solo cambios."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si el informe notifica actividad o una actualización de información."
+    }
+  },
+  "isoRules": {
+    "ReportDatePeriodPresenceRule": {
+      "definition": "Debe estar presente al menos una ocurrencia de ReportDate o ReportPeriod."
+    }
+  }
+}

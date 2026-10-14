@@ -1,0 +1,74 @@
+{
+  "isoType": "KeyUsage1Code",
+  "definition": "Usos permitidos de la clave.",
+  "isoCodes": {
+    "ENCR": {
+      "name": "Cifrado",
+      "definition": "La clave puede cifrar."
+    },
+    "DCPT": {
+      "name": "Descifrado",
+      "definition": "La clave puede descifrar."
+    },
+    "DENC": {
+      "name": "Cifrado de datos",
+      "definition": "La clave puede cifrar datos."
+    },
+    "DDEC": {
+      "name": "Descifrado de datos",
+      "definition": "La clave puede descifrar datos."
+    },
+    "TRNI": {
+      "name": "Traducción de entrada",
+      "definition": "La clave puede cifrar información antes de la traducción."
+    },
+    "TRNX": {
+      "name": "Traducción de salida",
+      "definition": "La clave puede cifrar información después de la traducción."
+    },
+    "MACG": {
+      "name": "Generación de código de autenticación de mensajes",
+      "definition": "La clave puede generar códigos de autenticación de mensajes (MAC)."
+    },
+    "MACV": {
+      "name": "Verificación de código de autenticación de mensajes",
+      "definition": "La clave puede verificar códigos de autenticación de mensajes (MAC)."
+    },
+    "SIGG": {
+      "name": "Generación de firma",
+      "definition": "La clave puede generar firmas digitales."
+    },
+    "SUGV": {
+      "name": "Verificación de firma",
+      "definition": "La clave puede verificar firmas digitales."
+    },
+    "PINE": {
+      "name": "Cifrado de PIN",
+      "definition": "La clave puede cifrar números de identificación personal (PIN)."
+    },
+    "PIND": {
+      "name": "Descifrado de PIN",
+      "definition": "La clave puede descifrar números de identificación personal (PIN)."
+    },
+    "PINV": {
+      "name": "Verificación de PIN",
+      "definition": "La clave puede verificar números de identificación personal (PIN)."
+    },
+    "KEYG": {
+      "name": "Generación de claves",
+      "definition": "La clave puede generar claves."
+    },
+    "KEYI": {
+      "name": "Importación de claves",
+      "definition": "La clave puede importar claves."
+    },
+    "KEYX": {
+      "name": "Exportación de claves",
+      "definition": "La clave puede exportar claves."
+    },
+    "KEYD": {
+      "name": "Derivación de claves",
+      "definition": "La clave puede derivar claves."
+    }
+  }
+}

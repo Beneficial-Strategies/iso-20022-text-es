@@ -1,0 +1,26 @@
+{
+  "isoType": "AgentRole2Code",
+  "definition": "Especifica el rol de la entidad.",
+  "isoCodes": {
+    "SPAY": {
+      "name": "Agente de pagos del sistema",
+      "definition": "El agente de pago del sistema (SPA) es la parte dentro del CSD responsable de la distribución a otras partes del CSD del efectivo y de los valores correspondientes a una distribución específica."
+    },
+    "CODO": {
+      "name": "Codomicilio",
+      "definition": "Subagente designado para ejecutar el pago del evento de la operación societaria en nombre de la sociedad emisora o del oferente."
+    },
+    "ISAG": {
+      "name": "Agente del emisor",
+      "definition": "Parte designada para administrar el evento en nombre de la sociedad emisora u oferente. Puede contactarse con la parte para obtener más información sobre el evento."
+    },
+    "REGR": {
+      "name": "Registrador",
+      "definition": "Parte o agente responsable de mantener el registro de un valor."
+    },
+    "PAYA": {
+      "name": "Entidad pagadora",
+      "definition": "Entidad (agente pagador principal o fiscal) designada para ejecutar el pago del evento de acción corporativa en nombre de la sociedad emisora u oferente."
+    }
+  }
+}

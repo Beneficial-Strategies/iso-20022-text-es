@@ -1,0 +1,22 @@
+{
+  "isoType": "PenaltyCalculationMethod1Code",
+  "definition": "Especifica el método de cálculo de la penalización.",
+  "isoCodes": {
+    "BOTH": {
+      "name": "Ambos",
+      "definition": "Suma de la penalización basada en la cantidad de valores|no entregados y la tasa de penalización de los valores, y de la penalización basada en el importe de efectivo no entregado y la tasa de descuento de la divisa."
+    },
+    "CASH": {
+      "name": "Efectivo",
+      "definition": "La penalización se basa en el importe de efectivo no entregado y la tasa de penalización es la tasa de descuento de la divisa correspondiente."
+    },
+    "MIXE": {
+      "name": "Mixto",
+      "definition": "La penalización se basa en la cantidad de valores no entregados y la tasa de penalización es la tasa de descuento de la divisa correspondiente."
+    },
+    "SECU": {
+      "name": "Valores",
+      "definition": "La penalización se basa en la cantidad de valores no entregados y en la tasa de penalización de los valores."
+    }
+  }
+}

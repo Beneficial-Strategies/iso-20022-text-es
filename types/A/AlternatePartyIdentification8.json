@@ -1,0 +1,15 @@
+{
+  "isoType": "AlternatePartyIdentification8",
+  "definition": "Identificación alternativa de una parte mediante un tipo de identificación, un código de país y un campo de texto.",
+  "isoElements": {
+    "IdentificationType": {
+      "definition": "Especifica el tipo de identificación alternativa de la parte identificada."
+    },
+    "Country": {
+      "definition": "Nación con gobierno propio que ocupa un territorio determinado."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificación alternativa de una parte."
+    }
+  }
+}

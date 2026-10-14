@@ -1,0 +1,24 @@
+{
+  "isoType": "TaxEfficientProduct6",
+  "definition": "Características de un producto con ventajas fiscales.",
+  "isoElements": {
+    "TaxEfficientProductType": {
+      "definition": "Tipo de producto con ventajas fiscales, por ejemplo, una cuenta de ahorro individual (ISA) en el UK."
+    },
+    "CurrentYear": {
+      "definition": "Indica que deben incluirse todos los productos del ejercicio fiscal en curso."
+    },
+    "CashComponentIndicator": {
+      "definition": "Indica si el producto contiene un activo en efectivo para su transferencia."
+    },
+    "PreviousYears": {
+      "definition": "Planes de inversión emitidos en años anteriores."
+    },
+    "CurrentYearSubscriptionDetails": {
+      "definition": "Importes ya suscritos en el año en curso."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el producto con ventajas fiscales."
+    }
+  }
+}

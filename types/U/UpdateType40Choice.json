@@ -1,0 +1,15 @@
+{
+  "isoType": "UpdateType40Choice",
+  "definition": "Especifica el tipo de actualización solicitada, es decir, adición, supresión o modificación.",
+  "isoElements": {
+    "Addition": {
+      "definition": "Adición de información a la operación de valores."
+    },
+    "Deletion": {
+      "definition": "Supresión de información de la operación de valores."
+    },
+    "Modification": {
+      "definition": "Modificación de información de la operación de valores."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestStatus1Choice",
+  "definition": "Especifica el estado de una solicitud.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado de la solicitud, tal como se publica en un conjunto de códigos externo de estados de solicitud."
+    },
+    "Proprietary": {
+      "definition": "Estado de la solicitud, en formato propietario."
+    }
+  }
+}

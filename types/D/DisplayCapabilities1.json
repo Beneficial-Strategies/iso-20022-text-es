@@ -1,0 +1,15 @@
+{
+  "isoType": "DisplayCapabilities1",
+  "definition": "Capacidades de los componentes de pantalla con los que se realiza la operación.",
+  "isoElements": {
+    "DisplayType": {
+      "definition": "Tipo de pantalla (por ejemplo, del comercio o del titular de la tarjeta)."
+    },
+    "NumberOfLines": {
+      "definition": "Número de líneas del componente de pantalla."
+    },
+    "LineWidth": {
+      "definition": "Número de columnas del componente de pantalla."
+    }
+  }
+}

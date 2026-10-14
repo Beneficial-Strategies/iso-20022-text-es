@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionStatementReportingType1Code",
+  "definition": "Tipo de extracto que informa sobre las posiciones de cuenta para eventos de operaciones societarias, por ejemplo, informando sobre varias cuentas o varios eventos.",
+  "isoCodes": {
+    "MASE": {
+      "name": "Varias cuentas",
+      "definition": "El informe corresponde a un único evento y a varias cuentas."
+    },
+    "SAME": {
+      "name": "Varios eventos",
+      "definition": "El informe corresponde a varios eventos para una única cuenta."
+    }
+  }
+}

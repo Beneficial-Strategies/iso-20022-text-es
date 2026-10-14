@@ -1,0 +1,27 @@
+{
+  "isoType": "Pension6",
+  "definition": "Atributos de una pensión.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la póliza, el plan o el esquema de pensiones."
+    },
+    "Type": {
+      "definition": "Tipo de póliza, plan o esquema de pensiones."
+    },
+    "TransferScope": {
+      "definition": "Alcance de la transferencia de la póliza, plan o esquema de pensiones."
+    },
+    "TaxReference": {
+      "definition": "Referencia fiscal asignada a la póliza, plan o esquema de pensiones por un organismo central."
+    },
+    "DrawdownTrancheIdentification": {
+      "definition": "Referencia de la disposición."
+    },
+    "NonWrapperTransfer": {
+      "definition": "Indica que la transferencia se refiere únicamente a los activos subyacentes y que la transferencia del envoltorio se realizará por separado."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre la póliza, el plan o el esquema de pensiones."
+    }
+  }
+}

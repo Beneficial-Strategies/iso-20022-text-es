@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentStatusCode6Choice",
+  "definition": "Elección entre una lista de estados pendientes o de estados finales.",
+  "isoElements": {
+    "Pending": {
+      "definition": "Califica con mayor detalle el estado pendiente."
+    },
+    "Final": {
+      "definition": "Califica con mayor detalle el estado final."
+    },
+    "RTGS": {
+      "definition": "Califica con mayor detalle el estado RTGS."
+    },
+    "Settlement": {
+      "definition": "Califica con mayor detalle el estado de liquidación."
+    },
+    "Proprietary": {
+      "definition": "Califica con mayor detalle el estado propietario."
+    }
+  }
+}

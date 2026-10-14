@@ -1,0 +1,12 @@
+{
+  "isoType": "WaivingInstruction2Choice",
+  "definition": "Elección de formatos para la instrucción de renuncia.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de descuento o renuncia expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de descuento o renuncia expresado como código propietario."
+    }
+  }
+}

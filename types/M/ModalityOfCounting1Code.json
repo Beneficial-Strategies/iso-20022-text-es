@@ -1,0 +1,22 @@
+{
+  "isoType": "ModalityOfCounting1Code",
+  "definition": "Especifica la modalidad mediante la cual se han registrado y contabilizado los votos.",
+  "isoCodes": {
+    "EVAM": {
+      "name": "Electrónico en la junta",
+      "definition": "Voto electrónico registrado y contabilizado en la junta."
+    },
+    "EVBM": {
+      "name": "Electrónico antes de la junta",
+      "definition": "Voto electrónico registrado y contabilizado antes de la junta."
+    },
+    "PVBM": {
+      "name": "En papel antes de la junta",
+      "definition": "Voto en papel registrado y contabilizado antes de la junta."
+    },
+    "PVAM": {
+      "name": "Presencial en la junta",
+      "definition": "Asistencia presencial con voto en la junta."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MissingData1Choice",
+  "definition": "Especifica el elemento de datos que falta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de dato que falta, en forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de dato que falta, en forma propietaria."
+    }
+  }
+}

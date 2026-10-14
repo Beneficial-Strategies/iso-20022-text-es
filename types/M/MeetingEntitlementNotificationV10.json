@@ -1,0 +1,17 @@
+{
+  "isoType": "MeetingEntitlementNotificationV10",
+  "definition": "Ámbito|El mensaje MeetingEntitlementNotification lo envía un administrador de cuenta al titular de la cuenta para comunicarle el derecho en relación con una junta.|Uso|Este mensaje se envía para comunicar la cantidad de valores que posee un titular de cuenta. El saldo se especifica para los valores respecto de los cuales se celebra la junta. El mensaje también se utiliza para modificar un MeetingEntitlementNotification enviado previamente. |El mensaje MeetingEntitlementNotification puede enviarse antes de recibir una instrucción de voto, para confirmar el derecho; o después de haber recibido una instrucción de voto, para confirmar los datos de la persona que asiste a la junta. |El mensaje también puede utilizarse en lugar de una tarjeta de asistencia o para confirmar derechos en el caso de acciones al portador.|Esta definición de mensaje está prevista para su uso con la Business Application Header (BAH).",
+  "isoElements": {
+    "NotificationType": {
+      "definition": "Tipo de notificación."
+    },
+    "PreviousEntitlementNotificationIdentification": {
+      "definition": "Identificación del mensaje original de derecho de la notificación de junta que se modifica."
+    }
+  },
+  "isoRules": {
+    "PreviousEntitlementNotificationIdentificationRule": {
+      "definition": "Si NotificationType es REPL (Replacement), entonces PreviousEntitlementNotificationIdentification debe estar presente."
+    }
+  }
+}

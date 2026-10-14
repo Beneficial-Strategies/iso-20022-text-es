@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberAndSumOfTransactions1",
+  "definition": "Conjunto de elementos que proporcionan la suma total de los apuntes.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Número de apuntes individuales incluidos en el informe."
+    },
+    "Sum": {
+      "definition": "Total de todos los apuntes individuales incluidos en el informe."
+    }
+  }
+}

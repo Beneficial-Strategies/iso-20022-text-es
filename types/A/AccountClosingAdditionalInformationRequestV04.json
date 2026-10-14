@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountClosingAdditionalInformationRequestV04",
+  "definition": "El mensaje AccountClosingAdditionalInformationRequest lo envía una entidad financiera a una organización como parte del proceso de cierre de cuenta. Este mensaje se envía en respuesta a un mensaje de solicitud de cierre de la organización, si el contenido comercial es válido pero se requiere información adicional."
+}

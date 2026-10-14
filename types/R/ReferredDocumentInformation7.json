@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredDocumentInformation7",
+  "definition": "Conjunto de elementos utilizados para identificar los documentos a los que se hace referencia en la información de remesa.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de documento referenciado."
+    },
+    "Number": {
+      "definition": "Identificación única e inequívoca del documento referenciado."
+    },
+    "RelatedDate": {
+      "definition": "Fecha asociada al documento referenciado."
+    },
+    "LineDetails": {
+      "definition": "Conjunto de elementos utilizados para proporcionar el contenido de la línea del documento referenciado."
+    }
+  }
+}

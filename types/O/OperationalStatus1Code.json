@@ -1,0 +1,14 @@
+{
+  "isoType": "OperationalStatus1Code",
+  "definition": "Especifica el estado operativo.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Habilitado",
+      "definition": "Habilitado."
+    },
+    "SPEC": {
+      "name": "Circunstancias especiales",
+      "definition": "Circunstancias especiales."
+    }
+  }
+}

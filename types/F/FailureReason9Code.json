@@ -1,0 +1,130 @@
+{
+  "isoType": "FailureReason9Code",
+  "definition": "Incidencia ocurrida durante el procesamiento de una operación de cajero automático (ATM).",
+  "isoCodes": {
+    "CDCP": {
+      "name": "Tarjeta capturada",
+      "definition": "El gestor del cajero automático (ATM) ha solicitado retener la tarjeta."
+    },
+    "CDCL": {
+      "name": "Tarjeta rechazada",
+      "definition": "La tarjeta de circuito integrado rechaza la operación antes o después de la autorización."
+    },
+    "CDER": {
+      "name": "Error de tarjeta",
+      "definition": "No es posible completar la operación con la tarjeta."
+    },
+    "CUCL": {
+      "name": "Cancelación del cliente",
+      "definition": "Cancelación por parte del cliente, por ejemplo, retirando la tarjeta antes del final de la operación."
+    },
+    "CUDC": {
+      "name": "Rechazo del cliente",
+      "definition": "El cliente ha rechazado comisiones adicionales o un importe inferior, y la operación falla."
+    },
+    "CDFG": {
+      "name": "Tarjeta olvidada",
+      "definition": "El cliente ha dejado la tarjeta en el cajero automático (ATM) o en un lector de tarjetas motorizado."
+    },
+    "FILL": {
+      "name": "Error de cumplimiento",
+      "definition": "No es posible cumplir la operación, por ejemplo, dispensar el efectivo."
+    },
+    "MALF": {
+      "name": "Mal funcionamiento",
+      "definition": "Sospecha de mal funcionamiento."
+    },
+    "NDCL": {
+      "name": "Denegada en línea",
+      "definition": "La autorización en línea ha denegado la operación."
+    },
+    "SECU": {
+      "name": "Error de seguridad",
+      "definition": "Se ha producido un error de seguridad en el mensaje de respuesta de autorización enviado por el adquirente."
+    },
+    "SFRD": {
+      "name": "Sospecha de fraude",
+      "definition": "La operación de pago con tarjeta falla porque el comercio sospecha un fraude."
+    },
+    "TIMO": {
+      "name": "Tiempo de espera agotado",
+      "definition": "Tiempo de espera agotado mientras se esperaba la respuesta a un mensaje de solicitud, o no se recibió respuesta (por ejemplo, liberación de la conexión antes de recibir la respuesta)."
+    },
+    "LATE": {
+      "name": "Respuesta demasiado tardía",
+      "definition": "La respuesta al mensaje anterior se recibió demasiado tarde."
+    },
+    "UCPT": {
+      "name": "No se puede capturar",
+      "definition": "No es posible retener la tarjeta como se solicitó."
+    },
+    "UCMP": {
+      "name": "No se puede completar",
+      "definition": "No es posible completar la operación tras la respuesta de autorización."
+    },
+    "USND": {
+      "name": "No se puede enviar",
+      "definition": "No es posible entregar el mensaje de solicitud a la parte destinataria."
+    },
+    "CSRV": {
+      "name": "Fuera de servicio al cliente",
+      "definition": "El gestor del cajero automático (ATM) ha solicitado al cajero que detenga los servicios al cliente."
+    },
+    "CDRT": {
+      "name": "Tarjeta retenida",
+      "definition": "La tarjeta ha sido retenida por el cajero automático (ATM) o por el terminal."
+    },
+    "CUTO": {
+      "name": "Tiempo de espera del cliente agotado",
+      "definition": "El cliente no ha realizado una acción a tiempo."
+    },
+    "RJCT": {
+      "name": "Rechazo",
+      "definition": "El gestor del cajero automático (ATM) ha enviado un mensaje ATMReject en respuesta a una solicitud de autorización."
+    },
+    "FMTE": {
+      "name": "Error de formato",
+      "definition": "El gestor del cajero automático (ATM) ha enviado un mensaje de respuesta a una solicitud de autorización en el que algunos de los elementos obligatorios tenían un formato incorrecto (por ejemplo, un valor entero donde se esperaba un valor dateTime)."
+    },
+    "VLTE": {
+      "name": "Error de validación",
+      "definition": "El gestor del cajero automático (ATM) ha enviado un mensaje de respuesta a una solicitud de autorización en el que algunos de los elementos obligatorios no eran válidos (por ejemplo, un ExchangeIdentifier incorrecto)."
+    },
+    "CHFG": {
+      "name": "Retención del dispensador de efectivo",
+      "definition": "Tras una operación de dispensación de efectivo, el consumidor olvidó recoger los billetes, que posteriormente fueron retenidos tras agotarse el tiempo de espera de presentación. Se desconoce el número de billetes retenidos."
+    },
+    "DCFG": {
+      "name": "Retención de depósito de efectivo",
+      "definition": "Tras una devolución de efectivo en una operación de depósito, el consumidor olvidó recoger los billetes devueltos, por lo que fueron retenidos. Se desconoce el número de billetes retenidos."
+    },
+    "CQFG": {
+      "name": "Retención de depósito de cheques",
+      "definition": "Tras la devolución de cheques en una operación de depósito de cheques, el consumidor olvidó recoger los cheques devueltos, por lo que fueron retenidos. Se desconoce el número de cheques retenidos."
+    },
+    "DFGC": {
+      "name": "Retención de depósito de efectivo contada",
+      "definition": "Tras una devolución de efectivo en una operación de depósito, el consumidor olvidó recoger los billetes devueltos, por lo que fueron retenidos. Se conoce el número de billetes retenidos, ya que el dispositivo pudo contarlos."
+    },
+    "CFGC": {
+      "name": "Retención del dispensador de efectivo contada",
+      "definition": "Tras una operación de dispensación de efectivo, el consumidor olvidó recoger los billetes devueltos, que posteriormente fueron retenidos tras agotarse el tiempo de espera de presentación. Se conoce el número de billetes retenidos, ya que el dispositivo pudo contarlos."
+    },
+    "QFGC": {
+      "name": "Retención de depósito de cheques contada",
+      "definition": "Tras la devolución de cheques en una operación de depósito de cheques, el consumidor olvidó recoger los cheques devueltos, por lo que fueron retenidos. Se conoce el número de cheques retenidos, ya que el dispositivo pudo contarlos."
+    },
+    "CQRT": {
+      "name": "Cheques retenidos",
+      "definition": "El terminal ha retenido los cheques al no poder devolverlos."
+    },
+    "DCRT": {
+      "name": "Depósitos retenidos",
+      "definition": "El terminal ha retenido el efectivo al no poder devolverlo."
+    },
+    "RSTR": {
+      "name": "Reinicio",
+      "definition": "El cajero automático (ATM) se ha reiniciado."
+    }
+  }
+}

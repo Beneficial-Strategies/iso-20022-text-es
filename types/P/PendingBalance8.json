@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingBalance8",
+  "definition": "Proporciona información sobre el saldo pendiente y las operaciones pendientes.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Cantidad del saldo con signo."
+    },
+    "PendingTransactions": {
+      "definition": "Proceso global que abarca las operaciones de negociación y liquidación de instrumentos financieros."
+    }
+  }
+}

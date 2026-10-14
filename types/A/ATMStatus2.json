@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMStatus2",
+  "definition": "Estado global del cajero automático (ATM).",
+  "isoElements": {
+    "CurrentStatus": {
+      "definition": "Estado actual del cajero automático (ATM)."
+    },
+    "CurrentStatusReason": {
+      "definition": "Descripción de la causa del estado del cajero automático (ATM). Normalmente se informaría con un valor cuando CurrentStatus es OutOfService (OUTS)."
+    },
+    "DemandedStatus": {
+      "definition": "Presente si el estado requerido por el gestor del cajero automático (ATM) es distinto del estado actual."
+    }
+  }
+}

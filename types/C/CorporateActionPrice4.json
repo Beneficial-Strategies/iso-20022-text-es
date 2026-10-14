@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionPrice4",
+  "definition": "Especifica precios.",
+  "isoElements": {
+    "IndicativePrice": {
+      "definition": "Precio estimado, p. ej., a efectos de valoración."
+    },
+    "MarketPrice": {
+      "definition": "Último precio comunicado o conocido de un instrumento financiero en un mercado."
+    }
+  }
+}

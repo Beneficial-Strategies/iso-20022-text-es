@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1Choice",
+  "definition": "Elección entre el indicador de tenencia y la posición agregada de las tenencias.",
+  "isoElements": {
+    "HoldingsIndicator": {
+      "definition": "Indica si hay tenencias."
+    },
+    "HoldingBalance": {
+      "definition": "Saldo de las tenencias."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "CustodyStatementOfHoldings2",
+  "definition": "Información sobre un extracto de posiciones de custodia.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "definition": "Información general relacionada con el extracto de posiciones de custodia que se está cancelando."
+    },
+    "AccountDetails": {
+      "definition": "Cuenta de valores o de inversión del extracto que se está cancelando."
+    },
+    "BalanceForAccount": {
+      "definition": "Posición neta de una tenencia segregada, en un único valor, dentro de la posición global mantenida en una cuenta de valores."
+    },
+    "SubAccountDetails": {
+      "definition": "Subcuenta de la cuenta de valores o de inversión."
+    },
+    "TotalValues": {
+      "definition": "Valor del total de posiciones comunicadas."
+    },
+    "Extension": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator es \"true\" o \"1\" (Sí), BalanceForAccount o SubAccountDetails es obligatorio. Si StatementGeneralDetails/ActivityIndicator es \"false\" o \"0\" (No), BalanceForAccount y SubAccountDetails pueden estar presentes."
+    }
+  }
+}

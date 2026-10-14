@@ -1,0 +1,34 @@
+{
+  "isoType": "OfferType7Code",
+  "definition": "Especifica las condiciones aplicables a la oferta.",
+  "isoCodes": {
+    "DISS": {
+      "name": "Derechos de los socios disidentes",
+      "definition": "El titular de valores tiene derecho a discrepar de un evento obligatorio. Este derecho no es inherente a todas las ofertas y, por lo tanto, solo debe indicarse en los anuncios cuando sea aplicable."
+    },
+    "ERUN": {
+      "name": "Canje con restricción",
+      "definition": "Canje de restringido a no restringido (o viceversa)."
+    },
+    "FINL": {
+      "name": "Oferta final",
+      "definition": "Oferta final o última a los titulares, sujeta a que se alcancen las condiciones de la oferta, por ejemplo, la aceptación del 50 por ciento en una oferta de adquisición."
+    },
+    "PART": {
+      "name": "Oferta parcial",
+      "definition": "Oferta realizada por el oferente por una parte de las acciones en circulación que el oferente aún no posee."
+    },
+    "SQUE": {
+      "name": "Oferta de exclusión forzosa",
+      "definition": "Oferta lanzada por una sociedad que posee un gran número de las acciones (90% - 95%) de otra sociedad (generalmente como resultado de una oferta de adquisición), con el fin de adquirir las acciones restantes de esa sociedad."
+    },
+    "NDIS": {
+      "name": "Derechos de los socios disidentes no aplicables",
+      "definition": "Los derechos del accionista disidente no son aplicables a esta opción de la oferta."
+    },
+    "ACPR": {
+      "name": "Prioridad de aceptación",
+      "definition": "El evento se pagará con una prioridad concreta indicada en la documentación de la oferta. Los niveles superiores de valores se pagarán antes que los niveles inferiores."
+    }
+  }
+}

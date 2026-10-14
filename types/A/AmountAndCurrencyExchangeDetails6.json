@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountAndCurrencyExchangeDetails6",
+  "definition": "Conjunto de elementos utilizados para proporcionar información sobre el importe original y el cambio de divisas.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de importe."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que debe cambiarse por otro importe de dinero en la divisa de contrapartida."
+    },
+    "CurrencyExchange": {
+      "definition": "Conjunto de elementos utilizados para proporcionar información sobre el cambio de divisas."
+    }
+  }
+}

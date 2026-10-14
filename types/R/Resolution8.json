@@ -1,0 +1,56 @@
+{
+  "isoType": "Resolution8",
+  "definition": "Resoluciones del orden del día de una junta y tipo de resolución.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número de la resolución según lo especificado por el emisor o su agente."
+    },
+    "Description": {
+      "definition": "Idioma, título y descripción textual de una resolución del orden del día."
+    },
+    "ListingGroupResolutionLabel": {
+      "definition": "Identifica bajo la misma etiqueta un grupo de resoluciones del orden del día para las que solo se puede asignar un voto a favor a una resolución de dicho grupo."
+    },
+    "Type": {
+      "definition": "Tipo de resolución."
+    },
+    "ForInformationOnly": {
+      "definition": "Indica si la resolución figura a efectos informativos o para votación."
+    },
+    "VoteType": {
+      "definition": "Efecto de los resultados de la votación sobre una resolución del orden del día."
+    },
+    "Status": {
+      "definition": "Especifica si la resolución está activa o retirada."
+    },
+    "SubmittedBySecurityHolder": {
+      "definition": "Indica si la resolución ha sido presentada por el titular de valores."
+    },
+    "RightToWithdrawIndicator": {
+      "definition": "Indica si un cliente que no ha votado a favor de la resolución finalmente aprobada tiene derecho a separarse de un evento de operación societaria relacionado."
+    },
+    "VoteInstructionType": {
+      "definition": "Opciones de voto permitidas a nivel de resolución. Cuando se especifican, prevalecen sobre las opciones de voto indicadas para la junta."
+    },
+    "ManagementRecommendation": {
+      "definition": "Especifica cómo desea la dirección de la sociedad emisora que voten los titulares de valores."
+    },
+    "NotifyingPartyRecommendation": {
+      "definition": "Especifica cómo recomienda la parte notificante que voten los titulares de valores."
+    },
+    "Entitlement": {
+      "definition": "Número de votos asignados por resolución a un valor."
+    },
+    "VotingRightsThresholdForApproval": {
+      "definition": "Umbral de derechos de voto y base del umbral para que se apruebe una resolución de la junta."
+    },
+    "URLAddress": {
+      "definition": "Dirección que debe utilizarse en el servicio www (HTTP) donde puede encontrarse información adicional específica sobre las resoluciones de la junta."
+    }
+  },
+  "isoRules": {
+    "VotingRightsTresholdForApproval1Rule": {
+      "definition": "Si VotingRightThresholdForApproval está presente más de una vez, ThresholdBasis es obligatorio en cada ocurrencia de VotingRightThresholdForApproval y el valor del elemento ThresholdBasis/Code debe ser distinto en cada ocurrencia."
+    }
+  }
+}

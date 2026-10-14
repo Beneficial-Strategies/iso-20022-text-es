@@ -1,0 +1,14 @@
+{
+  "isoType": "Payment1Code",
+  "definition": "Especifica el tipo de pago.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Pago efectivo",
+      "definition": "El pago en efectivo se produce o se producirá a la recepción de los fondos del emisor."
+    },
+    "CONT": {
+      "name": "Pago contractual",
+      "definition": "El pago en efectivo se produce o se producirá antes de la recepción de los fondos del emisor y se basa en un acuerdo contractual establecido con el administrador de la cuenta."
+    }
+  }
+}

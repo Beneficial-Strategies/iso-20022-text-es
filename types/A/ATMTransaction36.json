@@ -1,0 +1,9 @@
+{
+  "isoType": "ATMTransaction36",
+  "definition": "Información sobre la solicitud de conciliación.",
+  "isoElements": {
+    "ReconciliationOperation": {
+      "definition": "Conjunto de operaciones de conciliación entre un dispositivo cajero automático (ATM) y un host de mantenimiento."
+    }
+  }
+}

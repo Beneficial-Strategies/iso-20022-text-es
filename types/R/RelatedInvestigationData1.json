@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedInvestigationData1",
+  "definition": "Proporciona información sobre datos relacionados con la investigación que se envían por separado del mensaje.",
+  "isoElements": {
+    "InvestigationIdentification": {
+      "definition": "Identificación única para identificar inequívocamente los datos o la documentación enviados por separado de la solicitud o la respuesta, como una copia de un pasaporte."
+    },
+    "Location": {
+      "definition": "Proporciona información sobre la ubicación o la entrega de los datos o la documentación de investigación relacionados."
+    }
+  }
+}

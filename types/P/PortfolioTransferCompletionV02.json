@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransferCompletionV02",
+  "definition": "Ámbito|El mensaje PortfolioTransferCompletion lo envía una parte ejecutora, por ejemplo, un (antiguo) gestor de planes (cedente), a la parte instructora, por ejemplo, un (nuevo) gestor de planes (cesionario), para confirmar que se ha completado la transferencia de instrumentos financieros de la cuenta del cliente en el antiguo gestor de planes (cedente) a la cuenta del cliente en el nuevo gestor de planes (cesionario).|Uso|El mensaje PortfolioTransferCompletion se utiliza para confirmar una o varias transferencias de cartera de un cliente.|La referencia de cada finalización de transferencia de cartera se identifica en ProductTransfer/TransferCompletionIdentification. La referencia de la transferencia de cartera original asignada por la parte instructora se especifica en TransferInstructionReference. El identificador del mensaje PortfolioTransferInstruction en el que se transmitieron las transferencias de cartera también puede citarse en RelatedReference, aunque no se recomienda.",
+  "isoRules": {
+    "Investor1Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces SecondaryIndividualInvestor no está permitido.|Si PrimaryIndividualInvestor está presente, entonces SecondaryIndividualInvestor puede estar presente."
+    },
+    "Corporate1Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces SecondaryCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces SecondaryCorporateInvestor puede estar presente."
+    },
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer debe estar presente cuando y solo cuando sea distinto de TransferorAccount/Servicer."
+    },
+    "Investor2Rule": {
+      "definition": "Si PrimaryIndividualInvestor no está presente, entonces OtherIndividualInvestor no está permitido. |Si PrimaryIndividualInvestor está presente, entonces OtherIndividualInvestor puede estar presente."
+    },
+    "Corporate2Rule": {
+      "definition": "Si PrimaryCorporateInvestor no está presente, entonces OtherCorporateInvestor no está permitido.|Si PrimaryCorporateInvestor está presente, entonces OtherCorporateInvestor puede estar presente."
+    }
+  }
+}

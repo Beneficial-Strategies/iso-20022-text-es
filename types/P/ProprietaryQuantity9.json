@@ -1,0 +1,18 @@
+{
+  "isoType": "ProprietaryQuantity9",
+  "definition": "Formato de cantidad propietario.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Proporciona la cantidad propietaria con un número decimal."
+    },
+    "QuantityType": {
+      "definition": "Identifica el tipo de cantidad propia notificada."
+    },
+    "Issuer": {
+      "definition": "Proporciona información relativa al emisor en formato libre."
+    },
+    "SchemeName": {
+      "definition": "Nombre del esquema de identificación."
+    }
+  }
+}

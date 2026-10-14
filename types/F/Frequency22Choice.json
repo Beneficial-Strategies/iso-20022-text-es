@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency22Choice",
+  "definition": "Elección del formato de una frecuencia, por ejemplo, la frecuencia de entrega de un extracto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Frecuencia expresada como un código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Frecuencia expresada como un código propietario."
+    }
+  }
+}

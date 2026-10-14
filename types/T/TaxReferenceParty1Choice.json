@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReferenceParty1Choice",
+  "definition": "Elección de formatos para un tipo de parte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de parte expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de parte expresado como código propietario."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "Header32",
+  "definition": "Información relativa a la gestión del protocolo en un tramo de la ruta desde el cajero automático (ATM) hasta el adquirente.",
+  "isoElements": {
+    "MessageFunction": {
+      "definition": "Identifica el tipo de proceso relacionado con el mensaje."
+    },
+    "ProtocolVersion": {
+      "definition": "Versión de las especificaciones del protocolo del cajero automático (ATM)."
+    },
+    "ExchangeIdentification": {
+      "definition": "Identificación única de una ocurrencia de intercambio."
+    },
+    "ReTransmissionCounter": {
+      "definition": "Contador de retransmisión de este aviso, 0 para la primera transmisión."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "InitiatingParty": {
+      "definition": "Identificación única del participante que ha iniciado el intercambio."
+    },
+    "RecipientParty": {
+      "definition": "Identificación única del participante que es el destinatario del intercambio de mensajes."
+    },
+    "ProcessState": {
+      "definition": "Estado del emisor del mensaje dentro del flujo del proceso."
+    },
+    "Traceability": {
+      "definition": "Identificación de los participantes en el intercambio desde el comercio hasta el emisor, con la marca de tiempo relativa de sus intercambios."
+    }
+  }
+}

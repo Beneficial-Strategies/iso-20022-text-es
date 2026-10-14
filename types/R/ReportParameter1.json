@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportParameter1",
+  "definition": "Nombre y valor de un parámetro devuelto.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nombre o tipo del parámetro devuelto."
+    },
+    "Value": {
+      "definition": "Valor del parámetro devuelto."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CurrencyExchange15",
+  "definition": "Describe los detalles del cambio de divisas.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Moneda desde la cual se convierte un importe en una conversión de moneda."
+    },
+    "TargetCurrency": {
+      "definition": "Moneda a la cual se convierte un importe en una conversión de moneda."
+    },
+    "ExchangeRate": {
+      "definition": "Factor utilizado para convertir un importe de una moneda a otra. Refleja el precio al que se compró una moneda con otra moneda."
+    },
+    "UnitCurrency": {
+      "definition": "Divisa en la que se expresa el tipo de cambio en un cambio de divisas. En el ejemplo 1GBP = xxxCUR, la divisa unitaria es GBP."
+    }
+  }
+}

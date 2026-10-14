@@ -1,0 +1,12 @@
+{
+  "isoType": "RegistrationProcessingStatus3Choice",
+  "definition": "Elección de formato para el estado de procesamiento del registro.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado del procesamiento del registro."
+    },
+    "Proprietary": {
+      "definition": "Proporciona el estado del procesamiento del registro."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesAccount6",
+  "definition": "Proporciona información sobre la cuenta de valores.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificación de la cuenta en la que se mantienen los instrumentos financieros."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificación de la parte titular de la cuenta."
+    },
+    "SafekeepingPlace": {
+      "definition": "Identificación del lugar de custodia."
+    },
+    "RegistrationDetails": {
+      "definition": "Proporciona la información necesaria para el registro del valor."
+    }
+  }
+}

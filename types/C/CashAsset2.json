@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAsset2",
+  "definition": "Identificación de un activo en efectivo.",
+  "isoElements": {
+    "CashAssetType": {
+      "definition": "Tipo de activo en efectivo."
+    },
+    "HoldingCurrency": {
+      "definition": "Divisa del activo en la posición."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el activo en efectivo."
+    }
+  }
+}

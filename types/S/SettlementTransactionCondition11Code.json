@@ -1,0 +1,10 @@
+{
+  "isoType": "SettlementTransactionCondition11Code",
+  "definition": "Especifica las condiciones en las que se debe liquidar una orden u operación comercial.",
+  "isoCodes": {
+    "NOMC": {
+      "name": "Sin reclamación de mercado automática",
+      "definition": "No debe generarse automáticamente ninguna reclamación de mercado."
+    }
+  }
+}

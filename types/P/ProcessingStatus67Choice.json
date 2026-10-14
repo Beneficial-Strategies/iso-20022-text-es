@@ -1,0 +1,21 @@
+{
+  "isoType": "ProcessingStatus67Choice",
+  "definition": "Elección del formato del estado de tratamiento.",
+  "isoElements": {
+    "Rejected": {
+      "definition": "La instrucción o la solicitud ha sido rechazada para su posterior tratamiento."
+    },
+    "Repair": {
+      "definition": "La instrucción o la solicitud se acepta, pero está en reparación."
+    },
+    "Cancelled": {
+      "definition": "La instrucción ha sido cancelada. El estado del tratamiento de una solicitud de cancelación debe facilitarse mediante un mensaje de informe de solicitud de cancelación."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la instrucción."
+    },
+    "Proprietary": {
+      "definition": "Especifica una elección de estado para el tratamiento de un movimiento intrasaldo."
+    }
+  }
+}

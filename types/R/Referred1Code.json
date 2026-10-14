@@ -1,0 +1,18 @@
+{
+  "isoType": "Referred1Code",
+  "definition": "Indica si el inversor fue recomendado.",
+  "isoCodes": {
+    "REFR": {
+      "name": "Remitido",
+      "definition": "El inversor fue recomendado al fondo por un agente colocador."
+    },
+    "NRFR": {
+      "name": "No remitido",
+      "definition": "El inversor no fue recomendado al fondo por un agente colocador."
+    },
+    "UKNW": {
+      "name": "Desconocido",
+      "definition": "No se sabe si el inversor fue recomendado al fondo por un agente colocador."
+    }
+  }
+}

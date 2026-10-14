@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationRejectionReason2",
+  "definition": "Proporciona el motivo del rechazo de una solicitud de cancelación de notificación.",
+  "isoElements": {
+    "Reason": {
+      "definition": "El motivo del rechazo."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteInstructionType1Choice",
+  "definition": "Elección entre un valor de código predefinido o un valor de código propio para un tipo de instrucción de voto.",
+  "isoElements": {
+    "Type": {
+      "definition": "Opción de voto expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Opción de voto expresada como código propio."
+    }
+  }
+}

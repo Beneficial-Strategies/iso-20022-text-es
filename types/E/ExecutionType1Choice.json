@@ -1,0 +1,12 @@
+{
+  "isoType": "ExecutionType1Choice",
+  "definition": "Define el tipo de ejecución que debe realizarse en la solicitud.",
+  "isoElements": {
+    "Time": {
+      "definition": "El tipo de ejecución se ejecuta en función de un desencadenante temporal."
+    },
+    "Event": {
+      "definition": "El tipo de ejecución se ejecuta en función de un desencadenante basado en eventos."
+    }
+  }
+}

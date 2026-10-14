@@ -1,0 +1,65 @@
+{
+  "isoType": "CorporateActionOption237",
+  "definition": "Proporciona información sobre la opción de operación societaria.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica cómo se tratan los importes o cantidades fraccionarios."
+    },
+    "ChangeType": {
+      "definition": "Tipo de cambios que afectan a la forma del valor."
+    },
+    "EligibleForCollateralIndicator": {
+      "definition": "Indica que la instrucción de operación societaria debe procesarse utilizando la reserva de disponibles para garantía."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Indica si existe una comisión de solicitación en el evento. Esta comisión la paga el agente solicitante."
+    },
+    "CurrencyToBuy": {
+      "definition": "Se instruye al administrador de cuentas para que compre la divisa indicada tras la recepción del producto en efectivo."
+    },
+    "CurrencyToSell": {
+      "definition": "Se instruye al administrador de cuentas para que venda la divisa indicada con el fin de obtener la divisa necesaria para financiar la operación dentro de este mensaje de instrucción."
+    },
+    "CurrencyOption": {
+      "definition": "Divisa en la que se abonará o adeudará el producto en efectivo."
+    },
+    "SecurityIdentification": {
+      "definition": "Identifica el instrumento financiero."
+    },
+    "SecuritiesQuantityOrInstructedAmount": {
+      "definition": "Proporciona información sobre la cantidad de valores vinculada a una opción de operación societaria."
+    },
+    "ExecutionRequestedDateTime": {
+      "definition": "Fecha y hora en que la parte instructora solicita que se ejecute la instrucción."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Proporciona información sobre los tipos e importes relacionados con una opción de operación societaria."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con una opción de operación societaria."
+    },
+    "ShareholderNumber": {
+      "definition": "Número de referencia asignado para identificar a un inversor o accionista ante el emisor o el proveedor de registro (por ejemplo, un código de asignación)."
+    },
+    "AdditionalInformation": {
+      "definition": "Proporciona información adicional."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Para diferenciar entre opciones, debe utilizarse OptionNumber en lugar de OptionType, por ejemplo, en el caso de que dos o más ofertas puedan describirse con el mismo código de opción de operación societaria. Por lo tanto, el valor de OptionNumber debe ser distinto para cada opción."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Cuando CorporateActionInstruction no ha sido solicitada, es decir, la instrucción no ha sido precedida por una CorporateActionNotification, OptionNumber/code debe ser UNSO (unsolicited)."
+    }
+  }
+}

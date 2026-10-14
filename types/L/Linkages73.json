@@ -1,0 +1,18 @@
+{
+  "isoType": "Linkages73",
+  "definition": "Información relativa a una operación vinculada.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Especifica cuándo debe ejecutarse la operación en relación con una operación vinculada."
+    },
+    "MessageNumber": {
+      "definition": "Número del tipo de mensaje o identificador del mensaje referenciado en la secuencia de vinculación."
+    },
+    "Reference": {
+      "definition": "Referencia a la operación vinculada."
+    },
+    "ReferenceOwner": {
+      "definition": "Parte que genera la referencia."
+    }
+  }
+}

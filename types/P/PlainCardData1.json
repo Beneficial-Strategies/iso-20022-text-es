@@ -1,0 +1,27 @@
+{
+  "isoType": "PlainCardData1",
+  "definition": "Datos sensibles asociados a la tarjeta de pago con la que se realiza la operación.",
+  "isoElements": {
+    "PAN": {
+      "definition": "Número de cuenta principal (PAN) de la tarjeta, o número de tarjeta."
+    },
+    "CardSequenceNumber": {
+      "definition": "Identifica una tarjeta dentro de un conjunto de tarjetas con el mismo número de tarjeta (PAN)."
+    },
+    "EffectiveDate": {
+      "definition": "Fecha a partir de la cual se puede utilizar la tarjeta."
+    },
+    "ExpiryDate": {
+      "definition": "Fecha de caducidad de la tarjeta."
+    },
+    "ServiceCode": {
+      "definition": "Servicios asociados a la tarjeta, según se definen en ISO 7813."
+    },
+    "TrackData": {
+      "definition": "Pista magnética o datos equivalentes de la tarjeta de pago."
+    },
+    "CardSecurityCode": {
+      "definition": "Código de seguridad de la tarjeta (CSC) asociado a la tarjeta con la que se realiza la operación."
+    }
+  }
+}

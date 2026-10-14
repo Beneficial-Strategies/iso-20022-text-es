@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMExceptionAdviceV02",
+  "definition": "El mensaje ATMExceptionAdvice lo envía un cajero automático a un adquirente o a su agente para informar de que se ha producido una excepción fuera de un servicio."
+}

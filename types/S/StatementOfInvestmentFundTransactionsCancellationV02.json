@@ -1,0 +1,4 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsCancellationV02",
+  "definition": "Alcance|Un administrador de cuentas, por ejemplo, un agente de transferencias, envía el mensaje StatementOfInvestmentFundTransactionsCancellation al titular de la cuenta, por ejemplo, un gestor de inversiones o su representante autorizado, para cancelar un mensaje StatementOfInvestmentFundTransactions enviado previamente.|Uso|El mensaje StatementOfInvestmentFundTransactionsCancellation se utiliza para cancelar un mensaje StatementOfInvestmentFundTransactions enviado previamente. Este mensaje debe contener la referencia del mensaje que se cancela.|Este mensaje también puede contener todos los detalles del mensaje que se cancela, pero no se recomienda."
+}

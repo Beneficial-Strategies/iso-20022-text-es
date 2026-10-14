@@ -1,0 +1,24 @@
+{
+  "isoType": "Quantity54",
+  "definition": "Cantidad de activos.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Cantidad de valores transferida."
+    },
+    "PercentageRate": {
+      "definition": "Porcentaje de activos transferido."
+    },
+    "FaceAmount": {
+      "definition": "Cantidad expresada como un importe que representa el valor nominal, es decir, el principal, de un instrumento de deuda."
+    },
+    "AmortisedValue": {
+      "definition": "Cantidad expresada como un importe que representa el importe nominal amortizado actual de un bono, por ejemplo, una reducción/aumento periódico del importe principal de un bono."
+    },
+    "CashAmount": {
+      "definition": "Importe en efectivo transferido."
+    },
+    "OtherAsset": {
+      "definition": "Cantidad de activo transferida."
+    }
+  }
+}

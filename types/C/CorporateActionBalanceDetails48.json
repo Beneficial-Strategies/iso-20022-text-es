@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionBalanceDetails48",
+  "definition": "Saldos de cuenta compartidos con el agente del emisor.",
+  "isoElements": {
+    "SecurityCalledAmount": {
+      "definition": "Importe total amortizado del valor que ha sido llamado a reembolso en una fecha de pago específica. Puede incluir saldos mantenidos fuera del depositario."
+    },
+    "TotalAmountOutstanding": {
+      "definition": "Importe total en circulación del valor subyacente, que puede o no estar mantenido en el depositario."
+    }
+  }
+}

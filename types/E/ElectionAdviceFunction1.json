@@ -1,0 +1,23 @@
+{
+  "isoType": "ElectionAdviceFunction1",
+  "definition": "Proporciona información sobre el tipo de aviso de elección y los mensajes vinculados.",
+  "isoElements": {
+    "ElectionType": {
+      "definition": "Tipo de aviso de elección."
+    },
+    "PreviousAgentCAElectionAdviceIdentification": {
+      "definition": "Identificación del aviso de elección de evento corporativo del agente anterior que se está modificando."
+    },
+    "AgentCAElectionStatusAdviceIdentification": {
+      "definition": "Identificación del aviso de estado de elección de evento corporativo del agente mediante el cual el emisor (agente) acepta la solicitud de modificación de la elección."
+    },
+    "AgentCAElectionAmendmentRequestIdentification": {
+      "definition": "Identificación de la solicitud de modificación de elección de evento corporativo del agente mediante la cual el CSD solicita la autorización para modificar una elección."
+    }
+  },
+  "isoRules": {
+    "ElectionTypeRule": {
+      "definition": "Si ElectionType es CHAN, PreviousAgentCAElectionAdviceIdentification y AgentCAElectionStatusAdviceIdentification son obligatorios."
+    }
+  }
+}

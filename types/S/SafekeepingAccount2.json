@@ -1,0 +1,27 @@
+{
+  "isoType": "SafekeepingAccount2",
+  "definition": "Cuenta de valores o de inversión. Una cuenta de valores es una cuenta en la que se realiza un apunte de valores. Una cuenta de inversión es una cuenta entre uno o varios inversores y un gestor de fondos o un fondo. La cuenta puede contener posiciones en cualquier fondo de inversión o clase de fondo de inversión gestionado (o distribuido) por el gestor de fondos, dentro de la misma familia de fondos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única e inequívoca de la cuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "FungibleIndicator": {
+      "definition": "Indica si los valores de la cuenta son fungibles, es decir, intercambiables."
+    },
+    "Name": {
+      "definition": "Nombre de la cuenta. Proporciona un medio adicional de identificación y lo designa la entidad gestora de la cuenta de acuerdo con el titular de la cuenta."
+    },
+    "Designation": {
+      "definition": "Información complementaria de registro aplicable a un bloque específico de participaciones a efectos de negociación y comunicación. La información complementaria de registro puede utilizarse cuando todas las participaciones están registradas, por ejemplo, a nombre de un supermercado de fondos, pero las posiciones de cada inversor deben conciliarse individualmente."
+    },
+    "IntermediaryInformation": {
+      "definition": "Parte que presta a los inversores servicios relacionados con productos financieros, p. ej., asesoramiento sobre productos y colocación de órdenes para el fondo de inversión."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta por cuenta del titular, es decir, gestiona el registro y la contabilización de los apuntes de la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryData7",
+  "definition": "Contenedor de información propia. El contenido de negocio de este elemento no está especificado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de documento propio."
+    },
+    "Data": {
+      "definition": "Contenido de datos propios."
+    }
+  }
+}

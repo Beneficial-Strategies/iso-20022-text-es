@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReference2",
+  "definition": "Referencia fiscal del plan de pensiones.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de referencia fiscal."
+    },
+    "Reference": {
+      "definition": "Referencia fiscal del plan de pensiones asignada al plan por un organismo central."
+    }
+  }
+}

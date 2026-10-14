@@ -1,0 +1,12 @@
+{
+  "isoType": "VerificationReason1Choice",
+  "definition": "Especifica el motivo por el que la información de identificación verificada es incorrecta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo por el que la información de identificación verificada es incorrecta, tal como se publica en una lista externa de códigos de motivo."
+    },
+    "Proprietary": {
+      "definition": "Motivo por el que la información de identificación verificada es incorrecta, en forma propietaria."
+    }
+  }
+}

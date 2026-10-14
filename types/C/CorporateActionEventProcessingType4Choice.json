@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingType4Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de procesamiento de un evento de operación societaria.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de procesamiento de un evento de operación societaria."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de procesamiento de un evento de operación societaria."
+    }
+  }
+}

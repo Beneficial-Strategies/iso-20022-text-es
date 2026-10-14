@@ -1,0 +1,12 @@
+{
+  "isoType": "NetDividendRateType1FormatChoice",
+  "definition": "Elección de formatos para expresar el tipo de tasa de dividendo neto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de tasa de dividendo neto."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el tipo de tasa de dividendo neto."
+    }
+  }
+}

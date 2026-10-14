@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchInformationRequestV06",
+  "definition": "El mensaje AccountSwitchInformationRequest es enviado por la entidad gestora de la cuenta nueva a la entidad gestora que previamente mantenía la cuenta para iniciar el proceso de cambio de cuenta. Proporciona información suficiente para que la entidad gestora de la cuenta anterior identifique la cuenta anterior y valide las partes de la cuenta. La entidad gestora de la cuenta nueva puede informar al banco anterior de la financiación máxima que la cuenta nueva aportará para liquidar un saldo final negativo y de la ventana propuesta para la transferencia de saldo."
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionProcessingStatus4Code",
+  "definition": "Especifica el estado de una instrucción.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Acuse de recibo aceptado",
+      "definition": "La instrucción ha sido recibida/aceptada por la entidad gestora de la cuenta para su posterior tramitación."
+    },
+    "PPRC": {
+      "name": "Pendiente de procesamiento",
+      "definition": "El procesamiento de la instrucción está pendiente."
+    },
+    "REJT": {
+      "name": "Rechazado",
+      "definition": "La instrucción ha sido rechazada para su posterior tramitación."
+    },
+    "REPR": {
+      "name": "En reparación",
+      "definition": "La instrucción ha sido aceptada, pero está en reparación."
+    },
+    "CAND": {
+      "name": "Cancelado",
+      "definition": "La instrucción ha sido cancelada."
+    },
+    "CANP": {
+      "name": "Cancelación pendiente",
+      "definition": "Su solicitud de cancelación de esta instrucción está pendiente a la espera de su posterior procesamiento."
+    },
+    "CPRC": {
+      "name": "Cancelación solicitada",
+      "definition": "La solicitud de cancelación de la contraparte está a la espera de su solicitud de cancelación o de su consentimiento."
+    },
+    "MPRC": {
+      "name": "Modificación solicitada",
+      "definition": "La solicitud de modificación de la contraparte está a la espera de su solicitud de modificación o de su consentimiento."
+    }
+  }
+}

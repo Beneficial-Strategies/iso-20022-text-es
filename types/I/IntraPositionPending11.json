@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraPositionPending11",
+  "definition": "Proporciona las operaciones del informe.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "Movement": {
+      "definition": "Identifica la operación individual."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason debe estar presente o Movement(*)/StatusAndReason debe estar presente, pero no ambos."
+    }
+  }
+}

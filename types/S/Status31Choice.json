@@ -1,0 +1,18 @@
+{
+  "isoType": "Status31Choice",
+  "definition": "Elección de formatos para la especificación del estado.",
+  "isoElements": {
+    "Status": {
+      "definition": "El estado de la cancelación de la transferencia es aceptada o enviada a la siguiente parte."
+    },
+    "Rejected": {
+      "definition": "El estado de la cancelación de la transferencia es rechazada."
+    },
+    "Complete": {
+      "definition": "El estado de la cancelación de la transferencia es completada. La instrucción de cancelación ha sido aceptada y procesada; la cancelación está completada."
+    },
+    "Pending": {
+      "definition": "El estado de la cancelación de la transferencia es pendiente."
+    }
+  }
+}

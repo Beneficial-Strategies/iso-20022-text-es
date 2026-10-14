@@ -1,0 +1,21 @@
+{
+  "isoType": "GenericIdentification77",
+  "definition": "Identificación de una entidad.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la entidad."
+    },
+    "Type": {
+      "definition": "Tipo de entidad identificada."
+    },
+    "Issuer": {
+      "definition": "Entidad que asigna la identificación (por ejemplo, comercio, aceptante, adquirente o autoridad tributaria)."
+    },
+    "Country": {
+      "definition": "País de la entidad (ISO 3166-1 alpha-2 o alpha-3)."
+    },
+    "ShortName": {
+      "definition": "Nombre de la entidad."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode9Choice",
+  "definition": "Elección entre un código y/o un esquema de fuente de datos para determinar el tipo de cuenta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el tipo de cuenta de valores."
+    },
+    "Proprietary": {
+      "definition": "Especifica la prioridad de ejecución de la instrucción mediante un esquema propio."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountCriteria8",
+  "definition": "Define los criterios que se utilizan para buscar una cuenta y para informar sobre ella. Puede asignarse un nombre a la nueva consulta.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nombre de la consulta definida por los criterios de búsqueda y los criterios de devolución."
+    },
+    "SearchCriteria": {
+      "definition": "Define los criterios que deben utilizarse para extraer la información de la cuenta."
+    },
+    "ReturnCriteria": {
+      "definition": "Define el informe de cuenta esperado."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Si ReturnCriteria no está presente, debe estar presente al menos una ocurrencia de SearchCriteria. Si ReturnCriteria está presente, cualquier ocurrencia de SearchCriteria es opcional."
+    }
+  }
+}

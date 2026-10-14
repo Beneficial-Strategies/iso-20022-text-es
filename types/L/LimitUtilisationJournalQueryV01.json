@@ -1,0 +1,4 @@
+{
+  "isoType": "LimitUtilisationJournalQueryV01",
+  "definition": "El mensaje LimitUtilisationJournalQuery se intercambia entre un depositario central de valores o un participante del sistema conectado directamente (el participante del depositario central de valores con acceso directo, como un banco o una contraparte central) y el sistema central. Su finalidad es consultar información sobre el diario de operaciones que afectan a la utilización de los límites definidos por el participante del sistema."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason23Choice",
+  "definition": "Elección de formato para un motivo de acuse de recibo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica información adicional sobre la instrucción procesada."
+    },
+    "Proprietary": {
+      "definition": "Especifica información adicional sobre la instrucción procesada."
+    }
+  }
+}

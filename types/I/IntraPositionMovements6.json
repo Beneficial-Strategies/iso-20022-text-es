@@ -1,0 +1,29 @@
+{
+  "isoType": "IntraPositionMovements6",
+  "definition": "Proporciona las operaciones en la respuesta.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "StatusAndReason": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "Movement": {
+      "definition": "Identifica la operación individual."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount debe estar presente o Movement(*)/SafekeepingAccount debe estar presente, pero no ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner debe estar presente o Movement(*)/AccountOwner debe estar presente, pero no ambos."
+    },
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason debe estar presente o Movement(*)/StatusAndReason debe estar presente, pero no ambos."
+    }
+  }
+}

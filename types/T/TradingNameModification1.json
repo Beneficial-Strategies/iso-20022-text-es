@@ -1,0 +1,12 @@
+{
+  "isoType": "TradingNameModification1",
+  "definition": "Especifica el tipo de cambio en el nombre comercial.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica el tipo de cambio."
+    },
+    "TradingName": {
+      "definition": "Nombre utilizado por una empresa con fines comerciales, aunque su denominación legal registrada, utilizada para contratos y otras situaciones formales, pueda ser otra."
+    }
+  }
+}

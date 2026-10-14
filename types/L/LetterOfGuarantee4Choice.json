@@ -1,0 +1,12 @@
+{
+  "isoType": "LetterOfGuarantee4Choice",
+  "definition": "Elección del formato de la información sobre la carta de garantía.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si la liquidación física puede ejecutarse mediante una carta de garantía o si deben utilizarse los certificados físicos."
+    },
+    "Proprietary": {
+      "definition": "Información sobre la carta de garantía expresada como código propietario."
+    }
+  }
+}

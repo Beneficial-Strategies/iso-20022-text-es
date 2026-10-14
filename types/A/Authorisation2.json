@@ -1,0 +1,15 @@
+{
+  "isoType": "Authorisation2",
+  "definition": "Autorización del apoderado.",
+  "isoElements": {
+    "MaximumAmountByTransaction": {
+      "definition": "Importe máximo permitido por el mandato para cada operación."
+    },
+    "MaximumAmountByPeriod": {
+      "definition": "Importe máximo permitido durante un período de tiempo específico."
+    },
+    "MaximumAmountByBulkSubmission": {
+      "definition": "Especifica el importe máximo para cada envío masivo."
+    }
+  }
+}

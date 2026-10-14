@@ -1,0 +1,47 @@
+{
+  "isoType": "SettlementDetails234",
+  "definition": "Detalles de la liquidación de una operación.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Indica si la operación está retenida/bloqueada/congelada."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifica el tipo de operación con valores."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condiciones en las que se ha de liquidar la orden o la operación bursátil."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica si se permite la liquidación parcial."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica si hay un cambio de titularidad real."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica la categoría del sistema de compensación de efectivo, por ejemplo, la compensación de cheques."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica si una instrucción corresponde a una operación del lado del mercado o del lado del cliente."
+    },
+    "Registration": {
+      "definition": "Especifica si el registro debe efectuarse a la recepción."
+    },
+    "RepurchaseType": {
+      "definition": "Especifica si el tipo es fijo, variable o a tanto alzado."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica si la operación de liquidación se ha de liquidar a través de un sistema RTGS o de un sistema no RTGS."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica el tipo de impuesto de timbre o el motivo de exención aplicable a la operación de liquidación."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si se utilizan elementos SettlementDetails, sus condiciones de uso deben acordarse previamente entre el titular de la cuenta y el administrador de cuentas."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Los códigos CashClearingSystem deben ser utilizados únicamente por las entidades que participan directamente en el proceso de liquidación, como los agentes de liquidación locales, los depositarios centrales de valores (CSD) y los bancos centrales."
+    }
+  }
+}

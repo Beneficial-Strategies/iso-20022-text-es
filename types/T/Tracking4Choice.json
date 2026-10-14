@@ -1,0 +1,12 @@
+{
+  "isoType": "Tracking4Choice",
+  "definition": "Elección de formato para la información de seguimiento.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si se realiza el seguimiento del préstamo y/o de la garantía."
+    },
+    "Proprietary": {
+      "definition": "Información de seguimiento expresada como un código propio."
+    }
+  }
+}

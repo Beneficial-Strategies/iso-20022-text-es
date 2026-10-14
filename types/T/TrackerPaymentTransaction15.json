@@ -1,0 +1,204 @@
+{
+  "isoType": "TrackerPaymentTransaction15",
+  "definition": "Elementos clave utilizados para identificar la operación u operaciones originales a las que se hace referencia.",
+  "isoElements": {
+    "TrackedMessageIdentification": {
+      "definition": "Facilita información sobre el mensaje rastreado original que contenía la operación."
+    },
+    "TrackerInformingParty": {
+      "definition": "Parte que facilita información sobre el estado y los detalles relacionados de una operación."
+    },
+    "TrackerInformedParty": {
+      "definition": "Parte a la que se actualiza el estado y los detalles relacionados de una operación."
+    },
+    "TechnicalSender": {
+      "definition": "La parte indicada como emisor en la cabecera técnica de un mensaje de pago ISO."
+    },
+    "TechnicalReceiver": {
+      "definition": "La parte indicada como receptor en la cabecera técnica de un mensaje de pago ISO."
+    },
+    "PaymentIdentification": {
+      "definition": "Conjunto de elementos utilizados para hacer referencia a una instrucción de pago."
+    },
+    "RelatedPaymentIdentification": {
+      "definition": "Conjunto de elementos que identifican las operaciones asociadas a la instrucción de pago."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original a la parte instruida original, para identificar inequívocamente la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar de forma inequívoca la operación original."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar con más detalle el tipo de operación."
+    },
+    "PaymentScenario": {
+      "definition": "Especifica los escenarios comerciales en los que se ejecuta el pago, como la transferencia de crédito de cliente o el pago de cobertura."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica los detalles de cómo se completa la liquidación de las operaciones entre la entidad instructora y la entidad instruida."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la instrucción o el conjunto de instrucciones."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute la instrucción o el conjunto de instrucciones."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Importe de dinero movido entre la entidad instructora y la entidad instruida."
+    },
+    "ReturnedInterbankSettlementAmount": {
+      "definition": "Importe de dinero que se debe mover entre la entidad instructora y la entidad instruida en la instrucción devuelta."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en la que el importe deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se debe."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Fecha en la que la parte iniciadora solicita a la entidad de compensación que procese el pago. |Uso: Es la fecha en la que debe adeudarse la cuenta del ordenante. Si el pago es mediante cheque, la fecha en la que el banco debe emitir el cheque."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la parte instructora desea que la parte instruida aplique al procesamiento de la instrucción de liquidación."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Proporciona información sobre las horas de liquidación efectivas de la operación de pago."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Proporciona información sobre la(s) hora(s) de liquidación solicitada(s) de la instrucción de pago."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento en que la orden de pago de la parte iniciadora cumple las condiciones de procesamiento de la entidad gestora de la cuenta. Esto significa que la entidad gestora de la cuenta ha recibido la orden de pago y ha aplicado comprobaciones como la autorización o la disponibilidad de fondos."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Fecha utilizada para la corrección de la fecha valor de un movimiento de cash pooling que se ha contabilizado con una fecha valor distinta."
+    },
+    "InstructedAmount": {
+      "definition": "Importe de dinero que se va a transferir entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa indicada por la parte iniciadora.|Uso: Este importe debe transportarse sin cambios a lo largo de la cadena de operaciones."
+    },
+    "EquivalentAmount": {
+      "definition": "Importe de dinero que se va a transferir entre el ordenante y el beneficiario, expresado en la moneda de la cuenta del ordenante, y la moneda en la que se va a transferir el importe."
+    },
+    "ReturnedInstructedAmount": {
+      "definition": "Importe de dinero que se debe mover entre el ordenante y el beneficiario, antes de la deducción de gastos, en la operación devuelta.|Uso: Este importe debe transmitirse sin cambios a lo largo de la cadena de la operación."
+    },
+    "ExchangeRateData": {
+      "definition": "Facilita detalles del tipo de cambio y de las divisas utilizadas en la operación de cambio de divisas."
+    },
+    "ForeignExchangeAgent": {
+      "definition": "Agente que realizó la operación de cambio de divisas."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica qué parte o partes asumirán los gastos asociados al procesamiento de la operación de pago."
+    },
+    "ChargesInformation": {
+      "definition": "Proporciona información sobre los gastos que deben pagar los responsables de los gastos relacionados con la operación de pago."
+    },
+    "TrackerRecord": {
+      "definition": "Proporciona información de seguimiento de la operación para una entidad concreta que interviene en la cadena de la operación."
+    },
+    "TrackerData": {
+      "definition": "Proporciona información sobre el seguimiento de la operación interbancaria relacionada con el pago."
+    },
+    "DebitConfirmationURLAddress": {
+      "definition": "Dirección del localizador uniforme de recursos (URL), por ejemplo, una dirección utilizada en el servicio www (HTTP) que confirma que un pago ha adeudado una cuenta."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Agente inmediatamente anterior al agente instructor."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad instructora previa en su entidad de servicio de la cadena de pago."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Agente inmediatamente anterior al agente instructor."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad instructora previa en su entidad de servicio de la cadena de pago."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Agente inmediatamente anterior al agente instructor."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad instructora previa en su entidad de servicio de la cadena de pago."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: si hay más de una entidad intermediaria, IntermediaryAgent1 identifica a la entidad situada entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 1 en su entidad gestora en la cadena de pago."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: Si hay más de dos entidades intermediarias, IntermediaryAgent2 identifica la entidad situada entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 2 en su entidad gestora en la cadena de pago."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad del beneficiario.||Uso: Si IntermediaryAgent3 está presente, identifica a la entidad situada entre IntermediaryAgent 2 y CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad intermediaria 3 en su entidad gestora en la cadena de pago."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que debe una cantidad de dinero al beneficiario (final)."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia el pago.|Uso: Puede ser el ordenante o una parte que inicia la transferencia en nombre del ordenante."
+    },
+    "Debtor": {
+      "definition": "Parte que adeuda un importe de dinero al beneficiario (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se realizará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad prestadora de servicios dentro de la cadena de pago."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicios sobre una cuenta del beneficiario."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad de servicio, en la que se efectuará un abono como resultado de la operación de pago."
+    },
+    "Creditor": {
+      "definition": "Parte a la que se debe un importe de dinero."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se abonará un apunte como resultado de la operación de pago."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a la que se debe un importe de dinero."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Información adicional relativa al procesamiento de la instrucción de pago, proporcionada por la parte iniciadora y destinada a la entidad del beneficiario."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Información adicional relacionada con el procesamiento de la instrucción de pago sobre la que la siguiente entidad puede tener que actuar. ||Uso: La siguiente entidad puede no ser la entidad del beneficiario.|La instrucción puede referirse a un nivel de servicio, puede ser una instrucción que debe ejecutar la entidad o puede ser información que necesita la siguiente entidad."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago.|Uso: la finalidad es utilizada por los clientes finales, es decir, la parte iniciadora, el ordenante (final) y el beneficiario (final), para facilitar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no se utiliza para el procesamiento por ninguna de las entidades que intervienen en la cadena de pago."
+    },
+    "RegulatoryReporting": {
+      "definition": "Información necesaria debido a requisitos reglamentarios y legales."
+    },
+    "Tax": {
+      "definition": "Proporciona detalles sobre el impuesto."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Proporciona información relativa al tratamiento de la información de remesa por parte de cualquiera de las entidades de la cadena de procesamiento de la operación."
+    },
+    "RemittanceInformation": {
+      "definition": "Información proporcionada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    },
+    "RejectReturnReason": {
+      "definition": "Proporciona información detallada sobre el motivo de la devolución."
+    },
+    "ReturnChain": {
+      "definition": "Proporciona todas las partes (entidades y no entidades) que intervienen en una operación de devolución."
+    },
+    "UnderlyingCustomerCreditTransfer": {
+      "definition": "Proporciona información sobre la transferencia de cliente subyacente para la que se aporta la cobertura."
+    }
+  }
+}

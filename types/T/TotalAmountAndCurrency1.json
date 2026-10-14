@@ -1,0 +1,15 @@
+{
+  "isoType": "TotalAmountAndCurrency1",
+  "definition": "Conjunto de elementos que proporcionan el importe total de todas las operaciones.",
+  "isoElements": {
+    "TotalAmount": {
+      "definition": "Importe neto total de todas las operaciones tenidas en cuenta en el informe."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe total es un importe de crédito o de débito."
+    },
+    "Currency": {
+      "definition": "Moneda en la que se expresa el importe total."
+    }
+  }
+}

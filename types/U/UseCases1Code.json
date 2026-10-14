@@ -1,0 +1,22 @@
+{
+  "isoType": "UseCases1Code",
+  "definition": "Especifica la acción sobre la cuenta de efectivo.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Apertura",
+      "definition": "Código que indica la apertura de una cuenta."
+    },
+    "MNTN": {
+      "name": "Mantenimiento",
+      "definition": "Código que indica el mantenimiento de una cuenta."
+    },
+    "CLSG": {
+      "name": "Cierre",
+      "definition": "Código que indica el cierre de una cuenta."
+    },
+    "VIEW": {
+      "name": "Consulta",
+      "definition": "Código que indica la consulta de una cuenta."
+    }
+  }
+}

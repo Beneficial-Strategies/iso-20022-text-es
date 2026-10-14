@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentQuantity1Choice",
+  "definition": "Elección entre formatos para la cantidad de valores.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Cantidad expresada como un número, por ejemplo, un número de acciones."
+    },
+    "FaceAmount": {
+      "definition": "Cantidad expresada como un importe que representa el valor nominal, es decir, el principal, de un instrumento de deuda."
+    },
+    "AmortisedValue": {
+      "definition": "Cantidad expresada como un importe que representa el importe nominal amortizado actual de un bono, por ejemplo, una reducción/aumento periódico del importe principal de un bono."
+    }
+  }
+}

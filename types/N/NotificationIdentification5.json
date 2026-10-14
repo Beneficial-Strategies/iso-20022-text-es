@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationIdentification5",
+  "definition": "Proporciona información sobre la identificación y la fecha de creación de una notificación.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único del último documento de notificación (mensaje) asignado por el emisor del documento."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que el emisor del documento creó el último documento de notificación (mensaje)."
+    }
+  }
+}

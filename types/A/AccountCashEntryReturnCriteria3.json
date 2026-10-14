@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountCashEntryReturnCriteria3",
+  "definition": "Define los criterios utilizados para informar sobre el apunte de efectivo.",
+  "isoElements": {
+    "EntryReferenceIndicator": {
+      "definition": "Indica si se solicita la referencia del apunte."
+    },
+    "AccountTypeIndicator": {
+      "definition": "Indica si se solicita el tipo de cuenta."
+    },
+    "EntryAmountIndicator": {
+      "definition": "Indica si se solicita el importe del apunte."
+    },
+    "AccountCurrencyIndicator": {
+      "definition": "Indica si se solicita la divisa de la cuenta."
+    },
+    "EntryStatusIndicator": {
+      "definition": "Indica si se solicita el estado del apunte."
+    },
+    "EntryDateIndicator": {
+      "definition": "Indica si se solicita la fecha del apunte."
+    },
+    "AccountServicerIndicator": {
+      "definition": "Indica si se solicita la entidad gestora de la cuenta."
+    },
+    "AccountOwnerIndicator": {
+      "definition": "Indica si se solicita el titular de la cuenta."
+    }
+  }
+}

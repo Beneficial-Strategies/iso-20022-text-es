@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy11",
+  "definition": "Identificación de un representante designado para representar a una parte autorizada a votar en una junta de accionistas.",
+  "isoElements": {
+    "ProxyType": {
+      "definition": "Tipo de representante."
+    },
+    "PersonDetails": {
+      "definition": "Persona, distinta del presidente de la junta, designada por el titular de valores como representante."
+    }
+  }
+}

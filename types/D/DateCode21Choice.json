@@ -1,0 +1,12 @@
+{
+  "isoType": "DateCode21Choice",
+  "definition": "Elección entre un código o un código propio para un código de fecha.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de fecha."
+    },
+    "Proprietary": {
+      "definition": "Identificación propia del tipo de fecha."
+    }
+  }
+}

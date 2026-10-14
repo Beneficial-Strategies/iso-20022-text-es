@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason33Choice",
+  "definition": "Elección de formatos para la especificación del motivo de rechazo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de rechazo expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo de rechazo expresado como código propietario."
+    }
+  }
+}

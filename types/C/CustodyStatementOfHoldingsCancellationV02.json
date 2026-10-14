@@ -1,0 +1,4 @@
+{
+  "isoType": "CustodyStatementOfHoldingsCancellationV02",
+  "definition": "Alcance|Un gestor de cuenta, por ejemplo, un agente de transferencias, envía el mensaje CustodyStatementOfHoldingsCancellation al titular de la cuenta, por ejemplo, un gestor de inversiones o su representante autorizado, para cancelar un mensaje CustodyStatementOfHoldings enviado previamente.|Uso|El mensaje CustodyStatementOfHoldingsCancellation se utiliza para cancelar un mensaje CustodyStatementOfHoldings enviado previamente. Este mensaje debe contener la referencia del mensaje que se va a cancelar.|Este mensaje también puede contener detalles del mensaje que se va a cancelar, pero no se recomienda."
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMReconciliationAdvice3",
+  "definition": "Información relativa a la conciliación de un cajero automático (ATM).",
+  "isoElements": {
+    "Environment": {
+      "definition": "Entorno del cajero automático (ATM)."
+    },
+    "CommandResult": {
+      "definition": "Resultado del comando de reinicialización de los contadores de operaciones."
+    },
+    "CommandContext": {
+      "definition": "Parte que ha solicitado la conciliación."
+    },
+    "Transaction": {
+      "definition": "Información sobre la solicitud de conciliación."
+    }
+  }
+}

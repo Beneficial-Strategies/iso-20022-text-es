@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification126Choice",
+  "definition": "Elección de formatos para la identificación de una parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Identificación de la parte expresada como BIC."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identificador único e inequívoco asignado a la parte mediante un esquema de identificación propietario."
+    }
+  }
+}

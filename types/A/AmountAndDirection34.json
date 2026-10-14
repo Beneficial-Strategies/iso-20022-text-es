@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection34",
+  "definition": "Importe de dinero expresado con un código de divisa opcional y un indicador de adeudo/abono.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero que supone un aumento (con signo positivo) o una disminución (con signo negativo), con especificación de la divisa."
+    },
+    "Sign": {
+      "definition": "Indica que el valor del importe es positivo o negativo."
+    }
+  }
+}

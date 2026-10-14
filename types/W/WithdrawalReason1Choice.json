@@ -1,0 +1,12 @@
+{
+  "isoType": "WithdrawalReason1Choice",
+  "definition": "Elección de formatos para un motivo de retirada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de la retirada expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo de la retirada expresado como código propietario."
+    }
+  }
+}

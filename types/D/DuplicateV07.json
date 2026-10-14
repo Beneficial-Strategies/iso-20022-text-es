@@ -1,0 +1,4 @@
+{
+  "isoType": "DuplicateV07",
+  "definition": "Ámbito|El mensaje Duplicate lo utilizan las entidades financieras, con sus propias oficinas y/o con otras entidades financieras con las que han establecido acuerdos bilaterales. Permite intercambiar duplicados de instrucciones de pago.|Uso|Este mensaje debe enviarse en respuesta a un mensaje RequestForDuplicate.|El elemento Duplicate Data debe contener un documento XML bien formado. Esto significa que los caracteres especiales de XML, como '<', deben utilizarse de forma coherente con los criterios de buena formación de XML."
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAvailability1",
+  "definition": "Indica cuándo estará disponible el importe, es decir, cuándo se podrá acceder a él y empezará a generar intereses.",
+  "isoElements": {
+    "Date": {
+      "definition": "Indica cuándo estará disponible el importe."
+    },
+    "Amount": {
+      "definition": "Identifica el importe disponible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el saldo de disponibilidad es acreedor o deudor.|Uso: un saldo cero se considera un saldo acreedor."
+    }
+  }
+}

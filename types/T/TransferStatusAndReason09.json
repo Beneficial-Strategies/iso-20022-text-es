@@ -1,0 +1,98 @@
+{
+  "isoType": "TransferStatusAndReason09",
+  "definition": "Información sobre el estado de una instrucción de transferencia y su motivo.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de un grupo de transferencias individuales, asignado por la parte instructora. Este identificador vincula entre sí las transferencias individuales."
+    },
+    "TransferReference": {
+      "definition": "Identificación única e inequívoca de la transferencia, asignada por la parte instructora."
+    },
+    "ClientReference": {
+      "definition": "Identificación única e inequívoca de la transferencia por parte del inversor. Esta referencia suele poder utilizarse en un escenario de concentrador (hub) para indicar la referencia de la transferencia asignada por el cliente subyacente."
+    },
+    "CancellationReference": {
+      "definition": "Identificador único e inequívoco de una cancelación de transferencia, asignado por la parte instructora."
+    },
+    "TransferEventType": {
+      "definition": "Tipo de evento por el que se envía el mensaje."
+    },
+    "TransferStatus": {
+      "definition": "Estado de la instrucción de transferencia."
+    },
+    "Instrument": {
+      "definition": "Identificación del activo."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Información de la cuenta de inversión de la transferencia para la que se facilita el estado o la información."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identificación de una parte relacionada o de un intermediario."
+    },
+    "TradeDate": {
+      "definition": "Fecha en la que se ejecutó la transferencia.|En algunos escenarios, es la fecha y hora que se utilizará como fecha de contratación cuando los valores se liquidan a través de un depositario central internacional de valores (ICSD) o un depositario central de valores (CSD)."
+    },
+    "SettlementDate": {
+      "definition": "Fecha en la que los valores se van a intercambiar o se intercambiaron en el depositario central internacional de valores (ICSD) o en el depositario central de valores (CSD)."
+    },
+    "SendOutDate": {
+      "definition": "Fecha en la que se envió el documento, por ejemplo, el formulario de solicitud."
+    },
+    "CashSettlementDate": {
+      "definition": "Fecha en la que el efectivo está disponible."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Número de participaciones que se van a transferir."
+    },
+    "AveragePrice": {
+      "definition": "Precio medio ponderado de las participaciones de la cuenta. El precio medio también puede conocerse como precio medio de adquisición."
+    },
+    "UnitsDetails": {
+      "definition": "Desglose de las participaciones que se van a transferir."
+    },
+    "Conversion": {
+      "definition": "Información sobre el valor de origen tras una conversión."
+    },
+    "TotalTransferValue": {
+      "definition": "Valor total de la transferencia."
+    },
+    "PaymentDetails": {
+      "definition": "Detalles de un pago que resultará de la liquidación de un activo y la transferencia de efectivo, o que resulta de ella, o de la transferencia de efectivo que no se invirtió."
+    },
+    "BenefitCrystallisationEvent": {
+      "definition": "Información sobre la realización de las prestaciones obtenidas de una pensión."
+    },
+    "DrawdownTranche": {
+      "definition": "Detalles de un tramo de disposición."
+    },
+    "OtherDrawdownInformation": {
+      "definition": "Información de disposición no asociada específicamente a un tramo de disposición."
+    },
+    "QueryResponse": {
+      "definition": "Información de respuesta."
+    },
+    "StatusInitiator": {
+      "definition": "Parte que inicia el estado."
+    },
+    "StatusIssuer": {
+      "definition": "Parte que emite el mensaje de estado o de información."
+    },
+    "StatusRecipient": {
+      "definition": "Parte que recibe el mensaje de estado o de información."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el estado."
+    }
+  },
+  "isoRules": {
+    "TransferStatusEventType1Rule": {
+      "definition": "Si al menos una ocurrencia de TransferEventType es Information (INFO), entonces TransferStatus/Status/Status debe ser igual a Received (RECE)."
+    },
+    "TransferStatusEventType2Rule": {
+      "definition": "Si al menos una ocurrencia de TransferEventType es ConversionStatus (CONV), entonces TransferStatus/Status/Status debe ser igual a Received (RECE)."
+    },
+    "ConversionRule": {
+      "definition": "Si al menos una ocurrencia de TransferEventType es ConversionStatus (CONV), entonces Conversion debe estar presente."
+    }
+  }
+}

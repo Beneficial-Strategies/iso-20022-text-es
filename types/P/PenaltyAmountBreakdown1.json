@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyAmountBreakdown1",
+  "definition": "Especifica el desglose de la penalización en subimportes.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de la penalización definido por tipo de importe."
+    },
+    "Type": {
+      "definition": "Tipo de importe para el desglose de la penalización."
+    }
+  }
+}

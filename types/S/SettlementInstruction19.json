@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementInstruction19",
+  "definition": "Proporciona más detalles sobre la liquidación de la instrucción.",
+  "isoElements": {
+    "RequestedSettlementDate": {
+      "definition": "Fecha en la que el remitente del mensaje o el ChargesRequestor donde figura este elemento espera recibir el abono del pago de los cargos."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que administra una cuenta para el beneficiario."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del beneficiario en su entidad administradora a la que se efectuará un abono como resultado de la operación de pago."
+    },
+    "Creditor": {
+      "definition": "Entidad financiera que recibe un importe del ordenante, que es una entidad financiera.||Uso: cuando se utilice, esta parte debe ser la misma que el remitente del mensaje o el ChargesRequestor donde figura este elemento."
+    },
+    "CreditorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del beneficiario en la que se contabilizará un abono como resultado de la operación de pago.||Uso: cuando se utilice, esta cuenta debe pertenecer al remitente del mensaje o al ChargesRequestor donde figura este elemento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorProfileStatus1Choice",
+  "definition": "Elección de formatos para el estado del perfil del inversor.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado del perfil del inversor expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Estado del perfil del inversor expresado como código propietario."
+    }
+  }
+}

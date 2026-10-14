@@ -1,0 +1,22 @@
+{
+  "isoType": "DeemedRateType1Code",
+  "definition": "Especifica el tipo de un tipo presunto.",
+  "isoCodes": {
+    "DEDI": {
+      "name": "Producto de dividendo presunto",
+      "definition": "Tipo presunto de ingresos por dividendos atribuido al titular de los valores."
+    },
+    "DEFP": {
+      "name": "Producto de fondo presunto",
+      "definition": "Tipo presunto de ingresos del fondo atribuido al titular de los valores."
+    },
+    "DEIT": {
+      "name": "Producto de intereses presuntos",
+      "definition": "Tipo presunto de ingresos por intereses atribuido al titular de los valores."
+    },
+    "DERY": {
+      "name": "Producto de regalías presuntas",
+      "definition": "Tipo presunto de ingresos por cánones atribuido al titular de los valores."
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "isoType": "RejectionReason86Code",
+  "definition": "Especifica el motivo por el que la solicitud de instrucción tiene un estado rechazado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "CERT": {
+      "name": "Certificación incorrecta",
+      "definition": "La instrucción se rechaza porque la certificación facilitada es incorrecta o incompleta."
+    },
+    "INVA": {
+      "name": "No válido para las autoridades fiscales",
+      "definition": "En el caso de la devolución de impuestos, la solicitud de devolución no es válida para las autoridades tributarias."
+    },
+    "OPTY": {
+      "name": "Tipo de opción no válido",
+      "definition": "Tipo de opción no válido."
+    },
+    "ULNK": {
+      "name": "Referencia no válida",
+      "definition": "La referencia vinculada es desconocida."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "LACK": {
+      "name": "Falta de valores",
+      "definition": "La posición instruida excede el saldo admisible."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "NMTY": {
+      "name": "Discrepancia",
+      "definition": "No coinciden el número de opción y el tipo de opción."
+    },
+    "FULL": {
+      "name": "Faltan los datos del titular beneficiario",
+      "definition": "Rechazado por falta de datos del beneficiario efectivo."
+    },
+    "CANC": {
+      "name": "Opción cancelada",
+      "definition": "La opción no es válida; ha sido cancelada por el mercado o el proveedor de servicios y no puede responderse. Cualquier respuesta ya procesada para esta opción se considera nula y se requerirán nuevas respuestas."
+    },
+    "INTV": {
+      "name": "Opción inactiva",
+      "definition": "La opción no está activa y ya no puede responderse. Cualquier respuesta ya procesada para esta opción seguirá siendo válida, por ejemplo, opción vencida."
+    },
+    "OPNM": {
+      "name": "Rechazo por número de opción",
+      "definition": "Número de opción no reconocido."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "REFT": {
+      "name": "Rechazado por las autoridades fiscales",
+      "definition": "La solicitud de devolución es rechazada por las autoridades tributarias."
+    },
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "EVNM": {
+      "name": "Identificación no reconocida",
+      "definition": "Número de evento no reconocido."
+    },
+    "DQCS": {
+      "name": "Rechazo por importe",
+      "definition": "Importe en efectivo instruido no reconocido o no válido."
+    },
+    "DQCC": {
+      "name": "Rechazo por divisa",
+      "definition": "Divisa instruida no válida."
+    },
+    "DQAM": {
+      "name": "Rechazo por tipo de instrucción",
+      "definition": "Uso no válido de los calificadores de importe instruido (QCAS) o de cantidad instruida (QINS)."
+    },
+    "IRDQ": {
+      "name": "Uso no válido de la cantidad de redondeo al alza",
+      "definition": "La instrucción se rechaza por uso no válido de la cantidad adicional de redondeo al alza."
+    },
+    "DQBV": {
+      "name": "Valor de oferta no válido",
+      "definition": "El precio de oferta, los puntos básicos o el porcentaje quedan fuera del rango de ofertas del evento (utilizado generalmente en subastas holandesas u ofertas de licitación)."
+    },
+    "DQBI": {
+      "name": "Incremento de oferta no válido",
+      "definition": "Los incrementos del precio de oferta, de los puntos básicos o del porcentaje se rechazan debido a un incremento de oferta no válido para el evento (utilizado generalmente en subastas holandesas u ofertas de licitación)."
+    },
+    "DCAN": {
+      "name": "Rechazado por estar ya cancelado",
+      "definition": "La solicitud de cancelación fue rechazada porque la instrucción ya ha sido cancelada."
+    },
+    "DPRG": {
+      "name": "Rechazado por estar en curso",
+      "definition": "La solicitud de cancelación ha sido rechazada porque el proceso de la instrucción está en curso o ya ha sido procesada."
+    },
+    "INIR": {
+      "name": "Instrucción irrevocable",
+      "definition": "La instrucción es irrevocable."
+    },
+    "SHAR": {
+      "name": "Rechazo por número de accionista",
+      "definition": "Número de accionista no reconocido, ausente o no válido."
+    },
+    "BSTR": {
+      "name": "Antes del periodo de instrucción",
+      "definition": "La instrucción se presenta antes de la fecha de inicio de la instrucción."
+    },
+    "CTCT": {
+      "name": "Contacto ausente",
+      "definition": "Falta la información de contacto."
+    },
+    "DUPL": {
+      "name": "Instrucción duplicada",
+      "definition": "La instrucción se rechaza por duplicidad del identificador de mensaje de negocio."
+    },
+    "PROI": {
+      "name": "Identificación de protección ausente",
+      "definition": "Se requiere la identificación de protección para las instrucciones de cobertura de protección."
+    },
+    "PROT": {
+      "name": "Fecha de protección ausente",
+      "definition": "Se requiere la fecha de protección para las instrucciones de cobertura de protección."
+    },
+    "PRON": {
+      "name": "Sin privilegio de protección",
+      "definition": "No hay privilegio de protección para este evento."
+    },
+    "TRTI": {
+      "name": "Tipo de operación ausente",
+      "definition": "El tipo de operación falta o no es válido para las instrucciones de protección o de cobertura de protección."
+    },
+    "REJA": {
+      "name": "Rechazado por el agente del emisor",
+      "definition": "Instrucción rechazada por el agente del emisor."
+    },
+    "IPAW": {
+      "name": "Documentación no válida",
+      "definition": "La documentación requerida no es válida, está incompleta o falta."
+    },
+    "IPED": {
+      "name": "Instrucción anterior a la fecha de derechos",
+      "definition": "La instrucción se recibió antes de la fecha de derecho."
+    }
+  }
+}

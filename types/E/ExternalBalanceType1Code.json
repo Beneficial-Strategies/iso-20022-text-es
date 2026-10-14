@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalBalanceType1Code",
+  "definition": "Especifica el tipo de saldo, tal como se publica en un conjunto de códigos externo de tipos de saldo.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "CLAV": {
+      "name": "Disponible al cierre",
+      "definition": "Saldo final del importe de dinero que está a disposición del titular de la cuenta en la fecha indicada."
+    },
+    "CLBD": {
+      "name": "Contabilizado al cierre",
+      "definition": "Saldo de la cuenta al final del periodo de información de la cuenta acordado previamente. Es la suma del saldo inicial contabilizado al comienzo del periodo y de todos los apuntes contabilizados en la cuenta durante el periodo de información de la cuenta acordado previamente."
+    },
+    "FWAV": {
+      "name": "Disponible a futuro",
+      "definition": "Saldo disponible a futuro del dinero que está a disposición del titular de la cuenta en la fecha indicada."
+    },
+    "INFO": {
+      "name": "Información",
+      "definition": "Saldo con fines informativos."
+    },
+    "ITAV": {
+      "name": "Disponible provisional",
+      "definition": "Saldo disponible calculado en el transcurso del día hábil de la entidad gestora de la cuenta, a la hora indicada y sujeto a nuevos cambios durante el día hábil. El saldo intermedio se calcula sobre la base de los apuntes de crédito y débito contabilizados durante la hora o el periodo de cálculo indicados."
+    },
+    "ITBD": {
+      "name": "Contabilizado provisional",
+      "definition": "Saldo calculado en el transcurso de la jornada laboral de la entidad gestora de la cuenta, en el momento especificado, y sujeto a nuevos cambios durante la jornada laboral. El saldo intermedio se calcula sobre la base de las partidas de crédito y de débito contabilizadas durante el momento o período de cálculo especificado."
+    },
+    "OPAV": {
+      "name": "Disponible a la apertura",
+      "definition": "Saldo inicial del importe de dinero que está a disposición del titular de la cuenta en la fecha indicada."
+    },
+    "OPBD": {
+      "name": "Contabilizado a la apertura",
+      "definition": "Saldo contable de la cuenta al comienzo del periodo de información de la cuenta. Siempre es igual al saldo contable final del informe anterior."
+    },
+    "PRCD": {
+      "name": "Contabilizado cerrado anteriormente",
+      "definition": "Saldo de la cuenta en el periodo de información de la cuenta cerrado anteriormente. El saldo inicial contabilizado del nuevo periodo debe ser igual a este saldo.|Uso: el saldo final contabilizado anteriormente debe ser igual (fecha inclusive) al saldo final contabilizado de la fecha a la que hace referencia e igual al saldo inicial contabilizado real de la fecha actual."
+    },
+    "XPCD": {
+      "name": "Previsto",
+      "definition": "Saldo, compuesto por los apuntes contabilizados y las partidas pendientes conocidas en el momento del cálculo, que proyecta el saldo al final del día si todo se contabiliza en la cuenta y no se registra ningún otro apunte."
+    }
+  }
+}

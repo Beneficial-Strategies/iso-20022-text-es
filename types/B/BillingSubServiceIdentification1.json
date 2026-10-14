@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingSubServiceIdentification1",
+  "definition": "Especifica la identificación de un subservicio de facturación.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Especifica el calificador del subservicio."
+    },
+    "Identification": {
+      "definition": "Define con mayor detalle un servicio de la entidad financiera mediante el valor requerido por el calificador del subservicio, como el número de buzón o de establecimiento reales."
+    }
+  }
+}

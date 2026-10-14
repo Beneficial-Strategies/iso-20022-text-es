@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountRequestAcknowledgementV04",
+  "definition": "El mensaje AccountRequestAcknowledgement lo envía una entidad financiera a una organización. Este mensaje se envía en respuesta a un mensaje de solicitud de la organización. Se envía una vez validada la solicitud desde el punto de vista de la autenticación y la autorización. En esta fase, el contenido comercial aún no ha sido validado."
+}

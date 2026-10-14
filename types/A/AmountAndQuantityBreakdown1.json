@@ -1,0 +1,18 @@
+{
+  "isoType": "AmountAndQuantityBreakdown1",
+  "definition": "Detalles del desglose de un importe o cantidad.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identificación, a efectos fiscales, de un lote de valores idénticos que se compraron en una fecha determinada y a un precio determinado."
+    },
+    "LotAmount": {
+      "definition": "Importe de dinero que forma parte del lote descrito."
+    },
+    "LotQuantity": {
+      "definition": "Cantidad de instrumentos financieros que forma parte del lote descrito."
+    },
+    "CashSubBalanceType": {
+      "definition": "Especifica el indicador del tipo de subsaldo de valores (por ejemplo, el tipo de restricción para una infraestructura de mercado)."
+    }
+  }
+}

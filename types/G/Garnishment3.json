@@ -1,0 +1,30 @@
+{
+  "isoType": "Garnishment3",
+  "definition": "Proporciona información de remesa sobre un pago con fines relacionados con un embargo.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de embargo."
+    },
+    "Garnishee": {
+      "definition": "Parte final que debe un importe de dinero al beneficiario (final), en este caso, al embargante."
+    },
+    "GarnishmentAdministrator": {
+      "definition": "Parte en el lado del crédito de la operación que administra el embargo en nombre del beneficiario final."
+    },
+    "ReferenceNumber": {
+      "definition": "Información de referencia específica del organismo que recibe el embargo."
+    },
+    "Date": {
+      "definition": "Fecha del pago del que se dedujo el embargo."
+    },
+    "RemittedAmount": {
+      "definition": "Importe de dinero remitido por el documento referenciado."
+    },
+    "FamilyMedicalInsuranceIndicator": {
+      "definition": "Indica si la persona a la que se aplica el embargo (es decir, el ordenante final) dispone de cobertura de seguro médico familiar."
+    },
+    "EmployeeTerminationIndicator": {
+      "definition": "Indica si se ha dado por terminado el empleo de la persona a la que se aplica el embargo (es decir, el ordenante final)."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "DebitAuthorisation3",
+  "definition": "Proporciona el motivo de la solicitud de autorización de adeudo, así como el importe del adeudo solicitado.",
+  "isoElements": {
+    "CancellationReason": {
+      "definition": "Especifica el motivo de la solicitud de cancelación."
+    },
+    "AmountToDebit": {
+      "definition": "Importe de dinero solicitado para la autorización de adeudo."
+    },
+    "Account": {
+      "definition": "Cuenta cuyo adeudo se solicita."
+    },
+    "ValueDateToDebit": {
+      "definition": "Fecha de valor del adeudo del importe."
+    },
+    "AdditionalCancellationReasonInformation": {
+      "definition": "Detalles adicionales sobre el motivo de la cancelación."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "GroupHeader124",
+  "definition": "Proporciona las características compartidas por todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena para identificar el mensaje de forma inequívoca.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por cada parte instruida durante un período acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "Authorisation": {
+      "definition": "Identificación del usuario o cualquier clave de usuario que se utilice para comprobar si la parte iniciadora está autorizada a iniciar operaciones desde la cuenta especificada en el mensaje.||Uso: El contenido no es de naturaleza técnica, sino que refleja la estructura organizativa del lado iniciador.|El elemento de autorización puede utilizarse normalmente en escenarios de retransmisión, iniciaciones de pago, devoluciones de pago o reversiones de pago que se inician en nombre de una parte distinta de la parte iniciadora."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operaciones individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, independientemente de las monedas."
+    },
+    "GroupReversal": {
+      "definition": "Indica si la reversión se aplica a todo el grupo de operaciones o a operaciones individuales del grupo original."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia el mensaje de reversión.|Uso: Puede ser el beneficiario o una parte que inicia la reversión del adeudo directo en nombre del beneficiario."
+    },
+    "ForwardingAgent": {
+      "definition": "Entidad financiera que recibe la instrucción de la parte iniciadora y la reenvía a la siguiente entidad de la cadena de pago."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "CreditorAgent": {
+      "definition": "Entidad financiera que presta servicios sobre una cuenta del beneficiario."
+    }
+  },
+  "isoRules": {
+    "ControlSumAndGroupReversalRule": {
+      "definition": "Si GroupReversal es true, ControlSum no está permitido."
+    },
+    "GroupReversalAndNumberOfTransactionsGuideline": {
+      "definition": "Si GroupReversal es true, NumberOfTransactions es igual al número de operaciones del mensaje original."
+    }
+  }
+}

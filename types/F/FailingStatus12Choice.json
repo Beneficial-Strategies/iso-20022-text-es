@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingStatus12Choice",
+  "definition": "Elección del estado de incumplimiento.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo del estado de fallida."
+    }
+  }
+}

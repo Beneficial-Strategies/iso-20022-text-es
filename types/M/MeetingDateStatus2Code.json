@@ -1,0 +1,14 @@
+{
+  "isoType": "MeetingDateStatus2Code",
+  "definition": "Especifica un estado para la fecha de una junta.",
+  "isoCodes": {
+    "CNFR": {
+      "name": "Confirmado",
+      "definition": "La fecha de la junta está confirmada."
+    },
+    "TNTA": {
+      "name": "Provisional",
+      "definition": "La fecha de la junta es provisional."
+    }
+  }
+}

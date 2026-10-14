@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxType3Code",
+  "definition": "Tipo de impuesto.",
+  "isoCodes": {
+    "LIDT": {
+      "name": "Impuesto local alemán 2",
+      "definition": "Impuesto local (ZAS pflichtige Zinsen): intereses sujetos al impuesto sobre pagos anticipados de intereses (proporción de los intereses brutos por unidad o de los beneficios provisionales que no está cubierta por el crédito en el fondo de intereses)."
+    },
+    "WITF": {
+      "name": "Retención de impuestos extranjeros",
+      "definition": "Tasa a la que la jurisdicción en la que se pagó originalmente el ingreso retendrá dicho ingreso, y para la cual puede ser posible una desgravación en origen y/o una reclamación."
+    },
+    "WITL": {
+      "name": "Retención de impuestos locales",
+      "definition": "Tasa a la que la jurisdicción en la que se encuentra el titular de la cuenta retendrá el ingreso, y para la cual puede ser posible una desgravación en origen y/o una reclamación."
+    }
+  }
+}

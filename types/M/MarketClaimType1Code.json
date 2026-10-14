@@ -1,0 +1,14 @@
+{
+  "isoType": "MarketClaimType1Code",
+  "definition": "Especifica el tipo de reclamación de mercado en el contexto de un evento de distribución de una operación societaria.",
+  "isoCodes": {
+    "MKTC": {
+      "name": "Reclamación de mercado",
+      "definition": "Reclamación de mercado creada debido a una operación de liquidación pendiente o fallida, para garantizar que los importes del evento se entreguen del vendedor al comprador."
+    },
+    "RVMC": {
+      "name": "Reclamación de mercado inversa",
+      "definition": "Reclamación de mercado creada debido a una operación de liquidación liquidada, para garantizar que los importes del evento se entreguen del comprador al vendedor."
+    }
+  }
+}

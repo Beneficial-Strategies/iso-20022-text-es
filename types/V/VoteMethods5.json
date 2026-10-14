@@ -1,0 +1,18 @@
+{
+  "isoType": "VoteMethods5",
+  "definition": "Información sobre los métodos de voto que se utilizarán.",
+  "isoElements": {
+    "VoteThroughNetwork": {
+      "definition": "Dirección de red a través de la cual una parte votante puede emitir su voto mediante un mensaje estructurado."
+    },
+    "VoteByMail": {
+      "definition": "Dirección a la que puede enviarse la papeleta de voto."
+    },
+    "ElectronicVote": {
+      "definition": "Dirección electrónica, correo electrónico o sitio web, donde un titular de valores puede votar."
+    },
+    "VoteByTelephone": {
+      "definition": "Número de teléfono que da acceso a un sistema de votación automatizado."
+    }
+  }
+}

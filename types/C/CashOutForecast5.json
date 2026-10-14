@@ -1,0 +1,29 @@
+{
+  "isoType": "CashOutForecast5",
+  "definition": "Movimientos de efectivo de salida de un fondo como resultado de operaciones de fondos de inversión, por ejemplo, reembolsos o traspasos de salida.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Fecha en la que el efectivo está disponible."
+    },
+    "SubTotalAmount": {
+      "definition": "Importe subtotal del flujo de efectivo de salida, expresado como importe de dinero."
+    },
+    "SubTotalUnitsNumber": {
+      "definition": "Importe subtotal del flujo de efectivo de salida, expresado como número de participaciones."
+    },
+    "ExceptionalCashFlowIndicator": {
+      "definition": "Indica si el flujo de efectivo de salida estimado es excepcional."
+    },
+    "CashOutBreakdownDetails": {
+      "definition": "Desglose de los importes de salida de efectivo por operación y tipo de orden."
+    },
+    "AdditionalBalance": {
+      "definition": "Saldos adicionales de importes de efectivo y número de participaciones. |En un informe estimado, el efectivo total procedente de órdenes cursadas como número de participaciones es un importe de efectivo estimado, y el número total de participaciones procedentes de órdenes cursadas como importe de efectivo es un número de participaciones estimado."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "Si AdditionalBalance está presente, debe estar presente al menos uno de los elementos de la lista (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders)."
+    }
+  }
+}

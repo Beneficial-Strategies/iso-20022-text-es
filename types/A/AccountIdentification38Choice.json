@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification38Choice",
+  "definition": "Identificación única de la cuenta de valores o de la cuenta de efectivo de la que es titular el cliente.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificación única de la cuenta de valores, asignada por la entidad gestora de la cuenta."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identificación única de la cuenta de efectivo, asignada por la entidad gestora de la cuenta."
+    }
+  }
+}

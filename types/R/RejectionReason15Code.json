@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason15Code",
+  "definition": "Especifica el motivo del rechazo de un aviso de información.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "TrackerRecord5",
+  "definition": "Especifica la información del sistema de seguimiento propia de la entidad para una operación de pago.",
+  "isoElements": {
+    "Agent": {
+      "definition": "Identificación de una entidad en el sistema de seguimiento."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica qué parte o partes soportarán los gastos asociados al tratamiento de la operación de pago."
+    },
+    "ChargesAmount": {
+      "definition": "Gastos de la operación que debe pagar el responsable de los gastos."
+    },
+    "ExchangeRateData": {
+      "definition": "Proporciona los detalles del tipo y de las divisas utilizadas en el cambio de divisas."
+    }
+  }
+}

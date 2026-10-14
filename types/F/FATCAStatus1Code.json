@@ -1,0 +1,50 @@
+{
+  "isoType": "FATCAStatus1Code",
+  "definition": "Especifica el estado conforme a la Ley de Cumplimiento Tributario de Cuentas en el Extranjero (FATCA).",
+  "isoCodes": {
+    "F101": {
+      "name": "FATCA101",
+      "definition": "El tipo de titular de la cuenta es una entidad financiera con documentación del propietario, con propietario(s) US especificado(s)."
+    },
+    "F102": {
+      "name": "FATCA102",
+      "definition": "El tipo de titular de la cuenta es una entidad no financiera pasiva con propietario(s) US sustancial(es)."
+    },
+    "F103": {
+      "name": "FATCA103",
+      "definition": "El tipo de titular de la cuenta es una entidad financiera no participante."
+    },
+    "F104": {
+      "name": "FATCA104",
+      "definition": "El tipo de titular de la cuenta es una persona US especificada."
+    },
+    "F105": {
+      "name": "FATCA105",
+      "definition": "El tipo de titular de la cuenta es una entidad extranjera no financiera (NFFE) que informa directamente."
+    },
+    "F201": {
+      "name": "FATCA201",
+      "definition": "El tipo de información de grupo de cuentas es un titular de cuenta recalcitrante con indicios US."
+    },
+    "F202": {
+      "name": "FATCA202",
+      "definition": "El tipo de información de grupo de cuentas es un titular de cuenta recalcitrante sin indicios US."
+    },
+    "F203": {
+      "name": "FATCA203",
+      "definition": "El tipo de información de grupo de cuentas es una cuenta inactiva."
+    },
+    "F204": {
+      "name": "FATCA204",
+      "definition": "El tipo de información de grupo de cuentas es una entidad financiera extranjera no participante."
+    },
+    "F205": {
+      "name": "FATCA205",
+      "definition": "El tipo de información de grupo de cuentas es un titular de cuenta recalcitrante que es una persona US."
+    },
+    "F206": {
+      "name": "FATCA206",
+      "definition": "El tipo de información de grupo de cuentas es un titular de cuenta recalcitrante que es una entidad extranjera no financiera (NFFE) pasiva."
+    }
+  }
+}

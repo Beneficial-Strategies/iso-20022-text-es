@@ -1,0 +1,24 @@
+{
+  "isoType": "CashOption109",
+  "definition": "Proporciona información sobre la opción en efectivo.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indica si el valor es un adeudo o un abono."
+    },
+    "Account": {
+      "definition": "Elección entre una cuenta de efectivo, una cuenta de gastos o una cuenta de impuestos."
+    },
+    "PostingDate": {
+      "definition": "Fecha y hora de la contabilización (abono o adeudo) en la cuenta."
+    },
+    "OriginalPostingDate": {
+      "definition": "Fecha y hora de la contabilización (abono o adeudo) en la cuenta que se comunicó inicialmente en la confirmación."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que se calcula el beneficio económico de un importe en efectivo."
+    },
+    "PostingAmount": {
+      "definition": "Importe de dinero que se ha de contabilizar (o se contabilizó) en la cuenta."
+    }
+  }
+}

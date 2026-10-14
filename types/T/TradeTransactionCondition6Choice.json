@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeTransactionCondition6Choice",
+  "definition": "Elección del formato para la condición de la operación de negociación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condiciones de la operación expresadas como un código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Condiciones de la operación expresadas como un código propio (propietario)."
+    }
+  }
+}

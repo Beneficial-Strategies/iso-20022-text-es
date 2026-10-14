@@ -1,0 +1,15 @@
+{
+  "isoType": "DisclosureRequestIdentification1",
+  "definition": "Información que identifica la solicitud de divulgación de la identificación de accionistas publicada por el emisor o por el tercero designado por este con el fin de recibir las respuestas de divulgación de los intermediarios de la cadena de custodia.",
+  "isoElements": {
+    "IssuerDisclosureRequestIdentification": {
+      "definition": "Referencia oficial y única asignada a un proceso de solicitud de divulgación de la identificación de accionistas por el emisor o por el tercero designado por él."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica el instrumento financiero."
+    },
+    "ShareholdersDisclosureRecordDate": {
+      "definition": "Fecha fijada por el emisor en la que se determina la identidad de los accionistas con base en las posiciones liquidadas registradas en los libros del CSD emisor o de cualquier otro primer intermediario al cierre del día hábil."
+    }
+  }
+}

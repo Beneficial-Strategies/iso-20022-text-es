@@ -1,0 +1,18 @@
+{
+  "isoType": "QueryType3Code",
+  "definition": "Especifica la naturaleza de la solicitud, es decir, si debe devolverse toda la información o solo la información que ha cambiado desde que se devolvió la última solicitud similar.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Todos",
+      "definition": "Especifica que la consulta solicita que se devuelvan todos los elementos coincidentes."
+    },
+    "CHNG": {
+      "name": "Modificado",
+      "definition": "Especifica que la consulta solicita que solo se devuelvan los nuevos elementos coincidentes desde la última consulta similar."
+    },
+    "MODF": {
+      "name": "Modificado",
+      "definition": "Especifica que la consulta solicita que solo se devuelvan los elementos que han cambiado desde la última consulta."
+    }
+  }
+}

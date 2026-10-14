@@ -1,0 +1,18 @@
+{
+  "isoType": "Traceability4",
+  "definition": "Identificación de los participantes en el intercambio desde el cajero automático (ATM) hasta el emisor, con la marca de tiempo relativa de sus intercambios.",
+  "isoElements": {
+    "RelayIdentification": {
+      "definition": "Identificación de un participante en un intercambio de mensajes."
+    },
+    "SequenceNumber": {
+      "definition": "Identificación del nodo de retransmisión en la ruta, para permitir la identificación de varios hosts en paralelo."
+    },
+    "TraceDateTimeIn": {
+      "definition": "Fecha y hora del intercambio de datos entrante para su retransmisión o procesamiento."
+    },
+    "TraceDateTimeOut": {
+      "definition": "Fecha y hora del intercambio saliente para su retransmisión o procesamiento."
+    }
+  }
+}

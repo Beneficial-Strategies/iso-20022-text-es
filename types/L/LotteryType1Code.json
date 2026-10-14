@@ -1,0 +1,14 @@
+{
+  "isoType": "LotteryType1Code",
+  "definition": "Especifica el tipo de sorteo.",
+  "isoCodes": {
+    "ORIG": {
+      "name": "Notificación de sorteo original",
+      "definition": "Sorteo original que se ha anunciado por un importe y una fecha específicos."
+    },
+    "SUPP": {
+      "name": "Notificación de sorteo complementaria",
+      "definition": "Cantidad suplementaria o adicional llamada en un sorteo original anunciado previamente."
+    }
+  }
+}

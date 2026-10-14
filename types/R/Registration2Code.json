@@ -1,0 +1,22 @@
+{
+  "isoType": "Registration2Code",
+  "definition": "Especifica si el registro debe efectuarse a la recepción.",
+  "isoCodes": {
+    "PTYH": {
+      "name": "Retención por una parte",
+      "definition": "Usted o su parte puso la instrucción en modo de retención/bloqueo/preaviso."
+    },
+    "CSDH": {
+      "name": "Retención del CSD",
+      "definition": "El depositario central de valores pone la instrucción en modo de retención/bloqueo/preaviso."
+    },
+    "CDEL": {
+      "name": "Entrega condicional",
+      "definition": "La instrucción está en modo de retención/bloqueo/preaviso porque cumple reglas predefinidas de entrega condicional en la plataforma de la infraestructura de mercado para entrega condicional."
+    },
+    "CVAL": {
+      "name": "Validación del CSD",
+      "definition": "La instrucción está en modo de retención/bloqueo/preaviso porque cumple condiciones predefinidas de un tipo de procesamiento de restricción en la plataforma de la infraestructura de mercado."
+    }
+  }
+}

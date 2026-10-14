@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndIdentification25",
+  "definition": "Proceso global que abarca las operaciones de negociación y liquidación de instrumentos financieros.",
+  "isoElements": {
+    "Payment": {
+      "definition": "Especifica cómo se ha de liquidar la operación."
+    },
+    "TransactionIdentification": {
+      "definition": "Referencia de la operación."
+    },
+    "SettlementDate": {
+      "definition": "Identifica la fecha de liquidación prevista."
+    }
+  }
+}

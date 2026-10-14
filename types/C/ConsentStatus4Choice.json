@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentStatus4Choice",
+  "definition": "Elección de estado de consentimiento.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    },
+    "Reason": {
+      "definition": "Motivo facilitado para el estado."
+    }
+  }
+}

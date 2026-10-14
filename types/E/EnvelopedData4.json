@@ -1,0 +1,15 @@
+{
+  "isoType": "EnvelopedData4",
+  "definition": "Datos cifrados con una clave de cifrado.",
+  "isoElements": {
+    "Version": {
+      "definition": "Versión de la estructura de datos."
+    },
+    "Recipient": {
+      "definition": "Clave de sesión o identificación de la clave de protección utilizada por el destinatario."
+    },
+    "EncryptedContent": {
+      "definition": "Protección de datos mediante cifrado (sobre digital), con una clave de cifrado."
+    }
+  }
+}

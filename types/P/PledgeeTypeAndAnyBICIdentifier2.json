@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndAnyBICIdentifier2",
+  "definition": "Identificación de la entidad a cuyo favor están pignorados los instrumentos financieros, expresada mediante un código y un BIC.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación de la entidad a cuyo favor están pignorados los instrumentos financieros, expresada mediante un BIC."
+    },
+    "PledgeeType": {
+      "definition": "Entidad a cuyo favor están pignorados los instrumentos financieros, expresada mediante un código."
+    }
+  }
+}

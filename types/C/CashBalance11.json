@@ -1,0 +1,24 @@
+{
+  "isoType": "CashBalance11",
+  "definition": "Detalles del saldo de una cuenta de efectivo.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Moneda e importe de dinero del saldo de efectivo."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el saldo es un saldo acreedor o deudor. Un saldo cero se considera un saldo acreedor."
+    },
+    "Type": {
+      "definition": "Especifica la naturaleza de un saldo."
+    },
+    "Status": {
+      "definition": "Estado actual de un saldo de efectivo."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que el saldo está o estará disponible."
+    },
+    "NumberOfPayments": {
+      "definition": "Número de pagos tenidos en cuenta para el cálculo del valor del saldo de efectivo."
+    }
+  }
+}

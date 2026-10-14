@@ -1,0 +1,9 @@
+{
+  "isoType": "NoSpecifiedReason1",
+  "definition": "No hay ningún motivo especificado disponible para el estado.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que no hay ningún motivo disponible o que notificar."
+    }
+  }
+}

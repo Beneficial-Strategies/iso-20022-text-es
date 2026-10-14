@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionProcessingStatus6Choice",
+  "definition": "Especifica el estado de los detalles del evento de la operación societaria.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el estado de los detalles del evento de la operación societaria."
+    },
+    "Proprietary": {
+      "definition": "Información relacionada con una identificación, por ejemplo, la identificación de una parte o de una cuenta."
+    }
+  }
+}

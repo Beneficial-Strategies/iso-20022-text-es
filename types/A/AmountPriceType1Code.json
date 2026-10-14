@@ -1,0 +1,22 @@
+{
+  "isoType": "AmountPriceType1Code",
+  "definition": "Especifica el tipo de precio por importe.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Importe real",
+      "definition": "Precio expresado como divisa e importe por unidad o por acción."
+    },
+    "DISC": {
+      "name": "Descuento",
+      "definition": "Precio expresado como importe de descuento."
+    },
+    "PLOT": {
+      "name": "Lote",
+      "definition": "Precio expresado como importe de dinero por lote."
+    },
+    "PREM": {
+      "name": "Prima",
+      "definition": "Precio expresado como prima."
+    }
+  }
+}

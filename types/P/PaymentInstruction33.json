@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstruction33",
+  "definition": "Proporciona detalles sobre la instrucción de pago.",
+  "isoElements": {
+    "Instruction": {
+      "definition": "Información adicional relacionada con el procesamiento de la instrucción de pago. La instrucción puede referirse a un nivel de servicio entre la entidad y el cliente, o dar instrucciones a y para partes específicas de la cadena de pago.|."
+    },
+    "Type": {
+      "definition": "Tipo o naturaleza del pago, por ejemplo, un pago urgente."
+    },
+    "Priority": {
+      "definition": "Urgencia u orden de importancia que el originante desea que el destinatario de la instrucción de pago aplique al procesamiento de la instrucción de pago.|."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Intervalo de fecha y hora dentro del cual debe procesarse la instrucción de pago.|."
+    }
+  }
+}

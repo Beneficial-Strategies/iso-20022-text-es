@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountOpeningAmendmentRequestV05",
+  "definition": "El mensaje AccountOpeningAmendmentRequest lo envía una organización a una entidad financiera como parte del proceso de apertura de cuenta. Se envía en respuesta a una solicitud de la entidad financiera de enviar información adicional."
+}

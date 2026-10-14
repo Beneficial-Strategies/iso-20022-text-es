@@ -1,0 +1,15 @@
+{
+  "isoType": "PenaltyRate1",
+  "definition": "Especifica los datos de la tasa de penalización si el valor está sujeto a penalizaciones.",
+  "isoElements": {
+    "MarketIdentification": {
+      "definition": "Lugar de negociación de la operación relacionada."
+    },
+    "SMEGrowthMarket": {
+      "definition": "Clasificación binaria que indica si el valor se negoció o no en un mercado de pymes en expansión.||Uso: Si no se proporciona, el indicador no es relevante para el cálculo de la penalización (SME)."
+    },
+    "Rate": {
+      "definition": "Tasa de penalización aplicable al tipo de activo."
+    }
+  }
+}

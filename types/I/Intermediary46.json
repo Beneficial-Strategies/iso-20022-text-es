@@ -1,0 +1,30 @@
+{
+  "isoType": "Intermediary46",
+  "definition": "Identificación de una parte y de su función.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de una organización asignado por una institución."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identificación de la organización con un identificador de entidad jurídica (LEI). Es un código asignado a una parte tal como se describe en ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    },
+    "Account": {
+      "definition": "Relación comercial entre dos entidades; una entidad es el titular de la cuenta y la otra es la entidad gestora de la cuenta."
+    },
+    "WaivedTrailerCommissionIndicator": {
+      "definition": "Renuncia por parte de quien tiene derecho a la comisión a exigir la totalidad o una parte de ella."
+    },
+    "Role": {
+      "definition": "Función o cometido desempeñado por el intermediario."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Número del dispositivo de comunicación o dirección electrónica utilizados para la comunicación."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Número del dispositivo de comunicación o dirección electrónica utilizados para la comunicación."
+    },
+    "NameAndAddress": {
+      "definition": "Información que localiza e identifica una dirección específica, tal como la definen los servicios postales."
+    }
+  }
+}

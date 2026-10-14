@@ -1,0 +1,18 @@
+{
+  "isoType": "InstructionQueryType1Code",
+  "definition": "Especifica el tipo de instrucción consultada.",
+  "isoCodes": {
+    "SETT": {
+      "name": "Instrucción de liquidación",
+      "definition": "La consulta se realiza sobre operaciones de liquidación."
+    },
+    "IPOS": {
+      "name": "Movimiento intraposición",
+      "definition": "La consulta se realiza sobre movimientos intraposición."
+    },
+    "BOTH": {
+      "name": "Liquidación e intraposición",
+      "definition": "La consulta se realiza tanto sobre operaciones de liquidación como sobre movimientos intraposición."
+    }
+  }
+}

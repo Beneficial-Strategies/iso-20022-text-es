@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPersonIdentification3Choice",
+  "definition": "Elección de formatos para la identificación de una persona física.",
+  "isoElements": {
+    "IdentificationNumber": {
+      "definition": "Identificación de la persona titular de la cuenta."
+    },
+    "PersonName": {
+      "definition": "Nombre de la persona titular de la cuenta."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Limit2",
+  "definition": "Especifica el valor mínimo de los apuntes que deben comunicarse en el mensaje solicitado.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe mínimo de las operaciones que se deben incluir en el mensaje solicitado."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el límite mínimo se aplica a los apuntes de crédito, a los de débito o a ambos."
+    }
+  }
+}

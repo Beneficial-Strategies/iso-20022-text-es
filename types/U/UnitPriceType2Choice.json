@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitPriceType2Choice",
+  "definition": "Elección de formatos para el tipo de precio.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de precio expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de precio expresado como código propio."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDay8",
+  "definition": "Informa sobre la información del día hábil.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identificación de una infraestructura de mercado concreta."
+    },
+    "BusinessDayOrError": {
+      "definition": "Información solicitada sobre la disponibilidad del sistema para un día hábil específico, o error de negocio cuando no se ha encontrado la información."
+    }
+  }
+}

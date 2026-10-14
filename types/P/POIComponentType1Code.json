@@ -1,0 +1,34 @@
+{
+  "isoType": "POIComponentType1Code",
+  "definition": "Tipo de componente genérico perteneciente a un terminal POI (punto de interacción).",
+  "isoCodes": {
+    "SOFT": {
+      "name": "Software",
+      "definition": "Aplicación de software de pago u otra."
+    },
+    "EMVK": {
+      "name": "Núcleo EMV",
+      "definition": "Núcleo de la aplicación EMV (EMV son las especificaciones de tarjetas con chip definidas inicialmente por Eurocard, Mastercard y Visa)."
+    },
+    "EMVO": {
+      "name": "EMV nivel 1",
+      "definition": "Interfaz física EMV (EMV son las especificaciones de tarjetas con chip definidas inicialmente por Eurocard, Mastercard y Visa)."
+    },
+    "MRIT": {
+      "name": "Interfaz del comercio",
+      "definition": "Interfaz del comercio."
+    },
+    "CHIT": {
+      "name": "Interfaz del titular de la tarjeta",
+      "definition": "Interfaz del titular de la tarjeta."
+    },
+    "SECM": {
+      "name": "Módulo seguro",
+      "definition": "Módulo de seguridad."
+    },
+    "PEDV": {
+      "name": "Dispositivo de entrada de PIN",
+      "definition": "Dispositivo de introducción del número de identificación personal (PIN), o PED."
+    }
+  }
+}

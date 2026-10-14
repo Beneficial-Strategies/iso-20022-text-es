@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason27",
+  "definition": "Especifica el motivo por el que se cancela la instrucción o solicitud.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que se cancela la instrucción."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Proporciona la identificación del evento de operación societaria que desencadenó la cancelación."
+    }
+  }
+}

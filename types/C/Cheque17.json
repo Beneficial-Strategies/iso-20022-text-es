@@ -1,0 +1,45 @@
+{
+  "isoType": "Cheque17",
+  "definition": "Características de una instrucción de cheque, como el tipo de cheque o el número de cheque.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificación única, asignada por una parte instructora a una parte instruida, para identificar inequívocamente la instrucción. ||Uso: la identificación de la instrucción es una referencia de punto a punto que puede utilizarse entre la parte instructora y la parte instruida para referirse a la instrucción individual. Puede incluirse en varios mensajes relacionados con la instrucción."
+    },
+    "ChequeNumber": {
+      "definition": "Identificador único e inequívoco de un cheque, asignado por la entidad."
+    },
+    "IssueDate": {
+      "definition": "Fecha en que el pagador emitió el cheque."
+    },
+    "StaleDate": {
+      "definition": "Fecha a partir de la cual un cheque deja de ser válido. El periodo de validez de un cheque se calcula a partir de la fecha de emisión que figura en el anverso del cheque.  El periodo puede indicarse en el propio anverso del cheque, por ejemplo «Válido durante 90 días», o determinarse conforme a la práctica bancaria nacional. |No todos los países tienen un periodo de validez."
+    },
+    "Amount": {
+      "definition": "Especifica el importe del cheque que debe pagarse al beneficiario."
+    },
+    "ValueDate": {
+      "definition": "Fecha y hora en que el importe del cheque pasa a estar disponible en la cuenta del beneficiario."
+    },
+    "Payer": {
+      "definition": "Parte que emite un cheque ordenando a la entidad librada que pague un importe determinado, a la vista, al beneficiario."
+    },
+    "PayerAccount": {
+      "definition": "Especifica la cuenta de efectivo del ordenante del pago."
+    },
+    "DrawerAgent": {
+      "definition": "Especifica la entidad que gestiona la cuenta del librador del cheque."
+    },
+    "DrawerAgentAccount": {
+      "definition": "Especifica la cuenta de efectivo de la entidad librada."
+    },
+    "Payee": {
+      "definition": "Parte que recibe una suma de dinero según lo especificado en el cheque."
+    },
+    "PayeeAccount": {
+      "definition": "Especifica la cuenta de efectivo del beneficiario."
+    },
+    "InstructionForChequeAgent": {
+      "definition": "Información adicional relacionada con el procesamiento de la instrucción de cheque, sobre la que puede ser necesario que actúe la entidad que procesa el cheque."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "PartyRole3Code",
+  "definition": "Especifica el rol de la parte en la operación.",
+  "isoCodes": {
+    "GATR": {
+      "name": "Garante",
+      "definition": "Persona jurídica, distinta del emisor, que otorga una garantía. El garante pasa a ser responsable en caso de impago."
+    }
+  }
+}

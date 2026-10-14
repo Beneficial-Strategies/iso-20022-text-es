@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositOrWithdrawalStatusUpdateV01",
+  "definition": "El mensaje CashDepositOrWithdrawalStatusUpdate comunica el estado de una solicitud de ingreso de efectivo o de retirada de efectivo.|Cuando se comunica el estado de una solicitud de ingreso de efectivo, lo envía un receptor del efectivo a un remitente del efectivo.|Cuando se comunica el estado de una solicitud de retirada de efectivo, lo envía un remitente del efectivo a un receptor del efectivo."
+}

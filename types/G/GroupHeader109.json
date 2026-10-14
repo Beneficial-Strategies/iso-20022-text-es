@@ -1,0 +1,18 @@
+{
+  "isoType": "GroupHeader109",
+  "definition": "Conjunto de características comunes a todas las operaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte instructora y enviada a la siguiente parte de la cadena, para identificar inequívocamente el mensaje.|Uso: La parte instructora debe asegurarse de que MessageIdentification sea único por parte instruida durante un periodo acordado previamente."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "InstructingAgent": {
+      "definition": "Entidad que instruye a la siguiente parte de la cadena para que ejecute la o las instrucciones.||Uso: la entidad que instruye es la parte que envía el mensaje de estado y no la parte que envió la instrucción original sobre la que se informa."
+    },
+    "InstructedAgent": {
+      "definition": "Entidad a la que la parte anterior de la cadena instruye para que ejecute la o las instrucciones.||Uso: la entidad instruida es la parte que recibe el mensaje de estado y no la parte que recibió la instrucción original sobre la que se informa."
+    }
+  }
+}

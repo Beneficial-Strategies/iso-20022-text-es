@@ -1,0 +1,20 @@
+{
+  "isoType": "PriceDetails41",
+  "definition": "Proporciona información sobre los precios relacionados con una opción de operación societaria.",
+  "isoElements": {
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Precio genérico en efectivo pagado por producto por el titular del valor subyacente, ya sea como porcentaje, como importe o como número de puntos por encima de un índice, por ejemplo, precio de reinversión, precio de ejercicio y precio de ejecución."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Precio genérico en efectivo recibido por producto por el titular del valor subyacente, ya sea como porcentaje o como importe, por ejemplo, precio de reembolso."
+    },
+    "CashInLieuOfSharePrice": {
+      "definition": "Desembolso en efectivo en lugar de acciones; normalmente en lugar de una cantidad fraccionaria."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct y GenericCashPricePaidPerProduct son precios recibidos o pagados en el transcurso de un evento. El significado específico (precio de reembolso, precio de suscripción, precio de reinversión, ETC.) se deriva del tipo de evento."
+    }
+  }
+}

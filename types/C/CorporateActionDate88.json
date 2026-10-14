@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDate88",
+  "definition": "Especifica la fecha de la operación corporativa.",
+  "isoElements": {
+    "CoverExpirationDeadline": {
+      "definition": "Último día en que un titular puede entregar los valores que había elegido y/o protegido previamente."
+    },
+    "TradingDate": {
+      "definition": "Fecha y hora en que se acordó la operación (derechos)."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMService27",
+  "definition": "Servicio prestado por el cajero automático (ATM) dentro de la sesión.",
+  "isoElements": {
+    "ServiceReference": {
+      "definition": "Identificación única del servicio prestado por el cajero automático (ATM) dentro de la sesión."
+    },
+    "ATMServiceCode": {
+      "definition": "Codificación del tipo de servicio del cajero automático (ATM)."
+    },
+    "HostServiceCode": {
+      "definition": "Codificación del tipo de servicio para el host."
+    },
+    "ServiceType": {
+      "definition": "Describe el tipo de servicio seleccionado por el cliente."
+    },
+    "ServiceVariantIdentification": {
+      "definition": "Identificación de la variante del servicio."
+    }
+  }
+}

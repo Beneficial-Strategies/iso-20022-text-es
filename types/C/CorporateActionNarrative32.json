@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNarrative32",
+  "definition": "Proporciona información adicional, como la información con la que se debe cumplir.",
+  "isoElements": {
+    "InformationToComplyWith": {
+      "definition": "Proporciona al titular de la cuenta las condiciones de información que deben cumplirse, por ejemplo, no abierto a residentes de US o Canadá, compradores institucionales cualificados (QIB) o carta de inversor sofisticado (SIL) que debe presentarse."
+    },
+    "DeliveryDetails": {
+      "definition": "Proporciona información adicional sobre los detalles de entrega de los valores resultantes (derivados). Esta narrativa solo debe utilizarse en caso de que los valores no sean admisibles en el agente o custodio, y no puede utilizarse para instrucciones de liquidación."
+    },
+    "ForeignExchangeInstructionsAdditionalInformation": {
+      "definition": "Proporciona detalles adicionales relativos a las instrucciones de cambio de divisas."
+    },
+    "InstructionAdditionalInformation": {
+      "definition": "Proporciona detalles adicionales relativos a la instrucción de evento corporativo."
+    }
+  }
+}

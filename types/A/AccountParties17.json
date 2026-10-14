@@ -1,0 +1,48 @@
+{
+  "isoType": "AccountParties17",
+  "definition": "Información sobre la cuenta de una parte.",
+  "isoElements": {
+    "PrincipalAccountParty": {
+      "definition": "Parte principal asociada a la cuenta."
+    },
+    "SecondaryOwner": {
+      "definition": "Entidad que no es el titular principal cuando la titularidad de la cuenta de inversión se reparte entre varios titulares."
+    },
+    "Beneficiary": {
+      "definition": "Parte final con derecho a recibir los beneficios de la titularidad de un instrumento financiero o a ser pagada/abonada como resultado de una transferencia."
+    },
+    "PowerOfAttorney": {
+      "definition": "Entidad a la que otra entidad ha conferido la facultad de actuar en su nombre."
+    },
+    "LegalGuardian": {
+      "definition": "Entidad designada por una autoridad legal para actuar en nombre de una persona declarada incapaz."
+    },
+    "CustodianForMinor": {
+      "definition": "Entidad que posee acciones/participaciones en nombre de un menor de edad. Aunque la cuenta está registrada a nombre del menor, el custodio conserva el control de la cuenta."
+    },
+    "SuccessorOnDeath": {
+      "definition": "Patrimonio del fallecido, o sucesor, al que se transferirá el porcentaje de titularidad correspondiente al fallecer uno de los titulares."
+    },
+    "Administrator": {
+      "definition": "Entidad designada por una autoridad legal para actuar en nombre de una persona u organización que ha quebrado."
+    },
+    "OtherParty": {
+      "definition": "Otro tipo de parte."
+    },
+    "Granter": {
+      "definition": "Función de otorgante en el sector de los fondos de inversión libre."
+    },
+    "Settlor": {
+      "definition": "Entidad que constituye un fideicomiso o aporta activos al fideicomiso."
+    },
+    "SeniorManagingOfficial": {
+      "definition": "Parte que toma, o participa en la toma de, decisiones que afectan a la totalidad o a una parte sustancial del negocio de un cliente de una entidad informante, o que tiene capacidad para afectar de forma significativa a la situación financiera de un cliente de una entidad informante. Normalmente es una persona que ejerce el control de una sociedad (tipo de titularidad CORP)."
+    },
+    "Protector": {
+      "definition": "Persona designada en virtud del instrumento fiduciario para dirigir o limitar a los fiduciarios en relación con su administración del fideicomiso. Normalmente es una persona que ejerce el control de un fideicomiso (tipo de titularidad TRUS) o de otra organización que no es una persona física (tipo de titularidad ONIS)."
+    },
+    "RegisteredShareholderName": {
+      "definition": "Parte que registra su nombre ante el emisor y nombre utilizado para el registro."
+    }
+  }
+}

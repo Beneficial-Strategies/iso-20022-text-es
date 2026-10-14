@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateOrPercentage1Choice",
+  "definition": "Especifica una opción entre un tipo absoluto y un tipo porcentual.",
+  "isoElements": {
+    "Rate": {
+      "definition": "El tipo se expresa como un tipo de cambio de divisas."
+    },
+    "Percentage": {
+      "definition": "El tipo se expresa como un porcentaje relativo al tipo de referencia."
+    }
+  }
+}

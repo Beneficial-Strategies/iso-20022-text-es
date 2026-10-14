@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownStatus1Code",
+  "definition": "Especifica un estado de disposición.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Completo",
+      "definition": "La pensión está totalmente en disposición."
+    },
+    "NONE": {
+      "name": "Ninguno",
+      "definition": "La pensión no está en disposición."
+    },
+    "PART": {
+      "name": "Parcial",
+      "definition": "La pensión está en disposición parcial."
+    }
+  }
+}

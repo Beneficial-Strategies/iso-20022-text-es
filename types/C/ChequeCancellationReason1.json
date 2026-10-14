@@ -1,0 +1,15 @@
+{
+  "isoType": "ChequeCancellationReason1",
+  "definition": "Proporciona información adicional sobre el motivo de la solicitud de cancelación de la presentación del cheque.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite la solicitud de cancelación."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la solicitud de cancelación."
+    },
+    "AdditionalInformation": {
+      "definition": "Más detalles sobre el motivo de la solicitud de cancelación."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification221",
+  "definition": "Identificación de una parte.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nombre y dirección de la parte."
+    },
+    "EmailAddress": {
+      "definition": "Dirección de correo electrónico (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identificación de la parte."
+    }
+  }
+}

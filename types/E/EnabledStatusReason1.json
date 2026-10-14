@@ -1,0 +1,12 @@
+{
+  "isoType": "EnabledStatusReason1",
+  "definition": "Motivo de un estado habilitado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado habilitado de la cuenta."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el motivo del estado habilitado de la cuenta."
+    }
+  }
+}

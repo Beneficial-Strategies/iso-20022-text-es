@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalUnableToApplyMissingData1Code",
+  "definition": "Especifica el motivo de una imposibilidad de aplicar por falta de datos, tal como se publica en un conjunto de códigos externo de imposibilidad de aplicar por falta de datos.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "MS01": {
+      "name": "Falta la información de remesa",
+      "definition": "Falta RemittanceInformation."
+    },
+    "MS02": {
+      "name": "Falta la instrucción para la siguiente entidad",
+      "definition": "Falta la instrucción para la siguiente entidad (anteriormente MissingSenderToReceiverInformation, dividido en información del ordenante, del abono y de la siguiente entidad)."
+    },
+    "MS03": {
+      "name": "Falta el ordenante",
+      "definition": "Falta el ordenante."
+    },
+    "MS04": {
+      "name": "Falta la cuenta del ordenante",
+      "definition": "Falta DebtorAccount."
+    },
+    "MS05": {
+      "name": "Falta la entidad del ordenante",
+      "definition": "Falta DebtorAgent (anteriormente MissingFirstAgent para transferencias)."
+    },
+    "MS06": {
+      "name": "Falta el importe",
+      "definition": "Falta el importe."
+    },
+    "MS07": {
+      "name": "Falta la cuenta de liquidación",
+      "definition": "Falta SettlementAccount. (anteriormente MissingNostroVostroAccount)."
+    },
+    "MS08": {
+      "name": "Falta el intermediario",
+      "definition": "Falta el intermediario."
+    },
+    "MS09": {
+      "name": "Falta la entidad de reembolso ordenante",
+      "definition": "Falta InstructingReimbursementAgent (anteriormente MissingReimbursementAgent1)."
+    },
+    "MS10": {
+      "name": "Falta la entidad de reembolso instruida",
+      "definition": "Falta InstructedReimbursementAgent (anteriormente MissingReimbursementAgent2)."
+    },
+    "MS11": {
+      "name": "Falta la tercera entidad de reembolso",
+      "definition": "Falta el tercer agente de reembolso (anteriormente MissingReimbursementAgent)."
+    },
+    "MS12": {
+      "name": "Falta el beneficiario",
+      "definition": "Falta el beneficiario."
+    },
+    "MS13": {
+      "name": "Falta la cuenta del beneficiario",
+      "definition": "Falta CreditorAccount."
+    },
+    "MS14": {
+      "name": "Falta la instrucción",
+      "definition": "Falta la instrucción de pago."
+    },
+    "MS15": {
+      "name": "Falta la entidad del beneficiario",
+      "definition": "Falta la entidad del beneficiario (anteriormente MissingFirstAgent para adeudos directos)."
+    },
+    "MS16": {
+      "name": "Falta la instrucción para la entidad del beneficiario",
+      "definition": "Falta la instrucción para la entidad del beneficiario (anteriormente MissingSenderToReceiverInformation, dividido en información del ordenante, del abono y de la siguiente entidad)."
+    },
+    "MS17": {
+      "name": "Falta la instrucción para la entidad del ordenante",
+      "definition": "Falta la instrucción para la entidad del ordenante (anteriormente MissingSenderToReceiverInformation, dividido en información del ordenante, del abono y de la siguiente entidad)."
+    },
+    "MS18": {
+      "name": "Falta la información de remesa relacionada",
+      "definition": "Falta RelatedRemittanceInformation."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "Consulte el campo narrativo para información adicional."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "MissingOrIncorrectData1",
+  "definition": "Proporciona información adicional sobre el motivo de la investigación por imposibilidad de aplicar.",
+  "isoElements": {
+    "AntiMoneyLaunderingRequest": {
+      "definition": "Indica si la solicitud está relacionada o no con una investigación de AML (Anti Money Laundering, prevención del blanqueo de capitales)."
+    },
+    "MissingInformation": {
+      "definition": "Indica la información que falta."
+    },
+    "IncorrectInformation": {
+      "definition": "Indica, en forma codificada, la información incorrecta."
+    }
+  }
+}

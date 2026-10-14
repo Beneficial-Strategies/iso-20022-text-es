@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType7Code",
+  "definition": "Tipo de fecha.",
+  "isoCodes": {
+    "ONGO": {
+      "name": "En curso",
+      "definition": "Base continua, que indica que la fecha se determina mediante un proceso de \"base continua\", por ejemplo \"au fil de l'eau\"."
+    }
+  }
+}

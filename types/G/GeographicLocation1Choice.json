@@ -1,0 +1,12 @@
+{
+  "isoType": "GeographicLocation1Choice",
+  "definition": "Ubicación geográfica del cajero automático (ATM) especificada mediante coordenadas geográficas o coordenadas UTM.",
+  "isoElements": {
+    "GeographicCoordinates": {
+      "definition": "Ubicación en la Tierra especificada mediante dos números que representan la posición vertical y horizontal."
+    },
+    "UTMCoordinates": {
+      "definition": "Ubicación en la Tierra especificada mediante el sistema de coordenadas Universal Transversal de Mercator (UTM), utilizando el sistema geodésico WGS84."
+    }
+  }
+}

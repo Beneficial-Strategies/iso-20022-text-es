@@ -1,0 +1,15 @@
+{
+  "isoType": "GrossDividendRateFormat39Choice",
+  "definition": "Elección del formato para expresar un dividendo bruto.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Valor expresado como importe."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Especifica un importe y un estado del tipo."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Especifica diferentes formatos para el tipo de dividendo bruto."
+    }
+  }
+}

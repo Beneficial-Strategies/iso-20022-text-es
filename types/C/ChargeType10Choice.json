@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType10Choice",
+  "definition": "Elección de formatos para el tipo de gasto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Comisión (gasto/comisión) expresada como código."
+    },
+    "Proprietary": {
+      "definition": "Comisión (gasto/comisión) expresada como código propietario."
+    }
+  }
+}

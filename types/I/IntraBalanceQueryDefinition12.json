@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceQueryDefinition12",
+  "definition": "Define la información que se busca mediante criterios específicos.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Define el tipo de consulta."
+    },
+    "SearchCriteria": {
+      "definition": "Define los criterios para extraer la información de las instrucciones de movimiento entre saldos."
+    }
+  }
+}

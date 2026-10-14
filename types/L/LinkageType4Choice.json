@@ -1,0 +1,12 @@
+{
+  "isoType": "LinkageType4Choice",
+  "definition": "Elección del formato del tipo de vinculación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de vinculación expresado como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de vinculación expresado como código propietario."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "EventInformation17",
+  "definition": "Proporciona información sobre un evento de una operación societaria.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referencia asignada por el administrador de la cuenta para identificar inequívocamente un evento de operación societaria."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Proporciona la referencia del evento oficial de operación societaria vinculado."
+    },
+    "EventType": {
+      "definition": "Tipo de evento de operación societaria."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Especifica si el evento es obligatorio, obligatorio con opciones o voluntario."
+    },
+    "LastNotificationIdentification": {
+      "definition": "Proporciona información sobre la identificación de la última notificación."
+    }
+  }
+}

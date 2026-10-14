@@ -1,0 +1,27 @@
+{
+  "isoType": "IntraBalanceQueryCriteria10",
+  "definition": "Define los criterios en función de los cuales se incluye la información.",
+  "isoElements": {
+    "CancellationRequestIdentification": {
+      "definition": "Referencia colectiva que identifica un conjunto de mensajes."
+    },
+    "ProcessingStatus": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    },
+    "CashAccount": {
+      "definition": "Cuenta en la que se mantiene efectivo."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gestiona la cuenta de efectivo por cuenta del titular de la cuenta, es decir, gestiona el registro y la contabilización de los apuntes en la cuenta, calcula los saldos de la cuenta y proporciona información sobre la cuenta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originó el mensaje, si es distinta del remitente."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica la fecha y hora de creación del movimiento entre saldos."
+    }
+  }
+}

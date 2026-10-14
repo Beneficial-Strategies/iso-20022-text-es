@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementQueryV02",
+  "definition": "El mensaje IntraBalanceMovementQuery lo envía un titular de cuenta/solicitante a una infraestructura de liquidación para consultar las instrucciones de movimiento entre saldos, junto con su estado actual, a partir de un conjunto de criterios de búsqueda.|El mensaje también puede utilizarse para: |- reenviar un mensaje enviado por el titular de la cuenta a la entidad gestora de la cuenta (la subfunción del mensaje es \"Duplicate\") |- proporcionar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy\") |- reenviar a un tercero una copia de un mensaje enviado por el titular de la cuenta a título informativo (la subfunción del mensaje es \"Copy Duplicate\")."
+}

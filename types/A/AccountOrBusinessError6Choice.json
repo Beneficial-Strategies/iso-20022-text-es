@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOrBusinessError6Choice",
+  "definition": "Elección entre los detalles de la cuenta o un error de negocio cuando no se pueden recuperar los datos solicitados.",
+  "isoElements": {
+    "Account": {
+      "definition": "Información solicitada sobre la cuenta."
+    },
+    "BusinessError": {
+      "definition": "Motivo por el que no se facilita la información de negocio solicitada."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "RejectionReason18Code",
+  "definition": "Especifica el motivo del rechazo de un aviso de elección.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    },
+    "INHO": {
+      "name": "Saldo insuficiente",
+      "definition": "Saldo insuficiente."
+    },
+    "LATT": {
+      "name": "Tardío",
+      "definition": "La instrucción o solicitud llega demasiado tarde."
+    }
+  }
+}

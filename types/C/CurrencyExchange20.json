@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyExchange20",
+  "definition": "Información necesaria para procesar un cambio o una conversión de divisas.",
+  "isoElements": {
+    "ExchangeRate": {
+      "definition": "Valor de una divisa expresado en relación con otra divisa. ExchangeRate expresa la relación entre UnitCurrency y QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "QuotedCurrency": {
+      "definition": "Divisa a la que se convierte la divisa base, en un cambio de divisas."
+    },
+    "QuotationDate": {
+      "definition": "Fecha y hora en que se cotiza un tipo de cambio."
+    },
+    "LowLimit": {
+      "definition": "Límite inferior definido para el tipo de cambio.||Uso: La autoridad monetaria publica el tipo de cambio basándose en el precio formado en el mercado de divisas, permitiendo que fluctúe al alza y a la baja dentro del margen de fluctuación prescrito. Es el tipo de cambio más bajo admitido en las operaciones del mercado de divisas."
+    },
+    "HighLimit": {
+      "definition": "Límite superior definido para el tipo de cambio.||Uso: La autoridad monetaria publica el tipo de cambio basándose en el precio formado en el mercado de divisas, permitiendo que fluctúe al alza y a la baja dentro del margen de fluctuación prescrito. Es el tipo de cambio más alto admitido en las operaciones del mercado de divisas."
+    }
+  }
+}

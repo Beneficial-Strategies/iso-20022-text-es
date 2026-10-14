@@ -1,0 +1,30 @@
+{
+  "isoType": "FIToFICustomerDirectDebitV12",
+  "definition": "Ámbito|El mensaje FinancialInstitutionToFinancialInstitutionCustomerDirectDebit lo envía la entidad del beneficiario a la entidad del ordenante, directamente o a través de otras entidades y/o de un sistema de compensación y liquidación de pagos.|Se utiliza para cobrar fondos de una cuenta de un ordenante a favor de un beneficiario.|Uso|El mensaje FItoFICustomerDirectDebit puede contener una o varias instrucciones de adeudo directo de clientes.|El mensaje FIToFICustomerDirectDebit no permite agrupación.|El mensaje FItoFICustomerDirectDebit puede contener o no información relacionada con el mandato, es decir, extractos de un mandato, como MandateIdentification o DateOfSignature. El mensaje FIToFICustomerDirectDebit no debe considerarse un mandato.|El mensaje FItoFICustomerDirectDebit puede utilizarse en escenarios nacionales y transfronterizos.",
+  "isoRules": {
+    "InstructedAgentRule": {
+      "definition": "Si GroupHeader/InstructedAgent está presente, no se permite DirectDebitTransactionInformation/InstructedAgent."
+    },
+    "InstructingAgentRule": {
+      "definition": "Si GroupHeader/InstructingAgent está presente, DirectDebitTransactionInformation/InstructingAgent no está permitido."
+    },
+    "TotalInterbankSettlementAmountRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount está presente, todas las apariciones de DirectDebitTransactionInformation/InterbankSettlementAmount deben tener la misma divisa que GroupHeader/TotalInterbankSettlementAmount."
+    },
+    "TotalInterbankSettlementAmountAndSumRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount está presente, debe ser igual a la suma de todas las apariciones de DirectDebitTransactionInformation/InterbankSettlementAmount."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate está presente, entonces DirectDebitTransactionInformation/InterbankSettlementDate no está permitido."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate no está presente, entonces DirectDebitTransactionInformation/InterbankSettlementDate debe estar presente."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Si GroupHeader/PaymentTypeInformation está presente, DirectDebitTransactionInformation/PaymentTypeInformation no está permitido."
+    },
+    "SupplementaryDataRule": {
+      "definition": "El bloque SupplementaryData a nivel de mensaje no debe utilizarse para proporcionar información adicional sobre una operación. Para ese fin debe utilizarse el elemento SupplementaryData a nivel de operación."
+    }
+  }
+}

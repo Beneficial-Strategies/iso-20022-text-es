@@ -1,0 +1,41 @@
+{
+  "isoType": "Statement77",
+  "definition": "Características del extracto.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Número secuencial del informe."
+    },
+    "QueryReference": {
+      "definition": "Identificación del mensaje SecuritiesStatementQuery enviado para solicitar este extracto."
+    },
+    "StatementIdentification": {
+      "definition": "Referencia común a todas las páginas de un extracto."
+    },
+    "StatementDateTime": {
+      "definition": "Fecha y hora del extracto."
+    },
+    "Frequency": {
+      "definition": "Frecuencia del extracto."
+    },
+    "UpdateType": {
+      "definition": "Indica si el extracto está completo o contiene solo cambios."
+    },
+    "StatementBasis": {
+      "definition": "Tipo de saldo sobre el que se elabora el extracto."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si el extracto comunica actividad o actualización de información."
+    },
+    "SubAccountIndicator": {
+      "definition": "Indica si el extracto comunica posiciones a nivel de cuenta de subcustodia."
+    },
+    "SecurityInterestOrSetOff": {
+      "definition": "Indica si las posiciones de la cuenta están sujetas a garantía real, gravamen o derecho de compensación."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Si se utiliza un número largo (Exact5NumericTest), el informe debe ser un informe delta (UpdateType: DELT).|Si el informe tiene varias páginas, el ReportNumber debe permanecer igual en todas las páginas. Es un número único para el informe.|Dos informes del mismo tipo enviados uno a continuación del otro al mismo receptor en relación con la misma cuenta de valores en custodia deben tener ReportNumbers diferentes. Por ejemplo, un informe diario enviado el día 1 tendría el ReportNumber 001, el día 2, 002, etc."
+    }
+  }
+}

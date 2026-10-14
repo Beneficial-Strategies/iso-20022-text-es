@@ -1,0 +1,14 @@
+{
+  "isoType": "FundOwnership1Code",
+  "definition": "Especifica si todas las acciones son propiedad exclusiva de la sociedad del fondo.",
+  "isoCodes": {
+    "YALL": {
+      "name": "Todo en propiedad",
+      "definition": "Todas las acciones son propiedad."
+    },
+    "NALL": {
+      "name": "No todo en propiedad",
+      "definition": "No todas las acciones son propiedad."
+    }
+  }
+}

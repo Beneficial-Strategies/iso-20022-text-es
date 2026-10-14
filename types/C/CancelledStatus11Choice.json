@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledStatus11Choice",
+  "definition": "Elección entre un motivo o ningún motivo para el estado cancelado o de cancelación completada de la instrucción de operación societaria o de la cancelación de la instrucción.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo no especificado."
+    },
+    "Reason": {
+      "definition": "Motivo del estado de cancelada."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "InvestmentAccountCategory1Code",
+  "definition": "Especifica la categoría de la cuenta de inversión.",
+  "isoCodes": {
+    "MAND": {
+      "name": "Cuenta con mandato",
+      "definition": "La cuenta es gestionada íntegramente por la entidad financiera, es decir, un inversor otorga un «mandato» a la entidad financiera para ejecutar en su nombre una estrategia de inversión acordada de mutuo acuerdo."
+    },
+    "RETA": {
+      "name": "Cuenta minorista",
+      "definition": "La cuenta es una cuenta estándar gestionada por el inversor. El inversor emite instrucciones para la cuenta a la entidad financiera."
+    }
+  }
+}

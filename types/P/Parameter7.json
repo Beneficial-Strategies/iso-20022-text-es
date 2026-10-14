@@ -1,0 +1,12 @@
+{
+  "isoType": "Parameter7",
+  "definition": "Parámetros asociados al algoritmo MAC.",
+  "isoElements": {
+    "InitialisationVector": {
+      "definition": "Vector de inicialización de un cifrado en modo de encadenamiento de bloques (CBC)."
+    },
+    "BytePadding": {
+      "definition": "Relleno de bytes para un cifrado en modo de encadenamiento de bloques, si el relleno no es implícito."
+    }
+  }
+}

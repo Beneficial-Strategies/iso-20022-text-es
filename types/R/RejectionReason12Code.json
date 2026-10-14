@@ -1,0 +1,70 @@
+{
+  "isoType": "RejectionReason12Code",
+  "definition": "Especifica el motivo del rechazo de una instrucción de desactivación.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Evento ya desactivado",
+      "definition": "Rechazada porque la desactivación del evento ya se ha completado."
+    },
+    "FAIL": {
+      "name": "Validación fallida",
+      "definition": "Falló la validación del aviso/instrucción/solicitud."
+    },
+    "SAME": {
+      "name": "Misma identificación de CA",
+      "definition": "Ya existe una instrucción de desactivación de operación societaria del agente (Agent Corporate Action Deactivation Instruction) con la misma identificación."
+    },
+    "REFI": {
+      "name": "Identificación de CA no válida",
+      "definition": "Se ha facilitado una identificación de operación societaria no válida."
+    },
+    "AGIN": {
+      "name": "Agente no válido",
+      "definition": "Se ha facilitado una identificación de agente no válida."
+    },
+    "MAIN": {
+      "name": "No es el agente principal",
+      "definition": "La identificación del agente especificada no corresponde al agente principal del evento relacionado."
+    },
+    "OPTI": {
+      "name": "Opción no válida",
+      "definition": "Combinación no válida de código de opción de operación societaria y número de opción de operación societaria (CA)."
+    },
+    "PEDA": {
+      "name": "Desactivación pendiente",
+      "definition": "La opción de operación societaria especificada ya tiene una instrucción de desactivación pendiente."
+    },
+    "NORO": {
+      "name": "Sin opción restante",
+      "definition": "La operación societaria especificada no tiene opciones restantes que desactivar."
+    },
+    "INET": {
+      "name": "Tipo de evento no válido",
+      "definition": "El tipo de evento CA no corresponde con el evento corporativo relacionado."
+    },
+    "INUS": {
+      "name": "Valor subyacente no válido",
+      "definition": "La identificación del valor subyacente no corresponde con la referencia del evento corporativo proporcionada."
+    },
+    "INPT": {
+      "name": "Tipo de procesamiento del evento no válido",
+      "definition": "El tipo de procesamiento del evento no corresponde con el evento corporativo relacionado."
+    },
+    "INMV": {
+      "name": "Tipo de evento obligatorio/voluntario no válido",
+      "definition": "El tipo de evento obligatorio/voluntario no corresponde con el evento corporativo relacionado."
+    },
+    "SAID": {
+      "name": "Misma identificación",
+      "definition": "Varios mensajes con la misma identificación."
+    },
+    "MICA": {
+      "name": "Identificación de CA no coincidente",
+      "definition": "La identificación del evento corporativo del emisor no corresponde con la identificación del evento corporativo proporcionada (CA)."
+    },
+    "NOAP": {
+      "name": "No aplicable",
+      "definition": "Este tipo de instrucción no es aplicable a eventos obligatorios."
+    }
+  }
+}

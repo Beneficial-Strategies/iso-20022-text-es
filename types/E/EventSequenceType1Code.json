@@ -1,0 +1,14 @@
+{
+  "isoType": "EventSequenceType1Code",
+  "definition": "Especifica si el evento es un evento intermedio o final en una serie de eventos sucesivos.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Evento final en una serie de eventos sucesivos."
+    },
+    "INTE": {
+      "name": "Intermedio",
+      "definition": "Evento intermedio en una serie de eventos sucesivos."
+    }
+  }
+}

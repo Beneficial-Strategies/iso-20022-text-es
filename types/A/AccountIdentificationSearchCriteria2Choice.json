@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountIdentificationSearchCriteria2Choice",
+  "definition": "Elección entre las distintas opciones de búsqueda de una cuenta.",
+  "isoElements": {
+    "Equal": {
+      "definition": "Búsqueda de una o varias cuentas a partir de la identificación exacta de la cuenta o cuentas."
+    },
+    "ContainText": {
+      "definition": "Búsqueda de una o varias cuentas a partir de la identificación parcial de la cuenta o cuentas."
+    },
+    "NotContainText": {
+      "definition": "Búsqueda de una o varias cuentas a partir de un patrón que no puede estar contenido en la identificación de la cuenta."
+    }
+  }
+}

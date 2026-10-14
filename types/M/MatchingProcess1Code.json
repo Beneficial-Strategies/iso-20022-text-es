@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingProcess1Code",
+  "definition": "Especifica la acción que debe realizarse sobre el proceso de casamiento.",
+  "isoCodes": {
+    "UNMT": {
+      "name": "Descasar",
+      "definition": "Se solicita que la operación referenciada quede sin casar."
+    },
+    "MTRE": {
+      "name": "Reanudar casamiento",
+      "definition": "Debe reanudarse el proceso de casamiento de la operación referenciada."
+    }
+  }
+}

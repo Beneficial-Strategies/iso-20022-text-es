@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequeCancellationOrStopReportV02",
+  "definition": "El mensaje ChequeCancellationOrStopReport lo envía la entidad pagadora (contra la que se libra un cheque) a la entidad librada, o a la entidad que actúa en nombre de esta, para indicar las acciones realizadas al intentar cancelar la presentación y/o suspender el pago del cheque al que se refiere el mensaje."
+}

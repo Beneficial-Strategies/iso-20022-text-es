@@ -1,0 +1,24 @@
+{
+  "isoType": "CompensationRequest1",
+  "definition": "Proporciona el período de tiempo de la solicitud y la cuenta en la que debe abonarse la compensación.",
+  "isoElements": {
+    "CompensationAccount": {
+      "definition": "Cuenta a la que se debe la compensación."
+    },
+    "Period": {
+      "definition": "Intervalo de fechas al que se aplica la compensación."
+    },
+    "Amount": {
+      "definition": "Compensación estimada debida por la solicitud, calculada por el solicitante."
+    },
+    "ExpectedValueDate": {
+      "definition": "Fecha de valor en la que se solicita que se pague la compensación."
+    },
+    "InterestRate": {
+      "definition": "Tipo de interés de un instrumento financiero utilizado para estimar la compensación."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de la compensación."
+    }
+  }
+}

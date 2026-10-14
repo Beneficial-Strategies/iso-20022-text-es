@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountSubLevel14",
+  "definition": "Cuenta y tenencia del siguiente subnivel (nivel 4).",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificación única e inequívoca de la subcuenta entre el titular de la cuenta y la entidad gestora de la cuenta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es el propietario legal de la subcuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta de subnivel en nombre del titular de la cuenta, es decir, gestiona el registro y la contabilización de los asientos en la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "BeneficialOwner": {
+      "definition": "Persona o entidad que tiene en última instancia derecho al beneficio de los ingresos y derechos de un instrumento financiero, a diferencia de un propietario nominal o legal."
+    },
+    "BalanceDetails": {
+      "definition": "Informe sobre la posición neta de un instrumento financiero en la subcuenta (subcuenta de nivel 4), para una fecha determinada. También puede especificarse el agente, por ejemplo, un intermediario de la operación."
+    },
+    "AccountSubLevel5": {
+      "definition": "Tenencias del nivel 5."
+    },
+    "AccountSubLevel5Difference": {
+      "definition": "Diferencia de tenencias entre la subcuenta del nivel 4 y las subcuentas del nivel 5."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede incluirse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

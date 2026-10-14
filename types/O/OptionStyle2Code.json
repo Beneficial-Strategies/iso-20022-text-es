@@ -1,0 +1,14 @@
+{
+  "isoType": "OptionStyle2Code",
+  "definition": "Define cómo puede ejercerse una opción.",
+  "isoCodes": {
+    "AMER": {
+      "name": "Americana",
+      "definition": "La opción puede ejercerse antes de la fecha de vencimiento o en ella."
+    },
+    "EURO": {
+      "name": "Europea",
+      "definition": "Opción que solo puede ejercerse en la fecha de vencimiento."
+    }
+  }
+}

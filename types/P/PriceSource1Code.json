@@ -1,0 +1,18 @@
+{
+  "isoType": "PriceSource1Code",
+  "definition": "Indica la fuente de una cotización de precio.",
+  "isoCodes": {
+    "FUND": {
+      "name": "Fondo",
+      "definition": "La fuente de la cotización de precio es un fondo, p. ej., el agente de transferencias o el propio fondo."
+    },
+    "THEO": {
+      "name": "Teórico",
+      "definition": "La fuente de la cotización de precio es un valor teórico basado en el rendimiento de mercado."
+    },
+    "VEND": {
+      "name": "Proveedor",
+      "definition": "La fuente de la cotización de precio es un proveedor externo."
+    }
+  }
+}

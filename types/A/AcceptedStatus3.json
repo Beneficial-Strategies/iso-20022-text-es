@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedStatus3",
+  "definition": "Información de estado y cantidad relativa a una solicitud de instrucción aceptada.",
+  "isoElements": {
+    "AcceptedQuantity": {
+      "definition": "Cantidad de valores instruidos que se ha aceptado para su posterior procesamiento."
+    },
+    "AcceptedReason": {
+      "definition": "Motivo del estado aceptado."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "CashOption115",
+  "definition": "Proporciona información sobre la opción en efectivo.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indica si el valor es un débito o un crédito."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Especifica información sobre los recursos de salida que no pueden ser procesados por el depositario central de valores (CSD). Se requiere una instrucción especial de entrega del titular de la cuenta para que se abone el resultado de la operación societaria."
+    },
+    "IncomeType": {
+      "definition": "Especifica el tipo de ingreso."
+    },
+    "OtherIncomeType": {
+      "definition": "Tipo de ingreso que se utilizará en otro régimen fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Especifica la base de la retención reducida."
+    },
+    "PriceCalculationMethod": {
+      "definition": "Especifica el método aplicado para el cálculo del precio."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indica el país de origen del ingreso."
+    },
+    "AmountDetails": {
+      "definition": "Proporciona información sobre los importes relacionados con un movimiento de efectivo."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con un movimiento de efectivo."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Tipo de cambio entre el importe y el importe resultante."
+    },
+    "EstimatedRateIndicator": {
+      "definition": "Indica si el tipo es aproximado.|Yes: aplicable.|No: no aplicable.|Cuando está ausente, significa No."
+    },
+    "NRATaxReportableIndicator": {
+      "definition": "Indica si el evento de ingresos está sujeto a retención fiscal si se paga a un extranjero no residente en EE. UU. (NRA).|Yes: aplicable.|No: no aplicable.|Cuando está ausente, significa No."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Proporciona información sobre la opción de operación societaria."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con una opción de operación societaria."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct y GenericCashPricePaidPerProduct son precios recibidos o pagados en el transcurso de un evento. El significado específico (precio de reembolso, precio de suscripción, precio de reinversión.) se deriva del tipo de evento."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Las listas de códigos de tipo de exención que deben utilizarse en ExemptionType se facilitan en el documento \"ETYP-ITYP Exemption & Income Type Codes\", disponible en el sitio web de SMPG en www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "Las listas de códigos de tipo de ingreso que deben utilizarse en IncomeType se facilitan en el documento \"ETYP-ITYP Exemption & Income Type Codes\", disponible en el sitio web de SMPG en www.smpg.info."
+    },
+    "IncomeType2Rule": {
+      "definition": "Si está presente al menos una aparición de OtherIncomeType, entonces IncomeType debe estar presente."
+    }
+  }
+}

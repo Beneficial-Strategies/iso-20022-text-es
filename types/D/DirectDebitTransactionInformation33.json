@@ -1,0 +1,56 @@
+{
+  "isoType": "DirectDebitTransactionInformation33",
+  "definition": "Proporciona más detalles específicos de la o las operaciones de adeudo directo individuales incluidas en el mensaje.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Referencias utilizadas para una instrucción de pago."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Especifica el tipo de operación."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Importe de dinero movido entre la entidad instructora y la entidad instruida."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Fecha en la que el importe deja de estar disponible para la entidad que lo debe y pasa a estar disponible para la entidad a la que se debe."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador de la urgencia o del orden de importancia que la parte instructora desea que la parte instruida aplique al procesamiento de la instrucción de liquidación."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Proporciona información sobre las horas de liquidación efectivas de la operación de pago."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Proporciona información sobre la(s) hora(s) de liquidación solicitada(s) de la instrucción de pago."
+    },
+    "UltimateDebtor": {
+      "definition": "Entidad financiera final que debe un importe de dinero al beneficiario (final) institucional."
+    },
+    "Debtor": {
+      "definition": "Entidad financiera que debe un importe de dinero al beneficiario (final) de tipo entidad financiera."
+    },
+    "DebtorAccount": {
+      "definition": "Identificación inequívoca de la cuenta del ordenante en la que se registrará un adeudo como resultado de la operación."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que presta servicio a una cuenta del ordenante."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad del ordenante en su entidad de servicio de la cadena de pago."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Información adicional relacionada con la tramitación de la instrucción de pago, que la entidad del ordenante puede tener que atender, según el acuerdo entre el ordenante y la entidad del ordenante."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago.|Uso: La finalidad la utilizan los clientes finales, es decir, la parte iniciadora, el ordenante (final) y el beneficiario (final), para facilitar información sobre la naturaleza del pago. La finalidad es un elemento de contenido que no utiliza ninguna de las entidades que intervienen en la cadena de pago para el tratamiento."
+    },
+    "RemittanceInformation": {
+      "definition": "Información facilitada para permitir la conciliación de un apunte con las partidas que la transferencia pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor solo puede estar presente si es distinto de Debtor."
+    }
+  }
+}

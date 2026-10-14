@@ -1,0 +1,29 @@
+{
+  "isoType": "SubBalanceInformation20",
+  "definition": "Posición neta de una tenencia segregada de un único valor dentro de la posición global mantenida en la cuenta de valores, por ejemplo, subsaldo por estado.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motivo del subsaldo."
+    },
+    "Quantity": {
+      "definition": "Cantidad de valores en el subsaldo."
+    },
+    "SubBalanceAdditionalDetails": {
+      "definition": "Proporciona información adicional del subsaldo."
+    },
+    "QuantityBreakdown": {
+      "definition": "Desglose de la cantidad agregada comunicada en lotes significativos, por ejemplo, lotes fiscales."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Proporciona información adicional del subsaldo del instrumento sobre la totalidad o parte del instrumento financiero comunicado (no registrado, exento de impuestos, etc.)."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Salvo acuerdo bilateral entre el emisor y el receptor, si se utiliza SubBalanceAdditionnalDetails, no debe contener información que pueda proporcionarse en un campo estructurado."
+    },
+    "AvailableWithNoStatusRule": {
+      "definition": "Si el tipo de subsaldo es AvailableWithNoStatus, no puede utilizarse QuantityAndAvailability."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMNoteType1Code",
+  "definition": "Tipo de elementos del cartucho de ingreso de efectivo.",
+  "isoCodes": {
+    "ALLT": {
+      "name": "Todos",
+      "definition": "Todos los tipos de billetes aptos."
+    },
+    "CNTR": {
+      "name": "Falso",
+      "definition": "Billetes falsos detectados."
+    },
+    "IDVD": {
+      "name": "Individual",
+      "definition": "Todos los tipos de billetes aptos especificados en una lista individual."
+    },
+    "SCNT": {
+      "name": "Sospechoso de falsificación",
+      "definition": "Billetes sospechosos de ser falsos."
+    },
+    "UNFT": {
+      "name": "No apto",
+      "definition": "Billetes no aptos (calidad inaceptable)."
+    }
+  }
+}

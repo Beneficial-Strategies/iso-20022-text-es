@@ -1,0 +1,14 @@
+{
+  "isoType": "Collateral1Code",
+  "definition": "Especifica si el elemento se utiliza como garantía.",
+  "isoCodes": {
+    "COLL": {
+      "name": "Garantía",
+      "definition": "El elemento se utiliza como garantía."
+    },
+    "NCOL": {
+      "name": "No es garantía",
+      "definition": "El elemento no se utiliza como garantía."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTotals4",
+  "definition": "Totales actuales del cajero automático (ATM).",
+  "isoElements": {
+    "MediaType": {
+      "definition": "Tipo de soporte contenido en el cartucho."
+    },
+    "Currency": {
+      "definition": "Divisa de los totales."
+    },
+    "ATMBalance": {
+      "definition": "Saldo total del cajero automático (ATM), incluido el cartucho de rechazo pero excluido el cartucho de retención."
+    },
+    "ATMCurrent": {
+      "definition": "Importe disponible para dispensar en el cajero automático (ATM)."
+    },
+    "ATMBalanceNumber": {
+      "definition": "Número total de unidades de soportes sin valor, incluido el cartucho de rechazo."
+    },
+    "ATMCurrentNumber": {
+      "definition": "Número total de unidades de soportes sin valor, excluido el cartucho de rechazo."
+    }
+  }
+}

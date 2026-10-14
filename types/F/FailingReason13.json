@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason13",
+  "definition": "Especifica el motivo por el que la instrucción o la solicitud tiene estado de liquidación fallida.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción tiene estado de fallida."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "UnitPrice23",
+  "definition": "Importe de dinero por el que se ofrecen, venden o compran bienes o servicios.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo e información sobre un precio."
+    },
+    "Value": {
+      "definition": "Valor del precio."
+    },
+    "PriceMethod": {
+      "definition": "Tipo de método de cálculo del precio."
+    },
+    "AccruedInterestNAV": {
+      "definition": "Interés acumulado entre el pago de intereses más reciente y la venta del instrumento financiero."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de días utilizados para calcular el importe del interés devengado."
+    },
+    "TaxableIncomePerShare": {
+      "definition": "Importe incluido en el valor liquidativo (NAV) que corresponde a ganancias derivadas directa o indirectamente del pago de intereses en el ámbito de la Directiva europea sobre fiscalidad de los rendimientos del ahorro en forma de pago de intereses."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Especifica si el fondo calcula un interés imponible por participación (TIS)."
+    }
+  }
+}

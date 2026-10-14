@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCommand14",
+  "definition": "Comando de mantenimiento que debe ejecutar el cajero automático (ATM).",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando que debe ejecutar el cajero automático (ATM)."
+    },
+    "Urgency": {
+      "definition": "Urgencia del comando."
+    },
+    "DateTime": {
+      "definition": "Fecha y hora en la que debe ejecutarse el comando."
+    },
+    "CommandIdentification": {
+      "definition": "Identificación de la entidad que emite el comando."
+    },
+    "Reason": {
+      "definition": "Motivo del envío del comando."
+    },
+    "TraceReason": {
+      "definition": "Traza de los motivos indicados por las entidades del recorrido desde el origen del comando hasta el cajero automático (ATM)."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Información adicional sobre el motivo de la solicitud de este comando."
+    },
+    "CommandParameters": {
+      "definition": "Parámetros específicos asociados al comando."
+    }
+  }
+}

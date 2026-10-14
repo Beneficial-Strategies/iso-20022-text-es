@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryQuantity1",
+  "definition": "Conjunto de elementos para identificar una cantidad propia.",
+  "isoElements": {
+    "Type": {
+      "definition": "Identifica el tipo de cantidad propia notificada."
+    },
+    "Quantity": {
+      "definition": "Proporciona la cantidad propia en formato libre."
+    }
+  }
+}

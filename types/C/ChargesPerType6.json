@@ -1,0 +1,35 @@
+{
+  "isoType": "ChargesPerType6",
+  "definition": "Proporciona un desglose detallado de los cargos por tipo de cargo.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identificación única e inequívoca de la información de cargos a efectos de conciliación.||Uso: esta identificación se utilizará como identificación de extremo a extremo en el mensaje resultante para el pago de los cargos, con el fin de permitir la conciliación automática."
+    },
+    "TotalChargesPerChargeType": {
+      "definition": "Total de cargos reclamados para el tipo de cargo especificado."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Entidad que gestiona la cuenta de cargos.||Uso: este elemento debe utilizarse cuando el cargo reclamado no esté relacionado con el procesamiento de una operación de pago, por ejemplo, cuando se refiera a una investigación u otro proceso. Identifica la entidad que gestiona la cuenta con cargo a la cual se liquidarán los cargos."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Cuenta de la entidad que gestiona la cuenta de cargos.||Uso: este elemento debe utilizarse cuando el cargo reclamado no esté relacionado con el procesamiento de una operación de pago, por ejemplo, cuando se refiera a una investigación u otro proceso. Identifica la cuenta con cargo a la cual se liquidarán los cargos."
+    },
+    "Type": {
+      "definition": "Especifica el tipo de cargo."
+    },
+    "Record": {
+      "definition": "Registro de cargos detallado por tipo de cargo."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalles adicionales sobre el motivo de los cargos."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountAgent2Rule": {
+      "definition": "Cuando Record/ChargesAccountAgent está presente o Record/ChargesAccountAgentAccount está presente, ChargesAccountAgent debe estar ausente y ChargesAccountAgentAccount debe estar ausente."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "Cuando ChargesAccountAgent está presente o ChargesAccountAgentAccount está presente, Record/ChargesAccountAgent debe estar ausente y Record/ChargesAccountAgentAccount debe estar ausente."
+    }
+  }
+}

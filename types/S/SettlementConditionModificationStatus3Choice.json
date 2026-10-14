@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementConditionModificationStatus3Choice",
+  "definition": "Elección del estado del comando de cambio de procesamiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona el estado de la solicitud de modificación de la condición de liquidación de valores."
+    },
+    "Proprietary": {
+      "definition": "Proporciona el estado de la solicitud de modificación de la condición de liquidación de valores."
+    }
+  }
+}

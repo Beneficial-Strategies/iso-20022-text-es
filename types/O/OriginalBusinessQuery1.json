@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalBusinessQuery1",
+  "definition": "Identificación única, asignada por el solicitante original, para identificar de forma inequívoca el mensaje de consulta de negocio.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por la parte iniciadora original, para identificar inequívocamente el mensaje de consulta original."
+    },
+    "MessageNameIdentification": {
+      "definition": "Especifica el identificador del nombre del mensaje de consulta al que se refiere el mensaje."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "isoType": "RejectionReason79Code",
+  "definition": "Especifica el motivo por el que la instrucción o solicitud de cancelación tiene un estado rechazado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "INIR": {
+      "name": "Instrucción irrevocable",
+      "definition": "La instrucción es irrevocable."
+    },
+    "ULNK": {
+      "name": "Referencia no válida",
+      "definition": "La referencia vinculada es desconocida."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "DCAN": {
+      "name": "Rechazado por estar ya cancelado",
+      "definition": "La solicitud de cancelación fue rechazada porque la instrucción ya ha sido cancelada."
+    },
+    "DPRG": {
+      "name": "Rechazado por estar en curso",
+      "definition": "La solicitud de cancelación ha sido rechazada porque el proceso de la instrucción está en curso o ya ha sido procesada."
+    },
+    "REJA": {
+      "name": "Rechazado por el agente del emisor",
+      "definition": "Instrucción rechazada por el agente del emisor."
+    },
+    "CTCT": {
+      "name": "Contacto ausente",
+      "definition": "Falta la información de contacto."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "PROT": {
+      "name": "Fecha de protección ausente",
+      "definition": "Se requiere la fecha de protección para las instrucciones de cobertura de protección."
+    },
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "PROI": {
+      "name": "Identificación de protección ausente",
+      "definition": "Se requiere la identificación de protección para las instrucciones de cobertura de protección."
+    },
+    "TRTI": {
+      "name": "Tipo de operación ausente",
+      "definition": "El tipo de operación falta o no es válido para las instrucciones de protección o de cobertura de protección."
+    },
+    "DUPL": {
+      "name": "Instrucción duplicada",
+      "definition": "La instrucción se rechaza por duplicidad del identificador de mensaje de negocio."
+    }
+  }
+}

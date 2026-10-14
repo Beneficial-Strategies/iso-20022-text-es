@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesPaymentStatus1Code",
+  "definition": "Especifica el estado de pago de un valor en un momento determinado.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Totalmente desembolsado",
+      "definition": "El valor está totalmente desembolsado."
+    },
+    "NILL": {
+      "name": "Sin desembolsar",
+      "definition": "El valor no está desembolsado (nill paid)."
+    },
+    "PART": {
+      "name": "Parcialmente desembolsado",
+      "definition": "El valor está parcialmente desembolsado."
+    }
+  }
+}

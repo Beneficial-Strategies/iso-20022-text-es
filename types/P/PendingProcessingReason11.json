@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingReason11",
+  "definition": "Especifica el motivo por el que la instrucción o solicitud tiene situación de procesamiento pendiente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica el motivo por el que la instrucción tiene situación de procesamiento pendiente."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Proporciona información adicional sobre el motivo que no puede facilitarse en un campo estructurado."
+    }
+  }
+}

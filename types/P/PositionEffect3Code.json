@@ -1,0 +1,14 @@
+{
+  "isoType": "PositionEffect3Code",
+  "definition": "Especifica el orden en que se procesan los eventos.",
+  "isoCodes": {
+    "FIFO": {
+      "name": "FIFO",
+      "definition": "Primera entrada, primera salida (FIFO). Da como resultado una posición obtenida tras haber vendido en primer lugar los valores comprados cronológicamente."
+    },
+    "LIFO": {
+      "name": "LIFO",
+      "definition": "Última entrada, última salida. Da como resultado una posición obtenida tras haber vendido en primer lugar los valores comprados cronológicamente."
+    }
+  }
+}

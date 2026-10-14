@@ -1,0 +1,39 @@
+{
+  "isoType": "PaymentTransaction175",
+  "definition": "Proporciona información de referencia y de estado sobre las operaciones originales, incluidas en la instrucción original, a las que se aplica el mensaje de solicitud de anulación.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Identificador único e inequívoco del estado de una solicitud de anulación, asignado por el asignador.||Uso: la identificación del estado de anulación puede utilizarse para la conciliación o para vincular tareas relacionadas con la solicitud de anulación."
+    },
+    "ResolvedCase": {
+      "definition": "Identifica el caso resuelto."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original a la parte instruida original, para identificar de forma inequívoca la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar de forma inequívoca la operación original."
+    },
+    "UETR": {
+      "definition": "Identificador único universal que proporciona una referencia de extremo a extremo de una operación de pago."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Especifica el estado de la solicitud de anulación de la operación."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Proporciona información detallada sobre el motivo del estado de anulación."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Importe de dinero, tal como figura en la operación original, que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora original.|Uso: este importe debe transportarse sin modificaciones a lo largo de la cadena de la operación."
+    },
+    "OriginalRequestedExecutionDate": {
+      "definition": "Fecha en que la parte iniciadora solicitó originalmente a la entidad compensadora que procesara el pago."
+    },
+    "OriginalRequestedCollectionDate": {
+      "definition": "Fecha en que el beneficiario solicitó originalmente el cobro del importe al ordenante."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos clave utilizados para identificar la operación original a la que se hace referencia."
+    }
+  }
+}

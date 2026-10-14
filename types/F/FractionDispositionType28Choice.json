@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType28Choice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el tipo de disposición de fracciones.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita un tipo de prorrateo."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del tipo de disposición de fracciones."
+    }
+  }
+}

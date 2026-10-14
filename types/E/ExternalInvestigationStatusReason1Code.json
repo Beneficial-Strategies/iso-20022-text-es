@@ -1,0 +1,90 @@
+{
+  "isoType": "ExternalInvestigationStatusReason1Code",
+  "definition": "Especifica el motivo del estado de la investigación, tal como se publica en un conjunto de códigos externo de motivos de estado de investigación.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "AGNT": {
+      "name": "Entidad o parte incorrecta",
+      "definition": "El mensaje de solicitud se ha dirigido a una entidad o parte incorrecta."
+    },
+    "DU01": {
+      "name": "Solicitud duplicada",
+      "definition": "El mensaje de solicitud está duplicado; el mensaje de solicitud duplicado es rechazado."
+    },
+    "NARR": {
+      "name": "Texto descriptivo",
+      "definition": "Véase el elemento ResponseData para información adicional."
+    },
+    "FTNA": {
+      "name": "Solicitud de investigación reenviada a la entidad o parte",
+      "definition": "Mensaje de solicitud reenviado a otra entidad o parte; estas pueden indicarse en el elemento NextResponder."
+    },
+    "CAPR": {
+      "name": "Cerrado según lo solicitado",
+      "definition": "Investigación cerrada conforme al mensaje de solicitud."
+    },
+    "CACR": {
+      "name": "Cerrado por envío de solicitud de cancelación",
+      "definition": "Investigación cerrada porque se ha enviado la solicitud de cancelación de la operación subyacente."
+    },
+    "ADAC": {
+      "name": "A la espera de la autorización de adeudo del cliente",
+      "definition": "En espera de la autorización de adeudo del cliente."
+    },
+    "ARPL": {
+      "name": "A la espera de respuesta del cliente",
+      "definition": "En espera de respuesta del cliente."
+    },
+    "NOAS": {
+      "name": "Sin respuesta del cliente",
+      "definition": "Sin respuesta del cliente."
+    },
+    "INPO": {
+      "name": "En curso",
+      "definition": "La recopilación de los datos de respuesta aún está en curso."
+    },
+    "NOOR": {
+      "name": "No se ha recibido la operación original",
+      "definition": "La operación subyacente nunca fue recibida."
+    },
+    "ARJT": {
+      "name": "Operación ya rechazada",
+      "definition": "La operación subyacente ya ha sido rechazada."
+    },
+    "ARDT": {
+      "name": "Ya devuelto",
+      "definition": "Solicitud de investigación no aceptada porque la operación ya ha sido devuelta."
+    },
+    "RR04": {
+      "name": "Motivo regulatorio",
+      "definition": "Motivo regulatorio."
+    },
+    "LEGL": {
+      "name": "Decisión legal",
+      "definition": "Se indica cuando la solicitud no puede ser aceptada por razones de normativa regulatoria."
+    },
+    "ESCA": {
+      "name": "Escalado",
+      "definition": "Se está realizando un seguimiento especial."
+    },
+    "INIT": {
+      "name": "Tipo de investigación incorrecto",
+      "definition": "Se ha utilizado un tipo de investigación incorrecto en el mensaje de solicitud."
+    },
+    "PARE": {
+      "name": "Respuesta parcial",
+      "definition": "El mensaje de respuesta atiende parcialmente la solicitud; seguirá otro mensaje de respuesta."
+    },
+    "NOAD": {
+      "name": "Sin información adicional disponible",
+      "definition": "No puede facilitarse información adicional en relación con la solicitud."
+    },
+    "G004": {
+      "name": "A la espera de la cobertura",
+      "definition": "Indica que la investigación por falta de recepción de la reclamación de abono está pendiente porque el beneficiario de la cobertura está a la espera del abono de la cobertura."
+    },
+    "CMPI": {
+      "name": "Corrección realizada conforme a la consulta",
+      "definition": "Está relacionado con un procedimiento de corrección realizada según consulta (Correction Made as Per Inquiry) para el estado de investigación Closed (CLSD)."
+    }
+  }
+}

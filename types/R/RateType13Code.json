@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType13Code",
+  "definition": "Especifica el tipo de tasa.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconocido",
+      "definition": "La tasa es desconocida para el remitente o no se ha establecido."
+    },
+    "NILP": {
+      "name": "Pago nulo",
+      "definition": "La tasa no se pagará."
+    }
+  }
+}

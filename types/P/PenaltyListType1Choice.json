@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyListType1Choice",
+  "definition": "Elección de formato para el tipo de lista de penalizaciones.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica la lista de penalizaciones notificada, en formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Especifica la lista de penalizaciones notificada, en formato propietario."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "OtherAmountType1Code",
+  "definition": "Tipo de otro importe.",
+  "isoCodes": {
+    "PINT": {
+      "name": "Intereses prepagados",
+      "definition": "Intereses que se pagaron por anticipado."
+    },
+    "SINT": {
+      "name": "Intereses de liquidación",
+      "definition": "Intereses sobre los intereses."
+    }
+  }
+}

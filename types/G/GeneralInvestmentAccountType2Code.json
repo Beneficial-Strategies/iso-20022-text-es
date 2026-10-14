@@ -1,0 +1,14 @@
+{
+  "isoType": "GeneralInvestmentAccountType2Code",
+  "definition": "Especifica un tipo de cuenta de inversión.",
+  "isoCodes": {
+    "ANYY": {
+      "name": "Cualquiera",
+      "definition": "Cualquier tipo de cuenta de inversión general."
+    },
+    "EQUI": {
+      "name": "Cuenta de ahorro en acciones",
+      "definition": "Cuenta de ahorro general en acciones o renta variable."
+    }
+  }
+}

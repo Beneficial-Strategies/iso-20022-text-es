@@ -1,0 +1,15 @@
+{
+  "isoType": "RepoCallRequestStatus7Choice",
+  "definition": "Elección de formato para el acuse de recibo del requerimiento del acuerdo de recompra.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "La entidad gestora de la cuenta ha acusado recibo de la instrucción."
+    },
+    "Denied": {
+      "definition": "La instrucción o solicitud no se ejecutará."
+    },
+    "Proprietary": {
+      "definition": "Estado propietario."
+    }
+  }
+}

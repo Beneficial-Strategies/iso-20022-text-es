@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentOrDefaultReservation4Choice",
+  "definition": "Reserva vigente o por defecto establecida por el miembro y gestionada por el administrador de operaciones.",
+  "isoElements": {
+    "Current": {
+      "definition": "Identificación de la reserva vigente."
+    },
+    "Default": {
+      "definition": "Identificación de la reserva por defecto."
+    }
+  }
+}

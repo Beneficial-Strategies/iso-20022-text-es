@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraPositionType2",
+  "definition": "Tipo de intraposición utilizado para especificar pares de saldos de origen y destino.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Saldo del que se mueven los valores."
+    },
+    "BalanceTo": {
+      "definition": "Saldo al que se mueven los valores."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule": {
+      "definition": "El tipo de saldo de efectivo de BalanceFrom debe ser distinto del tipo de saldo de efectivo de BalanceTo."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason37Choice",
+  "definition": "Elección entre un código estándar y un código propietario para especificar el motivo por el que la instrucción o la solicitud de cancelación tiene un estado de rechazada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo por el que la instrucción/solicitud de cancelación tiene un estado de rechazada."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria del motivo por el que la instrucción/solicitud de cancelación tiene un estado de rechazada."
+    }
+  }
+}

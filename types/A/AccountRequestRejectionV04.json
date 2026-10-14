@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountRequestRejectionV04",
+  "definition": "El mensaje AccountRequestRejection lo envía una entidad financiera a una organización. Este mensaje se envía en respuesta a un mensaje de solicitud de la organización, si el contenido comercial no es válido."
+}

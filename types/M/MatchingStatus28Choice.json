@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingStatus28Choice",
+  "definition": "Elección del formato para la situación de casamiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Proporciona la situación de casamiento de la instrucción."
+    },
+    "Proprietary": {
+      "definition": "Proporciona la situación de casamiento de la instrucción."
+    }
+  }
+}

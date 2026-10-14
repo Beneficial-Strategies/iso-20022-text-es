@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionSecuritiesMovement2",
+  "definition": "Proporciona información sobre el movimiento de valores resultante de la instrucción de elección.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "PostingDateTime": {
+      "definition": "Fecha y hora de la contabilización del movimiento."
+    },
+    "PostingIdentification": {
+      "definition": "Identificación contable del movimiento de valores."
+    },
+    "PostingQuantity": {
+      "definition": "Cantidad de valores contabilizada como resultado del movimiento de valores."
+    },
+    "AccountDetails": {
+      "definition": "Proporciona información sobre la cuenta que se adeuda o se abona como resultado del movimiento."
+    }
+  }
+}

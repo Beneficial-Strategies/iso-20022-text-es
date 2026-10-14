@@ -1,0 +1,4 @@
+{
+  "isoType": "PayInScheduleV03",
+  "definition": "El mensaje PayInSchedule lo envía un sistema central de liquidación al participante para notificar una serie de pagos programados con hora para cada divisa en el momento y la fecha de generación del calendario. El sistema central de liquidación puede enviar información sobre cómo se han calculado los pagos programados."
+}

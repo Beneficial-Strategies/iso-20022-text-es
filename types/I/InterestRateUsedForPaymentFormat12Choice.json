@@ -1,0 +1,15 @@
+{
+  "isoType": "InterestRateUsedForPaymentFormat12Choice",
+  "definition": "Elección entre un importe o un tipo.",
+  "isoElements": {
+    "Rate": {
+      "definition": "El valor se expresa como una tasa."
+    },
+    "Amount": {
+      "definition": "Número de unidades monetarias especificadas en una divisa."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Especifica los distintos formatos del tipo de interés utilizado para el pago."
+    }
+  }
+}

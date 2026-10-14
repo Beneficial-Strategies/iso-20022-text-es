@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditDebitAmount1",
+  "definition": "Especifica un importe de dinero como importe de débito o de crédito.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe de dinero expresado en una divisa admisible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el importe de dinero es de débito o de crédito."
+    }
+  }
+}

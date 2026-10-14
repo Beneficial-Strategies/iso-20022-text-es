@@ -1,0 +1,18 @@
+{
+  "isoType": "NonEligibleProceedsIndicator1Code",
+  "definition": "Especifica información sobre la no admisibilidad de los recursos resultantes.",
+  "isoCodes": {
+    "NELC": {
+      "name": "Divisa no admisible",
+      "definition": "Divisa no admisible para la liquidación en el depositario central de valores (CSD)."
+    },
+    "ACLI": {
+      "name": "Limitación de la cuenta",
+      "definition": "Limitación de la cuenta del participante."
+    },
+    "ONEL": {
+      "name": "Otra causa de no admisibilidad",
+      "definition": "Otra fuente de no admisibilidad."
+    }
+  }
+}

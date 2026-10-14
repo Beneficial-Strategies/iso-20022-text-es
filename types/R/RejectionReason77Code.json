@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason77Code",
+  "definition": "Especifica el motivo por el que la solicitud tiene un estado de rechazada o de reparación.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "REFE": {
+      "name": "Rechazo por referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida previamente."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "MISM": {
+      "name": "Solicitud no válida",
+      "definition": "No se puede ejecutar la solicitud de extracto/aviso de estado. El tipo de mensaje solicitado no es válido para la referencia de mensaje o el periodo de extracto de que se trata."
+    }
+  }
+}

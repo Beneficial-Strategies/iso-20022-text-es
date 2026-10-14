@@ -1,0 +1,21 @@
+{
+  "isoType": "InvoiceTotals7",
+  "definition": "Especifica los totales relacionados con la factura.",
+  "isoElements": {
+    "Tax": {
+      "definition": "Información detallada sobre el impuesto aplicado."
+    },
+    "Adjustment": {
+      "definition": "Diferencia en el importe de la factura teniendo en cuenta descuentos, bonificaciones y gastos."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Importe total de la factura, que es la suma de los importes totales de las líneas de factura, el importe total de ajustes de la factura (descuentos, bonificaciones y gastos) y los importes totales de impuestos."
+    },
+    "PaymentDueDate": {
+      "definition": "Fecha de vencimiento para el pago de la factura."
+    },
+    "CashAccount": {
+      "definition": "Cuenta de efectivo de la que se pagan las comisiones."
+    }
+  }
+}

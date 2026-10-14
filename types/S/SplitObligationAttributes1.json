@@ -1,0 +1,15 @@
+{
+  "isoType": "SplitObligationAttributes1",
+  "definition": "Especifica los detalles de la división.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "definition": "Referencia de la obligación dividida."
+    },
+    "SplitSequenceNumber": {
+      "definition": "Número de secuencia de la división."
+    },
+    "Amount": {
+      "definition": "Importe de dinero de la división."
+    }
+  }
+}

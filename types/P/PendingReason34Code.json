@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason34Code",
+  "definition": "Especifica el motivo por el que está pendiente una solicitud de cancelación enviada para la instrucción relacionada.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "La instrucción se recibió después del plazo límite del administrador de cuentas. Se gestionará conforme al acuerdo de servicio bilateral entre el administrador de cuentas y el titular de la cuenta."
+    },
+    "CONF": {
+      "name": "Pendiente de confirmación",
+      "definition": "A la espera de confirmación de la contraparte."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "DQUA": {
+      "name": "Desacuerdo en la cantidad",
+      "definition": "La cantidad de instrumentos financieros no coincide."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "CorporateActionChangeType2Code",
+  "definition": "Especifica el tipo de cambios.",
+  "isoCodes": {
+    "BERE": {
+      "name": "De al portador a nominativo",
+      "definition": "Cambio de forma al portador a forma nominativa."
+    },
+    "CERT": {
+      "name": "Certificados",
+      "definition": "Cambio de todos los instrumentos a certificados."
+    },
+    "DEPH": {
+      "name": "De desmaterializado a físico",
+      "definition": "Cambio de forma desmaterializada a forma física."
+    },
+    "GPPH": {
+      "name": "De global permanente a físico",
+      "definition": "Cambio de global permanente a forma física."
+    },
+    "GTGP": {
+      "name": "De global temporal a global permanente",
+      "definition": "Cambio de global temporal a global permanente."
+    },
+    "GTPH": {
+      "name": "De global temporal a físico",
+      "definition": "Cambio de global temporal a forma física."
+    },
+    "NAME": {
+      "name": "Nombre",
+      "definition": "La sociedad emisora cambia su denominación. El evento CA muestra el cambio del nombre anterior al nuevo nombre y puede implicar la entrega al registrador de las acciones físicas con el nombre anterior."
+    },
+    "PHDE": {
+      "name": "De físico a desmaterializado",
+      "definition": "Cambio de forma física a forma desmaterializada."
+    },
+    "REBE": {
+      "name": "De nominativo a al portador",
+      "definition": "Cambio de forma nominativa a forma al portador."
+    },
+    "TERM": {
+      "name": "Condiciones",
+      "definition": "Cambio en las condiciones del valor."
+    }
+  }
+}

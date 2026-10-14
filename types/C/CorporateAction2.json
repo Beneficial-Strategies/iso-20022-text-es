@@ -1,0 +1,123 @@
+{
+  "isoType": "CorporateAction2",
+  "definition": "Proporciona información sobre el evento de CA.",
+  "isoElements": {
+    "EventStage": {
+      "definition": "Etapa en el ciclo de vida del evento de acciones corporativas."
+    },
+    "DefaultOptionType": {
+      "definition": "Identifica la opción que se seleccionará por defecto si el titular de la cuenta no facilita ninguna instrucción."
+    },
+    "DefaultOptionNumber": {
+      "definition": "Identifica el número de la opción que se seleccionará por defecto si el titular de la cuenta no facilita ninguna instrucción."
+    },
+    "CalculationMethod": {
+      "definition": "El método de cálculo de los sorteos y de las amortizaciones parciales."
+    },
+    "BackEndOddLotSecuritiesQuantity": {
+      "definition": "Representa la presencia de una disposición final sobre lotes irregulares y la cantidad de acciones requerida tras el prorrateo para tener derecho a este privilegio."
+    },
+    "FrontEndOddLotSecuritiesQuantity": {
+      "definition": "Especifica que, si una orden se prorratea, los titulares de lotes irregulares que ofrezcan toda su posición no verán prorrateada su posición ofrecida, sino que se aceptará en su totalidad."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Cantidad mínima de instrumento financiero o lote de derechos/warrants que debe ejercerse."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Cantidad múltiplo mínima de instrumento financiero o lote de derechos/warrants que debe ejercerse."
+    },
+    "IncrementalDenomination": {
+      "definition": "Importe utilizado cuando el importe amortizado no se alcanza al realizar el sorteo con la denominación base."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Nueva denominación de las acciones tras, por ejemplo, un aumento o una disminución del valor nominal."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Cantidad de capital que constituye el nuevo lote de negociación."
+    },
+    "SecuritiesQuantitySought": {
+      "definition": "Cantidad de valores que el oferente o emisor comprará o amortizará con arreglo a las condiciones del evento. Puede ser un número o la expresión \"any and all\"."
+    },
+    "BaseDenomination": {
+      "definition": "El importe entero mínimo de valores que debe conservar cada titular de cuenta una vez aplicados los importes amortizados."
+    },
+    "ChangeType": {
+      "definition": "Especifica el tipo de cambio anunciado."
+    },
+    "OfferType": {
+      "definition": "Especifica las condiciones aplicables a la oferta."
+    },
+    "RestrictionIndicator": {
+      "definition": "Indica si se aplican restricciones al evento de CA o no.||Yes = Existen restricciones.|No = No existen restricciones."
+    },
+    "PartialElectionIndicator": {
+      "definition": "Especifica si el emisor permitirá que el agente acepte elecciones parciales. Permite el voto fraccionado entre opciones. Permite al cliente elegir más de una opción por cada posición designada."
+    },
+    "ElectionType": {
+      "definition": "Especifica el efecto sobre las posiciones de elegir una opción de operación societaria."
+    },
+    "LotteryType": {
+      "definition": "Especifica el tipo de sorteo anunciado."
+    },
+    "IncomeType": {
+      "definition": "Especifica el tipo de ingreso.|Las listas de códigos de tipo de ingreso que deben utilizarse están disponibles en el sitio web de SMPG en www.smpg.info."
+    },
+    "DividendType": {
+      "definition": "Especifica las condiciones en las que se paga un dividendo."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "definition": "Tipo de distribución de valores intermedios, por ejemplo, dividendo en acciones, derecho inverso."
+    },
+    "CouponNumber": {
+      "definition": "Número del cupón adjunto o asociado a un valor."
+    },
+    "InterestAccruedNumberOfDays": {
+      "definition": "Número de días utilizados para calcular el importe del interés devengado."
+    },
+    "NewDenominationCurrency": {
+      "definition": "Nueva divisa de denominación del instrumento financiero."
+    },
+    "DateDetails": {
+      "definition": "Proporciona información sobre las fechas relacionadas con un evento de CA."
+    },
+    "PriceDetails": {
+      "definition": "Proporciona información sobre los precios relacionados con un evento de CA."
+    },
+    "PeriodDetails": {
+      "definition": "Proporciona información sobre los períodos relacionados con un evento de CA."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Proporciona información sobre las tasas y los importes relacionados con un evento de CA."
+    },
+    "CorporateActionAdditionalInformation": {
+      "definition": "Proporciona información adicional."
+    },
+    "CertificationRequiredIndicator": {
+      "definition": "Indica si se requiere certificación del titular de la cuenta."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificación que se requiere."
+    },
+    "CapitalGain": {
+      "definition": "Especifica si la ganancia de capital está dentro del ámbito de la directiva de la EU sobre el ahorro para los ingresos obtenidos por la venta, el reembolso o el rescate de acciones y participaciones (.) (artículo 6(1d))."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Especifica si el instrumento financiero calcula la renta imponible por dividendo o la renta imponible por acción."
+    },
+    "NewPlaceOfIncorporation": {
+      "definition": "Lugar de constitución de la nueva sociedad."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Especifica si las condiciones del evento permiten la reventa de los derechos."
+    },
+    "ConversionType": {
+      "definition": "Especifica el tipo de conversión de un instrumento."
+    },
+    "RedemptionChargesAppliedIndicator": {
+      "definition": "Indica si se aplican gastos de reembolso."
+    },
+    "DistributionType": {
+      "definition": "Especifica si el producto del evento se distribuirá de forma continua en lugar de en una fecha específica."
+    }
+  }
+}

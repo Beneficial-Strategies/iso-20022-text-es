@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionType2Choice",
+  "definition": "Tipo de instrucción.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificación del mensaje de instrucción de junta original para el que se facilita el estado global o el estado de una o varias instrucciones individuales."
+    },
+    "InstructionCancellationIdentification": {
+      "definition": "Identificación del mensaje de solicitud de cancelación de instrucción de junta original para el que se facilita el estado global o el estado de una o varias solicitudes de cancelación de instrucciones individuales."
+    }
+  }
+}

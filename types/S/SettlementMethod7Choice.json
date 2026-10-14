@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementMethod7Choice",
+  "definition": "Detalles de liquidación para determinar si el pago es un abono o un adeudo.",
+  "isoElements": {
+    "Credit": {
+      "definition": "Especifica los detalles del pago que debe realizar la entidad gestora de la cuenta anterior a la entidad gestora de la cuenta nueva en caso de saldo final positivo."
+    },
+    "Debit": {
+      "definition": "Especifica los detalles del pago que debe realizar la entidad gestora de la cuenta nueva a la entidad gestora de la cuenta anterior en caso de saldo final negativo."
+    }
+  }
+}

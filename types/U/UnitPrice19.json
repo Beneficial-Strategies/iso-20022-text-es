@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitPrice19",
+  "definition": "Importe de dinero por el que se ofrecen, venden o compran bienes o servicios.",
+  "isoElements": {
+    "PriceType": {
+      "definition": "Tipo de precio."
+    },
+    "Value": {
+      "definition": "Valor del precio, es decir, como divisa y valor."
+    }
+  }
+}

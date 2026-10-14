@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesSettlementTransactionQueryV01",
+  "definition": "El mensaje SecuritiesSettlementInstructionQuery es enviado por un titular de cuenta o solicitante a una infraestructura de liquidación.|El mensaje se utiliza para consultar información sobre las instrucciones de liquidación de valores que cumplen los criterios de selección definidos."
+}

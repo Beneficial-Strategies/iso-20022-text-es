@@ -1,0 +1,12 @@
+{
+  "isoType": "FixedAmountOrUnlimited1Choice",
+  "definition": "Elección entre un importe fijo y un importe ilimitado.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe fijo."
+    },
+    "NotLimited": {
+      "definition": "Importe ilimitado."
+    }
+  }
+}

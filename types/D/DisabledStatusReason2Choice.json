@@ -1,0 +1,12 @@
+{
+  "isoType": "DisabledStatusReason2Choice",
+  "definition": "Elección de formatos para un código de motivo de deshabilitación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado deshabilitado de la cuenta expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado deshabilitado de la cuenta expresado como código propietario."
+    }
+  }
+}

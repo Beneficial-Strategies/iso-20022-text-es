@@ -1,0 +1,18 @@
+{
+  "isoType": "NetCashForecast5",
+  "definition": "Movimiento neto de efectivo hacia un fondo como resultado de operaciones de fondos de inversión.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Fecha en la que el efectivo está disponible."
+    },
+    "NetAmount": {
+      "definition": "Importe neto del flujo de efectivo, expresado como importe de dinero."
+    },
+    "NetUnitsNumber": {
+      "definition": "Importe neto, expresado como número de participaciones."
+    },
+    "FlowDirection": {
+      "definition": "Especifica la dirección del flujo de efectivo desde la perspectiva del fondo."
+    }
+  }
+}

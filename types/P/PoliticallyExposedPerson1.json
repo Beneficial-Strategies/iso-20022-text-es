@@ -1,0 +1,17 @@
+{
+  "isoType": "PoliticallyExposedPerson1",
+  "definition": "Comprobaciones de personas con responsabilidad pública.",
+  "isoElements": {
+    "PoliticallyExposedPersonType": {
+      "definition": "Especifica si se han realizado comprobaciones de diligencia debida sobre la exposición política del inversor. (Una persona con responsabilidad pública es alguien a quien se han confiado funciones públicas importantes, o una persona estrechamente vinculada a ella.)"
+    },
+    "PoliticallyExposedPersonStatus": {
+      "definition": "Condición de la persona con responsabilidad pública."
+    }
+  },
+  "isoRules": {
+    "PoliticallyExposedPersonTypeRule": {
+      "definition": "Si PoliticallyExposedPersonType/Code es 'NoPoliticalExposure' (NPEX), entonces PoliticallyExposedPersonStatus no está permitido."
+    }
+  }
+}

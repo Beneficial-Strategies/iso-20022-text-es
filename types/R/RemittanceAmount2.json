@@ -1,0 +1,24 @@
+{
+  "isoType": "RemittanceAmount2",
+  "definition": "Naturaleza del importe y la divisa de un documento al que se hace referencia en la sección de remesa, normalmente el importe original adeudado o pagadero o el importe efectivamente remitido por el documento referenciado.",
+  "isoElements": {
+    "DuePayableAmount": {
+      "definition": "El importe especificado es el importe exacto adeudado y pagadero al beneficiario."
+    },
+    "DiscountAppliedAmount": {
+      "definition": "El importe especificado para el documento referenciado es el importe del descuento que debe aplicarse al importe adeudado y pagadero al beneficiario."
+    },
+    "CreditNoteAmount": {
+      "definition": "El importe especificado para el documento referenciado es el importe de una nota de abono."
+    },
+    "TaxAmount": {
+      "definition": "Cantidad de efectivo resultante del cálculo del impuesto."
+    },
+    "AdjustmentAmountAndReason": {
+      "definition": "Especifica información detallada sobre el importe y el motivo del ajuste del documento."
+    },
+    "RemittedAmount": {
+      "definition": "Importe de dinero remitido por el documento referenciado."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndQuantityRatio1",
+  "definition": "Proporción expresada como importe por cantidad.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe en efectivo."
+    },
+    "Quantity": {
+      "definition": "Cantidad expresada como número."
+    }
+  }
+}

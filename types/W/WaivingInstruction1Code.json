@@ -1,0 +1,14 @@
+{
+  "isoType": "WaivingInstruction1Code",
+  "definition": "Especifica la forma de la bonificación cuando se renuncia a la comisión.",
+  "isoCodes": {
+    "WICA": {
+      "name": "Renuncia en efectivo",
+      "definition": "La forma de la comisión a la que se renuncia es efectivo."
+    },
+    "WIUN": {
+      "name": "Renuncia en unidades",
+      "definition": "La forma de la comisión a la que se renuncia son participaciones adicionales de un instrumento financiero."
+    }
+  }
+}

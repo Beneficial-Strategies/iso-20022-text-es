@@ -1,0 +1,54 @@
+{
+  "isoType": "IntraBalanceMovement6",
+  "definition": "Proporciona detalles adicionales de los datos de los movimientos entre saldos.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Saldo del que se mueve el importe de dinero."
+    },
+    "BalanceTo": {
+      "definition": "Saldo al que se mueve el importe de dinero."
+    },
+    "SettlementAmount": {
+      "definition": "Importe de dinero efectivamente liquidado que se abonará o cargará en la cuenta de efectivo del titular de la cuenta. Puede diferir del importe de liquidación instruido según el nivel de tolerancia del mercado."
+    },
+    "SettledAmount": {
+      "definition": "Importe de dinero efectivamente liquidado que se abonará o cargará en la cuenta de efectivo del titular de la cuenta. Puede diferir del importe de liquidación instruido según el nivel de tolerancia del mercado."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Importe de dinero liquidado anteriormente."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Importe de dinero pendiente de liquidar."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Fecha y hora en que se pretende mover el importe de dinero."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Fecha y hora en que se mueve el importe de dinero."
+    },
+    "StatusDate": {
+      "definition": "Fecha y hora en que se asignó el estado."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Número que identifica un lote que forma parte del subsaldo."
+    },
+    "Linkages": {
+      "definition": "Vínculo con otra operación que debe tramitarse después, antes o al mismo tiempo."
+    },
+    "Priority": {
+      "definition": "Especifica si la operación debe ejecutarse con prioridad alta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originó el mensaje, si es distinta del emisor."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica la fecha y hora en que se ejecutó la operación."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Proporciona información adicional sobre el tratamiento de la liquidación que no puede incluirse en los campos estructurados del mensaje."
+    },
+    "SupplementaryData": {
+      "definition": "Información adicional que no puede recogerse en los elementos estructurados ni en ningún otro bloque específico."
+    }
+  }
+}

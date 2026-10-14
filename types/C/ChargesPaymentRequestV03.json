@@ -1,0 +1,27 @@
+{
+  "isoType": "ChargesPaymentRequestV03",
+  "definition": "El mensaje ChargesPaymentRequest lo envía una entidad financiera a otra entidad financiera para solicitar el pago de cargos, intereses u otros gastos que el receptor desconocía previamente.",
+  "isoRules": {
+    "ChargesAccountAgentHeaderOrSingle1Rule": {
+      "definition": "Cuando GroupHeader/ChargesAccountAgent está presente o GroupHeader/ChargesAccountAgentAccount está presente, Charges/Single/ChargesAccountAgent debe estar ausente y Charges/Single/ChargesAccountAgentAccount debe estar ausente."
+    },
+    "ChargesAccountAgentHeaderOrSingle2Rule": {
+      "definition": "Cuando Charges/Single/ChargesAccountAgent está presente o Charges/Single/ChargesAccountAgentAccount está presente, GroupHeader/ChargesAccountAgent debe estar ausente y GroupHeader/ChargesAccountAgentAccount debe estar ausente."
+    },
+    "ChargesAccountAgentHeaderOrTransaction1Rule": {
+      "definition": "Cuando GroupHeader/ChargesAccountAgent está presente o GroupHeader/ChargesAccountAgentAccount está presente, Charges/PerTransaction/ChargesAccountAgent debe estar ausente y Charges/PerTransaction/ChargesAccountAgentAccount debe estar ausente y Charges/PerTransaction/Record/ChargesAccountAgent debe estar ausente y Charges/PerTransaction/Record/ChargesAccountAgentAccount debe estar ausente."
+    },
+    "ChargesAccountAgentHeaderOrTransaction2Rule": {
+      "definition": "Cuando Charges/PerTransaction/ChargesAccount está presente o Charges/PerTransaction/ChargesAccountOwner está presente o Charges/PerTransaction/Record/ChargesAccount está presente o Charges/PerTransaction/Record/ChargesAccountOwner, GroupHeader/ChargesAccountAgent debe estar ausente y GroupHeader/ChargesAccountAgentAccount debe estar ausente."
+    },
+    "ChargesAccountAgentHeaderOrType1Rule": {
+      "definition": "Cuando GroupHeader/ChargesAccountAgent está presente o GroupHeader/ChargesAccountAgentAccount está presente, Charges/PerType/ChargesAccountAgent debe estar ausente y Charges/PerType/ChargesAccountAgentAccount debe estar ausente y Charges/PerType/Record/ChargesAccountAgent debe estar ausente y Charges/PerType/Record/ChargesAccountAgentAccount debe estar ausente."
+    },
+    "ChargesAccountAgentHeaderOrType2Rule": {
+      "definition": "Cuando Charges/PerType/ChargesAccountAgent está presente o Charges/PerType/ChargesAccountAgentAccount está presente o Charges/PerType/Record/ChargesAccountAgent está presente o Charges/PerType/Record/ChargesAccountAgentAccount, GroupHeader/ChargesAccountAgent debe estar ausente y GroupHeader/ChargesAccountAgentAccount debe estar ausente."
+    },
+    "ChargesRequestorGroupHeaderRule": {
+      "definition": "Cuando GroupHeader/ChargesRequestor está presente, Charges/Single/ChargesRequestor debe estar ausente y Charges/PerTransaction/Record[*]/ChargesRequestor debe estar ausente y Charges/PerType[*]/Record[*]/ChargesRequestor debe estar ausente.||Todos pueden estar ausentes."
+    }
+  }
+}

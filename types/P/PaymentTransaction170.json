@@ -1,0 +1,54 @@
+{
+  "isoType": "PaymentTransaction170",
+  "definition": "Proporciona información adicional sobre la referencia y el estado de las operaciones originales, incluidas en la instrucción original, a las que se aplica el mensaje de solicitud de anulación.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Identificador único e inequívoco del estado de una solicitud de anulación, asignado por el asignador.||Uso: la identificación del estado de anulación puede utilizarse para la conciliación o para vincular tareas relacionadas con la solicitud de anulación."
+    },
+    "ResolvedCase": {
+      "definition": "Identifica el caso resuelto."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Proporciona información sobre el mensaje original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificación única, asignada por la parte instructora original a la parte instruida original, para identificar de forma inequívoca la instrucción original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificación única, asignada por la parte iniciadora original, para identificar de forma inequívoca la operación original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificación única, asignada por la primera entidad instructora original, para identificar de forma inequívoca la operación."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Referencia única, asignada por el sistema de compensación original, para identificar de forma inequívoca la instrucción original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal que proporciona la referencia original de extremo a extremo de una operación de pago."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Especifica el estado de la solicitud de anulación de la operación."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Proporciona información detallada sobre el motivo del estado de anulación."
+    },
+    "ResolutionRelatedInformation": {
+      "definition": "Referencia de una operación de devolución o de reversión iniciada para subsanar el caso investigado como parte de la resolución."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Importe de dinero transferido entre la entidad instructora y la entidad instruida, tal como figura en la instrucción original."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Fecha, tal como figura en la operación original, en la que el importe deja de estar disponible para la entidad que lo adeuda y pasa a estar disponible para la entidad a la que se le debe."
+    },
+    "Assigner": {
+      "definition": "Parte que asigna el caso.|Uso: también es la entidad que instruye a la siguiente parte de la cadena para que lleve a cabo la solicitud o el conjunto de solicitudes de anulación."
+    },
+    "Assignee": {
+      "definition": "Parte a la que se asigna el caso.|Uso: también es la entidad a la que la parte anterior de la cadena ha instruido para que lleve a cabo la solicitud o el conjunto de solicitudes de anulación."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos clave utilizados para identificar la operación original a la que se hace referencia."
+    }
+  }
+}

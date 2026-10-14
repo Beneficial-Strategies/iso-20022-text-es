@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader133",
+  "definition": "Conjunto de características comunes a todas las notificaciones individuales incluidas en el mensaje.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referencia punto a punto, asignada por el emisor y enviada al receptor para identificar el mensaje de forma inequívoca.|Uso: El emisor debe asegurarse de que MessageIdentification sea único para cada receptor durante un periodo previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha y hora en que se creó el mensaje."
+    },
+    "CashReceiver": {
+      "definition": "Parte que solicita la retirada de efectivo."
+    },
+    "CashSender": {
+      "definition": "Parte que responde a la solicitud de retirada de efectivo."
+    },
+    "NumberOfRequests": {
+      "definition": "Número de solicitudes individuales contenidas en el mensaje."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos en el mensaje, con independencia de las divisas."
+    }
+  }
+}

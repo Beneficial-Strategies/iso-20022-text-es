@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalCharges7",
+  "definition": "Especifica el importe total de los registros y cargos incluidos en el bloque.",
+  "isoElements": {
+    "NumberOfChargesRecords": {
+      "definition": "Número de registros de cargos individuales."
+    },
+    "ControlSum": {
+      "definition": "Total de todos los importes individuales incluidos, con independencia de las divisas."
+    },
+    "TotalChargesAmount": {
+      "definition": "Importe total de los cargos reclamados."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica si el importe total de los cargos es un importe de abono o de adeudo. |Uso: un importe cero se considera un abono."
+    }
+  }
+}

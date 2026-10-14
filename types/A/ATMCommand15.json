@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMCommand15",
+  "definition": "Resultado de un comando de mantenimiento ejecutado por el cajero automático (ATM).",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando que debe ejecutar el cajero automático (ATM)."
+    },
+    "RequiredDateTime": {
+      "definition": "Fecha y hora en que se ha solicitado la ejecución del comando."
+    },
+    "ProcessedDateTime": {
+      "definition": "Fecha y hora en que se ha ejecutado el comando."
+    },
+    "CommandIdentification": {
+      "definition": "Identificación de la entidad que emite el comando."
+    },
+    "Result": {
+      "definition": "Resultado final del comando procesado en el cajero automático (ATM)."
+    },
+    "AdditionalErrorInformation": {
+      "definition": "Información adicional sobre el fallo que debe registrarse para su posterior análisis."
+    }
+  }
+}

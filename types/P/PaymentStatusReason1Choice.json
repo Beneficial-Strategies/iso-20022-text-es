@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentStatusReason1Choice",
+  "definition": "Motivo del estado de la operación de pago.",
+  "isoElements": {
+    "Unmatched": {
+      "definition": "Motivo por el que el estado del pago es no casado."
+    },
+    "Cancelled": {
+      "definition": "Motivo por el que el estado del pago es cancelado."
+    },
+    "Suspended": {
+      "definition": "Motivo por el que el estado del pago es suspendido."
+    },
+    "PendingFailingSettlement": {
+      "definition": "Motivo por el que el estado del pago es pendiente (liquidación fallida)."
+    },
+    "PendingSettlement": {
+      "definition": "Motivo por el que el estado del pago es pendiente (liquidación)."
+    },
+    "ProprietaryRejection": {
+      "definition": "Define el motivo que ha utilizado el sistema para rechazar la operación."
+    },
+    "Proprietary": {
+      "definition": "Define un motivo propio en texto libre."
+    }
+  }
+}

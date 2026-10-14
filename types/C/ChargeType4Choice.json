@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType4Choice",
+  "definition": "Elección de formatos para el tipo de gasto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de gasto expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de gasto expresado como código propio."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "PartyIdentification59",
+  "definition": "Identificación de una parte. La parte puede identificarse mediante su nombre y, opcionalmente, también pueden proporcionarse el BIC, el número de cuenta, la dirección, la identificación del sistema de compensación o el LEI.",
+  "isoElements": {
+    "PartyName": {
+      "definition": "Identificación de la parte expresada como el nombre de la parte."
+    },
+    "AnyBIC": {
+      "definition": "Identificación de la parte expresada como un BIC y un identificador alternativo opcional."
+    },
+    "AccountNumber": {
+      "definition": "Identificación del número de cuenta de la parte."
+    },
+    "Address": {
+      "definition": "Identificación de la dirección de la parte."
+    },
+    "ClearingSystemIdentification": {
+      "definition": "Elección de un identificador de sistema de compensación."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identificación del identificador de entidad jurídica (LEI). Es un código asignado a una parte, tal como se describe en ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    }
+  },
+  "isoRules": {
+    "PartyNameOrLEIRule": {
+      "definition": "Debe estar presente PartyName o debe estar presente LegalEntityIdentifier."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServicesAmount3",
+  "definition": "Conversiones a la divisa de la jurisdicción fiscal del importe del cargo de servicio imponible.",
+  "isoElements": {
+    "SourceAmount": {
+      "definition": "Representa el total de todos los servicios imponibles de una región fiscal específica para una divisa específica. Por ejemplo, aquí se totalizarían, en euros, todos los servicios imponibles de una región fiscal en euros."
+    },
+    "HostAmount": {
+      "definition": "Representa el total de todos los servicios imponibles de una región fiscal específica para una divisa específica y guarda una relación uno a uno con el cargo total imponible de los servicios, pero representado en la divisa de la jurisdicción fiscal tras la conversión."
+    }
+  }
+}

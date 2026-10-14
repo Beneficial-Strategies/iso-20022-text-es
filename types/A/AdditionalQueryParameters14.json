@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalQueryParameters14",
+  "definition": "Criterios de consulta específicos adicionales.",
+  "isoElements": {
+    "Status": {
+      "definition": "Solicitud para obtener un informe de operaciones de valores pendientes para las operaciones con el estado especificado."
+    },
+    "Reason": {
+      "definition": "Solicitud para obtener un informe de operaciones de valores pendientes para las operaciones con el motivo de estado especificado."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financieros que representan una suma de derechos del inversor frente al emisor."
+    }
+  }
+}

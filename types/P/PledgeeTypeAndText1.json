@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndText1",
+  "definition": "Identificación de la entidad a cuyo favor están pignorados los instrumentos financieros, expresada mediante un código y una descripción narrativa.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Información adicional sobre la entidad a cuyo favor están pignorados los instrumentos financieros."
+    },
+    "PledgeeType": {
+      "definition": "Entidad a cuyo favor están pignorados los instrumentos financieros, expresada mediante un código."
+    }
+  }
+}

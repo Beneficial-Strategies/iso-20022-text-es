@@ -1,0 +1,12 @@
+{
+  "isoType": "EncapsulatedContent3",
+  "definition": "Datos que se deben autenticar.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Tipo de datos que se han autenticado."
+    },
+    "Content": {
+      "definition": "Datos reales que se deben autenticar."
+    }
+  }
+}

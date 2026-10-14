@@ -1,0 +1,14 @@
+{
+  "isoType": "AcknowledgementReason7Code",
+  "definition": "Especifica información adicional sobre la instrucción procesada.",
+  "isoCodes": {
+    "NSTP": {
+      "name": "Sin procesamiento automático de extremo a extremo",
+      "definition": "La instrucción no se trató de forma totalmente automatizada y hubo que tratarla manualmente."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    }
+  }
+}

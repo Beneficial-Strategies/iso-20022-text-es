@@ -1,0 +1,58 @@
+{
+  "isoType": "OrganisationLegalStatus1Code",
+  "definition": "Especifica el estado de una persona jurídica.",
+  "isoCodes": {
+    "CIOC": {
+      "name": "Organización benéfica constituida",
+      "definition": "Organización benéfica constituida como sociedad (CIO)"
+    },
+    "CHAR": {
+      "name": "Organización benéfica",
+      "definition": "Organización benéfica"
+    },
+    "CICC": {
+      "name": "Sociedad de interés comunitario",
+      "definition": "Sociedad de interés comunitario (CIC)"
+    },
+    "GENP": {
+      "name": "Sociedad colectiva",
+      "definition": "Sociedad colectiva"
+    },
+    "IAPS": {
+      "name": "Sociedad industrial y de previsión",
+      "definition": "Por ejemplo, una cooperativa, que sí incluye Ltd. u organización benéfica."
+    },
+    "LLPP": {
+      "name": "Sociedad de responsabilidad limitada de socios",
+      "definition": "Sociedad de responsabilidad limitada (LLP)"
+    },
+    "PCLG": {
+      "name": "Sociedad privada limitada por garantía",
+      "definition": "Sociedad privada limitada por garantía (Ltd.)"
+    },
+    "LIMP": {
+      "name": "Sociedad comanditaria",
+      "definition": "Sociedad comanditaria (LP)"
+    },
+    "PCLS": {
+      "name": "Sociedad privada limitada por acciones",
+      "definition": "Sociedad privada limitada por acciones (Ltd.)"
+    },
+    "PCLC": {
+      "name": "Sociedad anónima pública",
+      "definition": "Sociedad anónima (Plc.)"
+    },
+    "SOLE": {
+      "name": "Empresa unipersonal",
+      "definition": "Empresario individual/Trabajador autónomo"
+    },
+    "UNLC": {
+      "name": "Sociedad de responsabilidad ilimitada",
+      "definition": "Sociedad de responsabilidad ilimitada"
+    },
+    "UNLT": {
+      "name": "Fideicomiso de responsabilidad ilimitada",
+      "definition": "Fideicomiso de responsabilidad ilimitada"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "MemberStatus1Code",
+  "definition": "Especifica el estado operativo de un miembro de un sistema.",
+  "isoCodes": {
+    "ENBL": {
+      "name": "Habilitado",
+      "definition": "El miembro está operativo en el sistema."
+    },
+    "DSBL": {
+      "name": "Deshabilitado",
+      "definition": "El miembro está temporalmente no operativo en el sistema."
+    },
+    "DLTD": {
+      "name": "Eliminado",
+      "definition": "El miembro ya no está operativo en el sistema."
+    },
+    "JOIN": {
+      "name": "En incorporación",
+      "definition": "El miembro se está incorporando y pronto se habilitará en el sistema."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusAndReason4",
+  "definition": "Elección del tipo de estado del movimiento entre saldos.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Proporciona detalles sobre el estado de tramitación de la operación."
+    },
+    "SettlementStatus": {
+      "definition": "Proporciona el estado de liquidación de una operación."
+    }
+  }
+}

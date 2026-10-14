@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountOrRate1Choice",
+  "definition": "Elección entre un importe o un tipo.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Importe expresado como una cantidad de dinero."
+    },
+    "Rate": {
+      "definition": "Importe expresado como tasa."
+    }
+  }
+}

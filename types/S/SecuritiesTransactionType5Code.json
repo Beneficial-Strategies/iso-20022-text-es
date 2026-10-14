@@ -1,0 +1,10 @@
+{
+  "isoType": "SecuritiesTransactionType5Code",
+  "definition": "Especifica información subyacente relativa al tipo de operación.",
+  "isoCodes": {
+    "TRAD": {
+      "name": "Operación bursátil",
+      "definition": "Se refiere a la liquidación de una operación."
+    }
+  }
+}

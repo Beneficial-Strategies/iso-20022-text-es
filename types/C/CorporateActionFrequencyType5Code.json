@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionFrequencyType5Code",
+  "definition": "Reinversión automática de efectivo distribuido mediante fondos de acumulación.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Pago de un dividendo, menos los importes ya pagados mediante dividendos a cuenta."
+    },
+    "INTE": {
+      "name": "Intermedio",
+      "definition": "Dividendo declarado y pagado antes de que se hayan determinado los beneficios anuales."
+    },
+    "REIN": {
+      "name": "Reinversión",
+      "definition": "Reinversión del efectivo distribuido."
+    },
+    "REGR": {
+      "name": "Regular",
+      "definition": "Dividendo pagado a intervalos regulares, por ejemplo, trimestralmente."
+    },
+    "SPEC": {
+      "name": "Especial",
+      "definition": "Dividendo adicional al dividendo regular que paga la sociedad."
+    },
+    "SPRE": {
+      "name": "Dividendo especial con reinversión",
+      "definition": "Dividendo especial con componente de reinversión."
+    }
+  }
+}

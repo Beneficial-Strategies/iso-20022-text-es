@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedStatusReason1Choice",
+  "definition": "Elección de formatos para un código de motivo de estado de aceptación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo del estado expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo del estado expresado como código propietario."
+    }
+  }
+}

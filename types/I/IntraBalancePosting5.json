@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalancePosting5",
+  "definition": "Proporciona las operaciones del informe.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Saldo del que se mueve el importe de dinero."
+    },
+    "Movement": {
+      "definition": "Detalles adicionales sobre la operación individual de movimiento entre saldos."
+    }
+  }
+}

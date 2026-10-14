@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericDocumentIdentification6",
+  "definition": "Esquema de identificación genérico de un documento.",
+  "isoElements": {
+    "MessageNumber": {
+      "definition": "Número del tipo de mensaje o identificador del mensaje referenciado en la secuencia de vinculación."
+    },
+    "Identification": {
+      "definition": "Identificación del documento."
+    }
+  }
+}

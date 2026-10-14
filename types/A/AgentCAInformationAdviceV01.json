@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAInformationAdviceV01",
+  "definition": "Ámbito|Este mensaje lo envía un CSD a un emisor (o a su agente) para proporcionar información sobre la certificación y/o los datos de entrega al emisor (o a su agente).|Uso|Este mensaje puede utilizarse en el caso de un evento de operación societaria sin elección.|Este mensaje también puede utilizarse en el caso de un evento de operación societaria con elección cuando los datos de la elección y la información adicional no pueden facilitarse en el mismo mensaje. En este caso, debe utilizarse la identificación del aviso de elección de operación societaria del agente (Agent Corporate Action Election Advice Identification) para vincular este mensaje con el aviso de elección para el que se facilita información adicional."
+}

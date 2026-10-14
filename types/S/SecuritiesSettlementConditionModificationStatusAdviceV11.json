@@ -1,0 +1,17 @@
+{
+  "isoType": "SecuritiesSettlementConditionModificationStatusAdviceV11",
+  "definition": "Alcance|Un administrador de la cuenta envía un SecuritiesSettlementConditionsModificationStatusAdvice a un titular de la cuenta para notificar el estado de una solicitud de modificación instruida previamente por el titular de la cuenta.|La relación entre el administrador de la cuenta y el titular puede ser:|- un depositario central de valores u otra infraestructura del mercado de liquidación que actúe en nombre de sus participantes|- un agente (subcustodio) que actúe en nombre de su cliente custodio global, o|- un custodio que actúe en nombre de una entidad de gestión de inversiones o de un intermediario/operador (broker/dealer).||Uso|Un SecuritiesSettlementConditionsModificationRequest puede contener solicitudes sobre varias operaciones. No obstante, debe enviarse un SecuritiesSettlementConditionsModificationStatusAdvice por cada operación modificada, salvo que el SecuritiesSettlementConditionsModificationRequest se rechace en su conjunto.|El mensaje también puede utilizarse para:|- reenviar un mensaje enviado previamente,|- facilitar a un tercero una copia de un mensaje a título informativo,|- reenviar a un tercero una copia de un mensaje a título informativo utilizando los elementos pertinentes de la Business Application Header.",
+  "isoElements": {
+    "RequestReference": {
+      "definition": "Identificación del SecuritiesSettlementConditionsModificationRequest."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount está presente, BlockChainAddressOrWallet debe estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet está presente, SafekeepingAccount debe estar ausente."
+    }
+  }
+}

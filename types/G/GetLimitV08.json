@@ -1,0 +1,4 @@
+{
+  "isoType": "GetLimitV08",
+  "definition": "El mensaje GetLimit se utiliza para solicitar información sobre los detalles de uno o varios límites fijados por el miembro (o en su nombre) y gestionados por el administrador de operaciones."
+}

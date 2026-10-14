@@ -1,0 +1,18 @@
+{
+  "isoType": "ProtectInstruction5",
+  "definition": "Proporciona información detallada sobre las instrucciones de protección y de cobertura de protección.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Indica si la instrucción es una instrucción de protección o de cobertura de protección."
+    },
+    "TransactionIdentification": {
+      "definition": "Referencia única de la operación de protección asignada por el depositario y utilizada para la validación de la cobertura de protección."
+    },
+    "ProtectSafekeepingAccount": {
+      "definition": "Cuenta que presentó la instrucción de protección original utilizada para las instrucciones de cobertura de protección, mediante las cuales una cuenta de custodia cubre por cuenta de otra cuenta de custodia."
+    },
+    "ProtectDate": {
+      "definition": "Fecha en que se creó la instrucción de protección y que se utiliza para la validación de la cobertura de protección."
+    }
+  }
+}

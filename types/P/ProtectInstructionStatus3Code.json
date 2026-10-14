@@ -1,0 +1,18 @@
+{
+  "isoType": "ProtectInstructionStatus3Code",
+  "definition": "Especifica el estado de la operación de protección.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Abierto",
+      "definition": "Instrucción de protección que no ha sido cubierta por completo. Incluirá coberturas parciales."
+    },
+    "COVR": {
+      "name": "Totalmente cubierto",
+      "definition": "La instrucción de protección ha sido cubierta por completo."
+    },
+    "EXPI": {
+      "name": "Caducada",
+      "definition": "La instrucción de protección ha caducado."
+    }
+  }
+}

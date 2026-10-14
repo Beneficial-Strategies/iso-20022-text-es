@@ -1,0 +1,42 @@
+{
+  "isoType": "InstructedCorporateActionOption23",
+  "definition": "Proporciona detalles de la opción de operación societaria sobre el saldo total instruido.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo de la posición con instrucciones."
+    },
+    "DefaultAction": {
+      "definition": "Indica la acción por defecto relacionada con un evento de operación societaria."
+    },
+    "OptionAcceptedInstructedBalance": {
+      "definition": "Total diario de instrucciones aceptadas recibidas para una opción determinada."
+    },
+    "OptionCancelledInstructionBalance": {
+      "definition": "Total diario de instrucciones canceladas para una opción determinada."
+    },
+    "OptionPendingInstructionBalance": {
+      "definition": "Total diario de instrucciones en estado pendiente para una opción determinada.  Incluye las instrucciones pendientes de cancelación."
+    },
+    "OptionRejectedInstructionBalance": {
+      "definition": "Total diario de instrucciones rechazadas para una opción determinada."
+    },
+    "OptionReturnedInstructedBalance": {
+      "definition": "Total diario de instrucciones devueltas recibidas para una opción determinada."
+    },
+    "OptionProtectInstructionBalance": {
+      "definition": "Total diario de todas las instrucciones de protección para una opción determinada."
+    },
+    "EventDeadlines": {
+      "definition": "Proporciona información sobre los plazos relacionados con una opción de operación societaria."
+    },
+    "OptionInstructionDetails": {
+      "definition": "Detalles de las instrucciones recibidas para la opción indicada."
+    }
+  }
+}

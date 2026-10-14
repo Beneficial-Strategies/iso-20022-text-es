@@ -1,0 +1,12 @@
+{
+  "isoType": "DerivativeBasicAttributes2",
+  "definition": "Detalles del contrato de derivados no incluidos en el componente general de atributos del instrumento financiero.",
+  "isoElements": {
+    "NotionalCurrencyAndAmount": {
+      "definition": "Importe subyacente de un contrato de derivados financieros necesario para calcular pagos o cobros."
+    },
+    "InterestIncludedInPrice": {
+      "definition": "Indica si el precio del derivado indicado incluye un componente proporcional de intereses devengados."
+    }
+  }
+}

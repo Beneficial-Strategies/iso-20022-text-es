@@ -1,0 +1,15 @@
+{
+  "isoType": "RatioFormat17Choice",
+  "definition": "Elección de formato para expresar una proporción.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "Proporción expresada como cociente de cantidades."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor de la proporción no especificado."
+    },
+    "AmountToAmount": {
+      "definition": "Proporción expresada como cociente de importes."
+    }
+  }
+}

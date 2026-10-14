@@ -1,0 +1,9 @@
+{
+  "isoType": "CashEntitlement1",
+  "definition": "Proporciona información sobre los derechos en efectivo.",
+  "isoElements": {
+    "CashAmount": {
+      "definition": "Importe en efectivo con derecho."
+    }
+  }
+}

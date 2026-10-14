@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyAndAuthorisation6",
+  "definition": "Parte y autorización relacionada.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica el tipo de cambio."
+    },
+    "PartyOrGroup": {
+      "definition": "Especifica una parte o un grupo de partes."
+    },
+    "SignatureOrder": {
+      "definition": "Orden en que debe firmar el apoderado."
+    },
+    "Authorisation": {
+      "definition": "Autorización concedida a un apoderado."
+    }
+  }
+}

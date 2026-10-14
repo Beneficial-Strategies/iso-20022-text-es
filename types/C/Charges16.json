@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges16",
+  "definition": "Proporciona información sobre los gastos relacionados con la operación de pago.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Gastos de la operación que debe pagar el responsable de los gastos."
+    },
+    "Agent": {
+      "definition": "Entidad que percibe los gastos de la operación o a la que se le adeudan."
+    },
+    "Type": {
+      "definition": "Define el tipo de gastos."
+    }
+  }
+}

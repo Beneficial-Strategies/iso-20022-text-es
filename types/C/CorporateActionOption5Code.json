@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionOption5Code",
+  "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Efectivo",
+      "definition": "Opción de elegir efectivo."
+    },
+    "SECU": {
+      "name": "Valor",
+      "definition": "Distribución de valores a los titulares."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "AmountConsistencyType1Code",
+  "definition": "Especifica un tipo de incoherencias de importe, es decir, si el tipo de importe facilitado coincide o no con el importe de referencia.",
+  "isoCodes": {
+    "CONS": {
+      "name": "Importe coherente",
+      "definition": "La información del importe coincide con el registro de datos de referencia."
+    },
+    "ICNS": {
+      "name": "Importe incoherente",
+      "definition": "La información del importe no coincide con el registro de datos de referencia."
+    },
+    "ICGA": {
+      "name": "Importe de gastos incoherente",
+      "definition": "La información del importe de gastos no coincide con el registro de datos de referencia."
+    },
+    "ICFA": {
+      "name": "Importe confirmado incoherente",
+      "definition": "La información del importe confirmado al beneficiario no coincide con el registro de datos de referencia."
+    },
+    "IISA": {
+      "name": "Importe de liquidación interbancaria incoherente",
+      "definition": "La información del importe de liquidación interbancaria no coincide con el registro de datos de referencia."
+    }
+  }
+}

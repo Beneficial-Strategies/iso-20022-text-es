@@ -1,0 +1,21 @@
+{
+  "isoType": "AccountInterest4",
+  "definition": "Proporciona detalles adicionales sobre los intereses que se aplican a la cuenta en un momento determinado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica el tipo de interés."
+    },
+    "Rate": {
+      "definition": "Conjunto de elementos utilizados para calificar el tipo de interés."
+    },
+    "FromToDate": {
+      "definition": "Período comprendido entre una fecha de inicio y una fecha de fin para el cálculo de los intereses."
+    },
+    "Reason": {
+      "definition": "Especifica el motivo de los intereses."
+    },
+    "Tax": {
+      "definition": "Proporciona información sobre el impuesto aplicado a los gastos."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "MeetingCancellationReason2Code",
+  "definition": "Especifica el motivo de la cancelación de una junta.",
+  "isoCodes": {
+    "QORM": {
+      "name": "Quórum",
+      "definition": "Cancelación por participación insuficiente en la votación."
+    },
+    "PROC": {
+      "name": "Tramitación",
+      "definition": "Cancelación debida a un error de tratamiento."
+    },
+    "WITH": {
+      "name": "Retirada",
+      "definition": "Cancelación debida a que el emisor ha cancelado la junta."
+    }
+  }
+}

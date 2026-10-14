@@ -1,0 +1,12 @@
+{
+  "isoType": "RevaluationIndicator3Choice",
+  "definition": "Elección de formato para la revalorización.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si la posición de garantía debe estar sujeta a revalorización automática por parte del administrador de la cuenta."
+    },
+    "Proprietary": {
+      "definition": "Información de revalorización facilitada como código propietario."
+    }
+  }
+}

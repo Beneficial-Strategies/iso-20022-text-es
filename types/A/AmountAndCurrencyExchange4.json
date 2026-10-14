@@ -1,0 +1,21 @@
+{
+  "isoType": "AmountAndCurrencyExchange4",
+  "definition": "Conjunto de elementos utilizados para proporcionar información sobre el importe original.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Identifica el importe de dinero que debe transferirse entre el ordenante y el beneficiario, antes de la deducción de gastos, expresado en la divisa ordenada por la parte iniciadora, y proporciona información de cambio de divisas cuando el importe o la divisa ordenados difieren del importe o la divisa del apunte."
+    },
+    "TransactionAmount": {
+      "definition": "Importe de la operación subyacente."
+    },
+    "CounterValueAmount": {
+      "definition": "Conjunto de elementos utilizados para proporcionar el importe de contravalor y la información de cambio de divisas.|Uso: puede ser el importe de contrapartida cotizado en una operación de FX (cambio de divisas) o el resultado de aplicar la información de divisa a un importe ordenado, antes de la deducción de gastos."
+    },
+    "AnnouncedPostingAmount": {
+      "definition": "Importe de dinero, basado en las condiciones del evento de operación societaria y en el saldo de los valores subyacentes, al que tiene derecho el titular de la cuenta o que este debe abonar.|En algunas situaciones, este importe también puede denominarse importe con derecho."
+    },
+    "ProprietaryAmount": {
+      "definition": "Conjunto de elementos utilizados para proporcionar información sobre el importe original y el cambio de divisas."
+    }
+  }
+}

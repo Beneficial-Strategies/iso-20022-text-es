@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionFeatures12Code",
+  "definition": "Especifica las características que pueden aplicarse a una opción de operación societaria.",
+  "isoCodes": {
+    "OPLF": {
+      "name": "Preferencia de lote impar",
+      "definition": "Oferta o canje con preferencia para lotes irregulares."
+    }
+  }
+}

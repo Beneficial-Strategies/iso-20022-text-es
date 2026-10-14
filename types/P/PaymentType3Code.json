@@ -1,0 +1,102 @@
+{
+  "isoType": "PaymentType3Code",
+  "definition": "Especifica el tipo, o la naturaleza, del pago.",
+  "isoCodes": {
+    "CBS": {
+      "name": "Pago transfronterizo",
+      "definition": "El pago tiene su origen en un país y su destino en otro, y se realiza en la divisa del país de origen o de destino."
+    },
+    "BCK": {
+      "name": "Respaldo",
+      "definition": "El pago se realiza conforme al procedimiento de recuperación para trasladar liquidez hacia o desde la cuenta de liquidación de un miembro, según las especificaciones del sistema."
+    },
+    "BAL": {
+      "name": "Saldo minorista",
+      "definition": "La operación es un pago que compensa el saldo neto de efectivo adeudado en un sistema de pagos minoristas."
+    },
+    "CLS": {
+      "name": "Pago CLS",
+      "definition": "El pago está vinculado a actividades de CLS."
+    },
+    "CTR": {
+      "name": "Operación de banco central",
+      "definition": "El pago se realiza para liquidar una operación efectuada con el banco central."
+    },
+    "CBH": {
+      "name": "Pago transfronterizo de alto valor",
+      "definition": "La operación es un pago de gran importe con origen en un país y destino en otro, realizado en la divisa del país de origen o de destino."
+    },
+    "CBP": {
+      "name": "Pago transfronterizo prioritario",
+      "definition": "La operación es un pago prioritario con origen en un país y destino en otro, realizado en la divisa del país de origen o de destino."
+    },
+    "DPG": {
+      "name": "DVP bruto",
+      "definition": "Pago bruto en efectivo que compensa el importe adeudado por la liquidación de una operación con valores."
+    },
+    "DPN": {
+      "name": "DVP neto",
+      "definition": "Pago neto que compensa el saldo de efectivo adeudado por la liquidación de una serie de operaciones con valores."
+    },
+    "EXP": {
+      "name": "Pago urgente",
+      "definition": "La operación es un pago que se procesa siempre que haya liquidez disponible en la cuenta de liquidación de un miembro del sistema RTGSPlus."
+    },
+    "TCH": {
+      "name": "Pago de alto valor en tercera divisa",
+      "definition": "La operación es un pago de gran importe realizado en una tercera divisa distinta de las de los países de origen y destino. Los países de origen y destino pueden ser el mismo país."
+    },
+    "LMT": {
+      "name": "Pago con límite",
+      "definition": "La operación es un pago que se procesa cuando el fondo de liquidez supera el valor mínimo reservado para un pago urgente en el sistema RTGSPlus."
+    },
+    "LIQ": {
+      "name": "Transferencia de liquidez",
+      "definition": "El pago se realiza para transferir liquidez hacia o desde la cuenta de liquidación de un miembro, hacia o desde la cuenta corriente mantenida en la institución central o en cualquier otra institución."
+    },
+    "DPP": {
+      "name": "Pago nacional prioritario",
+      "definition": "La operación es un pago prioritario con origen y destino en el mismo país, realizado en la divisa de ese país."
+    },
+    "DPH": {
+      "name": "Pago nacional de alto valor",
+      "definition": "La operación es un pago de gran importe con origen y destino en el mismo país, realizado en la divisa de ese país."
+    },
+    "DPS": {
+      "name": "Pago nacional",
+      "definition": "El pago tiene origen y destino en el mismo país y se realiza en la divisa de ese país."
+    },
+    "STF": {
+      "name": "Facilidades permanentes",
+      "definition": "El pago está vinculado a los depósitos a un día y a la facilidad marginal de crédito."
+    },
+    "TRP": {
+      "name": "Pago del Tesoro público",
+      "definition": "El pago está vinculado al Tesoro Público."
+    },
+    "TCS": {
+      "name": "Pago en tercera divisa",
+      "definition": "La operación es un pago realizado en una tercera divisa distinta de las de los países de origen y destino. Los países de origen y destino pueden ser el mismo país."
+    },
+    "LOA": {
+      "name": "Préstamo",
+      "definition": "La operación es el pago de un importe específico de dinero prestado por un acreedor o prestamista."
+    },
+    "LOR": {
+      "name": "Reembolso de préstamo",
+      "definition": "La operación es un importe de dinero transferido para el reembolso de un préstamo."
+    },
+    "TCP": {
+      "name": "Pago prioritario en tercera divisa",
+      "definition": "El pago se realiza en una tercera divisa distinta de las de los países de origen y destino. Los países de origen y destino pueden ser el mismo país."
+    },
+    "OND": {
+      "name": "Depósito a un día",
+      "definition": "La operación está vinculada a un depósito a un día."
+    },
+    "MGL": {
+      "name": "Crédito marginal",
+      "definition": "La operación está vinculada a la facilidad marginal de crédito."
+    }
+  }
+}

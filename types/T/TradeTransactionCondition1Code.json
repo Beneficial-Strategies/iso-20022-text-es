@@ -1,0 +1,210 @@
+{
+  "isoType": "TradeTransactionCondition1Code",
+  "definition": "Indica las condiciones en las que se va a ejecutar o se ejecutó la orden/operación.",
+  "isoCodes": {
+    "CBNS": {
+      "name": "Con derecho a acciones liberadas",
+      "definition": "Indica si la operación se ejecuta con derecho a acciones liberadas (cum bonus)."
+    },
+    "XBNS": {
+      "name": "Sin derecho a acciones liberadas",
+      "definition": "Indica si la operación se ejecuta sin derecho a acciones liberadas (ex bonus)."
+    },
+    "CCPN": {
+      "name": "Con cupón",
+      "definition": "Indica si la operación se ejecuta con cupón (cum coupon)."
+    },
+    "XCPN": {
+      "name": "Sin cupón",
+      "definition": "Indica si la operación se ejecuta sin cupón (ex coupon)."
+    },
+    "CDIV": {
+      "name": "Con dividendo",
+      "definition": "Indica si la operación se ejecuta con dividendo (cum dividend)."
+    },
+    "XDIV": {
+      "name": "Sin dividendo",
+      "definition": "Indica si la operación se ejecuta sin dividendo (ex dividend)."
+    },
+    "CRTS": {
+      "name": "Con derechos",
+      "definition": "Indica si la operación se ejecuta con derechos (cum rights)."
+    },
+    "XRTS": {
+      "name": "Sin derechos",
+      "definition": "Indica si la operación se ejecuta sin derechos (ex rights)."
+    },
+    "CWAR": {
+      "name": "Con warrant",
+      "definition": "Indica si la operación se ejecuta con warrant (cum warrant)."
+    },
+    "XWAR": {
+      "name": "Sin warrant",
+      "definition": "Indica si la operación se ejecuta sin warrant (ex warrant)."
+    },
+    "SPCU": {
+      "name": "Con dividendo especial",
+      "definition": "Indica si la operación se ejecuta con un dividendo especial cum |dividend, es decir, comprando después de la fecha ex y recibiendo el dividendo."
+    },
+    "SPEX": {
+      "name": "Sin dividendo especial",
+      "definition": "Indica si la operación se ejecuta con un dividendo especial ex |dividend, es decir, vendiendo antes de la fecha ex sin el cupón."
+    },
+    "DUEB": {
+      "name": "Pagaré debido al corredor",
+      "definition": "Indica que la operación se ejecuta con derecho a dividendo o a cupón (cum-dividend o cum-coupon) y se requiere un due bill. |Un due bill es un acuerdo contractual para pagar el dividendo junto con la entrega del |instrumento financiero."
+    },
+    "SSTI": {
+      "name": "Vendido en corto",
+      "definition": "Indica si la operación es una venta en corto. Cuando el vendedor no dispone del |instrumento financiero, la entrega se efectúa mediante el préstamo del instrumento financiero por el vendedor o por |cuenta de este."
+    },
+    "DIRT": {
+      "name": "Sucio",
+      "definition": "Indica que la operación se ejecuta con cupón corrido (dirty), es decir, que debe pagarse el impuesto público sobre los intereses devengados del bono."
+    },
+    "CLEN": {
+      "name": "Limpio",
+      "definition": "Indica que la operación se ejecuta sin cupón corrido (clean), es decir, que no debe pagarse el impuesto público sobre los intereses devengados del bono."
+    },
+    "BLKO": {
+      "name": "Bloque",
+      "definition": "Indica si la operación es una operación en bloque o no, es decir, si se enviará o no una instrucción de asignación posteriormente."
+    },
+    "GTDL": {
+      "name": "Entrega garantizada",
+      "definition": "Indica si la entrega del instrumento financiero en la fecha de liquidación |está garantizada."
+    },
+    "FRAC": {
+      "name": "Fracciones",
+      "definition": "Indica si se permiten partes fraccionarias."
+    },
+    "CRST": {
+      "name": "Operación cruzada",
+      "definition": "Indica que se permiten operaciones cruzadas, en las que las órdenes de compra y de venta se compensan sin registrar la operación en el mercado."
+    },
+    "NCRS": {
+      "name": "Sin operación cruzada",
+      "definition": "Indica que no se permiten operaciones cruzadas, en las que las órdenes de compra y de venta se compensan sin registrar la operación en el mercado."
+    },
+    "DORD": {
+      "name": "Orden directa",
+      "definition": "Indica que la orden debe ser ejecutada por una parte negociadora distinta de la parte negociadora a la que se envía la |orden. En este caso, la parte instructora ha operado con otro corredor que |posteriormente enviará un aviso de ejecución a la parte ejecutora que recibió la orden |y que actúa como corredor de compensación."
+    },
+    "DIOR": {
+      "name": "Orden dirigida",
+      "definition": "Indica que la orden debe ejecutarse con una parte negociadora específica."
+    },
+    "WARE": {
+      "name": "Operación de almacenamiento",
+      "definition": "Operación de almacén (Warehouse Trade)."
+    },
+    "DNIN": {
+      "name": "Sin aumento",
+      "definition": "Orden limitada de compra, orden stop de venta u orden stop limitada que no debe incrementarse en número de acciones en la fecha ex-dividendo como resultado de un dividendo en acciones o de una distribución."
+    },
+    "DNRE": {
+      "name": "Sin reducción",
+      "definition": "Orden limitada de compra, orden stop de venta u orden stop limitada de venta cuyo precio no debe reducirse en el importe de un dividendo ordinario en efectivo. Solo se aplica a los dividendos ordinarios en acciones; debe reducirse para otras distribuciones, por ejemplo cuando una acción cotiza 'ex' dividendo en acciones o derechos."
+    },
+    "FORW": {
+      "name": "Operación a precio futuro",
+      "definition": "Indica que la orden se basa en un precio a plazo."
+    },
+    "HIST": {
+      "name": "Operación a precio histórico",
+      "definition": "Indica que la orden se basa en un precio histórico."
+    },
+    "BCRO": {
+      "name": "Resultado de la opción",
+      "definition": "Resultado de la opción cuando está activado. (Específico del UK)."
+    },
+    "BCRP": {
+      "name": "Resultado del repo",
+      "definition": "Resultado del repo cuando está activado (específico del UK)."
+    },
+    "BCPD": {
+      "name": "País de constitución del entregador",
+      "definition": "Lugar de entrega, en el país de constitución cuando no está activado (específico del UK)."
+    },
+    "BCFD": {
+      "name": "Forma de entrega",
+      "definition": "Forma de entrega, no para registro extranjero cuando no está activado (específico del UK)."
+    },
+    "BCBL": {
+      "name": "Lote estándar",
+      "definition": "Lotes estándar (board lots), no activado para lotes irregulares (específico del UK)."
+    },
+    "BCBN": {
+      "name": "Nombre incorrecto",
+      "definition": "Nombres no válidos (bad names), no activado para nombres válidos (específico del UK)."
+    },
+    "BTEX": {
+      "name": "Mejor ejecución",
+      "definition": "Operación que debe ejecutarse con la mejor ejecución."
+    },
+    "CALL": {
+      "name": "Compra (call)",
+      "definition": "Operación que debe ejecutarse tras el ejercicio de una opción de compra (call) sobre el valor."
+    },
+    "CLBR": {
+      "name": "Cierre antes de la prórroga",
+      "definition": "Operación que debe ejecutarse para el cierre de una posición anterior antes de la renovación de una posición (Servicio de Liquidación Diferida)."
+    },
+    "MONT": {
+      "name": "Mensual",
+      "definition": "Operación que debe ejecutarse para la liquidación de fin de mes (Servicio de Liquidación Diferida)."
+    },
+    "NBFR": {
+      "name": "Nueva operación tras la prórroga",
+      "definition": "Operación que debe ejecutarse para una nueva posición de operación en el mes siguiente a la renovación de una posición (Servicio de Liquidación Diferida)."
+    },
+    "TRFR": {
+      "name": "Operación tras la prórroga",
+      "definition": "Operación que debe ejecutarse en el mes siguiente a la renovación de posiciones."
+    },
+    "PUTT": {
+      "name": "Put",
+      "definition": "Operación que debe ejecutarse tras el ejercicio de una opción de venta (put) sobre el valor."
+    },
+    "SPCC": {
+      "name": "Con cupón especial",
+      "definition": "Indica si la operación se ejecuta con un cupón especial (special cum coupon)."
+    },
+    "SECN": {
+      "name": "Sin cupón especial",
+      "definition": "Indica si la operación se ejecuta sin un cupón especial (special ex coupon)."
+    },
+    "SEBN": {
+      "name": "Sin acciones liberadas especiales",
+      "definition": "Indica si la operación se ejecuta sin bonificación especial (special ex bonus)."
+    },
+    "SCBN": {
+      "name": "Con acciones liberadas especiales",
+      "definition": "Indica si la operación se ejecuta con bonificación especial (special cum bonus)."
+    },
+    "SCRT": {
+      "name": "Con derechos especiales",
+      "definition": "Indica si la operación se ejecuta con derechos especiales (special cum rights)."
+    },
+    "SERT": {
+      "name": "Sin derechos especiales",
+      "definition": "Indica si la operación se ejecuta sin derechos especiales (special ex rights)."
+    },
+    "SCCR": {
+      "name": "Con devoluciones de capital especiales",
+      "definition": "Indica si la operación se ejecuta con reembolsos de capital especiales (special cum capital repayments)."
+    },
+    "SECR": {
+      "name": "Sin devoluciones de capital especiales",
+      "definition": "Indica si la operación se ejecuta sin reembolsos de capital especiales (special ex capital repayments)."
+    },
+    "CAST": {
+      "name": "Liquidación en efectivo",
+      "definition": "Indica si la operación se ejecuta con liquidación en efectivo."
+    },
+    "SPPR": {
+      "name": "Precio especial",
+      "definition": "Indica si la operación se ejecuta con un precio especial."
+    }
+  }
+}

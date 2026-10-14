@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAssetType1Choice",
+  "definition": "Elección de formatos para un tipo de activo en efectivo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de efectivo expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de efectivo expresado como código propietario."
+    }
+  }
+}

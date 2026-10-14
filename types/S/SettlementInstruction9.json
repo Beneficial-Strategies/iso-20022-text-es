@@ -1,0 +1,33 @@
+{
+  "isoType": "SettlementInstruction9",
+  "definition": "Proporciona detalles adicionales sobre la liquidación de la instrucción.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Método utilizado para liquidar la instrucción (o el lote de instrucciones) de pago."
+    },
+    "SettlementAccount": {
+      "definition": "Cuenta de finalidad específica utilizada para contabilizar los asientos de adeudo y abono resultantes de la operación."
+    },
+    "ClearingSystem": {
+      "definition": "Especificación de una oferta previamente acordada entre entidades de compensación o del canal a través del cual se procesa la instrucción de pago."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Entidad a través de la cual la entidad instructora reembolsará a la entidad instruida.||Uso: Si InstructingAgent e InstructedAgent tienen la misma entidad de reembolso, solo debe utilizarse InstructingReimbursementAgent."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad de reembolso instructora en su entidad administradora en la cadena de pago."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Entidad en la que se reembolsará a la entidad instruida.|Uso: Si InstructedReimbursementAgent contiene una sucursal de InstructedAgent, la parte indicada en InstructedAgent reclamará el reembolso a esa sucursal o será pagada por ella.|Uso: Si InstructingAgent e InstructedAgent tienen la misma entidad de reembolso, solo debe utilizarse InstructingReimbursementAgent."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la entidad de reembolso instruida en su entidad administradora en la cadena de pago."
+    },
+    "ThirdReimbursementAgent": {
+      "definition": "Entidad en la que se reembolsará a la entidad instruida.|Uso: Si ThirdReimbursementAgent contiene una sucursal de InstructedAgent, la parte indicada en InstructedAgent reclamará el reembolso a esa sucursal o será pagada por ella."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "definition": "Identificación inequívoca de la cuenta de la tercera entidad de reembolso en su entidad administradora en la cadena de pago."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason13FormatChoice",
+  "definition": "Elección de formatos para expresar el motivo del rechazo de un movimiento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo del rechazo de un movimiento."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el motivo del rechazo de un movimiento."
+    }
+  }
+}

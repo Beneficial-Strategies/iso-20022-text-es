@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionOption200",
+  "definition": "Proporciona información sobre la opción de operación societaria.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "InstructedQuantity": {
+      "definition": "Cantidad de valores a la que se aplica esta instrucción."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Para diferenciar entre opciones, debe utilizarse OptionNumber (preferible a OptionType, por ejemplo, en el caso de que dos o más ofertas puedan describirse con el mismo código de opción de operación corporativa). Por lo tanto, el valor de OptionNumber debe ser diferente para cada opción."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Cuando CorporateActionInstruction es no solicitada, es decir, la instrucción no ha sido precedida por una CorporateActionNotification, entonces OptionNumber/code debe ser UNSO (unsolicited)."
+    }
+  }
+}

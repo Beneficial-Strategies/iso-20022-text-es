@@ -1,0 +1,15 @@
+{
+  "isoType": "Notification2",
+  "definition": "Información sobre el tipo de notificación requerida.",
+  "isoElements": {
+    "NotificationType": {
+      "definition": "Tipo de notificación."
+    },
+    "Required": {
+      "definition": "Indica si se requiere la notificación."
+    },
+    "DistributionType": {
+      "definition": "Especifica cómo se envía la notificación."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ServiceTaxDesignation1",
+  "definition": "Designa el cálculo de impuestos que se aplicará a un servicio.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identifica la situación fiscal del servicio."
+    },
+    "Region": {
+      "definition": "Define la región fiscal asociada al servicio. Este elemento debe estar presente si hay impuestos asociados a cualquier parte del extracto."
+    },
+    "TaxReason": {
+      "definition": "Proporciona explicaciones en texto libre de los distintos códigos fiscales utilizados en el extracto."
+    }
+  },
+  "isoRules": {
+    "RegionPresenceRule": {
+      "definition": "Si Region está presente, Code debe ser igual a ZeroRate o Taxable."
+    }
+  }
+}

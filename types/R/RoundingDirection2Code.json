@@ -1,0 +1,14 @@
+{
+  "isoType": "RoundingDirection2Code",
+  "definition": "Especifica el sentido del redondeo aplicado a la unidad más próxima.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Redondeo al alza",
+      "definition": "Redondear hacia arriba al número entero más próximo."
+    },
+    "RDWN": {
+      "name": "Redondeo a la baja",
+      "definition": "Redondear hacia abajo al número entero más próximo."
+    }
+  }
+}

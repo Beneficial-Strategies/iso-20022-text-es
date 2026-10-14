@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountPricePerFinancialInstrumentQuantity10",
+  "definition": "Especifica una proporción: precio en importe por cantidad de instrumento financiero.",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Tipo de precio por importe."
+    },
+    "PriceValue": {
+      "definition": "Valor del precio."
+    },
+    "FinancialInstrumentQuantity": {
+      "definition": "Cantidad de instrumento financiero."
+    }
+  }
+}

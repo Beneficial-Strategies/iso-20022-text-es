@@ -1,0 +1,18 @@
+{
+  "isoType": "KEK4",
+  "definition": "Clave de cifrado de claves (KEK), mediante una clave simétrica distribuida previamente.",
+  "isoElements": {
+    "Version": {
+      "definition": "Versión de la estructura de datos."
+    },
+    "KEKIdentification": {
+      "definition": "Identificación de la clave de cifrado de claves (KEK)."
+    },
+    "KeyEncryptionAlgorithm": {
+      "definition": "Algoritmo para cifrar la clave de cifrado de claves (KEK)."
+    },
+    "EncryptedKey": {
+      "definition": "Clave de cifrado de claves (KEK) cifrada."
+    }
+  }
+}

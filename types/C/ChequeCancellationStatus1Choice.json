@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeCancellationStatus1Choice",
+  "definition": "Especifica el estado de la solicitud de cancelación de la presentación de un cheque.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado, en formato codificado, tal como se publica en un conjunto de códigos externo."
+    },
+    "Proprietary": {
+      "definition": "Estado, en formato propietario."
+    }
+  }
+}

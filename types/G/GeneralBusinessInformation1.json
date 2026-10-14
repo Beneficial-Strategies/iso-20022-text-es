@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformation1",
+  "definition": "Detalles sobre la información de negocio relacionada con un sistema.",
+  "isoElements": {
+    "Qualifier": {
+      "definition": "Información adicional sobre la criticidad o la importancia de un sistema de información de negocio general."
+    },
+    "Subject": {
+      "definition": "Línea de asunto de un elemento de información de negocio general, que resume el tema y el destino previsto de la información."
+    },
+    "SubjectDetails": {
+      "definition": "Información de negocio general, en forma no estructurada."
+    }
+  }
+}

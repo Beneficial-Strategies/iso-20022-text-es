@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementDetails1Choice",
+  "definition": "Referencia del PayInSchedule o del PayInCall que se acusa. Es el elemento Message Identification de la secuencia Report Data del mensaje Pay In Schedule o del mensaje Pay In Call.",
+  "isoElements": {
+    "PayInScheduleReference": {
+      "definition": "Referencia al calendario de pay-in que se acusa."
+    },
+    "PayInCallReference": {
+      "definition": "Referencia a la llamada de pay-in que se acusa."
+    }
+  }
+}

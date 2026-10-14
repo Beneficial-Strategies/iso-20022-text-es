@@ -1,0 +1,86 @@
+{
+  "isoType": "CorporateActionEventType1Code",
+  "definition": "Especifica el tipo de evento de operación societaria.",
+  "isoCodes": {
+    "DRIP": {
+      "name": "Reinversión de dividendos",
+      "definition": "El evento es un tipo de pago de dividendo en el que el dividendo en efectivo se reinvierte en acciones adicionales de la sociedad emisora."
+    },
+    "CAPG": {
+      "name": "Distribución de plusvalías",
+      "definition": "El evento es la distribución de beneficios resultantes de la venta de valores. Los accionistas de fondos de inversión, fondos de participación (unit trusts) o Sicavs reciben las distribuciones de plusvalías, que con frecuencia se reinvierten en participaciones adicionales del fondo."
+    },
+    "DVCA": {
+      "name": "Dividendo en efectivo",
+      "definition": "El evento es una distribución en efectivo a los accionistas, en proporción a su participación en el capital. Los dividendos ordinarios son recurrentes y regulares. El accionista debe recibir efectivo y no se le ofrece elegir la forma de distribución."
+    },
+    "DVOP": {
+      "name": "Opción de dividendo",
+      "definition": "El evento es una distribución de dividendo a los accionistas con posibilidad de elegir el método de pago. El accionista debe elegir la forma de pago: acciones, efectivo o ambos."
+    },
+    "DVSE": {
+      "name": "Dividendo en acciones",
+      "definition": "El evento es un dividendo pagado a los accionistas en forma de acciones de la sociedad emisora o de otra sociedad. El accionista debe recibir acciones y no se le ofrece elegir la forma de distribución."
+    },
+    "LIQU": {
+      "name": "Liquidación",
+      "definition": "El evento es un dividendo de liquidación o una liquidación que consiste en una distribución de efectivo, activos o ambos. La deuda puede pagarse por orden de prioridad según los derechos preferentes sobre los activos que especifique el valor. El tenedor del valor puede tener la posibilidad de elegir la forma de la distribución de liquidación."
+    },
+    "MRGR": {
+      "name": "Fusión",
+      "definition": "El evento es un canje obligatorio o voluntario de valores en circulación como resultado de la combinación de los activos de dos o más sociedades. El canje de acciones puede ir acompañado de pagos en efectivo."
+    },
+    "NAME": {
+      "name": "Cambio de nombre",
+      "definition": "El evento es un cambio de denominación. La sociedad emisora cambia su nombre. El evento muestra el cambio del nombre antiguo al nuevo y puede implicar la entrega al registrador de las acciones físicas con el nombre antiguo."
+    },
+    "SOFF": {
+      "name": "Escisión",
+      "definition": "El evento es una escisión, una distribución o una segregación (unbundling). Es una distribución de acciones de una filial a los accionistas de la sociedad matriz sin entrega de acciones. Un spin-off representa una forma de desinversión que da lugar a una sociedad independiente. Normalmente no tiene coste para los accionistas de la emisión de la matriz."
+    },
+    "SPLF": {
+      "name": "División de acciones",
+      "definition": "El evento es un cambio del valor nominal, una subdivisión. Es un aumento del número de acciones en circulación de una sociedad sin ningún cambio en el patrimonio del accionista ni en el valor de mercado agregado en el momento de la división. El precio de la acción y el valor nominal se reducen en consecuencia."
+    },
+    "SPLR": {
+      "name": "Agrupación de acciones",
+      "definition": "El evento es un cambio del valor nominal, una consolidación. Es una disminución del número de acciones en circulación sin ningún cambio en el patrimonio del accionista ni en el valor de mercado agregado en el momento de la división. El precio de la acción y el valor nominal se reducen en consecuencia."
+    },
+    "TEND": {
+      "name": "Oferta pública",
+      "definition": "El evento es una adquisición, una toma de control, una offre publique de retrait (FR), una oferta de compra o una recompra. Es una oferta dirigida a los accionistas para que vendan (ofrezcan) sus acciones a un precio especificado, normalmente con una prima sobre el precio de mercado vigente. Por lo general, el objetivo de una oferta pública de adquisición es tomar el control de la sociedad objetivo."
+    },
+    "BONU": {
+      "name": "Emisión de acciones liberadas",
+      "definition": "El evento es una emisión de acciones gratuitas, una emisión de scrip o una emisión por capitalización. Los tenedores de valores reciben del emisor activos adicionales sin pago, en proporción a su participación. Una emisión gratuita se representa normalmente mediante acciones, derechos o warrants. El valor nominal no cambia. Puede ofrecerse al tenedor la elección de la forma."
+    },
+    "RHDI": {
+      "name": "Distribución de derechos",
+      "definition": "El evento es la distribución de derechos a los accionistas, en proporción a su participación en el capital."
+    },
+    "EXRI": {
+      "name": "Llamada sobre derechos",
+      "definition": "El evento es una llamada o ejercicio sobre valores no desembolsados o derechos resultantes de una distribución de derechos (RHDI). Debe utilizarse para el segundo evento en los casos en que la emisión de derechos se tramita en dos eventos, siendo el primero la distribución de derechos (RHDI)."
+    },
+    "CHAN": {
+      "name": "Cambio",
+      "definition": "El evento es un cambio genérico. Por ejemplo, un cambio en las condiciones de una emisión, un cambio en la identificación de un valor, un cambio del lote de negociación o un cambio de global a definitivo."
+    },
+    "REDO": {
+      "name": "Redenominación",
+      "definition": "Evento por el que se reexpresa la unidad (divisa y/o nominal) de un instrumento financiero, por ejemplo, la deuda en una divisa nacional se reexpresa en euros."
+    },
+    "EXOP": {
+      "name": "Opción de canje",
+      "definition": "El evento es una opción de los accionistas para canjear sus valores por otros valores y/o efectivo. Las opciones de canje se mencionan en los términos y condiciones de un valor y son válidas durante toda la vida del valor."
+    },
+    "EXOF": {
+      "name": "Oferta de canje",
+      "definition": "El evento es una oferta de canje o una reorganización de capital.|Es una oferta a los accionistas para canjear sus participaciones por otros valores y/o efectivo. Las ofertas de canje suelen ser voluntarias e implican el canje de un valor en circulación por otro u otros valores y/o efectivo."
+    },
+    "DECR": {
+      "name": "Disminución de valor",
+      "definition": "El evento es una reducción del capital social y del valor nominal de cada acción. El número de acciones en circulación permanece sin cambios. Puede incluir un pago de capital al accionista."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesCancellationTransaction2",
+  "definition": "Identifica los detalles de la operación.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "RequestReference": {
+      "definition": "Identificación inequívoca de la solicitud de cancelación."
+    },
+    "StatusDate": {
+      "definition": "Fecha y hora en que se asignó el estado."
+    },
+    "TransactionIdentification": {
+      "definition": "Referencias de la operación para la que se solicita la modificación intraposición."
+    },
+    "Underlying": {
+      "definition": "Identifica detalles adicionales de la operación."
+    }
+  }
+}

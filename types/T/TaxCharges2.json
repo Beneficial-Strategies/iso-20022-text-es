@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxCharges2",
+  "definition": "Importe de dinero adeudado a la administración pública o tributaria, según diversos parámetros predefinidos, como umbrales o ingresos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Referencia única para identificar de forma inequívoca la naturaleza del impuesto aplicado, como el impuesto sobre el valor añadido (VAT)."
+    },
+    "Rate": {
+      "definition": "Tipo utilizado para calcular el impuesto."
+    },
+    "Amount": {
+      "definition": "Importe de dinero resultante del cálculo del impuesto."
+    }
+  }
+}

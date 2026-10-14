@@ -1,0 +1,18 @@
+{
+  "isoType": "RelatedSettlementInstruction2",
+  "definition": "Información sobre una instrucción de liquidación relacionada.",
+  "isoElements": {
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Identificación inequívoca de la instrucción de liquidación relacionada asignada por el titular de la cuenta."
+    },
+    "RelatedSettlementQuantity": {
+      "definition": "Cantidad de valores por la que se ha generado la reclamación de mercado."
+    },
+    "TransferOfProceedsTypeIndicator": {
+      "definition": "Indica el tipo de transferencia de los importes de la reclamación de mercado."
+    },
+    "ProceedsQuantityBreakdown": {
+      "definition": "Especifica el desglose de cantidades entre transferencia de importes y compensación en efectivo."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesAccount9",
+  "definition": "Proporciona información sobre la cuenta de valores.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Especifica si el valor es un débito o un crédito."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificación de la parte titular de la cuenta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificación de la cuenta."
+    },
+    "BalanceType": {
+      "definition": "Tipo de saldo."
+    },
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "SecurityHoldingForm": {
+      "definition": "Especifica la forma del instrumento financiero."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MissingCover6",
+  "definition": "Proporciona detalles adicionales de cobertura para la reclamación por falta de recepción.",
+  "isoElements": {
+    "MissingCoverIndicator": {
+      "definition": "Indica si la reclamación está relacionada o no con una cobertura ausente."
+    },
+    "CoverCorrection": {
+      "definition": "Conjunto de elementos facilitados para actualizar la información de liquidación incorrecta de la cobertura relacionada con la instrucción de pago recibida."
+    }
+  }
+}

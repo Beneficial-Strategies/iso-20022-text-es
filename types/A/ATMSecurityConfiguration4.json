@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMSecurityConfiguration4",
+  "definition": "Configuración de las firmas digitales si el módulo de seguridad puede realizar firmas digitales con una clave asimétrica.",
+  "isoElements": {
+    "MaximumCertificates": {
+      "definition": "Número máximo de certificados en una ruta de certificación que el módulo de seguridad puede gestionar."
+    },
+    "MaximumSignatures": {
+      "definition": "Número máximo de cofirmantes que el módulo de seguridad puede gestionar en una firma digital."
+    },
+    "DigitalSignatureAlgorithm": {
+      "definition": "Algoritmo de firma digital que el módulo de seguridad puede gestionar."
+    }
+  }
+}

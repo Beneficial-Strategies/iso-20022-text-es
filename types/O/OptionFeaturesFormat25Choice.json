@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionFeaturesFormat25Choice",
+  "definition": "Elección entre un código estándar y un código propietario para especificar las características que pueden aplicarse a una opción de operación societaria.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar las características que pueden aplicarse a una opción de operación societaria."
+    },
+    "Proprietary": {
+      "definition": "Identificación propietaria de las características que pueden aplicarse a una opción de operación societaria."
+    }
+  }
+}

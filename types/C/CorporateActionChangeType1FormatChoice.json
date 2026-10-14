@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionChangeType1FormatChoice",
+  "definition": "Elección de formatos para expresar el tipo de cambios.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el tipo de cambios."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar el tipo de cambios."
+    }
+  }
+}

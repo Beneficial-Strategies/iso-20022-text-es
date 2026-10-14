@@ -1,0 +1,24 @@
+{
+  "isoType": "ParticipationMethod3",
+  "definition": "Método de participación en la votación de una junta general.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Método de participación en la votación de la junta general."
+    },
+    "AttendeeEmailRequiredIndicator": {
+      "definition": "Indica si la dirección de correo electrónico de la parte que asistirá a la junta virtual debe facilitarse en la instrucción de junta."
+    },
+    "IssuerDeadlineForVoting": {
+      "definition": "Plazo para votar las resoluciones del orden del día en la junta general."
+    },
+    "SupportedByAccountServicer": {
+      "definition": "Indica si la entidad gestora de la cuenta admite el método de participación específico propuesto por el emisor."
+    },
+    "ResponseDeadlineForVoting": {
+      "definition": "Plazo de la entidad gestora de la cuenta para votar las resoluciones del orden del día en la junta general."
+    },
+    "InvestorTypeIdentification": {
+      "definition": "Tipos de inversor que pueden o no participar en el evento."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionIndividualStatus1Code",
+  "definition": "Especifica el estado de una operación de pago individual.",
+  "isoCodes": {
+    "ACTC": {
+      "name": "Validación técnica aceptada",
+      "definition": "La autenticación y la validación sintáctica y semántica se han superado correctamente."
+    },
+    "RJCT": {
+      "name": "Rechazado",
+      "definition": "La iniciación del pago o una operación individual incluida en ella ha sido rechazada."
+    },
+    "PDNG": {
+      "name": "Pendiente",
+      "definition": "La iniciación del pago o una operación individual incluida en ella está pendiente. Se efectuarán más comprobaciones y actualizaciones del estado."
+    },
+    "ACCP": {
+      "name": "Perfil de cliente aceptado",
+      "definition": "La comprobación técnica previa se ha superado correctamente. La comprobación del perfil del cliente también se ha superado correctamente."
+    },
+    "ACSP": {
+      "name": "Aceptado, liquidación en curso",
+      "definition": "Todas las comprobaciones previas, como la validación técnica y la del perfil del cliente, se han superado correctamente y, por tanto, la iniciación del pago ha sido aceptada para su ejecución."
+    },
+    "ACSC": {
+      "name": "Aceptado, liquidación completada",
+      "definition": "La liquidación en la cuenta del ordenante se ha completado.||Uso: la primera entidad puede utilizarlo para informar al ordenante de que la operación se ha completado. Advertencia: este estado se facilita a efectos de los motivos del estado de la operación, no como información financiera. Solo puede utilizarse previo acuerdo bilateral."
+    },
+    "ACCR": {
+      "name": "Solicitud de cancelación aceptada",
+      "definition": "La anulación está aceptada."
+    },
+    "ACWC": {
+      "name": "Aceptado con cambios",
+      "definition": "La instrucción se acepta, pero se realizará un cambio, como la fecha o la no transmisión de la información de remesa."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationAdviceV03",
+  "definition": "El mensaje ATMReconciliationAdvice lo envía un cajero automático a un adquirente o a su agente para transmitir todos los contadores del cajero automático. Puede enviarse mediante una función de operador o como respuesta a un comando enviado por un agente o un servidor."
+}

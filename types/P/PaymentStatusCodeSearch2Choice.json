@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatusCodeSearch2Choice",
+  "definition": "Elección entre una lista de estados pendientes, estados finales o todos los estados.",
+  "isoElements": {
+    "PendingStatus": {
+      "definition": "Califica con mayor detalle el estado pendiente."
+    },
+    "FinalStatus": {
+      "definition": "Califica con mayor detalle el estado final."
+    },
+    "PendingAndFinalStatus": {
+      "definition": "Estado de una instrucción de pago en un momento determinado."
+    }
+  }
+}

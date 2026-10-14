@@ -1,0 +1,59 @@
+{
+  "isoType": "NotificationItem10",
+  "definition": "Proporciona medios adicionales de referencia de una operación de pago.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificación única, asignada por el titular de la cuenta, para identificar inequívocamente el apunte de abono esperado."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificación única, asignada por el ordenante, para identificar inequívocamente la operación subyacente ante el beneficiario. |Uso: La identificación de extremo a extremo puede utilizarse para la conciliación o para vincular tareas relacionadas con la operación."
+    },
+    "UETR": {
+      "definition": "Identificador único universal que proporciona una referencia de extremo a extremo de una operación de pago."
+    },
+    "Account": {
+      "definition": "Identifica la cuenta que se va a abonar con el importe de dinero entrante."
+    },
+    "AccountOwner": {
+      "definition": "Parte que es la propietaria legal de la cuenta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gestiona la cuenta en nombre del titular de la cuenta, es decir, gestiona el registro y la contabilización de los apuntes en la cuenta, calcula los saldos de la cuenta y proporciona información sobre ella."
+    },
+    "RelatedAccount": {
+      "definition": "Relación comercial entre dos entidades; una entidad es el titular de la cuenta y la otra es la entidad gestora de la cuenta."
+    },
+    "Amount": {
+      "definition": "Importe de dinero que se espera abonar en la cuenta."
+    },
+    "ExpectedValueDate": {
+      "definition": "Fecha valor en la que se espera que se abone la cuenta."
+    },
+    "Debtor": {
+      "definition": "Parte que debe un importe de dinero al beneficiario (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Entidad financiera que gestiona una cuenta del ordenante."
+    },
+    "IntermediaryAgent": {
+      "definition": "Entidad situada entre la entidad del ordenante y la entidad gestora de la cuenta.|Uso: Es la entidad de la que la entidad gestora de la cuenta obtendrá el importe de dinero. Si hay más de una entidad intermediaria, IntermediaryAgent identifica a la más cercana a la entidad gestora de la cuenta.|IntermediaryAgent solo debe incluirse cuando sea distinta de la entidad del ordenante."
+    },
+    "Purpose": {
+      "definition": "Motivo subyacente de la operación de pago."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Proporciona información relativa al tratamiento de la información de remesa por cualquiera de las entidades de la cadena de procesamiento de la operación."
+    },
+    "RemittanceInformation": {
+      "definition": "Información estructurada que permite la conciliación de un pago con las partidas que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas a cobrar."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Proporciona información sobre las asignaciones subyacentes que componen el apunte de abono esperado.||Uso: Solo lo utiliza el sector de valores."
+    }
+  },
+  "isoRules": {
+    "IntermediaryAgentAndDebtorAgentRule": {
+      "definition": "Si IntermediaryAgent está presente, DebtorAgent debe estar presente."
+    }
+  }
+}

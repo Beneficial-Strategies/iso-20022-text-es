@@ -1,0 +1,42 @@
+{
+  "isoType": "RejectionReason35Code",
+  "definition": "Especifica el motivo por el que la instrucción o la solicitud de cancelación tiene estado de rechazada.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Cuenta de efectivo",
+      "definition": "Cuenta de efectivo no reconocida o no válida."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "REFE": {
+      "name": "Rechazo de la referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida anteriormente."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Recibida después del plazo límite del mercado."
+    },
+    "DDAT": {
+      "name": "Rechazo de la fecha de liquidación",
+      "definition": "Fecha de liquidación no reconocida o no válida."
+    },
+    "NRGN": {
+      "name": "Rechazo por no encontrado",
+      "definition": "No se pudo encontrar la instrucción."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Otro. Véase Narrative."
+    },
+    "INVM": {
+      "name": "Solicitud de modificación no válida",
+      "definition": "Solicitud de modificación no válida o no reconocida."
+    },
+    "INVL": {
+      "name": "Vínculo no válido",
+      "definition": "Vínculo no válido o no reconocido."
+    }
+  }
+}

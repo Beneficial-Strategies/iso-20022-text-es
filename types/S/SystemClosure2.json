@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemClosure2",
+  "definition": "Información sobre la inactividad de un sistema.",
+  "isoElements": {
+    "Period": {
+      "definition": "Período de tiempo en que el sistema está cerrado o no opera."
+    },
+    "Reason": {
+      "definition": "Motivo por el que el sistema está cerrado o no opera."
+    }
+  }
+}

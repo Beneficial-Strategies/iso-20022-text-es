@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReportingSource1Code",
+  "definition": "Especifica la fuente de la información, tal como se publica en una lista de códigos externa de fuentes de información.|Los conjuntos de códigos externos pueden descargarse de www.iso20022.org.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Contabilidad",
+      "definition": "El extracto o informe se basa en datos contables."
+    },
+    "ARPF": {
+      "name": "Sistema de conciliación de cuentas (total)",
+      "definition": "Sistema de conciliación de cuentas que ofrece una conciliación completa, que normalmente se refiere a cheques."
+    },
+    "ARPP": {
+      "name": "Sistema de conciliación de cuentas (parcial)",
+      "definition": "Sistema de conciliación de cuentas que ofrece una conciliación parcial, que normalmente se refiere a cheques."
+    },
+    "CTDB": {
+      "name": "Sistema de desembolso controlado",
+      "definition": "Subaplicación que informa de los totales de presentación."
+    },
+    "CUST": {
+      "name": "Custodia",
+      "definition": "El extracto o informe se basa en datos de custodia."
+    },
+    "DEPT": {
+      "name": "Sistema de depósitos",
+      "definition": "Sistema de contabilidad de efectivo o de depósitos."
+    },
+    "DPCS": {
+      "name": "Sistema de concentración de depósitos",
+      "definition": "Sistema de depósitos que informa de lo cobrado a diversas entidades financieras."
+    },
+    "LKBX": {
+      "name": "Apartado de cobros",
+      "definition": "Sistema de procesamiento que captura e informa de los datos de cheques en un entorno de lockbox."
+    },
+    "RCPT": {
+      "name": "Ingresos",
+      "definition": "Sistema que informa de la información de remesa consolidada obtenida de diversas fuentes, es decir, ACH, transferencias electrónicas, lockbox, etc."
+    },
+    "MIBO": {
+      "name": "Back office de MI",
+      "definition": "Operación presentada directamente desde la PMI (sistema de back-office de la infraestructura del mercado de pagos)."
+    },
+    "PFRE": {
+      "name": "Front end del participante",
+      "definition": "Operaciones presentadas directamente desde las aplicaciones del participante o del PSO (operador del sistema de pagos)."
+    }
+  }
+}

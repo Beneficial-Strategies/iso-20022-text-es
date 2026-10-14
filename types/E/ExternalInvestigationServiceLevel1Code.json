@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationServiceLevel1Code",
+  "definition": "Especifica el nivel de servicio de la investigación, tal como se publica en un conjunto externo de códigos de nivel de servicio de investigación.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org.",
+  "isoCodes": {
+    "R01D": {
+      "name": "Responder en un día hábil",
+      "definition": "Respuesta esperada en un día hábil."
+    },
+    "R03D": {
+      "name": "Responder en tres días hábiles",
+      "definition": "Respuesta esperada en tres días hábiles."
+    },
+    "R05D": {
+      "name": "Responder en cinco días hábiles",
+      "definition": "Respuesta esperada en cinco días hábiles."
+    },
+    "R10D": {
+      "name": "Responder en diez días hábiles",
+      "definition": "Respuesta esperada en diez días hábiles."
+    },
+    "R15D": {
+      "name": "Responder en quince días hábiles",
+      "definition": "Respuesta esperada en quince días hábiles."
+    }
+  }
+}

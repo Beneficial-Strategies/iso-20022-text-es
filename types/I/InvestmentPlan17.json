@@ -1,0 +1,65 @@
+{
+  "isoType": "InvestmentPlan17",
+  "definition": "Plan que permite a los inversores programar inversiones o desinversiones periódicas, de acuerdo con criterios predefinidos.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Frecuencia de la inversión o desinversión."
+    },
+    "StartDate": {
+      "definition": "Fecha en la que comienza el plan de inversión."
+    },
+    "EndDate": {
+      "definition": "Fecha en la que finaliza el plan de inversión."
+    },
+    "Quantity": {
+      "definition": "Importe de los pagos periódicos."
+    },
+    "GrossAmountIndicator": {
+      "definition": "Indica si un importe ordenado es un importe bruto (incluidos los costes de la operación). Si no es un importe bruto, el importe ordenado es un importe neto (importe que se invertirá o reembolsará del fondo, al que se añadirán otros elementos)."
+    },
+    "IncomePreference": {
+      "definition": "Opción de dividendo elegida por el titular de la cuenta entre las opciones ofrecidas en el folleto."
+    },
+    "InitialAmount": {
+      "definition": "Importe inicial o número de cuotas iniciales."
+    },
+    "TotalNumberOfInstalments": {
+      "definition": "Número total de veces que debe invertirse el importe con la frecuencia predefinida a partir de la fecha de inicio del plan de inversión."
+    },
+    "RoundingDirection": {
+      "definition": "Indica la dirección del redondeo cuando un importe debe repartirse entre varios fondos."
+    },
+    "SecurityDetails": {
+      "definition": "Valor en el que invierte un plan de inversión, o del que el plan de inversión desinvierte."
+    },
+    "CashSettlement": {
+      "definition": "Instrucción permanente de liquidación en efectivo asociada al plan de inversión."
+    },
+    "ContractReference": {
+      "definition": "Referencia del contrato de inversión subyacente. En algunos mercados, como Italia, puede ser necesaria para segregar las posiciones entre la misma cuenta de inversión."
+    },
+    "RelatedContractReference": {
+      "definition": "Referencia del contrato anterior con el que está relacionado este plan de ahorro o de retirada."
+    },
+    "ProductIdentification": {
+      "definition": "Identificación del producto designado por el gestor del fondo. En algunos mercados, como Italia, el producto o servicio financiero relacionado con un plan de ahorro o de retirada se identifica mediante una identificación o un número de producto."
+    },
+    "SLAChargeAndCommissionReference": {
+      "definition": "Referencia del acuerdo de nivel de servicio (SLA) subyacente que regula las comisiones."
+    },
+    "InsuranceCover": {
+      "definition": "Especifica el tipo de contrato de seguro al que está vinculado el plan de inversión de ahorro."
+    },
+    "PlanStatus": {
+      "definition": "Estado del plan de inversión de ahorro o de retirada."
+    },
+    "InstalmentManagerRole": {
+      "definition": "Función o cometido del gestor de cuotas."
+    }
+  },
+  "isoRules": {
+    "AmountRule": {
+      "definition": "Si Quantity/Amount no está presente, entonces GrossAmountIndicator no está permitido."
+    }
+  }
+}

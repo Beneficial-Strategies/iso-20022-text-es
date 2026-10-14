@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionDeactivationInstructionStatus1",
+  "definition": "Proporciona el estado de la instrucción de desactivación.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Especifica las opciones de operaciones societarias disponibles para el titular de la cuenta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica las opciones de operación societaria disponibles."
+    },
+    "ProcessedStatus": {
+      "definition": "Proporciona información sobre el estado de tramitación de la instrucción."
+    },
+    "RejectedStatus": {
+      "definition": "Proporciona información sobre el estado de rechazo."
+    }
+  },
+  "isoRules": {
+    "ProcessedStatusOrRejectedStatusRule": {
+      "definition": "Debe estar presente ProcessedStatus o RejectedStatus."
+    },
+    "ProcessedStatusOrRejectedStatusRuleNotBoth": {
+      "definition": "Debe estar presente ProcessedStatus o RejectedStatus."
+    }
+  }
+}

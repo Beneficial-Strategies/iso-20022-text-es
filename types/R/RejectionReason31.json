@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason31",
+  "definition": "Información sobre un estado rechazado.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motivo del estado rechazado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Información adicional sobre el motivo del estado rechazado."
+    }
+  }
+}

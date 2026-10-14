@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesRTGS4Choice",
+  "definition": "Elección del formato de la información RTGS de valores.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica si la operación de liquidación se ha de liquidar a través de un sistema RTGS o de un sistema no RTGS."
+    },
+    "Proprietary": {
+      "definition": "Información RTGS de valores expresada como código propietario."
+    }
+  }
+}

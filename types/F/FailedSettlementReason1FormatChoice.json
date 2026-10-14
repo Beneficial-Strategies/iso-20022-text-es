@@ -1,0 +1,12 @@
+{
+  "isoType": "FailedSettlementReason1FormatChoice",
+  "definition": "Elección entre un código estándar o un código propietario para especificar el motivo de un fallo de liquidación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar el motivo de un fallo de liquidación."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para especificar el motivo de un fallo de liquidación."
+    }
+  }
+}

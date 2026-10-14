@@ -1,0 +1,12 @@
+{
+  "isoType": "InitialAmount1Choice",
+  "definition": "Elección entre un importe inicial o un número de cuotas prepagadas.",
+  "isoElements": {
+    "InitialNumberOfInstalments": {
+      "definition": "Número de períodos de cuotas prepagadas en el momento de crearse el plan de inversión."
+    },
+    "Amount": {
+      "definition": "Importe que debe pagarse o reembolsarse en el momento de crearse el plan de inversión."
+    }
+  }
+}

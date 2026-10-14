@@ -1,0 +1,27 @@
+{
+  "isoType": "Statement8",
+  "definition": "Características generales relativas a un extracto que informa sobre un período definido.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referencia del extracto."
+    },
+    "StatementPeriod": {
+      "definition": "Período sobre el que informa el extracto."
+    },
+    "CreationDateTime": {
+      "definition": "Fecha de creación del extracto."
+    },
+    "Frequency": {
+      "definition": "Frecuencia del extracto."
+    },
+    "UpdateType": {
+      "definition": "Especifica si el extracto es completo o solo contiene cambios."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica si hay actividad comunicada en el extracto."
+    },
+    "ReportNumber": {
+      "definition": "Número secuencial del extracto."
+    }
+  }
+}

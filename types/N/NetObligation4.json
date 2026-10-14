@@ -1,0 +1,59 @@
+{
+  "isoType": "NetObligation4",
+  "definition": "Describe el importe, la dirección y las partes que intervienen en una obligación de pago entre dos participantes (y su grupo de compensación multilateral o parte negociadora) de un servicio de compensación multilateral.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "definition": "Identificación única de la obligación."
+    },
+    "PreviousSplitIndicator": {
+      "definition": "Indica si la obligación neta es el resultado de una obligación dividida previamente.||Uso: cuando está ausente, el valor por defecto es false."
+    },
+    "Amount": {
+      "definition": "Importe de la obligación."
+    },
+    "ParticipantNettingIdentification": {
+      "definition": "Describe la parte o el grupo de compensación multilateral (del participante que recibe el informe) que interviene en el cálculo de la obligación."
+    },
+    "ObligationDirection": {
+      "definition": "Especifica la dirección de la obligación."
+    },
+    "CounterpartyNettingIdentification": {
+      "definition": "Describe la parte o el grupo de compensación multilateral (de la contraparte en la obligación) que interviene en el cálculo de la obligación."
+    },
+    "NetServiceCounterpartyIdentification": {
+      "definition": "Describe el participante contraparte que interviene en la obligación."
+    },
+    "CounterpartySettlementInstructions": {
+      "definition": "Especifica las instrucciones de liquidación estándar utilizadas para emitir un pago a la contraparte con el fin de liquidar la obligación."
+    },
+    "PaymentClearingCentre": {
+      "definition": "Especifica el lugar de compensación para las operaciones en divisas extraterritoriales.||Uso: Se utiliza para designar el centro de compensación de las operaciones en divisas extraterritoriales. No debe utilizarse para operaciones que se liquidan en el territorio nacional."
+    },
+    "SettlementMethod": {
+      "definition": "Especifica el método de liquidación de la obligación neta."
+    },
+    "TransactionsNumber": {
+      "definition": "Número de operaciones utilizadas para calcular la obligación. Se utiliza en la conciliación entre la obligación del informe de posiciones netas y las actualizaciones de estado de las operaciones proporcionadas previamente."
+    },
+    "SplitIndicator": {
+      "definition": "Indica si la obligación neta se divide en varias obligaciones derivadas.||Uso: cuando está ausente, el valor por defecto es false."
+    },
+    "TotalNumberOfSplits": {
+      "definition": "Número de divisiones de la obligación neta."
+    },
+    "SplitObligationData": {
+      "definition": "Detalles de la división."
+    }
+  },
+  "isoRules": {
+    "CounterpartySettlementInstructionRule": {
+      "definition": "CounterpartySettlementInstructions no debe estar presente cuando el valor de la dirección de la obligación es DBIT."
+    },
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification debe estar presente en este nivel en todas las obligaciones si una o varias contrapartes intervienen en el cálculo del informe de posiciones netas, es decir, si NetServiceCounterpartyIdentification no se utiliza en el nivel de NetReport."
+    },
+    "SplitIndicatorRule": {
+      "definition": "Si SplitIndicator es true, entonces TotalNumberOfSplits y SplitObligationData deben estar presentes."
+    }
+  }
+}

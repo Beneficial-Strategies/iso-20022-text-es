@@ -1,0 +1,15 @@
+{
+  "isoType": "DigitalPaymentSettlement2",
+  "definition": "Especifica la información relativa a la liquidación del pago digital.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financiero que representa un conjunto de derechos del inversor frente al emisor."
+    },
+    "ElectronicMoneyTokenSettlementQuantity": {
+      "definition": "Cantidad de token de dinero electrónico para el pago de liquidación."
+    },
+    "CashSettlementSystemPlace": {
+      "definition": "Lugar donde se efectúa o se efectuará el pago."
+    }
+  }
+}

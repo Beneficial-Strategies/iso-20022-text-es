@@ -1,0 +1,154 @@
+{
+  "isoType": "MessageFunction11Code",
+  "definition": "Identifica el tipo de proceso relacionado con un mensaje del cajero automático (ATM).",
+  "isoCodes": {
+    "BALN": {
+      "name": "Balance del ATM",
+      "definition": "Proporciona los contadores del ATM y restablece los que correspondan."
+    },
+    "CMPA": {
+      "name": "Acuse de finalización del ATM",
+      "definition": "Acuse de recibo de un aviso de finalización."
+    },
+    "CMPD": {
+      "name": "Aviso de finalización del ATM",
+      "definition": "Aviso de finalización de una operación del ATM."
+    },
+    "ACMD": {
+      "name": "Control del ATM",
+      "definition": "Comandos globales del cajero automático (ATM)."
+    },
+    "DVCC": {
+      "name": "Control de dispositivos del ATM",
+      "definition": "Comandos de mantenimiento que se deben ejecutar."
+    },
+    "DIAQ": {
+      "name": "Solicitud de diagnóstico del ATM",
+      "definition": "Solicitud de diagnóstico."
+    },
+    "DIAP": {
+      "name": "Respuesta de diagnóstico del ATM",
+      "definition": "Respuesta a una solicitud de diagnóstico."
+    },
+    "GSTS": {
+      "name": "Estado global del ATM",
+      "definition": "Estado global del cajero automático (ATM)."
+    },
+    "INQQ": {
+      "name": "Solicitud de consulta del ATM",
+      "definition": "Solicitud de consulta."
+    },
+    "INQP": {
+      "name": "Respuesta de consulta del ATM",
+      "definition": "Respuesta a una solicitud de consulta."
+    },
+    "KYAQ": {
+      "name": "Solicitud de descarga de claves del ATM",
+      "definition": "Solicitud de descarga de claves."
+    },
+    "KYAP": {
+      "name": "Respuesta de descarga de claves del ATM",
+      "definition": "Respuesta a una descarga de claves."
+    },
+    "PINQ": {
+      "name": "Solicitud de gestión del PIN del ATM",
+      "definition": "Solicitud de gestión del PIN del titular de la tarjeta."
+    },
+    "PINP": {
+      "name": "Respuesta de gestión del PIN del ATM",
+      "definition": "Respuesta a una solicitud de gestión del PIN del titular de la tarjeta."
+    },
+    "RJAQ": {
+      "name": "Rechazo de solicitud del ATM",
+      "definition": "Mensaje de solicitud rechazado."
+    },
+    "RJAP": {
+      "name": "Rechazo de respuesta del ATM",
+      "definition": "Mensaje de respuesta rechazado."
+    },
+    "WITV": {
+      "name": "Aviso de retirada del ATM",
+      "definition": "Respuesta de una operación de retirada de efectivo."
+    },
+    "WITK": {
+      "name": "Acuse de retirada del ATM",
+      "definition": "Acuse de recibo de un aviso de operación de retirada de efectivo."
+    },
+    "WITQ": {
+      "name": "Solicitud de retirada del ATM",
+      "definition": "Solicitud de una operación de retirada de efectivo."
+    },
+    "WITP": {
+      "name": "Respuesta de retirada del ATM",
+      "definition": "Respuesta a una solicitud de operación de retirada de efectivo."
+    },
+    "INQC": {
+      "name": "Consulta de contadores",
+      "definition": "Solicitar el valor de los contadores del cajero automático (ATM)."
+    },
+    "H2AP": {
+      "name": "Acuse del servidor al ATM",
+      "definition": "Acuse de recibo de una solicitud de un servidor a un ATM para que este establezca contacto."
+    },
+    "H2AQ": {
+      "name": "Solicitud del servidor al ATM",
+      "definition": "Solicitud de un servidor a un ATM para que este lo contacte."
+    },
+    "TMOP": {
+      "name": "Operación del ATM",
+      "definition": "Operación lógica o física sobre el ATM."
+    },
+    "CSEC": {
+      "name": "Control de seguridad",
+      "definition": "Comandos de seguridad."
+    },
+    "DSEC": {
+      "name": "Detalles de seguridad",
+      "definition": "Informe detallado de seguridad."
+    },
+    "SKSC": {
+      "name": "Finalización de claves de seguridad",
+      "definition": "Resultado de la descarga de claves con el estado de las claves descargadas, incluidos los valores de comprobación de las claves."
+    },
+    "SSTS": {
+      "name": "Estado de claves de seguridad",
+      "definition": "Estado de las claves criptográficas."
+    },
+    "DPSK": {
+      "name": "Acuse de finalización de ingreso del ATM",
+      "definition": "Acuse de recibo de un aviso de finalización de ingreso."
+    },
+    "DPSV": {
+      "name": "Aviso de finalización de ingreso del ATM",
+      "definition": "Aviso de finalización de una operación de ingreso en el ATM."
+    },
+    "DPSQ": {
+      "name": "Solicitud de ingreso del ATM",
+      "definition": "Solicitud de ingreso."
+    },
+    "DPSP": {
+      "name": "Respuesta de ingreso del ATM",
+      "definition": "Respuesta a una solicitud de ingreso."
+    },
+    "EXPK": {
+      "name": "Acuse de excepción del ATM",
+      "definition": "Acuse de recibo de un aviso de excepción."
+    },
+    "EXPV": {
+      "name": "Aviso de excepción del ATM",
+      "definition": "Aviso de una excepción del ATM."
+    },
+    "TRFQ": {
+      "name": "Solicitud de transferencia del ATM",
+      "definition": "Solicitud de transferencia de fondos."
+    },
+    "TRFP": {
+      "name": "Respuesta de transferencia del ATM",
+      "definition": "Respuesta a una solicitud de transferencia de fondos."
+    },
+    "RPTC": {
+      "name": "Informe de contadores",
+      "definition": "Proporciona el valor de los contadores del ATM, sin reinicializarlos."
+    }
+  }
+}

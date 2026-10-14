@@ -1,0 +1,22 @@
+{
+  "isoType": "FractionDispositionType10Code",
+  "definition": "Indica que debe conservarse el valor fraccionario; sin redondeo.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Adquisición adicional",
+      "definition": "Comprar valores hasta el siguiente número entero."
+    },
+    "CINL": {
+      "name": "Efectivo en lugar de fracción",
+      "definition": "Parte fraccionaria en efectivo. Recibir efectivo en lugar de fracciones."
+    },
+    "EXPI": {
+      "name": "Caducar",
+      "definition": "Dejar que las fracciones caduquen sin valor."
+    },
+    "DIST": {
+      "name": "Emitir fracción",
+      "definition": "Recibir la distribución de fracciones en forma de valores."
+    }
+  }
+}

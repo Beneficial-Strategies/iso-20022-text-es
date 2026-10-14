@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType1FormatChoice",
+  "definition": "Elección de formatos para expresar cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita una tasa de prorrateo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código estándar para especificar cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se proporciona una tasa de prorrateo."
+    },
+    "Proprietary": {
+      "definition": "Código propietario para expresar cómo se procesarán las fracciones resultantes de valores derivados o cómo se redondearán las decisiones prorrateadas, si se facilita una tasa de prorrateo."
+    }
+  }
+}

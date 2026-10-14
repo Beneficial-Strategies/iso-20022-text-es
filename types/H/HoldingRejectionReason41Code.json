@@ -1,0 +1,302 @@
+{
+  "isoType": "HoldingRejectionReason41Code",
+  "definition": "Especifica el motivo por el que se rechaza el elemento del informe.",
+  "isoCodes": {
+    "INPR": {
+      "name": "Precio no válido",
+      "definition": "El precio no cumple las características del instrumento financiero."
+    },
+    "INID": {
+      "name": "Identificación no válida",
+      "definition": "La instrucción contiene una identificación de mensaje no válida; la identificación es desconocida."
+    },
+    "AGIN": {
+      "name": "Agente no válido",
+      "definition": "Se ha facilitado una identificación de agente no válida."
+    },
+    "INTE": {
+      "name": "Intermediario",
+      "definition": "El intermediario no se reconoce o no es válido."
+    },
+    "CERT": {
+      "name": "Certificación incorrecta",
+      "definition": "La instrucción se rechaza porque la certificación facilitada es incorrecta o incompleta."
+    },
+    "BPAR": {
+      "name": "Rechazo por número de socio comercial",
+      "definition": "Número de socio comercial no reconocido o no válido."
+    },
+    "BREF": {
+      "name": "Rechazo por número de referencia bancaria",
+      "definition": "Número de referencia bancaria no reconocido o no válido."
+    },
+    "DADR": {
+      "name": "Rechazo por datos de dirección",
+      "definition": "Los datos de dirección son incorrectos o no pueden reconocerse."
+    },
+    "DCUS": {
+      "name": "Custodio entregador",
+      "definition": "Custodio entregador no reconocido o no válido."
+    },
+    "IACT": {
+      "name": "Tipo de actividad incorrecto",
+      "definition": "Se ha especificado un tipo de actividad incorrecto, por ejemplo, conversión previa a la emisión."
+    },
+    "INVA": {
+      "name": "No válido para las autoridades fiscales",
+      "definition": "En el caso de la devolución de impuestos, la solicitud de devolución no es válida para las autoridades tributarias."
+    },
+    "INDT": {
+      "name": "Detalles no válidos",
+      "definition": "Los datos del mensaje especificados en la instrucción o solicitud son incoherentes con los especificados en el mensaje original relacionado."
+    },
+    "OPTI": {
+      "name": "Opción no válida",
+      "definition": "Combinación no válida del código de opción de la operación societaria y el número de opción de la operación societaria."
+    },
+    "OPTY": {
+      "name": "Tipo de opción no válido",
+      "definition": "Tipo de opción no válido."
+    },
+    "INMO": {
+      "name": "Información de movimiento no válida",
+      "definition": "Los datos especificados en el bloque de información general del movimiento son incoherentes con los especificados en el mensaje original relacionado."
+    },
+    "INVM": {
+      "name": "Solicitud de modificación no válida",
+      "definition": "Solicitud de modificación no válida o no reconocida."
+    },
+    "INUS": {
+      "name": "Valor subyacente no válido",
+      "definition": "La identificación del valor subyacente no se corresponde con la referencia de la operación societaria facilitada."
+    },
+    "DSEC": {
+      "name": "Valor no válido",
+      "definition": "Identificación del instrumento financiero no reconocida o no válida."
+    },
+    "ENDP": {
+      "name": "Falta la fecha de fin del periodo",
+      "definition": "Falta la fecha o el código de fin del período."
+    },
+    "STAR": {
+      "name": "Falta la fecha de inicio del periodo",
+      "definition": "Falta la fecha o el código de inicio del período."
+    },
+    "SECO": {
+      "name": "Falta la opción",
+      "definition": "La segunda opción es obligatoria."
+    },
+    "NOHO": {
+      "name": "Sin posición",
+      "definition": "No hay tenencia del valor subyacente especificado."
+    },
+    "NINS": {
+      "name": "Sin mercado del instrumento",
+      "definition": "El instrumento referido no existe en combinación con el mercado mencionado."
+    },
+    "NOAP": {
+      "name": "No aplicable",
+      "definition": "El tipo de instrucción no es aplicable a eventos obligatorios."
+    },
+    "NAUT": {
+      "name": "No autorizado",
+      "definition": "No se ha concedido permiso para su tramitación."
+    },
+    "AGID": {
+      "name": "Entidad no definida",
+      "definition": "La parte no está definida como agente."
+    },
+    "DISP": {
+      "name": "Valor no admisible para dispersión",
+      "definition": "El valor de dispersión no es elegible en el proveedor de servicios titular (ICSD)."
+    },
+    "CORR": {
+      "name": "Banco corresponsal no identificado",
+      "definition": "No es posible identificar el banco corresponsal."
+    },
+    "INPS": {
+      "name": "Lugar de custodia",
+      "definition": "Lugar de custodia no reconocido, no válido o ausente."
+    },
+    "PLCE": {
+      "name": "Lugar de negociación",
+      "definition": "Lugar de negociación no reconocido o no válido."
+    },
+    "PRIC": {
+      "name": "El precio excede el límite",
+      "definition": "El precio de la ejecución supera el precio de la orden."
+    },
+    "IVAG": {
+      "name": "Entidad receptora",
+      "definition": "El agente receptor no se reconoce o no es válido."
+    },
+    "QUNP": {
+      "name": "Tipo de unidad de cantidad",
+      "definition": "No se ha facilitado el tipo de unidad de cantidad."
+    },
+    "DQUA": {
+      "name": "Rechazo de la cantidad",
+      "definition": "Cantidad instruida no reconocida o no válida."
+    },
+    "EQTY": {
+      "name": "La cantidad excede el límite",
+      "definition": "La cantidad de la ejecución supera la cantidad ordenada."
+    },
+    "DEPT": {
+      "name": "Depositario receptor o entregador",
+      "definition": "Depositario no reconocido o no válido."
+    },
+    "RCUS": {
+      "name": "Custodio receptor",
+      "definition": "Agente receptor no reconocido o no válido."
+    },
+    "SAFE": {
+      "name": "Rechazo de la cuenta de custodia",
+      "definition": "Cuenta de custodia del emisor del mensaje no reconocida o no válida."
+    },
+    "DMON": {
+      "name": "Rechazo del importe de liquidación",
+      "definition": "Importe de liquidación no reconocido o no válido."
+    },
+    "NCRR": {
+      "name": "Rechazo de la divisa del importe de liquidación",
+      "definition": "Divisa del importe de liquidación no reconocida o no válida."
+    },
+    "TQNP": {
+      "name": "Cantidad de valores negociados",
+      "definition": "No se ha facilitado la cantidad de valores negociados."
+    },
+    "SETR": {
+      "name": "Rechazo por operación de liquidación",
+      "definition": "Tipo de operación de liquidación no reconocido o no válido."
+    },
+    "UKWN": {
+      "name": "Símbolo desconocido",
+      "definition": "No se ha reconocido el símbolo del instrumento financiero."
+    },
+    "DDEA": {
+      "name": "Precio de la transacción",
+      "definition": "Precio de la operación no reconocido o no válido."
+    },
+    "TERM": {
+      "name": "Rechazo por fecha y hora de cierre",
+      "definition": "Fecha y hora de cierre no reconocidas o no válidas."
+    },
+    "ULNK": {
+      "name": "Referencia no válida",
+      "definition": "La referencia vinculada es desconocida."
+    },
+    "NARR": {
+      "name": "Motivo narrativo",
+      "definition": "Véase el campo narrativo para conocer el motivo."
+    },
+    "NRGN": {
+      "name": "Rechazo por no encontrado",
+      "definition": "No se pudo encontrar la instrucción."
+    },
+    "INVB": {
+      "name": "Saldo no válido",
+      "definition": "La instrucción pretende utilizar un saldo no válido."
+    },
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Operación o instrucción recibida después del plazo límite especificado por la entidad gestora de la cuenta."
+    },
+    "CASH": {
+      "name": "Cuenta de efectivo",
+      "definition": "Cuenta de efectivo no reconocida o no válida."
+    },
+    "COMC": {
+      "name": "Rechazo por contrato de comercialización",
+      "definition": "Contrato de comercialización no reconocido o no válido."
+    },
+    "CONL": {
+      "name": "Límite de concentración superado",
+      "definition": "Se excedió el límite de concentración."
+    },
+    "INHO": {
+      "name": "Saldo insuficiente",
+      "definition": "Saldo insuficiente."
+    },
+    "ICOL": {
+      "name": "Garantía insuficiente",
+      "definition": "Garantía propuesta insuficiente."
+    },
+    "INVE": {
+      "name": "Parte inversora no válida",
+      "definition": "Parte inversora no reconocida o no válida. Puede ser utilizado por una parte ejecutora para rechazar una instrucción de un inversor (o cartera) para el que no está autorizada a actuar."
+    },
+    "INVN": {
+      "name": "Número de lote no válido",
+      "definition": "Número de lote no válido o no reconocido."
+    },
+    "INVL": {
+      "name": "Vínculo no válido",
+      "definition": "Vínculo no válido o no reconocido."
+    },
+    "VALR": {
+      "name": "Regla no válida",
+      "definition": "Rechazo por una regla de validación de la entidad gestora de la cuenta."
+    },
+    "INUK": {
+      "name": "Nombre y dirección del inversor desconocidos",
+      "definition": "El nombre y la dirección del inversor no se reconocen."
+    },
+    "LATT": {
+      "name": "Tardío",
+      "definition": "La instrucción o solicitud llega demasiado tarde."
+    },
+    "MINO": {
+      "name": "Cantidad mínima de liquidación",
+      "definition": "La cantidad instruida es inferior a la cantidad mínima de liquidación existente para el instrumento financiero."
+    },
+    "BOIS": {
+      "name": "Faltan los datos del titular beneficiario",
+      "definition": "Rechazado por falta de datos del beneficiario efectivo."
+    },
+    "MCER": {
+      "name": "Falta la certificación",
+      "definition": "No se ha cumplimentado la certificación."
+    },
+    "IPOA": {
+      "name": "Poder notarial ausente o no válido",
+      "definition": "Poder notarial ausente o no válido."
+    },
+    "MUNO": {
+      "name": "Cantidad de liquidación múltiple",
+      "definition": "La cantidad instruida no es múltiplo de un lote de liquidación existente para el instrumento financiero."
+    },
+    "INNA": {
+      "name": "Rechazo por información narrativa",
+      "definition": "Información narrativa preacordada del acuerdo de nivel de servicio no reconocida o no válida."
+    },
+    "NINV": {
+      "name": "Sin existencias",
+      "definition": "El instrumento financiero solicitado no está disponible."
+    },
+    "ELIG": {
+      "name": "Valor no admisible",
+      "definition": "El valor no es elegible."
+    },
+    "PERI": {
+      "name": "Fecha de fin del periodo anterior a la fecha de inicio",
+      "definition": "La fecha de fin del período es anterior a la fecha de inicio del período."
+    },
+    "REFE": {
+      "name": "Rechazo por referencia",
+      "definition": "La instrucción tiene una referencia idéntica a la de otra instrucción recibida previamente."
+    },
+    "SAID": {
+      "name": "Misma identificación",
+      "definition": "Varios mensajes con la misma identificación."
+    },
+    "OWNT": {
+      "name": "Rechazo por tipo de titularidad",
+      "definition": "El tipo de titularidad indicado no es correcto."
+    },
+    "NTAV": {
+      "name": "No disponible",
+      "definition": "El motivo no está disponible o es desconocido."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxAmount2",
+  "definition": "Conjunto de elementos utilizados para proporcionar información sobre los importes de impuesto del registro de impuestos.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Tasa utilizada para calcular el impuesto."
+    },
+    "TaxableBaseAmount": {
+      "definition": "Importe de dinero sobre el que se basa el impuesto."
+    },
+    "TotalAmount": {
+      "definition": "Importe total resultante del cálculo del impuesto para el registro."
+    },
+    "Details": {
+      "definition": "Conjunto de elementos utilizados para proporcionar detalles sobre el período y el importe del impuesto."
+    }
+  }
+}

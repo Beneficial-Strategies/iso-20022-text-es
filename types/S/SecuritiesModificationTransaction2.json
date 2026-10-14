@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesModificationTransaction2",
+  "definition": "Identifica los detalles de la operación.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte titular de la cuenta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Cuenta a la que o de la que se realiza un apunte de valores."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado y motivo del estado de la operación."
+    },
+    "RequestReference": {
+      "definition": "Identificación inequívoca de la solicitud de modificación."
+    },
+    "StatusDate": {
+      "definition": "Fecha y hora en que se asignó el estado."
+    },
+    "RequestDetails": {
+      "definition": "Detalles de la solicitud que proporcionan los cambios y las referencias de la instrucción cuya modificación se solicita."
+    },
+    "Underlying": {
+      "definition": "Identifica detalles adicionales de la operación."
+    }
+  }
+}

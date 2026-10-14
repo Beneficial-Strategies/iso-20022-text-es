@@ -1,0 +1,38 @@
+{
+  "isoType": "CardholderVerificationCapability3Code",
+  "definition": "Capacidades de autenticación del cliente disponibles en un cajero automático (ATM).",
+  "isoCodes": {
+    "NPIN": {
+      "name": "PIN en línea",
+      "definition": "PIN (número de identificación personal) en línea."
+    },
+    "FCPN": {
+      "name": "PIN sin conexión en claro",
+      "definition": "PIN (número de identificación personal) sin conexión en claro."
+    },
+    "FEPN": {
+      "name": "PIN sin conexión cifrado",
+      "definition": "PIN (número de identificación personal) sin conexión cifrado."
+    },
+    "FDSG": {
+      "name": "Firma digital sin conexión",
+      "definition": "Análisis de firma digital sin conexión."
+    },
+    "FBIO": {
+      "name": "Biometría sin conexión",
+      "definition": "Biometría sin conexión."
+    },
+    "FBIG": {
+      "name": "Datos biográficos sin conexión",
+      "definition": "Datos biográficos sin conexión."
+    },
+    "PKIS": {
+      "name": "Firma PKI",
+      "definition": "Firma digital basada en PKI (infraestructura de clave pública)."
+    },
+    "PCOD": {
+      "name": "Código personal",
+      "definition": "Código personal del cliente para servicios bancarios."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "BenefitCrystallisationEvent2",
+  "definition": "Información sobre la realización de las prestaciones obtenidas de una pensión.",
+  "isoElements": {
+    "EventTypeNumber": {
+      "definition": "Número del evento de cristalización. En el mercado del UK podría ser, por ejemplo, BCE5, BE5A o BCE5B."
+    },
+    "EventTypeName": {
+      "definition": "Nombre del evento de cristalización. En el mercado del UK podría ser, por ejemplo, ‘derecho a pensión del plan’."
+    },
+    "EventDate": {
+      "definition": "Fecha en la que se desencadenó el evento de cristalización."
+    },
+    "CrystallisationAmount": {
+      "definition": "Importe del evento de cristalización."
+    },
+    "PercentageOfAllowance": {
+      "definition": "Porcentaje de la asignación utilizada para el evento de cristalización de prestaciones."
+    },
+    "LifetimeAllowanceProtection": {
+      "definition": "Indica si la protección de la asignación vitalicia afecta al evento de cristalización de prestaciones."
+    },
+    "AdditionalInformation": {
+      "definition": "Información adicional sobre el evento de cristalización de prestaciones."
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "isoType": "UnmatchedReason13Code",
+  "definition": "Especifica el motivo por el que la operación, transferencia o instrucción de liquidación no está casada.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Plazo de la entidad gestora de la cuenta incumplido",
+      "definition": "Recibida después del plazo límite de la entidad gestora de la cuenta. Se procesa en la medida de lo posible."
+    },
+    "ACRU": {
+      "name": "Importe de intereses devengados 1",
+      "definition": "El importe de intereses devengados no coincide."
+    },
+    "TERM": {
+      "name": "Fecha y hora de cierre",
+      "definition": "La fecha y hora de cierre no coinciden."
+    },
+    "IIND": {
+      "name": "Referencia común",
+      "definition": "La referencia común no coincide."
+    },
+    "CPCA": {
+      "name": "Cancelado por la contraparte",
+      "definition": "La contraparte canceló su instrucción."
+    },
+    "CLAT": {
+      "name": "Contraparte fuera de plazo para el cotejo",
+      "definition": "La instrucción de la contraparte llegó demasiado tarde para el casamiento."
+    },
+    "NCRR": {
+      "name": "Importe de liquidación en divisa",
+      "definition": "La divisa del importe de liquidación no coincide."
+    },
+    "DDEA": {
+      "name": "Precio de la transacción",
+      "definition": "El precio de la operación no coincide."
+    },
+    "DSEC": {
+      "name": "Instrumento financiero",
+      "definition": "La identificación del instrumento financiero no coincide, por ejemplo, el ISIN o los atributos del instrumento financiero difieren."
+    },
+    "DQUA": {
+      "name": "Cantidad de instrumento financiero",
+      "definition": "La cantidad de instrumentos financieros no coincide."
+    },
+    "FORF": {
+      "name": "Importe de recompra con pérdida",
+      "definition": "El importe de penalización no coincide."
+    },
+    "INVE": {
+      "name": "Parte inversora",
+      "definition": "La parte inversora no coincide."
+    },
+    "LEOG": {
+      "name": "Carta de garantía",
+      "definition": "La contraparte liquida mediante carta de garantía y su instrucción no, o viceversa."
+    },
+    "LATE": {
+      "name": "Plazo del mercado incumplido",
+      "definition": "Su instrucción llegó demasiado tarde para el casamiento."
+    },
+    "CMIS": {
+      "name": "Sin coincidencia",
+      "definition": "No se ha encontrado una instrucción coincidente de su contraparte."
+    },
+    "NMAS": {
+      "name": "Cotejo no iniciado",
+      "definition": "El proceso de casamiento aún no ha comenzado."
+    },
+    "DTRA": {
+      "name": "No reconocido",
+      "definition": "Se ha contactado con la contraparte, o esta ha contactado con nosotros, y no reconoce la operación."
+    },
+    "OTHR": {
+      "name": "Otro",
+      "definition": "Código de motivo de no casamiento propio (propietario) descrito en un campo de texto libre."
+    },
+    "FRAP": {
+      "name": "Código de pago",
+      "definition": "El tipo de pago no coincide: su instrucción es libre de pago y la instrucción de su contraparte es contra pago, o viceversa."
+    },
+    "PHYS": {
+      "name": "Liquidación física",
+      "definition": "La instrucción de la contraparte es de liquidación física y la suya no, o viceversa."
+    },
+    "PLIS": {
+      "name": "Lugar de cotización",
+      "definition": "El lugar de cotización no coincide."
+    },
+    "INPS": {
+      "name": "Lugar de custodia",
+      "definition": "La información del lugar de custodia no permite que se realice el casamiento."
+    },
+    "PLCE": {
+      "name": "Lugar de negociación",
+      "definition": "El lugar de negociación no coincide."
+    },
+    "PODU": {
+      "name": "Posible duplicado",
+      "definition": "La instrucción no ha sido casada. Es una posible instrucción duplicada."
+    },
+    "DEPT": {
+      "name": "Depositario receptor o entregador",
+      "definition": "El depositario no coincide."
+    },
+    "ICAG": {
+      "name": "Parte receptora o entregadora 1",
+      "definition": "El participante del depositario que entrega o recibe no coincide."
+    },
+    "ICUS": {
+      "name": "Parte receptora o entregadora 2",
+      "definition": "El cliente de la parte que entrega o recibe 1 no coincide."
+    },
+    "IEXE": {
+      "name": "Parte receptora o entregadora 3",
+      "definition": "El cliente de la parte que entrega o recibe 2 no coincide."
+    },
+    "REGD": {
+      "name": "Detalles del registro",
+      "definition": "Los detalles de registro vinculados a la operación son incorrectos."
+    },
+    "REPA": {
+      "name": "Importe de recompra",
+      "definition": "El importe de la operación de terminación no coincide."
+    },
+    "CADE": {
+      "name": "Plazo de preaviso de recompra",
+      "definition": "El plazo de requerimiento de la operación no coincide."
+    },
+    "REPP": {
+      "name": "Importe de la prima de recompra",
+      "definition": "El importe de la prima no coincide."
+    },
+    "REPO": {
+      "name": "Tipo de recompra",
+      "definition": "El tipo de recompra no coincide."
+    },
+    "RERT": {
+      "name": "Tipo de tasa de recompra",
+      "definition": "El tipo de tasa de recompra no coincide."
+    },
+    "RTGS": {
+      "name": "Sistema RTGS",
+      "definition": "La contraparte opera en un sistema de liquidación bruta en tiempo real (RTGS) y usted en uno que no lo es, o viceversa."
+    },
+    "SAFE": {
+      "name": "Cuenta de custodia",
+      "definition": "La cuenta de custodia utilizada como criterio de casamiento en el mercado correspondiente no coincide. Esto incluye la cuenta del comprador/vendedor, la cuenta del cliente directo en el agente receptor/entregador, o la cuenta del agente receptor/entregador en el CSD."
+    },
+    "DMON": {
+      "name": "Importe de liquidación",
+      "definition": "El importe de liquidación no coincide."
+    },
+    "DDAT": {
+      "name": "Fecha de liquidación",
+      "definition": "La fecha/hora de liquidación no coincide."
+    },
+    "SETS": {
+      "name": "Método del sistema de liquidación",
+      "definition": "El sistema/método de liquidación no coincide (por ejemplo, la instrucción es liquidar utilizando el sistema/método de liquidación A. La contraparte espera que la liquidación se realice utilizando el sistema/método de liquidación B)."
+    },
+    "SETR": {
+      "name": "Operación de liquidación",
+      "definition": "El tipo de operación de liquidación no coincide (se refiere a los códigos de tipo de operación de liquidación disponibles para el campo: 22F:: SETR.)."
+    },
+    "TXST": {
+      "name": "Situación fiscal",
+      "definition": "Desacuerdo sobre el régimen fiscal de los instrumentos financieros que se han de liquidar."
+    },
+    "DTRD": {
+      "name": "Fecha de negociación",
+      "definition": "La fecha de contratación no coincide."
+    },
+    "DELN": {
+      "name": "Sentido de la operación",
+      "definition": "La dirección de la operación no coincide. La contraparte espera una entrega de su parte, no una recepción, o viceversa."
+    },
+    "VASU": {
+      "name": "Soporte de tipo variable",
+      "definition": "El soporte de tasa variable no coincide (repo)."
+    },
+    "DMCT": {
+      "name": "Generación automática",
+      "definition": "Desacuerdo sobre la generación automática de reclamación de mercado o transformación."
+    },
+    "DCMX": {
+      "name": "Con derecho (cum-ex)",
+      "definition": "Desacuerdo sobre si la operación se ejecutó con derecho (cum) o sin derecho (ex)."
+    }
+  }
+}

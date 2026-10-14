@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingSecurityMovement1",
+  "definition": "Proporciona información sobre el movimiento de valores subyacentes.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificación del instrumento financiero."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Cantidad de instrumento financiero."
+    },
+    "AccountDetails": {
+      "definition": "Proporciona información sobre la cuenta de valores adeudada/abonada."
+    }
+  }
+}

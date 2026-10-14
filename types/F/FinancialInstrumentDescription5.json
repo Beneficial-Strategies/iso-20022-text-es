@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentDescription5",
+  "definition": "Descripción del instrumento financiero.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica el instrumento financiero."
+    },
+    "PlaceOfListing": {
+      "definition": "Lugar donde cotiza el instrumento financiero referenciado."
+    },
+    "SafekeepingPlace": {
+      "definition": "Identificación del lugar donde se custodiará el instrumento financiero."
+    }
+  }
+}

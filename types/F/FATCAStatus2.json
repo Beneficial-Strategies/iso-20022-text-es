@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCAStatus2",
+  "definition": "Información del estatus de la Ley de Cumplimiento Tributario de Cuentas Extranjeras (FATCA).",
+  "isoElements": {
+    "Type": {
+      "definition": "Estatus de la Ley de Cumplimiento Tributario de Cuentas Extranjeras (FATCA)."
+    },
+    "Source": {
+      "definition": "Fuente del estatus de la Ley de Cumplimiento Tributario de Cuentas Extranjeras (FATCA)."
+    }
+  }
+}

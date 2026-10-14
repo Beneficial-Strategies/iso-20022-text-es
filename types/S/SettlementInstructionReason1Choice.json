@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementInstructionReason1Choice",
+  "definition": "Elección de formatos para el motivo de la instrucción de liquidación.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de la instrucción de liquidación expresado como código."
+    },
+    "Proprietary": {
+      "definition": "Motivo de la instrucción de liquidación expresado como código propietario."
+    }
+  }
+}

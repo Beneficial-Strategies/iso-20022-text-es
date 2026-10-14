@@ -1,0 +1,15 @@
+{
+  "isoType": "DatePeriod1Choice",
+  "definition": "Período, expresado como una fecha, un mes o un intervalo de fecha y hora, para el que se facilita el extracto.",
+  "isoElements": {
+    "Date": {
+      "definition": "Intervalo de tiempo definido por una fecha concreta."
+    },
+    "DateMonth": {
+      "definition": "Intervalo de tiempo definido por un mes y un año."
+    },
+    "FromDateToDate": {
+      "definition": "Intervalo de tiempo definido por una fecha de inicio y una fecha de fin."
+    }
+  }
+}

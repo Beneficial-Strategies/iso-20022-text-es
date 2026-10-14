@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalCommunicationFormat1Code",
+  "definition": "Especifica el formato de comunicación de los extractos en forma de cadena de caracteres con una longitud máxima de 4 caracteres.|La lista de códigos válidos es una lista de códigos externa publicada por separado.|Los conjuntos de códigos externos pueden descargarse en www.iso20022.org."
+}

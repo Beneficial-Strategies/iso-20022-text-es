@@ -1,0 +1,22 @@
+{
+  "isoType": "DistributionType3Code",
+  "definition": "Especifica si el producto del evento se distribuirá de forma continua en lugar de en una fecha específica.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Pago final."
+    },
+    "INTE": {
+      "name": "Intermedio",
+      "definition": "Pago a cuenta."
+    },
+    "ONGO": {
+      "name": "En curso",
+      "definition": "El evento permanece abierto a la aceptación de forma no solicitada."
+    },
+    "ROLL": {
+      "name": "Base renovable",
+      "definition": "El evento tendrá una serie de fechas de aceptación y de pago hasta nuevo anuncio del emisor o de su agente."
+    }
+  }
+}

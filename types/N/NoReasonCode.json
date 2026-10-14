@@ -1,0 +1,10 @@
+{
+  "isoType": "NoReasonCode",
+  "definition": "Especifica que no hay ningún motivo disponible.",
+  "isoCodes": {
+    "NORE": {
+      "name": "Sin motivo",
+      "definition": "Sin motivo que notificar o sin motivo disponible para notificar."
+    }
+  }
+}
